@@ -30,6 +30,7 @@ def fixit(bitem, atplist):
     for i in  range(0,len(atplist)):
         if( (atplist[i].type==3) and (0==cmp(atplist[i].pid.strip(), bitem.pid.strip()) ) and(0==cmp(atplist[i].pname.strip(), bitem.pname.strip()) )):
             atplist[i].syscallinfo+=bitem.syscallinfo
+            atplist[i].type=1
             break
 
 
@@ -103,14 +104,22 @@ while True:
         aitem=Item()
         aitem.type=1
         aitem.syscallinfo+=line
+        ## normal syscall info record the whole line, and then print it again
         normal_unfinished_list.append(aitem)
+print "begin fixsyscall"
+
 
 for i in  range(0,len(resumed_list)):
     if(resumed_list[i].type==2):
         print resumed_list[i].syscallinfo
         fixit(resumed_list[i],normal_unfinished_list)
 
-for i in range(0,len(normal_unfinished_list)):
-    print normal_unfinished_list[i].pid + " -> " +normal_unfinished_list[i].pname + ","+normal_unfinished_list[i].syscallname+","+normal_unfinished_list[i].syscallinfo
+print "begin print all fixed data"
 
+for i in range(0,len(normal_unfinished_list)):
+    if(normal_unfinished_list[i].type !=1):
+        print normal_unfinished_list[i].pid + " -> " +normal_unfinished_list[i].pname + ","+normal_unfinished_list[i].syscallname+","+normal_unfinished_list[i].syscallinfo
+    else :
+        print normal_unfinished_list[i].syscallinfo
+        #for the normal syscall info(type==1) just print it's original line content
 #    print resumed_list[i].pid + " -> " +tplist[i].pname + ","+tplist[i].syscallname+","+tplist[i].syscallinfo
