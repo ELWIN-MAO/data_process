@@ -19,8 +19,15 @@ class Item:
         self.syscallname=""
         self.syscallinfo=""
 
+
+##Item.type==1  this line is a normal syscall 
+##Item.type==2  this line is a resumed syscall
+##Item.type==3  this line is a unfinished syscall
+
+
+
 def fixit(bitem, atplist):
-    for i in  range(0,len(atplist))[::-1]:
+    for i in  range(0,len(atplist)):
         if( (atplist[i].type==3) and (0==cmp(atplist[i].pid.strip(), bitem.pid.strip()) ) and(0==cmp(atplist[i].pname.strip(), bitem.pname.strip()) )):
             atplist[i].syscallinfo+=bitem.syscallinfo
             break
@@ -28,7 +35,10 @@ def fixit(bitem, atplist):
 
 
 resumed_list=[]
-normal_unfiniished_list=[]
+##resumed (type==2) syscall is in this list
+
+normal_unfinished_list=[]
+##normal(type==1)and unfinished syscall in this list
 
 
 while True:
@@ -84,7 +94,7 @@ while True:
                    else: 
                         break
                break
-        normal_unfiniished_list.append(aitem)
+        normal_unfinished_list.append(aitem)
         print aitem.pid 
         print aitem.pname
         print aitem.syscallname
@@ -93,11 +103,14 @@ while True:
         aitem=Item()
         aitem.type=1
         aitem.syscallinfo+=line
-        normal_unfiniished_list.append(aitem)
+        normal_unfinished_list.append(aitem)
 
 for i in  range(0,len(resumed_list)):
-    if(resumed_list[i].type==1):
+    if(resumed_list[i].type==2):
         print resumed_list[i].syscallinfo
-    elif (resumed_list[i].type==3)
-        for j in range(
+        fixit(resumed_list[i],normal_unfinished_list)
+
+for i in range(0,len(normal_unfinished_list)):
+    print normal_unfinished_list[i].pid + " -> " +normal_unfinished_list[i].pname + ","+normal_unfinished_list[i].syscallname+","+normal_unfinished_list[i].syscallinfo
+
 #    print resumed_list[i].pid + " -> " +tplist[i].pname + ","+tplist[i].syscallname+","+tplist[i].syscallinfo
