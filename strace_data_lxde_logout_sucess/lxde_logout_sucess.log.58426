@@ -1,0 +1,10 @@
+481 , 58426  lxpanel , set_robust_list(0x7f09973bd9e0, 24) = 0
+484 , 58426  lxpanel , prctl(PR_SET_NAME, "pool\0V\0\0SESSION=") = 0
+487 , 58426  pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+490 , 58426  pool , futex(0x7f098c0016f0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+525 , 58426  pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+527 , 58426  pool , futex(0x56340c26c250, FUTEX_WAKE_PRIVATE, 1) = 0
+531 , 58426  pool , futex(0x56340c29c590, FUTEX_WAIT_PRIVATE, 0, {0, 499999616}) = -1 ETIMEDOUT (Connection timed out)
+3015 , 58426  pool , madvise(0x7f0996bbd000, 8368128, MADV_DONTNEED) = 0
+3017 , 58426  pool , exit(0)            = ?
+3019 , 58426  NULL , +++ exited with 0 +++

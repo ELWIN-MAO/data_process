@@ -1,0 +1,11 @@
+1946 , 58362  gdbus , set_robust_list(0x7f09973bd9e0, 24) = 0
+1947 , 58362  gdbus , futex(0x7f09a5f98408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1953 , 58362  gdbus , futex(0x7f09a5f98408, FUTEX_WAKE_PRIVATE, 1) = 0
+1956 , 58362  gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0\310\0\0\230\t\177\0\0") = 0
+1957 , 58362  pool , futex(0x56340c29ceb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1963 , 58362  pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1965 , 58362  pool , futex(0x56340c29ceb0, FUTEX_WAKE_PRIVATE, 1) = 0
+1967 , 58362  pool , futex(0x56340c29ceb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1974 , 58362  pool , futex(0x56340c29ceb0, FUTEX_WAKE_PRIVATE, 1) = 0
+1976 , 58362  pool , futex(0x56340c29c590, FUTEX_WAIT_PRIVATE, 0, {0, 499999291}) = -1 ETIMEDOUT (Connection timed out)
+2076 , 58362  pool , futex(0x56340c29c5e0, FUTEX_WAIT_PRIVATE, 13, {9, 999998976} <detached ...>

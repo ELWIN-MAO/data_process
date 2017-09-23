@@ -1,0 +1,19 @@
+1379 , 58359  gdbus , set_robust_list(0x7f098482e9e0, 24) = 0
+1383 , 58359  gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0\310\0\0\230\t\177\0\0") = 0
+1386 , 58359  pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1389 , 58359  pool , futex(0x56340c29c590, FUTEX_WAIT_PRIVATE, 0, {0, 499999682}) = -1 ETIMEDOUT (Connection timed out)
+1513 , 58359  pool , futex(0x56340c29c5e0, FUTEX_WAIT_PRIVATE, 12, {9, 999999031}) = 0
+1919 , 58359  pool , futex(0x56340c29c5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1923 , 58359  pool , futex(0x56340c29c5d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1925 , 58359  pool , futex(0x56340c29c580, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1930 , 58359  pool , futex(0x56340c29c580, FUTEX_WAKE_PRIVATE, 1) = 0
+1934 , 58359  pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1936 , 58359  pool , futex(0x56340c29ceb0, FUTEX_WAKE_PRIVATE, 1) = 0
+1940 , 58359  pool , futex(0x7f09780017e0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1978 , 58359  pool , futex(0x7f09780017d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1981 , 58359  pool , futex(0x7f09780017d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1984 , 58359  pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1987 , 58359  pool , futex(0x56340c29c590, FUTEX_WAIT_PRIVATE, 0, {0, 499998981}) = -1 ETIMEDOUT (Connection timed out)
+2077 , 58359  pool , madvise(0x7f098402e000, 8368128, MADV_DONTNEED) = 0
+2078 , 58359  pool , exit(0)            = ?
+2079 , 58359  NULL , +++ exited with 0 +++

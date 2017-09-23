@@ -1,0 +1,1116 @@
+3700 , 58432  lxsession-logou , set_robust_list(0x7fd0b8ae0c60, 24) = 0
+3701 , 58432  lxsession-logou , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, {SIG_DFL, [], 0}, 8) = 0
+3702 , 58432  lxsession-logou , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, {SIG_DFL, [], 0}, 8) = 0
+3703 , 58432  lxsession-logou , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, {SIG_DFL, [], 0}, 8) = 0
+3704 , 58432  lxsession-logou , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, {SIG_DFL, [], 0}, 8) = 0
+3705 , 58432  lxsession-logou , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fd0b6b014b0}, 8) = 0
+3706 , 58432  lxsession-logou , close(13<pipe:[197690]>) = 0
+3707 , 58432  lxsession-logou , close(15<pipe:[197691]>) = 0
+3708 , 58432  lxsession-logou , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 13</proc/58432/fd>
+3709 , 58432  lxsession-logou , fstat(13</proc/58432/fd>, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
+3710 , 58432  lxsession-logou , getdents(13</proc/58432/fd>, /* 18 entries */, 32768) = 432
+3711 , 58432  lxsession-logou , fcntl(3<UNIX:[197684->197016]>, F_SETFD, FD_CLOEXEC) = 0
+3713 , 58432  lxsession-logou , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+3715 , 58432  lxsession-logou , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+3716 , 58432  lxsession-logou , fcntl(6<UNIX:[197685->197388]>, F_SETFD, FD_CLOEXEC) = 0
+3717 , 58432  lxsession-logou , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+3718 , 58432  lxsession-logou , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+3719 , 58432  lxsession-logou , fcntl(9<UNIX:[197687->197519]>, F_SETFD, FD_CLOEXEC) = 0
+3720 , 58432  lxsession-logou , fcntl(10<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+3721 , 58432  lxsession-logou , fcntl(11</tmp/.lxsession-logout-27777.lock>, F_SETFD, FD_CLOEXEC) = 0
+3722 , 58432  lxsession-logou , fcntl(12<UNIX:[197688->197551]>, F_SETFD, FD_CLOEXEC) = 0
+3723 , 58432  lxsession-logou , fcntl(14<pipe:[197690]>, F_SETFD, FD_CLOEXEC) = 0
+3724 , 58432  lxsession-logou , fcntl(16<pipe:[197691]>, F_SETFD, FD_CLOEXEC) = 0
+3725 , 58432  lxsession-logou , getdents(13</proc/58432/fd>, /* 0 entries */, 32768) = 0
+3726 , 58432  lxsession-logou , close(13</proc/58432/fd>) = 0
+3727 , 58432  lxsession-logou , open("/dev/null", O_RDONLY) = 13</dev/null>
+3728 , 58432  lxsession-logou , dup2(13</dev/null>, 0</dev/null>) = 0</dev/null>
+3729 , 58432  lxsession-logou , close(13</dev/null>) = 0
+3730 , 58432  lxsession-logou , dup2(16<pipe:[197691]>, 1</home/elwin/.cache/lxsession/LXDE/run.log>) = 1<pipe:[197691]>
+3731 , 58432  lxsession-logou , close(16<pipe:[197691]>) = 0
+3732 , 58432  lxsession-logou , execve("/usr/local/sbin/lsb_release", ["lsb_release", "-r", "-s"], [/* 41 vars */]) = -1 ENOENT (No such file or directory)
+3733 , 58432  lxsession-logou , execve("/usr/local/bin/lsb_release", ["lsb_release", "-r", "-s"], [/* 41 vars */]) = -1 ENOENT (No such file or directory)
+3734 , 58432  lxsession-logou , execve("/usr/sbin/lsb_release", ["lsb_release", "-r", "-s"], [/* 41 vars */]) = -1 ENOENT (No such file or directory)
+3735 , 58432  lxsession-logou , execve("/usr/bin/lsb_release", ["lsb_release", "-r", "-s"], [/* 41 vars */]) = 0
+3737 , 58432  lsb_release , brk(NULL)   = 0x2026000
+3739 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3740 , 58432  lsb_release , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7295000
+3741 , 58432  lsb_release , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3742 , 58432  lsb_release , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+3743 , 58432  lsb_release , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=128334, ...}) = 0
+3744 , 58432  lsb_release , mmap(NULL, 128334, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f28b7275000
+3745 , 58432  lsb_release , close(3</etc/ld.so.cache>) = 0
+3746 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3747 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+3748 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0"..., 832) = 832
+3749 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+3750 , 58432  lsb_release , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f28b6e55000
+3751 , 58432  lsb_release , mprotect(0x7f28b6e6d000, 2093056, PROT_NONE) = 0
+3752 , 58432  lsb_release , mmap(0x7f28b706c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f28b706c000
+3753 , 58432  lsb_release , mmap(0x7f28b706e000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f28b706e000
+3754 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+3755 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3756 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+3757 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+3758 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+3759 , 58432  lsb_release , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f28b6a8b000
+3760 , 58432  lsb_release , mprotect(0x7f28b6c4b000, 2097152, PROT_NONE) = 0
+3761 , 58432  lsb_release , mmap(0x7f28b6e4b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f28b6e4b000
+3762 , 58432  lsb_release , mmap(0x7f28b6e51000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f28b6e51000
+3763 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+3764 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3765 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+3766 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0"..., 832) = 832
+3767 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+3768 , 58432  lsb_release , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7274000
+3769 , 58432  lsb_release , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f28b6887000
+3770 , 58432  lsb_release , mprotect(0x7f28b688a000, 2093056, PROT_NONE) = 0
+3771 , 58432  lsb_release , mmap(0x7f28b6a89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f28b6a89000
+3772 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+3773 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3774 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libutil-2.23.so>
+3775 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libutil-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0@\0\0\0\0\0\0\0 \"\0\0\0\0\0\0\0\0"..., 832) = 832
+3776 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libutil-2.23.so>, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0
+3777 , 58432  lsb_release , mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libutil-2.23.so>, 0) = 0x7f28b6684000
+3778 , 58432  lsb_release , mprotect(0x7f28b6686000, 2093056, PROT_NONE) = 0
+3779 , 58432  lsb_release , mmap(0x7f28b6885000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libutil-2.23.so>, 0x1000) = 0x7f28b6885000
+3780 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libutil-2.23.so>) = 0
+3781 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3782 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>
+3783 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0;\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\201\2\0\0\0\0\0\0\0"..., 832) = 832
+3784 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_mode=S_IFREG|0644, st_size=166032, ...}) = 0
+3785 , 58432  lsb_release , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7f28b645b000
+3786 , 58432  lsb_release , mprotect(0x7f28b6481000, 2097152, PROT_NONE) = 0
+3787 , 58432  lsb_release , mmap(0x7f28b6681000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x26000) = 0x7f28b6681000
+3788 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+3789 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3790 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+3791 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\35\0\0\0\0\0\0@\0\0\0\0\0\0\0x\222\1\0\0\0\0\0\0\0"..., 832) = 832
+3792 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_mode=S_IFREG|0644, st_size=104824, ...}) = 0
+3793 , 58432  lsb_release , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7273000
+3794 , 58432  lsb_release , mmap(NULL, 2199880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f28b6241000
+3795 , 58432  lsb_release , mprotect(0x7f28b625a000, 2093056, PROT_NONE) = 0
+3796 , 58432  lsb_release , mmap(0x7f28b6459000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f28b6459000
+3797 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+3798 , 58432  lsb_release , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3799 , 58432  lsb_release , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+3800 , 58432  lsb_release , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0"..., 832) = 832
+3801 , 58432  lsb_release , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+3802 , 58432  lsb_release , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f28b5f38000
+3803 , 58432  lsb_release , mprotect(0x7f28b6040000, 2093056, PROT_NONE) = 0
+3804 , 58432  lsb_release , mmap(0x7f28b623f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f28b623f000
+3805 , 58432  lsb_release , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+3806 , 58432  lsb_release , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7272000
+3807 , 58432  lsb_release , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7271000
+3808 , 58432  lsb_release , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7270000
+3809 , 58432  lsb_release , arch_prctl(ARCH_SET_FS, 0x7f28b7271700) = 0
+3810 , 58432  lsb_release , mprotect(0x7f28b6e4b000, 16384, PROT_READ) = 0
+3811 , 58432  lsb_release , mprotect(0x7f28b623f000, 4096, PROT_READ) = 0
+3812 , 58432  lsb_release , mprotect(0x7f28b6459000, 4096, PROT_READ) = 0
+3813 , 58432  lsb_release , mprotect(0x7f28b6681000, 8192, PROT_READ) = 0
+3814 , 58432  lsb_release , mprotect(0x7f28b6885000, 4096, PROT_READ) = 0
+3815 , 58432  lsb_release , mprotect(0x7f28b6a89000, 4096, PROT_READ) = 0
+3816 , 58432  lsb_release , mprotect(0x7f28b706c000, 4096, PROT_READ) = 0
+3817 , 58432  lsb_release , mprotect(0x9a8000, 8192, PROT_READ) = 0
+3818 , 58432  lsb_release , mprotect(0x7f28b7297000, 4096, PROT_READ) = 0
+3819 , 58432  lsb_release , munmap(0x7f28b7275000, 128334) = 0
+3820 , 58432  lsb_release , set_tid_address(0x7f28b72719d0) = 58432
+3821 , 58432  lsb_release , set_robust_list(0x7f28b72719e0, 24) = 0
+3822 , 58432  lsb_release , rt_sigaction(SIGRTMIN, {0x7f28b6e5ab50, [], SA_RESTORER|SA_SIGINFO, 0x7f28b6e66390}, NULL, 8) = 0
+3823 , 58432  lsb_release , rt_sigaction(SIGRT_1, {0x7f28b6e5abe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f28b6e66390}, NULL, 8) = 0
+3824 , 58432  lsb_release , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+3825 , 58432  lsb_release , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+3826 , 58432  lsb_release , brk(NULL)   = 0x2026000
+3827 , 58432  lsb_release , brk(0x2047000) = 0x2047000
+3828 , 58432  lsb_release , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+3829 , 58432  lsb_release , fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+3830 , 58432  lsb_release , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f28b5c60000
+3831 , 58432  lsb_release , close(3</usr/lib/locale/locale-archive>) = 0
+3832 , 58432  lsb_release , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+3833 , 58432  lsb_release , fstat(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+3834 , 58432  lsb_release , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f28b728e000
+3835 , 58432  lsb_release , close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+3836 , 58432  lsb_release , futex(0x7f28b6e508c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+3837 , 58432  lsb_release , getrandom("\0178\312\263\n\261\315\26\304\30\33\v\271N)f\344\306l\323V\f\275\222", 24, GRND_NONBLOCK) = 24
+3838 , 58432  lsb_release , ioctl(0</dev/null>, TCGETS, 0x7ffeba239be0) = -1 ENOTTY (Inappropriate ioctl for device)
+3839 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7230000
+3840 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b71f0000
+3841 , 58432  lsb_release , brk(0x2068000) = 0x2068000
+3842 , 58432  lsb_release , fstat(0</dev/null>, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}) = 0
+3843 , 58432  lsb_release , readlink("/usr/bin/python3", "python3.5", 4096) = 9
+3844 , 58432  lsb_release , readlink("/usr/bin/python3.5", 0x7ffeba226a40, 4096) = -1 EINVAL (Invalid argument)
+3845 , 58432  lsb_release , open("/usr/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+3846 , 58432  lsb_release , open("/usr/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+3847 , 58432  lsb_release , stat("/usr/bin/Modules/Setup", 0x7ffeba231b00) = -1 ENOENT (No such file or directory)
+3848 , 58432  lsb_release , stat("/usr/bin/lib/python3.5/os.py", 0x7ffeba2279d0) = -1 ENOENT (No such file or directory)
+3849 , 58432  lsb_release , stat("/usr/bin/lib/python3.5/os.pyc", 0x7ffeba2279d0) = -1 ENOENT (No such file or directory)
+3850 , 58432  lsb_release , stat("/usr/lib/python3.5/os.py", {st_mode=S_IFREG|0644, st_size=36970, ...}) = 0
+3851 , 58432  lsb_release , stat("/usr/bin/pybuilddir.txt", 0x7ffeba231b00) = -1 ENOENT (No such file or directory)
+3852 , 58432  lsb_release , stat("/usr/bin/lib/python3.5/lib-dynload", 0x7ffeba231b00) = -1 ENOENT (No such file or directory)
+3853 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+3854 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b71b0000
+3855 , 58432  lsb_release , brk(0x2089000) = 0x2089000
+3856 , 58432  lsb_release , sysinfo({uptime=103711, loads=[896, 1440, 0], totalram=1022230528, freeram=218161152, sharedram=15589376, bufferram=39313408, totalswap=0, freeswap=0, procs=322, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+3857 , 58432  lsb_release , brk(0x20af000) = 0x20af000
+3858 , 58432  lsb_release , sigaltstack({ss_sp=0x205c4e0, ss_flags=0, ss_size=8192}, NULL) = 0
+3859 , 58432  lsb_release , stat("/usr/lib/python35.zip", 0x7ffeba238a00) = -1 ENOENT (No such file or directory)
+3860 , 58432  lsb_release , stat("/usr/lib", {st_mode=S_IFDIR|0775, st_size=12288, ...}) = 0
+3861 , 58432  lsb_release , stat("/usr/lib/python35.zip", 0x7ffeba238480) = -1 ENOENT (No such file or directory)
+3862 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3863 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3864 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3865 , 58432  lsb_release , open("/usr/lib/python3.5/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5>
+3866 , 58432  lsb_release , fstat(3</usr/lib/python3.5>, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3867 , 58432  lsb_release , getdents(3</usr/lib/python3.5>, /* 205 entries */, 32768) = 6816
+3868 , 58432  lsb_release , getdents(3</usr/lib/python3.5>, /* 0 entries */, 32768) = 0
+3869 , 58432  lsb_release , close(3</usr/lib/python3.5>) = 0
+3870 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/__init__.cpython-35m-x86_64-linux-gnu.so", 0x7ffeba2386e0) = -1 ENOENT (No such file or directory)
+3871 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/__init__.abi3.so", 0x7ffeba2386e0) = -1 ENOENT (No such file or directory)
+3872 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/__init__.so", 0x7ffeba2386e0) = -1 ENOENT (No such file or directory)
+3873 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5067, ...}) = 0
+3874 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5067, ...}) = 0
+3875 , 58432  lsb_release , open("/usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>
+3876 , 58432  lsb_release , fcntl(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+3877 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3834, ...}) = 0
+3878 , 58432  lsb_release , lseek(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, 0, SEEK_CUR) = 0
+3879 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3834, ...}) = 0
+3880 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, "\26\r\r\n\306\2.X\313\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\202\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 3835) = 3834
+3881 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>, "", 1) = 0
+3882 , 58432  lsb_release , close(3</usr/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc>) = 0
+3883 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3884 , 58432  lsb_release , stat("/usr/lib/python3.5/codecs.py", {st_mode=S_IFREG|0644, st_size=36231, ...}) = 0
+3885 , 58432  lsb_release , stat("/usr/lib/python3.5/codecs.py", {st_mode=S_IFREG|0644, st_size=36231, ...}) = 0
+3886 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>
+3887 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=35288, ...}) = 0
+3888 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>, 0, SEEK_CUR) = 0
+3889 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=35288, ...}) = 0
+3890 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>, "\26\r\r\n\303\2.X\207\215\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0:\0\0\0@\0\0\0s\266\3\0\0d\0\0Z\0\0d\1\0d\2\0"..., 35289) = 35288
+3891 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>, "", 1) = 0
+3892 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/codecs.cpython-35.pyc>) = 0
+3893 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7170000
+3894 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3895 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3896 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3897 , 58432  lsb_release , open("/usr/lib/python3.5/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5/encodings>
+3898 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings>, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3899 , 58432  lsb_release , brk(0x20d0000) = 0x20d0000
+3900 , 58432  lsb_release , getdents(3</usr/lib/python3.5/encodings>, /* 127 entries */, 32768) = 4304
+3901 , 58432  lsb_release , getdents(3</usr/lib/python3.5/encodings>, /* 0 entries */, 32768) = 0
+3902 , 58432  lsb_release , brk(0x20c8000) = 0x20c8000
+3903 , 58432  lsb_release , close(3</usr/lib/python3.5/encodings>) = 0
+3904 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15542, ...}) = 0
+3905 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15542, ...}) = 0
+3906 , 58432  lsb_release , open("/usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>
+3907 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=7550, ...}) = 0
+3908 , 58432  lsb_release , lseek(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>, 0, SEEK_CUR) = 0
+3909 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=7550, ...}) = 0
+3910 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>, "\26\r\r\n\306\2.X\266<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\204\2\0\0@\0\0\0s\234\7\0\0d\0\0Z\0\0d\1\0d\2\0"..., 7551) = 7550
+3911 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>, "", 1) = 0
+3912 , 58432  lsb_release , close(3</usr/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc>) = 0
+3913 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3914 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+3915 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+3916 , 58432  lsb_release , open("/usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>
+3917 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1694, ...}) = 0
+3918 , 58432  lsb_release , lseek(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>, 0, SEEK_CUR) = 0
+3919 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1694, ...}) = 0
+3920 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>, "\26\r\r\n\306\2.X\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\236\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 1695) = 1694
+3921 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>, "", 1) = 0
+3922 , 58432  lsb_release , close(3</usr/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc>) = 0
+3923 , 58432  lsb_release , rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f28b6e66390}, {SIG_DFL, [], 0}, 8) = 0
+3924 , 58432  lsb_release , rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f28b6e66390}, {SIG_DFL, [], 0}, 8) = 0
+3925 , 58432  lsb_release , rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+3926 , 58432  lsb_release , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+3927 , 58432  lsb_release , rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+3928 , 58432  lsb_release , rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+3929 , 58432  lsb_release , rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+3930 , 58432  lsb_release , rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+3931 , 58432  lsb_release , rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+3932 , 58432  lsb_release , rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+3933 , 58432  lsb_release , rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+3934 , 58432  lsb_release , rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+3935 , 58432  lsb_release , rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+3936 , 58432  lsb_release , rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+3937 , 58432  lsb_release , rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f28b6e66390}, 8) = 0
+3938 , 58432  lsb_release , rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+3939 , 58432  lsb_release , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+3940 , 58432  lsb_release , rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+3941 , 58432  lsb_release , rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+3942 , 58432  lsb_release , rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+3943 , 58432  lsb_release , rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+3944 , 58432  lsb_release , rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+3945 , 58432  lsb_release , rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+3946 , 58432  lsb_release , rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+3947 , 58432  lsb_release , rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+3948 , 58432  lsb_release , rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+3949 , 58432  lsb_release , rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f28b6e66390}, 8) = 0
+3950 , 58432  lsb_release , rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+3951 , 58432  lsb_release , rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+3952 , 58432  lsb_release , rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+3953 , 58432  lsb_release , rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+3954 , 58432  lsb_release , rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+3955 , 58432  lsb_release , rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+3956 , 58432  lsb_release , rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+3957 , 58432  lsb_release , rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+3958 , 58432  lsb_release , rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+3959 , 58432  lsb_release , rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+3960 , 58432  lsb_release , rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+3961 , 58432  lsb_release , rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+3962 , 58432  lsb_release , rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+3963 , 58432  lsb_release , rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+3964 , 58432  lsb_release , rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+3965 , 58432  lsb_release , rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+3966 , 58432  lsb_release , rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+3967 , 58432  lsb_release , rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+3968 , 58432  lsb_release , rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+3969 , 58432  lsb_release , rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+3970 , 58432  lsb_release , rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+3971 , 58432  lsb_release , rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+3972 , 58432  lsb_release , rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+3973 , 58432  lsb_release , rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+3974 , 58432  lsb_release , rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+3975 , 58432  lsb_release , rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+3976 , 58432  lsb_release , rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+3977 , 58432  lsb_release , rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+3978 , 58432  lsb_release , rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+3979 , 58432  lsb_release , rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+3980 , 58432  lsb_release , rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+3981 , 58432  lsb_release , rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+3982 , 58432  lsb_release , rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+3983 , 58432  lsb_release , rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+3984 , 58432  lsb_release , rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+3985 , 58432  lsb_release , rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+3986 , 58432  lsb_release , rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+3987 , 58432  lsb_release , rt_sigaction(SIGINT, {0x63df70, [], SA_RESTORER, 0x7f28b6e66390}, {SIG_DFL, [], 0}, 8) = 0
+3988 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3989 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0
+3990 , 58432  lsb_release , stat("/usr/lib/python3.5/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0
+3991 , 58432  lsb_release , open("/usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>
+3992 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=2006, ...}) = 0
+3993 , 58432  lsb_release , lseek(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>, 0, SEEK_CUR) = 0
+3994 , 58432  lsb_release , fstat(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=2006, ...}) = 0
+3995 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>, "\26\r\r\n\306\2.X\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\276\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 2007) = 2006
+3996 , 58432  lsb_release , read(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>, "", 1) = 0
+3997 , 58432  lsb_release , close(3</usr/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc>) = 0
+3998 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+3999 , 58432  lsb_release , stat("/usr/lib/python3.5/io.py", {st_mode=S_IFREG|0644, st_size=3396, ...}) = 0
+4000 , 58432  lsb_release , stat("/usr/lib/python3.5/io.py", {st_mode=S_IFREG|0644, st_size=3396, ...}) = 0
+4001 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/io.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>
+4002 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3443, ...}) = 0
+4003 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4004 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3443, ...}) = 0
+4005 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>, "\26\r\r\n\303\2.XD\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0\0s\267\1\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 3444) = 3443
+4006 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>, "", 1) = 0
+4007 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/io.cpython-35.pyc>) = 0
+4008 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4009 , 58432  lsb_release , stat("/usr/lib/python3.5/abc.py", {st_mode=S_IFREG|0644, st_size=8628, ...}) = 0
+4010 , 58432  lsb_release , stat("/usr/lib/python3.5/abc.py", {st_mode=S_IFREG|0644, st_size=8628, ...}) = 0
+4011 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/abc.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>
+4012 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=7850, ...}) = 0
+4013 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4014 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=7850, ...}) = 0
+4015 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>, "\26\r\r\n\303\2.X\264!\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\243\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 7851) = 7850
+4016 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>, "", 1) = 0
+4017 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/abc.cpython-35.pyc>) = 0
+4018 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4019 , 58432  lsb_release , stat("/usr/lib/python3.5/_weakrefset.py", {st_mode=S_IFREG|0644, st_size=5705, ...}) = 0
+4020 , 58432  lsb_release , stat("/usr/lib/python3.5/_weakrefset.py", {st_mode=S_IFREG|0644, st_size=5705, ...}) = 0
+4021 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>
+4022 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8406, ...}) = 0
+4023 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4024 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8406, ...}) = 0
+4025 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>, "\26\r\r\n\303\2.XI\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sC\0\0\0d\0\0d\1\0l\0\0m\1\0"..., 8407) = 8406
+4026 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>, "", 1) = 0
+4027 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc>) = 0
+4028 , 58432  lsb_release , dup(0</dev/null>) = 3</dev/null>
+4029 , 58432  lsb_release , close(3</dev/null>) = 0
+4030 , 58432  lsb_release , fstat(0</dev/null>, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}) = 0
+4031 , 58432  lsb_release , ioctl(0</dev/null>, TCGETS, 0x7ffeba2396c0) = -1 ENOTTY (Inappropriate ioctl for device)
+4032 , 58432  lsb_release , lseek(0</dev/null>, 0, SEEK_CUR) = 0
+4033 , 58432  lsb_release , ioctl(0</dev/null>, TCGETS, 0x7ffeba239960) = -1 ENOTTY (Inappropriate ioctl for device)
+4034 , 58432  lsb_release , ioctl(0</dev/null>, TCGETS, 0x7ffeba2398e0) = -1 ENOTTY (Inappropriate ioctl for device)
+4035 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4036 , 58432  lsb_release , stat("/usr/lib/python3.5/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1301, ...}) = 0
+4037 , 58432  lsb_release , stat("/usr/lib/python3.5/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1301, ...}) = 0
+4038 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>
+4039 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1029, ...}) = 0
+4040 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4041 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1029, ...}) = 0
+4042 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>, "\26\r\r\n\303\2.X\25\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0\0s\204\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 1030) = 1029
+4043 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>, "", 1) = 0
+4044 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc>) = 0
+4045 , 58432  lsb_release , lseek(0</dev/null>, 0, SEEK_CUR) = 0
+4046 , 58432  lsb_release , dup(1<pipe:[197691]>) = 3<pipe:[197691]>
+4047 , 58432  lsb_release , close(3<pipe:[197691]>) = 0
+4048 , 58432  lsb_release , fstat(1<pipe:[197691]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+4049 , 58432  lsb_release , ioctl(1<pipe:[197691]>, TCGETS, 0x7ffeba2396c0) = -1 ENOTTY (Inappropriate ioctl for device)
+4050 , 58432  lsb_release , lseek(1<pipe:[197691]>, 0, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+4051 , 58432  lsb_release , ioctl(1<pipe:[197691]>, TCGETS, 0x7ffeba239960) = -1 ENOTTY (Inappropriate ioctl for device)
+4052 , 58432  lsb_release , ioctl(1<pipe:[197691]>, TCGETS, 0x7ffeba2398e0) = -1 ENOTTY (Inappropriate ioctl for device)
+4053 , 58432  lsb_release , lseek(1<pipe:[197691]>, 0, SEEK_CUR) = -1 ESPIPE (Illegal seek)
+4054 , 58432  lsb_release , dup(2</home/elwin/.cache/lxsession/LXDE/run.log>) = 3</home/elwin/.cache/lxsession/LXDE/run.log>
+4055 , 58432  lsb_release , close(3</home/elwin/.cache/lxsession/LXDE/run.log>) = 0
+4056 , 58432  lsb_release , fstat(2</home/elwin/.cache/lxsession/LXDE/run.log>, {st_mode=S_IFREG|0600, st_size=11728, ...}) = 0
+4057 , 58432  lsb_release , ioctl(2</home/elwin/.cache/lxsession/LXDE/run.log>, TCGETS, 0x7ffeba2396c0) = -1 ENOTTY (Inappropriate ioctl for device)
+4058 , 58432  lsb_release , lseek(2</home/elwin/.cache/lxsession/LXDE/run.log>, 0, SEEK_CUR) = 11728
+4059 , 58432  lsb_release , ioctl(2</home/elwin/.cache/lxsession/LXDE/run.log>, TCGETS, 0x7ffeba239960) = -1 ENOTTY (Inappropriate ioctl for device)
+4060 , 58432  lsb_release , ioctl(2</home/elwin/.cache/lxsession/LXDE/run.log>, TCGETS, 0x7ffeba2398e0) = -1 ENOTTY (Inappropriate ioctl for device)
+4061 , 58432  lsb_release , lseek(2</home/elwin/.cache/lxsession/LXDE/run.log>, 0, SEEK_CUR) = 11728
+4062 , 58432  lsb_release , lseek(2</home/elwin/.cache/lxsession/LXDE/run.log>, 0, SEEK_CUR) = 11728
+4063 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4064 , 58432  lsb_release , stat("/usr/lib/python3.5/site.py", {st_mode=S_IFREG|0644, st_size=22258, ...}) = 0
+4065 , 58432  lsb_release , stat("/usr/lib/python3.5/site.py", {st_mode=S_IFREG|0644, st_size=22258, ...}) = 0
+4066 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/site.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>
+4067 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=18143, ...}) = 0
+4068 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4069 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=18143, ...}) = 0
+4070 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>, "\26\r\r\n\304\2.X\362V\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\233\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 18144) = 18143
+4071 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>, "", 1) = 0
+4072 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/site.cpython-35.pyc>) = 0
+4073 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4074 , 58432  lsb_release , stat("/usr/lib/python3.5/os.py", {st_mode=S_IFREG|0644, st_size=36970, ...}) = 0
+4075 , 58432  lsb_release , stat("/usr/lib/python3.5/os.py", {st_mode=S_IFREG|0644, st_size=36970, ...}) = 0
+4076 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/os.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>
+4077 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=31295, ...}) = 0
+4078 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4079 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=31295, ...}) = 0
+4080 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>, "\26\r\r\n\304\2.Xj\220\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0@\0\0\0s\305\t\0\0d\0\0Z\0\0d\1\0d\2\0"..., 31296) = 31295
+4081 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>, "", 1) = 0
+4082 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/os.cpython-35.pyc>) = 0
+4083 , 58432  lsb_release , brk(0x20ef000) = 0x20ef000
+4084 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b7130000
+4085 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4086 , 58432  lsb_release , stat("/usr/lib/python3.5/stat.py", {st_mode=S_IFREG|0644, st_size=5038, ...}) = 0
+4087 , 58432  lsb_release , stat("/usr/lib/python3.5/stat.py", {st_mode=S_IFREG|0644, st_size=5038, ...}) = 0
+4088 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/stat.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>
+4089 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4147, ...}) = 0
+4090 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4091 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4147, ...}) = 0
+4092 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>, "\26\r\r\n\304\2.X\256\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0\0s\30\3\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 4148) = 4147
+4093 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>, "", 1) = 0
+4094 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/stat.cpython-35.pyc>) = 0
+4095 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4096 , 58432  lsb_release , stat("/usr/lib/python3.5/posixpath.py", {st_mode=S_IFREG|0644, st_size=14881, ...}) = 0
+4097 , 58432  lsb_release , stat("/usr/lib/python3.5/posixpath.py", {st_mode=S_IFREG|0644, st_size=14881, ...}) = 0
+4098 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>
+4099 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=11120, ...}) = 0
+4100 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4101 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=11120, ...}) = 0
+4102 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>, "\26\r\r\n\304\2.X!:\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0@\0\0\0s\t\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 11121) = 11120
+4103 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>, "", 1) = 0
+4104 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/posixpath.cpython-35.pyc>) = 0
+4105 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4106 , 58432  lsb_release , stat("/usr/lib/python3.5/genericpath.py", {st_mode=S_IFREG|0644, st_size=4364, ...}) = 0
+4107 , 58432  lsb_release , stat("/usr/lib/python3.5/genericpath.py", {st_mode=S_IFREG|0644, st_size=4364, ...}) = 0
+4108 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>
+4109 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3917, ...}) = 0
+4110 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4111 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3917, ...}) = 0
+4112 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>, "\26\r\r\n\303\2.X\f\21\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0\0s\345\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 3918) = 3917
+4113 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>, "", 1) = 0
+4114 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/genericpath.cpython-35.pyc>) = 0
+4115 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4116 , 58432  lsb_release , stat("/usr/lib/python3.5/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=24706, ...}) = 0
+4117 , 58432  lsb_release , stat("/usr/lib/python3.5/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=24706, ...}) = 0
+4118 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>
+4119 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=29622, ...}) = 0
+4120 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4121 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=29622, ...}) = 0
+4122 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>, "\26\r\r\n\303\2.X\202`\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\26\0\0\0@\0\0\0s\213\5\0\0d\0\0Z\0\0d\1\0d\2\0"..., 29623) = 29622
+4123 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>, "", 1) = 0
+4124 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc>) = 0
+4125 , 58432  lsb_release , mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b70ff000
+4126 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b70bf000
+4127 , 58432  lsb_release , stat("/usr/lib/python3.5/", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4128 , 58432  lsb_release , stat("/usr/lib/python3.5/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0
+4129 , 58432  lsb_release , stat("/usr/lib/python3.5/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0
+4130 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>
+4131 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3654, ...}) = 0
+4132 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4133 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3654, ...}) = 0
+4134 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>, "\26\r\r\n\303\2.X+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0sX\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 3655) = 3654
+4135 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>, "", 1) = 0
+4136 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc>) = 0
+4137 , 58432  lsb_release , stat("/usr/bin/pyvenv.cfg", 0x7ffeba2386e0) = -1 ENOENT (No such file or directory)
+4138 , 58432  lsb_release , stat("/usr/pyvenv.cfg", 0x7ffeba2386e0) = -1 ENOENT (No such file or directory)
+4139 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4140 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4141 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4142 , 58432  lsb_release , open("/usr/lib/python3.5", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5>
+4143 , 58432  lsb_release , fstat(3</usr/lib/python3.5>, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4144 , 58432  lsb_release , getdents(3</usr/lib/python3.5>, /* 205 entries */, 32768) = 6816
+4145 , 58432  lsb_release , getdents(3</usr/lib/python3.5>, /* 0 entries */, 32768) = 0
+4146 , 58432  lsb_release , close(3</usr/lib/python3.5>) = 0
+4147 , 58432  lsb_release , stat("/usr/lib/python3.5/sysconfig.py", {st_mode=S_IFREG|0644, st_size=24650, ...}) = 0
+4148 , 58432  lsb_release , stat("/usr/lib/python3.5/sysconfig.py", {st_mode=S_IFREG|0644, st_size=24650, ...}) = 0
+4149 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>
+4150 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=17045, ...}) = 0
+4151 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4152 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=17045, ...}) = 0
+4153 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>, "\26\r\r\n\304\2.XJ`\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0\0@\0\0\0s\313\4\0\0d\0\0Z\0\0d\1\0d\2\0"..., 17046) = 17045
+4154 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>, "", 1) = 0
+4155 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc>) = 0
+4156 , 58432  lsb_release , lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4157 , 58432  lsb_release , lstat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4158 , 58432  lsb_release , lstat("/usr/bin/python3", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+4159 , 58432  lsb_release , readlink("/usr/bin/python3", "python3.5", 4096) = 9
+4160 , 58432  lsb_release , lstat("/usr/bin/python3.5", {st_mode=S_IFREG|0755, st_size=4460336, ...}) = 0
+4161 , 58432  lsb_release , stat("/usr/bin/Modules/Setup.dist", 0x7ffeba2375a0) = -1 ENOENT (No such file or directory)
+4162 , 58432  lsb_release , stat("/usr/bin/Modules/Setup.local", 0x7ffeba2375a0) = -1 ENOENT (No such file or directory)
+4163 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4164 , 58432  lsb_release , stat("/usr/lib/python3.5/_sysconfigdata.py", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+4165 , 58432  lsb_release , stat("/usr/lib/python3.5/_sysconfigdata.py", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+4166 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>
+4167 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=251, ...}) = 0
+4168 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4169 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=251, ...}) = 0
+4170 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>, "\26\r\r\n\f\233\220R~\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s6\0\0\0d\0\0d\1\0l\0\0Z\0\0"..., 252) = 251
+4171 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>, "", 1) = 0
+4172 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc>) = 0
+4173 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4174 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4175 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4176 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4177 , 58432  lsb_release , open("/usr/lib/python3.5/plat-x86_64-linux-gnu", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5/plat-x86_64-linux-gnu>
+4178 , 58432  lsb_release , fstat(3</usr/lib/python3.5/plat-x86_64-linux-gnu>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4179 , 58432  lsb_release , getdents(3</usr/lib/python3.5/plat-x86_64-linux-gnu>, /* 8 entries */, 32768) = 248
+4180 , 58432  lsb_release , getdents(3</usr/lib/python3.5/plat-x86_64-linux-gnu>, /* 0 entries */, 32768) = 0
+4181 , 58432  lsb_release , close(3</usr/lib/python3.5/plat-x86_64-linux-gnu>) = 0
+4182 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu/_sysconfigdata_m.py", {st_mode=S_IFREG|0644, st_size=21469, ...}) = 0
+4183 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu/_sysconfigdata_m.py", {st_mode=S_IFREG|0644, st_size=21469, ...}) = 0
+4184 , 58432  lsb_release , open("/usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>
+4185 , 58432  lsb_release , fstat(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=21029, ...}) = 0
+4186 , 58432  lsb_release , lseek(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4187 , 58432  lsb_release , fstat(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=21029, ...}) = 0
+4188 , 58432  lsb_release , read(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>, "\26\r\r\n\336\2.X\335S\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\5\0\0@\0\0\0s\"\17\0\0d\0\0d\1\0d\2\0d\3\0"..., 21030) = 21029
+4189 , 58432  lsb_release , read(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>, "", 1) = 0
+4190 , 58432  lsb_release , close(3</usr/lib/python3.5/plat-x86_64-linux-gnu/__pycache__/_sysconfigdata_m.cpython-35.pyc>) = 0
+4191 , 58432  lsb_release , brk(0x2112000) = 0x2112000
+4192 , 58432  lsb_release , brk(0x210f000) = 0x210f000
+4193 , 58432  lsb_release , lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4194 , 58432  lsb_release , lstat("/usr/lib", {st_mode=S_IFDIR|0775, st_size=12288, ...}) = 0
+4195 , 58432  lsb_release , lstat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4196 , 58432  lsb_release , lstat("/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4197 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4198 , 58432  lsb_release , open("/usr/local/lib/python3.5/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/local/lib/python3.5/dist-packages>
+4199 , 58432  lsb_release , fstat(3</usr/local/lib/python3.5/dist-packages>, {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4200 , 58432  lsb_release , getdents(3</usr/local/lib/python3.5/dist-packages>, /* 2 entries */, 32768) = 48
+4201 , 58432  lsb_release , getdents(3</usr/local/lib/python3.5/dist-packages>, /* 0 entries */, 32768) = 0
+4202 , 58432  lsb_release , close(3</usr/local/lib/python3.5/dist-packages>) = 0
+4203 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4204 , 58432  lsb_release , open("/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3/dist-packages>
+4205 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages>, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4206 , 58432  lsb_release , getdents(3</usr/lib/python3/dist-packages>, /* 155 entries */, 32768) = 6520
+4207 , 58432  lsb_release , getdents(3</usr/lib/python3/dist-packages>, /* 0 entries */, 32768) = 0
+4208 , 58432  lsb_release , close(3</usr/lib/python3/dist-packages>) = 0
+4209 , 58432  lsb_release , stat("/usr/lib/python3.5/dist-packages", 0x7ffeba238810) = -1 ENOENT (No such file or directory)
+4210 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4211 , 58432  lsb_release , stat("/usr/lib/python3.5/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+4212 , 58432  lsb_release , stat("/usr/lib/python3.5/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+4213 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>
+4214 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=217, ...}) = 0
+4215 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4216 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=217, ...}) = 0
+4217 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>, "\26\r\r\n\254\16\375V\233\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0\0s3\0\0\0y\20\0d\0\0d\1\0l\0\0"..., 218) = 217
+4218 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>, "", 1) = 0
+4219 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/sitecustomize.cpython-35.pyc>) = 0
+4220 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4221 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4222 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4223 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4224 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4225 , 58432  lsb_release , open("/usr/lib/python3.5/lib-dynload", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5/lib-dynload>
+4226 , 58432  lsb_release , fstat(3</usr/lib/python3.5/lib-dynload>, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4227 , 58432  lsb_release , getdents(3</usr/lib/python3.5/lib-dynload>, /* 42 entries */, 32768) = 2608
+4228 , 58432  lsb_release , getdents(3</usr/lib/python3.5/lib-dynload>, /* 0 entries */, 32768) = 0
+4229 , 58432  lsb_release , close(3</usr/lib/python3.5/lib-dynload>) = 0
+4230 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4231 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4232 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4233 , 58432  lsb_release , open("/usr/local/lib/python3.5/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/local/lib/python3.5/dist-packages>
+4234 , 58432  lsb_release , fstat(3</usr/local/lib/python3.5/dist-packages>, {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4235 , 58432  lsb_release , getdents(3</usr/local/lib/python3.5/dist-packages>, /* 2 entries */, 32768) = 48
+4236 , 58432  lsb_release , getdents(3</usr/local/lib/python3.5/dist-packages>, /* 0 entries */, 32768) = 0
+4237 , 58432  lsb_release , close(3</usr/local/lib/python3.5/dist-packages>) = 0
+4238 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4239 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4240 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4241 , 58432  lsb_release , open("/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3/dist-packages>
+4242 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages>, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4243 , 58432  lsb_release , getdents(3</usr/lib/python3/dist-packages>, /* 155 entries */, 32768) = 6520
+4244 , 58432  lsb_release , getdents(3</usr/lib/python3/dist-packages>, /* 0 entries */, 32768) = 0
+4245 , 58432  lsb_release , close(3</usr/lib/python3/dist-packages>) = 0
+4246 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages/apport_python_hook.py", {st_mode=S_IFREG|0644, st_size=7796, ...}) = 0
+4247 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages/apport_python_hook.py", {st_mode=S_IFREG|0644, st_size=7796, ...}) = 0
+4248 , 58432  lsb_release , open("/usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>
+4249 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4526, ...}) = 0
+4250 , 58432  lsb_release , lseek(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4251 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4526, ...}) = 0
+4252 , 58432  lsb_release , read(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>, "\26\r\r\n\2220\375Vt\36\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0\0sX\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 4527) = 4526
+4253 , 58432  lsb_release , read(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>, "", 1) = 0
+4254 , 58432  lsb_release , close(3</usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-35.pyc>) = 0
+4255 , 58432  lsb_release , readlink("/usr/bin/lsb_release", 0x7ffeba228c00, 4096) = -1 EINVAL (Invalid argument)
+4256 , 58432  lsb_release , lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4257 , 58432  lsb_release , lstat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4258 , 58432  lsb_release , lstat("/usr/bin/lsb_release", {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4259 , 58432  lsb_release , stat("/usr/bin/lsb_release", {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4260 , 58432  lsb_release , open("/usr/bin/lsb_release", O_RDONLY) = 3</usr/bin/lsb_release>
+4261 , 58432  lsb_release , ioctl(3</usr/bin/lsb_release>, FIOCLEX) = 0
+4262 , 58432  lsb_release , fstat(3</usr/bin/lsb_release>, {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4263 , 58432  lsb_release , fstat(3</usr/bin/lsb_release>, {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4264 , 58432  lsb_release , lseek(3</usr/bin/lsb_release>, 0, SEEK_SET) = 0
+4265 , 58432  lsb_release , read(3</usr/bin/lsb_release>, "#!/usr/bin/python3 -Es\n\n# lsb_release command for "..., 3616) = 3616
+4266 , 58432  lsb_release , read(3</usr/bin/lsb_release>, "__main__':\n    main()\n", 4096) = 22
+4267 , 58432  lsb_release , close(3</usr/bin/lsb_release>) = 0
+4268 , 58432  lsb_release , stat("/usr/bin/lsb_release", {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4269 , 58432  lsb_release , open("/usr/bin/lsb_release", O_RDONLY) = 3</usr/bin/lsb_release>
+4270 , 58432  lsb_release , ioctl(3</usr/bin/lsb_release>, FIOCLEX) = 0
+4271 , 58432  lsb_release , fstat(3</usr/bin/lsb_release>, {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4272 , 58432  lsb_release , ioctl(3</usr/bin/lsb_release>, TCGETS, 0x7ffeba239bb0) = -1 ENOTTY (Inappropriate ioctl for device)
+4273 , 58432  lsb_release , lseek(3</usr/bin/lsb_release>, 0, SEEK_CUR) = 0
+4274 , 58432  lsb_release , fstat(3</usr/bin/lsb_release>, {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4275 , 58432  lsb_release , read(3</usr/bin/lsb_release>, "#!/usr/bin/python3 -Es\n\n# lsb_release command for "..., 4096) = 3638
+4276 , 58432  lsb_release , lseek(3</usr/bin/lsb_release>, 0, SEEK_SET) = 0
+4277 , 58432  lsb_release , read(3</usr/bin/lsb_release>, "#!/usr/bin/python3 -Es\n\n# lsb_release command for "..., 4096) = 3638
+4278 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5c20000
+4279 , 58432  lsb_release , read(3</usr/bin/lsb_release>, "", 4096) = 0
+4280 , 58432  lsb_release , munmap(0x7f28b5c20000, 262144) = 0
+4281 , 58432  lsb_release , close(3</usr/bin/lsb_release>) = 0
+4282 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4283 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4284 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4285 , 58432  lsb_release , open("/usr/bin", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/bin>
+4286 , 58432  lsb_release , fstat(3</usr/bin>, {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4287 , 58432  lsb_release , brk(0x2131000) = 0x2131000
+4288 , 58432  lsb_release , getdents(3</usr/bin>, /* 984 entries */, 32768) = 32752
+4289 , 58432  lsb_release , getdents(3</usr/bin>, /* 989 entries */, 32768) = 32768
+4290 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5c20000
+4291 , 58432  lsb_release , getdents(3</usr/bin>, /* 141 entries */, 32768) = 4696
+4292 , 58432  lsb_release , getdents(3</usr/bin>, /* 0 entries */, 32768) = 0
+4293 , 58432  lsb_release , close(3</usr/bin>) = 0
+4294 , 58432  lsb_release , mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b709e000
+4295 , 58432  lsb_release , brk(0x2129000) = 0x2129000
+4296 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4297 , 58432  lsb_release , stat("/usr/lib/python3.5/optparse.py", {st_mode=S_IFREG|0644, st_size=60344, ...}) = 0
+4298 , 58432  lsb_release , stat("/usr/lib/python3.5/optparse.py", {st_mode=S_IFREG|0644, st_size=60344, ...}) = 0
+4299 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>
+4300 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=51306, ...}) = 0
+4301 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4302 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=51306, ...}) = 0
+4303 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>, "\26\r\r\n\304\2.X\270\353\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0\0s\241\2\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 51307) = 51306
+4304 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>, "", 1) = 0
+4305 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc>) = 0
+4306 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4307 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4308 , 58432  lsb_release , stat("/usr/lib/python3.5/textwrap.py", {st_mode=S_IFREG|0644, st_size=19654, ...}) = 0
+4309 , 58432  lsb_release , stat("/usr/lib/python3.5/textwrap.py", {st_mode=S_IFREG|0644, st_size=19654, ...}) = 0
+4310 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>
+4311 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14190, ...}) = 0
+4312 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4313 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14190, ...}) = 0
+4314 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>, "\26\r\r\n\304\2.X\306L\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0s\322\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 14191) = 14190
+4315 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>, "", 1) = 0
+4316 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc>) = 0
+4317 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4318 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4319 , 58432  lsb_release , stat("/usr/lib/python3.5/re.py", {st_mode=S_IFREG|0644, st_size=15501, ...}) = 0
+4320 , 58432  lsb_release , stat("/usr/lib/python3.5/re.py", {st_mode=S_IFREG|0644, st_size=15501, ...}) = 0
+4321 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/re.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>
+4322 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14437, ...}) = 0
+4323 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4324 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14437, ...}) = 0
+4325 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>, "\26\r\r\n\304\2.X\215<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0\0s\227\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 14438) = 14437
+4326 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>, "", 1) = 0
+4327 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/re.cpython-35.pyc>) = 0
+4328 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4329 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4330 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_compile.py", {st_mode=S_IFREG|0644, st_size=18410, ...}) = 0
+4331 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_compile.py", {st_mode=S_IFREG|0644, st_size=18410, ...}) = 0
+4332 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>
+4333 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=10905, ...}) = 0
+4334 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4335 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=10905, ...}) = 0
+4336 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>, "\26\r\r\n\304\2.X\352G\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\21\0\0\0@\0\0\0sO\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 10906) = 10905
+4337 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>, "", 1) = 0
+4338 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc>) = 0
+4339 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4340 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4341 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_parse.py", {st_mode=S_IFREG|0644, st_size=34964, ...}) = 0
+4342 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_parse.py", {st_mode=S_IFREG|0644, st_size=34964, ...}) = 0
+4343 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>
+4344 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=22320, ...}) = 0
+4345 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4346 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=22320, ...}) = 0
+4347 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>, "\26\r\r\n\304\2.X\224\210\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0\0@\0\0\0s\336\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 22321) = 22320
+4348 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>, "", 1) = 0
+4349 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc>) = 0
+4350 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4351 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4352 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4353 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4354 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4355 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4356 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4357 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4358 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4359 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4360 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4361 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4362 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_constants.py", {st_mode=S_IFREG|0644, st_size=6448, ...}) = 0
+4363 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4364 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4365 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4366 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4367 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4368 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4369 , 58432  lsb_release , stat("/usr/lib/python3.5/sre_constants.py", {st_mode=S_IFREG|0644, st_size=6448, ...}) = 0
+4370 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4371 , 58432  lsb_release , munmap(0x7f28b5be0000, 262144) = 0
+4372 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>
+4373 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=5926, ...}) = 0
+4374 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4375 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=5926, ...}) = 0
+4376 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>, "\26\r\r\n\304\2.X0\31\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0@\0\0\0s\1\3\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 5927) = 5926
+4377 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>, "", 1) = 0
+4378 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc>) = 0
+4379 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5be0000
+4380 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4381 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4382 , 58432  lsb_release , stat("/usr/lib/python3.5/copyreg.py", {st_mode=S_IFREG|0644, st_size=6833, ...}) = 0
+4383 , 58432  lsb_release , stat("/usr/lib/python3.5/copyreg.py", {st_mode=S_IFREG|0644, st_size=6833, ...}) = 0
+4384 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>
+4385 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4550, ...}) = 0
+4386 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4387 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4550, ...}) = 0
+4388 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>, "\26\r\r\n\303\2.X\261\32\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0\0@\0\0\0s\361\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 4551) = 4550
+4389 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>, "", 1) = 0
+4390 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/copyreg.cpython-35.pyc>) = 0
+4391 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4392 , 58432  lsb_release , stat("/usr/bin/gettext/__init__.cpython-35m-x86_64-linux-gnu.so", 0x7ffeba237880) = -1 ENOTDIR (Not a directory)
+4393 , 58432  lsb_release , stat("/usr/bin/gettext/__init__.abi3.so", 0x7ffeba237880) = -1 ENOTDIR (Not a directory)
+4394 , 58432  lsb_release , stat("/usr/bin/gettext/__init__.so", 0x7ffeba237880) = -1 ENOTDIR (Not a directory)
+4395 , 58432  lsb_release , stat("/usr/bin/gettext/__init__.py", 0x7ffeba237880) = -1 ENOTDIR (Not a directory)
+4396 , 58432  lsb_release , stat("/usr/bin/gettext/__init__.pyc", 0x7ffeba237880) = -1 ENOTDIR (Not a directory)
+4397 , 58432  lsb_release , stat("/usr/bin/gettext", {st_mode=S_IFREG|0755, st_size=35312, ...}) = 0
+4398 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4399 , 58432  lsb_release , stat("/usr/lib/python3.5/gettext.py", {st_mode=S_IFREG|0644, st_size=18621, ...}) = 0
+4400 , 58432  lsb_release , stat("/usr/lib/python3.5/gettext.py", {st_mode=S_IFREG|0644, st_size=18621, ...}) = 0
+4401 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>
+4402 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=13153, ...}) = 0
+4403 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4404 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=13153, ...}) = 0
+4405 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>, "\26\r\r\n\303\2.X\275H\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\21\0\0\0@\0\0\0s\363\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 13154) = 13153
+4406 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>, "", 1) = 0
+4407 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/gettext.cpython-35.pyc>) = 0
+4408 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4409 , 58432  lsb_release , stat("/usr/bin/locale/__init__.cpython-35m-x86_64-linux-gnu.so", 0x7ffeba236ad0) = -1 ENOTDIR (Not a directory)
+4410 , 58432  lsb_release , stat("/usr/bin/locale/__init__.abi3.so", 0x7ffeba236ad0) = -1 ENOTDIR (Not a directory)
+4411 , 58432  lsb_release , stat("/usr/bin/locale/__init__.so", 0x7ffeba236ad0) = -1 ENOTDIR (Not a directory)
+4412 , 58432  lsb_release , stat("/usr/bin/locale/__init__.py", 0x7ffeba236ad0) = -1 ENOTDIR (Not a directory)
+4413 , 58432  lsb_release , stat("/usr/bin/locale/__init__.pyc", 0x7ffeba236ad0) = -1 ENOTDIR (Not a directory)
+4414 , 58432  lsb_release , stat("/usr/bin/locale", {st_mode=S_IFREG|0755, st_size=38816, ...}) = 0
+4415 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4416 , 58432  lsb_release , stat("/usr/lib/python3.5/locale.py", {st_mode=S_IFREG|0644, st_size=74717, ...}) = 0
+4417 , 58432  lsb_release , stat("/usr/lib/python3.5/locale.py", {st_mode=S_IFREG|0644, st_size=74717, ...}) = 0
+4418 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/locale.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>
+4419 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=36515, ...}) = 0
+4420 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4421 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=36515, ...}) = 0
+4422 , 58432  lsb_release , brk(0x2152000) = 0x2152000
+4423 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>, "\26\r\r\n\303\2.X\335#\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0^\4\0\0@\0\0\0s\306\26\0\0d\0\0Z\0\0d\1\0d\2\0"..., 36516) = 36515
+4424 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>, "", 1) = 0
+4425 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/locale.cpython-35.pyc>) = 0
+4426 , 58432  lsb_release , brk(0x2149000) = 0x2149000
+4427 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4428 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4429 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/__init__.cpython-35m-x86_64-linux-gnu.so", 0x7ffeba235d20) = -1 ENOENT (No such file or directory)
+4430 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/__init__.abi3.so", 0x7ffeba235d20) = -1 ENOENT (No such file or directory)
+4431 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/__init__.so", 0x7ffeba235d20) = -1 ENOENT (No such file or directory)
+4432 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=45678, ...}) = 0
+4433 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=45678, ...}) = 0
+4434 , 58432  lsb_release , open("/usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>
+4435 , 58432  lsb_release , fstat(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=48672, ...}) = 0
+4436 , 58432  lsb_release , lseek(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4437 , 58432  lsb_release , fstat(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=48672, ...}) = 0
+4438 , 58432  lsb_release , read(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>, "\26\r\r\n\306\2.Xn\262\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0@\0\0\0s\205\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 48673) = 48672
+4439 , 58432  lsb_release , read(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>, "", 1) = 0
+4440 , 58432  lsb_release , close(3</usr/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc>) = 0
+4441 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5ba0000
+4442 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4443 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4444 , 58432  lsb_release , stat("/usr/lib/python3.5/operator.py", {st_mode=S_IFREG|0644, st_size=10863, ...}) = 0
+4445 , 58432  lsb_release , stat("/usr/lib/python3.5/operator.py", {st_mode=S_IFREG|0644, st_size=10863, ...}) = 0
+4446 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/operator.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>
+4447 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14792, ...}) = 0
+4448 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4449 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=14792, ...}) = 0
+4450 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>, "\26\r\r\n\304\2.Xo*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0\0@\0\0\0s\235\4\0\0d\0\0Z\0\0d\1\0d\2\0"..., 14793) = 14792
+4451 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>, "", 1) = 0
+4452 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/operator.cpython-35.pyc>) = 0
+4453 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4454 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4455 , 58432  lsb_release , stat("/usr/lib/python3.5/keyword.py", {st_mode=S_IFREG|0755, st_size=2209, ...}) = 0
+4456 , 58432  lsb_release , stat("/usr/lib/python3.5/keyword.py", {st_mode=S_IFREG|0755, st_size=2209, ...}) = 0
+4457 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>
+4458 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1925, ...}) = 0
+4459 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4460 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=1925, ...}) = 0
+4461 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>, "\26\r\r\n\367\2.X\241\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\0@\0\0\0s\255\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 1926) = 1925
+4462 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>, "", 1) = 0
+4463 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/keyword.cpython-35.pyc>) = 0
+4464 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4465 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4466 , 58432  lsb_release , stat("/usr/lib/python3.5/heapq.py", {st_mode=S_IFREG|0644, st_size=22929, ...}) = 0
+4467 , 58432  lsb_release , stat("/usr/lib/python3.5/heapq.py", {st_mode=S_IFREG|0644, st_size=22929, ...}) = 0
+4468 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>
+4469 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=15027, ...}) = 0
+4470 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4471 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=15027, ...}) = 0
+4472 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>, "\26\r\r\n\303\2.X\221Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0\0s\272\1\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 15028) = 15027
+4473 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>, "", 1) = 0
+4474 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/heapq.cpython-35.pyc>) = 0
+4475 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4476 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4477 , 58432  lsb_release , stat("/usr/lib/python3.5/reprlib.py", {st_mode=S_IFREG|0644, st_size=5336, ...}) = 0
+4478 , 58432  lsb_release , stat("/usr/lib/python3.5/reprlib.py", {st_mode=S_IFREG|0644, st_size=5336, ...}) = 0
+4479 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>
+4480 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=5944, ...}) = 0
+4481 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4482 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=5944, ...}) = 0
+4483 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>, "\26\r\r\n\304\2.X\330\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0\0s\256\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 5945) = 5944
+4484 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>, "", 1) = 0
+4485 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/reprlib.cpython-35.pyc>) = 0
+4486 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4487 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4488 , 58432  lsb_release , stat("/usr/lib/python3.5/functools.py", {st_mode=S_IFREG|0644, st_size=28776, ...}) = 0
+4489 , 58432  lsb_release , stat("/usr/lib/python3.5/functools.py", {st_mode=S_IFREG|0644, st_size=28776, ...}) = 0
+4490 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/functools.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>
+4491 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=23607, ...}) = 0
+4492 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4493 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=23607, ...}) = 0
+4494 , 58432  lsb_release , brk(0x216d000) = 0x216d000
+4495 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>, "\26\r\r\n\303\2.Xhp\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0+\0\0\0@\0\0\0s\275\3\0\0d\0\0Z\0\0d\1\0d\2\0"..., 23608) = 23607
+4496 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>, "", 1) = 0
+4497 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/functools.cpython-35.pyc>) = 0
+4498 , 58432  lsb_release , brk(0x2167000) = 0x2167000
+4499 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4500 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4501 , 58432  lsb_release , stat("/usr/lib/python3.5/types.py", {st_mode=S_IFREG|0644, st_size=8799, ...}) = 0
+4502 , 58432  lsb_release , stat("/usr/lib/python3.5/types.py", {st_mode=S_IFREG|0644, st_size=8799, ...}) = 0
+4503 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/types.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>
+4504 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8725, ...}) = 0
+4505 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4506 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8725, ...}) = 0
+4507 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>, "\26\r\r\n\304\2.X_\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0\0s\25\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 8726) = 8725
+4508 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>, "", 1) = 0
+4509 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/types.cpython-35.pyc>) = 0
+4510 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5b60000
+4511 , 58432  lsb_release , stat("/usr/lib/python3.5/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4512 , 58432  lsb_release , stat("/usr/lib/python3.5/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4513 , 58432  lsb_release , stat("/usr/lib/python3.5/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4514 , 58432  lsb_release , open("/usr/lib/python3.5/collections", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</usr/lib/python3.5/collections>
+4515 , 58432  lsb_release , fstat(3</usr/lib/python3.5/collections>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4516 , 58432  lsb_release , getdents(3</usr/lib/python3.5/collections>, /* 6 entries */, 32768) = 176
+4517 , 58432  lsb_release , getdents(3</usr/lib/python3.5/collections>, /* 0 entries */, 32768) = 0
+4518 , 58432  lsb_release , close(3</usr/lib/python3.5/collections>) = 0
+4519 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/abc.py", {st_mode=S_IFREG|0644, st_size=68, ...}) = 0
+4520 , 58432  lsb_release , stat("/usr/lib/python3.5/collections/abc.py", {st_mode=S_IFREG|0644, st_size=68, ...}) = 0
+4521 , 58432  lsb_release , open("/usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>
+4522 , 58432  lsb_release , fstat(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+4523 , 58432  lsb_release , lseek(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4524 , 58432  lsb_release , fstat(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+4525 , 58432  lsb_release , read(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>, "\26\r\r\n\306\2.XD\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0\0s\36\0\0\0d\0\0d\1\0l\0\0Td\0"..., 190) = 189
+4526 , 58432  lsb_release , read(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>, "", 1) = 0
+4527 , 58432  lsb_release , close(3</usr/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc>) = 0
+4528 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4529 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4530 , 58432  lsb_release , stat("/usr/lib/python3.5/weakref.py", {st_mode=S_IFREG|0644, st_size=19408, ...}) = 0
+4531 , 58432  lsb_release , stat("/usr/lib/python3.5/weakref.py", {st_mode=S_IFREG|0644, st_size=19408, ...}) = 0
+4532 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>
+4533 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20234, ...}) = 0
+4534 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4535 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20234, ...}) = 0
+4536 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>, "\26\r\r\n\304\2.X\320K\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0\0s\"\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 20235) = 20234
+4537 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>, "", 1) = 0
+4538 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/weakref.cpython-35.pyc>) = 0
+4539 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4540 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4541 , 58432  lsb_release , stat("/usr/lib/python3.5/copy.py", {st_mode=S_IFREG|0644, st_size=8946, ...}) = 0
+4542 , 58432  lsb_release , stat("/usr/lib/python3.5/copy.py", {st_mode=S_IFREG|0644, st_size=8946, ...}) = 0
+4543 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/copy.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>
+4544 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8096, ...}) = 0
+4545 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4546 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8096, ...}) = 0
+4547 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>, "\26\r\r\n\303\2.X\362\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\33\0\0\0@\0\0\0sc\3\0\0d\0\0Z\0\0d\1\0d\2\0"..., 8097) = 8096
+4548 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>, "", 1) = 0
+4549 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/copy.cpython-35.pyc>) = 0
+4550 , 58432  lsb_release , mmap(NULL, 397312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5aff000
+4551 , 58432  lsb_release , munmap(0x7f28b70ff000, 200704) = 0
+4552 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4553 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4554 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4555 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4556 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4557 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4558 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4559 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4560 , 58432  lsb_release , stat("/usr/lib/python3.5/struct.py", {st_mode=S_IFREG|0644, st_size=257, ...}) = 0
+4561 , 58432  lsb_release , stat("/usr/lib/python3.5/struct.py", {st_mode=S_IFREG|0644, st_size=257, ...}) = 0
+4562 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/struct.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>
+4563 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=332, ...}) = 0
+4564 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4565 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=332, ...}) = 0
+4566 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>, "\26\r\r\n\304\2.X\1\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0sL\0\0\0d\0\0d\1\0d\2\0d\3\0"..., 333) = 332
+4567 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>, "", 1) = 0
+4568 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/struct.cpython-35.pyc>) = 0
+4569 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4570 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4571 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4572 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4573 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4574 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4575 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4576 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4577 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4578 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4579 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4580 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4581 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4582 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4583 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4584 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4585 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4586 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4587 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4588 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4589 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4590 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4591 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4592 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4593 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4594 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4595 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4596 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4597 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4598 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4599 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4600 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238310) = -1 ENOENT (No such file or directory)
+4601 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4602 , 58432  lsb_release , stat("/usr/bin/lsb_release/__init__.cpython-35m-x86_64-linux-gnu.so", 0x7ffeba238630) = -1 ENOTDIR (Not a directory)
+4603 , 58432  lsb_release , stat("/usr/bin/lsb_release/__init__.abi3.so", 0x7ffeba238630) = -1 ENOTDIR (Not a directory)
+4604 , 58432  lsb_release , stat("/usr/bin/lsb_release/__init__.so", 0x7ffeba238630) = -1 ENOTDIR (Not a directory)
+4605 , 58432  lsb_release , stat("/usr/bin/lsb_release/__init__.py", 0x7ffeba238630) = -1 ENOTDIR (Not a directory)
+4606 , 58432  lsb_release , stat("/usr/bin/lsb_release/__init__.pyc", 0x7ffeba238630) = -1 ENOTDIR (Not a directory)
+4607 , 58432  lsb_release , stat("/usr/bin/lsb_release", {st_mode=S_IFREG|0755, st_size=3638, ...}) = 0
+4608 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4609 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4610 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4611 , 58432  lsb_release , stat("/usr/local/lib/python3.5/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+4612 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4613 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages/lsb_release.py", {st_mode=S_IFREG|0644, st_size=12496, ...}) = 0
+4614 , 58432  lsb_release , stat("/usr/lib/python3/dist-packages/lsb_release.py", {st_mode=S_IFREG|0644, st_size=12496, ...}) = 0
+4615 , 58432  lsb_release , open("/usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>
+4616 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8871, ...}) = 0
+4617 , 58432  lsb_release , lseek(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4618 , 58432  lsb_release , fstat(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=8871, ...}) = 0
+4619 , 58432  lsb_release , read(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>, "\26\r\r\n\337\214\335U\3200\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0\0s\203\1\0\0d\0\0d\1\0l\0\0m\1\0"..., 8872) = 8871
+4620 , 58432  lsb_release , read(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>, "", 1) = 0
+4621 , 58432  lsb_release , close(3</usr/lib/python3/dist-packages/__pycache__/lsb_release.cpython-35.pyc>) = 0
+4622 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4623 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4624 , 58432  lsb_release , stat("/usr/lib/python3.5/__future__.py", {st_mode=S_IFREG|0644, st_size=4841, ...}) = 0
+4625 , 58432  lsb_release , stat("/usr/lib/python3.5/__future__.py", {st_mode=S_IFREG|0644, st_size=4841, ...}) = 0
+4626 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>
+4627 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4301, ...}) = 0
+4628 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4629 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4301, ...}) = 0
+4630 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>, "\26\r\r\n\303\2.X\351\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0\0@\0\0\0s#\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 4302) = 4301
+4631 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>, "", 1) = 0
+4632 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/__future__.cpython-35.pyc>) = 0
+4633 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4634 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4635 , 58432  lsb_release , stat("/usr/lib/python3.5/subprocess.py", {st_mode=S_IFREG|0644, st_size=68407, ...}) = 0
+4636 , 58432  lsb_release , stat("/usr/lib/python3.5/subprocess.py", {st_mode=S_IFREG|0644, st_size=68407, ...}) = 0
+4637 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>
+4638 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=46760, ...}) = 0
+4639 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4640 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=46760, ...}) = 0
+4641 , 58432  lsb_release , brk(0x2191000) = 0x2191000
+4642 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>, "\26\r\r\n\304\2.X7\v\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\26\0\0\0@\0\0\0s\30\3\0\0d\0\0Z\0\0d\1\0d\2\0"..., 46761) = 46760
+4643 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>, "", 1) = 0
+4644 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc>) = 0
+4645 , 58432  lsb_release , open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3</usr/share/zoneinfo/posixrules>
+4646 , 58432  lsb_release , fstat(3</usr/share/zoneinfo/posixrules>, {st_mode=S_IFREG|0644, st_size=3545, ...}) = 0
+4647 , 58432  lsb_release , fstat(3</usr/share/zoneinfo/posixrules>, {st_mode=S_IFREG|0644, st_size=3545, ...}) = 0
+4648 , 58432  lsb_release , read(3</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\354\0\0\0\5\0\0\0\24\200\0\0\0\236\246"..., 4096) = 3545
+4649 , 58432  lsb_release , lseek(3</usr/share/zoneinfo/posixrules>, -2261, SEEK_CUR) = 1284
+4650 , 58432  lsb_release , read(3</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\355\0\0\0\5\0\0\0\24\370\0\0\0\0\0"..., 4096) = 2261
+4651 , 58432  lsb_release , close(3</usr/share/zoneinfo/posixrules>) = 0
+4652 , 58432  lsb_release , stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3545, ...}) = 0
+4653 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4654 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4655 , 58432  lsb_release , stat("/usr/lib/python3.5/signal.py", {st_mode=S_IFREG|0644, st_size=2123, ...}) = 0
+4656 , 58432  lsb_release , stat("/usr/lib/python3.5/signal.py", {st_mode=S_IFREG|0644, st_size=2123, ...}) = 0
+4657 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/signal.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>
+4658 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=2762, ...}) = 0
+4659 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4660 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=2762, ...}) = 0
+4661 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>, "\26\r\r\n\304\2.XK\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s~\1\0\0d\0\0d\1\0l\0\0Z\0\0"..., 2763) = 2762
+4662 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>, "", 1) = 0
+4663 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/signal.cpython-35.pyc>) = 0
+4664 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4665 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4666 , 58432  lsb_release , stat("/usr/lib/python3.5/enum.py", {st_mode=S_IFREG|0644, st_size=22226, ...}) = 0
+4667 , 58432  lsb_release , stat("/usr/lib/python3.5/enum.py", {st_mode=S_IFREG|0644, st_size=22226, ...}) = 0
+4668 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/enum.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>
+4669 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=16611, ...}) = 0
+4670 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4671 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=16611, ...}) = 0
+4672 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>, "\26\r\r\n\303\2.X\322V\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\361\0\0\0d\0\0d\1\0l\0\0Z\0\0"..., 16612) = 16611
+4673 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>, "", 1) = 0
+4674 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/enum.cpython-35.pyc>) = 0
+4675 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5abf000
+4676 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4677 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4678 , 58432  lsb_release , stat("/usr/lib/python3.5/warnings.py", {st_mode=S_IFREG|0644, st_size=15850, ...}) = 0
+4679 , 58432  lsb_release , stat("/usr/lib/python3.5/warnings.py", {st_mode=S_IFREG|0644, st_size=15850, ...}) = 0
+4680 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>
+4681 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=13097, ...}) = 0
+4682 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4683 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=13097, ...}) = 0
+4684 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>, "\26\r\r\n\304\2.X\352=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\241\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 13098) = 13097
+4685 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>, "", 1) = 0
+4686 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/warnings.cpython-35.pyc>) = 0
+4687 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4688 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4689 , 58432  lsb_release , stat("/usr/lib/python3.5/selectors.py", {st_mode=S_IFREG|0644, st_size=19168, ...}) = 0
+4690 , 58432  lsb_release , stat("/usr/lib/python3.5/selectors.py", {st_mode=S_IFREG|0644, st_size=19168, ...}) = 0
+4691 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>
+4692 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=18813, ...}) = 0
+4693 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4694 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=18813, ...}) = 0
+4695 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>, "\26\r\r\n\304\2.X\340J\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0s*\2\0\0d\0\0Z\0\0d\1\0d\2\0"..., 18814) = 18813
+4696 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>, "", 1) = 0
+4697 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc>) = 0
+4698 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4699 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4700 , 58432  lsb_release , stat("/usr/lib/python3.5/threading.py", {st_mode=S_IFREG|0644, st_size=48918, ...}) = 0
+4701 , 58432  lsb_release , stat("/usr/lib/python3.5/threading.py", {st_mode=S_IFREG|0644, st_size=48918, ...}) = 0
+4702 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/threading.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>
+4703 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=38896, ...}) = 0
+4704 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4705 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=38896, ...}) = 0
+4706 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>, "\26\r\r\n\304\2.X\26\277\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\33\0\0\0@\0\0\0sU\3\0\0d\0\0Z\0\0d\1\0d\2\0"..., 38897) = 38896
+4707 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>, "", 1) = 0
+4708 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/threading.cpython-35.pyc>) = 0
+4709 , 58432  lsb_release , brk(0x21b6000) = 0x21b6000
+4710 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4711 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4712 , 58432  lsb_release , stat("/usr/lib/python3.5/traceback.py", {st_mode=S_IFREG|0644, st_size=22194, ...}) = 0
+4713 , 58432  lsb_release , stat("/usr/lib/python3.5/traceback.py", {st_mode=S_IFREG|0644, st_size=22194, ...}) = 0
+4714 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>
+4715 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20158, ...}) = 0
+4716 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4717 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20158, ...}) = 0
+4718 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>, "\26\r\r\n\304\2.X\262V\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0\0@\0\0\0s\360\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 20159) = 20158
+4719 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>, "", 1) = 0
+4720 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/traceback.cpython-35.pyc>) = 0
+4721 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4722 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4723 , 58432  lsb_release , stat("/usr/lib/python3.5/linecache.py", {st_mode=S_IFREG|0644, st_size=5312, ...}) = 0
+4724 , 58432  lsb_release , stat("/usr/lib/python3.5/linecache.py", {st_mode=S_IFREG|0644, st_size=5312, ...}) = 0
+4725 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>
+4726 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4062, ...}) = 0
+4727 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4728 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=4062, ...}) = 0
+4729 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>, "\26\r\r\n\303\2.X\300\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\243\0\0\0d\0\0Z\0\0d\1\0d\2\0"..., 4063) = 4062
+4730 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>, "", 1) = 0
+4731 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/linecache.cpython-35.pyc>) = 0
+4732 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4733 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4734 , 58432  lsb_release , stat("/usr/lib/python3.5/tokenize.py", {st_mode=S_IFREG|0644, st_size=27790, ...}) = 0
+4735 , 58432  lsb_release , stat("/usr/lib/python3.5/tokenize.py", {st_mode=S_IFREG|0644, st_size=27790, ...}) = 0
+4736 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>
+4737 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20450, ...}) = 0
+4738 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4739 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=20450, ...}) = 0
+4740 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>, "\26\r\r\n\304\2.X\216l\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0X\0\0\0@\0\0\0s:\6\0\0d\0\0Z\0\0d\1\0Z\1\0"..., 20451) = 20450
+4741 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>, "", 1) = 0
+4742 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/tokenize.cpython-35.pyc>) = 0
+4743 , 58432  lsb_release , mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f28b5a7f000
+4744 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4745 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4746 , 58432  lsb_release , stat("/usr/lib/python3.5/token.py", {st_mode=S_IFREG|0644, st_size=3075, ...}) = 0
+4747 , 58432  lsb_release , stat("/usr/lib/python3.5/token.py", {st_mode=S_IFREG|0644, st_size=3075, ...}) = 0
+4748 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/token.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>
+4749 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3658, ...}) = 0
+4750 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4751 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=3658, ...}) = 0
+4752 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>, "\26\r\r\n\304\2.X\3\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\360\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 3659) = 3658
+4753 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>, "", 1) = 0
+4754 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/token.cpython-35.pyc>) = 0
+4755 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4756 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4757 , 58432  lsb_release , stat("/usr/lib/python3.5/csv.py", {st_mode=S_IFREG|0644, st_size=16128, ...}) = 0
+4758 , 58432  lsb_release , stat("/usr/lib/python3.5/csv.py", {st_mode=S_IFREG|0644, st_size=16128, ...}) = 0
+4759 , 58432  lsb_release , open("/usr/lib/python3.5/__pycache__/csv.cpython-35.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>
+4760 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=12913, ...}) = 0
+4761 , 58432  lsb_release , lseek(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>, 0, SEEK_CUR) = 0
+4762 , 58432  lsb_release , fstat(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>, {st_mode=S_IFREG|0644, st_size=12913, ...}) = 0
+4763 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>, "\26\r\r\n\303\2.X\0?\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0\0@\0\0\0s\256\1\0\0d\0\0Z\0\0d\1\0d\2\0"..., 12914) = 12913
+4764 , 58432  lsb_release , read(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>, "", 1) = 0
+4765 , 58432  lsb_release , close(3</usr/lib/python3.5/__pycache__/csv.cpython-35.pyc>) = 0
+4766 , 58432  lsb_release , stat("/usr/bin", {st_mode=S_IFDIR|0775, st_size=69632, ...}) = 0
+4767 , 58432  lsb_release , stat("/usr/lib/python3.5", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+4768 , 58432  lsb_release , stat("/usr/lib/python3.5/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+4769 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+4770 , 58432  lsb_release , stat("/usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0644, st_size=42672, ...}) = 0
+4771 , 58432  lsb_release , futex(0x7f28b6a8a0a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4772 , 58432  lsb_release , open("/usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>
+4773 , 58432  lsb_release , read(3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\37\0\0\0\0\0\0@\0\0\0\0\0\0\0\360\237\0\0\0\0\0\0\0\0"..., 832) = 832
+4774 , 58432  lsb_release , fstat(3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>, {st_mode=S_IFREG|0644, st_size=42672, ...}) = 0
+4775 , 58432  lsb_release , mmap(NULL, 2137888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>, 0) = 0x7f28b5875000
+4776 , 58432  lsb_release , mprotect(0x7f28b587c000, 2097152, PROT_NONE) = 0
+4777 , 58432  lsb_release , mmap(0x7f28b5a7c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>, 0x7000) = 0x7f28b5a7c000
+4778 , 58432  lsb_release , close(3</usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so>) = 0
+4779 , 58432  lsb_release , mprotect(0x7f28b5a7c000, 4096, PROT_READ) = 0
+4780 , 58432  lsb_release , open("/usr/share/distro-info/debian.csv", O_RDONLY|O_CLOEXEC) = 3</usr/share/distro-info/debian.csv>
+4781 , 58432  lsb_release , fstat(3</usr/share/distro-info/debian.csv>, {st_mode=S_IFREG|0644, st_size=796, ...}) = 0
+4782 , 58432  lsb_release , ioctl(3</usr/share/distro-info/debian.csv>, TCGETS, 0x7ffeba238660) = -1 ENOTTY (Inappropriate ioctl for device)
+4783 , 58432  lsb_release , lseek(3</usr/share/distro-info/debian.csv>, 0, SEEK_CUR) = 0
+4784 , 58432  lsb_release , ioctl(3</usr/share/distro-info/debian.csv>, TCGETS, 0x7ffeba238600) = -1 ENOTTY (Inappropriate ioctl for device)
+4785 , 58432  lsb_release , lseek(3</usr/share/distro-info/debian.csv>, 0, SEEK_CUR) = 0
+4786 , 58432  lsb_release , read(3</usr/share/distro-info/debian.csv>, "version,codename,series,created,release,eol\n1.1,Bu"..., 8192) = 796
+4787 , 58432  lsb_release , read(3</usr/share/distro-info/debian.csv>, "", 8192) = 0
+4788 , 58432  lsb_release , close(3</usr/share/distro-info/debian.csv>) = 0
+4789 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4790 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4791 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4792 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4793 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4794 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4795 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4796 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238a90) = -1 ENOENT (No such file or directory)
+4797 , 58432  lsb_release , stat("/usr/share/locale/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4798 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4799 , 58432  lsb_release , stat("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4800 , 58432  lsb_release , stat("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4801 , 58432  lsb_release , stat("/usr/share/locale/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4802 , 58432  lsb_release , stat("/usr/share/locale-langpack/en.ISO8859-1/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4803 , 58432  lsb_release , stat("/usr/share/locale/en/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4804 , 58432  lsb_release , stat("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", 0x7ffeba238880) = -1 ENOENT (No such file or directory)
+4805 , 58432  lsb_release , stat("/etc/lsb-release", {st_mode=S_IFREG|0644, st_size=103, ...}) = 0
+4806 , 58432  lsb_release , open("/etc/lsb-release", O_RDONLY|O_CLOEXEC) = 3</etc/lsb-release>
+4807 , 58432  lsb_release , fstat(3</etc/lsb-release>, {st_mode=S_IFREG|0644, st_size=103, ...}) = 0
+4808 , 58432  lsb_release , ioctl(3</etc/lsb-release>, TCGETS, 0x7ffeba239290) = -1 ENOTTY (Inappropriate ioctl for device)
+4809 , 58432  lsb_release , lseek(3</etc/lsb-release>, 0, SEEK_CUR) = 0
+4810 , 58432  lsb_release , ioctl(3</etc/lsb-release>, TCGETS, 0x7ffeba239230) = -1 ENOTTY (Inappropriate ioctl for device)
+4811 , 58432  lsb_release , lseek(3</etc/lsb-release>, 0, SEEK_CUR) = 0
+4812 , 58432  lsb_release , read(3</etc/lsb-release>, "DISTRIB_ID=Ubuntu\nDISTRIB_RELEASE=16.04\nDISTRIB_CO"..., 8192) = 103
+4813 , 58432  lsb_release , read(3</etc/lsb-release>, "", 8192) = 0
+4814 , 58432  lsb_release , close(3</etc/lsb-release>) = 0
+4815 , 58432  lsb_release , write(1<pipe:[197691]>, "16.04\n", 6) = 6
+4817 , 58432  lsb_release , rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28b6e66390}, {0x63df70, [], SA_RESTORER, 0x7f28b6e66390}, 8) = 0
+4819 , 58432  lsb_release , munmap(0x7f28b709e000, 135168) = 0
+4820 , 58432  lsb_release , exit_group(0) = ?
+4821 , 58432  lsb_release , +++ exited with 0 +++
