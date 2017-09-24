@@ -22,7 +22,7 @@ class Syscall_Record:
         self.signal_param=None
         self.exit_with_code=None
     def print_str(self):
-        print("type:",self.type," ;;; " ,"serialno:",self.serialno," ;;; " ,"thread_id:",self.thread_id," ;;; " ,"thread_name:",self.thread_name," ;;; " ,"syscall_name:",self.syscall_name," ;;; " ,"syscall_param:",self.syscall_param," ;;; " ,"syscall_ret_val:",self.syscall_ret_val," ;;; " ,"syscall_ret_val_info:",self.syscall_ret_val_info," ;;; " ,"errno:",self.errno," ;;; " ,"error_info:",self.error_info," ;;; " ,"signal_name:",self.signal_name," ;;; " ,"signal_param:",self.signal_param," ;;; " ,"exit_with_code:",self.exit_with_code)
+        print("type:",translate_quote(self.type)," ;;; "+"serialno:",translate_quote(self.serialno)," ;;; "+"thread_id:",translate_quote(self.thread_id)," ;;; "+"thread_name:",translate_quote(self.thread_name)," ;;; "+"syscall_name:",translate_quote(self.syscall_name)," ;;; "+"syscall_param:",translate_quote(self.syscall_param)," ;;; "+"syscall_ret_val:",translate_quote(self.syscall_ret_val)," ;;; "+"syscall_ret_val_info:",translate_quote(self.syscall_ret_val_info)," ;;; "+"errno:",translate_quote(self.errno)," ;;; "+"error_info:",translate_quote(self.error_info)," ;;; "+"signal_name:",translate_quote(self.signal_name)," ;;; "+"signal_param:",translate_quote(self.signal_param)," ;;; "+"exit_with_code:",translate_quote(self.exit_with_code))
 
 
 def translate(a):
@@ -30,7 +30,12 @@ def translate(a):
         return a
     else:
         return "None"   
-        
+
+def translate_quote(a):
+    if a:
+        return a
+    else:
+        return "\"None\""         
         
 normal_syscall_ptn=r'(\d+)(\s*,\s*)(\d+)(\s+)(([^,\s]+\s*)+)(\s*,\s*)([^\(]+)(\()((.)*)(\))(\s*=\s*)((-?(\d)+)|(\?))(\s+)?(\(([^\(\)]+)\))?(\s+)?((\S+)(\s+)(\()(.+)(\)))?'
 normal_syscall_ptn_cmpiled=re.compile(normal_syscall_ptn)
