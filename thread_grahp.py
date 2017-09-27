@@ -91,8 +91,8 @@ for item in thread_info_list:
     item.print_str()
 
 
-# for thread_info int thread_info_list:
-    # print each GRAPH NODE NAME
+for thread_info int thread_info_list:
+	print each GRAPH NODE NAME
     
 # for thread_info int thread_info_list:
     # print each edeget with serial no  
