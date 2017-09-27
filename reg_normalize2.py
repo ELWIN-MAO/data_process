@@ -66,9 +66,9 @@ while True:
     result4=detach_syscall_ptn_cmpiled.match(line)
     aSyscall_Record=Syscall_Record()
     if result1 :
-        print("normal_syscall")
-        print(result1.group(1),result1.group(3),result1.group(5),result1.group(8),result1.group(10),result1.group(14),result1.group(20),result1.group(23),result1.group(26))
-        print("line:",line)
+#        print("normal_syscall")
+#        print(result1.group(1),result1.group(3),result1.group(5),result1.group(8),result1.group(10),result1.group(14),result1.group(20),result1.group(23),result1.group(26))
+#        print("line:",line)
         aSyscall_Record.type=1  
         aSyscall_Record.serialno=translate(result1.group(1)).strip()
         aSyscall_Record.thread_id=translate(result1.group(3)).strip()
@@ -80,18 +80,18 @@ while True:
         aSyscall_Record.errno="\""+translate(result1.group(23)).strip()+"\""
         aSyscall_Record.error_info="\""+translate(result1.group(26)).strip()+"\""       
     elif result2: 
-        print("exit_with_syscall")
-        print(result2.group(1),result2.group(3),result2.group(5),result2.group(10))
-        print("line:",line)
+#        print("exit_with_syscall")
+#        print(result2.group(1),result2.group(3),result2.group(5),result2.group(10))
+#        print("line:",line)
         aSyscall_Record.type=2  
         aSyscall_Record.serialno=translate(result2.group(1)).strip()
         aSyscall_Record.thread_id=translate(result2.group(3)).strip()
         aSyscall_Record.thread_name="\""+translate(result2.group(5)).strip()+"\""
         aSyscall_Record.exit_with_code=translate(result2.group(10)).strip()        
     elif result3: 
-        print("signal_syscall")
-        print(result3.group(1),result3.group(3),result3.group(5),result3.group(10),result3.group(14))
-        print("line:",line)
+#        print("signal_syscall")
+#        print(result3.group(1),result3.group(3),result3.group(5),result3.group(10),result3.group(14))
+#        print("line:",line)
         aSyscall_Record.type=3  
         aSyscall_Record.serialno=translate(result3.group(1)).strip()
         aSyscall_Record.thread_id=translate(result3.group(3)).strip()
@@ -99,9 +99,9 @@ while True:
         aSyscall_Record.signal_name="\""+translate(result3.group(10)).strip()+"\""
         aSyscall_Record.signal_param="\""+translate(result3.group(14)).strip()+"\""      
     elif result4: 
-        print("detach_syscall")
-        print(result4.group(1),result4.group(3),result4.group(5),result4.group(8))
-        print("line:",line)
+ #       print("detach_syscall")
+ #       print(result4.group(1),result4.group(3),result4.group(5),result4.group(8))
+ #       print("line:",line)
         aSyscall_Record.type=4  
         aSyscall_Record.serialno=translate(result4.group(1)).strip()
         aSyscall_Record.thread_id=translate(result4.group(3)).strip()

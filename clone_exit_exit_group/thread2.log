@@ -1,0 +1,93 @@
+4893  execve("./thread2", ["./thread2"], [/* 21 vars */]) = 0
+4893  brk(NULL)                         = 0x1f9e000
+4893  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4893  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f05de9cb000
+4893  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4893  open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4893  fstat(3, {st_mode=S_IFREG|0644, st_size=128415, ...}) = 0
+4893  mmap(NULL, 128415, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f05de9ab000
+4893  close(3)                          = 0
+4893  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4893  open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+4893  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+4893  fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+4893  mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05de58b000
+4893  mprotect(0x7f05de5a3000, 2093056, PROT_NONE) = 0
+4893  mmap(0x7f05de7a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f05de7a2000
+4893  mmap(0x7f05de7a4000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f05de7a4000
+4893  close(3)                          = 0
+4893  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4893  open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+4893  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+4893  fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+4893  mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05de1c1000
+4893  mprotect(0x7f05de381000, 2097152, PROT_NONE) = 0
+4893  mmap(0x7f05de581000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f05de581000
+4893  mmap(0x7f05de587000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f05de587000
+4893  close(3)                          = 0
+4893  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f05de9aa000
+4893  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f05de9a9000
+4893  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f05de9a8000
+4893  arch_prctl(ARCH_SET_FS, 0x7f05de9a9700) = 0
+4893  mprotect(0x7f05de581000, 16384, PROT_READ) = 0
+4893  mprotect(0x7f05de7a2000, 4096, PROT_READ) = 0
+4893  mprotect(0x600000, 4096, PROT_READ) = 0
+4893  mprotect(0x7f05de9cd000, 4096, PROT_READ) = 0
+4893  munmap(0x7f05de9ab000, 128415)    = 0
+4893  set_tid_address(0x7f05de9a99d0)   = 4893
+4893  set_robust_list(0x7f05de9a99e0, 24) = 0
+4893  rt_sigaction(SIGRTMIN, {0x7f05de590b50, [], SA_RESTORER|SA_SIGINFO, 0x7f05de59c390}, NULL, 8) = 0
+4893  rt_sigaction(SIGRT_1, {0x7f05de590be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f05de59c390}, NULL, 8) = 0
+4893  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+4893  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+4893  fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+4893  brk(NULL)                         = 0x1f9e000
+4893  brk(0x1fbf000)                    = 0x1fbf000
+4893  write(1, "main thread\n", 12)     = 12
+4893  mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f05dd9c0000
+4893  mprotect(0x7f05dd9c0000, 4096, PROT_NONE) = 0
+4893  clone(child_stack=0x7f05de1bfff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f05de1c09d0, tls=0x7f05de1c0700, child_tidptr=0x7f05de1c09d0) = 4894
+4894  set_robust_list(0x7f05de1c09e0, 24 <unfinished ...>
+4893  nanosleep({8, 0},  <unfinished ...>
+4894  <... set_robust_list resumed> )   = 0
+4894  mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f05dd1bf000
+4894  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f05d51bf000
+4894  munmap(0x7f05d51bf000, 48500736)  = 0
+4894  munmap(0x7f05dc000000, 18608128)  = 0
+4894  mprotect(0x7f05d8000000, 135168, PROT_READ|PROT_WRITE) = 0
+4894  mprotect(0x7f05dd1bf000, 4096, PROT_NONE) = 0
+4894  clone(child_stack=0x7f05dd9beff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f05dd9bf9d0, tls=0x7f05dd9bf700, child_tidptr=0x7f05dd9bf9d0) = 4895
+4895  set_robust_list(0x7f05dd9bf9e0, 24 <unfinished ...>
+4894  write(1, "thread_function is running. Argu"..., 49 <unfinished ...>
+4895  <... set_robust_list resumed> )   = 0
+4894  <... write resumed> )             = 49
+4894  nanosleep({30, 0},  <unfinished ...>
+4895  write(1, "thread_function is running. Argu"..., 49) = 49
+4895  nanosleep({20, 0},  <unfinished ...>
+4893  <... nanosleep resumed> 0x7fff247bfd00) = 0
+4893  write(1, "main thread exit\n", 17) = 17
+4893  open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4893  fstat(3, {st_mode=S_IFREG|0644, st_size=128415, ...}) = 0
+4893  mmap(NULL, 128415, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f05de9ab000
+4893  close(3)                          = 0
+4893  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4893  open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+4893  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+4893  fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+4893  mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05dcfa9000
+4893  mprotect(0x7f05dcfbf000, 2093056, PROT_NONE) = 0
+4893  mmap(0x7f05dd1be000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f05dd1be000
+4893  close(3)                          = 0
+4893  munmap(0x7f05de9ab000, 128415)    = 0
+4893  futex(0x7f05dd1be680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4893  exit(0)                           = ?
+4895  <... nanosleep resumed> 0x7f05dd9bef10) = 0
+4895  write(1, "thread2 exit\n", 13)    = 13
+4895  madvise(0x7f05dd1bf000, 8368128, MADV_DONTNEED) = 0
+4895  exit(0)                           = ?
+4895  +++ exited with 0 +++
+4894  <... nanosleep resumed> 0x7f05de1bfef0) = 0
+4894  write(1, "thread1 exit\n", 13)    = 13
+4894  exit_group(8)                     = ?
+4894  +++ exited with 8 +++
+4893  +++ exited with 8 +++
