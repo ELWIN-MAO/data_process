@@ -32,7 +32,44 @@ class Thread_Info_Record:
         for aitem in self.children_list:
             print(aitem)
         print("exit_code:",self.exit_code)
-        print("syscall_error_info_list:",self.syscall_error_info_list)
+        #print("syscall_error_info_list:",self.syscall_error_info_list)
+    def print_node(self):
+        #print("node_begin")
+        out=""
+        children_edge=""
+        out+=self.thread_id+"[label=\""
+        #print(self.thread_id+"[label=\"")
+        out+="thread_id:"+self.thread_id+"\\n"
+        #print("thread_id:",self.thread_id)
+        #print("thread_name_list:")
+        out+="thread_name_list:"
+        for aitem in self.thread_name_list:
+            #print(aitem)
+            out+=aitem.replace("\"","\\\"")
+        out+="\\n"
+        #print("execve_list:")
+        #for k,v in self.execve_list:
+            #print(k,v)
+        #print("children_list:")
+        out+="children_list:"
+        for aitem in self.children_list:
+            #print(aitem)
+            out+=aitem[1]+" ,"
+            children_edge+=self.thread_id+"->"+aitem[1]+"[lable=\""+aitem[0]+"\"];\\n"
+        out+="\""
+        #print("exit_code:",self.exit_code)
+        if(self.exit_code):
+            out+="exit_code:"+self.exit_code[0]+":"+self.exit_code[1]
+            if(self.exit_code  [1]!="\"0\""):
+                #print("shape=\"record\",color=\"red\"")
+                out+=", shape=\"record\",color=\"red\""
+        #print("]")
+        out+="];"
+        #out=out.replace("\"","\\\"")
+        print(out)
+        #print(children_edge)
+        #print("node_end")
+        #print("syscall_error_info_list:",self.syscall_error_info_list)
         
 
 thread_info_list=[]
@@ -68,7 +105,7 @@ def get_sycall_record(line ) :
 while True:
     line=log.readline()
     if not line : break 
-    print("line:",line)
+    #print("line:",line)
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
@@ -84,15 +121,18 @@ while True:
             aThread_Info_Record.execve_list.append([aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]])
         if(aSyscall_Record["errno"]!="\"None\""):
             aThread_Info_Record.syscall_error_info_list.append([aSyscall_Record["errno"],aSyscall_Record["error_info"]])
-    aThread_Info_Record.print_str()
+    #aThread_Info_Record.print_str()
 
 
+print("digraph abc{")
 for item in thread_info_list:
-    item.print_str()
+    #item.print_str()
+    item.print_node()
+print("}")
 
 
-for thread_info int thread_info_list:
-	print each GRAPH NODE NAME
+#for thread_info int thread_info_list:
+#   print each GRAPH NODE NAME
     
 # for thread_info int thread_info_list:
     # print each edeget with serial no  
