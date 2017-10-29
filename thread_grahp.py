@@ -37,7 +37,7 @@ class Thread_Info_Record:
         #print("node_begin")
         out=""
         children_edge=""
-        out+=self.thread_id+"[label=\""
+        out+=self.thread_id+"   [label=\""
         #print(self.thread_id+"[label=\"")
         out+="thread_id:"+self.thread_id+"\\n"
         #print("thread_id:",self.thread_id)
@@ -72,7 +72,13 @@ class Thread_Info_Record:
         #print(children_edge)
         #print("node_end")
         #print("syscall_error_info_list:",self.syscall_error_info_list)
-        
+
+    def print_edge(self):
+        children_edge=""
+        for aitem in self.children_list:
+            #print(aitem)
+            children_edge+=self.thread_id+" -> "+aitem[1]+"   [lable=\""+aitem[0]+"\"];\n"
+        print(children_edge) 
 
 thread_info_list=[]
         
@@ -130,6 +136,11 @@ print("digraph abc{")
 for item in thread_info_list:
     #item.print_str()
     item.print_node()
+
+for item in thread_info_list:
+    #item.print_str()
+    item.print_edge()
+
 print("}")
 
 
