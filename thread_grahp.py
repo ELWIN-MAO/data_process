@@ -45,17 +45,19 @@ class Thread_Info_Record:
         out+="thread_name_list:"
         for aitem in self.thread_name_list:
             #print(aitem)
-            out+=aitem.replace("\"","\\\"")
-        out+="\\n"
+            out+=aitem.replace("\"","\\\"")+","
+        if (out[-1]==",") :
+            out=out[:-1]
+        #out+="\\n"
         #print("execve_list:")
         #for k,v in self.execve_list:
             #print(k,v)
         #print("children_list:")
-        out+="children_list:"
-        for aitem in self.children_list:
+        #out+="children_list:"
+        #for aitem in self.children_list:
             #print(aitem)
-            out+=aitem[1]+" ,"
-            children_edge+=self.thread_id+"->"+aitem[1]+"[lable=\""+aitem[0]+"\"];\\n"
+        #    out+=aitem[1]+" ,"
+        #    children_edge+=self.thread_id+"->"+aitem[1]+"[lable=\""+aitem[0]+"\"];\\n"
         #out+="\""
         #print("exit_code:",self.exit_code)
         if(self.exit_code):
