@@ -56,13 +56,15 @@ class Thread_Info_Record:
             #print(aitem)
             out+=aitem[1]+" ,"
             children_edge+=self.thread_id+"->"+aitem[1]+"[lable=\""+aitem[0]+"\"];\\n"
-        out+="\""
+        #out+="\""
         #print("exit_code:",self.exit_code)
         if(self.exit_code):
-            out+="exit_code:"+self.exit_code[0]+":"+self.exit_code[1]
-            if(self.exit_code  [1]!="\"0\""):
-                #print("shape=\"record\",color=\"red\"")
-                out+=", shape=\"record\",color=\"red\""
+            out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
+        out+="\""
+
+        if(self.exit_code and self.exit_code  [1]!="\"0\""):
+            #print("shape=\"record\",color=\"red\"")
+            out+=", shape=\"record\",color=\"red\""
         #print("]")
         out+="];"
         #out=out.replace("\"","\\\"")
