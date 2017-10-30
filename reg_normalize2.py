@@ -49,8 +49,13 @@ exit_with_ptn_cpmiled=re.compile(exit_with_ptn)
 signal_syscall_ptn=r'(\d+)(\s*,\s*)(\d+)(\s+)(([^,\s]+\s*)+)(\s*,\s*)(\-\-\-)(\s+)(\S+)(\s+)((\{)([^\{\}]+)(\}))(\s+)(\-\-\-)'
 signal_syscall_ptn_cmpiled=re.compile(signal_syscall_ptn)
 
-detach_syscall_ptn=r'(\d+)(\s*,\s*)(\d+)(\s+)(([^,\s]+\s*)+)(\s*,\s*)([^\(]+)(\()(.*)\<detached \.\.\.\>'
+detach_syscall_ptn=r'(\d+)(\s*,\s*)(\d+)(\s+)(([^,\s]+\s*)+)(\s*,\s*)([^\(]+)(\()(.*)\<(detached|unfinished) \.\.\.\>'
 detach_syscall_ptn_cmpiled=re.compile(detach_syscall_ptn)
+
+sigterm_ptn=r'(\d+)(\s*,\s*)(\d+)(\s+)(([^,\s]+\s*)+)(\s*,\s*)(\+\+\+)( killed by SIGTERM )(\+\+\+)'
+sigterm_ptn_cmpiled=re.compile(sigterm_ptn)
+
+
 
 syscall_record={}
 
@@ -64,6 +69,7 @@ while True:
     result2=exit_with_ptn_cpmiled.match(line)
     result3=signal_syscall_ptn_cmpiled.match(line)
     result4=detach_syscall_ptn_cmpiled.match(line)
+    result5=sigterm_ptn_cmpiled.match(line)
     aSyscall_Record=Syscall_Record()
     if result1 :
 #        print("normal_syscall")
@@ -107,6 +113,8 @@ while True:
         aSyscall_Record.thread_id=translate(result4.group(3)).strip()
         aSyscall_Record.thread_name="\""+translate(result4.group(5)).strip()+"\""
         aSyscall_Record.syscall_name="\""+translate(result4.group(8)).strip()+"\""       
+    elif result5:
+        pass
     else: 
         print("error pattern")
         print(line)

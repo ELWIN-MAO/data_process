@@ -110,12 +110,14 @@ def get_sycall_record(line ) :
         return aSyscall_Record
 
 
-
+#linecount=0
         
 while True:
     line=log.readline()
     if not line : break 
-    #print("line:",line)
+    #linecount+=1
+    #print(line)
+    #print("linecount:"+str(linecount))
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
