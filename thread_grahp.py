@@ -79,7 +79,7 @@ class Thread_Info_Record:
         children_edge=""
         for aitem in self.children_list:
             #print(aitem)
-            children_edge+=self.thread_id+" -> "+aitem[1]+"   [lable=\""+aitem[0]+"\"];\n"
+            children_edge+=self.thread_id+" -> "+aitem[1]+"   [label=\""+aitem[0]+"\"];\n"
         print(children_edge) 
 
 thread_info_list=[]
