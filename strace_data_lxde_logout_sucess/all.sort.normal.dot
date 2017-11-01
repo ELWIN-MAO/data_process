@@ -1,0 +1,47 @@
+digraph abc{
+27892   [label="thread_id:27892\nthread_name_list:\"gdbus\""];
+27929   [label="thread_id:27929\nthread_name_list:\"menu-cache-io\""];
+27894   [label="thread_id:27894\nthread_name_list:\"dconf worker\""];
+27891   [label="thread_id:27891\nthread_name_list:\"gmain\""];
+27887   [label="thread_id:27887\nthread_name_list:\"lxpanel\""];
+58424   [label="thread_id:58424\nthread_name_list:\"lxpanel\"\nexit_code:430:\"0\""];
+58425   [label="thread_id:58425\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:8668:\"0\""];
+58426   [label="thread_id:58426\nthread_name_list:\"lxpanel\",\"pool\",\"NULL\"\nexit_code:3017:\"0\""];
+58427   [label="thread_id:58427\nthread_name_list:\"gdbus\",\"pool\""];
+58428   [label="thread_id:58428\nthread_name_list:\"lxde-logout\",\"lxsession-logou\",\"NULL\"\nexit_code:8660:\"0\""];
+58429   [label="thread_id:58429\nthread_name_list:\"lxsession-logou\",\"gmain\",\"NULL\""];
+58430   [label="thread_id:58430\nthread_name_list:\"lxsession-logou\",\"gdbus\",\"NULL\""];
+58431   [label="thread_id:58431\nthread_name_list:\"lxsession-logou\",\"dconf worker\",\"NULL\""];
+58432   [label="thread_id:58432\nthread_name_list:\"lxsession-logou\",\"lsb_release\"\nexit_code:4820:\"0\""];
+58433   [label="thread_id:58433\nthread_name_list:\"lxpanel\",\"sh\"\nexit_code:7974:\"0\""];
+58434   [label="thread_id:58434\nthread_name_list:\"sh\",\"cat\"\nexit_code:7970:\"0\""];
+"None"   [label="thread_id:"None"\nthread_name_list:\"None\""];
+27892 -> 58427   [label="492"];
+
+
+
+
+27887 -> 58424   [label="415"];
+27887 -> 58426   [label="479"];
+27887 -> 58433   [label="7812"];
+
+58424 -> 58425   [label="426"];
+
+58425 -> 58428   [label="581"];
+
+
+
+58428 -> 58429   [label="1928"];
+58428 -> 58430   [label="1947"];
+58428 -> 58431   [label="2304"];
+58428 -> 58432   [label="3698"];
+
+
+
+
+
+58433 -> 58434   [label="7900"];
+
+
+
+}

@@ -71,6 +71,7 @@ while True:
     result4=detach_syscall_ptn_cmpiled.match(line)
     result5=sigterm_ptn_cmpiled.match(line)
     aSyscall_Record=Syscall_Record()
+    flag=0
     if result1 :
 #        print("normal_syscall")
 #        print(result1.group(1),result1.group(3),result1.group(5),result1.group(8),result1.group(10),result1.group(14),result1.group(20),result1.group(23),result1.group(26))
@@ -114,8 +115,10 @@ while True:
         aSyscall_Record.thread_name="\""+translate(result4.group(5)).strip()+"\""
         aSyscall_Record.syscall_name="\""+translate(result4.group(8)).strip()+"\""       
     elif result5:
-        pass
+        flag=2
+        #flag=2 means pass
     else: 
         print("error pattern")
         print(line)
-    aSyscall_Record.print_str()
+    if (flag!=2):
+        aSyscall_Record.print_str()
