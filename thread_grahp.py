@@ -15,6 +15,7 @@ log=sys.stdin
 class Thread_Info_Record:
     def __init__(self):
         self.thread_id=None
+        self.process_id=None
         self.thread_name_list=[]
         self.execve_list=[]            
         self.children_list=[]
@@ -68,6 +69,8 @@ class Thread_Info_Record:
             #print("shape=\"record\",color=\"red\"")
             out+=", shape=\"record\",color=\"red\""
         #print("]")
+        if(self.thread_id==self.process_id):
+            out+=", style = filled "
         out+="];"
         #out=out.replace("\"","\\\"")
         print(out)
@@ -83,6 +86,8 @@ class Thread_Info_Record:
         print(children_edge) 
 
 thread_info_list=[]
+process_info_dic={}
+## process_info_list["pid1"]=[list of pid1's threads]
         
 
 def get_thread_info_record(athread_id):
@@ -118,10 +123,14 @@ while True:
     #linecount+=1
     #print(line)
     #print("linecount:"+str(linecount))
+    aprocess_record={}
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
     if(aSyscall_Record["type"]!="2"):
+        aThread_Info_Record.process_id=aSyscall_Record["process_id"]
+        aprocess_record["process_id"].append[tid]
+        ##record aproces contain which tids
         if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
             aThread_Info_Record.thread_name_list.append(aSyscall_Record["thread_name"])
     if(aSyscall_Record["type"]=="1"):
