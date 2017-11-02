@@ -1,7 +1,3 @@
-1 , 31148 , 31090 , menu-cache-io , read(13<UNIX:[295019->295020]>,  <detached ...>
-2 , 31136 , 31090 , dconf worker , restart_syscall(<... resuming interrupted poll ...> <detached ...>
-3 , 31127 , 31090 , gdbus , restart_syscall(<... resuming interrupted poll ...>) = 1
-4 , 31126 , 31090 , gmain , restart_syscall(<... resuming interrupted poll ...> <detached ...>
 5 , 31090 , 31090 , lxpanel , restart_syscall(<... resuming interrupted poll ...>) = 0
 6 , 31090 , 31090 , lxpanel , open("/proc/stat", O_RDONLY) = 12</proc/stat>
 7 , 31090 , 31090 , lxpanel , fstat(12</proc/stat>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
@@ -836,190 +832,54 @@
 836 , 31090 , 31090 , lxpanel , pipe2([12<pipe:[297253]>, 14<pipe:[297253]>], 0) = 0
 837 , 31090 , 31090 , lxpanel , pipe2([15<pipe:[297254]>, 16<pipe:[297254]>], 0) = 0
 838 , 31090 , 31090 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31292
-839 , 31292 , 31292 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
 840 , 31090 , 31090 , lxpanel , close(14<pipe:[297253]>) = 0
 841 , 31090 , 31090 , lxpanel , close(16<pipe:[297254]>) = 0
 842 , 31090 , 31090 , lxpanel , wait4(31292, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 31292
-843 , 31292 , 31292 , lxpanel , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-844 , 31292 , 31292 , lxpanel , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-845 , 31292 , 31292 , lxpanel , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-846 , 31292 , 31292 , lxpanel , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-847 , 31292 , 31292 , lxpanel , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, 8) = 0
-848 , 31292 , 31292 , lxpanel , close(12<pipe:[297253]>) = 0
-849 , 31292 , 31292 , lxpanel , close(15<pipe:[297254]>) = 0
-850 , 31292 , 31292 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31293
-851 , 31292 , 31292 , lxpanel , write(16<pipe:[297254]>, "=z\0\0", 4) = 4
-852 , 31292 , 31292 , lxpanel , close(16<pipe:[297254]>) = 0
-853 , 31293 , 31293 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
-854 , 31292 , 31292 , lxpanel , exit_group(0) = ?
-855 , 31293 , 31293 , lxpanel , close(16<pipe:[297254]>) = 0
-856 , 31293 , 31293 , lxpanel , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12</proc/31293/fd>
-857 , 31292 , 31292 , lxpanel , +++ exited with 0 +++
-858 , 31293 , 31293 , lxpanel , fstat(12</proc/31293/fd>, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
 859 , 31090 , 31090 , lxpanel , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31292, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-860 , 31293 , 31293 , lxpanel , getdents(12</proc/31293/fd>, /* 17 entries */, 32768) = 408
 861 , 31090 , 31090 , lxpanel , read(12<pipe:[297253]>, "", 8) = 0
-862 , 31293 , 31293 , lxpanel , fcntl(3<UNIX:[294552->294566]>, F_SETFD, FD_CLOEXEC) = 0
-863 , 31293 , 31293 , lxpanel , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-864 , 31293 , 31293 , lxpanel , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-865 , 31293 , 31293 , lxpanel , fcntl(6<UNIX:[294578->294973]>, F_SETFD, FD_CLOEXEC) = 0
-866 , 31293 , 31293 , lxpanel , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-867 , 31293 , 31293 , lxpanel , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-868 , 31293 , 31293 , lxpanel , fcntl(9<UNIX:[294584->294585]>, F_SETFD, FD_CLOEXEC) = 0
-869 , 31293 , 31293 , lxpanel , fcntl(10<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-870 , 31293 , 31293 , lxpanel , fcntl(11<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
-871 , 31293 , 31293 , lxpanel , fcntl(13<UNIX:[295019->295020]>, F_SETFD, FD_CLOEXEC) = 0
-872 , 31293 , 31293 , lxpanel , fcntl(14<pipe:[297253]>, F_SETFD, FD_CLOEXEC) = 0
-873 , 31293 , 31293 , lxpanel , getdents(12</proc/31293/fd>, /* 0 entries */, 32768) = 0
-874 , 31293 , 31293 , lxpanel , close(12</proc/31293/fd>) = 0
-875 , 31293 , 31293 , lxpanel , open("/dev/null", O_RDONLY) = 12</dev/null>
-876 , 31293 , 31293 , lxpanel , dup2(12</dev/null>, 0</dev/null>) = 0</dev/null>
-877 , 31293 , 31293 , lxpanel , close(12</dev/null>) = 0
-878 , 31293 , 31293 , lxpanel , execve("/usr/local/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-879 , 31293 , 31293 , lxpanel , execve("/usr/local/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-880 , 31293 , 31293 , lxpanel , execve("/usr/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-881 , 31293 , 31293 , lxpanel , execve("/usr/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = 0
-882 , 31293 , 31293 , lxde-logout , brk(NULL) = 0x555e1aaf1000
 883 , 31090 , 31090 , lxpanel , read(15<pipe:[297254]>, "=z\0\0", 4) = 4
-884 , 31293 , 31293 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
 885 , 31090 , 31090 , lxpanel , read(15<pipe:[297254]>, "", 0) = 0
-886 , 31293 , 31293 , lxde-logout , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd9e9924000
 887 , 31090 , 31090 , lxpanel , close(12<pipe:[297253]>) = 0
-888 , 31293 , 31293 , lxde-logout , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
 889 , 31090 , 31090 , lxpanel , close(15<pipe:[297254]>) = 0
-890 , 31293 , 31293 , lxde-logout , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
-891 , 31293 , 31293 , lxde-logout , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
 892 , 31090 , 31090 , lxpanel , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-893 , 31293 , 31293 , lxde-logout , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fd9e9904000
-894 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-895 , 31293 , 31293 , lxde-logout , close(3</etc/ld.so.cache>) = 0
 896 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 1
-897 , 31293 , 31293 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
-898 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-899 , 31293 , 31293 , lxde-logout , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
-900 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-901 , 31293 , 31293 , lxde-logout , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
-902 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
 903 , 31090 , 31090 , lxpanel , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 1
-904 , 31293 , 31293 , lxde-logout , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
-905 , 31293 , 31293 , lxde-logout , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fd9e9337000
-906 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 0
-907 , 31127 , 31090 , gdbus , futex(0x55a273bd1038, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-908 , 31293 , 31293 , lxde-logout , mprotect(0x7fd9e94f7000, 2097152, PROT_NONE) = 0
 909 , 31090 , 31090 , lxpanel , futex(0x55a273bd1038, FUTEX_WAKE_PRIVATE, 1) = 1
-910 , 31293 , 31293 , lxde-logout , mmap(0x7fd9e96f7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fd9e96f7000
-911 , 31127 , 31090 , gdbus , futex(0x55a273bd1038, FUTEX_WAKE_PRIVATE, 1) = 0
-912 , 31293 , 31293 , lxde-logout , mmap(0x7fd9e96fd000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd9e96fd000
-913 , 31127 , 31090 , gdbus , sendmsg(6<UNIX:[294578->294973]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\n\0\0\0{\0\0\0\10\1g\0\vaysxasa{sv}"..., 248}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 248
 914 , 31090 , 31090 , lxpanel , clone(child_stack=0x7f7205f1dcf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7205f1e9d0, tls=0x7f7205f1e700, child_tidptr=0x7f7205f1e9d0) = 31294
-915 , 31293 , 31293 , lxde-logout , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
-916 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
-917 , 31294 , 31090 , lxpanel , set_robust_list(0x7f7205f1e9e0, 24) = 0
-918 , 31293 , 31293 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd9e9903000
-919 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, 0x7f7207b06af0, 16) = -1 EAGAIN (Resource temporarily unavailable)
 920 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-921 , 31294 , 31090 , lxpanel , prctl(PR_SET_NAME, "pool\0U\0\0ON_PID=3") = 0
-922 , 31293 , 31293 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd9e9902000
-923 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-924 , 31294 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-925 , 31293 , 31293 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd9e9901000
-926 , 31294 , 31090 , pool , futex(0x7f71f00016f0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
 927 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-928 , 31293 , 31293 , lxde-logout , arch_prctl(ARCH_SET_FS, 0x7fd9e9902700) = 0
-929 , 31127 , 31090 , gdbus , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f71eabf8000
-930 , 31127 , 31090 , gdbus , mprotect(0x7f71eabf8000, 4096, PROT_NONE) = 0
 931 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
-932 , 31127 , 31090 , gdbus , clone(child_stack=0x7f71eb3f7cf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f71eb3f89d0, tls=0x7f71eb3f8700, child_tidptr=0x7f71eb3f89d0) = 31295
 933 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-934 , 31293 , 31293 , lxde-logout , mprotect(0x7fd9e96f7000, 16384, PROT_READ) = 0
-935 , 31295 , 31090 , gdbus , set_robust_list(0x7f71eb3f89e0, 24) = 0
 936 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffdf5c53a70, 16) = -1 EAGAIN (Resource temporarily unavailable)
-937 , 31293 , 31293 , lxde-logout , mprotect(0x555e19286000, 8192, PROT_READ) = 0
-938 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-939 , 31295 , 31090 , gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0)\0\0\0r\177\0\0") = 0
-940 , 31293 , 31293 , lxde-logout , mprotect(0x7fd9e9926000, 4096, PROT_READ) = 0
-941 , 31295 , 31090 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f71e2bf8000
-942 , 31293 , 31293 , lxde-logout , munmap(0x7fd9e9904000, 129195) = 0
-943 , 31295 , 31090 , pool , munmap(0x7f71e2bf8000, 21004288) = 0
 944 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-945 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-946 , 31293 , 31293 , lxde-logout , getuid() = 1000
-947 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-948 , 31295 , 31090 , pool , munmap(0x7f71e8000000, 46104576) = 0
 949 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-950 , 31293 , 31293 , lxde-logout , getgid() = 1000
-951 , 31295 , 31090 , pool , mprotect(0x7f71e4000000, 139264, PROT_READ|PROT_WRITE) = 0
-952 , 31293 , 31293 , lxde-logout , getpid() = 31293
 953 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-954 , 31295 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-955 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGCHLD, {0x555e1907a540, ~[RTMIN RT_1], SA_RESTORER, 0x7fd9e936c4b0}, NULL, 8) = 0
-956 , 31293 , 31293 , lxde-logout , geteuid() = 1000
-957 , 31295 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998704}) = -1 ETIMEDOUT (Connection timed out)
-958 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
 959 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-960 , 31293 , 31293 , lxde-logout , brk(NULL) = 0x555e1aaf1000
-961 , 31127 , 31090 , gdbus , futex(0x7f7210aa7428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
-962 , 31293 , 31293 , lxde-logout , brk(0x555e1ab12000) = 0x555e1ab12000
 963 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-964 , 31127 , 31090 , gdbus , futex(0x7f71f00016f0, FUTEX_WAKE_PRIVATE, 1) = 1
-965 , 31293 , 31293 , lxde-logout , getppid() = 1
 966 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-967 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-968 , 31294 , 31090 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-969 , 31293 , 31293 , lxde-logout , stat("/home/elwin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-970 , 31294 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998915}) = -1 ETIMEDOUT (Connection timed out)
-971 , 31293 , 31293 , lxde-logout , stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 972 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-973 , 31293 , 31293 , lxde-logout , open("/usr/bin/lxde-logout", O_RDONLY) = 3</usr/bin/lxde-logout>
 974 , 31090 , 31090 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-975 , 31293 , 31293 , lxde-logout , fcntl(3</usr/bin/lxde-logout>, F_DUPFD, 10) = 10</usr/bin/lxde-logout>
 976 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-977 , 31293 , 31293 , lxde-logout , close(3</usr/bin/lxde-logout>) = 0
-978 , 31293 , 31293 , lxde-logout , fcntl(10</usr/bin/lxde-logout>, F_SETFD, FD_CLOEXEC) = 0
 979 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"\2\0\4\0005\1`\1\0@\0\0\0\0\0\0$\0\1\0&\0\2\0%\2\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
-980 , 31293 , 31293 , lxde-logout , geteuid() = 1000
 981 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-982 , 31293 , 31293 , lxde-logout , getegid() = 1000
-983 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
 984 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\235\v\0\0\0\0%\2\0\0.\1@\0018\0\326\0028\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-985 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGINT, {0x555e1907a540, ~[RTMIN RT_1], SA_RESTORER, 0x7fd9e936c4b0}, NULL, 8) = 0
 986 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-987 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
 988 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-989 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fd9e936c4b0}, NULL, 8) = 0
 990 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-991 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
-992 , 31293 , 31293 , lxde-logout , rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fd9e936c4b0}, NULL, 8) = 0
 993 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"&\0\2\0.\1@\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
-994 , 31293 , 31293 , lxde-logout , read(10</usr/bin/lxde-logout>, "#!/bin/sh\nlxsession-logout --ban"..., 8192) = 90
 995 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-996 , 31293 , 31293 , lxde-logout , stat("/usr/local/sbin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 997 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\236\v\0\0\0\0%\2\0\0\3\0 \0018\0\326\0028\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-998 , 31293 , 31293 , lxde-logout , stat("/usr/local/bin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
-999 , 31293 , 31293 , lxde-logout , stat("/usr/sbin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1000 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-1001 , 31293 , 31293 , lxde-logout , stat("/usr/bin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1002 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-1003 , 31293 , 31293 , lxde-logout , stat("/sbin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1004 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-1005 , 31293 , 31293 , lxde-logout , stat("/bin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1006 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"&\0\2\0\3\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
-1007 , 31293 , 31293 , lxde-logout , stat("/usr/games/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1008 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-1009 , 31293 , 31293 , lxde-logout , stat("/usr/local/games/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1010 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\237\v\0\0\0\0%\2\0\0\0\0\0\0008\0\326\0028\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-1011 , 31293 , 31293 , lxde-logout , stat("/snap/bin/lxsession-logout", 0x7ffeb59d9180) = -1 ENOENT (No such file or directory)
 1012 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-1013 , 31293 , 31293 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "/usr/bin/lxde-logout: 2: /usr/bi"..., 47) = 47
 1014 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-1015 , 31293 , 31293 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "lxsession-logout: not found", 27) = 27
 1016 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-1017 , 31293 , 31293 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "\n", 1) = 1
 1018 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"%\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
-1019 , 31293 , 31293 , lxde-logout , read(10</usr/bin/lxde-logout>, "", 8192) = 0
 1020 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c53550, 0) = -1 EAGAIN (Resource temporarily unavailable)
-1021 , 31293 , 31293 , lxde-logout , exit_group(127) = ?
-1022 , 31293 , 31293 , lxde-logout , +++ exited with 127 +++
 1023 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
 1024 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"&\0\2\0005\1`\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
 1025 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
@@ -1047,10 +907,6 @@
 1047 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
 1048 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c538c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 1049 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 516) = 0 (Timeout)
-1050 , 31295 , 31090 , pool , futex(0x55a273bdd5e0, FUTEX_WAIT_PRIVATE, 0, {9, 999999458}) = 0
-1051 , 31294 , 31090 , pool , madvise(0x7f720571e000, 8368128, MADV_DONTNEED) = 0
-1052 , 31294 , 31090 , pool , exit(0)   = ?
-1053 , 31294 , 0 , NULL , +++ exited with 0 +++
 1054 , 31090 , 31090 , lxpanel , open("/proc/stat", O_RDONLY) = 12</proc/stat>
 1055 , 31090 , 31090 , lxpanel , fstat(12</proc/stat>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
 1056 , 31090 , 31090 , lxpanel , read(12</proc/stat>, "cpu  353540 13332 259196 4386139"..., 1024) = 1024
@@ -1786,171 +1642,32 @@
 1786 , 31090 , 31090 , lxpanel , pipe2([12<pipe:[299343]>, 14<pipe:[299343]>], 0) = 0
 1787 , 31090 , 31090 , lxpanel , pipe2([15<pipe:[299344]>, 16<pipe:[299344]>], 0) = 0
 1788 , 31090 , 31090 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31451
-1789 , 31451 , 31451 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
 1790 , 31090 , 31090 , lxpanel , close(14<pipe:[299343]>) = 0
 1791 , 31090 , 31090 , lxpanel , close(16<pipe:[299344]>) = 0
 1792 , 31090 , 31090 , lxpanel , wait4(31451, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 31451
-1793 , 31451 , 31451 , lxpanel , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-1794 , 31451 , 31451 , lxpanel , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-1795 , 31451 , 31451 , lxpanel , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-1796 , 31451 , 31451 , lxpanel , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-1797 , 31451 , 31451 , lxpanel , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, 8) = 0
-1798 , 31451 , 31451 , lxpanel , close(12<pipe:[299343]>) = 0
-1799 , 31451 , 31451 , lxpanel , close(15<pipe:[299344]>) = 0
-1800 , 31451 , 31451 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31452
-1801 , 31452 , 31452 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
-1802 , 31451 , 31451 , lxpanel , write(16<pipe:[299344]>, "\334z\0\0", 4) = 4
-1803 , 31451 , 31451 , lxpanel , close(16<pipe:[299344]>) = 0
-1804 , 31452 , 31452 , lxpanel , close(16<pipe:[299344]>) = 0
-1805 , 31451 , 31451 , lxpanel , exit_group(0) = ?
-1806 , 31452 , 31452 , lxpanel , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12</proc/31452/fd>
-1807 , 31452 , 31452 , lxpanel , fstat(12</proc/31452/fd>, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
-1808 , 31451 , 31451 , lxpanel , +++ exited with 0 +++
 1809 , 31090 , 31090 , lxpanel , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31451, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-1810 , 31452 , 31452 , lxpanel , getdents(12</proc/31452/fd>, /* 17 entries */, 32768) = 408
 1811 , 31090 , 31090 , lxpanel , read(12<pipe:[299343]>, "", 8) = 0
-1812 , 31452 , 31452 , lxpanel , fcntl(3<UNIX:[294552->294566]>, F_SETFD, FD_CLOEXEC) = 0
-1813 , 31452 , 31452 , lxpanel , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-1814 , 31452 , 31452 , lxpanel , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-1815 , 31452 , 31452 , lxpanel , fcntl(6<UNIX:[294578->294973]>, F_SETFD, FD_CLOEXEC) = 0
-1816 , 31452 , 31452 , lxpanel , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-1817 , 31452 , 31452 , lxpanel , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-1818 , 31452 , 31452 , lxpanel , fcntl(9<UNIX:[294584->294585]>, F_SETFD, FD_CLOEXEC) = 0
-1819 , 31452 , 31452 , lxpanel , fcntl(10<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-1820 , 31452 , 31452 , lxpanel , fcntl(11<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
-1821 , 31452 , 31452 , lxpanel , fcntl(13<UNIX:[295019->295020]>, F_SETFD, FD_CLOEXEC) = 0
-1822 , 31452 , 31452 , lxpanel , fcntl(14<pipe:[299343]>, F_SETFD, FD_CLOEXEC) = 0
-1823 , 31452 , 31452 , lxpanel , getdents(12</proc/31452/fd>, /* 0 entries */, 32768) = 0
-1824 , 31452 , 31452 , lxpanel , close(12</proc/31452/fd>) = 0
-1825 , 31452 , 31452 , lxpanel , open("/dev/null", O_RDONLY) = 12</dev/null>
-1826 , 31452 , 31452 , lxpanel , dup2(12</dev/null>, 0</dev/null>) = 0</dev/null>
-1827 , 31452 , 31452 , lxpanel , close(12</dev/null>) = 0
-1828 , 31452 , 31452 , lxpanel , execve("/usr/local/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-1829 , 31452 , 31452 , lxpanel , execve("/usr/local/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-1830 , 31452 , 31452 , lxpanel , execve("/usr/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-1831 , 31452 , 31452 , lxpanel , execve("/usr/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = 0
-1832 , 31452 , 31452 , lxde-logout , brk(NULL) = 0x55615d202000
-1833 , 31452 , 31452 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
-1834 , 31452 , 31452 , lxde-logout , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ca7747000
-1835 , 31452 , 31452 , lxde-logout , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
-1836 , 31452 , 31452 , lxde-logout , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
-1837 , 31452 , 31452 , lxde-logout , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
-1838 , 31452 , 31452 , lxde-logout , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f3ca7727000
-1839 , 31452 , 31452 , lxde-logout , close(3</etc/ld.so.cache>) = 0
-1840 , 31452 , 31452 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
-1841 , 31452 , 31452 , lxde-logout , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
-1842 , 31452 , 31452 , lxde-logout , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
-1843 , 31452 , 31452 , lxde-logout , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
-1844 , 31452 , 31452 , lxde-logout , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f3ca715a000
-1845 , 31452 , 31452 , lxde-logout , mprotect(0x7f3ca731a000, 2097152, PROT_NONE) = 0
-1846 , 31452 , 31452 , lxde-logout , mmap(0x7f3ca751a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f3ca751a000
-1847 , 31452 , 31452 , lxde-logout , mmap(0x7f3ca7520000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3ca7520000
-1848 , 31452 , 31452 , lxde-logout , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
-1849 , 31452 , 31452 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ca7726000
-1850 , 31452 , 31452 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ca7725000
-1851 , 31452 , 31452 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3ca7724000
-1852 , 31452 , 31452 , lxde-logout , arch_prctl(ARCH_SET_FS, 0x7f3ca7725700) = 0
-1853 , 31452 , 31452 , lxde-logout , mprotect(0x7f3ca751a000, 16384, PROT_READ) = 0
-1854 , 31452 , 31452 , lxde-logout , mprotect(0x55615d15d000, 8192, PROT_READ) = 0
-1855 , 31452 , 31452 , lxde-logout , mprotect(0x7f3ca7749000, 4096, PROT_READ) = 0
-1856 , 31452 , 31452 , lxde-logout , munmap(0x7f3ca7727000, 129195) = 0
-1857 , 31452 , 31452 , lxde-logout , getuid() = 1000
-1858 , 31452 , 31452 , lxde-logout , getgid() = 1000
-1859 , 31452 , 31452 , lxde-logout , getpid() = 31452
-1860 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGCHLD, {0x55615cf51540, ~[RTMIN RT_1], SA_RESTORER, 0x7f3ca718f4b0}, NULL, 8) = 0
-1861 , 31452 , 31452 , lxde-logout , geteuid() = 1000
-1862 , 31452 , 31452 , lxde-logout , brk(NULL) = 0x55615d202000
-1863 , 31452 , 31452 , lxde-logout , brk(0x55615d223000) = 0x55615d223000
-1864 , 31452 , 31452 , lxde-logout , getppid() = 1
-1865 , 31452 , 31452 , lxde-logout , stat("/home/elwin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-1866 , 31452 , 31452 , lxde-logout , stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-1867 , 31452 , 31452 , lxde-logout , open("/usr/bin/lxde-logout", O_RDONLY) = 3</usr/bin/lxde-logout>
-1868 , 31452 , 31452 , lxde-logout , fcntl(3</usr/bin/lxde-logout>, F_DUPFD, 10) = 10</usr/bin/lxde-logout>
-1869 , 31452 , 31452 , lxde-logout , close(3</usr/bin/lxde-logout>) = 0
-1870 , 31452 , 31452 , lxde-logout , fcntl(10</usr/bin/lxde-logout>, F_SETFD, FD_CLOEXEC) = 0
-1871 , 31452 , 31452 , lxde-logout , geteuid() = 1000
-1872 , 31452 , 31452 , lxde-logout , getegid() = 1000
-1873 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
-1874 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGINT, {0x55615cf51540, ~[RTMIN RT_1], SA_RESTORER, 0x7f3ca718f4b0}, NULL, 8) = 0
-1875 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
-1876 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7f3ca718f4b0}, NULL, 8) = 0
-1877 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
-1878 , 31452 , 31452 , lxde-logout , rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7f3ca718f4b0}, NULL, 8) = 0
-1879 , 31452 , 31452 , lxde-logout , read(10</usr/bin/lxde-logout>, "#!/bin/sh\nlxsession-logout --ban"..., 8192) = 90
-1880 , 31452 , 31452 , lxde-logout , stat("/usr/local/sbin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1881 , 31452 , 31452 , lxde-logout , stat("/usr/local/bin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1882 , 31452 , 31452 , lxde-logout , stat("/usr/sbin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1883 , 31452 , 31452 , lxde-logout , stat("/usr/bin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1884 , 31452 , 31452 , lxde-logout , stat("/sbin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1885 , 31452 , 31452 , lxde-logout , stat("/bin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1886 , 31452 , 31452 , lxde-logout , stat("/usr/games/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1887 , 31452 , 31452 , lxde-logout , stat("/usr/local/games/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1888 , 31452 , 31452 , lxde-logout , stat("/snap/bin/lxsession-logout", 0x7ffcc5fbf6a0) = -1 ENOENT (No such file or directory)
-1889 , 31452 , 31452 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "/usr/bin/lxde-logout: 2: /usr/bi"..., 47) = 47
-1890 , 31452 , 31452 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "lxsession-logout: not found", 27) = 27
-1891 , 31452 , 31452 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "\n", 1) = 1
-1892 , 31452 , 31452 , lxde-logout , read(10</usr/bin/lxde-logout>, "", 8192) = 0
-1893 , 31452 , 31452 , lxde-logout , exit_group(127) = ?
-1894 , 31452 , 31452 , lxde-logout , +++ exited with 127 +++
 1895 , 31090 , 31090 , lxpanel , read(15<pipe:[299344]>, "\334z\0\0", 4) = 4
 1896 , 31090 , 31090 , lxpanel , read(15<pipe:[299344]>, "", 0) = 0
 1897 , 31090 , 31090 , lxpanel , close(12<pipe:[299343]>) = 0
 1898 , 31090 , 31090 , lxpanel , close(15<pipe:[299344]>) = 0
 1899 , 31090 , 31090 , lxpanel , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-1900 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
 1901 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-1902 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
 1903 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-1904 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 1
 1905 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-1906 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
 1907 , 31090 , 31090 , lxpanel , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 1
-1908 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 0
 1909 , 31090 , 31090 , lxpanel , futex(0x55a273bdd5e0, FUTEX_WAKE_PRIVATE, 1) = 1
-1910 , 31295 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-1911 , 31127 , 31090 , gdbus , sendmsg(6<UNIX:[294578->294973]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\v\0\0\0{\0\0\0\10\1g\0\vaysxasa{sv}"..., 248}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 248
 1912 , 31090 , 31090 , lxpanel , futex(0x55a273bdd5d0, FUTEX_WAKE_PRIVATE, 1) = 0
-1913 , 31295 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAKE_PRIVATE, 1) = 0
-1914 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
-1915 , 31295 , 31090 , pool , futex(0x55a273bdd580, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-1916 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, 0x7f7207b06af0, 16) = -1 EAGAIN (Resource temporarily unavailable)
 1917 , 31090 , 31090 , lxpanel , futex(0x55a273bdd580, FUTEX_WAKE_PRIVATE, 1) = 1
-1918 , 31295 , 31090 , pool , futex(0x55a273bdd580, FUTEX_WAKE_PRIVATE, 1) = 0
-1919 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
 1920 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-1921 , 31295 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-1922 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-1923 , 31295 , 31090 , pool , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
 1924 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-1925 , 31295 , 31090 , pool , futex(0x7f71e4001170, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
-1926 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-1927 , 31127 , 31090 , gdbus , clone(child_stack=0x7f7205f1dcf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7205f1e9d0, tls=0x7f7205f1e700, child_tidptr=0x7f7205f1e9d0) = 31453
 1928 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
-1929 , 31453 , 31090 , gdbus , set_robust_list(0x7f7205f1e9e0, 24) = 0
-1930 , 31453 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
 1931 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-1932 , 31127 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAKE_PRIVATE, 1) = 1
 1933 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffdf5c53a70, 16) = -1 EAGAIN (Resource temporarily unavailable)
-1934 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-1935 , 31453 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAKE_PRIVATE, 1) = 0
 1936 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-1937 , 31453 , 31090 , gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0\270\0\0\0r\177\0\0") = 0
-1938 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-1939 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-1940 , 31453 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
 1941 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-1942 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-1943 , 31453 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998706}) = -1 ETIMEDOUT (Connection timed out)
 1944 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-1945 , 31127 , 31090 , gdbus , futex(0x7f71e4001170, FUTEX_WAKE_PRIVATE, 1) = 1
-1946 , 31295 , 31090 , pool , futex(0x7f71e4001160, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-1947 , 31127 , 31090 , gdbus , futex(0x7f71e4001160, FUTEX_WAKE_PRIVATE, 1) = 0
-1948 , 31295 , 31090 , pool , futex(0x7f71e4001160, FUTEX_WAKE_PRIVATE, 1) = 0
-1949 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-1950 , 31295 , 31090 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
 1951 , 31090 , 31090 , lxpanel , futex(0x55a273bac410, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-1952 , 31295 , 31090 , pool , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 1
-1953 , 31295 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499999144}) = -1 ETIMEDOUT (Connection timed out)
 1954 , 31090 , 31090 , lxpanel , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 0
 1955 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
 1956 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
@@ -2007,10 +1724,6 @@
 2007 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
 2008 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c538c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2009 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 1104) = 1 ([{fd=3, revents=POLLIN}])
-2010 , 31453 , 31090 , pool , futex(0x55a273bdd5e0, FUTEX_WAIT_PRIVATE, 1, {9, 999998407}) = 0
-2011 , 31295 , 31090 , pool , madvise(0x7f71eabf8000, 8368128, MADV_DONTNEED) = 0
-2012 , 31295 , 31090 , pool , exit(0)   = ?
-2013 , 31295 , 0 , NULL , +++ exited with 0 +++
 2014 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\7\3_\r4\312c\r%\2\0\0\36\0`\1\0\0\0\0\v\0\346\2\v\0\0\0\0\0\0\2"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
 2015 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c538e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2016 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
@@ -2519,192 +2232,56 @@
 2519 , 31090 , 31090 , lxpanel , pipe2([15<pipe:[299867]>, 16<pipe:[299867]>], 0) = 0
 2520 , 31090 , 31090 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31492
 2521 , 31090 , 31090 , lxpanel , close(14<pipe:[299866]>) = 0
-2522 , 31492 , 31492 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
 2523 , 31090 , 31090 , lxpanel , close(16<pipe:[299867]>) = 0
-2524 , 31492 , 31492 , lxpanel , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
 2525 , 31090 , 31090 , lxpanel , wait4(31492, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 31492
-2526 , 31492 , 31492 , lxpanel , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-2527 , 31492 , 31492 , lxpanel , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-2528 , 31492 , 31492 , lxpanel , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_DFL, [], 0}, 8) = 0
-2529 , 31492 , 31492 , lxpanel , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f720feab4b0}, 8) = 0
-2530 , 31492 , 31492 , lxpanel , close(12<pipe:[299866]>) = 0
-2531 , 31492 , 31492 , lxpanel , close(15<pipe:[299867]>) = 0
-2532 , 31492 , 31492 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7212b48cd0) = 31493
-2533 , 31493 , 31493 , lxpanel , set_robust_list(0x7f7212b48ce0, 24) = 0
-2534 , 31492 , 31492 , lxpanel , write(16<pipe:[299867]>, "\5{\0\0", 4) = 4
-2535 , 31493 , 31493 , lxpanel , close(16<pipe:[299867]>) = 0
-2536 , 31492 , 31492 , lxpanel , close(16<pipe:[299867]>) = 0
-2537 , 31493 , 31493 , lxpanel , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12</proc/31493/fd>
-2538 , 31492 , 31492 , lxpanel , exit_group(0) = ?
-2539 , 31493 , 31493 , lxpanel , fstat(12</proc/31493/fd>, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
-2540 , 31492 , 31492 , lxpanel , +++ exited with 0 +++
 2541 , 31090 , 31090 , lxpanel , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31492, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2542 , 31493 , 31493 , lxpanel , getdents(12</proc/31493/fd>, /* 17 entries */, 32768) = 408
 2543 , 31090 , 31090 , lxpanel , read(12<pipe:[299866]>, "", 8) = 0
-2544 , 31493 , 31493 , lxpanel , fcntl(3<UNIX:[294552->294566]>, F_SETFD, FD_CLOEXEC) = 0
-2545 , 31493 , 31493 , lxpanel , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-2546 , 31493 , 31493 , lxpanel , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-2547 , 31493 , 31493 , lxpanel , fcntl(6<UNIX:[294578->294973]>, F_SETFD, FD_CLOEXEC) = 0
-2548 , 31493 , 31493 , lxpanel , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-2549 , 31493 , 31493 , lxpanel , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-2550 , 31493 , 31493 , lxpanel , fcntl(9<UNIX:[294584->294585]>, F_SETFD, FD_CLOEXEC) = 0
-2551 , 31493 , 31493 , lxpanel , fcntl(10<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
-2552 , 31493 , 31493 , lxpanel , fcntl(11<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
-2553 , 31493 , 31493 , lxpanel , fcntl(13<UNIX:[295019->295020]>, F_SETFD, FD_CLOEXEC) = 0
-2554 , 31493 , 31493 , lxpanel , fcntl(14<pipe:[299866]>, F_SETFD, FD_CLOEXEC) = 0
-2555 , 31493 , 31493 , lxpanel , getdents(12</proc/31493/fd>, /* 0 entries */, 32768) = 0
-2556 , 31493 , 31493 , lxpanel , close(12</proc/31493/fd>) = 0
-2557 , 31493 , 31493 , lxpanel , open("/dev/null", O_RDONLY) = 12</dev/null>
-2558 , 31493 , 31493 , lxpanel , dup2(12</dev/null>, 0</dev/null>) = 0</dev/null>
-2559 , 31493 , 31493 , lxpanel , close(12</dev/null>) = 0
-2560 , 31493 , 31493 , lxpanel , execve("/usr/local/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-2561 , 31493 , 31493 , lxpanel , execve("/usr/local/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-2562 , 31493 , 31493 , lxpanel , execve("/usr/sbin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = -1 ENOENT (No such file or directory)
-2563 , 31493 , 31493 , lxpanel , execve("/usr/bin/lxde-logout", ["lxde-logout"], [/* 39 vars */]) = 0
-2564 , 31493 , 31493 , lxde-logout , brk(NULL) = 0x55eeb049f000
 2565 , 31090 , 31090 , lxpanel , read(15<pipe:[299867]>, "\5{\0\0", 4) = 4
-2566 , 31493 , 31493 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
 2567 , 31090 , 31090 , lxpanel , read(15<pipe:[299867]>, "", 0) = 0
-2568 , 31493 , 31493 , lxde-logout , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efef5a32000
 2569 , 31090 , 31090 , lxpanel , close(12<pipe:[299866]>) = 0
-2570 , 31493 , 31493 , lxde-logout , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
 2571 , 31090 , 31090 , lxpanel , close(15<pipe:[299867]>) = 0
-2572 , 31493 , 31493 , lxde-logout , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
 2573 , 31090 , 31090 , lxpanel , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-2574 , 31493 , 31493 , lxde-logout , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
-2575 , 31493 , 31493 , lxde-logout , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7efef5a12000
-2576 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
 2577 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 1
-2578 , 31493 , 31493 , lxde-logout , close(3</etc/ld.so.cache>) = 0
-2579 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-2580 , 31493 , 31493 , lxde-logout , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
 2581 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-2582 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-2583 , 31493 , 31493 , lxde-logout , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
 2584 , 31090 , 31090 , lxpanel , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
-2585 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-2586 , 31493 , 31493 , lxde-logout , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
 2587 , 31090 , 31090 , lxpanel , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 1
-2588 , 31493 , 31493 , lxde-logout , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
-2589 , 31127 , 31090 , gdbus , futex(0x55a273bdd0d0, FUTEX_WAKE_PRIVATE, 1) = 0
-2590 , 31127 , 31090 , gdbus , futex(0x55a273bd1038, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-2591 , 31493 , 31493 , lxde-logout , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7efef5445000
 2592 , 31090 , 31090 , lxpanel , futex(0x55a273bd1038, FUTEX_WAKE_PRIVATE, 1) = 1
-2593 , 31127 , 31090 , gdbus , futex(0x55a273bd1038, FUTEX_WAKE_PRIVATE, 1) = 0
-2594 , 31493 , 31493 , lxde-logout , mprotect(0x7efef5605000, 2097152, PROT_NONE) = 0
-2595 , 31127 , 31090 , gdbus , sendmsg(6<UNIX:[294578->294973]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\f\0\0\0{\0\0\0\10\1g\0\vaysxasa{sv}"..., 248}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 248
-2596 , 31493 , 31493 , lxde-logout , mmap(0x7efef5805000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7efef5805000
 2597 , 31090 , 31090 , lxpanel , futex(0x55a273bdd5e0, FUTEX_WAKE_PRIVATE, 1) = 1
-2598 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
-2599 , 31493 , 31493 , lxde-logout , mmap(0x7efef580b000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efef580b000
-2600 , 31453 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
 2601 , 31090 , 31090 , lxpanel , futex(0x55a273bdd5d0, FUTEX_WAKE_PRIVATE, 1) = 1
-2602 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, 0x7f7207b06af0, 16) = -1 EAGAIN (Resource temporarily unavailable)
-2603 , 31493 , 31493 , lxde-logout , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
-2604 , 31453 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAKE_PRIVATE, 1) = 0
 2605 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-2606 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-2607 , 31493 , 31493 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efef5a11000
-2608 , 31453 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-2609 , 31453 , 31090 , pool , futex(0x7f71f0001790, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
-2610 , 31127 , 31090 , gdbus , clone(child_stack=0x7f71eb3f7cf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f71eb3f89d0, tls=0x7f71eb3f8700, child_tidptr=0x7f71eb3f89d0) = 31494
 2611 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-2612 , 31493 , 31493 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efef5a10000
-2613 , 31494 , 31090 , gdbus , set_robust_list(0x7f71eb3f89e0, 24) = 0
-2614 , 31494 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
-2615 , 31493 , 31493 , lxde-logout , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efef5a0f000
-2616 , 31127 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAKE_PRIVATE, 1) = 1
 2617 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
-2618 , 31494 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAKE_PRIVATE, 1) = 0
-2619 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-2620 , 31493 , 31493 , lxde-logout , arch_prctl(ARCH_SET_FS, 0x7efef5a10700) = 0
-2621 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-2622 , 31494 , 31090 , gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0\270\0\0\0r\177\0\0") = 0
-2623 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
-2624 , 31493 , 31493 , lxde-logout , mprotect(0x7efef5805000, 16384, PROT_READ) = 0
 2625 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2626 , 31494 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
 2627 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffdf5c53a70, 16) = -1 EAGAIN (Resource temporarily unavailable)
-2628 , 31493 , 31493 , lxde-logout , mprotect(0x55eeb0386000, 8192, PROT_READ) = 0
-2629 , 31494 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998762}) = -1 ETIMEDOUT (Connection timed out)
-2630 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-2631 , 31493 , 31493 , lxde-logout , mprotect(0x7efef5a34000, 4096, PROT_READ) = 0
 2632 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2633 , 31493 , 31493 , lxde-logout , munmap(0x7efef5a12000, 129195) = 0
-2634 , 31127 , 31090 , gdbus , futex(0x7f71f0001790, FUTEX_WAKE_PRIVATE, 1) = 1
-2635 , 31453 , 31090 , pool , futex(0x7f71f0001780, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-2636 , 31127 , 31090 , gdbus , futex(0x7f71f0001780, FUTEX_WAKE_PRIVATE, 1) = 0
-2637 , 31453 , 31090 , pool , futex(0x7f71f0001780, FUTEX_WAKE_PRIVATE, 1) = 0
 2638 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2639 , 31493 , 31493 , lxde-logout , getuid() = 1000
-2640 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1 <detached ...>
-2641 , 31493 , 31493 , lxde-logout , getgid() = 1000
-2642 , 31453 , 31090 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-2643 , 31493 , 31493 , lxde-logout , getpid() = 31493
 2644 , 31090 , 31090 , lxpanel , futex(0x55a273bac410, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
-2645 , 31453 , 31090 , pool , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 0
-2646 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGCHLD, {0x55eeb017a540, ~[RTMIN RT_1], SA_RESTORER, 0x7efef547a4b0}, NULL, 8) = 0
-2647 , 31453 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998907}) = -1 ETIMEDOUT (Connection timed out)
 2648 , 31090 , 31090 , lxpanel , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 0
-2649 , 31493 , 31493 , lxde-logout , geteuid() = 1000
 2650 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-2651 , 31493 , 31493 , lxde-logout , brk(NULL) = 0x55eeb049f000
 2652 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
-2653 , 31493 , 31493 , lxde-logout , brk(0x55eeb04c0000) = 0x55eeb04c0000
 2654 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
-2655 , 31493 , 31493 , lxde-logout , getppid() = 1
-2656 , 31493 , 31493 , lxde-logout , stat("/home/elwin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 2657 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2658 , 31493 , 31493 , lxde-logout , stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 2659 , 31090 , 31090 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffdf5c53a70, 16) = -1 EAGAIN (Resource temporarily unavailable)
-2660 , 31493 , 31493 , lxde-logout , open("/usr/bin/lxde-logout", O_RDONLY) = 3</usr/bin/lxde-logout>
 2661 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2662 , 31493 , 31493 , lxde-logout , fcntl(3</usr/bin/lxde-logout>, F_DUPFD, 10) = 10</usr/bin/lxde-logout>
 2663 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2664 , 31493 , 31493 , lxde-logout , close(3</usr/bin/lxde-logout>) = 0
 2665 , 31090 , 31090 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
-2666 , 31493 , 31493 , lxde-logout , fcntl(10</usr/bin/lxde-logout>, F_SETFD, FD_CLOEXEC) = 0
 2667 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-2668 , 31493 , 31493 , lxde-logout , geteuid() = 1000
-2669 , 31493 , 31493 , lxde-logout , getegid() = 1000
 2670 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"\2\0\4\0005\1`\1\0@\0\0\0\0\0\0$\0\1\0&\0\2\0%\2\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
-2671 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
 2672 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-2673 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGINT, {0x55eeb017a540, ~[RTMIN RT_1], SA_RESTORER, 0x7efef547a4b0}, NULL, 8) = 0
-2674 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
 2675 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\212\16\0\0\0\0%\2\0\0.\1@\1\200\0\326\2\200\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-2676 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7efef547a4b0}, NULL, 8) = 0
-2677 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
 2678 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2679 , 31493 , 31493 , lxde-logout , rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7efef547a4b0}, NULL, 8) = 0
 2680 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2681 , 31493 , 31493 , lxde-logout , read(10</usr/bin/lxde-logout>, "#!/bin/sh\nlxsession-logout --ban"..., 8192) = 90
 2682 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-2683 , 31493 , 31493 , lxde-logout , stat("/usr/local/sbin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2684 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"&\0\2\0.\1@\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
-2685 , 31493 , 31493 , lxde-logout , stat("/usr/local/bin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
-2686 , 31493 , 31493 , lxde-logout , stat("/usr/sbin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2687 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-2688 , 31493 , 31493 , lxde-logout , stat("/usr/bin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2689 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\213\16\0\0\0\0%\2\0\0\3\0 \1\200\0\326\2\200\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-2690 , 31493 , 31493 , lxde-logout , stat("/sbin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
-2691 , 31493 , 31493 , lxde-logout , stat("/bin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2692 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2693 , 31493 , 31493 , lxde-logout , stat("/usr/games/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2694 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2695 , 31493 , 31493 , lxde-logout , stat("/usr/local/games/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
-2696 , 31493 , 31493 , lxde-logout , stat("/snap/bin/lxsession-logout", 0x7ffc363ab6b0) = -1 ENOENT (No such file or directory)
 2697 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
-2698 , 31493 , 31493 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "/usr/bin/lxde-logout: 2: /usr/bi"..., 47) = 47
 2699 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"&\0\2\0\3\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
-2700 , 31493 , 31493 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "lxsession-logout: not found", 27) = 27
-2701 , 31493 , 31493 , lxde-logout , write(2</home/elwin/.cache/lxsession/LXDE/run.log>, "\n", 1) = 1
 2702 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
-2703 , 31493 , 31493 , lxde-logout , read(10</usr/bin/lxde-logout>, "", 8192) = 0
 2704 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\214\16\0\0\0\0%\2\0\0\0\0\0\0\200\0\326\2\200\0\326\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
-2705 , 31493 , 31493 , lxde-logout , exit_group(127) = ?
 2706 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2707 , 31493 , 0 , NULL , +++ exited with 127 +++
 2708 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c534a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2709 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
 2710 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"%\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
@@ -2745,13 +2322,9 @@
 2745 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c52410, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2746 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
 2747 , 31090 , 31090 , lxpanel , writev(3<UNIX:[294552->294566]>, [{"5\30\4\0\224\1`\1\36\0`\1(\0\32\0007\0\7\0\225\1`\1\224\1`\1\0\5\1\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
-2748 , 31494 , 31090 , pool , futex(0x55a273bdd5e0, FUTEX_WAIT_PRIVATE, 2, {9, 999998496} <detached ...>
 2749 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\225\16\224\1`\1\3\0\203\0(\0`\1\0\0\34\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
 2750 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c538b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
-2751 , 31453 , 31090 , pool , madvise(0x7f720571e000, 8368128, MADV_DONTNEED) = 0
-2752 , 31453 , 31090 , pool , exit(0)   = ?
 2753 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 0) = 0 (Timeout)
-2754 , 31453 , 0 , NULL , +++ exited with 0 +++
 2755 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c537e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2756 , 31090 , 31090 , lxpanel , recvmsg(3<UNIX:[294552->294566]>, 0x7ffdf5c538c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
 2757 , 31090 , 31090 , lxpanel , poll([{fd=3<UNIX:[294552->294566]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=9<UNIX:[294584->294585]>, events=POLLIN}], 3, 1475) = 0 (Timeout)

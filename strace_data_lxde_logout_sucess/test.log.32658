@@ -1,0 +1,11 @@
+759 , 32658 , 31090 , lxpanel , set_robust_list(0x7f71eb3f89e0, 24) = 0
+760 , 32658 , 31090 , lxpanel , prctl(PR_SET_NAME, "pool\0U\0\0_PREFIX=") = 0
+761 , 32658 , 31090 , pool , futex(0x7f71e40010d0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+787 , 32658 , 31090 , pool , futex(0x7f71e40010c0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+793 , 32658 , 31090 , pool , futex(0x7f71e40010c0, FUTEX_WAKE_PRIVATE, 1) = 0
+796 , 32658 , 31090 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+799 , 32658 , 31090 , pool , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 1
+801 , 32658 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499999384}) = -1 ETIMEDOUT (Connection timed out)
+2486 , 32658 , 31090 , pool , madvise(0x7f71eabf8000, 8368128, MADV_DONTNEED) = 0
+2488 , 32658 , 31090 , pool , exit(0)   = ?
+2490 , 32658 , 0 , NULL , +++ exited with 0 +++

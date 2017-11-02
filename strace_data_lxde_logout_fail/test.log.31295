@@ -1,0 +1,24 @@
+935 , 31295 , 31090 , gdbus , set_robust_list(0x7f71eb3f89e0, 24) = 0
+939 , 31295 , 31090 , gdbus , prctl(PR_SET_NAME, "pool\0\177\0\0)\0\0\0r\177\0\0") = 0
+941 , 31295 , 31090 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f71e2bf8000
+943 , 31295 , 31090 , pool , munmap(0x7f71e2bf8000, 21004288) = 0
+948 , 31295 , 31090 , pool , munmap(0x7f71e8000000, 46104576) = 0
+951 , 31295 , 31090 , pool , mprotect(0x7f71e4000000, 139264, PROT_READ|PROT_WRITE) = 0
+954 , 31295 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+957 , 31295 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499998704}) = -1 ETIMEDOUT (Connection timed out)
+1050 , 31295 , 31090 , pool , futex(0x55a273bdd5e0, FUTEX_WAIT_PRIVATE, 0, {9, 999999458}) = 0
+1910 , 31295 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1913 , 31295 , 31090 , pool , futex(0x55a273bdd5d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1915 , 31295 , 31090 , pool , futex(0x55a273bdd580, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1918 , 31295 , 31090 , pool , futex(0x55a273bdd580, FUTEX_WAKE_PRIVATE, 1) = 0
+1921 , 31295 , 31090 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1923 , 31295 , 31090 , pool , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
+1925 , 31295 , 31090 , pool , futex(0x7f71e4001170, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1946 , 31295 , 31090 , pool , futex(0x7f71e4001160, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1948 , 31295 , 31090 , pool , futex(0x7f71e4001160, FUTEX_WAKE_PRIVATE, 1) = 0
+1950 , 31295 , 31090 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1952 , 31295 , 31090 , pool , futex(0x55a273bac410, FUTEX_WAKE_PRIVATE, 1) = 1
+1953 , 31295 , 31090 , pool , futex(0x55a273bdd590, FUTEX_WAIT_PRIVATE, 0, {0, 499999144}) = -1 ETIMEDOUT (Connection timed out)
+2011 , 31295 , 31090 , pool , madvise(0x7f71eabf8000, 8368128, MADV_DONTNEED) = 0
+2012 , 31295 , 31090 , pool , exit(0)   = ?
+2013 , 31295 , 0 , NULL , +++ exited with 0 +++

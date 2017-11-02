@@ -1,0 +1,15 @@
+2256 , 32661 , 32660 , lxsession-logou , set_robust_list(0x7fdbe8b039e0, 24) = 0
+2257 , 32661 , 32660 , lxsession-logou , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdbe0303000
+2258 , 32661 , 32660 , lxsession-logou , munmap(0x7fdbe0303000, 63950848) = 0
+2259 , 32661 , 32660 , lxsession-logou , munmap(0x7fdbe8000000, 3158016) = 0
+2260 , 32661 , 32660 , lxsession-logou , mprotect(0x7fdbe4000000, 135168, PROT_READ|PROT_WRITE) = 0
+2261 , 32661 , 32660 , lxsession-logou , futex(0x7fdbf041f408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+2264 , 32661 , 32660 , lxsession-logou , futex(0x7fdbf041f408, FUTEX_WAKE_PRIVATE, 1) = 0
+2265 , 32661 , 32660 , lxsession-logou , prctl(PR_SET_NAME, "gmain\0\0\0\210\373\334\357\333\177\0\0") = 0
+2267 , 32661 , 32660 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+2269 , 32661 , 32660 , gmain , futex(0x25e86c0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+2271 , 32661 , 32660 , gmain , futex(0x25e86c0, FUTEX_WAKE_PRIVATE, 1) = 0
+2273 , 32661 , 32660 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+2275 , 32661 , 32660 , gmain , read(7<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2277 , 32661 , 32660 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1 <unfinished ...>
+9847 , 32661 , 0 , NULL , +++ killed by SIGHUP +++

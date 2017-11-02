@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 cat *.log.* > all.txt
 
 sort -n all.txt  > all.sort.txt

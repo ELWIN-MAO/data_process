@@ -1,0 +1,17 @@
+3 , 31127 , 31090 , gdbus , restart_syscall(<... resuming interrupted restart_syscall ...>) = 1
+747 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+752 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+754 , 31127 , 31090 , gdbus , futex(0x55a273bddeb0, FUTEX_WAKE_PRIVATE, 1) = 0
+757 , 31127 , 31090 , gdbus , sendmsg(6<UNIX:[294578->294973]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\r\0\0\0{\0\0\0\10\1g\0\vaysxasa{sv}"..., 248}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 248
+762 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+766 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, 0x7f7207b06af0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+769 , 31127 , 31090 , gdbus , clone(child_stack=0x7f7205f1dcf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7205f1e9d0, tls=0x7f7205f1e700, child_tidptr=0x7f7205f1e9d0) = 32659
+775 , 31127 , 31090 , gdbus , futex(0x7f7210aa7408, FUTEX_WAKE_PRIVATE, 1) = 1
+778 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
+786 , 31127 , 31090 , gdbus , futex(0x7f71e40010d0, FUTEX_WAKE_PRIVATE, 1) = 1
+790 , 31127 , 31090 , gdbus , futex(0x7f71e40010c0, FUTEX_WAKE_PRIVATE, 1) = 1
+794 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=8, revents=POLLIN}])
+797 , 31127 , 31090 , gdbus , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+803 , 31127 , 31090 , gdbus , poll([{fd=6<UNIX:[294578->294973]>, events=POLLIN}, {fd=8<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+8292 , 31127 , 31090 , gdbus , restart_syscall(<... resuming interrupted poll ...> <unfinished ...>
+9849 , 31127 , 0 , NULL , +++ killed by SIGHUP +++

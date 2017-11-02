@@ -1,0 +1,46 @@
+8216 , 32666 , 32666 , sh , execve("/bin/cat", ["cat", "/proc/32660/cmdline"], [/* 39 vars */]) = 0
+8217 , 32666 , 32666 , cat , brk(NULL)  = 0x21e7000
+8218 , 32666 , 32666 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8219 , 32666 , 32666 , cat , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd29bc5000
+8220 , 32666 , 32666 , cat , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+8222 , 32666 , 32666 , cat , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+8223 , 32666 , 32666 , cat , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+8224 , 32666 , 32666 , cat , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fcd29ba5000
+8226 , 32666 , 32666 , cat , close(3</etc/ld.so.cache>) = 0
+8228 , 32666 , 32666 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8229 , 32666 , 32666 , cat , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+8231 , 32666 , 32666 , cat , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+8233 , 32666 , 32666 , cat , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+8235 , 32666 , 32666 , cat , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fcd295d8000
+8237 , 32666 , 32666 , cat , mprotect(0x7fcd29798000, 2097152, PROT_NONE) = 0
+8239 , 32666 , 32666 , cat , mmap(0x7fcd29998000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fcd29998000
+8240 , 32666 , 32666 , cat , mmap(0x7fcd2999e000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcd2999e000
+8242 , 32666 , 32666 , cat , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+8243 , 32666 , 32666 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd29ba4000
+8244 , 32666 , 32666 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd29ba3000
+8246 , 32666 , 32666 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd29ba2000
+8248 , 32666 , 32666 , cat , arch_prctl(ARCH_SET_FS, 0x7fcd29ba3700) = 0
+8249 , 32666 , 32666 , cat , mprotect(0x7fcd29998000, 16384, PROT_READ) = 0
+8250 , 32666 , 32666 , cat , mprotect(0x60b000, 4096, PROT_READ) = 0
+8252 , 32666 , 32666 , cat , mprotect(0x7fcd29bc7000, 4096, PROT_READ) = 0
+8253 , 32666 , 32666 , cat , munmap(0x7fcd29ba5000, 129195) = 0
+8254 , 32666 , 32666 , cat , brk(NULL)  = 0x21e7000
+8256 , 32666 , 32666 , cat , brk(0x2208000) = 0x2208000
+8257 , 32666 , 32666 , cat , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+8259 , 32666 , 32666 , cat , fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+8260 , 32666 , 32666 , cat , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fcd29300000
+8262 , 32666 , 32666 , cat , close(3</usr/lib/locale/locale-archive>) = 0
+8264 , 32666 , 32666 , cat , fstat(1<pipe:[305931]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+8265 , 32666 , 32666 , cat , open("/proc/32660/cmdline", O_RDONLY) = 3</proc/32660/cmdline>
+8267 , 32666 , 32666 , cat , fstat(3</proc/32660/cmdline>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+8269 , 32666 , 32666 , cat , fadvise64(3</proc/32660/cmdline>, 0, 0, POSIX_FADV_SEQUENTIAL) = 0
+8270 , 32666 , 32666 , cat , mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcd29b80000
+8271 , 32666 , 32666 , cat , read(3</proc/32660/cmdline>, "lxsession-logout\0--banner\0/usr/s"..., 131072) = 78
+8273 , 32666 , 32666 , cat , write(1<pipe:[305931]>, "lxsession-logout\0--banner\0/usr/s"..., 78) = 78
+8275 , 32666 , 32666 , cat , read(3</proc/32660/cmdline>, "", 131072) = 0
+8278 , 32666 , 32666 , cat , munmap(0x7fcd29b80000, 139264) = 0
+8280 , 32666 , 32666 , cat , close(3</proc/32660/cmdline>) = 0
+8281 , 32666 , 32666 , cat , close(1<pipe:[305931]>) = 0
+8282 , 32666 , 32666 , cat , close(2</home/elwin/.cache/lxsession/LXDE/run.log>) = 0
+8284 , 32666 , 32666 , cat , exit_group(0) = ?
+8285 , 32666 , 32666 , cat , +++ exited with 0 +++

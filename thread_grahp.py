@@ -121,8 +121,9 @@ while True:
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
-    if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
-        aThread_Info_Record.thread_name_list.append(aSyscall_Record["thread_name"])
+    if(aSyscall_Record["type"]!="2"):
+        if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
+            aThread_Info_Record.thread_name_list.append(aSyscall_Record["thread_name"])
     if(aSyscall_Record["type"]=="1"):
         #if(strcmp(aSyscall_Record["syscall_name"],"clone")==0):
         if(aSyscall_Record["syscall_name"]=="\"clone\""):
