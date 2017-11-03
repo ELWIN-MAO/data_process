@@ -1,19 +1,47 @@
 digraph abc{
+subgraph cluster_31090 {
 31148   [label="thread_id:31148\nthread_name_list:\"menu-cache-io\""];
 31136   [label="thread_id:31136\nthread_name_list:\"dconf worker\""];
 31127   [label="thread_id:31127\nthread_name_list:\"gdbus\""];
 31126   [label="thread_id:31126\nthread_name_list:\"gmain\""];
-31090   [label="thread_id:31090\nthread_name_list:\"lxpanel\""];
-31292   [label="thread_id:31292\nthread_name_list:\"lxpanel\"\nexit_code:854:\"0\""];
-31293   [label="thread_id:31293\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:1021:\"127\"", shape="record",color="red"];
+31090   [label="thread_id:31090\nthread_name_list:\"lxpanel\"", style = filled ];
 31294   [label="thread_id:31294\nthread_name_list:\"lxpanel\",\"pool\"\nexit_code:1052:\"0\""];
 31295   [label="thread_id:31295\nthread_name_list:\"gdbus\",\"pool\"\nexit_code:2012:\"0\""];
-31451   [label="thread_id:31451\nthread_name_list:\"lxpanel\"\nexit_code:1805:\"0\""];
-31452   [label="thread_id:31452\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:1893:\"127\"", shape="record",color="red"];
 31453   [label="thread_id:31453\nthread_name_list:\"gdbus\",\"pool\"\nexit_code:2752:\"0\""];
-31492   [label="thread_id:31492\nthread_name_list:\"lxpanel\"\nexit_code:2538:\"0\""];
-31493   [label="thread_id:31493\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:2705:\"127\"", shape="record",color="red"];
 31494   [label="thread_id:31494\nthread_name_list:\"gdbus\",\"pool\""];
+label = "process #31090";
+color = blue;
+}
+subgraph cluster_31292 {
+31292   [label="thread_id:31292\nthread_name_list:\"lxpanel\"\nexit_code:854:\"0\"", style = filled ];
+label = "process #31292";
+color = blue;
+}
+subgraph cluster_31293 {
+31293   [label="thread_id:31293\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:1021:\"127\"", color="indianred1", style = filled ];
+label = "process #31293";
+color = blue;
+}
+subgraph cluster_31451 {
+31451   [label="thread_id:31451\nthread_name_list:\"lxpanel\"\nexit_code:1805:\"0\"", style = filled ];
+label = "process #31451";
+color = blue;
+}
+subgraph cluster_31452 {
+31452   [label="thread_id:31452\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:1893:\"127\"", color="indianred1", style = filled ];
+label = "process #31452";
+color = blue;
+}
+subgraph cluster_31492 {
+31492   [label="thread_id:31492\nthread_name_list:\"lxpanel\"\nexit_code:2538:\"0\"", style = filled ];
+label = "process #31492";
+color = blue;
+}
+subgraph cluster_31493 {
+31493   [label="thread_id:31493\nthread_name_list:\"lxpanel\",\"lxde-logout\"\nexit_code:2705:\"127\"", color="indianred1", style = filled ];
+label = "process #31493";
+color = blue;
+}
 
 
 31127 -> 31295   [label="932"];

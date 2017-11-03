@@ -1,20 +1,48 @@
 digraph abc{
+subgraph cluster_31090 {
 31148   [label="thread_id:31148\nthread_name_list:\"menu-cache-io\""];
 31136   [label="thread_id:31136\nthread_name_list:\"dconf worker\""];
 31127   [label="thread_id:31127\nthread_name_list:\"gdbus\""];
 31126   [label="thread_id:31126\nthread_name_list:\"gmain\""];
-31090   [label="thread_id:31090\nthread_name_list:\"lxpanel\""];
-32656   [label="thread_id:32656\nthread_name_list:\"lxpanel\"\nexit_code:710:\"0\""];
-32657   [label="thread_id:32657\nthread_name_list:\"lxpanel\",\"lxde-logout\""];
+31090   [label="thread_id:31090\nthread_name_list:\"lxpanel\"", style = filled ];
 32658   [label="thread_id:32658\nthread_name_list:\"lxpanel\",\"pool\"\nexit_code:2488:\"0\""];
 32659   [label="thread_id:32659\nthread_name_list:\"gdbus\",\"pool\""];
-32660   [label="thread_id:32660\nthread_name_list:\"lxde-logout\",\"lxsession-logou\""];
+label = "process #31090";
+color = blue;
+}
+subgraph cluster_32656 {
+32656   [label="thread_id:32656\nthread_name_list:\"lxpanel\"\nexit_code:710:\"0\"", style = filled ];
+label = "process #32656";
+color = blue;
+}
+subgraph cluster_32657 {
+32657   [label="thread_id:32657\nthread_name_list:\"lxpanel\",\"lxde-logout\"", style = filled ];
+label = "process #32657";
+color = blue;
+}
+subgraph cluster_32660 {
+32660   [label="thread_id:32660\nthread_name_list:\"lxde-logout\",\"lxsession-logou\"", style = filled ];
 32661   [label="thread_id:32661\nthread_name_list:\"lxsession-logou\",\"gmain\""];
 32662   [label="thread_id:32662\nthread_name_list:\"lxsession-logou\",\"gdbus\""];
 32663   [label="thread_id:32663\nthread_name_list:\"lxsession-logou\",\"dconf worker\""];
-32664   [label="thread_id:32664\nthread_name_list:\"lxsession-logou\",\"lsb_release\"\nexit_code:5137:\"0\""];
-32665   [label="thread_id:32665\nthread_name_list:\"lxpanel\",\"sh\"\nexit_code:8289:\"0\""];
-32666   [label="thread_id:32666\nthread_name_list:\"sh\",\"cat\"\nexit_code:8284:\"0\""];
+label = "process #32660";
+color = blue;
+}
+subgraph cluster_32664 {
+32664   [label="thread_id:32664\nthread_name_list:\"lxsession-logou\",\"lsb_release\"\nexit_code:5137:\"0\"", style = filled ];
+label = "process #32664";
+color = blue;
+}
+subgraph cluster_32665 {
+32665   [label="thread_id:32665\nthread_name_list:\"lxpanel\",\"sh\"\nexit_code:8289:\"0\"", style = filled ];
+label = "process #32665";
+color = blue;
+}
+subgraph cluster_32666 {
+32666   [label="thread_id:32666\nthread_name_list:\"sh\",\"cat\"\nexit_code:8284:\"0\"", style = filled ];
+label = "process #32666";
+color = blue;
+}
 
 
 31127 -> 32659   [label="769"];

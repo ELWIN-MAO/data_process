@@ -67,7 +67,7 @@ class Thread_Info_Record:
 
         if(self.exit_code and self.exit_code  [1]!="\"0\""):
             #print("shape=\"record\",color=\"red\"")
-            out+=", shape=\"record\",color=\"red\""
+            out+=", color=\"indianred1\""
         #print("]")
         if(self.thread_id==self.process_id):
             out+=", style = filled "
@@ -86,7 +86,7 @@ class Thread_Info_Record:
         print(children_edge) 
 
 thread_info_list=[]
-process_info_dic={}
+process_info_list=[]
 ## process_info_list["pid1"]=[list of pid1's threads]
         
 
@@ -104,6 +104,16 @@ def get_thread_info_record(athread_id):
     return athread_info 
         
 
+def get_thread_info_record_not_new(athread_id):
+    athread_info=None       
+    for thread_info in thread_info_list:
+        #if (strcmp(thread_info.thread_id,athread_id)==0):
+        if (thread_info.thread_id==athread_id):
+            athread_info=thread_info
+            break
+    if  not athread_info:
+        sys.stderr.write("error:"+athread_id+"not found!\n");   
+    return athread_info 
 
 def get_sycall_record(line ) :
         words=line.split(";;;") 
@@ -123,16 +133,16 @@ while True:
     #linecount+=1
     #print(line)
     #print("linecount:"+str(linecount))
-    aprocess_record={}
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
     if(aSyscall_Record["type"]!="2"):
         aThread_Info_Record.process_id=aSyscall_Record["process_id"]
-        aprocess_record["process_id"].append[tid]
         ##record aproces contain which tids
         if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
             aThread_Info_Record.thread_name_list.append(aSyscall_Record["thread_name"])
+        if not(aSyscall_Record["process_id"] in  process_info_list):
+            process_info_list.append(aSyscall_Record["process_id"])
     if(aSyscall_Record["type"]=="1"):
         #if(strcmp(aSyscall_Record["syscall_name"],"clone")==0):
         if(aSyscall_Record["syscall_name"]=="\"clone\""):
@@ -147,9 +157,14 @@ while True:
 
 
 print("digraph abc{")
-for item in thread_info_list:
-    #item.print_str()
-    item.print_node()
+for item in process_info_list:
+    print("subgraph cluster_"+item+" {")
+    for thread_info in thread_info_list:
+        if (thread_info.process_id==item):
+            thread_info.print_node()
+    print("label = "+"\"process #"+item+"\";") 
+    print("color = blue;")
+    print("}")
 
 for item in thread_info_list:
     #item.print_str()
