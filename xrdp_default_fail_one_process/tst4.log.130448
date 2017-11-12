@@ -1,0 +1,816 @@
+6168 , 130448 , 130448 , dbus-launch , set_robust_list(0x7f7bda993b60, 24) = 0
+6171 , 130448 , 130448 , dbus-launch , close(9<pipe:[1227062]>) = 0
+6173 , 130448 , 130448 , dbus-launch , close(11<pipe:[1227063]>) = 0
+6175 , 130448 , 130448 , dbus-launch , close(13<pipe:[1227064]>) = 0
+6177 , 130448 , 130448 , dbus-launch , close(14<pipe:[1227064]>) = 0
+6179 , 130448 , 130448 , dbus-launch , execve("/usr/bin/dbus-daemon", ["/usr/bin/dbus-daemon", "--fork", "--print-pid", "10", "--print-address", "12", "--session"], [/* 18 vars */]) = 0
+6185 , 130448 , 130448 , dbus-daemon , brk(NULL) = 0x5607abd66000
+6189 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6190 , 130448 , 130448 , dbus-daemon , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165db61000
+6191 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+6192 , 130448 , 130448 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+6193 , 130448 , 130448 , dbus-daemon , fstat(8</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+6194 , 130448 , 130448 , dbus-daemon , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f165db41000
+6195 , 130448 , 130448 , dbus-daemon , close(8</etc/ld.so.cache>) = 0
+6196 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6197 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>
+6198 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\261\4\0\0\0\0\0\0\0"..., 832) = 832
+6199 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, {st_mode=S_IFREG|0644, st_size=309392, ...}) = 0
+6200 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0) = 0x7f165d6f2000
+6201 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d73c000, 2097152, PROT_NONE) = 0
+6202 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d93c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0x4a000) = 0x7f165d93c000
+6203 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>) = 0
+6204 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6205 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+6206 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0"..., 832) = 832
+6207 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_mode=S_IFREG|0644, st_size=536520, ...}) = 0
+6208 , 130448 , 130448 , dbus-daemon , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7f165dabc000
+6209 , 130448 , 130448 , dbus-daemon , mmap(0x7f165db3c000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7f165db3c000
+6210 , 130448 , 130448 , dbus-daemon , mmap(0x7f165db40000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165db40000
+6211 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+6212 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6213 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>
+6214 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0;\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\201\2\0\0\0\0\0\0\0"..., 832) = 832
+6215 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_mode=S_IFREG|0644, st_size=166032, ...}) = 0
+6216 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dabb000
+6217 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7f165d4c9000
+6218 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d4ef000, 2097152, PROT_NONE) = 0
+6219 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d6ef000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x26000) = 0x7f165d6ef000
+6220 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+6221 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6222 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libselinux.so.1>
+6223 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0"..., 832) = 832
+6224 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libselinux.so.1>, {st_mode=S_IFREG|0644, st_size=130224, ...}) = 0
+6225 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f165d2a7000
+6226 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d2c6000, 2093056, PROT_NONE) = 0
+6227 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d4c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f165d4c5000
+6228 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d4c7000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165d4c7000
+6229 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+6230 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6231 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libaudit.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>
+6232 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0*\0\0\0\0\0\0@\0\0\0\0\0\0\0(\303\1\0\0\0\0\0\0\0"..., 832) = 832
+6233 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=117288, ...}) = 0
+6234 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2253352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, 0) = 0x7f165d080000
+6235 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d09c000, 2093056, PROT_NONE) = 0
+6236 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d29b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, 0x1b000) = 0x7f165d29b000
+6237 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d29d000, 37416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165d29d000
+6238 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libaudit.so.1.0.0>) = 0
+6239 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6240 , 130448 , 130448 , dbus-daemon , open("/usr/lib/x86_64-linux-gnu/libcap-ng.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>
+6241 , 130448 , 130448 , dbus-daemon , read(8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0@\0\0\0\0\0\0\0XB\0\0\0\0\0\0\0\0"..., 832) = 832
+6242 , 130448 , 130448 , dbus-daemon , fstat(8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=18776, ...}) = 0
+6243 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165daba000
+6244 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2113840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0) = 0x7f165ce7b000
+6245 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165ce7f000, 2093056, PROT_NONE) = 0
+6247 , 130448 , 130448 , dbus-daemon , mmap(0x7f165d07e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0x3000) = 0x7f165d07e000
+6249 , 130448 , 130448 , dbus-daemon , close(8</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>) = 0
+6251 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6253 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libapparmor.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>
+6254 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340&\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\364\0\0\0\0\0\0\0\0"..., 832) = 832
+6255 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, {st_mode=S_IFREG|0644, st_size=64144, ...}) = 0
+6256 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2159392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, 0) = 0x7f165cc6b000
+6257 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165cc7a000, 2093056, PROT_NONE) = 0
+6258 , 130448 , 130448 , dbus-daemon , mmap(0x7f165ce79000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, 0xe000) = 0x7f165ce79000
+6259 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>) = 0
+6260 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6261 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+6262 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0"..., 832) = 832
+6263 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+6264 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f165ca4e000
+6265 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165ca66000, 2093056, PROT_NONE) = 0
+6266 , 130448 , 130448 , dbus-daemon , mmap(0x7f165cc65000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f165cc65000
+6267 , 130448 , 130448 , dbus-daemon , mmap(0x7f165cc67000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165cc67000
+6268 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+6269 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6270 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+6271 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+6272 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+6273 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab9000
+6274 , 130448 , 130448 , dbus-daemon , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f165c684000
+6275 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c844000, 2097152, PROT_NONE) = 0
+6276 , 130448 , 130448 , dbus-daemon , mmap(0x7f165ca44000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f165ca44000
+6277 , 130448 , 130448 , dbus-daemon , mmap(0x7f165ca4a000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165ca4a000
+6278 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+6279 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6280 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/librt-2.23.so>
+6281 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0"..., 832) = 832
+6282 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/librt-2.23.so>, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+6283 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7f165c47c000
+6284 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c483000, 2093056, PROT_NONE) = 0
+6285 , 130448 , 130448 , dbus-daemon , mmap(0x7f165c682000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7f165c682000
+6286 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+6287 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6288 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+6289 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0"..., 832) = 832
+6290 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_mode=S_IFREG|0644, st_size=137400, ...}) = 0
+6291 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f165c25a000
+6292 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c27b000, 2093056, PROT_NONE) = 0
+6293 , 130448 , 130448 , dbus-daemon , mmap(0x7f165c47a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f165c47a000
+6294 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+6295 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6296 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+6297 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0"..., 832) = 832
+6298 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_mode=S_IFREG|0644, st_size=919168, ...}) = 0
+6299 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab8000
+6300 , 130448 , 130448 , dbus-daemon , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f165bf79000
+6301 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c051000, 2093056, PROT_NONE) = 0
+6302 , 130448 , 130448 , dbus-daemon , mmap(0x7f165c250000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f165c250000
+6303 , 130448 , 130448 , dbus-daemon , mmap(0x7f165c259000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165c259000
+6304 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+6305 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6306 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+6307 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0"..., 832) = 832
+6308 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+6309 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f165bd09000
+6310 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165bd77000, 2097152, PROT_NONE) = 0
+6311 , 130448 , 130448 , dbus-daemon , mmap(0x7f165bf77000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f165bf77000
+6312 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+6313 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6314 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+6315 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0"..., 832) = 832
+6316 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+6317 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f165bb05000
+6318 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165bb08000, 2093056, PROT_NONE) = 0
+6319 , 130448 , 130448 , dbus-daemon , mmap(0x7f165bd07000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f165bd07000
+6320 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+6321 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab7000
+6322 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6323 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+6324 , 130448 , 130448 , dbus-daemon , read(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0"..., 832) = 832
+6325 , 130448 , 130448 , dbus-daemon , fstat(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_mode=S_IFREG|0644, st_size=80496, ...}) = 0
+6326 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f165b8f1000
+6327 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b903000, 2097152, PROT_NONE) = 0
+6328 , 130448 , 130448 , dbus-daemon , mmap(0x7f165bb03000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f165bb03000
+6329 , 130448 , 130448 , dbus-daemon , close(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+6330 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab6000
+6331 , 130448 , 130448 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab5000
+6332 , 130448 , 130448 , dbus-daemon , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f165dab3000
+6333 , 130448 , 130448 , dbus-daemon , arch_prctl(ARCH_SET_FS, 0x7f165dab38c0) = 0
+6334 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165ca44000, 16384, PROT_READ) = 0
+6335 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165bb03000, 4096, PROT_READ) = 0
+6336 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165bd07000, 4096, PROT_READ) = 0
+6337 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165cc65000, 4096, PROT_READ) = 0
+6338 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165bf77000, 4096, PROT_READ) = 0
+6339 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c250000, 4096, PROT_READ) = 0
+6340 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c47a000, 4096, PROT_READ) = 0
+6341 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165c682000, 4096, PROT_READ) = 0
+6342 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165ce79000, 4096, PROT_READ) = 0
+6343 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d07e000, 4096, PROT_READ) = 0
+6344 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d29b000, 4096, PROT_READ) = 0
+6345 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d4c5000, 4096, PROT_READ) = 0
+6346 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d6ef000, 8192, PROT_READ) = 0
+6347 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165db3c000, 12288, PROT_READ) = 0
+6348 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165d93c000, 4096, PROT_READ) = 0
+6349 , 130448 , 130448 , dbus-daemon , mprotect(0x5607abd41000, 8192, PROT_READ) = 0
+6350 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165db63000, 4096, PROT_READ) = 0
+6351 , 130448 , 130448 , dbus-daemon , munmap(0x7f165db41000, 129195) = 0
+6352 , 130448 , 130448 , dbus-daemon , set_tid_address(0x7f165dab3b90) = 130448
+6353 , 130448 , 130448 , dbus-daemon , set_robust_list(0x7f165dab3ba0, 24) = 0
+6354 , 130448 , 130448 , dbus-daemon , rt_sigaction(SIGRTMIN, {0x7f165ca53b50, [], SA_RESTORER|SA_SIGINFO, 0x7f165ca5f390}, NULL, 8) = 0
+6355 , 130448 , 130448 , dbus-daemon , rt_sigaction(SIGRT_1, {0x7f165ca53be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f165ca5f390}, NULL, 8) = 0
+6356 , 130448 , 130448 , dbus-daemon , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+6357 , 130448 , 130448 , dbus-daemon , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+6358 , 130448 , 130448 , dbus-daemon , brk(NULL) = 0x5607abd66000
+6359 , 130448 , 130448 , dbus-daemon , brk(0x5607abd87000) = 0x5607abd87000
+6360 , 130448 , 130448 , dbus-daemon , statfs("/sys/fs/selinux", 0x7ffc1daec9a0) = -1 ENOENT (No such file or directory)
+6361 , 130448 , 130448 , dbus-daemon , statfs("/selinux", 0x7ffc1daec9a0) = -1 ENOENT (No such file or directory)
+6362 , 130448 , 130448 , dbus-daemon , open("/proc/filesystems", O_RDONLY) = 8</proc/filesystems>
+6363 , 130448 , 130448 , dbus-daemon , fstat(8</proc/filesystems>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+6364 , 130448 , 130448 , dbus-daemon , read(8</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nno"..., 1024) = 424
+6365 , 130448 , 130448 , dbus-daemon , read(8</proc/filesystems>, "", 1024) = 0
+6366 , 130448 , 130448 , dbus-daemon , close(8</proc/filesystems>) = 0
+6367 , 130448 , 130448 , dbus-daemon , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 8</proc/130448/mounts>
+6368 , 130448 , 130448 , dbus-daemon , futex(0x7f165ca4b008, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+6369 , 130448 , 130448 , dbus-daemon , fstat(8</proc/130448/mounts>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+6370 , 130448 , 130448 , dbus-daemon , read(8</proc/130448/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0"..., 1024) = 1024
+6371 , 130448 , 130448 , dbus-daemon , stat("/sys/kernel/security/apparmor", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+6372 , 130448 , 130448 , dbus-daemon , close(8</proc/130448/mounts>) = 0
+6373 , 130448 , 130448 , dbus-daemon , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 8</proc/130448/mounts>
+6374 , 130448 , 130448 , dbus-daemon , fstat(8</proc/130448/mounts>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+6375 , 130448 , 130448 , dbus-daemon , read(8</proc/130448/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0"..., 1024) = 1024
+6376 , 130448 , 130448 , dbus-daemon , stat("/sys/kernel/security/apparmor", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+6377 , 130448 , 130448 , dbus-daemon , close(8</proc/130448/mounts>) = 0
+6378 , 130448 , 130448 , dbus-daemon , open("/sys/kernel/security/apparmor/features/dbus/mask", O_RDONLY|O_CLOEXEC) = 8</sys/kernel/security/apparmor/features/dbus/mask>
+6379 , 130448 , 130448 , dbus-daemon , close(8</sys/kernel/security/apparmor/features/dbus/mask>) = 0
+6380 , 130448 , 130448 , dbus-daemon , clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+6381 , 130448 , 130448 , dbus-daemon , getresuid([1000], [1000], [1000]) = 0
+6382 , 130448 , 130448 , dbus-daemon , getresgid([1000], [1000], [1000]) = 0
+6383 , 130448 , 130448 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 8</dev/urandom>
+6384 , 130448 , 130448 , dbus-daemon , read(8</dev/urandom>, "\354\264\310\244G\333\35k\276\ni\20", 12) = 12
+6385 , 130448 , 130448 , dbus-daemon , close(8</dev/urandom>) = 0
+6386 , 130448 , 130448 , dbus-daemon , epoll_create1(EPOLL_CLOEXEC) = 8<anon_inode:[eventpoll]>
+6387 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/session.conf", O_RDONLY) = 9</usr/share/dbus-1/session.conf>
+6388 , 130448 , 130448 , dbus-daemon , fstat(9</usr/share/dbus-1/session.conf>, {st_mode=S_IFREG|0644, st_size=3615, ...}) = 0
+6389 , 130448 , 130448 , dbus-daemon , read(9</usr/share/dbus-1/session.conf>, "<!-- This configuration file controls the per-user"..., 3615) = 3615
+6390 , 130448 , 130448 , dbus-daemon , close(9</usr/share/dbus-1/session.conf>) = 0
+6391 , 130448 , 130448 , dbus-daemon , getuid() = 1000
+6392 , 130448 , 130448 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[1227066]>
+6393 , 130448 , 130448 , dbus-daemon , connect(9<UNIX:[1227066]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+6394 , 130448 , 130448 , dbus-daemon , close(9<UNIX:[1227066]>) = 0
+6395 , 130448 , 130448 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[1227067]>
+6396 , 130448 , 130448 , dbus-daemon , connect(9<UNIX:[1227067]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+6397 , 130448 , 130448 , dbus-daemon , close(9<UNIX:[1227067]>) = 0
+6398 , 130448 , 130448 , dbus-daemon , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 9</etc/nsswitch.conf>
+6399 , 130448 , 130448 , dbus-daemon , fstat(9</etc/nsswitch.conf>, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+6400 , 130448 , 130448 , dbus-daemon , read(9</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of "..., 4096) = 529
+6401 , 130448 , 130448 , dbus-daemon , read(9</etc/nsswitch.conf>, "", 4096) = 0
+6402 , 130448 , 130448 , dbus-daemon , close(9</etc/nsswitch.conf>) = 0
+6403 , 130448 , 130448 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+6404 , 130448 , 130448 , dbus-daemon , fstat(9</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+6405 , 130448 , 130448 , dbus-daemon , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7f165db41000
+6406 , 130448 , 130448 , dbus-daemon , close(9</etc/ld.so.cache>) = 0
+6407 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6408 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+6409 , 130448 , 130448 , dbus-daemon , read(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0"..., 832) = 832
+6410 , 130448 , 130448 , dbus-daemon , fstat(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0
+6411 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7f165b6e8000
+6412 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b6f0000, 2093056, PROT_NONE) = 0
+6413 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b8ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7f165b8ef000
+6414 , 130448 , 130448 , dbus-daemon , close(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+6415 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6416 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnsl-2.23.so>
+6417 , 130448 , 130448 , dbus-daemon , read(9</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0"..., 832) = 832
+6418 , 130448 , 130448 , dbus-daemon , fstat(9</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0
+6419 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7f165b4cf000
+6420 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b4e5000, 2093056, PROT_NONE) = 0
+6421 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b6e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7f165b6e4000
+6422 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b6e6000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165b6e6000
+6423 , 130448 , 130448 , dbus-daemon , close(9</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+6424 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b6e4000, 4096, PROT_READ) = 0
+6425 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b8ef000, 4096, PROT_READ) = 0
+6426 , 130448 , 130448 , dbus-daemon , munmap(0x7f165db41000, 129195) = 0
+6427 , 130448 , 130448 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+6428 , 130448 , 130448 , dbus-daemon , fstat(9</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+6429 , 130448 , 130448 , dbus-daemon , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7f165db41000
+6430 , 130448 , 130448 , dbus-daemon , close(9</etc/ld.so.cache>) = 0
+6431 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6432 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+6433 , 130448 , 130448 , dbus-daemon , read(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0"..., 832) = 832
+6434 , 130448 , 130448 , dbus-daemon , fstat(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0
+6435 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7f165b2c3000
+6436 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b2ce000, 2093056, PROT_NONE) = 0
+6437 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b4cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7f165b4cd000
+6438 , 130448 , 130448 , dbus-daemon , close(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+6439 , 130448 , 130448 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6440 , 130448 , 130448 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+6441 , 130448 , 130448 , dbus-daemon , read(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0"..., 832) = 832
+6442 , 130448 , 130448 , dbus-daemon , fstat(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0
+6443 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7f165b0b1000
+6444 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b0bc000, 2093056, PROT_NONE) = 0
+6445 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b2bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7f165b2bb000
+6446 , 130448 , 130448 , dbus-daemon , mmap(0x7f165b2bd000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f165b2bd000
+6447 , 130448 , 130448 , dbus-daemon , close(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+6448 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b2bb000, 4096, PROT_READ) = 0
+6449 , 130448 , 130448 , dbus-daemon , mprotect(0x7f165b4cd000, 4096, PROT_READ) = 0
+6450 , 130448 , 130448 , dbus-daemon , munmap(0x7f165db41000, 129195) = 0
+6451 , 130448 , 130448 , dbus-daemon , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 9</etc/passwd>
+6452 , 130448 , 130448 , dbus-daemon , lseek(9</etc/passwd>, 0, SEEK_CUR) = 0
+6453 , 130448 , 130448 , dbus-daemon , fstat(9</etc/passwd>, {st_mode=S_IFREG|0644, st_size=2368, ...}) = 0
+6454 , 130448 , 130448 , dbus-daemon , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 9</etc/passwd>, 0) = 0x7f165db60000
+6455 , 130448 , 130448 , dbus-daemon , lseek(9</etc/passwd>, 2368, SEEK_SET) = 2368
+6456 , 130448 , 130448 , dbus-daemon , munmap(0x7f165db60000, 2368) = 0
+6457 , 130448 , 130448 , dbus-daemon , close(9</etc/passwd>) = 0
+6458 , 130448 , 130448 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[1227068]>
+6459 , 130448 , 130448 , dbus-daemon , connect(9<UNIX:[1227068]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+6460 , 130448 , 130448 , dbus-daemon , close(9<UNIX:[1227068]>) = 0
+6461 , 130448 , 130448 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[1227069]>
+6462 , 130448 , 130448 , dbus-daemon , connect(9<UNIX:[1227069]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+6463 , 130448 , 130448 , dbus-daemon , close(9<UNIX:[1227069]>) = 0
+6464 , 130448 , 130448 , dbus-daemon , open("/etc/group", O_RDONLY|O_CLOEXEC) = 9</etc/group>
+6465 , 130448 , 130448 , dbus-daemon , lseek(9</etc/group>, 0, SEEK_CUR) = 0
+6466 , 130448 , 130448 , dbus-daemon , fstat(9</etc/group>, {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+6467 , 130448 , 130448 , dbus-daemon , mmap(NULL, 1069, PROT_READ, MAP_SHARED, 9</etc/group>, 0) = 0x7f165db60000
+6468 , 130448 , 130448 , dbus-daemon , lseek(9</etc/group>, 1069, SEEK_SET) = 1069
+6469 , 130448 , 130448 , dbus-daemon , fstat(9</etc/group>, {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+6470 , 130448 , 130448 , dbus-daemon , munmap(0x7f165db60000, 1069) = 0
+6471 , 130448 , 130448 , dbus-daemon , close(9</etc/group>) = 0
+6472 , 130448 , 130448 , dbus-daemon , open("/etc/dbus-1/session.conf.dpkg-bak", O_RDONLY) = -1 ENOENT (No such file or directory)
+6473 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/session.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6474 , 130448 , 130448 , dbus-daemon , open("/etc/dbus-1/session.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</etc/dbus-1/session.d>
+6475 , 130448 , 130448 , dbus-daemon , fstat(9</etc/dbus-1/session.d>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+6476 , 130448 , 130448 , dbus-daemon , getdents(9</etc/dbus-1/session.d>, /* 2 entries */, 32768) = 48
+6477 , 130448 , 130448 , dbus-daemon , getdents(9</etc/dbus-1/session.d>, /* 0 entries */, 32768) = 0
+6478 , 130448 , 130448 , dbus-daemon , close(9</etc/dbus-1/session.d>) = 0
+6479 , 130448 , 130448 , dbus-daemon , open("/etc/dbus-1/session-local.conf", O_RDONLY) = -1 ENOENT (No such file or directory)
+6480 , 130448 , 130448 , dbus-daemon , newfstatat(AT_FDCWD, "/run/systemd/system/", {st_mode=S_IFDIR|0755, st_size=160, ...}, AT_SYMLINK_NOFOLLOW) = 0
+6481 , 130448 , 130448 , dbus-daemon , geteuid() = 1000
+6482 , 130448 , 130448 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+6483 , 130448 , 130448 , dbus-daemon , read(9</dev/urandom>, "\310\3\327\353\377\207f#\270\25", 10) = 10
+6484 , 130448 , 130448 , dbus-daemon , close(9</dev/urandom>) = 0
+6485 , 130448 , 130448 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[1227070]>
+6486 , 130448 , 130448 , dbus-daemon , bind(9<UNIX:[1227070]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, 23) = 0
+6487 , 130448 , 130448 , dbus-daemon , listen(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, 30) = 0
+6488 , 130448 , 130448 , dbus-daemon , fcntl(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+6489 , 130448 , 130448 , dbus-daemon , fcntl(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6490 , 130448 , 130448 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 11</dev/urandom>
+6491 , 130448 , 130448 , dbus-daemon , read(11</dev/urandom>, "\23\230\341\203\211|\261\2731\205\263\337", 12) = 12
+6492 , 130448 , 130448 , dbus-daemon , close(11</dev/urandom>) = 0
+6493 , 130448 , 130448 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=9, u64=6733407061016576009}}) = 0
+6494 , 130448 , 130448 , dbus-daemon , open("/home/elwin/.local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6495 , 130448 , 130448 , dbus-daemon , open("/usr/share/gnome/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6496 , 130448 , 130448 , dbus-daemon , open("/usr/local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6497 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11</usr/share/dbus-1/services>
+6498 , 130448 , 130448 , dbus-daemon , fstat(11</usr/share/dbus-1/services>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+6499 , 130448 , 130448 , dbus-daemon , getdents(11</usr/share/dbus-1/services>, /* 84 entries */, 32768) = 4584
+6500 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+6501 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Terminal.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Terminal.service>
+6502 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Terminal.service>, {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+6503 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Terminal.service>, "[D-BUS Service]\nName=org.gnome.Terminal\nExec=/usr/"..., 91) = 91
+6504 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Terminal.service>) = 0
+6505 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+6506 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6507 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.GConf.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.GConf.service>
+6508 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.GConf.service>, {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6509 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.GConf.service>, "[D-BUS Service]\nName=org.gnome.GConf\nExec=/usr/lib"..., 83) = 83
+6510 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.GConf.service>) = 0
+6511 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6512 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+6513 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.keyring.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.keyring.service>
+6514 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.keyring.service>, {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+6515 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.keyring.service>, "[D-BUS Service]\nName=org.gnome.keyring\nExec=/usr/b"..., 116) = 116
+6516 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.keyring.service>) = 0
+6517 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+6518 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+6519 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-colourlovers.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-colourlovers.service>
+6520 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-colourlovers.service>, {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+6521 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-colourlovers.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Gra"..., 167) = 167
+6522 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-colourlovers.service>) = 0
+6523 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+6524 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6525 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.gedit.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.gedit.service>
+6526 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.gedit.service>, {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6527 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.gedit.service>, "[D-BUS Service]\nName=org.gnome.gedit\nExec=/usr/bin"..., 80) = 80
+6528 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.gedit.service>) = 0
+6529 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6530 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6531 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service>
+6532 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service>, {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6533 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service>, "[D-BUS Service]\nName=org.gnome.ArchiveManager1\nExe"..., 83) = 83
+6534 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service>) = 0
+6535 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+6536 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+6537 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-tomboy.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-tomboy.service>
+6538 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-tomboy.service>, {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+6539 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-tomboy.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Not"..., 149) = 149
+6540 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-tomboy.service>) = 0
+6541 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+6542 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+6543 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/music-preview-player.service", O_RDONLY) = 13</usr/share/dbus-1/services/music-preview-player.service>
+6544 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/music-preview-player.service>, {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+6545 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/music-preview-player.service>, "[D-BUS Service]\nName=com.canonical.Unity.Lens.Musi"..., 135) = 135
+6546 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/music-preview-player.service>) = 0
+6547 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+6548 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6549 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-flickr.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-flickr.service>
+6550 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-flickr.service>, {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6551 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-flickr.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Pho"..., 120) = 120
+6552 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-flickr.service>) = 0
+6553 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6554 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+6555 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-virtualbox.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-virtualbox.service>
+6556 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-virtualbox.service>, {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+6557 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-virtualbox.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Box"..., 157) = 157
+6558 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-virtualbox.service>) = 0
+6559 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+6560 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6561 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.ScreenSaver.service>
+6562 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.ScreenSaver.service>, {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6563 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.ScreenSaver.service>, "[D-BUS Service]\nName=org.gnome.ScreenSaver\nExec=/u"..., 87) = 87
+6564 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.ScreenSaver.service>) = 0
+6565 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6566 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6567 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service>
+6568 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service>, {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6569 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service>, "[D-BUS Service]\nName=org.gtk.vfs.UDisks2VolumeMoni"..., 152) = 152
+6570 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service>) = 0
+6571 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6572 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+6573 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service>
+6574 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service>, {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+6575 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Web"..., 174) = 174
+6576 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service>) = 0
+6577 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+6578 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+6579 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.secrets.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.secrets.service>
+6580 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.secrets.service>, {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+6581 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.secrets.service>, "[D-BUS Service]\nName=org.freedesktop.secrets\nExec="..., 122) = 122
+6582 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.secrets.service>) = 0
+6583 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+6584 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6585 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service>
+6586 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service>, {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6587 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service>, "[D-BUS Service]\nName=org.freedesktop.Telepathy.Cli"..., 97) = 97
+6588 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service>) = 0
+6589 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6590 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6591 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Camera.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Camera.service>
+6592 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Camera.service>, {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6593 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Camera.service>, "[D-BUS Service]\nName=org.gnome.Camera\nExec=/usr/li"..., 80) = 80
+6594 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Camera.service>) = 0
+6595 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6596 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6597 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.bluez.obex.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.bluez.obex.service>
+6598 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.bluez.obex.service>, {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6599 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.bluez.obex.service>, "[D-BUS Service]\nName=org.bluez.obex\nExec=/usr/lib/"..., 109) = 109
+6600 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.bluez.obex.service>) = 0
+6601 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6602 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6603 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service>
+6604 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service>, {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6605 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service>, "[D-BUS Service]\nName=org.gtk.vfs.GoaVolumeMonitor\n"..., 140) = 140
+6606 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service>) = 0
+6607 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6608 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+6609 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", O_RDONLY) = 13</usr/share/dbus-1/system-services/org.freedesktop.systemd1.service>
+6610 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/system-services/org.freedesktop.systemd1.service>, {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+6611 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/system-services/org.freedesktop.systemd1.service>, "#  This file is part of systemd.\n#\n#  systemd is f"..., 364) = 364
+6612 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/system-services/org.freedesktop.systemd1.service>) = 0
+6613 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+6614 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6615 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-video-local.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-video-local.service>
+6616 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-video-local.service>, {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6617 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-video-local.service>, "[D-BUS Service]\nName=net.launchpad.scope.LocalVide"..., 125) = 125
+6618 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-video-local.service>) = 0
+6619 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6620 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+6621 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service>
+6622 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service>, {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+6623 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service>, "[D-BUS Service]\nName=com.google.code.AccountsSSO.S"..., 84) = 84
+6625 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service>) = 0
+6627 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+6628 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+6630 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service>
+6631 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service>, {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+6632 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service>, "[D-BUS Service]\nName=org.gnome.Calculator.SearchPr"..., 121) = 121
+6633 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service>) = 0
+6634 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+6635 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6636 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Cheese.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Cheese.service>
+6637 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Cheese.service>, {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6638 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Cheese.service>, "[D-BUS Service]\nName=org.gnome.Cheese\nExec=/usr/bi"..., 82) = 82
+6639 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Cheese.service>) = 0
+6640 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6641 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+6642 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-texdoc.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-texdoc.service>
+6643 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-texdoc.service>, {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+6644 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-texdoc.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Hel"..., 147) = 147
+6645 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-texdoc.service>) = 0
+6646 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+6647 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+6648 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-applications.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-applications.service>
+6649 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-applications.service>, {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+6650 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-applications.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.App"..., 166) = 166
+6651 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-applications.service>) = 0
+6652 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+6653 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6654 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.seahorse.Application.service>
+6655 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.seahorse.Application.service>, {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6656 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.seahorse.Application.service>, "[D-BUS Service]\nName=org.gnome.seahorse.Applicatio"..., 87) = 87
+6657 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.seahorse.Application.service>) = 0
+6658 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+6659 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6660 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service>
+6661 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service>, {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6662 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service>, "[D-BUS Service]\nName=org.gnome.keyring.SystemPromp"..., 85) = 85
+6663 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service>) = 0
+6664 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6665 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6666 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.ColorHelper.service>
+6667 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.ColorHelper.service>, {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6668 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.ColorHelper.service>, "[D-BUS Service]\nName=org.freedesktop.ColorHelper\nE"..., 85) = 85
+6669 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.ColorHelper.service>) = 0
+6670 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+6671 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+6672 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-zotero.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-zotero.service>
+6673 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-zotero.service>, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+6674 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-zotero.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Aca"..., 184) = 184
+6675 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-zotero.service>) = 0
+6676 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+6677 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6678 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.baobab.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.baobab.service>
+6679 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.baobab.service>, {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6680 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.baobab.service>, "[D-BUS Service]\nName=org.gnome.baobab\nExec=/usr/bi"..., 82) = 82
+6681 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.baobab.service>) = 0
+6682 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+6683 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6684 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service>
+6685 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service>, {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6686 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service>, "[D-BUS Service]\nName=org.gtk.GLib.PACRunner\nExec=/"..., 127) = 127
+6687 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service>) = 0
+6688 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6689 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6690 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-shotwell.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-shotwell.service>
+6691 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-shotwell.service>, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6692 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-shotwell.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Pho"..., 126) = 126
+6693 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-shotwell.service>) = 0
+6694 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6695 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6696 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.Metadata.service>
+6697 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.Metadata.service>, {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6698 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.Metadata.service>, "[D-BUS Service]\nName=org.gtk.vfs.Metadata\nExec=/us"..., 113) = 113
+6699 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.Metadata.service>) = 0
+6700 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6701 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+6702 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-openclipart.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-openclipart.service>
+6703 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-openclipart.service>, {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+6704 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-openclipart.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Gra"..., 165) = 165
+6705 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-openclipart.service>) = 0
+6706 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+6707 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6708 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service>
+6709 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service>, {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6710 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service>, "[D-BUS Service]\nName=org.gnome.evolution.dataserve"..., 113) = 113
+6711 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service>) = 0
+6712 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+6713 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6714 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.DiskUtility.service>
+6715 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.DiskUtility.service>, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6716 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.DiskUtility.service>, "[D-BUS Service]\nName=org.gnome.DiskUtility\nExec=/u"..., 92) = 92
+6717 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.DiskUtility.service>) = 0
+6718 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6719 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6720 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.font-viewer.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.font-viewer.service>
+6721 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.font-viewer.service>, {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6722 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.font-viewer.service>, "[D-BUS Service]\nName=org.gnome.font-viewer\nExec=/u"..., 98) = 98
+6723 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.font-viewer.service>) = 0
+6724 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6725 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6726 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.FileManager1.service>
+6727 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.FileManager1.service>, {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6728 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.FileManager1.service>, "[D-BUS Service]\nName=org.freedesktop.FileManager1\n"..., 96) = 96
+6729 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.FileManager1.service>) = 0
+6730 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6731 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+6732 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service>
+6733 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service>, {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+6734 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Web"..., 172) = 172
+6735 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service>) = 0
+6736 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+6737 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6738 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.Daemon.service>
+6739 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.Daemon.service>, {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6740 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.Daemon.service>, "[D-BUS Service]\nName=org.gtk.vfs.Daemon\nExec=/usr/"..., 100) = 100
+6741 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.Daemon.service>) = 0
+6742 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6743 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6744 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-music.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-music.service>
+6745 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-music.service>, {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6746 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-music.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Mus"..., 120) = 120
+6747 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-music.service>) = 0
+6748 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6749 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6750 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service>
+6751 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service>, {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6752 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service>, "[D-BUS Service]\nName=org.fedoraproject.Config.Prin"..., 86) = 86
+6753 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service>) = 0
+6754 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6755 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+6756 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service>
+6757 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service>, {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+6758 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service>, "[D-BUS Service]\nName=org.freedesktop.Geoclue.Maste"..., 89) = 89
+6759 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service>) = 0
+6760 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+6761 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+6762 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.FileRoller.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.FileRoller.service>
+6763 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.FileRoller.service>, {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+6764 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.FileRoller.service>, "[D-BUS Service]\nName=org.gnome.FileRoller\nExec=/us"..., 78) = 78
+6765 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.FileRoller.service>) = 0
+6766 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+6767 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6768 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.a11y.Bus.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.a11y.Bus.service>
+6769 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.a11y.Bus.service>, {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6770 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.a11y.Bus.service>, "[D-BUS Service]\nName=org.a11y.Bus\nExec=/usr/lib/at"..., 81) = 81
+6771 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.a11y.Bus.service>) = 0
+6772 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6773 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6774 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Calendar.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Calendar.service>
+6775 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Calendar.service>, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6776 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Calendar.service>, "[D-BUS Service]\nName=org.gnome.Calendar\nExec=/usr/"..., 92) = 92
+6777 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Calendar.service>) = 0
+6778 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6779 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6780 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Screenshot.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Screenshot.service>
+6781 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Screenshot.service>, {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6782 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Screenshot.service>, "[D-BUS Service]\nName=org.gnome.Screenshot\nExec=/us"..., 96) = 96
+6783 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Screenshot.service>) = 0
+6784 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+6785 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6786 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service>
+6787 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service>, {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6788 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service>, "[D-BUS Service]\nName=org.freedesktop.Geoclue.Provi"..., 120) = 120
+6789 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service>) = 0
+6790 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6791 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+6792 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-calculator.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-calculator.service>
+6793 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-calculator.service>, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+6794 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-calculator.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Inf"..., 155) = 155
+6795 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-calculator.service>) = 0
+6796 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+6797 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6798 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Totem.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Totem.service>
+6799 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Totem.service>, {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6800 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Totem.service>, "[D-BUS Service]\nName=org.gnome.Totem\nExec=/usr/bin"..., 80) = 80
+6801 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Totem.service>) = 0
+6802 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6803 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6804 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.canonical.webcredentials.capture.service>
+6805 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.canonical.webcredentials.capture.service>, {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6806 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.canonical.webcredentials.capture.service>, "[D-BUS Service]\nName=com.canonical.webcredentials."..., 100) = 100
+6807 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.canonical.webcredentials.capture.service>) = 0
+6808 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6809 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6810 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.ayatana.bamf.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.ayatana.bamf.service>
+6811 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.ayatana.bamf.service>, {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6812 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.ayatana.bamf.service>, "[D-BUS Service]\nName=org.ayatana.bamf\nExec=/usr/li"..., 97) = 97
+6813 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.ayatana.bamf.service>) = 0
+6814 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+6815 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+6816 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.evince.Daemon.service>
+6817 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.evince.Daemon.service>, {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+6818 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.evince.Daemon.service>, "[D-BUS Service]\nName=org.gnome.evince.Daemon\nExec="..., 74) = 74
+6819 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.evince.Daemon.service>) = 0
+6820 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+6821 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+6822 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service>
+6823 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service>, {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+6824 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service>, "[D-BUS Service]\nName=com.canonical.indicators.webc"..., 234) = 234
+6825 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service>) = 0
+6826 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+6827 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6828 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.zeitgeist.service>
+6829 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.zeitgeist.service>, {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6830 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.zeitgeist.service>, "[D-BUS Service]\nName=org.gnome.zeitgeist.Engine\nEx"..., 152) = 152
+6831 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.zeitgeist.service>) = 0
+6832 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6833 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6834 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service>
+6835 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service>, {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6836 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service>, "[D-BUS Service]\nName=com.canonical.Unity.Webapps.S"..., 109) = 109
+6837 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service>) = 0
+6838 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+6839 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6840 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service>
+6841 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service>, {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6842 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service>, "[D-BUS Service]\nName=org.gtk.vfs.GPhoto2VolumeMoni"..., 152) = 152
+6843 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service>) = 0
+6844 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+6845 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+6846 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service>
+6847 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service>, {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+6848 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service>, "[D-BUS Service]\nName=org.gtk.vfs.AfcVolumeMonitor\n"..., 141) = 141
+6849 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service>) = 0
+6850 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+6851 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+6852 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/ca.desrt.dconf.service", O_RDONLY) = 13</usr/share/dbus-1/services/ca.desrt.dconf.service>
+6853 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/ca.desrt.dconf.service>, {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+6854 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/ca.desrt.dconf.service>, "[D-BUS Service]\nName=ca.desrt.dconf\nExec=/usr/lib/"..., 70) = 70
+6855 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/ca.desrt.dconf.service>) = 0
+6856 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+6857 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+6858 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Rhythmbox3.service>
+6859 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Rhythmbox3.service>, {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+6860 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Rhythmbox3.service>, "[D-BUS Service]\nName=org.gnome.Rhythmbox3\nExec=/us"..., 66) = 66
+6861 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Rhythmbox3.service>) = 0
+6862 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+6863 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6864 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-picasa.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-picasa.service>
+6865 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-picasa.service>, {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6866 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-picasa.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Pho"..., 120) = 120
+6867 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-picasa.service>) = 0
+6868 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+6869 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+6870 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-yelp.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-yelp.service>
+6871 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-yelp.service>, {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+6872 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-yelp.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Hel"..., 143) = 143
+6873 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-yelp.service>) = 0
+6874 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+6875 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6876 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-facebook.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-facebook.service>
+6877 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-facebook.service>, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6878 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-facebook.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Pho"..., 126) = 126
+6879 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-facebook.service>) = 0
+6880 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+6881 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6882 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service>
+6883 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service>, {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6884 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service>, "[D-BUS Service]\nName=org.gtk.vfs.MTPVolumeMonitor\n"..., 140) = 140
+6885 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service>) = 0
+6886 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+6887 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+6888 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service>
+6889 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service>, {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+6890 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service>, "[D-BUS Service]\nName=org.gnome.evolution.dataserve"..., 114) = 114
+6891 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service>) = 0
+6892 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+6893 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6894 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/sessioninstaller.service", O_RDONLY) = 13</usr/share/dbus-1/services/sessioninstaller.service>
+6895 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/sessioninstaller.service>, {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6896 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/sessioninstaller.service>, "[D-BUS Service]\nName=org.freedesktop.PackageKit\nEx"..., 80) = 80
+6897 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/sessioninstaller.service>) = 0
+6898 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+6899 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+6900 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.freedesktop.Notifications.service>
+6901 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.freedesktop.Notifications.service>, {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+6902 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.freedesktop.Notifications.service>, "[D-BUS Service]\nName=org.freedesktop.Notifications"..., 93) = 93
+6903 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.freedesktop.Notifications.service>) = 0
+6904 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+6905 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+6906 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service>
+6907 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service>, {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+6908 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service>, "[D-BUS Service]\nName=org.gnome.evolution.dataserve"..., 111) = 111
+6909 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service>) = 0
+6910 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+6911 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6912 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service>
+6913 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service>, {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6914 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service>, "[D-BUS Service]\nName=org.gnome.keyring.PrivateProm"..., 86) = 86
+6915 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service>) = 0
+6916 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6917 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+6918 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-manpages.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-manpages.service>
+6919 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-manpages.service>, {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+6920 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-manpages.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Dev"..., 158) = 158
+6921 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-manpages.service>) = 0
+6922 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+6923 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+6924 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.nokia.singlesignonui.service>
+6925 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.nokia.singlesignonui.service>, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+6926 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.nokia.singlesignonui.service>, "[D-BUS Service]\nName=com.nokia.singlesignonui\nExec"..., 219) = 219
+6927 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.nokia.singlesignonui.service>) = 0
+6928 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+6929 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6930 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.canonical.hud.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.canonical.hud.service>
+6931 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.canonical.hud.service>, {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6932 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.canonical.hud.service>, "[D-BUS Service]\nName=com.canonical.hud\nExec=/usr/l"..., 98) = 98
+6933 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.canonical.hud.service>) = 0
+6934 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+6935 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6936 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-files-local.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-files-local.service>
+6937 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-files-local.service>, {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6938 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-files-local.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Loc"..., 125) = 125
+6939 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-files-local.service>) = 0
+6940 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+6941 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+6942 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-devhelp.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-devhelp.service>
+6943 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-devhelp.service>, {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+6944 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-devhelp.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Dev"..., 154) = 154
+6945 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-devhelp.service>) = 0
+6946 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+6947 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+6948 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-gdrive.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-gdrive.service>
+6949 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-gdrive.service>, {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+6950 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-gdrive.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Fil"..., 148) = 148
+6951 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-gdrive.service>) = 0
+6952 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+6953 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+6954 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service>
+6955 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service>, {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+6956 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service>, "[D-BUS Service]\nName=org.gnome.evolution.dataserve"..., 119) = 119
+6957 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service>) = 0
+6958 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+6959 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+6960 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-home.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-home.service>
+6961 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-home.service>, {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+6962 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-home.service>, "[D-BUS Service]\nName=com.canonical.Unity.Scope.Hom"..., 117) = 117
+6963 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-home.service>) = 0
+6964 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+6965 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6966 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", O_RDONLY) = 13</usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service>
+6967 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service>, {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6968 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service>, "[D-BUS Service]\nName=com.nokia.SingleSignOn.Backup"..., 81) = 81
+6969 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service>) = 0
+6970 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+6971 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6972 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Software.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Software.service>
+6973 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Software.service>, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6974 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Software.service>, "[D-BUS Service]\nName=org.gnome.Software\nExec=/usr/"..., 92) = 92
+6975 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Software.service>) = 0
+6976 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+6977 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6978 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.Nautilus.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.Nautilus.service>
+6979 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.Nautilus.service>, {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6980 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.Nautilus.service>, "[D-BUS Service]\nName=org.gnome.Nautilus\nExec=/usr/"..., 86) = 86
+6981 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.Nautilus.service>) = 0
+6982 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+6983 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6984 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", O_RDONLY) = 13</usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service>
+6985 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service>, {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6986 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service>, "[D-BUS Service]\nName=org.gnome.zeitgeist.SimpleInd"..., 100) = 100
+6987 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service>) = 0
+6988 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+6989 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6990 , 130448 , 130448 , dbus-daemon , open("/usr/share/dbus-1/services/unity-scope-video-remote.service", O_RDONLY) = 13</usr/share/dbus-1/services/unity-scope-video-remote.service>
+6991 , 130448 , 130448 , dbus-daemon , fstat(13</usr/share/dbus-1/services/unity-scope-video-remote.service>, {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6992 , 130448 , 130448 , dbus-daemon , read(13</usr/share/dbus-1/services/unity-scope-video-remote.service>, "[D-BUS Service]\nName=net.launchpad.scope.RemoteVid"..., 127) = 127
+6993 , 130448 , 130448 , dbus-daemon , close(13</usr/share/dbus-1/services/unity-scope-video-remote.service>) = 0
+6994 , 130448 , 130448 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+6995 , 130448 , 130448 , dbus-daemon , getdents(11</usr/share/dbus-1/services>, /* 0 entries */, 32768) = 0
+6996 , 130448 , 130448 , dbus-daemon , close(11</usr/share/dbus-1/services>) = 0
+6997 , 130448 , 130448 , dbus-daemon , open("/var/lib/snapd/desktop/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+6998 , 130448 , 130448 , dbus-daemon , write(12<pipe:[1227063]>, "unix:abstract=/tmp/dbus-OD3nHLe9yV,guid=1398e18389"..., 73) = 73
+6999 , 130448 , 130448 , dbus-daemon , close(12<pipe:[1227063]>) = 0
+7000 , 130448 , 130448 , dbus-daemon , chdir("/") = 0
+7001 , 130448 , 130448 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f165dab3b90) = 130454
+7003 , 130448 , 130448 , dbus-daemon , write(10<pipe:[1227062]>, "130454\n", 7) = 7
+7005 , 130448 , 130448 , dbus-daemon , exit_group(0) = ?
+7007 , 130448 , 130448 , dbus-daemon , +++ exited with 0 +++

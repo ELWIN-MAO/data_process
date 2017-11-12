@@ -1,0 +1,13 @@
+29309 , 19976 , 19973 , at-spi2-registr , set_robust_list(0x7f974b0cd9e0, 24) = 0
+29310 , 19976 , 19973 , at-spi2-registr , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f97428cd000
+29311 , 19976 , 19973 , at-spi2-registr , munmap(0x7f97428cd000, 24326144) = 0
+29312 , 19976 , 19973 , at-spi2-registr , munmap(0x7f9748000000, 42782720) = 0
+29313 , 19976 , 19973 , at-spi2-registr , mprotect(0x7f9744000000, 135168, PROT_READ|PROT_WRITE) = 0
+29316 , 19976 , 19973 , at-spi2-registr , prctl(PR_SET_NAME, "gmain\0\0\0xkLM\227\177\0\0") = 0
+29318 , 19976 , 19973 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+29322 , 19976 , 19973 , gmain , futex(0x199c230, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+29326 , 19976 , 19973 , gmain , futex(0x199c230, FUTEX_WAKE_PRIVATE, 1) = 0
+29329 , 19976 , 19973 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+29332 , 19976 , 19973 , gmain , read(7<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+29334 , 19976 , 19973 , gmain , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1 <unfinished ...>
+32193 , 19976 , 0 , NULL , +++ exited with 1 +++

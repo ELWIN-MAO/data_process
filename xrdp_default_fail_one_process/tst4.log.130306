@@ -1,0 +1,28 @@
+14 , 130306 , 38961 , xrdp , set_robust_list(0x7f2babf709e0, 24) = 0
+16 , 130306 , 38961 , xrdp , futex(0x23c08d0, FUTEX_WAKE_PRIVATE, 1) = 1
+18 , 130306 , 38961 , xrdp , stat("/etc/xrdp/xrdp.ini", {st_mode=S_IFREG|0644, st_size=824, ...}) = 0
+19 , 130306 , 38961 , xrdp , open("/etc/xrdp/xrdp.ini", O_RDWR|O_CREAT, 0600) = 9</etc/xrdp/xrdp.ini>
+20 , 130306 , 38961 , xrdp , lseek(9</etc/xrdp/xrdp.ini>, 0, SEEK_SET) = 0
+21 , 130306 , 38961 , xrdp , read(9</etc/xrdp/xrdp.ini>, "\n[globals]\nbitmap_cache=yes\nbitmap_compression=yes"..., 32768) = 824
+22 , 130306 , 38961 , xrdp , close(9</etc/xrdp/xrdp.ini>) = 0
+23 , 130306 , 38961 , xrdp , getpeername(7<TCP:[192.168.209.128:3389->192.168.209.1:54180]>, {sa_family=AF_INET, sin_port=htons(54180), sin_addr=inet_addr("192.168.209.1")}, [16]) = 0
+24 , 130306 , 38961 , xrdp , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+25 , 130306 , 38961 , xrdp , read(9</dev/urandom>, "\270ka\205\352\246\370\214|\244HA\227\216\23;\277\304\30\22{\35D\24,\341G9]\274\300,", 32) = 32
+26 , 130306 , 38961 , xrdp , close(9</dev/urandom>) = 0
+27 , 130306 , 38961 , xrdp , stat("/etc/xrdp/rsakeys.ini", {st_mode=S_IFREG|0600, st_size=1019, ...}) = 0
+28 , 130306 , 38961 , xrdp , open("/etc/xrdp/rsakeys.ini", O_RDWR|O_CREAT, 0600) = 9</etc/xrdp/rsakeys.ini>
+29 , 130306 , 38961 , xrdp , lseek(9</etc/xrdp/rsakeys.ini>, 0, SEEK_SET) = 0
+30 , 130306 , 38961 , xrdp , read(9</etc/xrdp/rsakeys.ini>, "[keys]\npub_exp=0x01,0x00,0x01,0x00\npub_mod=0x81,0x"..., 32768) = 1019
+31 , 130306 , 38961 , xrdp , close(9</etc/xrdp/rsakeys.ini>) = 0
+32 , 130306 , 38961 , xrdp , recvfrom(7<TCP:[192.168.209.128:3389->192.168.209.1:54180]>, "\3\0\0+", 4, 0, NULL, NULL) = 4
+33 , 130306 , 38961 , xrdp , recvfrom(7<TCP:[192.168.209.128:3389->192.168.209.1:54180]>, "&\340\0\0\0\0\0Cookie: mstshash=elwin\r\n\1\0\10\0\v\0\0\0", 39, 0, NULL, NULL) = 39
+34 , 130306 , 38961 , xrdp , sendto(7<TCP:[192.168.209.128:3389->192.168.209.1:54180]>, "\3\0\0\v\6\320\0\0\0\0\0", 11, 0, NULL, 0) = 11
+35 , 130306 , 38961 , xrdp , recvfrom(7<TCP:[1221377]>, 0x7f2ba4009f00, 4, 0, NULL, NULL) = -1 ECONNRESET (Connection reset by peer)
+36 , 130306 , 38961 , xrdp , select(4, [3<UNIX:[337258,"/tmp/.xrdp/xrdp-P6sN1X/xrdp_00009831_listen_pro_done_event_3df2d05e"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+37 , 130306 , 38961 , xrdp , getsockname(3<UNIX:[337258,"/tmp/.xrdp/xrdp-P6sN1X/xrdp_00009831_listen_pro_done_event_3df2d05e"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-P6sN1X/xrdp_00009831_listen_pro_done_event_3df2d05e"}, [70]) = 0
+38 , 130306 , 38961 , xrdp , socket(PF_LOCAL, SOCK_DGRAM, 0) = 9<UNIX:[1221379]>
+39 , 130306 , 38961 , xrdp , sendto(9<UNIX:[1221379]>, "sig\0", 4, 0, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-P6sN1X/xrdp_00009831_listen_pro_done_event_3df2d05e"}, 70) = 4
+40 , 130306 , 38961 , xrdp , close(9<UNIX:[1221379]>) = 0
+42 , 130306 , 38961 , xrdp , madvise(0x7f2bab770000, 8368128, MADV_DONTNEED) = 0
+44 , 130306 , 38961 , xrdp , exit(0)    = ?
+45 , 130306 , 0 , NULL , +++ exited with 0 +++

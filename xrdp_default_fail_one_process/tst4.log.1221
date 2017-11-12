@@ -1,0 +1,9 @@
+10646 , 1221  , 130471 , gsettings , set_robust_list(0x7fd1013e99e0, 24) = 0
+10648 , 1221  , 130471 , gsettings , prctl(PR_SET_NAME, "dconf worker\0\177\0\0") = 0
+10653 , 1221  , 130471 , dconf worker , mmap(0x7fd0f8000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd0f8000000
+10655 , 1221  , 130471 , dconf worker , mprotect(0x7fd0f8000000, 139264, PROT_READ|PROT_WRITE) = 0
+10657 , 1221  , 130471 , dconf worker , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+10661 , 1221  , 130471 , dconf worker , futex(0x7fd1037165d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+10666 , 1221  , 130471 , dconf worker , futex(0x24c1390, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+10669 , 1221  , 130471 , dconf worker , futex(0x24c1390, FUTEX_WAKE_PRIVATE, 1) = 0
+10675 , 1221  , 0 , NULL , +++ exited with 0 +++

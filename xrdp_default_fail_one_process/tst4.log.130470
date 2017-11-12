@@ -1,0 +1,98 @@
+7535 , 130470 , 130470 , im-launch , dup2(8<pipe:[1227866]>, 0</dev/null>) = 0<pipe:[1227866]>
+7538 , 130470 , 130470 , im-launch , close(8<pipe:[1227866]>) = 0
+7541 , 130470 , 130470 , im-launch , execve("/bin/sed", ["sed", "-rn", "s/(^|.*:)en_US,([^:]*)($|:.*$)/\\2/p"], [/* 21 vars */]) = 0
+7545 , 130470 , 130470 , sed , brk(NULL) = 0x1b62000
+7546 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7547 , 130470 , 130470 , sed , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7894b11000
+7548 , 130470 , 130470 , sed , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+7549 , 130470 , 130470 , sed , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+7550 , 130470 , 130470 , sed , fstat(8</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+7551 , 130470 , 130470 , sed , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f7894af1000
+7552 , 130470 , 130470 , sed , close(8</etc/ld.so.cache>) = 0
+7553 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7554 , 130470 , 130470 , sed , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libselinux.so.1>
+7555 , 130470 , 130470 , sed , read(8</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0"..., 832) = 832
+7556 , 130470 , 130470 , sed , fstat(8</lib/x86_64-linux-gnu/libselinux.so.1>, {st_mode=S_IFREG|0644, st_size=130224, ...}) = 0
+7557 , 130470 , 130470 , sed , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f78946cc000
+7558 , 130470 , 130470 , sed , mprotect(0x7f78946eb000, 2093056, PROT_NONE) = 0
+7559 , 130470 , 130470 , sed , mmap(0x7f78948ea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f78948ea000
+7560 , 130470 , 130470 , sed , mmap(0x7f78948ec000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f78948ec000
+7561 , 130470 , 130470 , sed , close(8</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+7562 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7563 , 130470 , 130470 , sed , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+7564 , 130470 , 130470 , sed , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+7565 , 130470 , 130470 , sed , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+7566 , 130470 , 130470 , sed , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f7894302000
+7567 , 130470 , 130470 , sed , mprotect(0x7f78944c2000, 2097152, PROT_NONE) = 0
+7568 , 130470 , 130470 , sed , mmap(0x7f78946c2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f78946c2000
+7569 , 130470 , 130470 , sed , mmap(0x7f78946c8000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f78946c8000
+7570 , 130470 , 130470 , sed , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+7571 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7572 , 130470 , 130470 , sed , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+7573 , 130470 , 130470 , sed , read(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0"..., 832) = 832
+7574 , 130470 , 130470 , sed , fstat(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+7575 , 130470 , 130470 , sed , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7894af0000
+7576 , 130470 , 130470 , sed , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f7894092000
+7577 , 130470 , 130470 , sed , mprotect(0x7f7894100000, 2097152, PROT_NONE) = 0
+7578 , 130470 , 130470 , sed , mmap(0x7f7894300000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f7894300000
+7579 , 130470 , 130470 , sed , close(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+7580 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7581 , 130470 , 130470 , sed , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+7582 , 130470 , 130470 , sed , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0"..., 832) = 832
+7583 , 130470 , 130470 , sed , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+7584 , 130470 , 130470 , sed , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f7893e8e000
+7585 , 130470 , 130470 , sed , mprotect(0x7f7893e91000, 2093056, PROT_NONE) = 0
+7586 , 130470 , 130470 , sed , mmap(0x7f7894090000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f7894090000
+7587 , 130470 , 130470 , sed , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+7588 , 130470 , 130470 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7589 , 130470 , 130470 , sed , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+7590 , 130470 , 130470 , sed , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0"..., 832) = 832
+7591 , 130470 , 130470 , sed , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+7592 , 130470 , 130470 , sed , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f7893c71000
+7593 , 130470 , 130470 , sed , mprotect(0x7f7893c89000, 2093056, PROT_NONE) = 0
+7594 , 130470 , 130470 , sed , mmap(0x7f7893e88000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f7893e88000
+7595 , 130470 , 130470 , sed , mmap(0x7f7893e8a000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7893e8a000
+7596 , 130470 , 130470 , sed , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+7597 , 130470 , 130470 , sed , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7894aef000
+7598 , 130470 , 130470 , sed , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7894aed000
+7599 , 130470 , 130470 , sed , arch_prctl(ARCH_SET_FS, 0x7f7894aed800) = 0
+7600 , 130470 , 130470 , sed , mprotect(0x7f78946c2000, 16384, PROT_READ) = 0
+7601 , 130470 , 130470 , sed , mprotect(0x7f7893e88000, 4096, PROT_READ) = 0
+7602 , 130470 , 130470 , sed , mprotect(0x7f7894090000, 4096, PROT_READ) = 0
+7603 , 130470 , 130470 , sed , mprotect(0x7f7894300000, 4096, PROT_READ) = 0
+7604 , 130470 , 130470 , sed , mprotect(0x7f78948ea000, 4096, PROT_READ) = 0
+7605 , 130470 , 130470 , sed , mprotect(0x610000, 4096, PROT_READ) = 0
+7606 , 130470 , 130470 , sed , mprotect(0x7f7894b13000, 4096, PROT_READ) = 0
+7607 , 130470 , 130470 , sed , munmap(0x7f7894af1000, 129195) = 0
+7608 , 130470 , 130470 , sed , set_tid_address(0x7f7894aedad0) = 130470
+7609 , 130470 , 130470 , sed , set_robust_list(0x7f7894aedae0, 24) = 0
+7610 , 130470 , 130470 , sed , rt_sigaction(SIGRTMIN, {0x7f7893c76b50, [], SA_RESTORER|SA_SIGINFO, 0x7f7893c82390}, NULL, 8) = 0
+7611 , 130470 , 130470 , sed , rt_sigaction(SIGRT_1, {0x7f7893c76be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7893c82390}, NULL, 8) = 0
+7612 , 130470 , 130470 , sed , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+7613 , 130470 , 130470 , sed , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+7614 , 130470 , 130470 , sed , statfs("/sys/fs/selinux", 0x7ffe8a7447d0) = -1 ENOENT (No such file or directory)
+7615 , 130470 , 130470 , sed , statfs("/selinux", 0x7ffe8a7447d0) = -1 ENOENT (No such file or directory)
+7616 , 130470 , 130470 , sed , brk(NULL) = 0x1b62000
+7617 , 130470 , 130470 , sed , brk(0x1b83000) = 0x1b83000
+7618 , 130470 , 130470 , sed , open("/proc/filesystems", O_RDONLY) = 8</proc/filesystems>
+7619 , 130470 , 130470 , sed , fstat(8</proc/filesystems>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+7620 , 130470 , 130470 , sed , read(8</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nno"..., 1024) = 424
+7621 , 130470 , 130470 , sed , read(8</proc/filesystems>, "", 1024) = 0
+7622 , 130470 , 130470 , sed , close(8</proc/filesystems>) = 0
+7623 , 130470 , 130470 , sed , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+7624 , 130470 , 130470 , sed , fstat(8</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+7625 , 130470 , 130470 , sed , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f7893999000
+7626 , 130470 , 130470 , sed , close(8</usr/lib/locale/locale-archive>) = 0
+7627 , 130470 , 130470 , sed , open("//lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+7628 , 130470 , 130470 , sed , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+7629 , 130470 , 130470 , sed , fstat(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+7630 , 130470 , 130470 , sed , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f7894b0a000
+7631 , 130470 , 130470 , sed , close(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+7632 , 130470 , 130470 , sed , futex(0x7f78946c78c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+7633 , 130470 , 130470 , sed , fstat(0<pipe:[1227866]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+7634 , 130470 , 130470 , sed , read(0<pipe:[1227866]>, "zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx:ja"..., 4096) = 84
+7635 , 130470 , 130470 , sed , read(0<pipe:[1227866]>, "", 4096) = 0
+7636 , 130470 , 130470 , sed , close(1<pipe:[1227865]>) = 0
+7637 , 130470 , 130470 , sed , close(2</home/elwin/.xsession-errors>) = 0
+7638 , 130470 , 130470 , sed , exit_group(0) = ?
+7639 , 130470 , 130470 , sed , +++ exited with 0 +++

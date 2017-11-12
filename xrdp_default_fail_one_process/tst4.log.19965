@@ -1,0 +1,17 @@
+25660 , 19965 , 19965 , dbus-daemon , set_robust_list(0x7f165dab3ba0, 24) = 0
+25661 , 19965 , 19965 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f165c6b94b0}, {SIG_DFL, [], 0}, 8) = 0
+25662 , 19965 , 19965 , dbus-daemon , close(17<pipe:[1472699]>) = 0
+25663 , 19965 , 19965 , dbus-daemon , close(19<UNIX:[1472700->1472701]>) = 0
+25665 , 19965 , 19965 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f165dab3b90) = 19966
+25668 , 19965 , 19965 , dbus-daemon , close(18<pipe:[1472699]>) = 0
+25671 , 19965 , 19965 , dbus-daemon , close(21<UNIX:[1472702->1472703]>) = 0
+25673 , 19965 , 19965 , dbus-daemon , close(22<UNIX:[1472704->1473698]>) = 0
+25676 , 19965 , 19965 , dbus-daemon , pipe([17<pipe:[1472705]>, 18<pipe:[1472705]>]) = 0
+25678 , 19965 , 19965 , dbus-daemon , rt_sigaction(SIGCHLD, {0x5607abb32dd0, [], SA_RESTORER, 0x7f165ca5f390}, NULL, 8) = 0
+25681 , 19965 , 19965 , dbus-daemon , write(20<UNIX:[1472701->1472700]>, "\3\0\0\0", 4) = 4
+25682 , 19965 , 19965 , dbus-daemon , write(20<UNIX:[1472701->1472700]>, "\376M\0\0", 4) = 4
+25685 , 19965 , 19965 , dbus-daemon , wait4(19966, 0x7ffc1daec23c, WNOHANG, NULL) = 0
+25689 , 19965 , 19965 , dbus-daemon , poll([{fd=20<UNIX:[1472701->1472700]>, events=POLLIN}, {fd=17<pipe:[1472705]>, events=POLLIN}], 2, -1) = 1 ([{fd=20, revents=POLLIN|POLLHUP}])
+26841 , 19965 , 19965 , dbus-daemon , wait4(19966, 0x7ffc1daec23c, WNOHANG, NULL) = 0
+26844 , 19965 , 19965 , dbus-daemon , exit_group(0) = ?
+26846 , 19965 , 19965 , dbus-daemon , +++ exited with 0 +++

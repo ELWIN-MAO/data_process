@@ -1,0 +1,361 @@
+31604 , 19978 , 19978 , gnome-session-c , set_robust_list(0x7f303424cd20, 24) = 0
+31609 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, {SIG_DFL, [], 0}, 8) = 0
+31611 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, {SIG_DFL, [], 0}, 8) = 0
+31614 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, {SIG_DFL, [], 0}, 8) = 0
+31615 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, {SIG_DFL, [], 0}, 8) = 0
+31618 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f3032b054b0}, 8) = 0
+31620 , 19978 , 19978 , gnome-session-c , close(7<pipe:[1476253]>) = 0
+31622 , 19978 , 19978 , gnome-session-c , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7</proc/19978/fd>
+31624 , 19978 , 19978 , gnome-session-c , fstat(7</proc/19978/fd>, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
+31625 , 19978 , 19978 , gnome-session-c , brk(0x101b000) = 0x101b000
+31626 , 19978 , 19978 , gnome-session-c , getdents(7</proc/19978/fd>, /* 11 entries */, 32768) = 264
+31627 , 19978 , 19978 , gnome-session-c , fcntl(3<UNIX:[1474917->1474918]>, F_SETFD, FD_CLOEXEC) = 0
+31628 , 19978 , 19978 , gnome-session-c , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+31629 , 19978 , 19978 , gnome-session-c , fcntl(5<UNIX:[1474922->1474923]>, F_SETFD, FD_CLOEXEC) = 0
+31630 , 19978 , 19978 , gnome-session-c , fcntl(6<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+31631 , 19978 , 19978 , gnome-session-c , fcntl(8<pipe:[1476253]>, F_SETFD, FD_CLOEXEC) = 0
+31632 , 19978 , 19978 , gnome-session-c , getdents(7</proc/19978/fd>, /* 0 entries */, 32768) = 0
+31633 , 19978 , 19978 , gnome-session-c , brk(0x1013000) = 0x1013000
+31634 , 19978 , 19978 , gnome-session-c , close(7</proc/19978/fd>) = 0
+31635 , 19978 , 19978 , gnome-session-c , open("/dev/null", O_RDONLY) = 7</dev/null>
+31636 , 19978 , 19978 , gnome-session-c , dup2(7</dev/null>, 0</dev/null>) = 0</dev/null>
+31637 , 19978 , 19978 , gnome-session-c , close(7</dev/null>) = 0
+31638 , 19978 , 19978 , gnome-session-c , execve("/usr/lib/gnome-session/gnome-session-check-accelerated-helper", ["/usr/lib/gnome-session/gnome-session-check-acceler"...], [/* 19 vars */]) = 0
+31639 , 19978 , 19978 , gnome-session-c , brk(NULL) = 0x12fa000
+31641 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31643 , 19978 , 19978 , gnome-session-c , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7caf000
+31644 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+31645 , 19978 , 19978 , gnome-session-c , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+31646 , 19978 , 19978 , gnome-session-c , fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+31647 , 19978 , 19978 , gnome-session-c , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f19f7c8f000
+31648 , 19978 , 19978 , gnome-session-c , close(3</etc/ld.so.cache>) = 0
+31649 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31650 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXcomposite.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>
+31651 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\f\0\0\0\0\0\0@\0\0\0\0\0\0\0x!\0\0\0\0\0\0\0\0"..., 832) = 832
+31652 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=10232, ...}) = 0
+31653 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2105496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, 0) = 0x7f19f7889000
+31654 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f788b000, 2093056, PROT_NONE) = 0
+31655 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f7a8a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, 0x1000) = 0x7f19f7a8a000
+31656 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>) = 0
+31657 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31658 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>
+31659 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\212\1\0\0\0\0\0@\0\0\0\0\0\0\0@+\7\0\0\0\0\0\0\0"..., 832) = 832
+31660 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, {st_mode=S_IFREG|0644, st_size=471680, ...}) = 0
+31661 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2569408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, 0) = 0x7f19f7615000
+31662 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7685000, 2093056, PROT_NONE) = 0
+31663 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f7884000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>, 0x6f000) = 0x7f19f7884000
+31664 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f7888000, 1216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19f7888000
+31665 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0>) = 0
+31666 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31667 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+31668 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0"..., 832) = 832
+31669 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_mode=S_IFREG|0644, st_size=1115136, ...}) = 0
+31670 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c8e000
+31671 , 19978 , 19978 , gnome-session-c , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f19f7304000
+31672 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7412000, 2097152, PROT_NONE) = 0
+31673 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f7612000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f19f7612000
+31674 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f7614000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19f7614000
+31675 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+31676 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31677 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+31678 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0"..., 832) = 832
+31679 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_mode=S_IFREG|0644, st_size=1285552, ...}) = 0
+31680 , 19978 , 19978 , gnome-session-c , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f19f6fca000
+31681 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f70ff000, 2097152, PROT_NONE) = 0
+31682 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f72ff000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f19f72ff000
+31683 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+31684 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31685 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+31686 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+31687 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+31688 , 19978 , 19978 , gnome-session-c , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f19f6c00000
+31689 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f6dc0000, 2097152, PROT_NONE) = 0
+31690 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f6fc0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f19f6fc0000
+31691 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f6fc6000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19f6fc6000
+31692 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+31693 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31694 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>
+31695 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0;\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\201\2\0\0\0\0\0\0\0"..., 832) = 832
+31696 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_mode=S_IFREG|0644, st_size=166032, ...}) = 0
+31697 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c8d000
+31698 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7f19f69d7000
+31699 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f69fd000, 2097152, PROT_NONE) = 0
+31700 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f6bfd000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x26000) = 0x7f19f6bfd000
+31701 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+31702 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31703 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>
+31704 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\220!\0\0\0\0\0\0\0\0"..., 832) = 832
+31705 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=10384, ...}) = 0
+31706 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2105448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, 0) = 0x7f19f67d4000
+31707 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f67d6000, 2093056, PROT_NONE) = 0
+31708 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f69d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>, 0x1000) = 0x7f19f69d5000
+31709 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0.0.0>) = 0
+31710 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31711 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb-present.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>
+31712 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\f\0\0\0\0\0\0@\0\0\0\0\0\0\0\200!\0\0\0\0\0\0\0\0"..., 832) = 832
+31713 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=10368, ...}) = 0
+31714 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2105432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, 0) = 0x7f19f65d1000
+31715 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f65d3000, 2093056, PROT_NONE) = 0
+31716 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f67d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>, 0x1000) = 0x7f19f67d2000
+31717 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb-present.so.0.0.0>) = 0
+31718 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31719 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>
+31720 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\36\0\0\0\0\0\0@\0\0\0\0\0\0\0\240a\0\0\0\0\0\0\0\0"..., 832) = 832
+31721 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=26784, ...}) = 0
+31722 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c8c000
+31723 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2121848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, 0) = 0x7f19f63ca000
+31724 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f63cf000, 2097152, PROT_NONE) = 0
+31725 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f65cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>, 0x5000) = 0x7f19f65cf000
+31726 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0>) = 0
+31727 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31728 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxshmfence.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>
+31729 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\t\0\0\0\0\0\0@\0\0\0\0\0\0\0\230!\0\0\0\0\0\0\0\0"..., 832) = 832
+31730 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=10264, ...}) = 0
+31731 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2105472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, 0) = 0x7f19f61c7000
+31732 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f61c8000, 2097152, PROT_NONE) = 0
+31733 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f63c8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>, 0x1000) = 0x7f19f63c8000
+31734 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0>) = 0
+31735 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31736 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libglapi.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>
+31737 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \242\0\0\0\0\0\0@\0\0\0\0\0\0\0\300\321\2\0\0\0\0\0\0\0"..., 832) = 832
+31738 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=186688, ...}) = 0
+31739 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2287960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, 0) = 0x7f19f5f98000
+31740 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5fc1000, 2097152, PROT_NONE) = 0
+31741 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f61c1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>, 0x29000) = 0x7f19f61c1000
+31742 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f61c6000, 2392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19f61c6000
+31743 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libglapi.so.0.0.0>) = 0
+31744 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31745 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>
+31746 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2205\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\30\1\0\0\0\0\0\0\0"..., 832) = 832
+31747 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_mode=S_IFREG|0644, st_size=73640, ...}) = 0
+31748 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c8b000
+31749 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2169496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7f19f5d86000
+31750 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5d97000, 2093056, PROT_NONE) = 0
+31751 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5f96000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7f19f5f96000
+31752 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+31753 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31754 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>
+31755 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\v\0\0\0\0\0\0@\0\0\0\0\0\0\0\210!\0\0\0\0\0\0\0\0"..., 832) = 832
+31756 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=10248, ...}) = 0
+31757 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2105528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0) = 0x7f19f5b83000
+31758 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5b85000, 2093056, PROT_NONE) = 0
+31759 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5d84000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0x1000) = 0x7f19f5d84000
+31760 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>) = 0
+31761 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31762 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>
+31763 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0\370Q\0\0\0\0\0\0\0\0"..., 832) = 832
+31764 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, {st_mode=S_IFREG|0644, st_size=22584, ...}) = 0
+31765 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0) = 0x7f19f597d000
+31766 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5982000, 2093056, PROT_NONE) = 0
+31767 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5b81000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0x4000) = 0x7f19f5b81000
+31768 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>) = 0
+31769 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31770 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>
+31771 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\5\0\0\0\0\0\0@\0\0\0\0\0\0\0(\21\0\0\0\0\0\0\0\0"..., 832) = 832
+31772 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=5992, ...}) = 0
+31773 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c8a000
+31774 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2101304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, 0) = 0x7f19f577b000
+31775 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f577c000, 2093056, PROT_NONE) = 0
+31776 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f597b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>, 0) = 0x7f19f597b000
+31777 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0>) = 0
+31778 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31779 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb-glx.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>
+31780 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\237\0\0\0\0\0\0@\0\0\0\0\0\0\0\200\201\1\0\0\0\0\0\0\0"..., 832) = 832
+31781 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=100480, ...}) = 0
+31782 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2195544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, 0) = 0x7f19f5562000
+31783 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5579000, 2093056, PROT_NONE) = 0
+31784 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5778000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>, 0x16000) = 0x7f19f5778000
+31785 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb-glx.so.0.0.0>) = 0
+31786 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31787 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>
+31788 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\30\0\0\0\0\0\0@\0\0\0\0\0\0\0\200A\0\0\0\0\0\0\0\0"..., 832) = 832
+31789 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, {st_mode=S_IFREG|0644, st_size=18560, ...}) = 0
+31790 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2113624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, 0) = 0x7f19f535d000
+31791 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5361000, 2093056, PROT_NONE) = 0
+31792 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5560000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>, 0x3000) = 0x7f19f5560000
+31793 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb-dri2.so.0.0.0>) = 0
+31794 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31795 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+31796 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0"..., 832) = 832
+31797 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=137728, ...}) = 0
+31798 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c89000
+31799 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f19f513b000
+31800 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f515c000, 2093056, PROT_NONE) = 0
+31801 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f535b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f19f535b000
+31802 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+31803 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31804 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXxf86vm.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>
+31805 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\17\0\0\0\0\0\0@\0\0\0\0\0\0\0\200R\0\0\0\0\0\0\0\0"..., 832) = 832
+31806 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, {st_mode=S_IFREG|0644, st_size=22784, ...}) = 0
+31807 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2118024, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, 0) = 0x7f19f4f35000
+31808 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4f3a000, 2093056, PROT_NONE) = 0
+31809 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f5139000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>, 0x4000) = 0x7f19f5139000
+31810 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0>) = 0
+31811 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31812 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libdrm.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>
+31813 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@5\0\0\0\0\0\0@\0\0\0\0\0\0\0\310\342\0\0\0\0\0\0\0\0"..., 832) = 832
+31814 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, {st_mode=S_IFREG|0644, st_size=59784, ...}) = 0
+31815 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2157488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, 0) = 0x7f19f4d26000
+31816 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4d34000, 2093056, PROT_NONE) = 0
+31817 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f4f33000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>, 0xd000) = 0x7f19f4f33000
+31818 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0>) = 0
+31819 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31820 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+31821 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0"..., 832) = 832
+31822 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+31823 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c88000
+31824 , 19978 , 19978 , gnome-session-c , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f19f4a1d000
+31825 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4b25000, 2093056, PROT_NONE) = 0
+31826 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f4d24000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f19f4d24000
+31827 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+31828 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31829 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+31830 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0"..., 832) = 832
+31831 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+31832 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f19f4800000
+31833 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4818000, 2093056, PROT_NONE) = 0
+31834 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f4a17000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f19f4a17000
+31835 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f4a19000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19f4a19000
+31836 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+31837 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31838 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+31839 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0"..., 832) = 832
+31840 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+31841 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f19f45fc000
+31842 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f45ff000, 2093056, PROT_NONE) = 0
+31843 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f47fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f19f47fe000
+31844 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+31845 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31846 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c87000
+31847 , 19978 , 19978 , gnome-session-c , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+31848 , 19978 , 19978 , gnome-session-c , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0"..., 832) = 832
+31849 , 19978 , 19978 , gnome-session-c , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+31850 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f19f438c000
+31851 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f43fa000, 2097152, PROT_NONE) = 0
+31852 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f45fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f19f45fa000
+31853 , 19978 , 19978 , gnome-session-c , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+31854 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31855 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+31856 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0"..., 832) = 832
+31857 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_mode=S_IFREG|0644, st_size=14456, ...}) = 0
+31858 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f19f4188000
+31859 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f418a000, 2097152, PROT_NONE) = 0
+31860 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f438a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f19f438a000
+31861 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+31862 , 19978 , 19978 , gnome-session-c , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+31863 , 19978 , 19978 , gnome-session-c , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+31864 , 19978 , 19978 , gnome-session-c , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0"..., 832) = 832
+31865 , 19978 , 19978 , gnome-session-c , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_mode=S_IFREG|0644, st_size=22640, ...}) = 0
+31866 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c86000
+31867 , 19978 , 19978 , gnome-session-c , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f19f3f82000
+31868 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f3f87000, 2093056, PROT_NONE) = 0
+31869 , 19978 , 19978 , gnome-session-c , mmap(0x7f19f4186000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f19f4186000
+31870 , 19978 , 19978 , gnome-session-c , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+31871 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c85000
+31872 , 19978 , 19978 , gnome-session-c , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c84000
+31873 , 19978 , 19978 , gnome-session-c , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19f7c82000
+31874 , 19978 , 19978 , gnome-session-c , arch_prctl(ARCH_SET_FS, 0x7f19f7c82740) = 0
+31875 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f6fc0000, 16384, PROT_READ) = 0
+31876 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4186000, 4096, PROT_READ) = 0
+31877 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f438a000, 4096, PROT_READ) = 0
+31878 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4a17000, 4096, PROT_READ) = 0
+31879 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f45fa000, 4096, PROT_READ) = 0
+31880 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f47fe000, 4096, PROT_READ) = 0
+31881 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4d24000, 4096, PROT_READ) = 0
+31882 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f4f33000, 4096, PROT_READ) = 0
+31883 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f535b000, 4096, PROT_READ) = 0
+31884 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f72ff000, 4096, PROT_READ) = 0
+31885 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5f96000, 4096, PROT_READ) = 0
+31886 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5139000, 4096, PROT_READ) = 0
+31887 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5560000, 4096, PROT_READ) = 0
+31888 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5778000, 8192, PROT_READ) = 0
+31889 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f597b000, 4096, PROT_READ) = 0
+31890 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5b81000, 4096, PROT_READ) = 0
+31891 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f5d84000, 4096, PROT_READ) = 0
+31892 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f61c1000, 16384, PROT_READ) = 0
+31893 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f63c8000, 4096, PROT_READ) = 0
+31894 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f65cf000, 4096, PROT_READ) = 0
+31895 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f67d2000, 4096, PROT_READ) = 0
+31896 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f69d5000, 4096, PROT_READ) = 0
+31897 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f6bfd000, 8192, PROT_READ) = 0
+31898 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7612000, 4096, PROT_READ) = 0
+31899 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7884000, 12288, PROT_READ) = 0
+31900 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7a8a000, 4096, PROT_READ) = 0
+31901 , 19978 , 19978 , gnome-session-c , mprotect(0x602000, 4096, PROT_READ) = 0
+31902 , 19978 , 19978 , gnome-session-c , mprotect(0x7f19f7cb1000, 4096, PROT_READ) = 0
+31903 , 19978 , 19978 , gnome-session-c , munmap(0x7f19f7c8f000, 129195) = 0
+31904 , 19978 , 19978 , gnome-session-c , set_tid_address(0x7f19f7c82a10) = 19978
+31905 , 19978 , 19978 , gnome-session-c , set_robust_list(0x7f19f7c82a20, 24) = 0
+31906 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGRTMIN, {0x7f19f4805b50, [], SA_RESTORER|SA_SIGINFO, 0x7f19f4811390}, NULL, 8) = 0
+31907 , 19978 , 19978 , gnome-session-c , rt_sigaction(SIGRT_1, {0x7f19f4805be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f19f4811390}, NULL, 8) = 0
+31908 , 19978 , 19978 , gnome-session-c , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+31909 , 19978 , 19978 , gnome-session-c , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+31910 , 19978 , 19978 , gnome-session-c , brk(NULL) = 0x12fa000
+31911 , 19978 , 19978 , gnome-session-c , brk(0x131b000) = 0x131b000
+31912 , 19978 , 19978 , gnome-session-c , open("/proc/cmdline", O_RDONLY) = 3</proc/cmdline>
+31913 , 19978 , 19978 , gnome-session-c , fstat(3</proc/cmdline>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+31914 , 19978 , 19978 , gnome-session-c , fcntl(3</proc/cmdline>, F_GETFL) = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+31915 , 19978 , 19978 , gnome-session-c , fstat(3</proc/cmdline>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+31916 , 19978 , 19978 , gnome-session-c , read(3</proc/cmdline>, "BOOT_IMAGE=/boot/vmlinuz-4.4.0-96-generic root=UUI"..., 4096) = 105
+31917 , 19978 , 19978 , gnome-session-c , read(3</proc/cmdline>, "", 3072) = 0
+31918 , 19978 , 19978 , gnome-session-c , close(3</proc/cmdline>) = 0
+31919 , 19978 , 19978 , gnome-session-c , futex(0x7f19f7614428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+31920 , 19978 , 19978 , gnome-session-c , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[1476262]>
+31921 , 19978 , 19978 , gnome-session-c , connect(3<UNIX:[1476262]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+31922 , 19978 , 19978 , gnome-session-c , close(3<UNIX:[1476262]>) = 0
+31923 , 19978 , 19978 , gnome-session-c , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[1476263]>
+31924 , 19978 , 19978 , gnome-session-c , connect(3<UNIX:[1476263]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+31925 , 19978 , 19978 , gnome-session-c , getpeername(3<UNIX:[1476263]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, [21]) = 0
+31927 , 19978 , 19978 , gnome-session-c , uname({sysname="Linux", nodename="elwin-virtual-machine", ...}) = 0
+31929 , 19978 , 19978 , gnome-session-c , access("/home/elwin/.Xauthority", R_OK) = 0
+31931 , 19978 , 19978 , gnome-session-c , open("/home/elwin/.Xauthority", O_RDONLY) = 4</home/elwin/.Xauthority>
+31933 , 19978 , 19978 , gnome-session-c , fstat(4</home/elwin/.Xauthority>, {st_mode=S_IFREG|0600, st_size=428, ...}) = 0
+31935 , 19978 , 19978 , gnome-session-c , read(4</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1"..., 4096) = 428
+31936 , 19978 , 19978 , gnome-session-c , read(4</home/elwin/.Xauthority>, "", 4096) = 0
+31937 , 19978 , 19978 , gnome-session-c , close(4</home/elwin/.Xauthority>) = 0
+31938 , 19978 , 19978 , gnome-session-c , fcntl(3<UNIX:[1476263->1476264]>, F_GETFL) = 0x2 (flags O_RDWR)
+31939 , 19978 , 19978 , gnome-session-c , fcntl(3<UNIX:[1476263->1476264]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+31940 , 19978 , 19978 , gnome-session-c , fcntl(3<UNIX:[1476263->1476264]>, F_SETFD, FD_CLOEXEC) = 0
+31941 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31942 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+31943 , 19978 , 19978 , gnome-session-c , recvfrom(3<UNIX:[1476263->1476264]>, 0x12fafd0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+31945 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31949 , 19978 , 19978 , gnome-session-c , recvfrom(3<UNIX:[1476263->1476264]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+31951 , 19978 , 19978 , gnome-session-c , recvfrom(3<UNIX:[1476263->1476264]>, "\340\355f\2\0\0\300\0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Projec"..., 320, 0, NULL, NULL) = 320
+31952 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31953 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+31954 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31958 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\26\1\0\0\0\0\0\1\204\0\0\315m\3576pm\250\2\0\0\0\0pm\250\2\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+31960 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31961 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"\204\0\1\0", 4}], 1) = 4
+31962 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31966 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1m\2\0\0\0\0\0\377\377\17\0\0\0\0\0`\301O\357\376\177\0\0\10\f\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+31968 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196e50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+31969 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31970 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"7\0\5\0\0\0\300\0.\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+31975 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31979 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0pm\250\2\0\0\0\0*customization:\t-c"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+31981 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196e90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+31982 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31983 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"b\0\5\0\t\0\300\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+31984 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31988 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\26\5\0\0\0\0\0\0\0\0\0\315m\3576\1m\2\0\0\0\0\0pm\250\2\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+31990 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196d60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+31991 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196d60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+31992 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+31993 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"b\0\5\0\t\0\300\0", 8}, {"Composite", 9}, {"\0\0\0", 3}], 3) = 20
+31995 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+31998 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\26\6\0\0\0\0\0\0\0\0\0\315m\3576\1m\2\0\0\0\0\0pm\250\2\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+32000 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196e80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+32001 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196e80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+32002 , 19978 , 19978 , gnome-session-c , write(2<UNIX:[1307903->1307952]>, "gnome-session-is-accelerated: No composite extensi"..., 54) = 54
+32003 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+32004 , 19978 , 19978 , gnome-session-c , writev(3<UNIX:[1476263->1476264]>, [{"<\0\2\0\0\0\300\0+\0\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+32005 , 19978 , 19978 , gnome-session-c , poll([{fd=3<UNIX:[1476263->1476264]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+32009 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\1\0\0\0\0\0\0\0`\301O\357\376\177\0\0\34\f\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+32011 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196f30, 0) = -1 EAGAIN (Resource temporarily unavailable)
+32012 , 19978 , 19978 , gnome-session-c , recvmsg(3<UNIX:[1476263->1476264]>, 0x7fffca196f30, 0) = -1 EAGAIN (Resource temporarily unavailable)
+32013 , 19978 , 19978 , gnome-session-c , shutdown(3<UNIX:[1476263->1476264]>, SHUT_RDWR) = 0
+32014 , 19978 , 19978 , gnome-session-c , close(3<UNIX:[1476263->1476264]>) = 0
+32017 , 19978 , 19978 , gnome-session-c , exit_group(1) = ?
+32020 , 19978 , 19978 , gnome-session-c , +++ exited with 1 +++

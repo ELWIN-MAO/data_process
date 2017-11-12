@@ -1,0 +1,39 @@
+5146 , 130432 , 130432 , startwm.sh , close(8<pipe:[1226473]>) = 0
+5148 , 130432 , 130432 , startwm.sh , dup2(9<pipe:[1226473]>, 1<pipe:[1226472]>) = 1<pipe:[1226473]>
+5150 , 130432 , 130432 , startwm.sh , close(9<pipe:[1226473]>) = 0
+5156 , 130432 , 130432 , startwm.sh , execve("/usr/bin/locale", ["locale"], [/* 14 vars */]) = 0
+5163 , 130432 , 130432 , locale , brk(NULL) = 0x211b000
+5166 , 130432 , 130432 , locale , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5168 , 130432 , 130432 , locale , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30ea4da000
+5172 , 130432 , 130432 , locale , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5175 , 130432 , 130432 , locale , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+5177 , 130432 , 130432 , locale , fstat(8</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+5181 , 130432 , 130432 , locale , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f30ea4ba000
+5183 , 130432 , 130432 , locale , close(8</etc/ld.so.cache>) = 0
+5185 , 130432 , 130432 , locale , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5188 , 130432 , 130432 , locale , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+5192 , 130432 , 130432 , locale , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+5195 , 130432 , 130432 , locale , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+5199 , 130432 , 130432 , locale , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f30e9eed000
+5202 , 130432 , 130432 , locale , mprotect(0x7f30ea0ad000, 2097152, PROT_NONE) = 0
+5203 , 130432 , 130432 , locale , mmap(0x7f30ea2ad000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f30ea2ad000
+5207 , 130432 , 130432 , locale , mmap(0x7f30ea2b3000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f30ea2b3000
+5210 , 130432 , 130432 , locale , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+5213 , 130432 , 130432 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30ea4b9000
+5215 , 130432 , 130432 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30ea4b8000
+5218 , 130432 , 130432 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30ea4b7000
+5221 , 130432 , 130432 , locale , arch_prctl(ARCH_SET_FS, 0x7f30ea4b8700) = 0
+5225 , 130432 , 130432 , locale , mprotect(0x7f30ea2ad000, 16384, PROT_READ) = 0
+5228 , 130432 , 130432 , locale , mprotect(0x606000, 4096, PROT_READ) = 0
+5231 , 130432 , 130432 , locale , mprotect(0x7f30ea4dc000, 4096, PROT_READ) = 0
+5233 , 130432 , 130432 , locale , munmap(0x7f30ea4ba000, 129195) = 0
+5236 , 130432 , 130432 , locale , brk(NULL) = 0x211b000
+5238 , 130432 , 130432 , locale , brk(0x213c000) = 0x213c000
+5241 , 130432 , 130432 , locale , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+5243 , 130432 , 130432 , locale , fstat(8</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+5245 , 130432 , 130432 , locale , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f30e9c15000
+5248 , 130432 , 130432 , locale , close(8</usr/lib/locale/locale-archive>) = 0
+5251 , 130432 , 130432 , locale , fstat(1<pipe:[1226473]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+5255 , 130432 , 130432 , locale , write(1<pipe:[1226473]>, "LANG=en_US.UTF-8\nLANGUAGE=\nLC_CTYPE=\"en_US.UTF-8\"\n"..., 340) = 340
+5257 , 130432 , 130432 , locale , exit_group(0) = ?
+5260 , 130432 , 130432 , locale , +++ exited with 0 +++

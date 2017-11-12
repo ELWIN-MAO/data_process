@@ -1,0 +1,1143 @@
+7002 , 130454 , 130454 , dbus-daemon , set_robust_list(0x7f165dab3ba0, 24) = 0
+7004 , 130454 , 130454 , dbus-daemon , open("/dev/null", O_RDWR) = 11</dev/null>
+7006 , 130454 , 130454 , dbus-daemon , dup2(11</dev/null>, 0</dev/null>) = 0</dev/null>
+7008 , 130454 , 130454 , dbus-daemon , dup2(11</dev/null>, 1</home/elwin/.xsession-errors>) = 1</dev/null>
+7010 , 130454 , 130454 , dbus-daemon , dup2(11</dev/null>, 2</home/elwin/.xsession-errors>) = 2</dev/null>
+7012 , 130454 , 130454 , dbus-daemon , close(11</dev/null>) = 0
+7014 , 130454 , 130454 , dbus-daemon , setsid() = 130454
+7017 , 130454 , 130454 , dbus-daemon , close(10<pipe:[1227062]>) = 0
+7019 , 130454 , 130454 , dbus-daemon , gettid() = 130454
+7022 , 130454 , 130454 , dbus-daemon , open("/proc/130454/attr/current", O_RDONLY) = 10</proc/130454/attr/current>
+7024 , 130454 , 130454 , dbus-daemon , read(10</proc/130454/attr/current>, "unconfined\n", 128) = 11
+7026 , 130454 , 130454 , dbus-daemon , read(10</proc/130454/attr/current>, "", 117) = 0
+7027 , 130454 , 130454 , dbus-daemon , close(10</proc/130454/attr/current>) = 0
+7029 , 130454 , 130454 , dbus-daemon , getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+7031 , 130454 , 130454 , dbus-daemon , getuid() = 1000
+7034 , 130454 , 130454 , dbus-daemon , inotify_init1(O_CLOEXEC) = 10<anon_inode:inotify>
+7035 , 130454 , 130454 , dbus-daemon , fcntl(10<anon_inode:inotify>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+7037 , 130454 , 130454 , dbus-daemon , fcntl(10<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+7038 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 10<anon_inode:inotify>, {EPOLLIN, {u32=10, u64=6733407061016576010}}) = 0
+7040 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/etc/dbus-1/session.d", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = 1
+7042 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/home/elwin/.local/share/dbus-1/services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = -1 ENOENT (No such file or directory)
+7043 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/usr/share/gnome/dbus-1/services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = -1 ENOENT (No such file or directory)
+7046 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/usr/local/share/dbus-1/services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = -1 ENOENT (No such file or directory)
+7047 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/usr/share/dbus-1/services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = 2
+7049 , 130454 , 130454 , dbus-daemon , inotify_add_watch(10<anon_inode:inotify>, "/var/lib/snapd/desktop/dbus-1/services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = -1 ENOENT (No such file or directory)
+7052 , 130454 , 130454 , dbus-daemon , capget({0 /* _LINUX_CAPABILITY_VERSION_??? */, 0}, NULL) = 0
+7053 , 130454 , 130454 , dbus-daemon , gettid() = 130454
+7055 , 130454 , 130454 , dbus-daemon , open("/proc/sys/kernel/cap_last_cap", O_RDONLY) = 11</proc/sys/kernel/cap_last_cap>
+7057 , 130454 , 130454 , dbus-daemon , read(11</proc/sys/kernel/cap_last_cap>, "37\n", 7) = 3
+7059 , 130454 , 130454 , dbus-daemon , close(11</proc/sys/kernel/cap_last_cap>) = 0
+7061 , 130454 , 130454 , dbus-daemon , capget({_LINUX_CAPABILITY_VERSION_3, 130454}, {0, 0, 0}) = 0
+7064 , 130454 , 130454 , dbus-daemon , open("/proc/130454/status", O_RDONLY|O_CLOEXEC) = 11</proc/130454/status>
+7067 , 130454 , 130454 , dbus-daemon , fstat(11</proc/130454/status>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+7068 , 130454 , 130454 , dbus-daemon , read(11</proc/130454/status>, "Name:\tdbus-daemon\nState:\tR (running)\nTgid:\t130454\n"..., 1024) = 999
+7070 , 130454 , 130454 , dbus-daemon , close(11</proc/130454/status>) = 0
+7072 , 130454 , 130454 , dbus-daemon , fcntl(3</var/log/xrdp-sesman.log>, F_GETFD) = 0
+7074 , 130454 , 130454 , dbus-daemon , fcntl(3</var/log/xrdp-sesman.log>, F_SETFD, FD_CLOEXEC) = 0
+7076 , 130454 , 130454 , dbus-daemon , fcntl(4<UNIX:[337253,"/tmp/.xrdp/xrdp-sesman-x7V8C0/xrdp_sesman_00009833_main_term_6eab8427"]>, F_GETFD) = 0
+7077 , 130454 , 130454 , dbus-daemon , fcntl(4<UNIX:[337253,"/tmp/.xrdp/xrdp-sesman-x7V8C0/xrdp_sesman_00009833_main_term_6eab8427"]>, F_SETFD, FD_CLOEXEC) = 0
+7079 , 130454 , 130454 , dbus-daemon , fcntl(5<UNIX:[337254,"/tmp/.xrdp/xrdp-sesman-x7V8C0/xrdp_sesman_00009833_main_sync_6d14e729"]>, F_GETFD) = 0
+7080 , 130454 , 130454 , dbus-daemon , fcntl(5<UNIX:[337254,"/tmp/.xrdp/xrdp-sesman-x7V8C0/xrdp_sesman_00009833_main_sync_6d14e729"]>, F_SETFD, FD_CLOEXEC) = 0
+7083 , 130454 , 130454 , dbus-daemon , fcntl(6<TCP:[127.0.0.1:3350]>, F_GETFD) = 0
+7085 , 130454 , 130454 , dbus-daemon , fcntl(6<TCP:[127.0.0.1:3350]>, F_SETFD, FD_CLOEXEC) = 0
+7087 , 130454 , 130454 , dbus-daemon , fcntl(7<TCP:[127.0.0.1:3350->127.0.0.1:44362]>, F_GETFD) = 0
+7089 , 130454 , 130454 , dbus-daemon , fcntl(7<TCP:[127.0.0.1:3350->127.0.0.1:44362]>, F_SETFD, FD_CLOEXEC) = 0
+7091 , 130454 , 130454 , dbus-daemon , fcntl(8<anon_inode:[eventpoll]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+7093 , 130454 , 130454 , dbus-daemon , fcntl(8<anon_inode:[eventpoll]>, F_SETFD, FD_CLOEXEC) = 0
+7095 , 130454 , 130454 , dbus-daemon , fcntl(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+7097 , 130454 , 130454 , dbus-daemon , fcntl(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFD, FD_CLOEXEC) = 0
+7099 , 130454 , 130454 , dbus-daemon , fcntl(10<anon_inode:inotify>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+7101 , 130454 , 130454 , dbus-daemon , fcntl(10<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+7102 , 130454 , 130454 , dbus-daemon , fcntl(11, F_GETFD) = -1 EBADF (Bad file descriptor)
+7105 , 130454 , 130454 , dbus-daemon , fcntl(12, F_GETFD) = -1 EBADF (Bad file descriptor)
+7106 , 130454 , 130454 , dbus-daemon , fcntl(13, F_GETFD) = -1 EBADF (Bad file descriptor)
+7109 , 130454 , 130454 , dbus-daemon , fcntl(14, F_GETFD) = -1 EBADF (Bad file descriptor)
+7113 , 130454 , 130454 , dbus-daemon , fcntl(15, F_GETFD) = -1 EBADF (Bad file descriptor)
+7114 , 130454 , 130454 , dbus-daemon , fcntl(16, F_GETFD) = -1 EBADF (Bad file descriptor)
+7117 , 130454 , 130454 , dbus-daemon , fcntl(17, F_GETFD) = -1 EBADF (Bad file descriptor)
+7119 , 130454 , 130454 , dbus-daemon , fcntl(18, F_GETFD) = -1 EBADF (Bad file descriptor)
+7122 , 130454 , 130454 , dbus-daemon , fcntl(19, F_GETFD) = -1 EBADF (Bad file descriptor)
+7123 , 130454 , 130454 , dbus-daemon , fcntl(20, F_GETFD) = -1 EBADF (Bad file descriptor)
+7126 , 130454 , 130454 , dbus-daemon , fcntl(21, F_GETFD) = -1 EBADF (Bad file descriptor)
+7128 , 130454 , 130454 , dbus-daemon , fcntl(22, F_GETFD) = -1 EBADF (Bad file descriptor)
+7130 , 130454 , 130454 , dbus-daemon , fcntl(23, F_GETFD) = -1 EBADF (Bad file descriptor)
+7132 , 130454 , 130454 , dbus-daemon , fcntl(24, F_GETFD) = -1 EBADF (Bad file descriptor)
+7135 , 130454 , 130454 , dbus-daemon , fcntl(25, F_GETFD) = -1 EBADF (Bad file descriptor)
+7137 , 130454 , 130454 , dbus-daemon , fcntl(26, F_GETFD) = -1 EBADF (Bad file descriptor)
+7138 , 130454 , 130454 , dbus-daemon , fcntl(27, F_GETFD) = -1 EBADF (Bad file descriptor)
+7141 , 130454 , 130454 , dbus-daemon , fcntl(28, F_GETFD) = -1 EBADF (Bad file descriptor)
+7143 , 130454 , 130454 , dbus-daemon , fcntl(29, F_GETFD) = -1 EBADF (Bad file descriptor)
+7146 , 130454 , 130454 , dbus-daemon , fcntl(30, F_GETFD) = -1 EBADF (Bad file descriptor)
+7148 , 130454 , 130454 , dbus-daemon , fcntl(31, F_GETFD) = -1 EBADF (Bad file descriptor)
+7150 , 130454 , 130454 , dbus-daemon , fcntl(32, F_GETFD) = -1 EBADF (Bad file descriptor)
+7152 , 130454 , 130454 , dbus-daemon , fcntl(33, F_GETFD) = -1 EBADF (Bad file descriptor)
+7154 , 130454 , 130454 , dbus-daemon , fcntl(34, F_GETFD) = -1 EBADF (Bad file descriptor)
+7157 , 130454 , 130454 , dbus-daemon , fcntl(35, F_GETFD) = -1 EBADF (Bad file descriptor)
+7158 , 130454 , 130454 , dbus-daemon , fcntl(36, F_GETFD) = -1 EBADF (Bad file descriptor)
+7160 , 130454 , 130454 , dbus-daemon , fcntl(37, F_GETFD) = -1 EBADF (Bad file descriptor)
+7162 , 130454 , 130454 , dbus-daemon , fcntl(38, F_GETFD) = -1 EBADF (Bad file descriptor)
+7164 , 130454 , 130454 , dbus-daemon , fcntl(39, F_GETFD) = -1 EBADF (Bad file descriptor)
+7166 , 130454 , 130454 , dbus-daemon , fcntl(40, F_GETFD) = -1 EBADF (Bad file descriptor)
+7168 , 130454 , 130454 , dbus-daemon , fcntl(41, F_GETFD) = -1 EBADF (Bad file descriptor)
+7171 , 130454 , 130454 , dbus-daemon , socketpair(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0, [11<UNIX:[1227804->1227805]>, 12<UNIX:[1227805->1227804]>]) = 0
+7173 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 11<UNIX:[1227804->1227805]>, {EPOLLIN, {u32=11, u64=6733407061016576011}}) = 0
+7175 , 130454 , 130454 , dbus-daemon , rt_sigaction(SIGTERM, {0x5607abb2f810, [], SA_RESTORER, 0x7f165ca5f390}, NULL, 8) = 0
+7177 , 130454 , 130454 , dbus-daemon , rt_sigaction(SIGHUP, {0x5607abb2f810, [], SA_RESTORER, 0x7f165ca5f390}, NULL, 8) = 0
+7179 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, -1) = 1
+8093 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>
+8095 , 130454 , 130454 , dbus-daemon , fcntl(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+8097 , 130454 , 130454 , dbus-daemon , fcntl(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+8099 , 130454 , 130454 , dbus-daemon , getsockname(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+8101 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+8103 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=6733407061016576013}}) = 0
+8105 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=12382391951318581261}}) = 0
+8107 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=12382391951318581261}}], 64, 239738) = 1
+8130 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+8133 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=130471, uid=1000, gid=1000}, [12]) = 0
+8134 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+8135 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+8136 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+8137 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+8138 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 239732) = 1
+8139 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+8141 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+8142 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+8144 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 239730) = 1
+8147 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+8148 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+8149 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+8150 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 239729) = 1
+8151 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+8153 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+8155 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+8157 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 239729) = 1
+8159 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+8160 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+8161 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+8162 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 239728) = 1
+8163 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+8165 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+8167 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+8169 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 239726) = 1
+8171 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+8173 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+8175 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 239726) = 1
+8221 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+8223 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+8225 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+8226 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 14</run/systemd/users/1000>
+8227 , 130454 , 130454 , dbus-daemon , fstat(14</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+8228 , 130454 , 130454 , dbus-daemon , fstat(14</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+8229 , 130454 , 130454 , dbus-daemon , read(14</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+8230 , 130454 , 130454 , dbus-daemon , read(14</run/systemd/users/1000>, "", 4096) = 0
+8231 , 130454 , 130454 , dbus-daemon , close(14</run/systemd/users/1000>) = 0
+8232 , 130454 , 130454 , dbus-daemon , open("/proc/130471/cmdline", O_RDONLY) = 14</proc/130471/cmdline>
+8233 , 130454 , 130454 , dbus-daemon , read(14</proc/130471/cmdline>, "gsettings\0get\0org.gnome.system.locale\0region\0", 50) = 45
+8234 , 130454 , 130454 , dbus-daemon , close(14</proc/130471/cmdline>) = 0
+8235 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.0\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+8236 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.0\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+8238 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+8276 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\242\0\0\0\2\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 306
+8280 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+8283 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\3\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\2\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+8285 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+8286 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\3\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+8287 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+8288 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+8289 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "Activating service name='org.gtk.vfs.Daemon'", 44) = 44
+8290 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+8291 , 130454 , 130454 , dbus-daemon , pipe2([14<pipe:[1227648]>, 15<pipe:[1227648]>], O_CLOEXEC) = 0
+8292 , 130454 , 130454 , dbus-daemon , socketpair(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0, [16<UNIX:[1227649->1227650]>, 17<UNIX:[1227650->1227649]>]) = 0
+8293 , 130454 , 130454 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 18<UNIX:[1227653]>
+8294 , 130454 , 130454 , dbus-daemon , connect(18<UNIX:[1227653]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+8295 , 130454 , 130454 , dbus-daemon , shutdown(18<UNIX:[1227653]>, SHUT_RD) = 0
+8296 , 130454 , 130454 , dbus-daemon , getsockopt(18<UNIX:[1227653]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+8297 , 130454 , 130454 , dbus-daemon , setsockopt(18<UNIX:[1227653]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = -1 EPERM (Operation not permitted)
+8298 , 130454 , 130454 , dbus-daemon , setsockopt(18<UNIX:[1227653]>, SOL_SOCKET, SO_SNDBUF, [8388608], 4) = 0
+8299 , 130454 , 130454 , dbus-daemon , write(18<UNIX:[1227653]>, "org.gtk.vfs.Daemon\n\n6\n0\n0\n0\n0\n", 30) = 30
+8300 , 130454 , 130454 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 19<UNIX:[1227661]>
+8301 , 130454 , 130454 , dbus-daemon , connect(19<UNIX:[1227661]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+8302 , 130454 , 130454 , dbus-daemon , shutdown(19<UNIX:[1227661]>, SHUT_RD) = 0
+8303 , 130454 , 130454 , dbus-daemon , getsockopt(19<UNIX:[1227661]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+8304 , 130454 , 130454 , dbus-daemon , setsockopt(19<UNIX:[1227661]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = -1 EPERM (Operation not permitted)
+8305 , 130454 , 130454 , dbus-daemon , setsockopt(19<UNIX:[1227661]>, SOL_SOCKET, SO_SNDBUF, [8388608], 4) = 0
+8306 , 130454 , 130454 , dbus-daemon , write(19<UNIX:[1227661]>, "org.gtk.vfs.Daemon\n\n4\n0\n0\n0\n0\n", 30) = 30
+8307 , 130454 , 130454 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f165dab3b90) = 130482
+8308 , 130454 , 130454 , dbus-daemon , close(15<pipe:[1227648]>) = 0
+8309 , 130454 , 130454 , dbus-daemon , close(17<UNIX:[1227650->1227649]>) = 0
+8310 , 130454 , 130454 , dbus-daemon , close(18<UNIX:[1227653]>) = 0
+8311 , 130454 , 130454 , dbus-daemon , close(19<UNIX:[1227661]>) = 0
+8312 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<pipe:[1227648]>, {EPOLLIN, {u32=14, u64=6733407061016576014}}) = 0
+8313 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 16<UNIX:[1227649->1227650]>, {EPOLLIN, {u32=16, u64=6733407061016576016}}) = 0
+8314 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=6733407061016576016}}], 64, 119998) = 1
+8326 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1227649->1227650]>, "\3\0\0\0", 4) = 4
+8329 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1227649->1227650]>, "\263\375\1\0", 4) = 4
+8336 , 130454 , 130454 , dbus-daemon , poll([{fd=14<pipe:[1227648]>, events=POLLIN}, {fd=16<UNIX:[1227649->1227650]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+8342 , 130454 , 130454 , dbus-daemon , poll([{fd=14<pipe:[1227648]>, events=POLLIN}, {fd=16<UNIX:[1227649->1227650]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+8344 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLHUP, {u32=14, u64=6733407061016576014}}], 64, 119995) = 1
+8352 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<pipe:[1227648]>, 0x7ffc1daec590) = 0
+8356 , 130454 , 130454 , dbus-daemon , close(14<pipe:[1227648]>) = 0
+8363 , 130454 , 130454 , dbus-daemon , poll([{fd=16<UNIX:[1227649->1227650]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+8365 , 130454 , 130454 , dbus-daemon , poll([{fd=16<UNIX:[1227649->1227650]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+8747 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, 119943) = 1
+8750 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>
+8752 , 130454 , 130454 , dbus-daemon , fcntl(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+8753 , 130454 , 130454 , dbus-daemon , fcntl(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+8755 , 130454 , 130454 , dbus-daemon , getsockname(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+8757 , 130454 , 130454 , dbus-daemon , getsockopt(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+8758 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=14, u64=6733407061016576014}}) = 0
+8760 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=14, u64=12382455035798224910}}) = 0
+8762 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=12382455035798224910}}], 64, 119885) = 1
+8763 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+8765 , 130454 , 130454 , dbus-daemon , getsockopt(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=130483, uid=1000, gid=1000}, [12]) = 0
+8768 , 130454 , 130454 , dbus-daemon , getsockopt(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+8770 , 130454 , 130454 , dbus-daemon , read(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+8773 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=14, u64=4294967310}}) = 0
+8775 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=14, u64=4294967310}}) = 0
+8777 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=14, u64=4294967310}}], 64, 119825) = 1
+8779 , 130454 , 130454 , dbus-daemon , sendto(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+8782 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+8785 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=14, u64=14}}) = 0
+8787 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119782) = 1
+8790 , 130454 , 130454 , dbus-daemon , read(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+8793 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=14, u64=4294967310}}) = 0
+8795 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=14, u64=4294967310}}) = 0
+8797 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=14, u64=4294967310}}], 64, 119760) = 1
+8798 , 130454 , 130454 , dbus-daemon , sendto(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+8801 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+8804 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=14, u64=14}}) = 0
+8806 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119719) = 1
+8809 , 130454 , 130454 , dbus-daemon , read(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+8811 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=14, u64=4294967310}}) = 0
+8813 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=14, u64=4294967310}}) = 0
+8815 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=14, u64=4294967310}}], 64, 119699) = 1
+8818 , 130454 , 130454 , dbus-daemon , sendto(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+8820 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+8824 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=14, u64=14}}) = 0
+8827 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119658) = 1
+8830 , 130454 , 130454 , dbus-daemon , read(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+8834 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+8838 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119638) = 1
+8915 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+8918 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+8923 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+8925 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 15</run/systemd/users/1000>
+8928 , 130454 , 130454 , dbus-daemon , fstat(15</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+8929 , 130454 , 130454 , dbus-daemon , fstat(15</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+8932 , 130454 , 130454 , dbus-daemon , read(15</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+8933 , 130454 , 130454 , dbus-daemon , read(15</run/systemd/users/1000>, "", 4096) = 0
+8936 , 130454 , 130454 , dbus-daemon , close(15</run/systemd/users/1000>) = 0
+8938 , 130454 , 130454 , dbus-daemon , open("/proc/130483/cmdline", O_RDONLY) = 15</proc/130483/cmdline>
+8940 , 130454 , 130454 , dbus-daemon , read(15</proc/130483/cmdline>, "/usr/lib/gvfs/gvfsd\0", 50) = 20
+8942 , 130454 , 130454 , dbus-daemon , close(15</proc/130483/cmdline>) = 0
+8945 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+8948 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+8951 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119316) = 1
+9393 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\2\0\0\0}\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 172
+9396 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+9399 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "Successfully activated service 'org.gtk.vfs.Daemon"..., 51) = 51
+9401 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+9404 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\27\0\0\0\3\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\22\0\0\0org.gtk.vfs.Daemon\0", 23}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 183
+9408 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\2\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\1\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+9411 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1)\0\0\0\4\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\22\0\0\0org.gtk.vfs.Daemon\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.1\0", 41}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 201
+9415 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\5\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\3\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\1\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+9419 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 16<UNIX:[1227649->1227650]>, 0x7ffc1daec370) = 0
+9424 , 130454 , 130454 , dbus-daemon , close(16<UNIX:[1227649->1227650]>) = 0
+9431 , 130454 , 130454 , dbus-daemon , wait4(130482, 0x7ffc1daec3c4, WNOHANG, NULL) = 0
+9436 , 130454 , 130454 , dbus-daemon , kill(130482, SIGKILL) = 0
+9443 , 130454 , 130454 , dbus-daemon , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=130482, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+9445 , 130454 , 130454 , dbus-daemon , wait4(130482, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 130482
+9447 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+9534 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\4\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+9539 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+9543 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\6\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\4\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+9547 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+9633 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\5\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+9638 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+9641 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\5\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+9648 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+9653 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+9802 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\250\1\0\0\3\0\0\0-\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 488
+9807 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+9810 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1227872->1227871,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\250\1\0\0\3\0\0\0=\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 80}, {"\240\1\0\0\0\0\0\0\26\0\0\0GProxyVolumeMonitorGoa\0\0\34\0\0\0org.gtk.vf"..., 424}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 504
+9816 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=13, u64=13}}], 64, -1) = 1
+10681 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1227872,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+10687 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 13<UNIX:[1227872,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec490) = 0
+10690 , 130454 , 130454 , dbus-daemon , close(13<UNIX:[1227872,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+10695 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, -1) = 1
+10908 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>
+10912 , 130454 , 130454 , dbus-daemon , fcntl(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+10914 , 130454 , 130454 , dbus-daemon , fcntl(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+10918 , 130454 , 130454 , dbus-daemon , getsockname(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+10922 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+10926 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=6733407061016576013}}) = 0
+10929 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=12382391813879627789}}) = 0
+10933 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=12382391813879627789}}], 64, 230796) = 1
+10990 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+10992 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=395, uid=1000, gid=1000}, [12]) = 0
+10995 , 130454 , 130454 , dbus-daemon , getsockopt(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+10998 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+11001 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+11004 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+11007 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 230415) = 1
+11009 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+11012 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+11017 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+11020 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 230280) = 1
+11024 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+11027 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+11030 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+11033 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 230215) = 1
+11036 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+11040 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+11044 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+11047 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 230170) = 1
+11051 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+11054 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+11056 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+11058 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 230128) = 1
+11060 , 130454 , 130454 , dbus-daemon , sendto(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+11064 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+11067 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+11070 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 230084) = 1
+11073 , 130454 , 130454 , dbus-daemon , read(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+11077 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+11079 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 230062) = 1
+11157 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+11161 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11164 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+11166 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 15</run/systemd/users/1000>
+11169 , 130454 , 130454 , dbus-daemon , fstat(15</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+11171 , 130454 , 130454 , dbus-daemon , fstat(15</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+11173 , 130454 , 130454 , dbus-daemon , read(15</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+11175 , 130454 , 130454 , dbus-daemon , read(15</run/systemd/users/1000>, "", 4096) = 0
+11178 , 130454 , 130454 , dbus-daemon , close(15</run/systemd/users/1000>) = 0
+11182 , 130454 , 130454 , dbus-daemon , open("/proc/395/cmdline", O_RDONLY) = 15</proc/395/cmdline>
+11184 , 130454 , 130454 , dbus-daemon , read(15</proc/395/cmdline>, "/usr/lib/gvfs/gvfsd-fuse\0/run/user/1000/gvfs\0-f\0-o", 50) = 50
+11187 , 130454 , 130454 , dbus-daemon , close(15</proc/395/cmdline>) = 0
+11189 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.2\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+11193 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.2\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+11197 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11289 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\242\0\0\0\2\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 306
+11295 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\3\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+11300 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11302 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\3\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\2\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+11305 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+11311 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\3\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+11315 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11372 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\4\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+11376 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11379 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\5\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\4\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+11383 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11462 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\5\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+11469 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\6\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+11473 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11477 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+11482 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\6\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+11487 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\6\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+11496 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+11500 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+11556 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\4\0\0\0\35\0\0\0\10\1g\0\0\0\0\0\5\1u\0\6\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 48
+11564 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11568 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\4\0\0\0-\0\0\0\10\1g\0\0\0\0\0\5\1u\0\6\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\7\1"..., 64}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 64
+11570 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11683 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\7\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+11687 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11690 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+11693 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\7\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+11697 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11750 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\10\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+11755 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11758 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\10\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+11762 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+11819 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\t\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+11824 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11827 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+11833 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+11837 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+11969 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\250\1\0\0\5\0\0\0-\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\t\0\0\0\6\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 488
+11973 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+11975 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\250\1\0\0\5\0\0\0=\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\t\0\0\0\6\1"..., 80}, {"\240\1\0\0\0\0\0\0\26\0\0\0GProxyVolumeMonitorGoa\0\0\34\0\0\0org.gtk.vf"..., 424}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 504
+11980 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+12710 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\n\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+12715 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+12718 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+12723 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\t\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\n\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+12728 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+12784 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\v\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+12788 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+12792 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\n\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\v\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+12799 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+12857 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\f\0\0\0\205\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 152
+12862 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+12865 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\f\0\0\0\225\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+12868 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+12872 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+12904 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\34\4\0\0\6\0\0\0%\0\0\0\10\1g\0\ta(ssasib)\0\0\5\1u\0\f\0\0\0\6\1s\0\4\0\0\0:1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 1108
+12908 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+12912 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\34\4\0\0\6\0\0\0005\0\0\0\10\1g\0\ta(ssasib)\0\0\5\1u\0\f\0\0\0\6\1s\0\4\0\0\0:1"..., 72}, {"\24\4\0\0\0\0\0\0\5\0\0\0trash\0\0\0\5\0\0\0trash\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\n\0"..., 1052}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 1124
+12916 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+13008 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1t\0\0\0\r\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 260
+13011 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13015 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\v\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\r\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+13018 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+13021 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\16\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+13023 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13027 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+13029 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\f\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\16\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+13032 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+13089 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\17\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+13093 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13096 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\r\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\17\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+13097 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+13163 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\20\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+13168 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13174 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\20\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\31\0\0\0/org/gtk/vfs/mount"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+13179 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+13182 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+13230 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\7\0\0\0005\0\0\0\10\1g\0\31a(sossssssbay(aya{sv})ay)\0\0\5\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 80
+13232 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13235 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\7\0\0\0E\0\0\0\10\1g\0\31a(sossssssbay(aya{sv})ay)\0\0\5\1"..., 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+13238 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, -1) = 1
+13321 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\21\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+13325 , 130454 , 130454 , dbus-daemon , recvmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+13329 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\16\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\21\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+13332 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, -1) = 1
+14766 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>
+14770 , 130454 , 130454 , dbus-daemon , fcntl(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+14774 , 130454 , 130454 , dbus-daemon , fcntl(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+14775 , 130454 , 130454 , dbus-daemon , getsockname(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+14779 , 130454 , 130454 , dbus-daemon , getsockopt(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+14781 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=15, u64=6733407061016576015}}) = 0
+14785 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=15, u64=12382500047055486991}}) = 0
+14787 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=12382500047055486991}}], 64, 210711) = 1
+14883 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+14885 , 130454 , 130454 , dbus-daemon , getsockopt(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=130335, uid=1000, gid=1000}, [12]) = 0
+14887 , 130454 , 130454 , dbus-daemon , getsockopt(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+14890 , 130454 , 130454 , dbus-daemon , read(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+14892 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=15, u64=4294967311}}) = 0
+14897 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=15, u64=4294967311}}) = 0
+14899 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=15, u64=4294967311}}], 64, 210166) = 1
+14902 , 130454 , 130454 , dbus-daemon , sendto(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+14905 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=15, u64=15}}) = 0
+14908 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=15, u64=15}}) = 0
+14911 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 210086) = 1
+14916 , 130454 , 130454 , dbus-daemon , read(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+14919 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=15, u64=4294967311}}) = 0
+14922 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=15, u64=4294967311}}) = 0
+14925 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=15, u64=4294967311}}], 64, 210044) = 1
+14927 , 130454 , 130454 , dbus-daemon , sendto(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+14930 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=15, u64=15}}) = 0
+14933 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=15, u64=15}}) = 0
+14935 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 209985) = 1
+14939 , 130454 , 130454 , dbus-daemon , read(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+14942 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=15, u64=4294967311}}) = 0
+14945 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=15, u64=4294967311}}) = 0
+14947 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=15, u64=4294967311}}], 64, 209905) = 1
+14950 , 130454 , 130454 , dbus-daemon , sendto(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+14952 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=15, u64=15}}) = 0
+14955 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=15, u64=15}}) = 0
+14958 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 209844) = 1
+14961 , 130454 , 130454 , dbus-daemon , read(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+14964 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+14966 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 209785) = 1
+15069 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+15072 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15075 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+15078 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 16</run/systemd/users/1000>
+15080 , 130454 , 130454 , dbus-daemon , fstat(16</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+15082 , 130454 , 130454 , dbus-daemon , fstat(16</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+15084 , 130454 , 130454 , dbus-daemon , read(16</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+15087 , 130454 , 130454 , dbus-daemon , read(16</run/systemd/users/1000>, "", 4096) = 0
+15089 , 130454 , 130454 , dbus-daemon , close(16</run/systemd/users/1000>) = 0
+15091 , 130454 , 130454 , dbus-daemon , open("/proc/130335/cmdline", O_RDONLY) = 16</proc/130335/cmdline>
+15094 , 130454 , 130454 , dbus-daemon , read(16</proc/130335/cmdline>, "/usr/lib/gnome-session/gnome-session-binary\0", 50) = 44
+15095 , 130454 , 130454 , dbus-daemon , close(16</proc/130335/cmdline>) = 0
+15098 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.3\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+15099 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.3\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+15104 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, -1) = 1
+15157 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\242\0\0\0\2\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 306
+15161 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\3\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+15165 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15170 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\3\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\2\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+15174 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+15177 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\3\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+15180 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, -1) = 1
+15244 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\4\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+15248 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15251 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\5\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\4\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+15254 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, -1) = 1
+15312 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\5\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+15315 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15318 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\5\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+15319 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+15322 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, -1) = 1
+15436 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\250\1\0\0\10\0\0\0-\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 488
+15441 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15443 , 130454 , 130454 , dbus-daemon , sendmsg(15<UNIX:[1294366->1293606,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\250\1\0\0\10\0\0\0=\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 80}, {"\240\1\0\0\0\0\0\0\26\0\0\0GProxyVolumeMonitorGoa\0\0\34\0\0\0org.gtk.vf"..., 424}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 504
+15444 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, -1) = 1
+25565 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>
+25567 , 130454 , 130454 , dbus-daemon , fcntl(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+25570 , 130454 , 130454 , dbus-daemon , fcntl(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+25572 , 130454 , 130454 , dbus-daemon , getsockname(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+25574 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+25577 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=6733407061016576016}}) = 0
+25579 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=12382597216395591696}}) = 0
+25580 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=12382597216395591696}}], 64, 131345) = 1
+25581 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+25582 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=6429, uid=1000, gid=1000}, [12]) = 0
+25583 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+25584 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+25585 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=4294967312}}) = 0
+25586 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=16, u64=4294967312}}) = 0
+25587 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=16, u64=4294967312}}], 64, 131344) = 1
+25588 , 130454 , 130454 , dbus-daemon , sendto(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+25590 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=16, u64=16}}) = 0
+25591 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=16}}) = 0
+25593 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 131341) = 1
+25596 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+25597 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=4294967312}}) = 0
+25598 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=16, u64=4294967312}}) = 0
+25599 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=16, u64=4294967312}}], 64, 131340) = 1
+25600 , 130454 , 130454 , dbus-daemon , sendto(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+25602 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=16, u64=16}}) = 0
+25604 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=16}}) = 0
+25606 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 131338) = 1
+25608 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+25610 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+25612 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 131338) = 1
+25613 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+25614 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+25615 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+25616 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 17</run/systemd/users/1000>
+25617 , 130454 , 130454 , dbus-daemon , fstat(17</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+25618 , 130454 , 130454 , dbus-daemon , fstat(17</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+25619 , 130454 , 130454 , dbus-daemon , read(17</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+25620 , 130454 , 130454 , dbus-daemon , read(17</run/systemd/users/1000>, "", 4096) = 0
+25621 , 130454 , 130454 , dbus-daemon , close(17</run/systemd/users/1000>) = 0
+25622 , 130454 , 130454 , dbus-daemon , open("/proc/6429/cmdline", O_RDONLY) = 17</proc/6429/cmdline>
+25623 , 130454 , 130454 , dbus-daemon , read(17</proc/6429/cmdline>, "/usr/lib/gnome-session/gnome-session-check-acceler", 50) = 50
+25624 , 130454 , 130454 , dbus-daemon , close(17</proc/6429/cmdline>) = 0
+25625 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.4\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+25627 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.4\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+25628 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, -1) = 1
+25633 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\2\0\0\0[\0\0\0\1\1o\0\r\0\0\0/org/a11y/bus\0\0\0\6\1s\0\f\0\0\0or"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 112
+25634 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+25635 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+25636 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "Activating service name='org.a11y.Bus'", 38) = 38
+25637 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+25638 , 130454 , 130454 , dbus-daemon , pipe2([17<pipe:[1472699]>, 18<pipe:[1472699]>], O_CLOEXEC) = 0
+25639 , 130454 , 130454 , dbus-daemon , socketpair(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0, [19<UNIX:[1472700->1472701]>, 20<UNIX:[1472701->1472700]>]) = 0
+25641 , 130454 , 130454 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 21<UNIX:[1472702]>
+25643 , 130454 , 130454 , dbus-daemon , connect(21<UNIX:[1472702]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+25645 , 130454 , 130454 , dbus-daemon , shutdown(21<UNIX:[1472702->1472703]>, SHUT_RD) = 0
+25646 , 130454 , 130454 , dbus-daemon , getsockopt(21<UNIX:[1472702->1472703]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+25648 , 130454 , 130454 , dbus-daemon , setsockopt(21<UNIX:[1472702->1472703]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = -1 EPERM (Operation not permitted)
+25649 , 130454 , 130454 , dbus-daemon , setsockopt(21<UNIX:[1472702->1472703]>, SOL_SOCKET, SO_SNDBUF, [8388608], 4) = 0
+25650 , 130454 , 130454 , dbus-daemon , write(21<UNIX:[1472702->1472703]>, "org.a11y.Bus\n\n6\n0\n0\n0\n0\n", 24) = 24
+25651 , 130454 , 130454 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 22<UNIX:[1472704]>
+25652 , 130454 , 130454 , dbus-daemon , connect(22<UNIX:[1472704]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+25653 , 130454 , 130454 , dbus-daemon , shutdown(22<UNIX:[1472704->1473698]>, SHUT_RD) = 0
+25654 , 130454 , 130454 , dbus-daemon , getsockopt(22<UNIX:[1472704->1473698]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+25655 , 130454 , 130454 , dbus-daemon , setsockopt(22<UNIX:[1472704->1473698]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = -1 EPERM (Operation not permitted)
+25656 , 130454 , 130454 , dbus-daemon , setsockopt(22<UNIX:[1472704->1473698]>, SOL_SOCKET, SO_SNDBUF, [8388608], 4) = 0
+25657 , 130454 , 130454 , dbus-daemon , write(22<UNIX:[1472704->1473698]>, "org.a11y.Bus\n\n4\n0\n0\n0\n0\n", 24) = 24
+25658 , 130454 , 130454 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f165dab3b90) = 19965
+25659 , 130454 , 130454 , dbus-daemon , close(18<pipe:[1472699]>) = 0
+25664 , 130454 , 130454 , dbus-daemon , close(20<UNIX:[1472701->1472700]>) = 0
+25666 , 130454 , 130454 , dbus-daemon , close(21<UNIX:[1472702->1472703]>) = 0
+25669 , 130454 , 130454 , dbus-daemon , close(22<UNIX:[1472704->1473698]>) = 0
+25674 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 17<pipe:[1472699]>, {EPOLLIN, {u32=17, u64=6733407061016576017}}) = 0
+25679 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 19<UNIX:[1472700->1472701]>, {EPOLLIN, {u32=19, u64=6733407061016576019}}) = 0
+25684 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=19, u64=6733407061016576019}}], 64, 119982) = 1
+25687 , 130454 , 130454 , dbus-daemon , read(19<UNIX:[1472700->1472701]>, "\3\0\0\0", 4) = 4
+25690 , 130454 , 130454 , dbus-daemon , read(19<UNIX:[1472700->1472701]>, "\376M\0\0", 4) = 4
+25692 , 130454 , 130454 , dbus-daemon , poll([{fd=17<pipe:[1472699]>, events=POLLIN}, {fd=19<UNIX:[1472700->1472701]>, events=POLLIN}], 2, 0) = 1 ([{fd=17, revents=POLLHUP}])
+25693 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 17<pipe:[1472699]>, 0x7ffc1daec540) = 0
+25695 , 130454 , 130454 , dbus-daemon , close(17<pipe:[1472699]>) = 0
+25697 , 130454 , 130454 , dbus-daemon , poll([{fd=19<UNIX:[1472700->1472701]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+25699 , 130454 , 130454 , dbus-daemon , poll([{fd=19<UNIX:[1472700->1472701]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+25702 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, 119972) = 1
+26149 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>
+26151 , 130454 , 130454 , dbus-daemon , fcntl(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+26153 , 130454 , 130454 , dbus-daemon , fcntl(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26155 , 130454 , 130454 , dbus-daemon , getsockname(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+26157 , 130454 , 130454 , dbus-daemon , getsockopt(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+26159 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=17, u64=6733407061016576017}}) = 0
+26161 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=17, u64=12382638585520586769}}) = 0
+26163 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=12382638585520586769}}], 64, 119801) = 1
+26186 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+26188 , 130454 , 130454 , dbus-daemon , getsockopt(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=19966, uid=1000, gid=1000}, [12]) = 0
+26190 , 130454 , 130454 , dbus-daemon , getsockopt(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+26191 , 130454 , 130454 , dbus-daemon , read(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+26192 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=17, u64=4294967313}}) = 0
+26193 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=17, u64=4294967313}}) = 0
+26194 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=17, u64=4294967313}}], 64, 119794) = 1
+26195 , 130454 , 130454 , dbus-daemon , sendto(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+26197 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=17, u64=17}}) = 0
+26198 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=17, u64=17}}) = 0
+26200 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119793) = 1
+26203 , 130454 , 130454 , dbus-daemon , read(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+26204 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=17, u64=4294967313}}) = 0
+26205 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=17, u64=4294967313}}) = 0
+26206 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=17, u64=4294967313}}], 64, 119793) = 1
+26207 , 130454 , 130454 , dbus-daemon , sendto(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+26209 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=17, u64=17}}) = 0
+26211 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=17, u64=17}}) = 0
+26214 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119790) = 1
+26215 , 130454 , 130454 , dbus-daemon , read(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+26216 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=17, u64=4294967313}}) = 0
+26217 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=17, u64=4294967313}}) = 0
+26218 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=17, u64=4294967313}}], 64, 119789) = 1
+26219 , 130454 , 130454 , dbus-daemon , sendto(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+26221 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=17, u64=17}}) = 0
+26223 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=17, u64=17}}) = 0
+26224 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119788) = 1
+26226 , 130454 , 130454 , dbus-daemon , read(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+26228 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+26229 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119787) = 1
+26277 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+26279 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26281 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+26283 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 18</run/systemd/users/1000>
+26284 , 130454 , 130454 , dbus-daemon , fstat(18</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+26285 , 130454 , 130454 , dbus-daemon , fstat(18</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+26286 , 130454 , 130454 , dbus-daemon , read(18</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+26287 , 130454 , 130454 , dbus-daemon , read(18</run/systemd/users/1000>, "", 4096) = 0
+26288 , 130454 , 130454 , dbus-daemon , close(18</run/systemd/users/1000>) = 0
+26289 , 130454 , 130454 , dbus-daemon , open("/proc/19966/cmdline", O_RDONLY) = 18</proc/19966/cmdline>
+26290 , 130454 , 130454 , dbus-daemon , read(18</proc/19966/cmdline>, "/usr/lib/at-spi2-core/at-spi-bus-launcher\0", 50) = 42
+26291 , 130454 , 130454 , dbus-daemon , close(18</proc/19966/cmdline>) = 0
+26292 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.5\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+26294 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.5\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+26296 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119764) = 1
+26335 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\242\0\0\0\2\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 306
+26337 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26340 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\3\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\2\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+26342 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119752) = 1
+26345 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\34\0\0\0\3\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 180
+26348 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26350 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+26352 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\3\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\2\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+26354 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119750) = 1
+26374 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\27\0\0\0\4\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 167
+26376 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26378 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\5\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\4\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+26380 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119745) = 1
+26420 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\5\0\0\0}\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+26422 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26424 , 130454 , 130454 , dbus-daemon , sendmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\5\0\0\0\215\0\0\0\10\1g\0\0\0\0\0\1\1o\0\23\0\0\0/org/gtk/vfs/Daemo"..., 160}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 160
+26426 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+26428 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 119734) = 1
+26484 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\250\1\0\0\t\0\0\0-\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 488
+26486 , 130454 , 130454 , dbus-daemon , recvmsg(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26488 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\250\1\0\0\t\0\0\0=\0\0\0\10\1g\0\fa(ssbia{sv})\0\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1"..., 80}, {"\240\1\0\0\0\0\0\0\26\0\0\0GProxyVolumeMonitorGoa\0\0\34\0\0\0org.gtk.vf"..., 424}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 504
+26490 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119724) = 1
+26766 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\200\0\0\0\6\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 272
+26769 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\210\0\0\0\7\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 280
+26772 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26775 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\6\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+26780 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\7\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\7\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+26787 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, 119636) = 1
+26819 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\30\0\0\0\10\0\0\0}\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 168
+26822 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+26825 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "Successfully activated service 'org.a11y.Bus'", 45) = 45
+26829 , 130454 , 130454 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+26831 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0\10\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\f\0\0\0org.a11y.Bus\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 177
+26833 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\2\0\0\0m\0\0\0\1\1o\0\r\0\0\0/org/a11y/bus\0\0\0\6\1s\0\f\0\0\0or"..., 128}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 128
+26835 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\t\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\1u\0\0\7\1"..., 80}, {"\1\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+26837 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 19<UNIX:[1472700->1472701]>, 0x7ffc1daec370) = 0
+26839 , 130454 , 130454 , dbus-daemon , close(19<UNIX:[1472700->1472701]>) = 0
+26845 , 130454 , 130454 , dbus-daemon , wait4(19965, 0x7ffc1daec3c4, WNOHANG, NULL) = 0
+26848 , 130454 , 130454 , dbus-daemon , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19965, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+26850 , 130454 , 130454 , dbus-daemon , kill(19965, SIGKILL) = 0
+26852 , 130454 , 130454 , dbus-daemon , wait4(19965, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 19965
+26855 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [], 64, 0) = 0
+26857 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, -1) = 1
+27428 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1M\0\0\0\t\0\0\0\35\0\0\0\10\1g\0\1s\0\0\5\1u\0\2\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0H\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 125
+27431 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+27434 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1472698->1472697,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1M\0\0\0\t\0\0\0-\0\0\0\10\1g\0\1s\0\0\5\1u\0\2\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\7\1"..., 64}, {"H\0\0\0unix:abstract=/tmp/dbus-i2hek3nu1W,guid=b48349"..., 77}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 141
+27443 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, -1) = 1
+27451 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\250\0\0\0\n\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 500
+27456 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+27459 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\n\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\n\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+27466 , 130454 , 130454 , dbus-daemon , open("/var/lib/snapd/desktop/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+27472 , 130454 , 130454 , dbus-daemon , open("/usr/share/gnome/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+27485 , 130454 , 130454 , dbus-daemon , open("/home/elwin/.local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+27494 , 130454 , 130454 , dbus-daemon , open("/usr/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 18</usr/share/dbus-1/services>
+27498 , 130454 , 130454 , dbus-daemon , fstat(18</usr/share/dbus-1/services>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+27502 , 130454 , 130454 , dbus-daemon , brk(0x5607abdab000) = 0x5607abdab000
+27506 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 84 entries */, 32768) = 4584
+27509 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+27511 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+27513 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+27517 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+27521 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+27529 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+27530 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+27533 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+27536 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+27538 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+27542 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+27544 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+27546 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+27549 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+27552 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+27554 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+27555 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+27557 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+27561 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+27563 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+27566 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+27568 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+27571 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+27573 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+27575 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+27577 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+27580 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+27585 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+27590 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+27595 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+27598 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+27600 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+27603 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+27606 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+27608 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+27610 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+27612 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+27615 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+27617 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+27620 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+27629 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+27635 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+27640 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+27641 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+27657 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+27660 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+27663 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+27665 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+27667 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+27668 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+27674 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+27684 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+27691 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+27695 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+27698 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+27701 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+27703 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+27705 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+27709 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+27907 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+27916 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+27920 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+27923 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+27958 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+27960 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+27963 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+27966 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+27969 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+27971 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+27974 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+27977 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+27979 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+27981 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+27986 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+27990 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+27994 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+27997 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+27999 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+28003 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+28006 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+28011 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+28014 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+28016 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 0 entries */, 32768) = 0
+28018 , 130454 , 130454 , dbus-daemon , brk(0x5607abda3000) = 0x5607abda3000
+28021 , 130454 , 130454 , dbus-daemon , close(18</usr/share/dbus-1/services>) = 0
+28024 , 130454 , 130454 , dbus-daemon , open("/usr/local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28026 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1M\0\0\0\v\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"H\0\0\0The name org.gnome.SessionManager was not prov"..., 77}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 213
+28034 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, -1) = 1
+28108 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\35\0\0\0\f\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 173
+28116 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+28123 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1I\0\0\0\f\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"D\0\0\0Could not get owner of name 'org.gnome.Session"..., 73}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 209
+28135 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, -1) = 1
+28223 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\35\0\0\0\r\0\0\0\221\0\0\0\10\1g\0\2ss\0\1\1o\0\31\0\0\0/org/gnome/Session"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 197
+28226 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+28230 , 130454 , 130454 , dbus-daemon , open("/var/lib/snapd/desktop/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28233 , 130454 , 130454 , dbus-daemon , open("/usr/share/gnome/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28235 , 130454 , 130454 , dbus-daemon , open("/home/elwin/.local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28238 , 130454 , 130454 , dbus-daemon , open("/usr/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 18</usr/share/dbus-1/services>
+28242 , 130454 , 130454 , dbus-daemon , fstat(18</usr/share/dbus-1/services>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+28244 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 84 entries */, 32768) = 4584
+28248 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+28253 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+28255 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+28261 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+28265 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+28267 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+28269 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+28271 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+28274 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+28278 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+28281 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+28287 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+28291 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+28294 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+28296 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+28298 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+28300 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+28303 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+28305 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+28307 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+28308 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+28312 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+28315 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+28318 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+28320 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+28322 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+28326 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+28329 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+28331 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+28334 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+28337 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+28340 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+28342 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+28345 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+28348 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+28350 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+28354 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+28357 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+28359 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+28361 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+28364 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+28366 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+28369 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+28371 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+28374 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+28377 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+28380 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+28385 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+28389 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+28393 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+28395 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+28397 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+28400 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+28402 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+28404 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+28408 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+28411 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+28415 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+28418 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+28421 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+28424 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+28425 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+28428 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+28432 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+28434 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+28437 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+28442 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+28445 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+28449 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+28455 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+28457 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+28461 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+28464 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+28468 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+28472 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+28478 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+28482 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+28487 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+28489 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+28492 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+28497 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+28501 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+28505 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 0 entries */, 32768) = 0
+28511 , 130454 , 130454 , dbus-daemon , close(18</usr/share/dbus-1/services>) = 0
+28513 , 130454 , 130454 , dbus-daemon , open("/usr/local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28528 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1M\0\0\0\r\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"H\0\0\0The name org.gnome.SessionManager was not prov"..., 77}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 213
+28577 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=17, u64=17}}], 64, -1) = 1
+28656 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\250\0\0\0\16\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 312
+28662 , 130454 , 130454 , dbus-daemon , recvmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+28667 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\16\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\16\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+28679 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=16, u64=16}}], 64, -1) = 1
+29051 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1472698,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+29055 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 16<UNIX:[1472698,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec490) = 0
+29060 , 130454 , 130454 , dbus-daemon , close(16<UNIX:[1472698,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+29063 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=6733407061016576009}}], 64, -1) = 1
+29146 , 130454 , 130454 , dbus-daemon , accept4(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>
+29147 , 130454 , 130454 , dbus-daemon , fcntl(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, F_GETFL) = 0x2 (flags O_RDWR)
+29151 , 130454 , 130454 , dbus-daemon , fcntl(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+29154 , 130454 , 130454 , dbus-daemon , getsockname(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-OD3nHLe9yV"}, [23]) = 0
+29157 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+29160 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=6733407061016576016}}) = 0
+29163 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=12382558252452282384}}) = 0
+29166 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=12382558252452282384}}], 64, 130411) = 1
+29214 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+29218 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERCRED, {pid=19973, uid=1000, gid=1000}, [12]) = 0
+29222 , 130454 , 130454 , dbus-daemon , getsockopt(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+29224 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH\r\n", 2048) = 6
+29227 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=4294967312}}) = 0
+29229 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=16, u64=4294967312}}) = 0
+29231 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=16, u64=4294967312}}], 64, 130401) = 1
+29233 , 130454 , 130454 , dbus-daemon , sendto(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 46, MSG_NOSIGNAL, NULL, 0) = 46
+29237 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=16, u64=16}}) = 0
+29238 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=16}}) = 0
+29243 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 130400) = 1
+29246 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "AUTH EXTERNAL 31303030\r\n", 2048) = 24
+29248 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=4294967312}}) = 0
+29251 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=16, u64=4294967312}}) = 0
+29253 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=16, u64=4294967312}}], 64, 130397) = 1
+29256 , 130454 , 130454 , dbus-daemon , sendto(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "OK 1398e183897cb1bb3185b3df59ff23e8\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+29260 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=16, u64=16}}) = 0
+29262 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=16}}) = 0
+29267 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 130396) = 1
+29270 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+29273 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLET, {u32=16, u64=4294967312}}) = 0
+29275 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLOUT, {u32=16, u64=4294967312}}) = 0
+29277 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=16, u64=4294967312}}], 64, 130395) = 1
+29279 , 130454 , 130454 , dbus-daemon , sendto(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+29281 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN|EPOLLOUT, {u32=16, u64=16}}) = 0
+29286 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {EPOLLIN, {u32=16, u64=16}}) = 0
+29290 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 130393) = 1
+29293 , 130454 , 130454 , dbus-daemon , read(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, "BEGIN\r\n", 2048) = 7
+29299 , 130454 , 130454 , dbus-daemon , geteuid() = 1000
+29302 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, 130392) = 1
+29386 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+29389 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29391 , 130454 , 130454 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+29393 , 130454 , 130454 , dbus-daemon , open("/run/systemd/users/1000", O_RDONLY|O_CLOEXEC) = 18</run/systemd/users/1000>
+29395 , 130454 , 130454 , dbus-daemon , fstat(18</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+29398 , 130454 , 130454 , dbus-daemon , fstat(18</run/systemd/users/1000>, {st_mode=S_IFREG|0644, st_size=282, ...}) = 0
+29400 , 130454 , 130454 , dbus-daemon , read(18</run/systemd/users/1000>, "# This is private data. Do not parse.\nNAME=elwin\nS"..., 4096) = 282
+29402 , 130454 , 130454 , dbus-daemon , read(18</run/systemd/users/1000>, "", 4096) = 0
+29404 , 130454 , 130454 , dbus-daemon , close(18</run/systemd/users/1000>) = 0
+29406 , 130454 , 130454 , dbus-daemon , open("/proc/19973/cmdline", O_RDONLY) = 18</proc/19973/cmdline>
+29408 , 130454 , 130454 , dbus-daemon , read(18</proc/19973/cmdline>, "/usr/lib/at-spi2-core/at-spi2-registryd\0--use-gnom", 50) = 50
+29410 , 130454 , 130454 , dbus-daemon , close(18</proc/19973/cmdline>) = 0
+29413 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1"..., 80}, {"\4\0\0\0:1.6\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+29416 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\4\0\0\0:1.6\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+29419 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, -1) = 1
+29500 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\274\0\0\0\2\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 332
+29509 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1z\0\0\0\3\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 578
+29515 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29518 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\3\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\2\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+29522 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\4\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\3\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+29527 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\5\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\4\0\0\0\7\1s\0\24\0\0\0or"..., 72}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 72
+29530 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, -1) = 1
+29533 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1$\0\0\0\5\0\0\0\205\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 188
+29537 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29541 , 130454 , 130454 , dbus-daemon , open("/var/lib/snapd/desktop/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29544 , 130454 , 130454 , dbus-daemon , open("/usr/share/gnome/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29546 , 130454 , 130454 , dbus-daemon , open("/home/elwin/.local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29553 , 130454 , 130454 , dbus-daemon , open("/usr/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 18</usr/share/dbus-1/services>
+29558 , 130454 , 130454 , dbus-daemon , fstat(18</usr/share/dbus-1/services>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+29564 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 84 entries */, 32768) = 4584
+29567 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+29571 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+29575 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+29581 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+29585 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29587 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+29589 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+29591 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+29593 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29596 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+29598 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+29600 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+29602 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+29604 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+29606 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+29608 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29610 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+29613 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+29615 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+29617 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+29619 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+29621 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+29623 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+29625 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+29627 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+29629 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+29631 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+29633 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+29636 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+29638 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+29640 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+29642 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+29645 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+29647 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+29649 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+29651 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+29654 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+29656 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+29659 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+29661 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+29663 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29665 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+29667 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+29669 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+29672 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+29675 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+29677 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+29679 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29681 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+29683 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29685 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+29687 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+29689 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+29691 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+29693 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+29695 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+29697 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+29699 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+29701 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+29704 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+29706 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29708 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+29710 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+29712 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+29714 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+29717 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29719 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+29721 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+29723 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+29725 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+29728 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+29730 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+29732 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+29734 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+29737 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+29739 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+29741 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+29743 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+29745 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+29747 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+29750 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+29752 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+29754 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 0 entries */, 32768) = 0
+29756 , 130454 , 130454 , dbus-daemon , close(18</usr/share/dbus-1/services>) = 0
+29758 , 130454 , 130454 , dbus-daemon , open("/usr/local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29760 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1M\0\0\0\6\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"H\0\0\0The name org.gnome.SessionManager was not prov"..., 77}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 213
+29764 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, -1) = 1
+29809 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\35\0\0\0\6\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/D"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 173
+29813 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29815 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1I\0\0\0\7\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"D\0\0\0Could not get owner of name 'org.gnome.Session"..., 73}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 209
+29818 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=16, u64=16}}], 64, -1) = 1
+29863 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\7\0\0\0\221\0\0\0\1\1o\0\31\0\0\0/org/gnome/SessionManager\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 168
+29867 , 130454 , 130454 , dbus-daemon , recvmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec4a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29868 , 130454 , 130454 , dbus-daemon , open("/var/lib/snapd/desktop/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29870 , 130454 , 130454 , dbus-daemon , open("/usr/share/gnome/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29873 , 130454 , 130454 , dbus-daemon , open("/home/elwin/.local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29875 , 130454 , 130454 , dbus-daemon , open("/usr/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 18</usr/share/dbus-1/services>
+29877 , 130454 , 130454 , dbus-daemon , fstat(18</usr/share/dbus-1/services>, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+29879 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 84 entries */, 32768) = 4584
+29882 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Terminal.service", {st_mode=S_IFREG|0644, st_size=91, ...}) = 0
+29884 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.GConf.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+29885 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.service", {st_mode=S_IFREG|0644, st_size=116, ...}) = 0
+29887 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-colourlovers.service", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+29890 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.gedit.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29893 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service", {st_mode=S_IFREG|0644, st_size=83, ...}) = 0
+29895 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-tomboy.service", {st_mode=S_IFREG|0644, st_size=149, ...}) = 0
+29897 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/music-preview-player.service", {st_mode=S_IFREG|0644, st_size=135, ...}) = 0
+29899 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-flickr.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29900 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-virtualbox.service", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+29902 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.ScreenSaver.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+29904 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+29906 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-chromiumbookmarks.service", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+29909 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.secrets.service", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+29911 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Vino.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+29913 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Camera.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29915 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.bluez.obex.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+29917 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GoaVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+29919 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.systemd1.service", {st_mode=S_IFREG|0644, st_size=364, ...}) = 0
+29921 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+29923 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service", {st_mode=S_IFREG|0644, st_size=84, ...}) = 0
+29926 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calculator.SearchProvider.service", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+29928 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Cheese.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+29930 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-texdoc.service", {st_mode=S_IFREG|0644, st_size=147, ...}) = 0
+29932 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-applications.service", {st_mode=S_IFREG|0644, st_size=166, ...}) = 0
+29933 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.seahorse.Application.service", {st_mode=S_IFREG|0644, st_size=87, ...}) = 0
+29935 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+29937 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.ColorHelper.service", {st_mode=S_IFREG|0644, st_size=85, ...}) = 0
+29939 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-zotero.service", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+29942 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.baobab.service", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+29944 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+29946 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-shotwell.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+29948 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Metadata.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+29950 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-openclipart.service", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+29952 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service", {st_mode=S_IFREG|0644, st_size=113, ...}) = 0
+29954 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.DiskUtility.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+29957 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.font-viewer.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+29959 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.FileManager1.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+29961 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-firefoxbookmarks.service", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+29963 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.Daemon.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+29965 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-music.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29967 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+29969 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Master.service", {st_mode=S_IFREG|0644, st_size=89, ...}) = 0
+29971 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.FileRoller.service", {st_mode=S_IFREG|0644, st_size=78, ...}) = 0
+29974 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.a11y.Bus.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+29976 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Calendar.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+29978 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Screenshot.service", {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+29980 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Geoclue.Providers.UbuntuGeoIP.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+29982 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-calculator.service", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+29984 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Totem.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+29986 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.webcredentials.capture.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+29989 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.ayatana.bamf.service", {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+29991 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evince.Daemon.service", {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+29993 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.indicators.webcredentials.service", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+29995 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+29997 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service", {st_mode=S_IFREG|0644, st_size=109, ...}) = 0
+29999 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.GPhoto2VolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+30001 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+30003 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/ca.desrt.dconf.service", {st_mode=S_IFREG|0644, st_size=70, ...}) = 0
+30006 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Rhythmbox3.service", {st_mode=S_IFREG|0644, st_size=66, ...}) = 0
+30008 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-picasa.service", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+30010 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-yelp.service", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+30012 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-facebook.service", {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+30014 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service", {st_mode=S_IFREG|0644, st_size=140, ...}) = 0
+30016 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service", {st_mode=S_IFREG|0644, st_size=114, ...}) = 0
+30018 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/sessioninstaller.service", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+30021 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.freedesktop.Notifications.service", {st_mode=S_IFREG|0644, st_size=93, ...}) = 0
+30023 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+30025 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+30027 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-manpages.service", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+30028 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.singlesignonui.service", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+30030 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.canonical.hud.service", {st_mode=S_IFREG|0644, st_size=98, ...}) = 0
+30032 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-files-local.service", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+30033 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-devhelp.service", {st_mode=S_IFREG|0644, st_size=154, ...}) = 0
+30035 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-gdrive.service", {st_mode=S_IFREG|0644, st_size=148, ...}) = 0
+30037 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+30040 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-home.service", {st_mode=S_IFREG|0644, st_size=117, ...}) = 0
+30042 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/com.nokia.SingleSignOn.Backup.service", {st_mode=S_IFREG|0644, st_size=81, ...}) = 0
+30044 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Software.service", {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+30046 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.Nautilus.service", {st_mode=S_IFREG|0644, st_size=86, ...}) = 0
+30048 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/org.gnome.zeitgeist.fts.service", {st_mode=S_IFREG|0644, st_size=100, ...}) = 0
+30050 , 130454 , 130454 , dbus-daemon , stat("/usr/share/dbus-1/services/unity-scope-video-remote.service", {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+30052 , 130454 , 130454 , dbus-daemon , getdents(18</usr/share/dbus-1/services>, /* 0 entries */, 32768) = 0
+30054 , 130454 , 130454 , dbus-daemon , close(18</usr/share/dbus-1/services>) = 0
+30057 , 130454 , 130454 , dbus-daemon , open("/usr/local/share/dbus-1/services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+30060 , 130454 , 130454 , dbus-daemon , sendmsg(16<UNIX:[1473180->1474913,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1M\0\0\0\10\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\4\1s\0)\0\0\0org.freede"..., 136}, {"H\0\0\0The name org.gnome.SessionManager was not prov"..., 77}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 213
+30064 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=15, u64=15}}], 64, -1) = 1
+32087 , 130454 , 130454 , dbus-daemon , recvmsg(15<UNIX:[1294366,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+32088 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 15<UNIX:[1294366,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec490) = 0
+32089 , 130454 , 130454 , dbus-daemon , close(15<UNIX:[1294366,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32090 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, 0x7ffc1daec2e0, 64, -1) = -1 EINTR (Interrupted system call)
+32182 , 130454 , 130454 , dbus-daemon , --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=130449, si_uid=1000} ---
+32184 , 130454 , 130454 , dbus-daemon , sendto(12<UNIX:[1227805->1227804]>, "q", 1, MSG_NOSIGNAL, NULL, 0) = 1
+32185 , 130454 , 130454 , dbus-daemon , rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+32186 , 130454 , 130454 , dbus-daemon , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=6733407061016576011}}], 64, -1) = 1
+32187 , 130454 , 130454 , dbus-daemon , read(11<UNIX:[1227804->1227805]>, "q", 1) = 1
+32188 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec810) = 0
+32190 , 130454 , 130454 , dbus-daemon , close(9<UNIX:[1227070,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32194 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec810) = 0
+32199 , 130454 , 130454 , dbus-daemon , close(14<UNIX:[1227962->1227761,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32204 , 130454 , 130454 , dbus-daemon , sendmsg(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1)\0\0\0\17\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\22\0\0\0org.gtk.vfs.Daemon\0\0\4\0\0\0:1.1\0\0\0\0\0\0\0\0\0", 41}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 201
+32214 , 130454 , 130454 , dbus-daemon , sendmsg(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1)\0\0\0\17\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1"..., 160}, {"\22\0\0\0org.gtk.vfs.Daemon\0\0\4\0\0\0:1.1\0\0\0\0\0\0\0\0\0", 41}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 201
+32252 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec810) = 0
+32260 , 130454 , 130454 , dbus-daemon , close(13<UNIX:[1248186->1247964,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32288 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec810) = 0
+32315 , 130454 , 130454 , dbus-daemon , close(17<UNIX:[1472710->1472709,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32321 , 130454 , 130454 , dbus-daemon , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 16<UNIX:[1473180,@"/tmp/dbus-OD3nHLe9yV"]>, 0x7ffc1daec810) = 0
+32325 , 130454 , 130454 , dbus-daemon , close(16<UNIX:[1473180,@"/tmp/dbus-OD3nHLe9yV"]>) = 0
+32333 , 130454 , 130454 , dbus-daemon , exit_group(0) = ?
+32337 , 130454 , 0 , NULL , +++ exited with 0 +++

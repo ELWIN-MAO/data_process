@@ -1,0 +1,172 @@
+10134 , 785   , 785 , gvfsd-fuse , set_robust_list(0x7f00095bcae0, 24) = 0
+10137 , 785   , 785 , gvfsd-fuse , open("/dev/null", O_RDONLY) = 5</dev/null>
+10142 , 785   , 785 , gvfsd-fuse , dup2(5</dev/null>, 1</dev/null>) = 1</dev/null>
+10145 , 785   , 785 , gvfsd-fuse , dup2(5</dev/null>, 2</dev/null>) = 2</dev/null>
+10146 , 785   , 785 , gvfsd-fuse , close(4<UNIX:[1241245->1241244]>) = 0
+10153 , 785   , 785 , gvfsd-fuse , fcntl(3<UNIX:[1241244->1241245]>, F_SETFD, 0) = 0
+10156 , 785   , 785 , gvfsd-fuse , execve("/bin/fusermount", ["fusermount", "-o", "rw,nosuid,nodev,subtype=gvfsd-fuse", "--", "/run/user/1000/gvfs"], [/* 22 vars */]) = 0
+10163 , 785   , 785 , fusermount , brk(NULL) = 0x5599eba56000
+10166 , 785   , 785 , fusermount , fcntl(0</dev/null>, F_GETFD) = 0
+10168 , 785   , 785 , fusermount , fcntl(1</dev/null>, F_GETFD) = 0
+10170 , 785   , 785 , fusermount , fcntl(2</dev/null>, F_GETFD) = 0
+10172 , 785   , 785 , fusermount , access("/etc/suid-debug", F_OK) = -1 ENOENT (No such file or directory)
+10178 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10181 , 785   , 785 , fusermount , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbd14b5b000
+10184 , 785   , 785 , fusermount , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+10187 , 785   , 785 , fusermount , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+10190 , 785   , 785 , fusermount , fstat(4</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+10192 , 785   , 785 , fusermount , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7fbd14b3b000
+10194 , 785   , 785 , fusermount , close(4</etc/ld.so.cache>) = 0
+10196 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10200 , 785   , 785 , fusermount , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+10202 , 785   , 785 , fusermount , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0"..., 832) = 832
+10204 , 785   , 785 , fusermount , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+10207 , 785   , 785 , fusermount , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fbd1456e000
+10209 , 785   , 785 , fusermount , mprotect(0x7fbd1472e000, 2097152, PROT_NONE) = 0
+10211 , 785   , 785 , fusermount , mmap(0x7fbd1492e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fbd1492e000
+10214 , 785   , 785 , fusermount , mmap(0x7fbd14934000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbd14934000
+10217 , 785   , 785 , fusermount , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+10220 , 785   , 785 , fusermount , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbd14b3a000
+10223 , 785   , 785 , fusermount , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbd14b39000
+10225 , 785   , 785 , fusermount , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbd14b38000
+10229 , 785   , 785 , fusermount , arch_prctl(ARCH_SET_FS, 0x7fbd14b39700) = 0
+10233 , 785   , 785 , fusermount , mprotect(0x7fbd1492e000, 16384, PROT_READ) = 0
+10236 , 785   , 785 , fusermount , mprotect(0x5599eae6b000, 4096, PROT_READ) = 0
+10240 , 785   , 785 , fusermount , mprotect(0x7fbd14b5d000, 4096, PROT_READ) = 0
+10242 , 785   , 785 , fusermount , munmap(0x7fbd14b3b000, 129195) = 0
+10246 , 785   , 785 , fusermount , brk(NULL) = 0x5599eba56000
+10248 , 785   , 785 , fusermount , brk(0x5599eba77000) = 0x5599eba77000
+10251 , 785   , 785 , fusermount , getuid() = 1000
+10254 , 785   , 785 , fusermount , getuid() = 1000
+10257 , 785   , 785 , fusermount , setfsuid(1000) = 0
+10260 , 785   , 785 , fusermount , getgid() = 1000
+10262 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10264 , 785   , 785 , fusermount , lstat("/run", {st_mode=S_IFDIR|0755, st_size=1020, ...}) = 0
+10268 , 785   , 785 , fusermount , lstat("/run/user", {st_mode=S_IFDIR|0755, st_size=60, ...}) = 0
+10270 , 785   , 785 , fusermount , lstat("/run/user/1000", {st_mode=S_IFDIR|0700, st_size=180, ...}) = 0
+10273 , 785   , 785 , fusermount , chdir("/") = 0
+10274 , 785   , 785 , fusermount , getuid() = 1000
+10277 , 785   , 785 , fusermount , setfsuid(0) = 1000
+10279 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10282 , 785   , 785 , fusermount , umask(033) = 02
+10284 , 785   , 785 , fusermount , getuid() = 1000
+10285 , 785   , 785 , fusermount , getuid() = 1000
+10288 , 785   , 785 , fusermount , setfsuid(1000) = 0
+10290 , 785   , 785 , fusermount , getgid() = 1000
+10293 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10296 , 785   , 785 , fusermount , open("/dev/fuse", O_RDWR) = 4</dev/fuse>
+10298 , 785   , 785 , fusermount , getuid() = 1000
+10301 , 785   , 785 , fusermount , setfsuid(0) = 1000
+10306 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10308 , 785   , 785 , fusermount , getuid() = 1000
+10311 , 785   , 785 , fusermount , getuid() = 1000
+10314 , 785   , 785 , fusermount , setfsuid(1000) = 0
+10316 , 785   , 785 , fusermount , getgid() = 1000
+10319 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10321 , 785   , 785 , fusermount , open("/etc/fuse.conf", O_RDONLY) = 6</etc/fuse.conf>
+10324 , 785   , 785 , fusermount , fstat(6</etc/fuse.conf>, {st_mode=S_IFREG|0644, st_size=280, ...}) = 0
+10327 , 785   , 785 , fusermount , read(6</etc/fuse.conf>, "# /etc/fuse.conf - Configuration file for Filesyst"..., 4096) = 280
+10330 , 785   , 785 , fusermount , read(6</etc/fuse.conf>, "", 4096) = 0
+10332 , 785   , 785 , fusermount , close(6</etc/fuse.conf>) = 0
+10335 , 785   , 785 , fusermount , getuid() = 1000
+10336 , 785   , 785 , fusermount , open("/etc/mtab", O_RDONLY|O_CLOEXEC) = 6</proc/785/mounts>
+10339 , 785   , 785 , fusermount , fstat(6</proc/785/mounts>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+10341 , 785   , 785 , fusermount , read(6</proc/785/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0"..., 1024) = 1024
+10345 , 785   , 785 , fusermount , read(6</proc/785/mounts>, " 0\ncgroup /sys/fs/cgroup/devices cgroup rw,nosuid,"..., 1024) = 1024
+10349 , 785   , 785 , fusermount , read(6</proc/785/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,n"..., 1024) = 107
+10353 , 785   , 785 , fusermount , read(6</proc/785/mounts>, "", 1024) = 0
+10356 , 785   , 785 , fusermount , close(6</proc/785/mounts>) = 0
+10359 , 785   , 785 , fusermount , lstat("/run/user/1000/gvfs", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+10362 , 785   , 785 , fusermount , getuid() = 1000
+10365 , 785   , 785 , fusermount , chdir("/run/user/1000/gvfs") = 0
+10367 , 785   , 785 , fusermount , lstat(".", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+10371 , 785   , 785 , fusermount , access(".", W_OK) = 0
+10373 , 785   , 785 , fusermount , getuid() = 1000
+10375 , 785   , 785 , fusermount , setfsuid(0) = 1000
+10377 , 785   , 785 , fusermount , setfsgid(1000) = 1000
+10380 , 785   , 785 , fusermount , getuid() = 1000
+10383 , 785   , 785 , fusermount , getuid() = 1000
+10388 , 785   , 785 , fusermount , getuid() = 1000
+10391 , 785   , 785 , fusermount , getuid() = 1000
+10392 , 785   , 785 , fusermount , getuid() = 1000
+10395 , 785   , 785 , fusermount , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6<UNIX:[1242534]>
+10398 , 785   , 785 , fusermount , connect(6<UNIX:[1242534]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10401 , 785   , 785 , fusermount , close(6<UNIX:[1242534]>) = 0
+10404 , 785   , 785 , fusermount , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6<UNIX:[1243861]>
+10407 , 785   , 785 , fusermount , connect(6<UNIX:[1243861]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+10410 , 785   , 785 , fusermount , close(6<UNIX:[1243861]>) = 0
+10414 , 785   , 785 , fusermount , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 6</etc/nsswitch.conf>
+10418 , 785   , 785 , fusermount , fstat(6</etc/nsswitch.conf>, {st_mode=S_IFREG|0644, st_size=529, ...}) = 0
+10420 , 785   , 785 , fusermount , read(6</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of "..., 4096) = 529
+10424 , 785   , 785 , fusermount , read(6</etc/nsswitch.conf>, "", 4096) = 0
+10427 , 785   , 785 , fusermount , close(6</etc/nsswitch.conf>) = 0
+10429 , 785   , 785 , fusermount , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6</etc/ld.so.cache>
+10432 , 785   , 785 , fusermount , fstat(6</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+10434 , 785   , 785 , fusermount , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 6</etc/ld.so.cache>, 0) = 0x7fbd14b3b000
+10438 , 785   , 785 , fusermount , close(6</etc/ld.so.cache>) = 0
+10442 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10445 , 785   , 785 , fusermount , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+10447 , 785   , 785 , fusermount , read(6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0"..., 832) = 832
+10450 , 785   , 785 , fusermount , fstat(6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0
+10453 , 785   , 785 , fusermount , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7fbd14365000
+10455 , 785   , 785 , fusermount , mprotect(0x7fbd1436d000, 2093056, PROT_NONE) = 0
+10457 , 785   , 785 , fusermount , mmap(0x7fbd1456c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7fbd1456c000
+10461 , 785   , 785 , fusermount , close(6</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+10463 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10467 , 785   , 785 , fusermount , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 6</lib/x86_64-linux-gnu/libnsl-2.23.so>
+10469 , 785   , 785 , fusermount , read(6</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0"..., 832) = 832
+10473 , 785   , 785 , fusermount , fstat(6</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0
+10475 , 785   , 785 , fusermount , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fbd1414c000
+10478 , 785   , 785 , fusermount , mprotect(0x7fbd14162000, 2093056, PROT_NONE) = 0
+10482 , 785   , 785 , fusermount , mmap(0x7fbd14361000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fbd14361000
+10485 , 785   , 785 , fusermount , mmap(0x7fbd14363000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbd14363000
+10488 , 785   , 785 , fusermount , close(6</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+10492 , 785   , 785 , fusermount , mprotect(0x7fbd14361000, 4096, PROT_READ) = 0
+10495 , 785   , 785 , fusermount , mprotect(0x7fbd1456c000, 4096, PROT_READ) = 0
+10498 , 785   , 785 , fusermount , munmap(0x7fbd14b3b000, 129195) = 0
+10501 , 785   , 785 , fusermount , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6</etc/ld.so.cache>
+10504 , 785   , 785 , fusermount , fstat(6</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=129195, ...}) = 0
+10507 , 785   , 785 , fusermount , mmap(NULL, 129195, PROT_READ, MAP_PRIVATE, 6</etc/ld.so.cache>, 0) = 0x7fbd14b3b000
+10510 , 785   , 785 , fusermount , close(6</etc/ld.so.cache>) = 0
+10511 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10515 , 785   , 785 , fusermount , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+10518 , 785   , 785 , fusermount , read(6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0"..., 832) = 832
+10521 , 785   , 785 , fusermount , fstat(6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0
+10524 , 785   , 785 , fusermount , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7fbd13f40000
+10527 , 785   , 785 , fusermount , mprotect(0x7fbd13f4b000, 2093056, PROT_NONE) = 0
+10531 , 785   , 785 , fusermount , mmap(0x7fbd1414a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7fbd1414a000
+10534 , 785   , 785 , fusermount , close(6</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+10538 , 785   , 785 , fusermount , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+10542 , 785   , 785 , fusermount , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 6</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+10547 , 785   , 785 , fusermount , read(6</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0"..., 832) = 832
+10549 , 785   , 785 , fusermount , fstat(6</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0
+10552 , 785   , 785 , fusermount , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7fbd13d2e000
+10553 , 785   , 785 , fusermount , mprotect(0x7fbd13d39000, 2093056, PROT_NONE) = 0
+10557 , 785   , 785 , fusermount , mmap(0x7fbd13f38000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7fbd13f38000
+10560 , 785   , 785 , fusermount , mmap(0x7fbd13f3a000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbd13f3a000
+10563 , 785   , 785 , fusermount , close(6</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+10567 , 785   , 785 , fusermount , mprotect(0x7fbd13f38000, 4096, PROT_READ) = 0
+10570 , 785   , 785 , fusermount , mprotect(0x7fbd1414a000, 4096, PROT_READ) = 0
+10574 , 785   , 785 , fusermount , munmap(0x7fbd14b3b000, 129195) = 0
+10579 , 785   , 785 , fusermount , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 6</etc/passwd>
+10582 , 785   , 785 , fusermount , lseek(6</etc/passwd>, 0, SEEK_CUR) = 0
+10585 , 785   , 785 , fusermount , fstat(6</etc/passwd>, {st_mode=S_IFREG|0644, st_size=2368, ...}) = 0
+10586 , 785   , 785 , fusermount , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 6</etc/passwd>, 0) = 0x7fbd14b5a000
+10589 , 785   , 785 , fusermount , lseek(6</etc/passwd>, 2368, SEEK_SET) = 2368
+10592 , 785   , 785 , fusermount , munmap(0x7fbd14b5a000, 2368) = 0
+10594 , 785   , 785 , fusermount , close(6</etc/passwd>) = 0
+10596 , 785   , 785 , fusermount , getgid() = 1000
+10599 , 785   , 785 , fusermount , getuid() = 1000
+10602 , 785   , 785 , fusermount , open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6</run/user/1000/gvfs>
+10605 , 785   , 785 , fusermount , fstat(6</run/user/1000/gvfs>, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+10609 , 785   , 785 , fusermount , getdents(6</run/user/1000/gvfs>, /* 2 entries */, 32768) = 48
+10613 , 785   , 785 , fusermount , getdents(6</run/user/1000/gvfs>, /* 0 entries */, 32768) = 0
+10615 , 785   , 785 , fusermount , close(6</run/user/1000/gvfs>) = 0
+10617 , 785   , 785 , fusermount , mount("gvfsd-fuse", ".", "fuse.gvfsd-fuse", MS_NOSUID|MS_NODEV, "fd=4,rootmode=40000,user_id=1000,group_id=1000") = 0
+10622 , 785   , 785 , fusermount , chdir("/") = 0
+10624 , 785   , 785 , fusermount , geteuid() = 0
+10628 , 785   , 785 , fusermount , lstat("/etc/mtab", {st_mode=S_IFLNK|0777, st_size=19, ...}) = 0
+10629 , 785   , 785 , fusermount , sendmsg(3<UNIX:[1241244->1241245]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=20, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [4</dev/fuse>]}], msg_flags=0}, 0) = 1
+10633 , 785   , 785 , fusermount , close(4</dev/fuse>) = 0
+10638 , 785   , 785 , fusermount , exit_group(0) = ?
+10641 , 785   , 785 , fusermount , +++ exited with 0 +++

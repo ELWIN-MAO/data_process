@@ -1,0 +1,13 @@
+9483 , 382   , 382 , gvfsd , set_robust_list(0x7f662690dae0, 24) = 0
+9488 , 382   , 382 , gvfsd , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, {SIG_DFL, [], 0}, 8) = 0
+9491 , 382   , 382 , gvfsd , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, {SIG_DFL, [], 0}, 8) = 0
+9494 , 382   , 382 , gvfsd , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, {SIG_DFL, [], 0}, 8) = 0
+9498 , 382   , 382 , gvfsd , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, {SIG_DFL, [], 0}, 8) = 0
+9500 , 382   , 382 , gvfsd , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f66254164b0}, 8) = 0
+9504 , 382   , 382 , gvfsd , close(9<pipe:[1236141]>) = 0
+9507 , 382   , 382 , gvfsd , close(11<pipe:[1236142]>) = 0
+9511 , 382   , 382 , gvfsd , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f662690dad0) = 395
+9516 , 382   , 382 , gvfsd , write(12<pipe:[1236142]>, "\213\1\0\0", 4) = 4
+9520 , 382   , 382 , gvfsd , close(12<pipe:[1236142]>) = 0
+9523 , 382   , 382 , gvfsd , exit_group(0) = ?
+9526 , 382   , 382 , gvfsd , +++ exited with 0 +++
