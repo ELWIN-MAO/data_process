@@ -64,13 +64,18 @@ class Thread_Info_Record:
         if(self.exit_code):
             out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
         out+="\""
-
-        if(self.exit_code and self.exit_code  [1]!="\"0\""):
-            #print("shape=\"record\",color=\"red\"")
-            out+=", color=\"indianred1\""
-        #print("]")
+        
         if(self.thread_id==self.process_id):
             out+=", style = filled "
+            if(self.exit_code and self.exit_code  [1]!="\"0\""):
+                out+=", color=\"indianred1\""
+            if(self.exit_code and self.exit_code  [1]=="\"0\""):
+                out+=", color=\"grey77\""
+            if(not self.exit_code):
+                out+=", color=\"green3\""
+        else : 
+            if(self.exit_code and self.exit_code  [1]!="\"0\""):
+                out+=", color=\"indianred1\""
         out+="];"
         #out=out.replace("\"","\\\"")
         print(out)
@@ -145,7 +150,7 @@ while True:
             process_info_list.append(aSyscall_Record["process_id"])
     if(aSyscall_Record["type"]=="1"):
         #if(strcmp(aSyscall_Record["syscall_name"],"clone")==0):
-        if(aSyscall_Record["syscall_name"]=="\"clone\""):
+        if(aSyscall_Record["syscall_name"]=="\"clone\"" or aSyscall_Record["syscall_name"]=="\"vfork\""):
             aThread_Info_Record.children_list.append([aSyscall_Record["serialno"],aSyscall_Record["syscall_ret_val"]])
         if( (aSyscall_Record["syscall_name"]=="\"exit\"")  or (aSyscall_Record["syscall_name"]=="\"exit_group\"")):
             aThread_Info_Record.exit_code=[aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]]
