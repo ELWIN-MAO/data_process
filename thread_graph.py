@@ -62,7 +62,8 @@ class Thread_Info_Record:
         for aitem in self.execve_list:
             out+="\\n"+aitem.replace("\"","\\\"")
         for aitem in self.write2_list:
-            out+="\\n"+aitem.replace("\"","\\\"")
+            tmp=aitem.replace("\\","\\\\")
+            out+="\\n"+tmp.replace("\"","\\\"")
         if(self.exit_code):
             out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
         out+="\""
@@ -126,9 +127,10 @@ def get_sycall_record(line ) :
         words=line.split(";;;") 
         aSyscall_Record={}
         for aword in words:
-            k_v=aword.split(":")
-            #print(k_v)
-            aSyscall_Record[k_v[0].strip()]=k_v[1].strip()
+            guard=aword.index(":")
+            akey=aword[0:guard].strip()
+            avalue=aword[guard+1:].strip()
+            aSyscall_Record[akey]=avalue
         return aSyscall_Record
 
 
