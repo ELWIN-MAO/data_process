@@ -5,9 +5,6 @@ import os
 
 import re
 
-##需要解决None变量没有append方法的问题，需要解决字符串比较的时候使用cmp的问题。
-##对应返回值不为0的节点要做特殊的标注，使用方块形状的节点表示出来。
-
 
 log=sys.stdin
 
@@ -18,6 +15,7 @@ class Thread_Info_Record:
         self.process_id=None
         self.thread_name_list=[]
         self.execve_list=[]            
+        self.write2_list=[]            
         self.children_list=[]
         self.exit_code=None
         self.syscall_error_info_list=[]
@@ -62,6 +60,8 @@ class Thread_Info_Record:
         #out+="\""
         #print("exit_code:",self.exit_code)
         for aitem in self.execve_list:
+            out+="\\n"+aitem.replace("\"","\\\"")
+        for aitem in self.write2_list:
             out+="\\n"+aitem.replace("\"","\\\"")
         if(self.exit_code):
             out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
@@ -151,13 +151,14 @@ while True:
         if not(aSyscall_Record["process_id"] in  process_info_list):
             process_info_list.append(aSyscall_Record["process_id"])
     if(aSyscall_Record["type"]=="1"):
-        #if(strcmp(aSyscall_Record["syscall_name"],"clone")==0):
         if(aSyscall_Record["syscall_name"]=="\"clone\"" or aSyscall_Record["syscall_name"]=="\"vfork\""):
             aThread_Info_Record.children_list.append([aSyscall_Record["serialno"],aSyscall_Record["syscall_ret_val"]])
         if( (aSyscall_Record["syscall_name"]=="\"exit\"")  or (aSyscall_Record["syscall_name"]=="\"exit_group\"")):
             aThread_Info_Record.exit_code=[aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]]
         if(aSyscall_Record["syscall_name"]=="\"execve\""):
             aThread_Info_Record.execve_list.append("execve:"+aSyscall_Record["serialno"]+":"+aSyscall_Record["syscall_param"].split(",")[0][1:]+"="+aSyscall_Record["syscall_ret_val"])
+        if(aSyscall_Record["syscall_name"]=="\"write\"" and aSyscall_Record["syscall_param"][1]=="2"):
+            aThread_Info_Record.write2_list.append("write2:"+aSyscall_Record["serialno"]+":"+aSyscall_Record["syscall_param"])
         if(aSyscall_Record["errno"]!="\"None\""):
             aThread_Info_Record.syscall_error_info_list.append([aSyscall_Record["errno"],aSyscall_Record["error_info"]])
     #aThread_Info_Record.print_str()
