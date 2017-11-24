@@ -61,6 +61,8 @@ class Thread_Info_Record:
         #    children_edge+=self.thread_id+"->"+aitem[1]+"[lable=\""+aitem[0]+"\"];\\n"
         #out+="\""
         #print("exit_code:",self.exit_code)
+        for aitem in self.execve_list:
+            out+="\\n"+aitem.replace("\"","\\\"")
         if(self.exit_code):
             out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
         out+="\""
@@ -155,7 +157,7 @@ while True:
         if( (aSyscall_Record["syscall_name"]=="\"exit\"")  or (aSyscall_Record["syscall_name"]=="\"exit_group\"")):
             aThread_Info_Record.exit_code=[aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]]
         if(aSyscall_Record["syscall_name"]=="\"execve\""):
-            aThread_Info_Record.execve_list.append([aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]])
+            aThread_Info_Record.execve_list.append("execve:"+aSyscall_Record["serialno"]+":"+aSyscall_Record["syscall_param"].split(",")[0][1:]+"="+aSyscall_Record["syscall_ret_val"])
         if(aSyscall_Record["errno"]!="\"None\""):
             aThread_Info_Record.syscall_error_info_list.append([aSyscall_Record["errno"],aSyscall_Record["error_info"]])
     #aThread_Info_Record.print_str()
