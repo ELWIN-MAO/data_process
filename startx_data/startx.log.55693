@@ -1,0 +1,501 @@
+41115 , 55693 , 55693 , start-pulseaudi , close(10</usr/bin/start-pulseaudio-x11>) = 0
+41119 , 55693 , 55693 , start-pulseaudi , execve("/usr/bin/pactl", ["/usr/bin/pactl", "load-module", "module-x11-publish", "display=:0"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/pulseaudio.desktop", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "GIO_LAUNCHED_DESKTOP_FILE_PID=55690", "SUDO_UID=1000", "LOGNAME=root", "DESKTOP_AUTOSTART_ID=10429ce9d5a07de939151170217843890500000556040010", "TERM=linux", "USERNAME=root", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "XDG_MENU_PREFIX=gnome-", "DISPLAY=:0", "LANG=en_US.UTF-8", "XDG_CURRENT_DESKTOP=GNOME", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "XMODIFIERS=@im=ibus", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "QT_IM_MODULE=ibus", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+41223 , 55693 , 55693 , pactl , brk(NULL) = 0xc72000
+41225 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41232 , 55693 , 55693 , pactl , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e652000
+41233 , 55693 , 55693 , pactl , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+41235 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+41342 , 55693 , 55693 , pactl , stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64", 0x7ffc0abe2330) = -1 ENOENT (No such file or directory)
+41344 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+41347 , 55693 , 55693 , pactl , stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls", 0x7ffc0abe2330) = -1 ENOENT (No such file or directory)
+41351 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+41354 , 55693 , 55693 , pactl , stat("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64", 0x7ffc0abe2330) = -1 ENOENT (No such file or directory)
+41356 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+41358 , 55693 , 55693 , pactl , stat("/usr/lib/x86_64-linux-gnu/pulseaudio", {st_dev=makedev(8, 1), st_ino=4720312, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/04/20-18:11:56, st_mtime=2016/04/20-18:11:56, st_ctime=2016/11/03-10:40:40.467999796}) = 0
+41360 , 55693 , 55693 , pactl , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+41362 , 55693 , 55693 , pactl , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+41365 , 55693 , 55693 , pactl , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fae9e632000
+41373 , 55693 , 55693 , pactl , close(3</etc/ld.so.cache>) = 0
+41375 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41377 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libpulse.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>
+41379 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \273\0\0\0\0\0\0@\0\0\0\0\0\0\0\10\353\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0#\0\"\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d\321\4\0\0\0\0\0d\321\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\325\4\0\0\0\0\0\10\325$\0\0\0\0\0\10\325$\0\0\0\0\0\260\22\0\0\0\0\0\0\360\22\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0008\335\4\0\0\0\0\0008\335$\0\0\0\0\0"..., 832) = 832
+41432 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>, {st_dev=makedev(8, 1), st_ino=4466226, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=640, st_size=324552, st_atime=2017/11/26-03:14:09.339385750, st_mtime=2016/03/21-06:48:44, st_ctime=2016/11/03-10:38:45.567999883}) = 0
+41434 , 55693 , 55693 , pactl , mmap(NULL, 2418680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>, 0) = 0x7fae9e1e0000
+41437 , 55693 , 55693 , pactl , mprotect(0x7fae9e22e000, 2093056, PROT_NONE) = 0
+41439 , 55693 , 55693 , pactl , mmap(0x7fae9e42d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>, 0x4d000) = 0x7fae9e42d000
+41448 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libpulse.so.0.19.0>) = 0
+41566 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>
+41572 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\36\1\0\0\0\0\0@\0\0\0\0\0\0\0x\233\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\210\7\0\0\0\0\0\24\210\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@\210\7\0\0\0\0\0@\210'\0\0\0\0\0@\210'\0\0\0\0\0\10\22\0\0\0\0\0\0\350\24\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\214\7\0\0\0\0\0\270\214'\0\0\0\0\0"..., 832) = 832
+41679 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>, {st_dev=makedev(8, 1), st_ino=4722747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=984, st_size=500344, st_atime=2017/11/26-03:14:09.363385517, st_mtime=2016/03/21-06:48:44, st_ctime=2016/11/03-10:38:56.059999875}) = 0
+41682 , 55693 , 55693 , pactl , mmap(NULL, 2596136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>, 0) = 0x7fae9df66000
+41688 , 55693 , 55693 , pactl , mprotect(0x7fae9dfdf000, 2093056, PROT_NONE) = 0
+41694 , 55693 , 55693 , pactl , mmap(0x7fae9e1de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>, 0x78000) = 0x7fae9e1de000
+41767 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-8.0.so>) = 0
+41876 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+41879 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41883 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>
+41889 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320`\0\0\0\0\0\0@\0\0\0\0\0\0\0\250H\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\37\6\0\0\0\0\0\4\37\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10!\6\0\0\0\0\0\10!&\0\0\0\0\0\10!&\0\0\0\0\0v&\0\0\0\0\0\0(l\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220=\6\0\0\0\0\0\220=&\0\0\0\0\0"..., 832) = 832
+41983 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>, {st_dev=makedev(8, 1), st_ino=4457807, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=413672, st_atime=2017/11/26-03:14:09.379385361, st_mtime=2017/05/31-10:23:01, st_ctime=2017/06/04-04:56:04.796595127}) = 0
+41987 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e631000
+41993 , 55693 , 55693 , pactl , mmap(NULL, 2526512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>, 0) = 0x7fae9dcfd000
+41997 , 55693 , 55693 , pactl , mprotect(0x7fae9dd5f000, 2097152, PROT_NONE) = 0
+42005 , 55693 , 55693 , pactl , mmap(0x7fae9df5f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>, 0x62000) = 0x7fae9df5f000
+42017 , 55693 , 55693 , pactl , mmap(0x7fae9df62000, 15664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9df62000
+42025 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.25>) = 0
+42035 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libcap.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42039 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42045 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libcap.so.2.24>
+42051 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libcap.so.2.24>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\30\0\0\0\0\0\0@\0\0\0\0\0\0\0XS\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004>\0\0\0\0\0\0004>\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0hJ\0\0\0\0\0\0hJ \0\0\0\0\0hJ \0\0\0\0\0\300\7\0\0\0\0\0\0\310\7\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\0N\0\0\0\0\0\0\0N \0\0\0\0\0"..., 832) = 832
+42286 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libcap.so.2.24>, {st_dev=makedev(8, 1), st_ino=4985490, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=23128, st_atime=2017/11/26-03:14:09.419384973, st_mtime=2015/10/23-17:11:29, st_ctime=2016/11/03-10:37:49.223999925}) = 0
+42290 , 55693 , 55693 , pactl , mmap(NULL, 2118192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcap.so.2.24>, 0) = 0x7fae9daf7000
+42296 , 55693 , 55693 , pactl , mprotect(0x7fae9dafb000, 2097152, PROT_NONE) = 0
+42300 , 55693 , 55693 , pactl , mmap(0x7fae9dcfb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcap.so.2.24>, 0x4000) = 0x7fae9dcfb000
+42358 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libcap.so.2.24>) = 0
+42363 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42367 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42375 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+42378 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+42383 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42391 , 55693 , 55693 , pactl , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fae9d8da000
+42396 , 55693 , 55693 , pactl , mprotect(0x7fae9d8f2000, 2093056, PROT_NONE) = 0
+42402 , 55693 , 55693 , pactl , mmap(0x7fae9daf1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fae9daf1000
+42405 , 55693 , 55693 , pactl , mmap(0x7fae9daf3000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9daf3000
+42408 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+42411 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42413 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42416 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/librt-2.23.so>
+42418 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+42420 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42422 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e630000
+42425 , 55693 , 55693 , pactl , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7fae9d6d2000
+42427 , 55693 , 55693 , pactl , mprotect(0x7fae9d6d9000, 2093056, PROT_NONE) = 0
+42430 , 55693 , 55693 , pactl , mmap(0x7fae9d8d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7fae9d8d8000
+42432 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+42434 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42437 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42439 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+42441 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+42443 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42447 , 55693 , 55693 , pactl , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fae9d4ce000
+42449 , 55693 , 55693 , pactl , mprotect(0x7fae9d4d1000, 2093056, PROT_NONE) = 0
+42452 , 55693 , 55693 , pactl , mmap(0x7fae9d6d0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fae9d6d0000
+42454 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+42457 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42459 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42462 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+42465 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+42467 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42469 , 55693 , 55693 , pactl , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7fae9d1c5000
+42471 , 55693 , 55693 , pactl , mprotect(0x7fae9d2cd000, 2093056, PROT_NONE) = 0
+42476 , 55693 , 55693 , pactl , mmap(0x7fae9d4cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7fae9d4cc000
+42483 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+42485 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42488 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42490 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+42492 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+42494 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42496 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e62f000
+42505 , 55693 , 55693 , pactl , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fae9cdfb000
+42508 , 55693 , 55693 , pactl , mprotect(0x7fae9cfbb000, 2097152, PROT_NONE) = 0
+42510 , 55693 , 55693 , pactl , mmap(0x7fae9d1bb000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fae9d1bb000
+42512 , 55693 , 55693 , pactl , mmap(0x7fae9d1c1000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9d1c1000
+42515 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+42517 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42521 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+42524 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42529 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>
+42534 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0(\0\0\0\0\0\0@\0\0\0\0\0\0\0(\243\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L\222\0\0\0\0\0\0L\222\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\235\0\0\0\0\0\0x\235 \0\0\0\0\0x\235 \0\0\0\0\0\204\4\0\0\0\0\0\0\230\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330\235\0\0\0\0\0\0\330\235 \0\0\0\0\0"..., 832) = 832
+42905 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>, {st_dev=makedev(8, 1), st_ino=4985546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43496, st_atime=2017/11/26-03:14:09.419384973, st_mtime=2015/01/12-11:23:56, st_ctime=2016/11/03-10:37:49.703999925}) = 0
+42930 , 55693 , 55693 , pactl , mmap(NULL, 2138640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>, 0) = 0x7fae9cbf0000
+42933 , 55693 , 55693 , pactl , mprotect(0x7fae9cbfa000, 2093056, PROT_NONE) = 0
+42945 , 55693 , 55693 , pactl , mmap(0x7fae9cdf9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>, 0x9000) = 0x7fae9cdf9000
+42985 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libjson-c.so.2.0.0>) = 0
+43012 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43034 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43061 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43144 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>
+43234 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\261\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\231\4\0\0\0\0\0\24\231\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\244\4\0\0\0\0\0H\244$\0\0\0\0\0H\244$\0\0\0\0\0T\f\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10\252\4\0\0\0\0\0\10\252$\0\0\0\0\0"..., 832) = 832
+43285 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, {st_dev=makedev(8, 1), st_ino=4985393, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=608, st_size=309392, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/10/12-09:19:48, st_ctime=2016/11/03-23:18:12.338184176}) = 0
+43329 , 55693 , 55693 , pactl , mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0) = 0x7fae9c9a4000
+43368 , 55693 , 55693 , pactl , mprotect(0x7fae9c9ee000, 2097152, PROT_NONE) = 0
+43377 , 55693 , 55693 , pactl , mmap(0x7fae9cbee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0x4a000) = 0x7fae9cbee000
+43387 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>) = 0
+43398 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43411 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43421 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+43430 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+43436 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+43440 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e62e000
+43445 , 55693 , 55693 , pactl , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7fae9c782000
+43451 , 55693 , 55693 , pactl , mprotect(0x7fae9c7a3000, 2093056, PROT_NONE) = 0
+43458 , 55693 , 55693 , pactl , mmap(0x7fae9c9a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7fae9c9a2000
+43462 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+43464 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43466 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43469 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+43471 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+43474 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980824, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/09/28-21:40:34, st_ctime=2016/11/03-23:17:42.287864280}) = 0
+43476 , 55693 , 55693 , pactl , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7fae9e5a9000
+43478 , 55693 , 55693 , pactl , mmap(0x7fae9e629000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7fae9e629000
+43480 , 55693 , 55693 , pactl , mmap(0x7fae9e62d000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9e62d000
+43483 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+43486 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43489 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43491 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libwrap.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>
+43495 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p-\0\0\0\0\0\0@\0\0\0\0\0\0\0\230\210\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|}\0\0\0\0\0\0|}\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\200}\0\0\0\0\0\0\200} \0\0\0\0\0\200} \0\0\0\0\0\24\n\0\0\0\0\0\0 \23\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\230}\0\0\0\0\0\0\230} \0\0\0\0\0"..., 832) = 832
+43497 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>, {st_dev=makedev(8, 1), st_ino=4985673, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=36632, st_atime=2017/11/25-09:45:41.611557045, st_mtime=2014/01/12-18:11:33, st_ctime=2016/11/03-10:37:50.195999925}) = 0
+43500 , 55693 , 55693 , pactl , mmap(NULL, 2134176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>, 0) = 0x7fae9c578000
+43503 , 55693 , 55693 , pactl , mprotect(0x7fae9c580000, 2093056, PROT_NONE) = 0
+43506 , 55693 , 55693 , pactl , mmap(0x7fae9c77f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>, 0x7000) = 0x7fae9c77f000
+43508 , 55693 , 55693 , pactl , mmap(0x7fae9c781000, 160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9c781000
+43511 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libwrap.so.0.7.6>) = 0
+43516 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43519 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43521 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>
+43524 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\23\0\0\0\0\0\0@\0\0\0\0\0\0\0@R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\E\0\0\0\0\0\0\\E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0\320M \0\0\0\0\0P\3\0\0\0\0\0\0X\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350M\0\0\0\0\0\0\350M \0\0\0\0\0"..., 832) = 832
+43779 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>, {st_dev=makedev(8, 1), st_ino=4465331, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22720, st_atime=2017/11/26-03:14:09.419384973, st_mtime=2014/11/13-14:50:42, st_ctime=2016/11/03-10:38:38.943999888}) = 0
+43781 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a8000
+43783 , 55693 , 55693 , pactl , mmap(NULL, 2117928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>, 0) = 0x7fae9c372000
+43785 , 55693 , 55693 , pactl , mprotect(0x7fae9c377000, 2093056, PROT_NONE) = 0
+43787 , 55693 , 55693 , pactl , mmap(0x7fae9c576000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>, 0x4000) = 0x7fae9c576000
+43794 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1>) = 0
+43796 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43799 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43801 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>
+43805 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \204\0\0\0\0\0\0@\0\0\0\0\0\0\0(A\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004-\7\0\0\0\0\0004-\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\0102\7\0\0\0\0\0\0102'\0\0\0\0\0\0102'\0\0\0\0\0<\16\0\0\0\0\0\0@\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\0309\7\0\0\0\0\0\0309'\0\0\0\0\0"..., 832) = 832
+43869 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>, {st_dev=makedev(8, 1), st_ino=4465081, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=936, st_size=477032, st_atime=2017/11/26-03:14:09.419384973, st_mtime=2015/08/05-13:14:42, st_ctime=2016/11/03-10:38:29.367999895}) = 0
+43871 , 55693 , 55693 , pactl , mmap(NULL, 2572360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>, 0) = 0x7fae9c0fd000
+43874 , 55693 , 55693 , pactl , mprotect(0x7fae9c170000, 2097152, PROT_NONE) = 0
+43876 , 55693 , 55693 , pactl , mmap(0x7fae9c370000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>, 0x73000) = 0x7fae9c370000
+43898 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0>) = 0
+43904 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43906 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+43909 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>
+43912 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`:\1\0\0\0\0\0@\0\0\0\0\0\0\0\270\201\n\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\254\313\10\0\0\0\0\0\254\313\10\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\315\10\0\0\0\0\0\210\315(\0\0\0\0\0\210\315(\0\0\0\0\0\0\263\1\0\0\0\0\0\10\263\1\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350}\n\0\0\0\0\0\350}*\0\0\0\0\0"..., 832) = 832
+43987 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>, {st_dev=makedev(8, 1), st_ino=4466486, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1352, st_size=690360, st_atime=2017/11/26-03:14:09.427384895, st_mtime=2016/02/11-18:11:10, st_ctime=2016/11/03-10:38:47.147999882}) = 0
+43989 , 55693 , 55693 , pactl , mmap(NULL, 2785424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>, 0) = 0x7fae9be54000
+43991 , 55693 , 55693 , pactl , mprotect(0x7fae9bee1000, 2093056, PROT_NONE) = 0
+43993 , 55693 , 55693 , pactl , mmap(0x7fae9c0e0000, 118784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>, 0x8c000) = 0x7fae9c0e0000
+44057 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.11>) = 0
+44064 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a7000
+44067 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44070 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44081 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+44092 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+44094 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+44098 , 55693 , 55693 , pactl , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7fae9bc50000
+44101 , 55693 , 55693 , pactl , mprotect(0x7fae9bc52000, 2097152, PROT_NONE) = 0
+44103 , 55693 , 55693 , pactl , mmap(0x7fae9be52000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7fae9be52000
+44106 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+44108 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44111 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44113 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+44115 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+44117 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+44119 , 55693 , 55693 , pactl , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7fae9ba4a000
+44122 , 55693 , 55693 , pactl , mprotect(0x7fae9ba4f000, 2093056, PROT_NONE) = 0
+44124 , 55693 , 55693 , pactl , mmap(0x7fae9bc4e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7fae9bc4e000
+44128 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+44130 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44132 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44135 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+44232 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+44234 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+44238 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a6000
+44244 , 55693 , 55693 , pactl , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fae9b828000
+44288 , 55693 , 55693 , pactl , mprotect(0x7fae9b847000, 2093056, PROT_NONE) = 0
+44291 , 55693 , 55693 , pactl , mmap(0x7fae9ba46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fae9ba46000
+44298 , 55693 , 55693 , pactl , mmap(0x7fae9ba48000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9ba48000
+44301 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+44304 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44308 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44327 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+44329 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+44331 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+44335 , 55693 , 55693 , pactl , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7fae9b606000
+44339 , 55693 , 55693 , pactl , mprotect(0x7fae9b627000, 2093056, PROT_NONE) = 0
+44341 , 55693 , 55693 , pactl , mmap(0x7fae9b826000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7fae9b826000
+44391 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+44518 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44520 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44576 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+44585 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+44588 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+44591 , 55693 , 55693 , pactl , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7fae9b325000
+44594 , 55693 , 55693 , pactl , mprotect(0x7fae9b3fd000, 2093056, PROT_NONE) = 0
+44596 , 55693 , 55693 , pactl , mmap(0x7fae9b5fc000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7fae9b5fc000
+44598 , 55693 , 55693 , pactl , mmap(0x7fae9b605000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9b605000
+44602 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+44605 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44607 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44611 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libnsl-2.23.so>
+44613 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+44616 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+44618 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a5000
+44621 , 55693 , 55693 , pactl , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fae9b10c000
+44623 , 55693 , 55693 , pactl , mprotect(0x7fae9b122000, 2093056, PROT_NONE) = 0
+44625 , 55693 , 55693 , pactl , mmap(0x7fae9b321000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fae9b321000
+44709 , 55693 , 55693 , pactl , mmap(0x7fae9b323000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9b323000
+44752 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+44761 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44767 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44769 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+44771 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+44773 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+44777 , 55693 , 55693 , pactl , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7fae9aef1000
+44780 , 55693 , 55693 , pactl , mprotect(0x7fae9af08000, 2097152, PROT_NONE) = 0
+44782 , 55693 , 55693 , pactl , mmap(0x7fae9b108000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7fae9b108000
+44786 , 55693 , 55693 , pactl , mmap(0x7fae9b10a000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fae9b10a000
+44788 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+44892 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+44918 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+44921 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libogg.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>
+44923 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\32\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34o\0\0\0\0\0\0\34o\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220|\0\0\0\0\0\0\220| \0\0\0\0\0\220| \0\0\0\0\0x\3\0\0\0\0\0\0\200\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250|\0\0\0\0\0\0\250| \0\0\0\0\0"..., 832) = 832
+45017 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>, {st_dev=makedev(8, 1), st_ino=4466135, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=34624, st_atime=2017/11/26-03:14:09.451384662, st_mtime=2014/06/02-07:26:43, st_ctime=2016/11/03-10:38:45.011999883}) = 0
+45019 , 55693 , 55693 , pactl , mmap(NULL, 2129936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>, 0) = 0x7fae9ace8000
+45021 , 55693 , 55693 , pactl , mprotect(0x7fae9acef000, 2097152, PROT_NONE) = 0
+45023 , 55693 , 55693 , pactl , mmap(0x7fae9aeef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>, 0x7000) = 0x7fae9aeef000
+45140 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libogg.so.0.8.2>) = 0
+45142 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45144 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+45146 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>
+45148 , 55693 , 55693 , pactl , read(3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240-\0\0\0\0\0\0@\0\0\0\0\0\0\0h\262\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\236\2\0\0\0\0\0\\\236\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\253\2\0\0\0\0\0\250\253\"\0\0\0\0\0\250\253\"\0\0\0\0\0\220\5\0\0\0\0\0\0\230\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\255\2\0\0\0\0\0\300\255\"\0\0\0\0\0"..., 832) = 832
+45153 , 55693 , 55693 , pactl , fstat(3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>, {st_dev=makedev(8, 1), st_ino=4466484, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=352, st_size=178536, st_atime=2017/11/26-03:14:09.451384662, st_mtime=2016/02/11-18:11:10, st_ctime=2016/11/03-10:38:47.139999882}) = 0
+45155 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a4000
+45162 , 55693 , 55693 , pactl , mmap(NULL, 2273600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>, 0) = 0x7fae9aabc000
+45164 , 55693 , 55693 , pactl , mprotect(0x7fae9aae6000, 2097152, PROT_NONE) = 0
+45166 , 55693 , 55693 , pactl , mmap(0x7fae9ace6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>, 0x2a000) = 0x7fae9ace6000
+45277 , 55693 , 55693 , pactl , close(3</usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.8>) = 0
+45281 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45282 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+45284 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+45286 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+45288 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+45290 , 55693 , 55693 , pactl , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fae9a84c000
+45292 , 55693 , 55693 , pactl , mprotect(0x7fae9a8ba000, 2097152, PROT_NONE) = 0
+45294 , 55693 , 55693 , pactl , mmap(0x7fae9aaba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fae9aaba000
+45296 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+45342 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/pulseaudio/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45344 , 55693 , 55693 , pactl , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+45346 , 55693 , 55693 , pactl , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+45348 , 55693 , 55693 , pactl , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+45350 , 55693 , 55693 , pactl , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+45352 , 55693 , 55693 , pactl , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7fae9a638000
+45354 , 55693 , 55693 , pactl , mprotect(0x7fae9a64a000, 2097152, PROT_NONE) = 0
+45356 , 55693 , 55693 , pactl , mmap(0x7fae9a84a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7fae9a84a000
+45358 , 55693 , 55693 , pactl , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+45360 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a3000
+45362 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a2000
+45364 , 55693 , 55693 , pactl , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e5a1000
+45367 , 55693 , 55693 , pactl , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fae9e59f000
+45369 , 55693 , 55693 , pactl , arch_prctl(ARCH_SET_FS, 0x7fae9e59f880) = 0
+45374 , 55693 , 55693 , pactl , mprotect(0x7fae9d1bb000, 16384, PROT_READ) = 0
+45403 , 55693 , 55693 , pactl , mprotect(0x7fae9a84a000, 4096, PROT_READ) = 0
+45405 , 55693 , 55693 , pactl , mprotect(0x7fae9daf1000, 4096, PROT_READ) = 0
+45407 , 55693 , 55693 , pactl , mprotect(0x7fae9aaba000, 4096, PROT_READ) = 0
+45409 , 55693 , 55693 , pactl , mprotect(0x7fae9d4cc000, 4096, PROT_READ) = 0
+45412 , 55693 , 55693 , pactl , mprotect(0x7fae9aeef000, 4096, PROT_READ) = 0
+45414 , 55693 , 55693 , pactl , mprotect(0x7fae9ace6000, 4096, PROT_READ) = 0
+45416 , 55693 , 55693 , pactl , mprotect(0x7fae9b108000, 4096, PROT_READ) = 0
+45422 , 55693 , 55693 , pactl , mprotect(0x7fae9b321000, 4096, PROT_READ) = 0
+45423 , 55693 , 55693 , pactl , mprotect(0x7fae9b5fc000, 4096, PROT_READ) = 0
+45424 , 55693 , 55693 , pactl , mprotect(0x7fae9d6d0000, 4096, PROT_READ) = 0
+45425 , 55693 , 55693 , pactl , mprotect(0x7fae9b826000, 4096, PROT_READ) = 0
+45426 , 55693 , 55693 , pactl , mprotect(0x7fae9ba46000, 4096, PROT_READ) = 0
+45427 , 55693 , 55693 , pactl , mprotect(0x7fae9bc4e000, 4096, PROT_READ) = 0
+45428 , 55693 , 55693 , pactl , mprotect(0x7fae9be52000, 4096, PROT_READ) = 0
+45429 , 55693 , 55693 , pactl , mprotect(0x7fae9c0e0000, 114688, PROT_READ) = 0
+45430 , 55693 , 55693 , pactl , mprotect(0x7fae9c370000, 4096, PROT_READ) = 0
+45431 , 55693 , 55693 , pactl , mprotect(0x7fae9c576000, 4096, PROT_READ) = 0
+45432 , 55693 , 55693 , pactl , mprotect(0x7fae9c77f000, 4096, PROT_READ) = 0
+45433 , 55693 , 55693 , pactl , mprotect(0x7fae9d8d8000, 4096, PROT_READ) = 0
+45434 , 55693 , 55693 , pactl , mprotect(0x7fae9e629000, 12288, PROT_READ) = 0
+45435 , 55693 , 55693 , pactl , mprotect(0x7fae9c9a2000, 4096, PROT_READ) = 0
+45436 , 55693 , 55693 , pactl , mprotect(0x7fae9cbee000, 4096, PROT_READ) = 0
+45437 , 55693 , 55693 , pactl , mprotect(0x7fae9cdf9000, 4096, PROT_READ) = 0
+45438 , 55693 , 55693 , pactl , mprotect(0x7fae9dcfb000, 4096, PROT_READ) = 0
+45439 , 55693 , 55693 , pactl , mprotect(0x7fae9df5f000, 8192, PROT_READ) = 0
+45440 , 55693 , 55693 , pactl , mprotect(0x7fae9e1de000, 4096, PROT_READ) = 0
+45441 , 55693 , 55693 , pactl , mprotect(0x7fae9e42d000, 4096, PROT_READ) = 0
+45442 , 55693 , 55693 , pactl , mprotect(0x60d000, 4096, PROT_READ) = 0
+45443 , 55693 , 55693 , pactl , mprotect(0x7fae9e654000, 4096, PROT_READ) = 0
+45444 , 55693 , 55693 , pactl , munmap(0x7fae9e632000, 129890) = 0
+45445 , 55693 , 55693 , pactl , set_tid_address(0x7fae9e59fb50) = 55693
+45446 , 55693 , 55693 , pactl , set_robust_list(0x7fae9e59fb60, 24) = 0
+45447 , 55693 , 55693 , pactl , rt_sigaction(SIGRTMIN, {0x7fae9d8dfb50, [], SA_RESTORER|SA_SIGINFO, 0x7fae9d8eb390}, NULL, 8) = 0
+45448 , 55693 , 55693 , pactl , rt_sigaction(SIGRT_1, {0x7fae9d8dfbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fae9d8eb390}, NULL, 8) = 0
+45449 , 55693 , 55693 , pactl , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+45450 , 55693 , 55693 , pactl , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+45451 , 55693 , 55693 , pactl , brk(NULL) = 0xc72000
+45452 , 55693 , 55693 , pactl , brk(0xc93000) = 0xc93000
+45453 , 55693 , 55693 , pactl , statfs("/sys/fs/selinux", 0x7ffc0abe2b40) = -1 ENOENT (No such file or directory)
+45454 , 55693 , 55693 , pactl , statfs("/selinux", 0x7ffc0abe2b40) = -1 ENOENT (No such file or directory)
+45455 , 55693 , 55693 , pactl , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+45456 , 55693 , 55693 , pactl , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:19.079610058, st_mtime=2017/11/26-08:16:19.079610058, st_ctime=2017/11/26-08:16:19.079610058}) = 0
+45457 , 55693 , 55693 , pactl , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+45458 , 55693 , 55693 , pactl , read(3</proc/filesystems>, "", 1024) = 0
+45459 , 55693 , 55693 , pactl , close(3</proc/filesystems>) = 0
+45460 , 55693 , 55693 , pactl , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+45461 , 55693 , 55693 , pactl , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+45462 , 55693 , 55693 , pactl , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fae9a360000
+45463 , 55693 , 55693 , pactl , close(3</usr/lib/locale/locale-archive>) = 0
+45464 , 55693 , 55693 , pactl , pipe2([3<pipe:[465883]>, 4<pipe:[465883]>], O_CLOEXEC) = 0
+45465 , 55693 , 55693 , pactl , fcntl(3<pipe:[465883]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45466 , 55693 , 55693 , pactl , fcntl(4<pipe:[465883]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45467 , 55693 , 55693 , pactl , fcntl(3<pipe:[465883]>, F_GETFL) = 0 (flags O_RDONLY)
+45468 , 55693 , 55693 , pactl , fcntl(3<pipe:[465883]>, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+45469 , 55693 , 55693 , pactl , fcntl(4<pipe:[465883]>, F_GETFL) = 0x1 (flags O_WRONLY)
+45470 , 55693 , 55693 , pactl , fcntl(4<pipe:[465883]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+45471 , 55693 , 55693 , pactl , pipe2([5<pipe:[465885]>, 6<pipe:[465885]>], O_CLOEXEC) = 0
+45472 , 55693 , 55693 , pactl , fcntl(5<pipe:[465885]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45473 , 55693 , 55693 , pactl , fcntl(6<pipe:[465885]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45474 , 55693 , 55693 , pactl , fcntl(5<pipe:[465885]>, F_GETFL) = 0 (flags O_RDONLY)
+45475 , 55693 , 55693 , pactl , fcntl(5<pipe:[465885]>, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+45476 , 55693 , 55693 , pactl , fcntl(6<pipe:[465885]>, F_GETFL) = 0x1 (flags O_WRONLY)
+45477 , 55693 , 55693 , pactl , fcntl(6<pipe:[465885]>, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+45478 , 55693 , 55693 , pactl , sendto(4<pipe:[465883]>, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+45479 , 55693 , 55693 , pactl , write(4<pipe:[465883]>, "W", 1) = 1
+45480 , 55693 , 55693 , pactl , rt_sigaction(SIGINT, {0x7fae9e201740, [], SA_RESTORER|SA_RESTART, 0x7fae9d8eb390}, {SIG_DFL, [], 0}, 8) = 0
+45481 , 55693 , 55693 , pactl , rt_sigaction(SIGTERM, {0x7fae9e201740, [], SA_RESTORER|SA_RESTART, 0x7fae9d8eb390}, {SIG_DFL, [], 0}, 8) = 0
+45482 , 55693 , 55693 , pactl , rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+45483 , 55693 , 55693 , pactl , rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7fae9d8eb390}, NULL, 8) = 0
+45484 , 55693 , 55693 , pactl , open("/home/elwin/.pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45485 , 55693 , 55693 , pactl , open("/home/elwin/.config/pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45486 , 55693 , 55693 , pactl , open("/etc/pulse/client.conf", O_RDONLY|O_CLOEXEC) = 7</etc/pulse/client.conf>
+45487 , 55693 , 55693 , pactl , fcntl(7</etc/pulse/client.conf>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45488 , 55693 , 55693 , pactl , readlink("/proc/self/exe", "/usr/bin/pactl", 99) = 14
+45489 , 55693 , 55693 , pactl , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+45490 , 55693 , 55693 , pactl , fstat(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_dev=makedev(8, 1), st_ino=4732786, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26258, st_atime=2017/11/25-09:34:41.816713880, st_mtime=2017/06/16-16:52:24, st_ctime=2017/06/24-03:59:25.343293325}) = 0
+45491 , 55693 , 55693 , pactl , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7fae9e64b000
+45492 , 55693 , 55693 , pactl , close(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+45493 , 55693 , 55693 , pactl , futex(0x7fae9d1c08c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+45494 , 55693 , 55693 , pactl , fstat(7</etc/pulse/client.conf>, {st_dev=makedev(8, 1), st_ino=132975, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1201, st_atime=2017/11/26-03:14:09.591383303, st_mtime=2016/03/21-06:47:30, st_ctime=2016/11/03-10:37:31.571999939}) = 0
+45495 , 55693 , 55693 , pactl , read(7</etc/pulse/client.conf>, "# This file is part of PulseAudio.\n#\n# PulseAudio is free software; you can redistribute it and/or modify\n# it under the terms of the GNU Lesser General Public License as published by\n# the Free Softw"..., 4096) = 1201
+45496 , 55693 , 55693 , pactl , read(7</etc/pulse/client.conf>, "", 4096) = 0
+45497 , 55693 , 55693 , pactl , open("/etc/pulse/client.conf.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+45498 , 55693 , 55693 , pactl , close(7</etc/pulse/client.conf>) = 0
+45499 , 55693 , 55693 , pactl , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 7<UNIX:[465891]>
+45500 , 55693 , 55693 , pactl , connect(7<UNIX:[465891]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+45501 , 55693 , 55693 , pactl , getpeername(7<UNIX:[465891]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+45502 , 55693 , 55693 , pactl , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-101-generic", version="#124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017", machine="x86_64", domainname="(none)"}) = 0
+45503 , 55693 , 55693 , pactl , access("/home/elwin/.Xauthority", R_OK) = 0
+45504 , 55693 , 55693 , pactl , open("/home/elwin/.Xauthority", O_RDONLY) = 8</home/elwin/.Xauthority>
+45505 , 55693 , 55693 , pactl , fstat(8</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2883841, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=477, st_atime=2017/11/26-08:16:10.211559677, st_mtime=2017/11/26-08:16:05.463532617, st_ctime=2017/11/26-08:16:05.463532617}) = 0
+45506 , 55693 , 55693 , pactl , read(8</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MA"..., 4096) = 477
+45507 , 55693 , 55693 , pactl , read(8</home/elwin/.Xauthority>, "", 4096) = 0
+45508 , 55693 , 55693 , pactl , close(8</home/elwin/.Xauthority>) = 0
+45509 , 55693 , 55693 , pactl , getsockname(7<UNIX:[465891]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+45510 , 55693 , 55693 , pactl , fcntl(7<UNIX:[465891]>, F_GETFL) = 0x2 (flags O_RDWR)
+45511 , 55693 , 55693 , pactl , fcntl(7<UNIX:[465891]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+45512 , 55693 , 55693 , pactl , fcntl(7<UNIX:[465891]>, F_SETFD, FD_CLOEXEC) = 0
+45513 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45514 , 55693 , 55693 , pactl , writev(7<UNIX:[465891]>, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"X\36\nC\327\306\336\376\343\200N\220\351B\24*", 16}, {"", 0}], 6) = 48
+45515 , 55693 , 55693 , pactl , recvfrom(7<UNIX:[465891]>, 0xc74820, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+45516 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45532 , 55693 , 55693 , pactl , recvfrom(7<UNIX:[465891->465904]>, "\1\0\v\0\0\0\263\4", 8, 0, NULL, NULL) = 8
+45533 , 55693 , 55693 , pactl , recvfrom(7<UNIX:[465891->465904]>, 0xc74828, 4812, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+45534 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45536 , 55693 , 55693 , pactl , recvfrom(7<UNIX:[465891->465904]>, "`\35\264\0\0\0\240\0\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0The X.Org Foundation\1\1 \0\0\0\0\0\4\10 \0\0\0\0\0\10\10 \0\0\0\0\0\17\20 \0\0\0\0\0\20\20 \0\0\0\0\0\30  \0\0\0\0\0   \0\0\0\0\0%\2\0\0 \0\0\0\377\377\377\0\0\0\0\0\3\0B\0 \3X\2\323\0\236\0\1\0\1\0!\0\0\0\1\0\30\7\30\0\277\0\0\0\0\0!\0\0\0\4\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0\0\0\0\0\"\0\0\0\5\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0"..., 4812, 0, NULL, NULL) = 4812
+45537 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45538 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\20\0\5\0\f\0\0\0PULSE_SERVER", 20}], 1) = 20
+45539 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45542 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0O\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45543 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45544 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\24\0\6\0%\2\0\0O\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+45545 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45548 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45549 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45550 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\20\0\5\0\n\0\0\0PULSE_SINK\0\0", 20}], 1) = 20
+45551 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45554 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\3\0\0\0\0\0P\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45555 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45556 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\24\0\6\0%\2\0\0P\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+45557 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45560 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45561 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45562 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\20\0\5\0\f\0\0\0PULSE_SOURCE", 20}], 1) = 20
+45563 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45566 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0Q\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45567 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45568 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\24\0\6\0%\2\0\0Q\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+45569 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45577 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45578 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45579 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\20\0\5\0\f\0\0\0PULSE_COOKIE", 20}], 1) = 20
+45580 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45583 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0R\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45584 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+45585 , 55693 , 55693 , pactl , writev(7<UNIX:[465891->465904]>, [{"\24\0\6\0%\2\0\0R\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+45586 , 55693 , 55693 , pactl , poll([{fd=7<UNIX:[465891->465904]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+45589 , 55693 , 55693 , pactl , recvmsg(7<UNIX:[465891->465904]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+45590 , 55693 , 55693 , pactl , shutdown(7<UNIX:[465891->465904]>, SHUT_RDWR) = 0
+45591 , 55693 , 55693 , pactl , close(7<UNIX:[465891->465904]>) = 0
+45592 , 55693 , 55693 , pactl , open("/dev/shm/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7</dev/shm>
+45593 , 55693 , 55693 , pactl , fstat(7</dev/shm>, {st_dev=makedev(0, 21), st_ino=2, st_mode=S_IFDIR|S_ISVTX|0777, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=40, st_atime=2017/11/26-03:19:56.667999771, st_mtime=2017/11/26-03:19:56.667999771, st_ctime=2017/11/26-03:19:56.667999771}) = 0
+45594 , 55693 , 55693 , pactl , getdents(7</dev/shm>, [{d_ino=2, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=2, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}], 32768) = 48
+45595 , 55693 , 55693 , pactl , getdents(7</dev/shm>, [], 32768) = 0
+45596 , 55693 , 55693 , pactl , close(7</dev/shm>) = 0
+45597 , 55693 , 55693 , pactl , open("/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 7</dev/urandom>
+45598 , 55693 , 55693 , pactl , fcntl(7</dev/urandom>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45599 , 55693 , 55693 , pactl , read(7</dev/urandom>, "u\203\315\255", 4) = 4
+45600 , 55693 , 55693 , pactl , close(7</dev/urandom>) = 0
+45601 , 55693 , 55693 , pactl , statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=124718, f_bfree=124718, f_bavail=124718, f_files=124718, f_ffree=124717, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+45602 , 55693 , 55693 , pactl , futex(0x7fae9daf6310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+45603 , 55693 , 55693 , pactl , open("/dev/shm/pulse-shm-2915926901", O_RDWR|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0700) = 7</dev/shm/pulse-shm-2915926901>
+45604 , 55693 , 55693 , pactl , ftruncate(7</dev/shm/pulse-shm-2915926901>, 67108904) = 0
+45605 , 55693 , 55693 , pactl , mmap(NULL, 67112960, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 7</dev/shm/pulse-shm-2915926901>, 0) = 0x7fae9635f000
+45606 , 55693 , 55693 , pactl , close(7</dev/shm/pulse-shm-2915926901>) = 0
+45607 , 55693 , 55693 , pactl , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 7</etc/locale.alias>
+45608 , 55693 , 55693 , pactl , fstat(7</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+45609 , 55693 , 55693 , pactl , read(7</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+45610 , 55693 , 55693 , pactl , read(7</etc/locale.alias>, "", 4096) = 0
+45611 , 55693 , 55693 , pactl , close(7</etc/locale.alias>) = 0
+45612 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45613 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45614 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45615 , 55693 , 55693 , pactl , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45616 , 55693 , 55693 , pactl , open("/usr/share/locale/en.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45617 , 55693 , 55693 , pactl , open("/usr/share/locale/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45618 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45619 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45620 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45621 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45622 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45623 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45624 , 55693 , 55693 , pactl , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=41, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-08:09:52.117160270, st_mtime=2017/11/26-08:16:18.143604751, st_ctime=2017/11/26-08:16:18.143604751}) = 0
+45625 , 55693 , 55693 , pactl , getuid() = 0
+45626 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45627 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45628 , 55693 , 55693 , pactl , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45629 , 55693 , 55693 , pactl , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45630 , 55693 , 55693 , pactl , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45631 , 55693 , 55693 , pactl , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45632 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45633 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45634 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45635 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45636 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45637 , 55693 , 55693 , pactl , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+45638 , 55693 , 55693 , pactl , write(2<UNIX:[465235->465238]>, "Home directory not accessible: Permission denied\n", 49) = 49
+45639 , 55693 , 55693 , pactl , getuid() = 0
+45640 , 55693 , 55693 , pactl , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 7<UNIX:[476238]>
+45641 , 55693 , 55693 , pactl , fcntl(7<UNIX:[476238]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+45642 , 55693 , 55693 , pactl , setsockopt(7<UNIX:[476238]>, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+45643 , 55693 , 55693 , pactl , fcntl(7<UNIX:[476238]>, F_GETFL) = 0x2 (flags O_RDWR)
+45644 , 55693 , 55693 , pactl , fcntl(7<UNIX:[476238]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+45645 , 55693 , 55693 , pactl , connect(7<UNIX:[476238]>, {sa_family=AF_LOCAL, sun_path="/var/run/pulse/native"}, 110) = -1 ENOENT (No such file or directory)
+45646 , 55693 , 55693 , pactl , close(7<UNIX:[476238]>) = 0
+45647 , 55693 , 55693 , pactl , write(2<UNIX:[465235->465238]>, "Connection failure: Connection refused\n", 39) = 39
+45648 , 55693 , 55693 , pactl , write(4<pipe:[465883]>, "W", 1) = 1
+45649 , 55693 , 55693 , pactl , write(2<UNIX:[465235->465238]>, "pa_context_connect() failed: Connection refused\n", 48) = 48
+45650 , 55693 , 55693 , pactl , munmap(0x7fae9635f000, 67112960) = 0
+45651 , 55693 , 55693 , pactl , unlink("/dev/shm/pulse-shm-2915926901") = 0
+45652 , 55693 , 55693 , pactl , rt_sigaction(SIGTERM, {SIG_DFL, [], SA_RESTORER, 0x7fae9d8eb390}, NULL, 8) = 0
+45653 , 55693 , 55693 , pactl , rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7fae9d8eb390}, NULL, 8) = 0
+45654 , 55693 , 55693 , pactl , write(4<pipe:[465883]>, "W", 1) = 1
+45655 , 55693 , 55693 , pactl , close(5<pipe:[465885]>) = 0
+45656 , 55693 , 55693 , pactl , close(6<pipe:[465885]>) = 0
+45657 , 55693 , 55693 , pactl , close(3<pipe:[465883]>) = 0
+45658 , 55693 , 55693 , pactl , close(4<pipe:[465883]>) = 0
+45669 , 55693 , 55693 , pactl , exit_group(1) = ?
+45670 , 55693 , 55693 , pactl , +++ exited with 1 +++

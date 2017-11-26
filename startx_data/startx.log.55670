@@ -1,0 +1,889 @@
+27902 , 55670 , 55670 , dbus-daemon , set_robust_list(0x7f9addcf1ba0, 24) = 0
+27903 , 55670 , 55670 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, 8) = 0
+27904 , 55670 , 55670 , dbus-daemon , close(17<UNIX:[465750->465749]>) = 0
+27905 , 55670 , 55670 , dbus-daemon , dup2(18<UNIX:[465751->468180]>, 1</dev/null>) = 1<UNIX:[465751->468180]>
+27906 , 55670 , 55670 , dbus-daemon , dup2(19<UNIX:[465752->468187]>, 2</dev/null>) = 2<UNIX:[465752->468187]>
+27907 , 55670 , 55670 , dbus-daemon , close(18<UNIX:[465751->468180]>) = 0
+27908 , 55670 , 55670 , dbus-daemon , close(19<UNIX:[465752->468187]>) = 0
+27909 , 55670 , 55670 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=64*1024}) = 0
+27910 , 55670 , 55670 , dbus-daemon , execve("/usr/lib/at-spi2-core/at-spi-bus-launcher", ["/usr/lib/at-spi2-core/at-spi-bus-launcher"], ["SHELL=/bin/bash", "SUDO_GID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "QT_ACCESSIBILITY=1", "DISPLAY=:0", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "WINDOWPATH=1", "GTK_MODULES=gail:atk-bridge", "USERNAME=root", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "MAIL=/var/mail/root", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=55636", "XAUTHORITY=/home/elwin/.Xauthority", "USER=root", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "TERM=linux", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "SUDO_USER=elwin", "LANG=en_US.UTF-8", "SUDO_UID=1000", "HOME=/home/elwin", "LOGNAME=root"]) = 0
+27913 , 55670 , 55670 , at-spi-bus-laun , brk(NULL) = 0x1420000
+27916 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27918 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4886000
+27919 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+27920 , 55670 , 55670 , at-spi-bus-laun , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+27921 , 55670 , 55670 , at-spi-bus-laun , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+27922 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f52f4866000
+27923 , 55670 , 55670 , at-spi-bus-laun , close(3</etc/ld.so.cache>) = 0
+27924 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27925 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+27926 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+27927 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+27928 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f52f42db000
+27929 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f445b000, 2097152, PROT_NONE) = 0
+27930 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f465b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f52f465b000
+27931 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f4661000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f4661000
+27932 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+27933 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27934 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+27935 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+27936 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+27937 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f52f4088000
+27938 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f40da000, 2093056, PROT_NONE) = 0
+27939 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f42d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f52f42d9000
+27940 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+27941 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27942 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+27943 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+27944 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+27945 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4865000
+27946 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f52f3d77000
+27947 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3e85000, 2097152, PROT_NONE) = 0
+27948 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f4085000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f52f4085000
+27949 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f4087000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f4087000
+27950 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+27951 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27952 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+27953 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+27954 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2017/11/25-09:35:01.512674636, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+27955 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f52f3a3d000
+27956 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3b72000, 2097152, PROT_NONE) = 0
+27957 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3d72000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f52f3d72000
+27958 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+27959 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27960 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+27961 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+27962 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+27963 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f52f3820000
+27964 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3838000, 2093056, PROT_NONE) = 0
+27965 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3a37000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f52f3a37000
+27966 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3a39000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f3a39000
+27967 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+27968 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27969 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+27970 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+27971 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+27972 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4864000
+27973 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f52f3456000
+27974 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3616000, 2097152, PROT_NONE) = 0
+27975 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3816000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f52f3816000
+27976 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f381c000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f381c000
+27977 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+27978 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27979 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+27980 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+27981 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+27982 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f52f3252000
+27983 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3255000, 2093056, PROT_NONE) = 0
+27984 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3454000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f52f3454000
+27985 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+27986 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27987 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+27988 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+27989 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+27990 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f52f3038000
+27991 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3051000, 2093056, PROT_NONE) = 0
+27992 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3250000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f52f3250000
+27993 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+27994 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+27995 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+27996 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+27997 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+27998 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4863000
+27999 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f52f2e16000
+28000 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2e35000, 2093056, PROT_NONE) = 0
+28001 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3034000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f52f3034000
+28002 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f3036000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f3036000
+28003 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+28004 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28005 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+28006 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+28007 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+28008 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f52f2bfb000
+28009 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2c12000, 2097152, PROT_NONE) = 0
+28010 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f2e12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f52f2e12000
+28011 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f2e14000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f2e14000
+28012 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+28013 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28014 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+28015 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+28016 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+28017 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f52f29f3000
+28018 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f29fa000, 2093056, PROT_NONE) = 0
+28019 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f2bf9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f52f2bf9000
+28020 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+28021 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28022 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+28023 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+28024 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+28025 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4862000
+28026 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f52f2783000
+28027 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f27f1000, 2097152, PROT_NONE) = 0
+28028 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f29f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f52f29f1000
+28029 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+28030 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28031 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+28032 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+28033 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+28034 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f52f2561000
+28035 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2582000, 2093056, PROT_NONE) = 0
+28036 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f2781000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f52f2781000
+28037 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+28038 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28039 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+28040 , 55670 , 55670 , at-spi-bus-laun , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+28041 , 55670 , 55670 , at-spi-bus-laun , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+28042 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f52f235d000
+28043 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2360000, 2093056, PROT_NONE) = 0
+28044 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f255f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f52f255f000
+28045 , 55670 , 55670 , at-spi-bus-laun , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+28046 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4861000
+28047 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28048 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+28049 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+28050 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+28051 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f52f2159000
+28052 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f215b000, 2097152, PROT_NONE) = 0
+28053 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f235b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f52f235b000
+28054 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+28055 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28056 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+28057 , 55670 , 55670 , at-spi-bus-laun , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+28058 , 55670 , 55670 , at-spi-bus-laun , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+28059 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f52f1f53000
+28060 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1f58000, 2093056, PROT_NONE) = 0
+28061 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f2157000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f52f2157000
+28062 , 55670 , 55670 , at-spi-bus-laun , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+28063 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f4860000
+28064 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f485f000
+28065 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f52f485d000
+28066 , 55670 , 55670 , at-spi-bus-laun , arch_prctl(ARCH_SET_FS, 0x7f52f485d800) = 0
+28067 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3816000, 16384, PROT_READ) = 0
+28068 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2157000, 4096, PROT_READ) = 0
+28069 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f235b000, 4096, PROT_READ) = 0
+28070 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f255f000, 4096, PROT_READ) = 0
+28071 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2781000, 4096, PROT_READ) = 0
+28072 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3a37000, 4096, PROT_READ) = 0
+28073 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f29f1000, 4096, PROT_READ) = 0
+28074 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2bf9000, 4096, PROT_READ) = 0
+28075 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f2e12000, 4096, PROT_READ) = 0
+28076 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3034000, 4096, PROT_READ) = 0
+28077 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3250000, 4096, PROT_READ) = 0
+28078 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f4085000, 4096, PROT_READ) = 0
+28079 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3454000, 4096, PROT_READ) = 0
+28080 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f3d72000, 4096, PROT_READ) = 0
+28081 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f42d9000, 4096, PROT_READ) = 0
+28082 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f465b000, 16384, PROT_READ) = 0
+28083 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x604000, 4096, PROT_READ) = 0
+28084 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f4888000, 4096, PROT_READ) = 0
+28085 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f4866000, 129890) = 0
+28086 , 55670 , 55670 , at-spi-bus-laun , set_tid_address(0x7f52f485dad0) = 55670
+28087 , 55670 , 55670 , at-spi-bus-laun , set_robust_list(0x7f52f485dae0, 24) = 0
+28088 , 55670 , 55670 , at-spi-bus-laun , rt_sigaction(SIGRTMIN, {0x7f52f3825b50, [], SA_RESTORER|SA_SIGINFO, 0x7f52f3831390}, NULL, 8) = 0
+28089 , 55670 , 55670 , at-spi-bus-laun , rt_sigaction(SIGRT_1, {0x7f52f3825be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f52f3831390}, NULL, 8) = 0
+28090 , 55670 , 55670 , at-spi-bus-laun , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+28091 , 55670 , 55670 , at-spi-bus-laun , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+28092 , 55670 , 55670 , at-spi-bus-laun , statfs("/sys/fs/selinux", 0x7ffccd343430) = -1 ENOENT (No such file or directory)
+28093 , 55670 , 55670 , at-spi-bus-laun , statfs("/selinux", 0x7ffccd343430) = -1 ENOENT (No such file or directory)
+28094 , 55670 , 55670 , at-spi-bus-laun , brk(NULL) = 0x1420000
+28095 , 55670 , 55670 , at-spi-bus-laun , brk(0x1441000) = 0x1441000
+28096 , 55670 , 55670 , at-spi-bus-laun , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+28097 , 55670 , 55670 , at-spi-bus-laun , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:15.843591698, st_mtime=2017/11/26-08:16:15.843591698, st_ctime=2017/11/26-08:16:15.843591698}) = 0
+28098 , 55670 , 55670 , at-spi-bus-laun , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+28099 , 55670 , 55670 , at-spi-bus-laun , read(3</proc/filesystems>, "", 1024) = 0
+28100 , 55670 , 55670 , at-spi-bus-laun , close(3</proc/filesystems>) = 0
+28101 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28102 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28103 , 55670 , 55670 , at-spi-bus-laun , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[468233]>
+28104 , 55670 , 55670 , at-spi-bus-laun , connect(3<UNIX:[468233]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+28105 , 55670 , 55670 , at-spi-bus-laun , getpeername(3<UNIX:[468233]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+28107 , 55670 , 55670 , at-spi-bus-laun , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-101-generic", version="#124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017", machine="x86_64", domainname="(none)"}) = 0
+28109 , 55670 , 55670 , at-spi-bus-laun , access("/home/elwin/.Xauthority", R_OK) = 0
+28111 , 55670 , 55670 , at-spi-bus-laun , open("/home/elwin/.Xauthority", O_RDONLY) = 4</home/elwin/.Xauthority>
+28113 , 55670 , 55670 , at-spi-bus-laun , fstat(4</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2883841, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=477, st_atime=2017/11/26-08:16:10.211559677, st_mtime=2017/11/26-08:16:05.463532617, st_ctime=2017/11/26-08:16:05.463532617}) = 0
+28115 , 55670 , 55670 , at-spi-bus-laun , read(4</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MA"..., 4096) = 477
+28117 , 55670 , 55670 , at-spi-bus-laun , read(4</home/elwin/.Xauthority>, "", 4096) = 0
+28119 , 55670 , 55670 , at-spi-bus-laun , close(4</home/elwin/.Xauthority>) = 0
+28121 , 55670 , 55670 , at-spi-bus-laun , getsockname(3<UNIX:[468233->465753]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+28122 , 55670 , 55670 , at-spi-bus-laun , fcntl(3<UNIX:[468233->465753]>, F_GETFL) = 0x2 (flags O_RDWR)
+28123 , 55670 , 55670 , at-spi-bus-laun , fcntl(3<UNIX:[468233->465753]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+28124 , 55670 , 55670 , at-spi-bus-laun , fcntl(3<UNIX:[468233->465753]>, F_SETFD, FD_CLOEXEC) = 0
+28125 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28126 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"X\36\nC\327\306\336\376\343\200N\220\351B\24*", 16}, {"", 0}], 6) = 48
+28127 , 55670 , 55670 , at-spi-bus-laun , recvfrom(3<UNIX:[468233->465753]>, 0x142c0f0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28129 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28136 , 55670 , 55670 , at-spi-bus-laun , recvfrom(3<UNIX:[468233->465753]>, "\1\0\v\0\0\0\263\4", 8, 0, NULL, NULL) = 8
+28138 , 55670 , 55670 , at-spi-bus-laun , recvfrom(3<UNIX:[468233->465753]>, "`\35\264\0\0\0\240\0\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0The X.Org Foundation\1\1 \0\0\0\0\0\4\10 \0\0\0\0\0\10\10 \0\0\0\0\0\17\20 \0\0\0\0\0\20\20 \0\0\0\0\0\30  \0\0\0\0\0   \0\0\0\0\0%\2\0\0 \0\0\0\377\377\377\0\0\0\0\0\0\0\2\0 \3X\2\323\0\236\0\1\0\1\0!\0\0\0\1\0\30\7\30\0\277\0\0\0\0\0!\0\0\0\4\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0\0\0\0\0\"\0\0\0\5\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0"..., 4812, 0, NULL, NULL) = 4812
+28140 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28142 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+28144 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28148 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0\1\206\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28150 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28152 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"\206\0\1\0", 4}], 1) = 4
+28154 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28158 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28159 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343160, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28160 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28161 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"7\0\5\0\0\0\240\0%\2\0\0\10\0\0\0\377\377\377\0\24\0\6\0%\2\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+28162 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28165 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28166 , 55670 , 55670 , at-spi-bus-laun , recvfrom(3<UNIX:[468233->465753]>, 0x1439520, 24, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28167 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28169 , 55670 , 55670 , at-spi-bus-laun , recvfrom(3<UNIX:[468233->465753]>, "*customization:\t-color\n\0", 24, 0, NULL, NULL) = 24
+28170 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd3431a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28171 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28172 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"b\0\5\0\t\0\240\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+28173 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28176 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0\1\210U\211\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28177 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343070, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28178 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343070, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28179 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28180 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"\210\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+28181 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28184 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28185 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28186 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28187 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28188 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"\20\0\5\0\n\0\0\0AT_SPI_BUS\377\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+28189 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28197 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0J\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28198 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343240, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28199 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343240, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28200 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28201 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"\24\0\6\0%\2\0\0J\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+28202 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28205 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28206 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd3431c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28207 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd3431c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28208 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+28209 , 55670 , 55670 , at-spi-bus-laun , writev(3<UNIX:[468233->465753]>, [{"<\0\2\0\0\0\240\0+\1\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+28210 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<UNIX:[468233->465753]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+28213 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\n\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28214 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343240, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28215 , 55670 , 55670 , at-spi-bus-laun , recvmsg(3<UNIX:[468233->465753]>, 0x7ffccd343240, 0) = -1 EAGAIN (Resource temporarily unavailable)
+28216 , 55670 , 55670 , at-spi-bus-laun , shutdown(3<UNIX:[468233->465753]>, SHUT_RDWR) = 0
+28217 , 55670 , 55670 , at-spi-bus-laun , close(3<UNIX:[468233->465753]>) = 0
+28218 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28219 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+28220 , 55670 , 55670 , at-spi-bus-laun , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28221 , 55670 , 55670 , at-spi-bus-laun , open("/var/lib/snapd/desktop/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+28222 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+28223 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 4</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+28224 , 55670 , 55670 , at-spi-bus-laun , fstat(4</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_dev=makedev(8, 1), st_ino=4732786, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26258, st_atime=2017/11/25-09:34:41.816713880, st_mtime=2017/06/16-16:52:24, st_ctime=2017/06/24-03:59:25.343293325}) = 0
+28225 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 4</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f52f487f000
+28226 , 55670 , 55670 , at-spi-bus-laun , close(4</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+28227 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f381b8c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28228 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28229 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28230 , 55670 , 55670 , at-spi-bus-laun , open("/usr/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = 4</usr/share/glib-2.0/schemas/gschemas.compiled>
+28231 , 55670 , 55670 , at-spi-bus-laun , fstat(4</usr/share/glib-2.0/schemas/gschemas.compiled>, {st_dev=makedev(8, 1), st_ino=657187, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=568, st_size=289509, st_atime=2017/11/26-03:11:56.013280590, st_mtime=2017/08/27-05:23:00.494191592, st_ctime=2017/08/27-05:23:00.502188777}) = 0
+28232 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 289509, PROT_READ, MAP_PRIVATE, 4</usr/share/glib-2.0/schemas/gschemas.compiled>, 0) = 0x7f52f4816000
+28233 , 55670 , 55670 , at-spi-bus-laun , close(4</usr/share/glib-2.0/schemas/gschemas.compiled>) = 0
+28234 , 55670 , 55670 , at-spi-bus-laun , open("/usr/local/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+28235 , 55670 , 55670 , at-spi-bus-laun , open("/usr/share/gnome/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+28236 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28244 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28245 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28246 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28247 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28248 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28249 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28250 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28251 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28252 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28253 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28254 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28255 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28256 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28257 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28258 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28259 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28260 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28261 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28262 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28263 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28264 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/gio/modules>
+28265 , 55670 , 55670 , at-spi-bus-laun , fstat(4</usr/lib/x86_64-linux-gnu/gio/modules>, {st_dev=makedev(8, 1), st_ino=4721503, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:40:41.151999795}) = 0
+28266 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28267 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", O_RDONLY) = 5</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>
+28268 , 55670 , 55670 , at-spi-bus-laun , fstat(5</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28269 , 55670 , 55670 , at-spi-bus-laun , read(5</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, "libdconfsettings.so: gsettings-backend\nlibgvfsdbus.so: gio-vfs,gio-volume-monitor\nlibgiognutls.so: gio-tls-backend\nlibgiolibproxy.so: gio-proxy-resolver\nlibgioremote-volume-monitor.so: gio-native-volu"..., 270) = 270
+28270 , 55670 , 55670 , at-spi-bus-laun , close(5</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>) = 0
+28271 , 55670 , 55670 , at-spi-bus-laun , getdents(4</usr/lib/x86_64-linux-gnu/gio/modules>, [{d_ino=4721504, d_off=3010095946851488672, d_reclen=40, d_name="giomodule.cache", d_type=DT_REG}, {d_ino=4720263, d_off=3343782266566960305, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4721505, d_off=5361588105076898494, d_reclen=40, d_name="libdconfsettings.so", d_type=DT_REG}, {d_ino=4721509, d_off=5617113554901321935, d_reclen=56, d_name="libgioremote-volume-monitor.so", d_type=DT_REG}, {d_ino=4721506, d_off=5710434140879988661, d_reclen=40, d_name="libgiognomeproxy.so", d_type=DT_REG}, {d_ino=4721503, d_off=6257115072957225029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4721507, d_off=8469700843271208950, d_reclen=40, d_name="libgiognutls.so", d_type=DT_REG}, {d_ino=4721508, d_off=8867988669331726394, d_reclen=40, d_name="libgiolibproxy.so", d_type=DT_REG}, {d_ino=4721510, d_off=9223372036854775807, d_reclen=40, d_name="libgvfsdbus.so", d_type=DT_REG}], 32768) = 344
+28272 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28273 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28274 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28275 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f25600a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28276 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", O_RDONLY|O_CLOEXEC) = 5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>
+28277 , 55670 , 55670 , at-spi-bus-laun , read(5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340;\0\0\0\0\0\0@\0\0\0\0\0\0\0@\306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\256\0\0\0\0\0\0\4\256\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\274\0\0\0\0\0\0\240\274 \0\0\0\0\0\240\274 \0\0\0\0\0p\10\0\0\0\0\0\0X\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\275\0\0\0\0\0\0\250\275 \0\0\0\0\0"..., 832) = 832
+28278 , 55670 , 55670 , at-spi-bus-laun , fstat(5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28279 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2147832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0) = 0x7f52f1d46000
+28280 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1d51000, 2097152, PROT_NONE) = 0
+28281 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f1f51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0xb000) = 0x7f52f1f51000
+28282 , 55670 , 55670 , at-spi-bus-laun , close(5</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>) = 0
+28283 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1f51000, 4096, PROT_READ) = 0
+28284 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28285 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+28286 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+28287 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", O_RDONLY|O_CLOEXEC) = 5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>
+28288 , 55670 , 55670 , at-spi-bus-laun , read(5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0t\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\307\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\212\1\0\0\0\0\0004\212\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\230\1\0\0\0\0\0H\230!\0\0\0\0\0H\230!\0\0\0\0\0$.\0\0\0\0\0\0\260/\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\275\1\0\0\0\0\0H\275!\0\0\0\0\0"..., 832) = 832
+28289 , 55670 , 55670 , at-spi-bus-laun , fstat(5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+28290 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2213880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0) = 0x7f52f1b29000
+28291 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1b42000, 2097152, PROT_NONE) = 0
+28292 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f1d42000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0x19000) = 0x7f52f1d42000
+28293 , 55670 , 55670 , at-spi-bus-laun , close(5</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>) = 0
+28294 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28295 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7ffccd342110) = -1 ENOENT (No such file or directory)
+28296 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28297 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7ffccd342110) = -1 ENOENT (No such file or directory)
+28298 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28299 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7ffccd342110) = -1 ENOENT (No such file or directory)
+28300 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = 5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>
+28301 , 55670 , 55670 , at-spi-bus-laun , read(5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360%\1\0\0\0\0\0@\0\0\0\0\0\0\0\230\271\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24S\3\0\0\0\0\0\24S\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h`\3\0\0\0\0\0h`#\0\0\0\0\0h`#\0\0\0\0\0\0X\0\0\0\0\0\0\260Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\3\0\0\0\0\0\210\255#\0\0\0\0\0"..., 832) = 832
+28302 , 55670 , 55670 , at-spi-bus-laun , fstat(5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, {st_dev=makedev(8, 1), st_ino=4722066, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=488, st_size=245912, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.803999877}) = 0
+28303 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2341656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0) = 0x7f52f18ed000
+28304 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1923000, 2097152, PROT_NONE) = 0
+28305 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f1b23000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0x36000) = 0x7f52f1b23000
+28306 , 55670 , 55670 , at-spi-bus-laun , close(5</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>) = 0
+28307 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1b23000, 20480, PROT_READ) = 0
+28308 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f1d42000, 12288, PROT_READ) = 0
+28309 , 55670 , 55670 , at-spi-bus-laun , brk(0x1462000) = 0x1462000
+28310 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28311 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28312 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28313 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28314 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28315 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28316 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28317 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28318 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28319 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28320 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28321 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28322 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28323 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28324 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28325 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28326 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28327 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28328 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28329 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28330 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28331 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28332 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28333 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28334 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28335 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28336 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28337 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28338 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28339 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28340 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28341 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28342 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28343 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28344 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28345 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28346 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28347 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28348 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28349 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28350 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28351 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28352 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28353 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28354 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28355 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28356 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28357 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28358 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28359 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28360 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28361 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28362 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28363 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28364 , 55670 , 55670 , at-spi-bus-laun , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_IGN, [], 0}, 8) = 0
+28365 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28366 , 55670 , 55670 , at-spi-bus-laun , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 5<UNIX:[468380]>
+28367 , 55670 , 55670 , at-spi-bus-laun , fcntl(5<UNIX:[468380]>, F_GETFL) = 0x2 (flags O_RDWR)
+28368 , 55670 , 55670 , at-spi-bus-laun , fcntl(5<UNIX:[468380]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+28369 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28370 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28371 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28372 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28373 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28374 , 55670 , 55670 , at-spi-bus-laun , connect(5<UNIX:[468380]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-SivJgCHTvt"}, 23) = 0
+28375 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28376 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28377 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28378 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28379 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28380 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28381 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28382 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28383 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28384 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28385 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28386 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28387 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28388 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28389 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28390 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28391 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28392 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28393 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28394 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28395 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28396 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28397 , 55670 , 55670 , at-spi-bus-laun , geteuid() = 0
+28398 , 55670 , 55670 , at-spi-bus-laun , getegid() = 0
+28399 , 55670 , 55670 , at-spi-bus-laun , geteuid() = 0
+28400 , 55670 , 55670 , at-spi-bus-laun , getegid() = 0
+28401 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28402 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28403 , 55670 , 55670 , at-spi-bus-laun , sendmsg(5<UNIX:[468380]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55670, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+28404 , 55670 , 55670 , at-spi-bus-laun , sendto(5<UNIX:[468380]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+28405 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380]>, 0x1452bb0, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28406 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=5<UNIX:[468380]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+28423 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380->465755]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+28424 , 55670 , 55670 , at-spi-bus-laun , sendto(5<UNIX:[468380->465755]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+28425 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380->465755]>, 0x1452bb0, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28426 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=5<UNIX:[468380->465755]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+28435 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380->465755]>, "OK b91cd6b4be1a82c55d8bde6e5a1abe9c\r\n", 4096, 0, NULL, NULL) = 37
+28437 , 55670 , 55670 , at-spi-bus-laun , sendto(5<UNIX:[468380->465755]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+28439 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380->465755]>, 0x1452bb0, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28441 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=5<UNIX:[468380->465755]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+28447 , 55670 , 55670 , at-spi-bus-laun , recvfrom(5<UNIX:[468380->465755]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+28448 , 55670 , 55670 , at-spi-bus-laun , sendto(5<UNIX:[468380->465755]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+28449 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28450 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28451 , 55670 , 55670 , at-spi-bus-laun , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+28452 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+28453 , 55670 , 55670 , at-spi-bus-laun , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28454 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f52f10ec000
+28455 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f10ec000, 4096, PROT_NONE) = 0
+28456 , 55670 , 55670 , at-spi-bus-laun , clone(child_stack=0x7f52f18ebef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f52f18ec9d0, tls=0x7f52f18ec700, child_tidptr=0x7f52f18ec9d0) = 55671
+28457 , 55670 , 55670 , at-spi-bus-laun , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+28458 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28459 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28460 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28461 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+28462 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28463 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f52f08eb000
+28464 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f08eb000, 4096, PROT_NONE) = 0
+28465 , 55670 , 55670 , at-spi-bus-laun , clone(child_stack=0x7f52f10eaef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f52f10eb9d0, tls=0x7f52f10eb700, child_tidptr=0x7f52f10eb9d0) = 55672
+28466 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28467 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28468 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+28469 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28470 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28471 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28472 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28473 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28522 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28524 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28526 , 55670 , 55670 , at-spi-bus-laun , futex(0x1455610, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28528 , 55670 , 55670 , at-spi-bus-laun , close(8<anon_inode:[eventfd]>) = 0
+28530 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28532 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+28534 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28536 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+28538 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28540 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 1
+28541 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28543 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28545 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28546 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28580 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28582 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+28585 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28586 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 1
+28587 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28608 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28610 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28611 , 55670 , 55670 , at-spi-bus-laun , futex(0x1457360, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28613 , 55670 , 55670 , at-spi-bus-laun , close(8<anon_inode:[eventfd]>) = 0
+28616 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+28617 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28618 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28619 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28621 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28623 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28625 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+28706 , 55670 , 55670 , at-spi-bus-laun , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28708 , 55670 , 55670 , at-spi-bus-laun , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28709 , 55670 , 55670 , at-spi-bus-laun , futex(0x1457360, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28711 , 55670 , 55670 , at-spi-bus-laun , close(8<anon_inode:[eventfd]>) = 0
+28713 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28715 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28716 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>
+28717 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\30\0\0\0\0\0\0@\0\0\0\0\0\0\0\350B\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304/\0\0\0\0\0\0\304/\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270=\0\0\0\0\0\0\270= \0\0\0\0\0\270= \0\0\0\0\0(\4\0\0\0\0\0\0H\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320=\0\0\0\0\0\0\320= \0\0\0\0\0"..., 832) = 832
+28718 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+28719 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2114048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0) = 0x7f52f06e6000
+28720 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06e9000, 2097152, PROT_NONE) = 0
+28721 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f08e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0x3000) = 0x7f52f08e9000
+28722 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>) = 0
+28723 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f08e9000, 4096, PROT_READ) = 0
+28724 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f06e6000, 2114048) = 0
+28725 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28726 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28727 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>
+28728 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0r\0\0\0\0\0\0@\0\0\0\0\0\0\0\330\272\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\241\1\0\0\0\0\0\24\241\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\255\1\0\0\0\0\0H\255!\0\0\0\0\0H\255!\0\0\0\0\0\220\f\0\0\0\0\0\0p\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`\255\1\0\0\0\0\0`\255!\0\0\0\0\0"..., 832) = 832
+28729 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28730 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2210744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0) = 0x7f52f06cf000
+28731 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06ea000, 2093056, PROT_NONE) = 0
+28732 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f08e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0x1a000) = 0x7f52f08e9000
+28733 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>) = 0
+28734 , 55670 , 55670 , at-spi-bus-laun , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+28735 , 55670 , 55670 , at-spi-bus-laun , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+28736 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f52f47f6000
+28737 , 55670 , 55670 , at-spi-bus-laun , close(8</etc/ld.so.cache>) = 0
+28738 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28739 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+28740 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+28741 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+28742 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7f52f046a000
+28743 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f04c4000, 2093056, PROT_NONE) = 0
+28744 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f06c3000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7f52f06c3000
+28745 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+28746 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28747 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>
+28748 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\2\0\0\0\0\0@\0\0\0\0\0\0\0P\342\22\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l*\22\0\0\0\0\0l*\22\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270-\22\0\0\0\0\0\270-2\0\0\0\0\0\270-2\0\0\0\0\0X\263\0\0\0\0\0\0\310\303\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0x\313\22\0\0\0\0\0x\3132\0\0\0\0\0"..., 832) = 832
+28749 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, {st_dev=makedev(8, 1), st_ino=4456883, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2424, st_size=1239440, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/06/12-11:51:37, st_ctime=2017/06/24-03:59:34.980084966}) = 0
+28750 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3338624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0) = 0x7f52f013a000
+28751 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f025d000, 2093056, PROT_NONE) = 0
+28752 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f045c000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0x122000) = 0x7f52f045c000
+28753 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f0469000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f0469000
+28754 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>) = 0
+28755 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28756 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>
+28757 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p+\0\0\0\0\0\0@\0\0\0\0\0\0\0(\"\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\17\3\0\0\0\0\0$\17\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\22\3\0\0\0\0\0\310\22#\0\0\0\0\0\310\22#\0\0\0\0\0 \16\0\0\0\0\0\0(\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\35\3\0\0\0\0\0\300\35#\0\0\0\0\0"..., 832) = 832
+28758 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, {st_dev=makedev(8, 1), st_ino=4458278, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207208, st_atime=2017/11/25-09:34:42.548712422, st_mtime=2017/09/25-14:06:07, st_ctime=2017/10/15-01:10:13.024850379}) = 0
+28759 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2302192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0) = 0x7f52ebdcd000
+28760 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebdfe000, 2097152, PROT_NONE) = 0
+28761 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52ebffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0x31000) = 0x7f52ebffe000
+28762 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>) = 0
+28763 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28764 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>
+28765 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340)\0\0\0\0\0\0@\0\0\0\0\0\0\0`\"\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\16\1\0\0\0\0\0\204\16\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\25\1\0\0\0\0\0\10\25!\0\0\0\0\0\10\25!\0\0\0\0\0\34\f\0\0\0\0\0\0\0\17\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\1\0\0\0\0\0\320\35!\0\0\0\0\0"..., 832) = 832
+28766 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, {st_dev=makedev(8, 1), st_ino=4458720, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=76192, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/06/01-13:53:02, st_ctime=2017/06/08-02:50:09.820388315}) = 0
+28767 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2171912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0) = 0x7f52ebbba000
+28768 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebbcb000, 2097152, PROT_NONE) = 0
+28769 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52ebdcb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0x11000) = 0x7f52ebdcb000
+28770 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>) = 0
+28771 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28772 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libnettle.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>
+28773 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`~\0\0\0\0\0\0@\0\0\0\0\0\0\0\210Q\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3744\3\0\0\0\0\0\3744\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h?\3\0\0\0\0\0h?#\0\0\0\0\0h?#\0\0\0\0\0\0\21\0\0\0\0\0\0(\21\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xM\3\0\0\0\0\0xM#\0\0\0\0\0"..., 832) = 832
+28774 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, {st_dev=makedev(8, 1), st_ino=4458826, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=432, st_size=219336, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/02/03-09:27:37, st_ctime=2017/04/03-11:27:11.578425564}) = 0
+28775 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2314384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0) = 0x7f52eb984000
+28776 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb9b8000, 2093056, PROT_NONE) = 0
+28777 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52ebbb7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0x33000) = 0x7f52ebbb7000
+28778 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>) = 0
+28779 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28780 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libhogweed.so.4", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>
+28781 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340e\0\0\0\0\0\0@\0\0\0\0\0\0\0\330#\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\25\3\0\0\0\0\0D\25\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\26\3\0\0\0\0\0(\26#\0\0\0\0\0(\26#\0\0\0\0\0\220\f\0\0\0\0\0\0\230\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\35\3\0\0\0\0\0\250\35#\0\0\0\0\0"..., 832) = 832
+28782 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, {st_dev=makedev(8, 1), st_ino=4456748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207640, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/02/03-09:27:38, st_ctime=2017/04/03-11:27:11.398474786}) = 0
+28783 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2302656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0) = 0x7f52eb751000
+28784 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb783000, 2093056, PROT_NONE) = 0
+28785 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52eb982000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0x31000) = 0x7f52eb982000
+28786 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>) = 0
+28787 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28788 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>
+28789 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\223\0\0\0\0\0\0@\0\0\0\0\0\0\0\250\362\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\342\7\0\0\0\0\0l\342\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\351\7\0\0\0\0\0\10\351'\0\0\0\0\0\10\351'\0\0\0\0\0p\10\0\0\0\0\0\0\270\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0 \355\7\0\0\0\0\0 \355'\0\0\0\0\0"..., 832) = 832
+28790 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, {st_dev=makedev(8, 1), st_ino=4465744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1024, st_size=522664, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/11/17-12:15:19, st_ctime=2016/11/03-10:38:41.003999886}) = 0
+28791 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2617792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0) = 0x7f52eb4d1000
+28792 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb550000, 2093056, PROT_NONE) = 0
+28793 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52eb74f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0x7e000) = 0x7f52eb74f000
+28794 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>) = 0
+28795 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb74f000, 4096, PROT_READ) = 0
+28796 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebbb7000, 8192, PROT_READ) = 0
+28797 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb982000, 4096, PROT_READ) = 0
+28798 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebdcb000, 4096, PROT_READ) = 0
+28799 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebffe000, 4096, PROT_READ) = 0
+28800 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06c3000, 40960, PROT_READ) = 0
+28801 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f045c000, 45056, PROT_READ) = 0
+28802 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f08e9000, 4096, PROT_READ) = 0
+28803 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f06ce740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28804 , 55670 , 55670 , at-spi-bus-laun , brk(0x1483000) = 0x1483000
+28805 , 55670 , 55670 , at-spi-bus-laun , open("/dev/urandom", O_RDONLY) = 8</dev/urandom>
+28806 , 55670 , 55670 , at-spi-bus-laun , fcntl(8</dev/urandom>, F_GETFD) = 0
+28807 , 55670 , 55670 , at-spi-bus-laun , fcntl(8</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+28808 , 55670 , 55670 , at-spi-bus-laun , fstat(8</dev/urandom>, {st_dev=makedev(0, 6), st_ino=11, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2017/11/26-03:20:03.411999619, st_mtime=2017/11/26-03:20:03.411999619, st_ctime=2017/11/26-03:20:03.411999619}) = 0
+28809 , 55670 , 55670 , at-spi-bus-laun , getrusage(0x1 /* RUSAGE_??? */, {ru_utime={0, 4000}, ru_stime={0, 4000}, ru_maxrss=7276, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=384, ru_majflt=2, ru_nswap=0, ru_inblock=192, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=1249, ru_nivcsw=10}) = 0
+28810 , 55670 , 55670 , at-spi-bus-laun , read(8</dev/urandom>, "\347\316Y\24\317\344.R\203\r=d\\%\37\243\20\216\212k`GVA\213\251\356\302\323\227\351&", 32) = 32
+28811 , 55670 , 55670 , at-spi-bus-laun , read(8</dev/urandom>, "\361>\th\35\241\260c\213\261!Rm\272\203G\206H\262\374\244\265X\342f\314\322\265\353\260ce", 32) = 32
+28812 , 55670 , 55670 , at-spi-bus-laun , read(8</dev/urandom>, "\36g[$\331\260D\345", 8) = 8
+28813 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f47f6000, 129890) = 0
+28814 , 55670 , 55670 , at-spi-bus-laun , close(8</dev/urandom>) = 0
+28815 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f06cf000, 2210744) = 0
+28816 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f013a000, 3338624) = 0
+28817 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f046a000, 2508688) = 0
+28818 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52ebdcd000, 2302192) = 0
+28819 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52ebbba000, 2171912) = 0
+28820 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52eb751000, 2302656) = 0
+28821 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52eb984000, 2314384) = 0
+28822 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52eb4d1000, 2617792) = 0
+28823 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28824 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28825 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>
+28826 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\21\0\0\0\0\0\0@\0\0\0\0\0\0\0@\"\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214\35\0\0\0\0\0\0\214\35\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\35\0\0\0\0\0\0\240\35 \0\0\0\0\0\240\35 \0\0\0\0\0\230\3\0\0\0\0\0\0\270\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\35\0\0\0\0\0\0\270\35 \0\0\0\0\0"..., 832) = 832
+28827 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+28828 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2105688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0) = 0x7f52f06e8000
+28829 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06ea000, 2093056, PROT_NONE) = 0
+28830 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f08e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0x1000) = 0x7f52f08e9000
+28831 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>) = 0
+28832 , 55670 , 55670 , at-spi-bus-laun , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+28833 , 55670 , 55670 , at-spi-bus-laun , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+28834 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f52f47f6000
+28835 , 55670 , 55670 , at-spi-bus-laun , close(8</etc/ld.so.cache>) = 0
+28836 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28837 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libproxy.so.1", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>
+28838 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300h\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\5\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\363\350\1\0\0\0\0\0\363\350\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X\370\1\0\0\0\0\0X\370!\0\0\0\0\0X\370!\0\0\0\0\0`\f\0\0\0\0\0\0h\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\374\1\0\0\0\0\0\350\374!\0\0\0\0\0"..., 832) = 832
+28839 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4466215, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=264, st_size=134456, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/02/16-08:49:32, st_ctime=2016/11/03-10:38:45.531999883}) = 0
+28840 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2229440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0) = 0x7f52f04c7000
+28841 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f04e6000, 2097152, PROT_NONE) = 0
+28842 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f06e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0x1f000) = 0x7f52f06e6000
+28843 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>) = 0
+28844 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28845 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+28846 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+28847 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4461343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/11/02-21:42:14, st_ctime=2016/11/10-22:22:35.303200843}) = 0
+28848 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7f52f0145000
+28849 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f02b7000, 2097152, PROT_NONE) = 0
+28850 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f04b7000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7f52f04b7000
+28851 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f04c3000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f04c3000
+28852 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+28853 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28854 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgcc_s.so.1>
+28855 , 55670 , 55670 , at-spi-bus-laun , read(8</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+28856 , 55670 , 55670 , at-spi-bus-laun , fstat(8</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+28857 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f52ebdea000
+28858 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebe00000, 2093056, PROT_NONE) = 0
+28859 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52ebfff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f52ebfff000
+28860 , 55670 , 55670 , at-spi-bus-laun , close(8</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+28861 , 55670 , 55670 , at-spi-bus-laun , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+28862 , 55670 , 55670 , at-spi-bus-laun , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libm-2.23.so>
+28863 , 55670 , 55670 , at-spi-bus-laun , read(8</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+28864 , 55670 , 55670 , at-spi-bus-laun , fstat(8</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+28865 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f52ebae1000
+28866 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebbe9000, 2093056, PROT_NONE) = 0
+28867 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52ebde8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f52ebde8000
+28868 , 55670 , 55670 , at-spi-bus-laun , close(8</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+28869 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52ebde8000, 4096, PROT_READ) = 0
+28870 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f04b7000, 40960, PROT_READ) = 0
+28871 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06e6000, 4096, PROT_READ) = 0
+28872 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f08e9000, 4096, PROT_READ) = 0
+28873 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f04c41ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28874 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f04c41b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28875 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f47f6000, 129890) = 0
+28876 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f06e8000, 2105688) = 0
+28877 , 55670 , 55670 , at-spi-bus-laun , munmap(0x7f52f04c7000, 2229440) = 0
+28878 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+28879 , 55670 , 55670 , at-spi-bus-laun , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+28880 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>
+28881 , 55670 , 55670 , at-spi-bus-laun , read(8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \267\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\20\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\366\2\0\0\0\0\0\f\366\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\367\2\0\0\0\0\0\350\367\"\0\0\0\0\0\350\367\"\0\0\0\0\0\264\27\0\0\0\0\0\0\240\31\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\375\2\0\0\0\0\0H\375\"\0\0\0\0\0"..., 832) = 832
+28882 , 55670 , 55670 , at-spi-bus-laun , fstat(8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+28883 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 2298248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0) = 0x7f52f06b9000
+28884 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f06e9000, 2093056, PROT_NONE) = 0
+28885 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f08e8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0x2f000) = 0x7f52f08e8000
+28886 , 55670 , 55670 , at-spi-bus-laun , mmap(0x7f52f08ea000, 392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f52f08ea000
+28887 , 55670 , 55670 , at-spi-bus-laun , close(8</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>) = 0
+28888 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52f08e8000, 4096, PROT_READ) = 0
+28889 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28890 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28891 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28892 , 55670 , 55670 , at-spi-bus-laun , getdents(4</usr/lib/x86_64-linux-gnu/gio/modules>, [], 32768) = 0
+28893 , 55670 , 55670 , at-spi-bus-laun , close(4</usr/lib/x86_64-linux-gnu/gio/modules>) = 0
+28894 , 55670 , 55670 , at-spi-bus-laun , open("/usr/lib/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+28895 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28896 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28897 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28898 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28899 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28900 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28901 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28902 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28903 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28904 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28905 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28906 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28907 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28908 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28909 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28910 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28911 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28912 , 55670 , 55670 , at-spi-bus-laun , open("/etc/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+28913 , 55670 , 55670 , at-spi-bus-laun , open("/usr/share/gnome/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+28914 , 55670 , 55670 , at-spi-bus-laun , open("/usr/local/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+28915 , 55670 , 55670 , at-spi-bus-laun , open("/usr/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+28916 , 55670 , 55670 , at-spi-bus-laun , open("/var/lib/snapd/desktop/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+28917 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28918 , 55670 , 55670 , at-spi-bus-laun , mkdir("/home/elwin/.cache", 0700) = -1 EEXIST (File exists)
+28919 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28920 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28921 , 55670 , 55670 , at-spi-bus-laun , access("/home", F_OK) = 0
+28922 , 55670 , 55670 , at-spi-bus-laun , stat("/home", {st_dev=makedev(8, 1), st_ino=2883585, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-06:55:15.315006883, st_mtime=2017/06/24-10:10:27.305705697, st_ctime=2017/06/24-10:10:27.305705697}) = 0
+28923 , 55670 , 55670 , at-spi-bus-laun , access("/home/elwin", F_OK) = 0
+28924 , 55670 , 55670 , at-spi-bus-laun , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=41, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-08:09:52.117160270, st_mtime=2017/11/26-08:16:05.463532617, st_ctime=2017/11/26-08:16:05.463532617}) = 0
+28925 , 55670 , 55670 , at-spi-bus-laun , access("/home/elwin/.cache", F_OK) = 0
+28926 , 55670 , 55670 , at-spi-bus-laun , stat("/home/elwin/.cache", {st_dev=makedev(8, 1), st_ino=2883591, st_mode=S_IFDIR|0700, st_nlink=28, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-05:11:19.540373524, st_mtime=2017/05/29-12:44:07.246858381, st_ctime=2017/05/29-12:44:07.246858381}) = 0
+28927 , 55670 , 55670 , at-spi-bus-laun , access("/home/elwin/.cache/dconf", F_OK) = 0
+28928 , 55670 , 55670 , at-spi-bus-laun , stat("/home/elwin/.cache/dconf", {st_dev=makedev(8, 1), st_ino=3538966, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-01:10:57.608512372, st_mtime=2017/05/04-04:12:39.107169060, st_ctime=2017/05/04-04:12:39.107169060}) = 0
+28929 , 55670 , 55670 , at-spi-bus-laun , open("/home/elwin/.cache/dconf/user", O_RDWR|O_CREAT, 0600) = 4</home/elwin/.cache/dconf/user>
+28930 , 55670 , 55670 , at-spi-bus-laun , pwrite64(4</home/elwin/.cache/dconf/user>, "\0", 1, 1) = 1
+28931 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 1, PROT_READ, MAP_SHARED, 4</home/elwin/.cache/dconf/user>, 0) = 0x7f52f487e000
+28932 , 55670 , 55670 , at-spi-bus-laun , close(4</home/elwin/.cache/dconf/user>) = 0
+28933 , 55670 , 55670 , at-spi-bus-laun , open("/home/elwin/.config/dconf/user", O_RDONLY) = 4</home/elwin/.config/dconf/user>
+28934 , 55670 , 55670 , at-spi-bus-laun , fstat(4</home/elwin/.config/dconf/user>, {st_dev=makedev(8, 1), st_ino=2883824, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=32, st_size=14590, st_atime=2017/11/26-03:15:19.070802471, st_mtime=2017/11/26-03:15:13.458843521, st_ctime=2017/11/26-03:15:13.462843491}) = 0
+28935 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 14590, PROT_READ, MAP_PRIVATE, 4</home/elwin/.config/dconf/user>, 0) = 0x7f52f487a000
+28936 , 55670 , 55670 , at-spi-bus-laun , close(4</home/elwin/.config/dconf/user>) = 0
+28937 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 4<anon_inode:[eventfd]>
+28938 , 55670 , 55670 , at-spi-bus-laun , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28939 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f52eb2e0000
+28940 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eb2e0000, 4096, PROT_NONE) = 0
+28941 , 55670 , 55670 , at-spi-bus-laun , clone(child_stack=0x7f52ebadfef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f52ebae09d0, tls=0x7f52ebae0700, child_tidptr=0x7f52ebae09d0) = 55673
+28942 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28943 , 55670 , 55670 , at-spi-bus-laun , pipe([8<pipe:[468511]>, 9<pipe:[468511]>]) = 0
+28944 , 55670 , 55670 , at-spi-bus-laun , rt_sigaction(SIGTERM, {0x402960, [TERM], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_DFL, [], 0}, 8) = 0
+28945 , 55670 , 55670 , at-spi-bus-laun , fstat(8<pipe:[468511]>, {st_dev=makedev(0, 10), st_ino=468511, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:15.967592402, st_mtime=2017/11/26-08:16:15.967592402, st_ctime=2017/11/26-08:16:15.967592402}) = 0
+28946 , 55670 , 55670 , at-spi-bus-laun , fcntl(8<pipe:[468511]>, F_GETFL) = 0 (flags O_RDONLY)
+28947 , 55670 , 55670 , at-spi-bus-laun , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28948 , 55670 , 55670 , at-spi-bus-laun , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f52eaadf000
+28949 , 55670 , 55670 , at-spi-bus-laun , mprotect(0x7f52eaadf000, 4096, PROT_NONE) = 0
+28950 , 55670 , 55670 , at-spi-bus-laun , clone(child_stack=0x7f52eb2deef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f52eb2df9d0, tls=0x7f52eb2df700, child_tidptr=0x7f52eb2df9d0) = 55674
+28951 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+28952 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+28953 , 55670 , 55670 , at-spi-bus-laun , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+28954 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+28960 , 55670 , 55670 , at-spi-bus-laun , futex(0x142add0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+28962 , 55670 , 55670 , at-spi-bus-laun , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+28963 , 55670 , 55670 , at-spi-bus-laun , futex(0x142add0, FUTEX_WAKE_PRIVATE, 1) = 0
+28964 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+28965 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+28967 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 0
+28969 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+28973 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 0
+28975 , 55670 , 55670 , at-spi-bus-laun , futex(0x1452c50, FUTEX_WAKE_PRIVATE, 1) = 1
+28978 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+29043 , 55670 , 55670 , at-spi-bus-laun , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+29045 , 55670 , 55670 , at-spi-bus-laun , pipe([10<pipe:[468548]>, 11<pipe:[468548]>]) = 0
+29047 , 55670 , 55670 , at-spi-bus-laun , pipe2([12<pipe:[468551]>, 13<pipe:[468551]>], 0) = 0
+29049 , 55670 , 55670 , at-spi-bus-laun , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f52f485dad0) = 55675
+29051 , 55670 , 55670 , at-spi-bus-laun , close(13<pipe:[468551]>) = 0
+29053 , 55670 , 55670 , at-spi-bus-laun , read(12<pipe:[468551]>, "", 8) = 0
+29119 , 55670 , 55670 , at-spi-bus-laun , close(12<pipe:[468551]>) = 0
+29120 , 55670 , 55670 , at-spi-bus-laun , close(11<pipe:[468548]>) = 0
+29121 , 55670 , 55670 , at-spi-bus-laun , rt_sigaction(SIGCHLD, {0x7f52f3dbd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7f52f3831390}, NULL, 8) = 0
+29122 , 55670 , 55670 , at-spi-bus-laun , wait4(55675, 0x1437ae4, WNOHANG, NULL) = 0
+29123 , 55670 , 55670 , at-spi-bus-laun , read(10<pipe:[468548]>, "unix:abstract=/tmp/dbus-YvqbXFkDor,guid=07e57ec1d12543ba1c4568d15a1abea0\n", 4096) = 73
+29503 , 55670 , 55670 , at-spi-bus-laun , read(10<pipe:[468548]>, "", 4096) = 0
+29504 , 55670 , 55670 , at-spi-bus-laun , close(10<pipe:[468548]>) = 0
+29505 , 55670 , 55670 , at-spi-bus-laun , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 10<UNIX:[468659]>
+29506 , 55670 , 55670 , at-spi-bus-laun , connect(10<UNIX:[468659]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+29507 , 55670 , 55670 , at-spi-bus-laun , getpeername(10<UNIX:[468659]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+29508 , 55670 , 55670 , at-spi-bus-laun , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-101-generic", version="#124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017", machine="x86_64", domainname="(none)"}) = 0
+29509 , 55670 , 55670 , at-spi-bus-laun , access("/home/elwin/.Xauthority", R_OK) = 0
+29510 , 55670 , 55670 , at-spi-bus-laun , open("/home/elwin/.Xauthority", O_RDONLY) = 11</home/elwin/.Xauthority>
+29511 , 55670 , 55670 , at-spi-bus-laun , fstat(11</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2883841, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=477, st_atime=2017/11/26-08:16:10.211559677, st_mtime=2017/11/26-08:16:05.463532617, st_ctime=2017/11/26-08:16:05.463532617}) = 0
+29512 , 55670 , 55670 , at-spi-bus-laun , read(11</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MA"..., 4096) = 477
+29513 , 55670 , 55670 , at-spi-bus-laun , read(11</home/elwin/.Xauthority>, "", 4096) = 0
+29514 , 55670 , 55670 , at-spi-bus-laun , close(11</home/elwin/.Xauthority>) = 0
+29515 , 55670 , 55670 , at-spi-bus-laun , getsockname(10<UNIX:[468659]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+29516 , 55670 , 55670 , at-spi-bus-laun , fcntl(10<UNIX:[468659]>, F_GETFL) = 0x2 (flags O_RDWR)
+29517 , 55670 , 55670 , at-spi-bus-laun , fcntl(10<UNIX:[468659]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+29518 , 55670 , 55670 , at-spi-bus-laun , fcntl(10<UNIX:[468659]>, F_SETFD, FD_CLOEXEC) = 0
+29519 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29520 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659]>, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"X\36\nC\327\306\336\376\343\200N\220\351B\24*", 16}, {"", 0}], 6) = 48
+29521 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659]>, 0x1428010, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+29522 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29538 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659->465756]>, "\1\0\v\0\0\0\263\4", 8, 0, NULL, NULL) = 8
+29539 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659->465756]>, 0x143c3a8, 4812, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+29540 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29542 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659->465756]>, "`\35\264\0\0\0\240\0\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0The X.Org Foundation\1\1 \0\0\0\0\0\4\10 \0\0\0\0\0\10\10 \0\0\0\0\0\17\20 \0\0\0\0\0\20\20 \0\0\0\0\0\30  \0\0\0\0\0   \0\0\0\0\0%\2\0\0 \0\0\0\377\377\377\0\0\0\0\0\0\0\2\0 \3X\2\323\0\236\0\1\0\1\0!\0\0\0\1\0\30\7\30\0\277\0\0\0\0\0!\0\0\0\4\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0\0\0\0\0\"\0\0\0\5\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0"..., 4812, 0, NULL, NULL) = 4812
+29543 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29544 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+29545 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29548 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0\1\206\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29549 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29550 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"\206\0\1\0", 4}], 1) = 4
+29551 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29554 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29555 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342720, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29556 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29557 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"7\0\5\0\0\0\240\0%\2\0\0\10\0\0\0\377\377\377\0\24\0\6\0%\2\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+29558 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29561 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29562 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659->465756]>, 0x143d750, 24, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+29563 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29565 , 55670 , 55670 , at-spi-bus-laun , recvfrom(10<UNIX:[468659->465756]>, "*customization:\t-color\n\0", 24, 0, NULL, NULL) = 24
+29566 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342760, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29567 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29568 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"b\0\5\0\t\0\240\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+29569 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29574 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0\1\210U\211\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29575 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342630, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29576 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342630, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29577 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29578 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"\210\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+29579 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29585 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29586 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd3426e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29587 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd3426e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29588 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29589 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"\20\0\5\0\n\0\0\0AT_SPI_BUS\377\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+29590 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29593 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0J\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29594 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342800, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29595 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342800, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29596 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29597 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"\22\0\30\0%\2\0\0J\1\0\0\37\0\0\0\10S\377\0H\0\0\0unix:abstract=/tmp/dbus-YvqbXFkDor,guid=07e57ec1d12543ba1c4568d15a1abea0", 96}, {NULL, 0}, {"", 0}], 3) = 96
+29598 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd342860, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29599 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+29600 , 55670 , 55670 , at-spi-bus-laun , writev(10<UNIX:[468659->465756]>, [{"<\0\2\0\0\0\240\0+\1\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+29601 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<UNIX:[468659->465756]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+29604 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\n\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+29605 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd3427f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29606 , 55670 , 55670 , at-spi-bus-laun , recvmsg(10<UNIX:[468659->465756]>, 0x7ffccd3427f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+29607 , 55670 , 55670 , at-spi-bus-laun , shutdown(10<UNIX:[468659->465756]>, SHUT_RDWR) = 0
+29608 , 55670 , 55670 , at-spi-bus-laun , close(10<UNIX:[468659->465756]>) = 0
+29609 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+29610 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+29612 , 55670 , 55670 , at-spi-bus-laun , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+29614 , 55670 , 55670 , at-spi-bus-laun , futex(0x7f52f4087428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+29616 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+29618 , 55670 , 55670 , at-spi-bus-laun , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+29620 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+29621 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+29624 , 55670 , 55670 , at-spi-bus-laun , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+29625 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=10, revents=POLLIN}])
+29973 , 55670 , 55670 , at-spi-bus-laun , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+29976 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+29980 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+29982 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 0
+29984 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+29988 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 0
+29990 , 55670 , 55670 , at-spi-bus-laun , futex(0x1452c50, FUTEX_WAKE_PRIVATE, 1) = 1
+29993 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+30519 , 55670 , 55670 , at-spi-bus-laun , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+30526 , 55670 , 55670 , at-spi-bus-laun , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+30531 , 55670 , 55670 , at-spi-bus-laun , futex(0x143ea20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+30536 , 55670 , 55670 , at-spi-bus-laun , close(10<anon_inode:[eventfd]>) = 0
+30539 , 55670 , 55670 , at-spi-bus-laun , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+30543 , 55670 , 55670 , at-spi-bus-laun , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+30545 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+30549 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+30553 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+30563 , 55670 , 55670 , at-spi-bus-laun , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+30568 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+30763 , 55670 , 55670 , at-spi-bus-laun , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+30764 , 55670 , 55670 , at-spi-bus-laun , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+30765 , 55670 , 55670 , at-spi-bus-laun , futex(0x143edb0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+30766 , 55670 , 55670 , at-spi-bus-laun , close(10<anon_inode:[eventfd]>) = 0
+30767 , 55670 , 55670 , at-spi-bus-laun , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+30769 , 55670 , 55670 , at-spi-bus-laun , futex(0x14539f0, FUTEX_WAKE_PRIVATE, 1) = 1
+30773 , 55670 , 55670 , at-spi-bus-laun , futex(0x1452c50, FUTEX_WAKE_PRIVATE, 1) = 1
+30776 , 55670 , 55670 , at-spi-bus-laun , futex(0x1449098, FUTEX_WAKE_PRIVATE, 1) = 1
+30782 , 55670 , 55670 , at-spi-bus-laun , write(2<UNIX:[465752->468187]>, "\n** (process:55670): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files\n", 188) = 188
+30783 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+30784 , 55670 , 55670 , at-spi-bus-laun , read(3<anon_inode:[eventfd]>, 0x7ffccd3432f0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+30785 , 55670 , 55670 , at-spi-bus-laun , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<pipe:[468511]>, events=POLLIN}], 2, -1

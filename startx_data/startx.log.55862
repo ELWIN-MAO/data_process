@@ -1,0 +1,12 @@
+120539 , 55862 , 55857 , evolution-calen , set_robust_list(0x7fb4cab489e0, 24) = 0
+120542 , 55862 , 55857 , evolution-calen , prctl(PR_SET_NAME, "pool\0V\0\0\2009\30\3'V\0\0") = 0
+120544 , 55862 , 55857 , pool , futex(0x5627031808a0, FUTEX_WAIT_PRIVATE, 0, {0, 499999409}) = -1 ETIMEDOUT (Connection timed out)
+122757 , 55862 , 55857 , pool , mmap(0x7fb4ac000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb4ac000000
+122759 , 55862 , 55857 , pool , mprotect(0x7fb4ac000000, 139264, PROT_READ|PROT_WRITE) = 0
+122761 , 55862 , 55857 , pool , open("/proc/sys/vm/overcommit_memory", O_RDONLY|O_CLOEXEC) = 13</proc/sys/vm/overcommit_memory>
+122763 , 55862 , 55857 , pool , read(13</proc/sys/vm/overcommit_memory>, "0", 1) = 1
+122764 , 55862 , 55857 , pool , close(13</proc/sys/vm/overcommit_memory>) = 0
+122765 , 55862 , 55857 , pool , madvise(0x7fb4ac021000, 4096, MADV_DONTNEED) = 0
+122766 , 55862 , 55857 , pool , madvise(0x7fb4ca348000, 8368128, MADV_DONTNEED) = 0
+122768 , 55862 , 55857 , pool , exit(0) = ?
+122769 , 55862 , -1 , NULL , +++ exited with 0 +++

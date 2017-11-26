@@ -1,0 +1,814 @@
+142984 , 55897 , 55897 , gvfsd , set_robust_list(0x7f270a696ae0, 24) = 0
+142986 , 55897 , 55897 , gvfsd , close(12<pipe:[508153]>) = 0
+142988 , 55897 , 55897 , gvfsd , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</proc/55897/fd>
+142990 , 55897 , 55897 , gvfsd , fstat(9</proc/55897/fd>, {st_dev=makedev(0, 4), st_ino=508161, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.355713245, st_mtime=2017/11/26-08:16:37.355713245, st_ctime=2017/11/26-08:16:37.355713245}) = 0
+142992 , 55897 , 55897 , gvfsd , getdents(9</proc/55897/fd>, [{d_ino=508161, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=508160, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=508164, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=508165, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=508166, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=508167, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=508168, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=508169, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=508170, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=508171, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=508172, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=508163, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=508173, d_off=66, d_reclen=24, d_name="10", d_type=DT_LNK}], 32768) = 312
+142994 , 55897 , 55897 , gvfsd , fcntl(3<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+142996 , 55897 , 55897 , gvfsd , fcntl(4<UNIX:[464411->464418]>, F_SETFD, FD_CLOEXEC) = 0
+142998 , 55897 , 55897 , gvfsd , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+143000 , 55897 , 55897 , gvfsd , fcntl(6<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+143001 , 55897 , 55897 , gvfsd , fcntl(7<pipe:[464491]>, F_SETFD, FD_CLOEXEC) = 0
+143002 , 55897 , 55897 , gvfsd , fcntl(8<pipe:[464491]>, F_SETFD, FD_CLOEXEC) = 0
+143003 , 55897 , 55897 , gvfsd , fcntl(10<pipe:[508152]>, F_SETFD, FD_CLOEXEC) = 0
+143004 , 55897 , 55897 , gvfsd , getdents(9</proc/55897/fd>, [], 32768) = 0
+143005 , 55897 , 55897 , gvfsd , close(9</proc/55897/fd>) = 0
+143006 , 55897 , 55897 , gvfsd , open("/dev/null", O_RDONLY) = 9</dev/null>
+143007 , 55897 , 55897 , gvfsd , dup2(9</dev/null>, 0</dev/null>) = 0</dev/null>
+143008 , 55897 , 55897 , gvfsd , close(9</dev/null>) = 0
+143009 , 55897 , 55897 , gvfsd , execve("/usr/lib/gvfs/gvfsd-trash", ["/usr/lib/gvfs/gvfsd-trash", "--spawner", ":1.1", "/org/gtk/gvfs/exec_spaw/0"], ["SHELL=/bin/bash", "SUDO_GID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "QT_ACCESSIBILITY=1", "DISPLAY=:0", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "WINDOWPATH=1", "GTK_MODULES=gail:atk-bridge", "USERNAME=root", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "MAIL=/var/mail/root", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=55636", "XAUTHORITY=/home/elwin/.Xauthority", "USER=root", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "TERM=linux", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "SUDO_USER=elwin", "LANG=en_US.UTF-8", "SUDO_UID=1000", "HOME=/home/elwin", "LOGNAME=root"]) = 0
+143104 , 55897 , 55897 , gvfsd-trash , brk(NULL) = 0x17fa000
+143105 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143106 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e4316000
+143107 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+143108 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143109 , 55897 , 55897 , gvfsd-trash , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7fff066f1670) = -1 ENOENT (No such file or directory)
+143110 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143111 , 55897 , 55897 , gvfsd-trash , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7fff066f1670) = -1 ENOENT (No such file or directory)
+143112 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143113 , 55897 , 55897 , gvfsd-trash , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7fff066f1670) = -1 ENOENT (No such file or directory)
+143114 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>
+143115 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\243\0\0\0\0\0\0@\0\0\0\0\0\0\0xJ\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3349\2\0\0\0\0\0\3349\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310<\2\0\0\0\0\0\310<\"\0\0\0\0\0\310<\"\0\0\0\0\0|\f\0\0\0\0\0\0\370\20\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0(=\2\0\0\0\0\0(=\"\0\0\0\0\0"..., 832) = 832
+143116 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, {st_dev=makedev(8, 1), st_ino=4722067, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=304, st_size=151928, st_atime=2017/11/26-03:14:07.679401940, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.807999877}) = 0
+143117 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2248128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, 0) = 0x7f59e3ece000
+143118 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3ef2000, 2093056, PROT_NONE) = 0
+143119 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e40f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, 0x23000) = 0x7f59e40f1000
+143120 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>) = 0
+143121 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>
+143122 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360%\1\0\0\0\0\0@\0\0\0\0\0\0\0\230\271\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24S\3\0\0\0\0\0\24S\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h`\3\0\0\0\0\0h`#\0\0\0\0\0h`#\0\0\0\0\0\0X\0\0\0\0\0\0\260Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\3\0\0\0\0\0\210\255#\0\0\0\0\0"..., 832) = 832
+143123 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, {st_dev=makedev(8, 1), st_ino=4722066, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=488, st_size=245912, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.803999877}) = 0
+143124 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2341656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0) = 0x7f59e3c92000
+143125 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3cc8000, 2097152, PROT_NONE) = 0
+143126 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e3ec8000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0x36000) = 0x7f59e3ec8000
+143127 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>) = 0
+143128 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143129 , 55897 , 55897 , gvfsd-trash , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+143130 , 55897 , 55897 , gvfsd-trash , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+143131 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f59e42f6000
+143132 , 55897 , 55897 , gvfsd-trash , close(3</etc/ld.so.cache>) = 0
+143133 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143134 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+143135 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+143136 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+143137 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f5000
+143138 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f59e390a000
+143139 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3a8a000, 2097152, PROT_NONE) = 0
+143140 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e3c8a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f59e3c8a000
+143141 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e3c90000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e3c90000
+143142 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+143143 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143144 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143145 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+143146 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+143147 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+143148 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f59e36b7000
+143149 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3709000, 2093056, PROT_NONE) = 0
+143150 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e3908000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f59e3908000
+143151 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+143152 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143153 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143154 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+143155 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+143156 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+143157 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f59e33a6000
+143158 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e34b4000, 2097152, PROT_NONE) = 0
+143159 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e36b4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f59e36b4000
+143160 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e36b6000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e36b6000
+143161 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+143162 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143163 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143164 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+143165 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+143166 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+143167 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f4000
+143168 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f59e3189000
+143169 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e31a1000, 2093056, PROT_NONE) = 0
+143170 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e33a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f59e33a0000
+143171 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e33a2000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e33a2000
+143172 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+143173 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143174 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143175 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+143176 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+143177 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+143178 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f59e2dbf000
+143179 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2f7f000, 2097152, PROT_NONE) = 0
+143180 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e317f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f59e317f000
+143181 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e3185000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e3185000
+143182 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+143183 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143184 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143185 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143186 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>
+143187 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\315\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\353\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\267\4\0\0\0\0\0T\267\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\267\4\0\0\0\0\0\250\267$\0\0\0\0\0\250\267$\0\0\0\0\0\3102\0\0\0\0\0\00085\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\335\4\0\0\0\0\0@\335$\0\0\0\0\0"..., 832) = 832
+143188 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466305, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=640, st_size=324256, st_atime=2017/11/26-03:14:07.715401587, st_mtime=2016/04/17-14:42:27, st_ctime=2016/11/03-10:38:46.127999882}) = 0
+143189 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2419936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0) = 0x7f59e2b70000
+143190 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2bbc000, 2093056, PROT_NONE) = 0
+143191 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e2dbb000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0x4b000) = 0x7f59e2dbb000
+143192 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>) = 0
+143193 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143194 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143195 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143196 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>
+143197 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000#\2\0\0\0\0\0@\0\0\0\0\0\0\0\30N\t\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\224\10\0\0\0\0\0T\224\10\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\232\10\0\0\0\0\0(\232(\0\0\0\0\0(\232(\0\0\0\0\0\300\262\0\0\0\0\0\0\350\272\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300,\t\0\0\0\0\0\300,)\0\0\0\0\0"..., 832) = 832
+143198 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465684, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1200, st_size=611608, st_atime=2017/11/26-03:14:07.743401313, st_mtime=2015/10/23-09:03:54, st_ctime=2016/11/03-10:38:40.803999886}) = 0
+143199 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f3000
+143200 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2708752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0) = 0x7f59e28da000
+143201 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2964000, 2093056, PROT_NONE) = 0
+143202 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e2b63000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0x89000) = 0x7f59e2b63000
+143203 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e2b6f000, 1296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e2b6f000
+143204 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>) = 0
+143205 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143206 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143207 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+143208 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+143209 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+143210 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f59e26d6000
+143211 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e26d9000, 2093056, PROT_NONE) = 0
+143212 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e28d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f59e28d8000
+143213 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+143214 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143215 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143216 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+143217 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+143218 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+143219 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f59e24bc000
+143220 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e24d5000, 2093056, PROT_NONE) = 0
+143221 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e26d4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f59e26d4000
+143222 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+143223 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143224 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143225 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+143226 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+143227 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+143228 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f2000
+143229 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f59e229a000
+143230 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e22b9000, 2093056, PROT_NONE) = 0
+143231 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e24b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f59e24b8000
+143232 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e24ba000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e24ba000
+143233 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+143234 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143235 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143236 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+143237 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+143238 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+143239 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f59e207f000
+143240 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2096000, 2097152, PROT_NONE) = 0
+143241 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e2296000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f59e2296000
+143242 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e2298000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e2298000
+143243 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+143244 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143245 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143246 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+143247 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+143248 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+143249 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f59e1e77000
+143250 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1e7e000, 2093056, PROT_NONE) = 0
+143251 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e207d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f59e207d000
+143252 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+143253 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143254 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143255 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+143256 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+143257 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+143258 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f1000
+143259 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f59e1c07000
+143260 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1c75000, 2097152, PROT_NONE) = 0
+143261 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e1e75000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f59e1e75000
+143262 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+143263 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143264 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143265 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143266 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+143267 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+143268 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+143269 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f59e1926000
+143270 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e19fe000, 2093056, PROT_NONE) = 0
+143271 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e1bfd000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f59e1bfd000
+143272 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e1c06000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f59e1c06000
+143273 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+143274 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143275 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143276 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143277 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>
+143278 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\230\0\0\0\0\0\0@\0\0\0\0\0\0\0((\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\30\3\0\0\0\0\0T\30\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\32\3\0\0\0\0\0\210\32#\0\0\0\0\0\210\32#\0\0\0\0\0p\f\0\0\0\0\0\0000\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\35\3\0\0\0\0\0p\35#\0\0\0\0\0"..., 832) = 832
+143279 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465680, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=208680, st_atime=2017/11/26-03:14:07.755401195, st_mtime=2015/10/23-09:03:51, st_ctime=2016/11/03-10:38:40.791999886}) = 0
+143280 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2304184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0) = 0x7f59e16f3000
+143281 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1725000, 2093056, PROT_NONE) = 0
+143282 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e1924000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0x31000) = 0x7f59e1924000
+143283 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>) = 0
+143284 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143285 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143286 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143287 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+143288 , 55897 , 55897 , gvfsd-trash , read(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+143289 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+143290 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42f0000
+143291 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7f59e148e000
+143292 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e14e8000, 2093056, PROT_NONE) = 0
+143293 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e16e7000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7f59e16e7000
+143294 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+143295 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143296 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143297 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+143298 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+143299 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+143300 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f59e128a000
+143301 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e128d000, 2093056, PROT_NONE) = 0
+143302 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e148c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f59e148c000
+143303 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+143304 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143305 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+143306 , 55897 , 55897 , gvfsd-trash , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+143307 , 55897 , 55897 , gvfsd-trash , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+143308 , 55897 , 55897 , gvfsd-trash , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+143309 , 55897 , 55897 , gvfsd-trash , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+143310 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42ef000
+143311 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f59e1076000
+143312 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1088000, 2097152, PROT_NONE) = 0
+143313 , 55897 , 55897 , gvfsd-trash , mmap(0x7f59e1288000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f59e1288000
+143314 , 55897 , 55897 , gvfsd-trash , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+143315 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42ee000
+143316 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42ed000
+143317 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f59e42eb000
+143318 , 55897 , 55897 , gvfsd-trash , arch_prctl(ARCH_SET_FS, 0x7f59e42eb800) = 0
+143319 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e317f000, 16384, PROT_READ) = 0
+143320 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1288000, 4096, PROT_READ) = 0
+143321 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e148c000, 4096, PROT_READ) = 0
+143322 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e33a0000, 4096, PROT_READ) = 0
+143323 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e207d000, 4096, PROT_READ) = 0
+143324 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e16e7000, 40960, PROT_READ) = 0
+143325 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1e75000, 4096, PROT_READ) = 0
+143326 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e36b4000, 4096, PROT_READ) = 0
+143327 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3908000, 4096, PROT_READ) = 0
+143328 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e28d8000, 4096, PROT_READ) = 0
+143329 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e26d4000, 4096, PROT_READ) = 0
+143330 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e24b8000, 4096, PROT_READ) = 0
+143331 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2296000, 4096, PROT_READ) = 0
+143332 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3c8a000, 16384, PROT_READ) = 0
+143333 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1924000, 4096, PROT_READ) = 0
+143334 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e1bfd000, 4096, PROT_READ) = 0
+143335 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2b63000, 40960, PROT_READ) = 0
+143336 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e2dbb000, 12288, PROT_READ) = 0
+143337 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e3ec8000, 20480, PROT_READ) = 0
+143338 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e40f1000, 4096, PROT_READ) = 0
+143339 , 55897 , 55897 , gvfsd-trash , mprotect(0x60a000, 4096, PROT_READ) = 0
+143340 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e4318000, 4096, PROT_READ) = 0
+143341 , 55897 , 55897 , gvfsd-trash , munmap(0x7f59e42f6000, 129890) = 0
+143342 , 55897 , 55897 , gvfsd-trash , set_tid_address(0x7f59e42ebad0) = 55897
+143343 , 55897 , 55897 , gvfsd-trash , set_robust_list(0x7f59e42ebae0, 24) = 0
+143344 , 55897 , 55897 , gvfsd-trash , rt_sigaction(SIGRTMIN, {0x7f59e318eb50, [], SA_RESTORER|SA_SIGINFO, 0x7f59e319a390}, NULL, 8) = 0
+143345 , 55897 , 55897 , gvfsd-trash , rt_sigaction(SIGRT_1, {0x7f59e318ebe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f59e319a390}, NULL, 8) = 0
+143346 , 55897 , 55897 , gvfsd-trash , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+143347 , 55897 , 55897 , gvfsd-trash , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+143348 , 55897 , 55897 , gvfsd-trash , brk(NULL) = 0x17fa000
+143349 , 55897 , 55897 , gvfsd-trash , brk(0x181b000) = 0x181b000
+143350 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e16f2740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143351 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143352 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143353 , 55897 , 55897 , gvfsd-trash , statfs("/sys/fs/selinux", 0x7fff066f1e80) = -1 ENOENT (No such file or directory)
+143354 , 55897 , 55897 , gvfsd-trash , statfs("/selinux", 0x7fff066f1e80) = -1 ENOENT (No such file or directory)
+143355 , 55897 , 55897 , gvfsd-trash , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+143356 , 55897 , 55897 , gvfsd-trash , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.399713492, st_mtime=2017/11/26-08:16:37.399713492, st_ctime=2017/11/26-08:16:37.399713492}) = 0
+143357 , 55897 , 55897 , gvfsd-trash , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+143358 , 55897 , 55897 , gvfsd-trash , read(3</proc/filesystems>, "", 1024) = 0
+143359 , 55897 , 55897 , gvfsd-trash , close(3</proc/filesystems>) = 0
+143360 , 55897 , 55897 , gvfsd-trash , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+143361 , 55897 , 55897 , gvfsd-trash , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+143362 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f59e0d9e000
+143363 , 55897 , 55897 , gvfsd-trash , close(3</usr/lib/locale/locale-archive>) = 0
+143364 , 55897 , 55897 , gvfsd-trash , rt_sigaction(SIGUSR2, {0x7f59e3caa560, [], SA_RESTORER, 0x7f59e319a390}, NULL, 8) = 0
+143365 , 55897 , 55897 , gvfsd-trash , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f59e2df44b0}, {SIG_DFL, [], 0}, 8) = 0
+143366 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143367 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143368 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143369 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143370 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143371 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143372 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143373 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+143374 , 55897 , 55897 , gvfsd-trash , fstat(3</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+143375 , 55897 , 55897 , gvfsd-trash , read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+143376 , 55897 , 55897 , gvfsd-trash , read(3</etc/locale.alias>, "", 4096) = 0
+143377 , 55897 , 55897 , gvfsd-trash , close(3</etc/locale.alias>) = 0
+143378 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143379 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143380 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143381 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143382 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143383 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143384 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143385 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143386 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143387 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143388 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143389 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143390 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143391 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143392 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143393 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143394 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143395 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143396 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143397 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143398 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143399 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143400 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143401 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143402 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+143403 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143404 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143405 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143406 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143407 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143408 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+143409 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143410 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143411 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143412 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143413 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143414 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143415 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143416 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143417 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143418 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143419 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143420 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143421 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143422 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143423 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143424 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143425 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143426 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143427 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143428 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143429 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143430 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143431 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143432 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143433 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143434 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143435 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143436 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143437 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143438 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143439 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143440 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143441 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143442 , 55897 , 55897 , gvfsd-trash , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f59e2df44b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f59e2df44b0}, 8) = 0
+143443 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143444 , 55897 , 55897 , gvfsd-trash , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4<UNIX:[508175]>
+143445 , 55897 , 55897 , gvfsd-trash , fcntl(4<UNIX:[508175]>, F_GETFL) = 0x2 (flags O_RDWR)
+143446 , 55897 , 55897 , gvfsd-trash , fcntl(4<UNIX:[508175]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+143447 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143448 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143449 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143450 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143451 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143452 , 55897 , 55897 , gvfsd-trash , connect(4<UNIX:[508175]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-SivJgCHTvt"}, 23) = 0
+143453 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143454 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143455 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143456 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143457 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143458 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143459 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143460 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143461 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143462 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143463 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143464 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143465 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143466 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143467 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143468 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143469 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143470 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143471 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143472 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143473 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143474 , 55897 , 55897 , gvfsd-trash , brk(0x183c000) = 0x183c000
+143475 , 55897 , 55897 , gvfsd-trash , brk(0x183b000) = 0x183b000
+143476 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143477 , 55897 , 55897 , gvfsd-trash , geteuid() = 0
+143478 , 55897 , 55897 , gvfsd-trash , getegid() = 0
+143479 , 55897 , 55897 , gvfsd-trash , geteuid() = 0
+143480 , 55897 , 55897 , gvfsd-trash , getegid() = 0
+143481 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143482 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143483 , 55897 , 55897 , gvfsd-trash , sendmsg(4<UNIX:[508175]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55897, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+143484 , 55897 , 55897 , gvfsd-trash , sendto(4<UNIX:[508175]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+143485 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175]>, 0x1818650, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+143486 , 55897 , 55897 , gvfsd-trash , poll([{fd=4<UNIX:[508175]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+143537 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175->507420]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+143538 , 55897 , 55897 , gvfsd-trash , sendto(4<UNIX:[508175->507420]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+143539 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175->507420]>, 0x1818650, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+143540 , 55897 , 55897 , gvfsd-trash , poll([{fd=4<UNIX:[508175->507420]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+143558 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175->507420]>, "OK b91cd6b4be1a82c55d8bde6e5a1abe9c\r\n", 4096, 0, NULL, NULL) = 37
+143559 , 55897 , 55897 , gvfsd-trash , sendto(4<UNIX:[508175->507420]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+143560 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175->507420]>, 0x1818650, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+143561 , 55897 , 55897 , gvfsd-trash , poll([{fd=4<UNIX:[508175->507420]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+143579 , 55897 , 55897 , gvfsd-trash , recvfrom(4<UNIX:[508175->507420]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+143580 , 55897 , 55897 , gvfsd-trash , sendto(4<UNIX:[508175->507420]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+143581 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143582 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143583 , 55897 , 55897 , gvfsd-trash , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+143584 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+143585 , 55897 , 55897 , gvfsd-trash , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143586 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f59e059d000
+143587 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59e059d000, 4096, PROT_NONE) = 0
+143588 , 55897 , 55897 , gvfsd-trash , clone(child_stack=0x7f59e0d9cef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f59e0d9d9d0, tls=0x7f59e0d9d700, child_tidptr=0x7f59e0d9d9d0) = 55898
+143589 , 55897 , 55897 , gvfsd-trash , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+143590 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143591 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143592 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143593 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+143594 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143595 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f59dfd9c000
+143596 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59dfd9c000, 4096, PROT_NONE) = 0
+143597 , 55897 , 55897 , gvfsd-trash , clone(child_stack=0x7f59e059bef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f59e059c9d0, tls=0x7f59e059c700, child_tidptr=0x7f59e059c9d0) = 55899
+143598 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143599 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143600 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+143601 , 55897 , 55897 , gvfsd-trash , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143602 , 55897 , 55897 , gvfsd-trash , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+143603 , 55897 , 55897 , gvfsd-trash , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+143604 , 55897 , 55897 , gvfsd-trash , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+143605 , 55897 , 55897 , gvfsd-trash , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+143695 , 55897 , 55897 , gvfsd-trash , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+143696 , 55897 , 55897 , gvfsd-trash , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143697 , 55897 , 55897 , gvfsd-trash , futex(0x181bee0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143698 , 55897 , 55897 , gvfsd-trash , close(7<anon_inode:[eventfd]>) = 0
+143699 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143701 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+143708 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e3c90098, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+143710 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e3c900a0, FUTEX_WAKE_PRIVATE, 1) = 1
+143715 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+143717 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+143721 , 55897 , 55897 , gvfsd-trash , futex(0x18186f0, FUTEX_WAKE_PRIVATE, 1) = 1
+143728 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143729 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143730 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+143731 , 55897 , 55897 , gvfsd-trash , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f59df59b000
+143732 , 55897 , 55897 , gvfsd-trash , mprotect(0x7f59df59b000, 4096, PROT_NONE) = 0
+143733 , 55897 , 55897 , gvfsd-trash , clone(child_stack=0x7f59dfd9aef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f59dfd9b9d0, tls=0x7f59dfd9b700, child_tidptr=0x7f59dfd9b9d0) = 55900
+143734 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+143735 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+143736 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+143737 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+144125 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144127 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144129 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+144202 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144204 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144208 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144210 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144212 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144215 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144218 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144221 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144225 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144229 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144234 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144238 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+144240 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+144244 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+144246 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+144250 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144252 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+144257 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144259 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144262 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144264 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144267 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144276 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144282 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144284 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144286 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144287 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+144289 , 55897 , 55897 , gvfsd-trash , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144292 , 55897 , 55897 , gvfsd-trash , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+144294 , 55897 , 55897 , gvfsd-trash , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144295 , 55897 , 55897 , gvfsd-trash , futex(0x1811360, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144298 , 55897 , 55897 , gvfsd-trash , close(7<anon_inode:[eventfd]>) = 0
+144304 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144307 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+144309 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 24993) = 1 ([{fd=3, revents=POLLIN}])
+144389 , 55897 , 55897 , gvfsd-trash , futex(0x180f0a0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+144391 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144394 , 55897 , 55897 , gvfsd-trash , futex(0x180f0a0, FUTEX_WAKE_PRIVATE, 1) = 0
+144396 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144398 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+144401 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 24985) = 1 ([{fd=3, revents=POLLIN}])
+144608 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144610 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 24945) = 1 ([{fd=3, revents=POLLIN}])
+144625 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144628 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+144654 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+144656 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144658 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144660 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144662 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144664 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144666 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144668 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144670 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144673 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144676 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+144678 , 55897 , 55897 , gvfsd-trash , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+144680 , 55897 , 55897 , gvfsd-trash , futex(0x1818d20, FUTEX_WAKE_PRIVATE, 1) = 1
+144683 , 55897 , 55897 , gvfsd-trash , futex(0x1818d20, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+144688 , 55897 , 55897 , gvfsd-trash , futex(0x1818d20, FUTEX_WAKE_PRIVATE, 1) = 0
+144689 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e3c910e8, FUTEX_WAKE_PRIVATE, 1) = 1
+144692 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e3c910f8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+146154 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146157 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146159 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146163 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146166 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146168 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146170 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146172 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146174 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146176 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146179 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146182 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146184 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146186 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146188 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146190 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146192 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146195 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146197 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146199 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146201 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146203 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146205 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146207 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146210 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146213 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146215 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146217 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146219 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146221 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146223 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146226 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146229 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146231 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146233 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146235 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146237 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146239 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146241 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146244 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146246 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146248 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146251 , 55897 , 55897 , gvfsd-trash , access("/", R_OK) = 0
+146253 , 55897 , 55897 , gvfsd-trash , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 9</proc/55897/mounts>
+146255 , 55897 , 55897 , gvfsd-trash , fstat(9</proc/55897/mounts>, {st_dev=makedev(0, 4), st_ino=507425, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:37.803715764, st_mtime=2017/11/26-08:16:37.803715764, st_ctime=2017/11/26-08:16:37.803715764}) = 0
+146257 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+146260 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+146263 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+146265 , 55897 , 55897 , gvfsd-trash , read(9</proc/55897/mounts>, "", 1024) = 0
+146266 , 55897 , 55897 , gvfsd-trash , close(9</proc/55897/mounts>) = 0
+146269 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+146271 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+146275 , 55897 , 55897 , gvfsd-trash , futex(0x1818bf0, FUTEX_WAKE_PRIVATE, 1) = 1
+146278 , 55897 , 55897 , gvfsd-trash , futex(0x1818be0, FUTEX_WAKE_PRIVATE, 1) = 0
+146282 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+146284 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+146288 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+146291 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+146293 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+146297 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+146299 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+146302 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+146804 , 55897 , 55897 , gvfsd-trash , futex(0x180f0a0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+146806 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+146809 , 55897 , 55897 , gvfsd-trash , futex(0x180f0a0, FUTEX_WAKE_PRIVATE, 1) = 0
+146811 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+146814 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+146816 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+146821 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+146823 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+146825 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+148199 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148200 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148201 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148203 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+148207 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+148210 , 55897 , 55897 , gvfsd-trash , futex(0x180e1d8, FUTEX_WAKE_PRIVATE, 1) = 1
+148216 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+149015 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+149016 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+149018 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+149022 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+149025 , 55897 , 55897 , gvfsd-trash , futex(0x180e1d8, FUTEX_WAKE_PRIVATE, 1) = 1
+149031 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 0) = 0 (Timeout)
+149032 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, 0x7fff066f1d00, 16) = -1 EAGAIN (Resource temporarily unavailable)
+149033 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+152692 , 55897 , 55897 , gvfsd-trash , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+152693 , 55897 , 55897 , gvfsd-trash , read(9</dev/urandom>, "\24;\266\215\240$*\325\342\321\32\256\263[\30\215", 16) = 16
+152694 , 55897 , 55897 , gvfsd-trash , close(9</dev/urandom>) = 0
+152695 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152696 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152697 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152698 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152699 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152700 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152701 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152702 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152703 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152704 , 55897 , 55897 , gvfsd-trash , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[510462]>
+152705 , 55897 , 55897 , gvfsd-trash , fcntl(9<UNIX:[510462]>, F_GETFL) = 0x2 (flags O_RDWR)
+152706 , 55897 , 55897 , gvfsd-trash , fcntl(9<UNIX:[510462]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+152707 , 55897 , 55897 , gvfsd-trash , setsockopt(9<UNIX:[510462]>, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+152708 , 55897 , 55897 , gvfsd-trash , setsockopt(9<UNIX:[510462]>, SOL_SOCKET, SO_REUSEPORT, [0], 4) = 0
+152709 , 55897 , 55897 , gvfsd-trash , bind(9<UNIX:[510462]>, {sa_family=AF_LOCAL, sun_path=@"/dbus-vfs-daemon/socket-aG2qlnVR"}, 35) = 0
+152710 , 55897 , 55897 , gvfsd-trash , listen(9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, 10) = 0
+152711 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152712 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152714 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+152718 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+152721 , 55897 , 55897 , gvfsd-trash , futex(0x180e1d8, FUTEX_WAKE_PRIVATE, 1) = 1
+152727 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+152728 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+152729 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, -1) = 1 ([{fd=9, revents=POLLIN}])
+153242 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, 0x7fff066f1d00, 16) = -1 EAGAIN (Resource temporarily unavailable)
+153243 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+153244 , 55897 , 55897 , gvfsd-trash , accept(9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, NULL, NULL) = 10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>
+153245 , 55897 , 55897 , gvfsd-trash , fcntl(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, F_GETFD) = 0
+153246 , 55897 , 55897 , gvfsd-trash , fcntl(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, F_SETFD, FD_CLOEXEC) = 0
+153247 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+153248 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+153249 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+153250 , 55897 , 55897 , gvfsd-trash , getsockopt(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+153251 , 55897 , 55897 , gvfsd-trash , getsockname(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, {sa_family=AF_LOCAL, sun_path=@"/dbus-vfs-daemon/socket-aG2qlnVR"}, [35]) = 0
+153252 , 55897 , 55897 , gvfsd-trash , getpeername(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+153253 , 55897 , 55897 , gvfsd-trash , getsockopt(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, SOL_SOCKET, SO_KEEPALIVE, [0], [4]) = 0
+153254 , 55897 , 55897 , gvfsd-trash , fcntl(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, F_GETFL) = 0x2 (flags O_RDWR)
+153255 , 55897 , 55897 , gvfsd-trash , fcntl(10<UNIX:[510561->510538,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+153256 , 55897 , 55897 , gvfsd-trash , futex(0x1818c40, FUTEX_WAKE_PRIVATE, 1) = 1
+153258 , 55897 , 55897 , gvfsd-trash , futex(0x1818c30, FUTEX_WAKE_PRIVATE, 1) = 1
+153261 , 55897 , 55897 , gvfsd-trash , futex(0x1831c00, FUTEX_WAKE_PRIVATE, 1) = 1
+153268 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+153269 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+153270 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+153271 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+153272 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+156424 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156425 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156426 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156428 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+156432 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, events=POLLIN}], 3, 0) = 1 ([{fd=3, revents=POLLIN}])
+156433 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156434 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156435 , 55897 , 55897 , gvfsd-trash , accept(9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+156436 , 55897 , 55897 , gvfsd-trash , futex(0x1831c10, FUTEX_WAKE_PRIVATE, 1) = 1
+156438 , 55897 , 55897 , gvfsd-trash , futex(0x1831c00, FUTEX_WAKE_PRIVATE, 1) = 1
+156441 , 55897 , 55897 , gvfsd-trash , close(9<UNIX:[510462,@"/dbus-vfs-daemon/socket-aG2qlnVR"]>) = 0
+156442 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+156443 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156444 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+156719 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156720 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156721 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156722 , 55897 , 55897 , gvfsd-trash , statfs("/home/elwin", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=25253992, f_bfree=18982067, f_bavail=17743301, f_files=6422528, f_ffree=5564298, f_fsid={-239998772, 1566319587}, f_namelen=255, f_frsize=4096, f_flags=4128}) = 0
+156723 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156724 , 55897 , 55897 , gvfsd-trash , inotify_add_watch(7<anon_inode:inotify>, "/home/elwin/.local/share", IN_MODIFY|IN_ATTRIB|IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_CREATE|IN_DELETE|IN_DELETE_SELF|IN_MOVE_SELF|IN_UNMOUNT|IN_ONLYDIR) = 2
+156725 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash", {st_dev=makedev(8, 1), st_ino=3035324, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/10/30-04:17:17.464372077, st_mtime=2017/10/30-04:17:17.464372077, st_ctime=2017/10/30-04:17:17.464372077}) = 0
+156726 , 55897 , 55897 , gvfsd-trash , inotify_add_watch(7<anon_inode:inotify>, "/home/elwin/.local/share/Trash", IN_MODIFY|IN_ATTRIB|IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_CREATE|IN_DELETE|IN_DELETE_SELF|IN_MOVE_SELF|IN_UNMOUNT|IN_ONLYDIR) = 3
+156727 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash/files", {st_dev=makedev(8, 1), st_ino=3036134, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:20.507280045, st_mtime=2017/10/30-04:17:17.544370986, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+161281 , 55897 , 55897 , gvfsd-trash , inotify_add_watch(7<anon_inode:inotify>, "/home/elwin/.local/share/Trash/files", IN_MODIFY|IN_ATTRIB|IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_CREATE|IN_DELETE|IN_DELETE_SELF|IN_MOVE_SELF|IN_UNMOUNT|IN_ONLYDIR) = 4
+161282 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161283 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash/files", {st_dev=makedev(8, 1), st_ino=3036134, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:20.507280045, st_mtime=2017/10/30-04:17:17.544370986, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+161284 , 55897 , 55897 , gvfsd-trash , open("/home/elwin/.local/share/Trash/files", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</home/elwin/.local/share/Trash/files>
+161285 , 55897 , 55897 , gvfsd-trash , fstat(9</home/elwin/.local/share/Trash/files>, {st_dev=makedev(8, 1), st_ino=3036134, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:20.507280045, st_mtime=2017/10/30-04:17:17.544370986, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+161286 , 55897 , 55897 , gvfsd-trash , brk(0x1861000) = 0x1861000
+161287 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161288 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161289 , 55897 , 55897 , gvfsd-trash , getdents(9</home/elwin/.local/share/Trash/files>, [{d_ino=4352168, d_off=3010095946851488672, d_reclen=32, d_name="clone.log", d_type=DT_REG}, {d_ino=3035324, d_off=3634046982714845681, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4352167, d_off=5631377344940824842, d_reclen=32, d_name="clone4.log", d_type=DT_REG}, {d_ino=4352164, d_off=5710434140879988661, d_reclen=32, d_name="clone5.log", d_type=DT_REG}, {d_ino=3036134, d_off=9223372036854775807, d_reclen=24, d_name=".", d_type=DT_DIR}], 32768) = 144
+161306 , 55897 , 55897 , gvfsd-trash , getdents(9</home/elwin/.local/share/Trash/files>, [], 32768) = 0
+161307 , 55897 , 55897 , gvfsd-trash , getdents(9</home/elwin/.local/share/Trash/files>, [], 32768) = 0
+161308 , 55897 , 55897 , gvfsd-trash , close(9</home/elwin/.local/share/Trash/files>) = 0
+161309 , 55897 , 55897 , gvfsd-trash , open("/usr/share/locale/locale.alias", O_RDONLY) = 9</etc/locale.alias>
+161310 , 55897 , 55897 , gvfsd-trash , fstat(9</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+161311 , 55897 , 55897 , gvfsd-trash , read(9</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+161312 , 55897 , 55897 , gvfsd-trash , read(9</etc/locale.alias>, "", 4096) = 0
+161313 , 55897 , 55897 , gvfsd-trash , close(9</etc/locale.alias>) = 0
+161314 , 55897 , 55897 , gvfsd-trash , open("/home/elwin/.local/share/Trash/info/clone.log.trashinfo", O_RDONLY) = 9</home/elwin/.local/share/Trash/info/clone.log.trashinfo>
+161462 , 55897 , 55897 , gvfsd-trash , fstat(9</home/elwin/.local/share/Trash/info/clone.log.trashinfo>, {st_dev=makedev(8, 1), st_ino=3036269, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=134, st_atime=2017/11/26-03:14:20.687278387, st_mtime=2017/10/30-04:17:17.484371804, st_ctime=2017/10/30-04:17:17.484371804}) = 0
+161463 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone.log.trashinfo>, "[Trash Info]\nPath=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/data_process/clone.log\nDeletionDate=2017-10-30T04:17:17\n", 4096) = 134
+161561 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone.log.trashinfo>, "", 4096) = 0
+161562 , 55897 , 55897 , gvfsd-trash , close(9</home/elwin/.local/share/Trash/info/clone.log.trashinfo>) = 0
+161563 , 55897 , 55897 , gvfsd-trash , open("/home/elwin/.local/share/Trash/info/clone4.log.trashinfo", O_RDONLY) = 9</home/elwin/.local/share/Trash/info/clone4.log.trashinfo>
+161564 , 55897 , 55897 , gvfsd-trash , fstat(9</home/elwin/.local/share/Trash/info/clone4.log.trashinfo>, {st_dev=makedev(8, 1), st_ino=3036270, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=135, st_atime=2017/11/26-03:14:20.687278387, st_mtime=2017/10/30-04:17:17.544370986, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+161565 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone4.log.trashinfo>, "[Trash Info]\nPath=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/data_process/clone4.log\nDeletionDate=2017-10-30T04:17:17\n", 4096) = 135
+161568 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone4.log.trashinfo>, "", 4096) = 0
+161569 , 55897 , 55897 , gvfsd-trash , close(9</home/elwin/.local/share/Trash/info/clone4.log.trashinfo>) = 0
+161570 , 55897 , 55897 , gvfsd-trash , open("/home/elwin/.local/share/Trash/info/clone5.log.trashinfo", O_RDONLY) = 9</home/elwin/.local/share/Trash/info/clone5.log.trashinfo>
+161571 , 55897 , 55897 , gvfsd-trash , fstat(9</home/elwin/.local/share/Trash/info/clone5.log.trashinfo>, {st_dev=makedev(8, 1), st_ino=3036271, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=135, st_atime=2017/11/26-03:14:20.695278313, st_mtime=2017/10/30-04:17:17.544370986, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+161572 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone5.log.trashinfo>, "[Trash Info]\nPath=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/data_process/clone5.log\nDeletionDate=2017-10-30T04:17:17\n", 4096) = 135
+161573 , 55897 , 55897 , gvfsd-trash , read(9</home/elwin/.local/share/Trash/info/clone5.log.trashinfo>, "", 4096) = 0
+161574 , 55897 , 55897 , gvfsd-trash , close(9</home/elwin/.local/share/Trash/info/clone5.log.trashinfo>) = 0
+161575 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161576 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161577 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161578 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161580 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+161584 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4004150, FUTEX_WAKE_PRIVATE, 1) = 1
+161587 , 55897 , 55897 , gvfsd-trash , futex(0x180e6d8, FUTEX_WAKE_PRIVATE, 1) = 1
+161593 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 4802) = 1 ([{fd=3, revents=POLLIN}])
+161661 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161662 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161664 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+161668 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4004150, FUTEX_WAKE_PRIVATE, 1) = 1
+161671 , 55897 , 55897 , gvfsd-trash , futex(0x180e6d8, FUTEX_WAKE_PRIVATE, 1) = 1
+161677 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 4791) = 1 ([{fd=3, revents=POLLIN}])
+163475 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+163476 , 55897 , 55897 , gvfsd-trash , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[512250]>
+163477 , 55897 , 55897 , gvfsd-trash , fcntl(9<UNIX:[512250]>, F_GETFL) = 0x2 (flags O_RDWR)
+163478 , 55897 , 55897 , gvfsd-trash , fcntl(9<UNIX:[512250]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+163479 , 55897 , 55897 , gvfsd-trash , setsockopt(9<UNIX:[512250]>, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+163480 , 55897 , 55897 , gvfsd-trash , setsockopt(9<UNIX:[512250]>, SOL_SOCKET, SO_REUSEPORT, [0], 4) = 0
+163481 , 55897 , 55897 , gvfsd-trash , bind(9<UNIX:[512250]>, {sa_family=AF_LOCAL, sun_path=@"/dbus-vfs-daemon/socket-5xETF7mF"}, 35) = 0
+163482 , 55897 , 55897 , gvfsd-trash , listen(9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, 10) = 0
+163483 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+163484 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+163486 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+163490 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d4001ca0, FUTEX_WAKE_PRIVATE, 1) = 1
+163493 , 55897 , 55897 , gvfsd-trash , futex(0x180e1d8, FUTEX_WAKE_PRIVATE, 1) = 1
+163499 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 4505) = 1 ([{fd=3, revents=POLLIN}])
+163500 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+163501 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 4504) = 1 ([{fd=9, revents=POLLIN}])
+163950 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, 0x7fff066f1d00, 16) = -1 EAGAIN (Resource temporarily unavailable)
+163951 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+163952 , 55897 , 55897 , gvfsd-trash , accept(9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, NULL, NULL) = 11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>
+163953 , 55897 , 55897 , gvfsd-trash , fcntl(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, F_GETFD) = 0
+163954 , 55897 , 55897 , gvfsd-trash , fcntl(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, F_SETFD, FD_CLOEXEC) = 0
+163955 , 55897 , 55897 , gvfsd-trash , getsockopt(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+163956 , 55897 , 55897 , gvfsd-trash , getsockname(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, {sa_family=AF_LOCAL, sun_path=@"/dbus-vfs-daemon/socket-5xETF7mF"}, [35]) = 0
+163957 , 55897 , 55897 , gvfsd-trash , getpeername(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+163958 , 55897 , 55897 , gvfsd-trash , getsockopt(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, SOL_SOCKET, SO_KEEPALIVE, [0], [4]) = 0
+163959 , 55897 , 55897 , gvfsd-trash , fcntl(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, F_GETFL) = 0x2 (flags O_RDWR)
+163960 , 55897 , 55897 , gvfsd-trash , fcntl(11<UNIX:[512381->509010,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+163961 , 55897 , 55897 , gvfsd-trash , futex(0x1818c40, FUTEX_WAKE_PRIVATE, 1) = 1
+163963 , 55897 , 55897 , gvfsd-trash , futex(0x1818c30, FUTEX_WAKE_PRIVATE, 1) = 1
+163966 , 55897 , 55897 , gvfsd-trash , futex(0x1831540, FUTEX_WAKE_PRIVATE, 1) = 1
+163972 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+163973 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 4435) = 1 ([{fd=3, revents=POLLIN}])
+163974 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 4435) = 1 ([{fd=3, revents=POLLIN}])
+163975 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+163976 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 4435) = 1 ([{fd=3, revents=POLLIN}])
+164118 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+164120 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+164124 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+164128 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+164131 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+164133 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+164137 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+164139 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}, {fd=9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, events=POLLIN}], 3, 0) = 1 ([{fd=3, revents=POLLIN}])
+164141 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+164143 , 55897 , 55897 , gvfsd-trash , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+164145 , 55897 , 55897 , gvfsd-trash , accept(9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+164150 , 55897 , 55897 , gvfsd-trash , futex(0x1831550, FUTEX_WAKE_PRIVATE, 1) = 1
+164155 , 55897 , 55897 , gvfsd-trash , futex(0x1831540, FUTEX_WAKE_PRIVATE, 1) = 0
+164158 , 55897 , 55897 , gvfsd-trash , close(9<UNIX:[512250,@"/dbus-vfs-daemon/socket-5xETF7mF"]>) = 0
+164161 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 4378) = 1 ([{fd=3, revents=POLLIN}])
+164163 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+164165 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 4378) = 1 ([{fd=3, revents=POLLIN}])
+166797 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+166802 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166816 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166820 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+166829 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+166831 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 0
+166833 , 55897 , 55897 , gvfsd-trash , futex(0x7f59d40036c0, FUTEX_WAKE_PRIVATE, 1) = 1
+166848 , 55897 , 55897 , gvfsd-trash , futex(0x180e7d8, FUTEX_WAKE_PRIVATE, 1) = 1
+166854 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash/files/clone.log", {st_dev=makedev(8, 1), st_ino=4352168, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=2058, st_atime=2017/10/30-04:16:51.820726196, st_mtime=2017/05/23-05:49:08, st_ctime=2017/10/30-04:17:17.484371804}) = 0
+166862 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash/files/clone5.log", {st_dev=makedev(8, 1), st_ino=4352164, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=3342, st_atime=2017/10/30-04:17:07.460509240, st_mtime=2017/07/13-10:13:37, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+166867 , 55897 , 55897 , gvfsd-trash , lstat("/home/elwin/.local/share/Trash/files/clone4.log", {st_dev=makedev(8, 1), st_ino=4352167, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=2262, st_atime=2017/10/30-04:17:03.660561669, st_mtime=2017/05/23-07:01:59, st_ctime=2017/10/30-04:17:17.544370986}) = 0
+166875 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166878 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166888 , 55897 , 55897 , gvfsd-trash , futex(0x7f59e36b6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166890 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+166892 , 55897 , 55897 , gvfsd-trash , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166895 , 55897 , 55897 , gvfsd-trash , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+166897 , 55897 , 55897 , gvfsd-trash , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166900 , 55897 , 55897 , gvfsd-trash , futex(0x183a260, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166937 , 55897 , 55897 , gvfsd-trash , close(9<anon_inode:[eventfd]>) = 0
+166947 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166951 , 55897 , 55897 , gvfsd-trash , futex(0x18194d0, FUTEX_WAKE_PRIVATE, 1) = 1
+166957 , 55897 , 55897 , gvfsd-trash , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+166971 , 55897 , 55897 , gvfsd-trash , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166979 , 55897 , 55897 , gvfsd-trash , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+166985 , 55897 , 55897 , gvfsd-trash , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+166988 , 55897 , 55897 , gvfsd-trash , futex(0x183a8c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+166990 , 55897 , 55897 , gvfsd-trash , close(9<anon_inode:[eventfd]>) = 0
+166995 , 55897 , 55897 , gvfsd-trash , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+167006 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 3697) = 1 ([{fd=3, revents=POLLIN}])
+167355 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+167360 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 3617) = 1 ([{fd=3, revents=POLLIN}])
+167382 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+167390 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, 3610) = 0 (Timeout)
+185661 , 55897 , 55897 , gvfsd-trash , read(3<anon_inode:[eventfd]>, 0x7fff066f1d00, 16) = -1 EAGAIN (Resource temporarily unavailable)
+185663 , 55897 , 55897 , gvfsd-trash , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=8</proc/55897/mounts>, events=0}], 2, -1

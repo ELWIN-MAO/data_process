@@ -1,0 +1,537 @@
+131856 , 55889 , 55876 , evolution-addre , set_robust_list(0x7fef1effd9e0, 24) = 0
+131858 , 55889 , 55876 , evolution-addre , mmap(0x7fef10000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fef10000000
+131860 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10000000, 139264, PROT_READ|PROT_WRITE) = 0
+131883 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131884 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131885 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131886 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131887 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131888 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131889 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131890 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+131891 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+131892 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+131893 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+131894 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+131895 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+131896 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+131897 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+131898 , 55889 , 55876 , evolution-addre , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+131899 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+134665 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+134668 , 55889 , 55876 , evolution-addre , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+134670 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAKE_PRIVATE, 1) = 1
+134672 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+134677 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+134680 , 55889 , 55876 , evolution-addre , futex(0x7fef1800c260, FUTEX_WAKE_PRIVATE, 1) = 1
+134682 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAKE_PRIVATE, 1) = 0
+134684 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+134994 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+134996 , 55889 , 55876 , evolution-addre , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+134998 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAKE_PRIVATE, 1) = 1
+135000 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135003 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+135005 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAKE_PRIVATE, 1) = 1
+135007 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 11<anon_inode:[eventfd]>
+135009 , 55889 , 55876 , evolution-addre , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135012 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+135015 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135018 , 55889 , 55876 , evolution-addre , futex(0x7fef1800c260, FUTEX_WAKE_PRIVATE, 1) = 1
+135020 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAKE_PRIVATE, 1) = 0
+135022 , 55889 , 55876 , evolution-addre , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=11, revents=POLLIN}])
+135024 , 55889 , 55876 , evolution-addre , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=11, revents=POLLIN}])
+135025 , 55889 , 55876 , evolution-addre , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+135028 , 55889 , 55876 , evolution-addre , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=11, revents=POLLIN}])
+135431 , 55889 , 55876 , evolution-addre , futex(0x7fef100080e0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+135433 , 55889 , 55876 , evolution-addre , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+135434 , 55889 , 55876 , evolution-addre , futex(0x7fef100080e0, FUTEX_WAKE_PRIVATE, 1) = 0
+135437 , 55889 , 55876 , evolution-addre , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135439 , 55889 , 55876 , evolution-addre , futex(0x7fef100080f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+135441 , 55889 , 55876 , evolution-addre , close(11<anon_inode:[eventfd]>) = 0
+135443 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+135446 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135448 , 55889 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+135450 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+135452 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+135454 , 55889 , 55876 , evolution-addre , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+135456 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=10, revents=POLLIN}])
+137769 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+137771 , 55889 , 55876 , evolution-addre , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+137773 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAKE_PRIVATE, 1) = 1
+137775 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137778 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137780 , 55889 , 55876 , evolution-addre , futex(0x7fef10007c70, FUTEX_WAKE_PRIVATE, 1) = 1
+137782 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137785 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137787 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137789 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137791 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137794 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137796 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137798 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137800 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137802 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137804 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137806 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137808 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137810 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137812 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137814 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137816 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137818 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137820 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137822 , 55889 , 55876 , evolution-addre , futex(0x7fef1000a700, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137824 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137826 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137828 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137830 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137832 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137834 , 55889 , 55876 , evolution-addre , futex(0x7fef1000bb20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137836 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137838 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137840 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137842 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137844 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137846 , 55889 , 55876 , evolution-addre , futex(0x7fef1000bee0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137848 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137851 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137853 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137855 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137857 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137859 , 55889 , 55876 , evolution-addre , futex(0x7fef1000c2b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137860 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137862 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137864 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137866 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137868 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137870 , 55889 , 55876 , evolution-addre , futex(0x7fef1000cb10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137872 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137874 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137876 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137878 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137880 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137882 , 55889 , 55876 , evolution-addre , futex(0x7fef1000ce40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137884 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137886 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137888 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137890 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137892 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137894 , 55889 , 55876 , evolution-addre , futex(0x7fef1000d200, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137896 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137898 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137900 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137902 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137904 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137906 , 55889 , 55876 , evolution-addre , futex(0x7fef1000d5d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137908 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137910 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137912 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137914 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137916 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137918 , 55889 , 55876 , evolution-addre , futex(0x7fef1000e170, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137920 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137922 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137924 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137926 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137928 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137930 , 55889 , 55876 , evolution-addre , futex(0x7fef1000e610, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137932 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137934 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137936 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137938 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137940 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137942 , 55889 , 55876 , evolution-addre , futex(0x7fef1000f0d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137944 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137946 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137948 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137950 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137952 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137954 , 55889 , 55876 , evolution-addre , futex(0x7fef1000f370, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137956 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137958 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137960 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137962 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137964 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137966 , 55889 , 55876 , evolution-addre , futex(0x7fef1000f620, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137968 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137970 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137972 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137974 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137976 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137978 , 55889 , 55876 , evolution-addre , futex(0x7fef1000f8f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137980 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137982 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137984 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137986 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+137988 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137990 , 55889 , 55876 , evolution-addre , futex(0x7fef1000fba0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137992 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+137994 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+137996 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+137998 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138000 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138002 , 55889 , 55876 , evolution-addre , futex(0x7fef1000fe70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138004 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138006 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138008 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138010 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138012 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138014 , 55889 , 55876 , evolution-addre , futex(0x7fef10010120, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138016 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138018 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138020 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138022 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138024 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138026 , 55889 , 55876 , evolution-addre , futex(0x7fef100103f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138028 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138030 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138032 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138034 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138036 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138038 , 55889 , 55876 , evolution-addre , futex(0x7fef10010680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138040 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138042 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138044 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138046 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138048 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138050 , 55889 , 55876 , evolution-addre , futex(0x7fef10011920, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138052 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138054 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138056 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138058 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138060 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138062 , 55889 , 55876 , evolution-addre , futex(0x7fef10011bf0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138064 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138066 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138068 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138070 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138072 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138074 , 55889 , 55876 , evolution-addre , futex(0x7fef10011e70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138076 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138078 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138080 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138082 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138084 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138086 , 55889 , 55876 , evolution-addre , futex(0x7fef10012190, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138088 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138090 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138092 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138094 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138096 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138098 , 55889 , 55876 , evolution-addre , futex(0x7fef10012430, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138100 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138103 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138105 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138107 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138109 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138111 , 55889 , 55876 , evolution-addre , futex(0x7fef100126e0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138113 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138115 , 55889 , 55876 , evolution-addre , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+138117 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138119 , 55889 , 55876 , evolution-addre , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+138121 , 55889 , 55876 , evolution-addre , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+138123 , 55889 , 55876 , evolution-addre , futex(0x7fef10012980, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138124 , 55889 , 55876 , evolution-addre , close(10<anon_inode:[eventfd]>) = 0
+138128 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138130 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138132 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en_US/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138134 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138136 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en.utf8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138137 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/en/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138139 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138142 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138144 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138146 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138148 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138150 , 55889 , 55876 , evolution-addre , open("/usr/share/locale-langpack/en/LC_MESSAGES/evolution-data-server-3.18.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+138152 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138154 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138156 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138158 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138160 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138162 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138164 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138166 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138168 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138170 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138172 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138174 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138176 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138178 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138180 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138182 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138184 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138186 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138188 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138190 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138192 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138194 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138196 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138198 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138200 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138202 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138204 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138205 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138207 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138209 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138211 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138213 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138215 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138217 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138219 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138221 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138224 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138226 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138228 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138230 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138232 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138234 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers>
+138235 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers>, {st_dev=makedev(8, 1), st_ino=4461175, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:15.575326050, st_mtime=2016/04/20-18:11:23, st_ctime=2016/11/03-10:40:33.115999801}) = 0
+138237 , 55889 , 55876 , evolution-addre , getdents(10</usr/lib/evolution-data-server/camel-providers>, [{d_ino=4461189, d_off=1607268297569691653, d_reclen=40, d_name="libcamelimapx.urls", d_type=DT_REG}, {d_ino=4461195, d_off=2903137926149513243, d_reclen=40, d_name="libcamelpop3.urls", d_type=DT_REG}, {d_ino=4461188, d_off=3010095946851488672, d_reclen=40, d_name="libcamelimapx.so", d_type=DT_REG}, {d_ino=4460354, d_off=3945206458445404638, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4461192, d_off=4635282111622183419, d_reclen=40, d_name="libcamelnntp.so", d_type=DT_REG}, {d_ino=4461191, d_off=4759088274594688026, d_reclen=40, d_name="libcamellocal.urls", d_type=DT_REG}, {d_ino=4461196, d_off=5053770110077950214, d_reclen=40, d_name="libcamelsendmail.so", d_type=DT_REG}, {d_ino=4461197, d_off=5255869113114907290, d_reclen=48, d_name="libcamelsendmail.urls", d_type=DT_REG}, {d_ino=4461190, d_off=5710434140879988661, d_reclen=40, d_name="libcamellocal.so", d_type=DT_REG}, {d_ino=4461175, d_off=6567413493737150024, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4461193, d_off=6853378675146879761, d_reclen=40, d_name="libcamelnntp.urls", d_type=DT_REG}, {d_ino=4461198, d_off=7387565409408991383, d_reclen=40, d_name="libcamelsmtp.so", d_type=DT_REG}, {d_ino=4461194, d_off=8278208133797725677, d_reclen=40, d_name="libcamelpop3.so", d_type=DT_REG}, {d_ino=4461199, d_off=9223372036854775807, d_reclen=40, d_name="libcamelsmtp.urls", d_type=DT_REG}], 32768) = 536
+138240 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls>
+138242 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls>, {st_dev=makedev(8, 1), st_ino=4461189, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=6, st_atime=2017/11/26-03:14:15.587325937, st_mtime=2016/02/23-07:23:43, st_ctime=2016/11/03-10:37:59.751999918}) = 0
+138244 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls>, "imapx\n", 4096) = 6
+138246 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls>, "", 4096) = 0
+138248 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamelimapx.urls>) = 0
+138250 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls>
+138252 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls>, {st_dev=makedev(8, 1), st_ino=4461195, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4, st_atime=2017/11/26-03:14:15.587325937, st_mtime=2016/02/23-07:23:41, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138254 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10022000, 4096, PROT_READ|PROT_WRITE) = 0
+138256 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls>, "pop\n", 4096) = 4
+138258 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls>, "", 4096) = 0
+138260 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamelpop3.urls>) = 0
+138262 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamellocal.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamellocal.urls>
+138264 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamellocal.urls>, {st_dev=makedev(8, 1), st_ino=4461191, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=22, st_atime=2017/11/26-03:14:15.587325937, st_mtime=2016/02/23-07:23:44, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138266 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamellocal.urls>, "mh\nmbox\nmaildir\nspool\n", 4096) = 22
+138268 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamellocal.urls>, "", 4096) = 0
+138269 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamellocal.urls>) = 0
+138271 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls>
+138273 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls>, {st_dev=makedev(8, 1), st_ino=4461197, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=9, st_atime=2017/11/26-03:14:15.591325899, st_mtime=2016/02/23-07:23:42, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138275 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls>, "sendmail\n", 4096) = 9
+138277 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls>, "", 4096) = 0
+138279 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.urls>) = 0
+138281 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls>
+138283 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls>, {st_dev=makedev(8, 1), st_ino=4461193, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=10, st_atime=2017/11/26-03:14:15.591325899, st_mtime=2016/02/23-07:23:43, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138285 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls>, "news\nnntp\n", 4096) = 10
+138287 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls>, "", 4096) = 0
+138289 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamelnntp.urls>) = 0
+138291 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls", O_RDONLY) = 11</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls>
+138293 , 55889 , 55876 , evolution-addre , fstat(11</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls>, {st_dev=makedev(8, 1), st_ino=4461199, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=5, st_atime=2017/11/26-03:14:15.591325899, st_mtime=2016/02/23-07:23:42, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138295 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls>, "smtp\n", 4096) = 5
+138297 , 55889 , 55876 , evolution-addre , read(11</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls>, "", 4096) = 0
+138299 , 55889 , 55876 , evolution-addre , close(11</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.urls>) = 0
+138301 , 55889 , 55876 , evolution-addre , getdents(10</usr/lib/evolution-data-server/camel-providers>, [], 32768) = 0
+138303 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers>) = 0
+138305 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamellocal.so", {st_dev=makedev(8, 1), st_ino=4461190, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=288, st_size=146528, st_atime=2017/11/26-03:14:15.611325710, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138307 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamellocal.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>
+138309 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\200\0\0\0\0\0\0@\0\0\0\0\0\0\0\3405\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\34\2\0\0\0\0\0\334\34\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310!\2\0\0\0\0\0\310!\"\0\0\0\0\0\310!\"\0\0\0\0\0\370\22\0\0\0\0\0\0\350\24\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0(\"\2\0\0\0\0\0(\"\"\0\0\0\0\0"..., 832) = 832
+138311 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>, {st_dev=makedev(8, 1), st_ino=4461190, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=288, st_size=146528, st_atime=2017/11/26-03:14:15.611325710, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138313 , 55889 , 55876 , evolution-addre , mmap(NULL, 2242224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>, 0) = 0x7fef24149000
+138315 , 55889 , 55876 , evolution-addre , mprotect(0x7fef2416b000, 2097152, PROT_NONE) = 0
+138317 , 55889 , 55876 , evolution-addre , mmap(0x7fef2436b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>, 0x22000) = 0x7fef2436b000
+138319 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamellocal.so>) = 0
+138324 , 55889 , 55876 , evolution-addre , mprotect(0x7fef2436b000, 4096, PROT_READ) = 0
+138327 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138329 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138331 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138334 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138336 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138338 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamelimapx.so", {st_dev=makedev(8, 1), st_ino=4461188, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=736, st_size=373888, st_atime=2017/11/26-03:14:15.615325672, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.751999918}) = 0
+138341 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelimapx.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>
+138343 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360F\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\256\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Ts\5\0\0\0\0\0Ts\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\177\5\0\0\0\0\0\310\177%\0\0\0\0\0\310\177%\0\0\0\0\0\30-\0\0\0\0\0\0\370.\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\203\5\0\0\0\0\0P\203%\0\0\0\0\0"..., 832) = 832
+138346 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>, {st_dev=makedev(8, 1), st_ino=4461188, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=736, st_size=373888, st_atime=2017/11/26-03:14:15.615325672, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.751999918}) = 0
+138348 , 55889 , 55876 , evolution-addre , mmap(NULL, 2469568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>, 0) = 0x7fef1e5a2000
+138350 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e5fa000, 2093056, PROT_NONE) = 0
+138352 , 55889 , 55876 , evolution-addre , mmap(0x7fef1e7f9000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>, 0x57000) = 0x7fef1e7f9000
+138355 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamelimapx.so>) = 0
+138358 , 55889 , 55876 , evolution-addre , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 10</etc/ld.so.cache>
+138360 , 55889 , 55876 , evolution-addre , fstat(10</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+138362 , 55889 , 55876 , evolution-addre , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 10</etc/ld.so.cache>, 0) = 0x7fef2ecb4000
+138364 , 55889 , 55876 , evolution-addre , close(10</etc/ld.so.cache>) = 0
+138366 , 55889 , 55876 , evolution-addre , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+138368 , 55889 , 55876 , evolution-addre , open("/usr/lib/x86_64-linux-gnu/libical.so.1", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>
+138370 , 55889 , 55876 , evolution-addre , read(10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PW\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\305\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\370\4\0\0\0\0\0T\370\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\0\5\0\0\0\0\0\250\0%\0\0\0\0\0\250\0%\0\0\0\0\0(\303\0\0\0\0\0\0\330\320\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\275\5\0\0\0\0\0\240\275%\0\0\0\0\0"..., 832) = 832
+138372 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>, {st_dev=makedev(8, 1), st_ino=4465900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=744, st_size=379904, st_atime=2017/11/26-03:14:11.059369104, st_mtime=2016/01/28-09:41:10, st_ctime=2016/11/03-10:38:42.555999885}) = 0
+138374 , 55889 , 55876 , evolution-addre , mmap(NULL, 2478464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>, 0) = 0x7fef1e344000
+138375 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e394000, 2097152, PROT_NONE) = 0
+138377 , 55889 , 55876 , evolution-addre , mmap(0x7fef1e594000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>, 0x50000) = 0x7fef1e594000
+138379 , 55889 , 55876 , evolution-addre , mmap(0x7fef1e5a1000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fef1e5a1000
+138381 , 55889 , 55876 , evolution-addre , close(10</usr/lib/x86_64-linux-gnu/libical.so.1.0.1>) = 0
+138385 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e594000, 49152, PROT_READ) = 0
+138390 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e7f9000, 12288, PROT_READ) = 0
+138392 , 55889 , 55876 , evolution-addre , munmap(0x7fef2ecb4000, 129890) = 0
+138394 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138396 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138398 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138400 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138402 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138404 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138406 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138408 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138410 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138412 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138414 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138416 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138418 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138422 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so", {st_dev=makedev(8, 1), st_ino=4461198, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43096, st_atime=2017/11/26-03:14:15.695324917, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138423 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>
+138425 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0209\0\0\0\0\0\0@\0\0\0\0\0\0\0\30\242\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\217\0\0\0\0\0\0\\\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\230\0\0\0\0\0\0\250\230 \0\0\0\0\0\250\230 \0\0\0\0\0X\10\0\0\0\0\0\0\210\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\230\0\0\0\0\0\0\300\230 \0\0\0\0\0"..., 832) = 832
+138427 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>, {st_dev=makedev(8, 1), st_ino=4461198, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43096, st_atime=2017/11/26-03:14:15.695324917, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138429 , 55889 , 55876 , evolution-addre , mmap(NULL, 2138416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>, 0) = 0x7fef1e139000
+138431 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e142000, 2097152, PROT_NONE) = 0
+138433 , 55889 , 55876 , evolution-addre , mmap(0x7fef1e342000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>, 0x9000) = 0x7fef1e342000
+138434 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamelsmtp.so>) = 0
+138439 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e342000, 4096, PROT_READ) = 0
+138442 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138444 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138446 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so", {st_dev=makedev(8, 1), st_ino=4461196, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26608, st_atime=2017/11/26-03:14:15.703324842, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138448 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>
+138450 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000$\0\0\0\0\0\0@\0\0\0\0\0\0\0\260a\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4K\0\0\0\0\0\0\4K\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\260Z\0\0\0\0\0\0\260Z \0\0\0\0\0\260Z \0\0\0\0\0\350\5\0\0\0\0\0\0\30\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310Z\0\0\0\0\0\0\310Z \0\0\0\0\0"..., 832) = 832
+138452 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>, {st_dev=makedev(8, 1), st_ino=4461196, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26608, st_atime=2017/11/26-03:14:15.703324842, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138454 , 55889 , 55876 , evolution-addre , mmap(NULL, 2121928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>, 0) = 0x7fef1df32000
+138456 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1df37000, 2097152, PROT_NONE) = 0
+138458 , 55889 , 55876 , evolution-addre , mmap(0x7fef1e137000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>, 0x5000) = 0x7fef1e137000
+138460 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamelsendmail.so>) = 0
+138465 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1e137000, 4096, PROT_READ) = 0
+138467 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138469 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamelnntp.so", {st_dev=makedev(8, 1), st_ino=4461192, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80408, st_atime=2017/11/26-03:14:15.707324804, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138471 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelnntp.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>
+138473 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220k\0\0\0\0\0\0@\0\0\0\0\0\0\0\2303\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\"\1\0\0\0\0\0\344\"\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350#\1\0\0\0\0\0\350#!\0\0\0\0\0\350#!\0\0\0\0\0\220\16\0\0\0\0\0\0(\17\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`$\1\0\0\0\0\0`$!\0\0\0\0\0"..., 832) = 832
+138475 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>, {st_dev=makedev(8, 1), st_ino=4461192, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80408, st_atime=2017/11/26-03:14:15.707324804, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.755999918}) = 0
+138476 , 55889 , 55876 , evolution-addre , mmap(NULL, 2175760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>, 0) = 0x7fef1dd1e000
+138478 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1dd31000, 2093056, PROT_NONE) = 0
+138480 , 55889 , 55876 , evolution-addre , mmap(0x7fef1df30000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>, 0x12000) = 0x7fef1df30000
+138482 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamelnntp.so>) = 0
+138487 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1df30000, 4096, PROT_READ) = 0
+138489 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138491 , 55889 , 55876 , evolution-addre , stat("/usr/lib/evolution-data-server/camel-providers/libcamelpop3.so", {st_dev=makedev(8, 1), st_ino=4461194, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=136, st_size=68088, st_atime=2017/11/26-03:14:15.711324767, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138493 , 55889 , 55876 , evolution-addre , open("/usr/lib/evolution-data-server/camel-providers/libcamelpop3.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>
+138495 , 55889 , 55876 , evolution-addre , read(10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PP\0\0\0\0\0\0@\0\0\0\0\0\0\0x\3\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\353\0\0\0\0\0\0t\353\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h\366\0\0\0\0\0\0h\366 \0\0\0\0\0h\366 \0\0\0\0\0\360\v\0\0\0\0\0\0h\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\366\0\0\0\0\0\0\320\366 \0\0\0\0\0"..., 832) = 832
+138497 , 55889 , 55876 , evolution-addre , fstat(10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>, {st_dev=makedev(8, 1), st_ino=4461194, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=136, st_size=68088, st_atime=2017/11/26-03:14:15.711324767, st_mtime=2016/02/23-07:25:57, st_ctime=2016/11/03-10:37:59.759999918}) = 0
+138499 , 55889 , 55876 , evolution-addre , mmap(NULL, 2163408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>, 0) = 0x7fef1db0d000
+138501 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1db1c000, 2097152, PROT_NONE) = 0
+138503 , 55889 , 55876 , evolution-addre , mmap(0x7fef1dd1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>, 0xf000) = 0x7fef1dd1c000
+138505 , 55889 , 55876 , evolution-addre , close(10</usr/lib/evolution-data-server/camel-providers/libcamelpop3.so>) = 0
+138510 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1dd1c000, 4096, PROT_READ) = 0
+138512 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138515 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10023000, 4096, PROT_READ|PROT_WRITE) = 0
+138516 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138518 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138520 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138522 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138524 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138526 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10024000, 4096, PROT_READ|PROT_WRITE) = 0
+138528 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138530 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138532 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138534 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138536 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10025000, 4096, PROT_READ|PROT_WRITE) = 0
+138539 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138541 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138543 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138545 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10026000, 4096, PROT_READ|PROT_WRITE) = 0
+138547 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138549 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138551 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10027000, 4096, PROT_READ|PROT_WRITE) = 0
+138553 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138555 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10028000, 8192, PROT_READ|PROT_WRITE) = 0
+138557 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1002a000, 8192, PROT_READ|PROT_WRITE) = 0
+138559 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1002c000, 4096, PROT_READ|PROT_WRITE) = 0
+138561 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138564 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138565 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1002d000, 4096, PROT_READ|PROT_WRITE) = 0
+138567 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138569 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138571 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1002e000, 4096, PROT_READ|PROT_WRITE) = 0
+138573 , 55889 , 55876 , evolution-addre , open("/usr/share/locale/locale.alias", O_RDONLY) = 10</etc/locale.alias>
+138575 , 55889 , 55876 , evolution-addre , fstat(10</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+138577 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1002f000, 4096, PROT_READ|PROT_WRITE) = 0
+138579 , 55889 , 55876 , evolution-addre , read(10</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+138581 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10030000, 4096, PROT_READ|PROT_WRITE) = 0
+138583 , 55889 , 55876 , evolution-addre , read(10</etc/locale.alias>, "", 4096) = 0
+138585 , 55889 , 55876 , evolution-addre , close(10</etc/locale.alias>) = 0
+138587 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138589 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138591 , 55889 , 55876 , evolution-addre , futex(0x7fef2e02c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+138594 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10031000, 4096, PROT_READ|PROT_WRITE) = 0
+138597 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10032000, 4096, PROT_READ|PROT_WRITE) = 0
+138601 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10033000, 4096, PROT_READ|PROT_WRITE) = 0
+138603 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10034000, 4096, PROT_READ|PROT_WRITE) = 0
+138606 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10035000, 4096, PROT_READ|PROT_WRITE) = 0
+138610 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10036000, 4096, PROT_READ|PROT_WRITE) = 0
+138612 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10037000, 4096, PROT_READ|PROT_WRITE) = 0
+138615 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10038000, 4096, PROT_READ|PROT_WRITE) = 0
+138617 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10039000, 4096, PROT_READ|PROT_WRITE) = 0
+138622 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003a000, 4096, PROT_READ|PROT_WRITE) = 0
+138625 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003b000, 4096, PROT_READ|PROT_WRITE) = 0
+138627 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003c000, 4096, PROT_READ|PROT_WRITE) = 0
+138629 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003d000, 4096, PROT_READ|PROT_WRITE) = 0
+138633 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003e000, 4096, PROT_READ|PROT_WRITE) = 0
+138634 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1003f000, 4096, PROT_READ|PROT_WRITE) = 0
+138636 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10040000, 4096, PROT_READ|PROT_WRITE) = 0
+138638 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10041000, 4096, PROT_READ|PROT_WRITE) = 0
+138641 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10042000, 4096, PROT_READ|PROT_WRITE) = 0
+138643 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10043000, 4096, PROT_READ|PROT_WRITE) = 0
+138646 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10044000, 4096, PROT_READ|PROT_WRITE) = 0
+138649 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10045000, 4096, PROT_READ|PROT_WRITE) = 0
+138652 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10046000, 4096, PROT_READ|PROT_WRITE) = 0
+138654 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10047000, 4096, PROT_READ|PROT_WRITE) = 0
+138656 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10048000, 4096, PROT_READ|PROT_WRITE) = 0
+138658 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10049000, 4096, PROT_READ|PROT_WRITE) = 0
+138660 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004a000, 4096, PROT_READ|PROT_WRITE) = 0
+138662 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004b000, 4096, PROT_READ|PROT_WRITE) = 0
+138664 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004c000, 4096, PROT_READ|PROT_WRITE) = 0
+138667 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004d000, 4096, PROT_READ|PROT_WRITE) = 0
+138670 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004e000, 4096, PROT_READ|PROT_WRITE) = 0
+138672 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1004f000, 4096, PROT_READ|PROT_WRITE) = 0
+138674 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10050000, 4096, PROT_READ|PROT_WRITE) = 0
+138675 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10051000, 4096, PROT_READ|PROT_WRITE) = 0
+138678 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10052000, 4096, PROT_READ|PROT_WRITE) = 0
+138681 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10053000, 4096, PROT_READ|PROT_WRITE) = 0
+138684 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10054000, 4096, PROT_READ|PROT_WRITE) = 0
+138686 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10055000, 4096, PROT_READ|PROT_WRITE) = 0
+138689 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10056000, 4096, PROT_READ|PROT_WRITE) = 0
+138691 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10057000, 4096, PROT_READ|PROT_WRITE) = 0
+138693 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10058000, 4096, PROT_READ|PROT_WRITE) = 0
+138696 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10059000, 4096, PROT_READ|PROT_WRITE) = 0
+138698 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005a000, 4096, PROT_READ|PROT_WRITE) = 0
+138701 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005b000, 4096, PROT_READ|PROT_WRITE) = 0
+138703 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005c000, 4096, PROT_READ|PROT_WRITE) = 0
+138705 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005d000, 4096, PROT_READ|PROT_WRITE) = 0
+138707 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005e000, 4096, PROT_READ|PROT_WRITE) = 0
+138709 , 55889 , 55876 , evolution-addre , mprotect(0x7fef1005f000, 4096, PROT_READ|PROT_WRITE) = 0
+138712 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10060000, 4096, PROT_READ|PROT_WRITE) = 0
+138714 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10061000, 4096, PROT_READ|PROT_WRITE) = 0
+138716 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10062000, 4096, PROT_READ|PROT_WRITE) = 0
+138719 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10063000, 4096, PROT_READ|PROT_WRITE) = 0
+138721 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10064000, 4096, PROT_READ|PROT_WRITE) = 0
+138723 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10065000, 4096, PROT_READ|PROT_WRITE) = 0
+138726 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10066000, 4096, PROT_READ|PROT_WRITE) = 0
+138728 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10067000, 4096, PROT_READ|PROT_WRITE) = 0
+138730 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10068000, 4096, PROT_READ|PROT_WRITE) = 0
+138732 , 55889 , 55876 , evolution-addre , mprotect(0x7fef10069000, 4096, PROT_READ|PROT_WRITE) = 0
+138735 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+138737 , 55889 , 55876 , evolution-addre , futex(0x55deaee6dce0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+138738 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+138740 , 55889 , 55876 , evolution-addre , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+138742 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+150125 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150127 , 55889 , 55876 , evolution-addre , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150128 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAKE_PRIVATE, 1) = 0
+150129 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150131 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAKE_PRIVATE, 1) = 0
+150132 , 55889 , 55876 , evolution-addre , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150133 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+150293 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150295 , 55889 , 55876 , evolution-addre , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150296 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAKE_PRIVATE, 1) = 0
+150297 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150299 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAKE_PRIVATE, 1) = 0
+150300 , 55889 , 55876 , evolution-addre , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150301 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+157331 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157333 , 55889 , 55876 , evolution-addre , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157334 , 55889 , 55876 , evolution-addre , futex(0x55deaeeaf5d0, FUTEX_WAKE_PRIVATE, 1) = 0
+157335 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157337 , 55889 , 55876 , evolution-addre , futex(0x55deaee7a178, FUTEX_WAKE_PRIVATE, 1) = 0
+157338 , 55889 , 55876 , evolution-addre , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157339 , 55889 , 55876 , evolution-addre , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

@@ -1,0 +1,23 @@
+129886 , 55880 , 55738 , nautilus , set_robust_list(0x7fc7fa1539e0, 24) = 0
+129890 , 55880 , 55738 , nautilus , prctl(PR_SET_NAME, "pool\0\177\0\0x\273\260\35\310\177\0\0") = 0
+129894 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+129917 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAKE_PRIVATE, 1) = 0
+129918 , 55880 , 55738 , pool , futex(0x22a2ee0, FUTEX_WAIT_PRIVATE, 4, {0, 499999013}) = 0
+132485 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+132493 , 55880 , 55738 , pool , mmap(0x7fc7f0000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc7f0000000
+132494 , 55880 , 55738 , pool , mprotect(0x7fc7f0000000, 139264, PROT_READ|PROT_WRITE) = 0
+132495 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAKE_PRIVATE, 1) = 0
+132496 , 55880 , 55738 , pool , lstat("/home/elwin/Pictures", {st_dev=makedev(8, 1), st_ino=2883603, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/08/28-05:37:31.652030871, st_mtime=2016/12/30-09:49:53.246570059, st_ctime=2016/12/30-09:49:53.246570059}) = 0
+132497 , 55880 , 55738 , pool , futex(0x25e2b00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+132502 , 55880 , 55738 , pool , futex(0x25e2b00, FUTEX_WAKE_PRIVATE, 1) = 0
+132503 , 55880 , 55738 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+132504 , 55880 , 55738 , pool , futex(0x22a2ee0, FUTEX_WAIT_PRIVATE, 7, {0, 499999105}) = 0
+132580 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+132582 , 55880 , 55738 , pool , futex(0x22a2ed0, FUTEX_WAKE_PRIVATE, 1) = 0
+132583 , 55880 , 55738 , pool , futex(0x260d970, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+132585 , 55880 , 55738 , pool , futex(0x260d970, FUTEX_WAKE_PRIVATE, 1) = 0
+132586 , 55880 , 55738 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+132587 , 55880 , 55738 , pool , futex(0x22a2ee0, FUTEX_WAIT_PRIVATE, 11, {0, 499999289}) = -1 ETIMEDOUT (Connection timed out)
+135777 , 55880 , 55738 , pool , madvise(0x7fc7f9953000, 8368128, MADV_DONTNEED) = 0
+135778 , 55880 , 55738 , pool , exit(0) = ?
+135779 , 55880 , -1 , NULL , +++ exited with 0 +++

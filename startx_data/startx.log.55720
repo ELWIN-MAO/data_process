@@ -1,0 +1,19 @@
+48048 , 55720 , 55711 , indicator-sessi , set_robust_list(0x7fd6d15099e0, 24) = 0
+48050 , 55720 , 55711 , indicator-sessi , prctl(PR_SET_NAME, "pool\0\177\0\0x\253|\326\326\177\0\0") = 0
+48052 , 55720 , 55711 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd6bc000000
+48055 , 55720 , 55711 , pool , munmap(0x7fd6c0000000, 67108864) = 0
+48058 , 55720 , 55711 , pool , mprotect(0x7fd6bc000000, 139264, PROT_READ|PROT_WRITE) = 0
+48061 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 1
+48064 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+48156 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 0
+48159 , 55720 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAKE_PRIVATE, 1) = 1
+48161 , 55720 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 0, {0, 499999479}) = 0
+48173 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+48177 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+48188 , 55720 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 0
+48190 , 55720 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 1, {0, 498981535}) = 0
+48626 , 55720 , 55711 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+48628 , 55720 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 4, {0, 499999371}) = -1 ETIMEDOUT (Connection timed out)
+53205 , 55720 , 55711 , pool , madvise(0x7fd6d0d09000, 8368128, MADV_DONTNEED) = 0
+53206 , 55720 , 55711 , pool , exit(0)  = ?
+53208 , 55720 , -1 , NULL , +++ exited with 0 +++

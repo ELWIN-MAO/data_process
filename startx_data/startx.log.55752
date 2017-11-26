@@ -1,0 +1,273 @@
+58986 , 55752 , 55737 , pool , set_robust_list(0x7f89efc339e0, 24) = 0
+58988 , 55752 , 55737 , pool , prctl(PR_SET_NAME, "gdbus\0\0\0\0\0\0\0\0\0\0\0") = 0
+58992 , 55752 , 55737 , gdbus , mmap(0x7f89e4000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f89e4000000
+58995 , 55752 , 55737 , gdbus , mprotect(0x7f89e4000000, 139264, PROT_READ|PROT_WRITE) = 0
+58998 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+59001 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+59004 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59006 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 128}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 128
+59009 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=6, revents=POLLIN}])
+59014 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+59018 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+59181 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+59183 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59187 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\n\0\0\0\1\0\0\0=\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+59210 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+59213 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\5\0\0\0:1.16\0", 74}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 74
+59215 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59217 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59219 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+59223 , 55752 , 55737 , gdbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59237 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+59239 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\n\0\0\0\2\0\0\0\215\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+59244 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+59246 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+59249 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+59252 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\5\0\0\0:1.16\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\5\0\0\0:1.16\0", 154}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 154
+59254 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+59257 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+59261 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+59264 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59266 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+59268 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+59270 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+59273 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+64714 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+64716 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+64717 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+64718 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+64720 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+64721 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+64723 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+64724 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1,\0\0\0\2\0\0\0}\0\0\0\10\1g\0\2su\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\v\0\0\0RequestName\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0#\0\0\0com.canonical.indicator.application\0\0\0\0\0", 188}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 188
+64725 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+64726 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+64727 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+64865 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64866 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1(\0\0\0\3\0\0\0\215\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+64868 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+64870 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\5\0\0\0:1.16\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0#\0\0\0com.canonical.indicator.application\0", 184}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 184
+64872 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64874 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64876 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+64878 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+64880 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64882 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+64884 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+64885 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+64890 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+64893 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64894 , 55752 , 55737 , gdbus , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=55756, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+64895 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+64896 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+64897 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\2\0\0\0\10\1g\0\1u\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\1\0\0\0", 68}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 68
+64898 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64899 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64900 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+64901 , 55752 , 55737 , gdbus , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64902 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+64903 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64904 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+64905 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+64906 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81390 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81392 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81393 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81394 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81396 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81397 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81399 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81400 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\266\0\0\0\3\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\261\0\0\0type='signal',sender=':1.25',interface='org.freedesk"..., 326}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 326
+81401 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+81402 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81403 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81405 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81407 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81408 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81410 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81411 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81413 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81414 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1t\0\0\0\4\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0o\0\0\0type='signal',sender=':1.25',interface='org.kde.Stat"..., 260}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 260
+81415 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=6, revents=POLLIN}])
+81416 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81417 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81419 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81421 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81422 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81423 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81425 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81426 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81428 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81429 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\37\0\0\0\5\0\0\0~\0\0\0\10\1g\0\1s\0\0\1\1o\0$\0\0\0/org/ayatana/NotificationItem/clipit\0\0\0\0\3\1s\0\6\0\0\0GetAll\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\6\1s\0\5\0\0\0:1.25\0\0\0\32\0\0\0org.kde.StatusNotifierItem\0", 175}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 175
+81430 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+81431 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81432 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81468 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81469 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\5\0\0\0005\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81470 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81480 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\3\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 56}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+81481 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81482 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81483 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81484 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81485 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81486 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81487 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81488 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81492 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81493 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81494 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0005\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81495 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81496 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\4\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 56}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+81497 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81498 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81499 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81500 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81501 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81502 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81503 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81504 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81548 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81549 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81550 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\374\1\0\0\16\0\0\0006\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81551 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81552 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\1g\0\5a{sv}\0\0\0\0\0\0\5\1u\0\5\0\0\0\6\1s\0\5\0\0\0:1.16\0\0\0\7\1s\0\5\0\0\0:1.25\0\0\0\364\1\0\0\0\0\0\0\2\0\0\0Id\0\1s\0\0\0\6\0\0\0clipit\0\0\10\0\0\0Category\0\1s\0\21\0\0\0ApplicationStatus\0\0\0\6\0\0\0Status\0\1s\0\0\0\6\0\0\0Active\0\0\0\0\0\0\10\0\0\0IconName\0\1s\0\17\0\0\0clipit-trayicon\0\0\0\0\0"..., 564}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 564
+81553 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81554 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81555 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81556 , 55752 , 55737 , gdbus , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81557 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81558 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81559 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81560 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81561 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81564 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81566 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81567 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81568 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81570 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81571 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81573 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81574 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\225\0\0\0\6\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\220\0\0\0type='signal',sender='org.freedesktop.DBus',interfac"..., 293}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 293
+81575 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+81576 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81577 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81580 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81582 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81583 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81585 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81586 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81588 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81589 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\273\0\0\0\7\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\266\0\0\0type='signal',sender=':1.25',interface='org.freedesk"..., 331}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 331
+81590 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=6, revents=POLLIN}])
+81591 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81592 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81594 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81596 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81597 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81598 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81600 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81601 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81603 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81604 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1y\0\0\0\10\0\0\0}\0\0\0\10\1g\0\1s\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0t\0\0\0type='signal',sender=':1.25',interface='org.freedesk"..., 265}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 265
+81605 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+81606 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81607 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81609 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81611 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81612 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81614 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81615 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81617 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81618 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1$\0\0\0\t\0\0\0~\0\0\0\10\1g\0\1s\0\0\1\1o\0$\0\0\0/org/ayatana/NotificationItem/clipit\0\0\0\0\3\1s\0\6\0\0\0GetAll\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\6\1s\0\5\0\0\0:1.25\0\0\0\37\0\0\0org.freedesktop.DBus.Properties\0", 180}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 180
+81619 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=6, revents=POLLIN}])
+81620 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81621 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81652 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81653 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81654 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\7\0\0\0005\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81655 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81656 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\6\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 56}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+81657 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81658 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81659 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81660 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81661 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81662 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81663 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81664 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81667 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81668 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81669 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\10\0\0\0005\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81670 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81671 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\7\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 56}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+81672 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81673 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81674 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81675 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81676 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81677 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81678 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81679 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81683 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81684 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81685 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\t\0\0\0005\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81686 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81687 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\5\0\0\0:1.16\0\0\0\5\1u\0\10\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 56}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+81688 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81689 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81690 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81691 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81692 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81693 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81694 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81695 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81719 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81720 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81721 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\3\1\1\26\0\0\0\17\0\0\0^\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81722 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81723 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\1g\0\1s\0\0\4\1s\0&\0\0\0org.freedesktop.DBus.Error.InvalidArgs\0\0\5\1u\0\t\0\0\0\6\1s\0\5\0\0\0:1.16\0\0\0\7\1s\0\5\0\0\0:1.25\0\0\0\21\0\0\0No such interface\0", 118}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 118
+81724 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81725 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81726 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81727 , 55752 , 55737 , gdbus , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81728 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81729 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81730 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81731 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81732 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81735 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81737 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81742 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81743 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81745 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+81746 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81748 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+81749 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\37\0\0\0\n\0\0\0~\0\0\0\10\1g\0\1s\0\0\1\1o\0$\0\0\0/org/ayatana/NotificationItem/clipit\0\0\0\0\3\1s\0\6\0\0\0GetAll\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\6\1s\0\5\0\0\0:1.25\0\0\0\32\0\0\0org.kde.StatusNotifierItem\0", 175}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 175
+81750 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+81751 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+81752 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+81944 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81946 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\374\1\0\0\20\0\0\0006\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+81948 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+81950 , 55752 , 55737 , gdbus , recvmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\1g\0\5a{sv}\0\0\0\0\0\0\5\1u\0\n\0\0\0\6\1s\0\5\0\0\0:1.16\0\0\0\7\1s\0\5\0\0\0:1.25\0\0\0\364\1\0\0\0\0\0\0\2\0\0\0Id\0\1s\0\0\0\6\0\0\0clipit\0\0\10\0\0\0Category\0\1s\0\21\0\0\0ApplicationStatus\0\0\0\6\0\0\0Status\0\1s\0\0\0\6\0\0\0Active\0\0\0\0\0\0\10\0\0\0IconName\0\1s\0\17\0\0\0clipit-trayicon\0\0\0\0\0"..., 564}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 564
+81952 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81954 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81956 , 55752 , 55737 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+81958 , 55752 , 55737 , gdbus , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81960 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+81962 , 55752 , 55737 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81964 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81966 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+81967 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+81973 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+81977 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81993 , 55752 , 55737 , gdbus , futex(0x7f89e000e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+81994 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+82256 , 55752 , 55737 , gdbus , futex(0x7f89e000df30, FUTEX_WAKE_PRIVATE, 1) = 0
+82257 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+82259 , 55752 , 55737 , gdbus , futex(0x2495078, FUTEX_WAKE_PRIVATE, 1) = 0
+82260 , 55752 , 55737 , gdbus , sendmsg(5<UNIX:[477318->477319]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\213\0\0\0\v\0\0\0\234\0\0\0\10\1g\0\nsisossssss\0\1\1o\0,\0\0\0/com/canonical/indicator/application/service\0\0\0\0\3\1s\0\20\0\0\0ApplicationAdded\0\0\0\0\0\0\0\0\2\1s\0+\0\0\0com.canonical.indicator.application.service\0\0\0\0\0\17\0\0\0clipit-trayicon\0\0\0\0\0"..., 315}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 315
+82261 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+82262 , 55752 , 55737 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f89efc32ab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+82263 , 55752 , 55737 , gdbus , poll([{fd=5<UNIX:[477318->477319]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1

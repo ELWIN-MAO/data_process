@@ -1,0 +1,97 @@
+127393 , 55875 , 55867 , evolution-addre , set_robust_list(0x7f2e18db69e0, 24) = 0
+127395 , 55875 , 55867 , evolution-addre , prctl(PR_SET_NAME, "Spawn-Subprocess") = 0
+127398 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e08000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2e08000000
+127401 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e08000000, 139264, PROT_READ|PROT_WRITE) = 0
+127404 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127406 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127409 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127412 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127415 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127418 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127421 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127423 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127426 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127427 , 55875 , 55867 , Spawn-Subproces , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 10<UNIX:[503623]>
+127428 , 55875 , 55867 , Spawn-Subproces , connect(10<UNIX:[503623]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+127429 , 55875 , 55867 , Spawn-Subproces , close(10<UNIX:[503623]>) = 0
+127430 , 55875 , 55867 , Spawn-Subproces , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 10<UNIX:[503630]>
+127431 , 55875 , 55867 , Spawn-Subproces , connect(10<UNIX:[503630]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+127432 , 55875 , 55867 , Spawn-Subproces , close(10<UNIX:[503630]>) = 0
+127433 , 55875 , 55867 , Spawn-Subproces , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 10</etc/nsswitch.conf>
+127434 , 55875 , 55867 , Spawn-Subproces , fstat(10</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2017/11/25-09:34:42.176713163, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+127435 , 55875 , 55867 , Spawn-Subproces , read(10</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+127436 , 55875 , 55867 , Spawn-Subproces , read(10</etc/nsswitch.conf>, "", 4096) = 0
+127437 , 55875 , 55867 , Spawn-Subproces , close(10</etc/nsswitch.conf>) = 0
+127438 , 55875 , 55867 , Spawn-Subproces , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 10</etc/ld.so.cache>
+127439 , 55875 , 55867 , Spawn-Subproces , fstat(10</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+127440 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 10</etc/ld.so.cache>, 0) = 0x7f2e2e8a1000
+127441 , 55875 , 55867 , Spawn-Subproces , close(10</etc/ld.so.cache>) = 0
+127442 , 55875 , 55867 , Spawn-Subproces , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+127443 , 55875 , 55867 , Spawn-Subproces , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+127444 , 55875 , 55867 , Spawn-Subproces , read(10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+127445 , 55875 , 55867 , Spawn-Subproces , fstat(10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+127446 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7f2e183ad000
+127447 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e183b5000, 2093056, PROT_NONE) = 0
+127448 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e185b4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7f2e185b4000
+127449 , 55875 , 55867 , Spawn-Subproces , close(10</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+127450 , 55875 , 55867 , Spawn-Subproces , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+127451 , 55875 , 55867 , Spawn-Subproces , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libnsl-2.23.so>
+127452 , 55875 , 55867 , Spawn-Subproces , read(10</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+127453 , 55875 , 55867 , Spawn-Subproces , fstat(10</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+127454 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7f2e18194000
+127455 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e181aa000, 2093056, PROT_NONE) = 0
+127456 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e183a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7f2e183a9000
+127457 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e183ab000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2e183ab000
+127458 , 55875 , 55867 , Spawn-Subproces , close(10</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+127459 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e183a9000, 4096, PROT_READ) = 0
+127460 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e185b4000, 4096, PROT_READ) = 0
+127461 , 55875 , 55867 , Spawn-Subproces , munmap(0x7f2e2e8a1000, 129890) = 0
+127462 , 55875 , 55867 , Spawn-Subproces , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 10</etc/ld.so.cache>
+127463 , 55875 , 55867 , Spawn-Subproces , fstat(10</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+127464 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 10</etc/ld.so.cache>, 0) = 0x7f2e2e8a1000
+127465 , 55875 , 55867 , Spawn-Subproces , close(10</etc/ld.so.cache>) = 0
+127466 , 55875 , 55867 , Spawn-Subproces , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+127467 , 55875 , 55867 , Spawn-Subproces , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+127468 , 55875 , 55867 , Spawn-Subproces , read(10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+127469 , 55875 , 55867 , Spawn-Subproces , fstat(10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997535, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+127470 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7f2e03df4000
+127471 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e03dff000, 2093056, PROT_NONE) = 0
+127472 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e03ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7f2e03ffe000
+127473 , 55875 , 55867 , Spawn-Subproces , close(10</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+127474 , 55875 , 55867 , Spawn-Subproces , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+127475 , 55875 , 55867 , Spawn-Subproces , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+127476 , 55875 , 55867 , Spawn-Subproces , read(10</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+127477 , 55875 , 55867 , Spawn-Subproces , fstat(10</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997532, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+127478 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7f2e03be2000
+127479 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e03bed000, 2093056, PROT_NONE) = 0
+127480 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e03dec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7f2e03dec000
+127481 , 55875 , 55867 , Spawn-Subproces , mmap(0x7f2e03dee000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2e03dee000
+127482 , 55875 , 55867 , Spawn-Subproces , close(10</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+127483 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e03dec000, 4096, PROT_READ) = 0
+127484 , 55875 , 55867 , Spawn-Subproces , mprotect(0x7f2e03ffe000, 4096, PROT_READ) = 0
+127485 , 55875 , 55867 , Spawn-Subproces , munmap(0x7f2e2e8a1000, 129890) = 0
+127486 , 55875 , 55867 , Spawn-Subproces , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 10</etc/passwd>
+127487 , 55875 , 55867 , Spawn-Subproces , lseek(10</etc/passwd>, 0, SEEK_CUR) = 0
+127488 , 55875 , 55867 , Spawn-Subproces , fstat(10</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+127489 , 55875 , 55867 , Spawn-Subproces , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 10</etc/passwd>, 0) = 0x7f2e2e93a000
+127490 , 55875 , 55867 , Spawn-Subproces , lseek(10</etc/passwd>, 2368, SEEK_SET) = 2368
+127491 , 55875 , 55867 , Spawn-Subproces , munmap(0x7f2e2e93a000, 2368) = 0
+127492 , 55875 , 55867 , Spawn-Subproces , close(10</etc/passwd>) = 0
+127493 , 55875 , 55867 , Spawn-Subproces , getuid() = 0
+127494 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127495 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127496 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127497 , 55875 , 55867 , Spawn-Subproces , futex(0x5592d4708160, FUTEX_WAKE_PRIVATE, 1) = 1
+127498 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127499 , 55875 , 55867 , Spawn-Subproces , futex(0x7f2e2d93d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127500 , 55875 , 55867 , Spawn-Subproces , pipe2([10<pipe:[503634]>, 11<pipe:[503634]>], O_CLOEXEC) = 0
+127501 , 55875 , 55867 , Spawn-Subproces , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2e18db69d0) = 55876
+127502 , 55875 , 55867 , Spawn-Subproces , close(11<pipe:[503634]>) = 0
+127503 , 55875 , 55867 , Spawn-Subproces , read(10<pipe:[503634]>, "", 8) = 0
+127661 , 55875 , 55867 , Spawn-Subproces , close(10<pipe:[503634]>) = 0
+127663 , 55875 , 55867 , Spawn-Subproces , rt_sigaction(SIGCHLD, {0x7f2e2d673890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7f2e2d421390}, NULL, 8) = 0
+127665 , 55875 , 55867 , Spawn-Subproces , wait4(55876, 0x7f2e08014144, WNOHANG, NULL) = 0
+127667 , 55875 , 55867 , Spawn-Subproces , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127669 , 55875 , 55867 , Spawn-Subproces , madvise(0x7f2e185b6000, 8368128, MADV_DONTNEED) = 0
+127671 , 55875 , 55867 , Spawn-Subproces , exit(0) = ?
+127673 , 55875 , -1 , NULL , +++ exited with 0 +++

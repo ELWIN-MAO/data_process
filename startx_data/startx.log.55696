@@ -1,0 +1,472 @@
+41521 , 55696 , 55696 , gnome-session-b , set_robust_list(0x7fc823a45d60, 24) = 0
+41523 , 55696 , 55696 , gnome-session-b , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+41525 , 55696 , 55696 , gnome-session-b , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+41527 , 55696 , 55696 , gnome-session-b , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+41528 , 55696 , 55696 , gnome-session-b , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_DFL, [], 0}, 8) = 0
+41530 , 55696 , 55696 , gnome-session-b , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, 8) = 0
+41533 , 55696 , 55696 , gnome-session-b , close(14<pipe:[474674]>) = 0
+41534 , 55696 , 55696 , gnome-session-b , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 14</proc/55696/fd>
+41536 , 55696 , 55696 , gnome-session-b , fstat(14</proc/55696/fd>, {st_dev=makedev(0, 4), st_ino=474767, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:18.635607541, st_mtime=2017/11/26-08:16:18.635607541, st_ctime=2017/11/26-08:16:18.635607541}) = 0
+41538 , 55696 , 55696 , gnome-session-b , getdents(14</proc/55696/fd>, [{d_ino=474767, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=474766, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=465844, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=465845, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=465846, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=465847, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=465848, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=465849, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=465850, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=465851, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=465852, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=465853, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=465854, d_off=13, d_reclen=24, d_name="10", d_type=DT_LNK}, {d_ino=465855, d_off=14, d_reclen=24, d_name="11", d_type=DT_LNK}, {d_ino=465856, d_off=15, d_reclen=24, d_name="12", d_type=DT_LNK}, {d_ino=465857, d_off=16, d_reclen=24, d_name="13", d_type=DT_LNK}, {d_ino=474768, d_off=17, d_reclen=24, d_name="14", d_type=DT_LNK}, {d_ino=465858, d_off=66, d_reclen=24, d_name="15", d_type=DT_LNK}], 32768) = 432
+41542 , 55696 , 55696 , gnome-session-b , fcntl(3</dev/pid2task>, F_SETFD, FD_CLOEXEC) = 0
+41544 , 55696 , 55696 , gnome-session-b , fcntl(4<UNIX:[465235->465238]>, F_SETFD, FD_CLOEXEC) = 0
+41546 , 55696 , 55696 , gnome-session-b , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+41548 , 55696 , 55696 , gnome-session-b , fcntl(6<UNIX:[465115->465121]>, F_SETFD, FD_CLOEXEC) = 0
+41550 , 55696 , 55696 , gnome-session-b , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+41552 , 55696 , 55696 , gnome-session-b , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+41554 , 55696 , 55696 , gnome-session-b , fcntl(9<UNIX:[471861->465826]>, F_SETFD, FD_CLOEXEC) = 0
+41556 , 55696 , 55696 , gnome-session-b , fcntl(10<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+41559 , 55696 , 55696 , gnome-session-b , fcntl(11<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+41565 , 55696 , 55696 , gnome-session-b , fcntl(12<UNIX:[474331,@"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+41568 , 55696 , 55696 , gnome-session-b , fcntl(13<UNIX:[474336,"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+41571 , 55696 , 55696 , gnome-session-b , fcntl(15<pipe:[474674]>, F_SETFD, FD_CLOEXEC) = 0
+41573 , 55696 , 55696 , gnome-session-b , getdents(14</proc/55696/fd>, [], 32768) = 0
+41577 , 55696 , 55696 , gnome-session-b , close(14</proc/55696/fd>) = 0
+41580 , 55696 , 55696 , gnome-session-b , open("/dev/null", O_RDONLY) = 14</dev/null>
+41582 , 55696 , 55696 , gnome-session-b , dup2(14</dev/null>, 0</dev/tty1>) = 0</dev/null>
+41584 , 55696 , 55696 , gnome-session-b , close(14</dev/null>) = 0
+41586 , 55696 , 55696 , gnome-session-b , execve("/usr/bin/gnome-keyring-daemon", ["/usr/bin/gnome-keyring-daemon", "--start", "--components=pkcs11"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "XDG_CURRENT_DESKTOP=GNOME", "QT_IM_MODULE=ibus", "XMODIFIERS=@im=ibus", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "XDG_MENU_PREFIX=gnome-", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "DESKTOP_AUTOSTART_ID=10429ce9d5a07de939151170217846211000000556040019", "GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/gnome-keyring-pkcs11.desktop", "GIO_LAUNCHED_DESKTOP_FILE_PID=55696"]) = 0
+41828 , 55696 , 55696 , gnome-keyring-d , brk(NULL) = 0x1d0e000
+41831 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41834 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf34ae000
+41836 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+41947 , 55696 , 55696 , gnome-keyring-d , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+41949 , 55696 , 55696 , gnome-keyring-d , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+41951 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f2bf348e000
+41953 , 55696 , 55696 , gnome-keyring-d , close(3</etc/ld.so.cache>) = 0
+41956 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41958 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>
+41961 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000#\2\0\0\0\0\0@\0\0\0\0\0\0\0\30N\t\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\224\10\0\0\0\0\0T\224\10\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\232\10\0\0\0\0\0(\232(\0\0\0\0\0(\232(\0\0\0\0\0\300\262\0\0\0\0\0\0\350\272\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300,\t\0\0\0\0\0\300,)\0\0\0\0\0"..., 832) = 832
+41962 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465684, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1200, st_size=611608, st_atime=2017/11/26-03:14:07.743401313, st_mtime=2015/10/23-09:03:54, st_ctime=2016/11/03-10:38:40.803999886}) = 0
+41964 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2708752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0) = 0x7f2bf2ff5000
+41967 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf307f000, 2093056, PROT_NONE) = 0
+41968 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf327e000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0x89000) = 0x7f2bf327e000
+41970 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf328a000, 1296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf328a000
+41972 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>) = 0
+41974 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41976 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>
+41978 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\230\0\0\0\0\0\0@\0\0\0\0\0\0\0((\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\30\3\0\0\0\0\0T\30\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\32\3\0\0\0\0\0\210\32#\0\0\0\0\0\210\32#\0\0\0\0\0p\f\0\0\0\0\0\0000\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\35\3\0\0\0\0\0p\35#\0\0\0\0\0"..., 832) = 832
+41980 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465680, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=208680, st_atime=2017/11/26-03:14:07.755401195, st_mtime=2015/10/23-09:03:51, st_ctime=2016/11/03-10:38:40.791999886}) = 0
+41981 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2304184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0) = 0x7f2bf2dc2000
+41984 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2df4000, 2093056, PROT_NONE) = 0
+41986 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf2ff3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0x31000) = 0x7f2bf2ff3000
+41991 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>) = 0
+41994 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+41996 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+41999 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+42002 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+42004 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf348d000
+42007 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f2bf2a3a000
+42013 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2bba000, 2097152, PROT_NONE) = 0
+42015 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf2dba000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f2bf2dba000
+42018 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf2dc0000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf2dc0000
+42020 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+42022 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42024 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+42027 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+42029 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+42031 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f2bf27e7000
+42034 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2839000, 2093056, PROT_NONE) = 0
+42037 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf2a38000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f2bf2a38000
+42040 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+42042 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42044 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+42047 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+42048 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+42050 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f2bf24d6000
+42055 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf25e4000, 2097152, PROT_NONE) = 0
+42057 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf27e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f2bf27e4000
+42059 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf27e6000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf27e6000
+42283 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+42284 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42287 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+42289 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+42291 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+42293 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf348c000
+42295 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f2bf21f5000
+42297 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf22cd000, 2093056, PROT_NONE) = 0
+42299 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf24cc000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f2bf24cc000
+42302 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf24d5000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf24d5000
+42305 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+42307 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42309 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libcap-ng.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>
+42312 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0@\0\0\0\0\0\0\0XB\0\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24=\0\0\0\0\0\0\24=\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240=\0\0\0\0\0\0\240= \0\0\0\0\0\240= \0\0\0\0\0\214\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350=\0\0\0\0\0\0\350= \0\0\0\0\0"..., 832) = 832
+42315 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465401, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18776, st_atime=2017/11/26-03:14:07.459404097, st_mtime=2015/10/23-17:11:58, st_ctime=2016/11/03-10:38:39.195999888}) = 0
+42317 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2113840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0) = 0x7f2bf1ff0000
+42319 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1ff4000, 2093056, PROT_NONE) = 0
+42323 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf21f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0x3000) = 0x7f2bf21f3000
+42325 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>) = 0
+42328 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42330 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+42332 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+42334 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42336 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f2bf1dd3000
+42342 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1deb000, 2093056, PROT_NONE) = 0
+42344 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1fea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f2bf1fea000
+42346 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1fec000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf1fec000
+42348 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+42350 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42352 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+42354 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+42356 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42360 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf348b000
+42362 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f2bf1a09000
+42365 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1bc9000, 2097152, PROT_NONE) = 0
+42370 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1dc9000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f2bf1dc9000
+42372 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1dcf000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf1dcf000
+42376 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+42379 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42382 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+42385 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+42387 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+42390 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7f2bf17a4000
+42393 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf17fe000, 2093056, PROT_NONE) = 0
+42395 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf19fd000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7f2bf19fd000
+42401 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+42404 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42407 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+42409 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+42412 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+42414 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f2bf15a0000
+42417 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf15a3000, 2093056, PROT_NONE) = 0
+42419 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf17a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f2bf17a2000
+42421 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+42423 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42426 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+42428 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+42431 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+42433 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf348a000
+42435 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f2bf1386000
+42438 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf139f000, 2093056, PROT_NONE) = 0
+42440 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf159e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f2bf159e000
+42442 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+42444 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42446 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+42448 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+42450 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+42453 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f2bf1164000
+42455 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1183000, 2093056, PROT_NONE) = 0
+42458 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1382000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f2bf1382000
+42460 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1384000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf1384000
+42463 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+42464 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42466 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+42468 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+42470 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42473 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f2bf0f49000
+42475 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0f60000, 2097152, PROT_NONE) = 0
+42477 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1160000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f2bf1160000
+42480 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf1162000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2bf1162000
+42482 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+42484 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42487 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+42489 , 55696 , 55696 , gnome-keyring-d , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+42491 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+42493 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf3489000
+42495 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f2bf0d41000
+42497 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0d48000, 2093056, PROT_NONE) = 0
+42499 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf0f47000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f2bf0f47000
+42501 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+42504 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42506 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+42509 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+42511 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+42513 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f2bf0ad1000
+42516 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0b3f000, 2097152, PROT_NONE) = 0
+42518 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf0d3f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f2bf0d3f000
+42520 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+42523 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42526 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+42528 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+42531 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+42533 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f2bf08bd000
+42538 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf08cf000, 2097152, PROT_NONE) = 0
+42540 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf0acf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f2bf0acf000
+42543 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+42544 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf3488000
+42545 , 55696 , 55696 , gnome-keyring-d , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+42546 , 55696 , 55696 , gnome-keyring-d , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+42547 , 55696 , 55696 , gnome-keyring-d , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+42548 , 55696 , 55696 , gnome-keyring-d , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+42549 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f2bf06b9000
+42551 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf06bc000, 2093056, PROT_NONE) = 0
+42553 , 55696 , 55696 , gnome-keyring-d , mmap(0x7f2bf08bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f2bf08bb000
+42556 , 55696 , 55696 , gnome-keyring-d , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+42559 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf3487000
+42561 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf3486000
+42563 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2bf3484000
+42564 , 55696 , 55696 , gnome-keyring-d , arch_prctl(ARCH_SET_FS, 0x7f2bf3484840) = 0
+42567 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1dc9000, 16384, PROT_READ) = 0
+42569 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf08bb000, 4096, PROT_READ) = 0
+42571 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0acf000, 4096, PROT_READ) = 0
+42573 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1fea000, 4096, PROT_READ) = 0
+42575 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0d3f000, 4096, PROT_READ) = 0
+42577 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf0f47000, 4096, PROT_READ) = 0
+42579 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1160000, 4096, PROT_READ) = 0
+42582 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf1382000, 4096, PROT_READ) = 0
+42584 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf159e000, 4096, PROT_READ) = 0
+42586 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf27e4000, 4096, PROT_READ) = 0
+42589 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf17a2000, 4096, PROT_READ) = 0
+42592 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf19fd000, 40960, PROT_READ) = 0
+42598 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf21f3000, 4096, PROT_READ) = 0
+42601 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf24cc000, 4096, PROT_READ) = 0
+42603 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2a38000, 4096, PROT_READ) = 0
+42604 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2dba000, 16384, PROT_READ) = 0
+42606 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf2ff3000, 4096, PROT_READ) = 0
+42611 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf327e000, 40960, PROT_READ) = 0
+42614 , 55696 , 55696 , gnome-keyring-d , mprotect(0x6e9000, 45056, PROT_READ) = 0
+42616 , 55696 , 55696 , gnome-keyring-d , mprotect(0x7f2bf34b0000, 4096, PROT_READ) = 0
+42618 , 55696 , 55696 , gnome-keyring-d , munmap(0x7f2bf348e000, 129890) = 0
+42620 , 55696 , 55696 , gnome-keyring-d , set_tid_address(0x7f2bf3484b10) = 55696
+42622 , 55696 , 55696 , gnome-keyring-d , set_robust_list(0x7f2bf3484b20, 24) = 0
+42625 , 55696 , 55696 , gnome-keyring-d , rt_sigaction(SIGRTMIN, {0x7f2bf1dd8b50, [], SA_RESTORER|SA_SIGINFO, 0x7f2bf1de4390}, NULL, 8) = 0
+42627 , 55696 , 55696 , gnome-keyring-d , rt_sigaction(SIGRT_1, {0x7f2bf1dd8be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f2bf1de4390}, NULL, 8) = 0
+42629 , 55696 , 55696 , gnome-keyring-d , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+42632 , 55696 , 55696 , gnome-keyring-d , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+42636 , 55696 , 55696 , gnome-keyring-d , brk(NULL) = 0x1d0e000
+42638 , 55696 , 55696 , gnome-keyring-d , brk(0x1d2f000) = 0x1d2f000
+42644 , 55696 , 55696 , gnome-keyring-d , statfs("/sys/fs/selinux", 0x7ffe5c29dfc0) = -1 ENOENT (No such file or directory)
+42655 , 55696 , 55696 , gnome-keyring-d , statfs("/selinux", 0x7ffe5c29dfc0) = -1 ENOENT (No such file or directory)
+42660 , 55696 , 55696 , gnome-keyring-d , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+42663 , 55696 , 55696 , gnome-keyring-d , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:18.767608289, st_mtime=2017/11/26-08:16:18.767608289, st_ctime=2017/11/26-08:16:18.767608289}) = 0
+42666 , 55696 , 55696 , gnome-keyring-d , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+42669 , 55696 , 55696 , gnome-keyring-d , read(3</proc/filesystems>, "", 1024) = 0
+42672 , 55696 , 55696 , gnome-keyring-d , close(3</proc/filesystems>) = 0
+42675 , 55696 , 55696 , gnome-keyring-d , futex(0x7f2bf1a08740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+42682 , 55696 , 55696 , gnome-keyring-d , futex(0x7f2bf27e6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+42685 , 55696 , 55696 , gnome-keyring-d , futex(0x7f2bf27e6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+42902 , 55696 , 55696 , gnome-keyring-d , capget({0 /* _LINUX_CAPABILITY_VERSION_??? */, 0}, NULL) = 0
+42904 , 55696 , 55696 , gnome-keyring-d , gettid() = 55696
+42906 , 55696 , 55696 , gnome-keyring-d , open("/proc/sys/kernel/cap_last_cap", O_RDONLY) = 3</proc/sys/kernel/cap_last_cap>
+42908 , 55696 , 55696 , gnome-keyring-d , read(3</proc/sys/kernel/cap_last_cap>, "37\n", 7) = 3
+42927 , 55696 , 55696 , gnome-keyring-d , close(3</proc/sys/kernel/cap_last_cap>) = 0
+42931 , 55696 , 55696 , gnome-keyring-d , capget({_LINUX_CAPABILITY_VERSION_3, 55696}, {CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, 0}) = 0
+42934 , 55696 , 55696 , gnome-keyring-d , open("/proc/55696/status", O_RDONLY|O_CLOEXEC) = 3</proc/55696/status>
+42937 , 55696 , 55696 , gnome-keyring-d , fstat(3</proc/55696/status>, {st_dev=makedev(0, 4), st_ino=465861, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:18.795608448, st_mtime=2017/11/26-08:16:18.795608448, st_ctime=2017/11/26-08:16:18.795608448}) = 0
+42942 , 55696 , 55696 , gnome-keyring-d , read(3</proc/55696/status>, "Name:\tgnome-keyring-d\nState:\tR (running)\nTgid:\t55696\nNgid:\t0\nPid:\t55696\nPPid:\t55604\nTracerPid:\t55576\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 3003 3004 \nNStgid:\t55696\nNSpid:\t55696\nNSpgid:\t55604\n"..., 1024) = 960
+42949 , 55696 , 55696 , gnome-keyring-d , close(3</proc/55696/status>) = 0
+42955 , 55696 , 55696 , gnome-keyring-d , getgid() = 0
+42961 , 55696 , 55696 , gnome-keyring-d , getuid() = 0
+42967 , 55696 , 55696 , gnome-keyring-d , prctl(PR_SET_KEEPCAPS, 1) = 0
+42975 , 55696 , 55696 , gnome-keyring-d , capset({_LINUX_CAPABILITY_VERSION_3, 55696}, {CAP_SETGID|CAP_SETUID|CAP_IPC_LOCK, CAP_SETGID|CAP_SETUID|CAP_IPC_LOCK, 0}) = 0
+42980 , 55696 , 55696 , gnome-keyring-d , setresgid(0, 0, 0) = 0
+42987 , 55696 , 55696 , gnome-keyring-d , setresuid(0, 0, 0) = 0
+42995 , 55696 , 55696 , gnome-keyring-d , prctl(PR_SET_KEEPCAPS, 0) = 0
+43009 , 55696 , 55696 , gnome-keyring-d , capset({_LINUX_CAPABILITY_VERSION_3, 55696}, {CAP_IPC_LOCK, CAP_IPC_LOCK, 0}) = 0
+43013 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+43017 , 55696 , 55696 , gnome-keyring-d , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+43023 , 55696 , 55696 , gnome-keyring-d , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f2bf03e1000
+43032 , 55696 , 55696 , gnome-keyring-d , close(3</usr/lib/locale/locale-archive>) = 0
+43038 , 55696 , 55696 , gnome-keyring-d , access("/etc/gcrypt/fips_enabled", F_OK) = -1 ENOENT (No such file or directory)
+43045 , 55696 , 55696 , gnome-keyring-d , open("/proc/sys/crypto/fips_enabled", O_RDONLY) = -1 ENOENT (No such file or directory)
+43054 , 55696 , 55696 , gnome-keyring-d , open("/etc/gcrypt/hwf.deny", O_RDONLY) = -1 ENOENT (No such file or directory)
+43064 , 55696 , 55696 , gnome-keyring-d , access("/dev/random", R_OK) = 0
+43074 , 55696 , 55696 , gnome-keyring-d , access("/dev/urandom", R_OK) = 0
+43082 , 55696 , 55696 , gnome-keyring-d , open("/dev/urandom", O_RDONLY) = 3</dev/urandom>
+43087 , 55696 , 55696 , gnome-keyring-d , fcntl(3</dev/urandom>, F_GETFD) = 0
+43094 , 55696 , 55696 , gnome-keyring-d , fcntl(3</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+43100 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43106 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "-s\5\373g\237\320Y\342\244\200\312\262<6\261\235\322\274\253i\f\305--\255\367/\302\212\2731\226\307\6\317\310 C\330\1\201\360\206\320\200\321\354\233\372y\225\36qlX\224\314\231\20", 60) = 60
+43114 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43120 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\351\226\207\331Z\275@\304\6\373g.\237\27\2020\233b`\33\204\267\316\355\31\316\323\270\35\305SR\216\301\210\337}\334\r\v\206\205\260x\31)\246Vh\224+K\314\2065\327\2135\304\352", 60) = 60
+43127 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43132 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\342;\347\\\343\217\220\360J\203z|\323\261\36\342\34W\n\220\25s\201VK\5\30783\356\v\227n\325\361\355\3\212\243=\356\303\243\rbR\243\345\233\277\306G\214\257\2E\21\10\321\230", 60) = 60
+43141 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43147 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\230\2040\231\v'\253k\36\232\24!\10\16C9 \305\236\252'.;8\277\23@\234\244o,\0378\234y\322\2612\35Zf\247#\366\375\327o\217R\225\356N\5\34\254\367\324\177O\226", 60) = 60
+43151 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43156 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "i\352\313\334\227\37\201\341\302d\243\265?z\346\34\17v\204l\10\27\357j\v\203:;\323\27\302\211\267\3560{{\2407=e\245\337^\30\265k\36v\35\233\247\36k\260G\325\355\320\320", 60) = 60
+43162 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43170 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\262\230t\266ljjG\274\5h\366O\217\207\332|\10c\337y\274\350h\353\271\227\301]\16\207\250\v\222\17\240\325\22IygR`\1\230A\244\266P\225(@\245\32*\341\326\1\234X", 60) = 60
+43179 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43188 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\360\353\31\255\203\242i8\201Z\373\266\305\270=772\355\356$\3530\0252\350\344\321%%)\271R\374\264\245\30\f;\320\241\257\350\261\376\367\326@<\273y7\242\226\202\243\235\344\261\334", 60) = 60
+43197 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43206 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "A\270C\4_LAS\246[\v\267\255\337Z\257\270>\vm\r\220y$%\206(_\266c\243R\251>ZT\266\356\343\303\n. \305\373\tb\301\334\351\20~\271\215,\361]\303y/", 60) = 60
+43219 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43231 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "B&\rc3{J\306\16\5\0279\350\5O\36\216\305J?\246\27\320\330\345\375\351j\206\337\253mUK\33\311\301\373\365u;\2021j\243\216\357x^;\35\201P\20j\r\20\225\323\211", 60) = 60
+43237 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43241 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\35\241\305\341h\366\245\23\24q\177\357X/1\360\\[\216\306\34\336\6M$QB \203\203\257B\377b\341\364\210\323o\372)\262\371\23IK\357_R\360\\Z\345L\221\302\362\211\316\220", 60) = 60
+43258 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43264 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\345\4E\233e\266-\32I\372\322\256\340\336\341\232#\362c\307\212w\213T\230_\315\257NG.!\255\360\220I\276\271\271W\342\5r)P\251\213!\244G\211\22$i\230\364K\242Np", 60) = 60
+43270 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43275 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\233\213\266\2330\236\371\0\266\341\333n[\371r\273FG\215icQ\367\262s_\r\17\334\22{\2601s\320\273?Y\353\325\365\262\3258~\337\252X\264Lv\241\346!\347\253\340\230\236\311", 60) = 60
+43280 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43290 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "s\212+\22\251\331\17n\370\343\363\23\264ON2\245\347\2533\240\242Gdb\241\351\201\n*\2170\304\364\316\320o\354<\355\371\267?\10\306P\16\25x\324V\262X\377\234\0306\7T\307", 60) = 60
+43299 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43304 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\267\305\306J\226\234\213D\367\265\301\357\332\273R\204J\253^\332\6\266\213\351\355\355=\324O$\344\201\361dok\17\n\225\225\305\202\25\35\233\235\372G\254i\206\355\224\252H\f\256<\10:", 60) = 60
+43313 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43322 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\222\240\301+,K\354 \32r\tN\334+(\253R\242\355\3\275\34m\\\273\344\235R\317Ak\212\310/A\0\243QJ\\)\276\233t\257,~\335\242\2\\b&\346\251\325\237\31<\342", 60) = 60
+43327 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43338 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "s\352\17\244\334\350/6^\373\237\326\264\376p\204\5C\363\325\0271\222\222\37\241\244\25/\236H\351\26\316\177\374\324\273\203\241C\215\26&?\303\211\30t\347@\311\363\2\372\245s.,!", 60) = 60
+43344 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43349 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "9\234\340\375\273\213\247p\263\336\22|\200TCE+g\203s\177L\310\357ho^\6\304\7Ng\203\252\234\214\215\305\177\374\tm\313\300\25E6\231\271(n\363\262\6.\0\6\262\324\261", 60) = 60
+43358 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43366 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\356\256\366\352\334\237\261C\250O\211\362\212|\301\"\350\3121\214.hqM\331/\226\327W$\322_\211U\377<c\322\345\273\343Z\361\371\352\30\35t\361s\361\221\261o\270\343\302`\365\4", 60) = 60
+43370 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43373 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "p\316\362\363d\7\337\315\212\235R\351\276\27\312\35\364~\1lmg\246\254\243\343B\34my\373\353\367;U\271\217\315m\213\252\33\337\n#nL\210\324\273G\276\350H\2315\256\224\26z", 60) = 60
+43380 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43384 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\350\4\257\31\t\343\301\305\26\373\34/8\265\363N\3248\216\222\314$\206f\356UvU\22\263\361\225\261\225;|#\246\267\374y\375\2\364_*%6'\\\2455%\341\224iC\261\350\23", 60) = 60
+43392 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43396 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "e\233Q9\330\325\246V\212\300k\253\306\274P\30<\217x\370\37V\2731h\351t\5\307\27\27'\t\16\336.No\34\363\27\207\322\212^\344\276|\232\370\245\330v\21\312\356\216\22kq", 60) = 60
+43399 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43401 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "q4\231\251_/\307\4\355\362-k\225xe\352t\1&G\336]\372\240(\27\337\216|\3758|\317\230fe\320l\330\r\366A&\233qux\23\351 \227\205\303\347\225\335Qw\233'", 60) = 60
+43403 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43405 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "t*\24\231\305\217\5\24o\363>\200\252\10\306<\316\363\221E\377\235\344b\325\210\313\35\235\253\302\205Pq\362\245\4\243\24\375v\232*1\214\312u\336\33\317\377?\235I\305\"\370\206\207\333", 60) = 60
+43407 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43409 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "d\201\350\350D\361r\214\366\200\316\240Q\213\315\210\222oU\355\251\207\336\21\251\256\376\6D\r=\362~\t\243\335\205\315\265\10S\312\224\30V\345\215\233U\346\361\34\3725%\3T\317h2", 60) = 60
+43413 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43415 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\377\242%\2331W\6\376mN\257\303\300Bp\204\334\350<\255\377\254Pi\225t\256\240\232\357\177\22\201J\237\232\343o\30\344\374{P\316\272V\376\211&\360\342\2231f\206\31\325\0017\203", 60) = 60
+43419 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43422 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "(\264~5\20\326\372\37\344\7\365\333\215\355\230\246\317\t\265\30\266\34iH\20\271\212\220)\203t\243\3566\212m\347\256j\5C_l\224O\266`\24\343k\323\201\201\323\267\217\0224m\317", 60) = 60
+43424 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43426 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\262\231\333:\252&o\2151\360\331d3k\302E\345\233\360Kpw\220\217\250hQ2\373\2140^\24J\316\222\252\364\7\247T\210y\234\t\231\r\362\364\335P\301~\343+\210\204+\357\331", 60) = 60
+43428 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43431 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\4u \204\313\326U _Ku\7\272\2065\272\224KuN;T\356\343\332W\211\204 \207\231J\255x\356-\271\350\32=\2540\360\202\327\236^&\326\334`\272\30\277\276\200\16\244\316;", 60) = 60
+43433 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43435 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\266\341\31\313\212\323\230@\23\377\0\274L\212\301NV\233\4\237v\212\216\300\261\351mMc~\262t2\254\345\232\233&x\f\27\33\33\353\2\247JV\375\263\324\275\351\324Q+\365\4\31_", 60) = 60
+43439 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43443 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\233\336\33w\200\341s\351\16\254\363\3W\t\366\264[\303zB\27Z\216\270\367\361\226\"\240\r\330O\333\357j\240\275\\\223\276\240\rJ\312I\300\36T\261\215Y'\341T@.gS\206\10", 60) = 60
+43448 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43450 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\374\t\377\vR\"\27-K\t\24\362\270\21\216\362\2.*\231\316\260\344'\177\255\t\311\250\n\312@\377\4\23\226&&\325m(`h@;\0172)\213\311\267 '\212<Lw\1\35u", 60) = 60
+43453 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43457 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\370\347\337K \234\214 )\366\3r\225\307f\325\275A\234\314|\261\311\317\360tU\217R\376P;\336|o\201\323V\314+\212Z\244vl\225o(\227\204KC\327\3130\315Z:\223\"", 60) = 60
+43460 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43463 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "y\366\f_\300\22u\353\226\224y\225XxguA\206\27v\207p<\335\n\360\3553\352\207\233\235\272\243x\326j\4h\244\23\204\321\252\306\3761\335\27\23A#L\372\215\330\33\276\267\204", 60) = 60
+43465 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43467 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\314\350\364\204\243\10G\305\216\315*\220\312\357}R\21\316\301\224\206\245\260XW)^\225\240D\36\226\314\323\f\202T\370\314\326g\220~\347\247\31kvOM0\365\366\243\234\203\222\265\317\304", 60) = 60
+43470 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43472 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\255\335\364\261\250\205\307\225\255CV\260\t\330W\255#\32\t\234\252\314\250F\265>\234H\227\272\302\333\267;\217n\341^\221\270\n%H\325 \347\263Jlxq\351\246/\355\344p%\2536", 60) = 60
+43475 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43477 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\234G\242\337\325xq\221V\324(\327\271\223\353\277C*!\220\245\353\3171\243\306\314\236\375\20\2119\361\227\34Rq\233t6\352\10\0\323i\254=\374\361H\275\4\32C\321\375\314\240\345\207", 60) = 60
+43479 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43481 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\370<\347t\316cJ5MJZ\26\221\332\337\316K\16\350\4\242\5\227\227\10\354\32\214*\304\373+\t\261\23;\376.\324\336\v\224\37\260#|\2\20\212\207f\334gW\325OV\31vw", 60) = 60
+43484 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43485 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "$t\342\366\3761:\377{=\244\206\246`8en\363\360\6\244\263\326V|\226E\353\276}Mi\210\20\347J\374\357\363\320\242\233\30U\266\261\336#\202c\242\314\302\237T\26\5#\"\212", 60) = 60
+43488 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43490 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "2\367\216\341\0348\320\255\312#?\375;\324\352\370l\354i=<J\220#\370\273^\233\332v;s\261\346\255@\361\226\244\375\233\312\7\343\212\233\231\7b\325\354\326P\322\27\375\352\t\210\30", 60) = 60
+43494 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43496 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\221\207O\344t\17nP\2241+\332\263\350\363C`?\227I{\4\2049?&\236y_\264\34\10\314\233\317)\327\2,s\356\351[\206\300\6\2139\306\257\30\236U\351%\315\237\334\2557", 60) = 60
+43498 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43499 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\210&\354\213\207\377>\341\5H\217\336\0263\207S\351\352\335\300\1\337)F>-0E\264-n\21\360\221\26\323\24\24\277\247\243Y\37\3304\234\25 \343\255\241\306\213i5Fw5X\370", 60) = 60
+43502 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43504 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\266u\373\346g\0\f\374\353\323\f\207\337\204\312\377\256R\310r\20\303\263\226C\30}\334w\360\273%z \3033Yr\236\\\340\226\301\255\2659\300\230\24G\5\362\16\277w\17O\277*\304", 60) = 60
+43507 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43509 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "|\345\26\316\337NjF%4\v{\301R;\377\326)\366\177\34\201`\6\201\322l\237]60m\220\333>\274LD^\242\370\262\251\374Y\313fD\331\232\32\267\214j6O\321\177\30{", 60) = 60
+43512 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43515 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\334}\177g?r\v\24\224\261\344\231\t\33\3244\256\3l\323\312\225\31\213\210\236S\0~v5Y!\223\206\300`\233A\226D\376W\245x\304+{4K\16\35\356\272\4zA|:\260", 60) = 60
+43518 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43520 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\221m\261\307E\343l\257\3404O\347Z\341E\335}~m\357J~\342B\335\4\223e\260\26\377\242\346!\30\300\31_\254\27)\346\34\312\6\313\t\304\215\203(\205$\7\242\322\222\23\276\255", 60) = 60
+43523 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43525 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "9\246y\242\330~\r\231+a\301E3\214\252\317\202.oU\25\327\3041\177|\204\272\nTl\323\251\372\304\302\244\351\203\346_\260B\202\363\25\272H\4\17{\250!k\0059s\26\16\343", 60) = 60
+43531 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43534 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\234j\264\34\333J\260l\271\364H\372\250\217\"K\30\356*'\341\224CXy\342&\261\31\v\221\232Q\262\222$\200X\375G\274EYO\362>E(L\216\365\233\204M0b\304G\206\256", 60) = 60
+43537 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43540 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\315g\242\221:2FLl\240\365\225\250\251\20\4V\274Qz`\326\0\26\346\346\300/\234\343c\262\17\244\352\2@c1\374\311d\210,aI\346t\6\17Ur\364\303\2\347m\344>\24", 60) = 60
+43543 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43546 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\253\326l\303\3210l[y\371\301\23\252*z\21\337\211\r%I\254\7\245\\\217^\27\234\300\27\347\340\355\5\203\232\326\236\250an&\336\365!htN\207\243\247\215\3+\212sX2\373", 60) = 60
+43778 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43780 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "O\332\2079;K\202\236\205\367\2673L\220\225(\242\6\3615\3351.y\31\2772\17;e!G\375C\341\304\234\360CEO\"M\236\377\267o)\230\352=`\33\216T\251\254\17\242e", 60) = 60
+43782 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43784 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "~\212\347\333\217\256\236\256\0229\274H \354\330\277=`Q\353\320\0009\2630\370\343N\367\324z\333=\267\342\4\224fQ\243\311.\3159\271\0376\231`HZ\340\376\247\245\347|\34\262]", 60) = 60
+43786 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43788 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, ">0U\226\341\257D\221$E\350\327\2P\201W\7E\214\252uA\330\322\344>j\255\351\\\373\7\2354\370\231:\234_\24e<\343p\260\253\7k\252Z\252\25I \237\340fP\320\30", 60) = 60
+43791 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43793 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\312&\177\321\220\266\310\26\235@\250\301\272\213@*j\27V\322\355\6E}\317*g]\302\315\"\241\373\200C\214I\330\311\10\237\314hr\362\0230\316\214\3739\316\30A\3170V\177\273\300", 60) = 60
+43795 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43798 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "F\343(\213?q\367M\245<\371\24\357r\342\2379\2631\3078sy\340\303l8zF8\254\360\2328\22/l5t\7\361^}\341\3\346Z\303\266x\v\241\35\247\261k]7\23\231", 60) = 60
+43800 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43802 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\205]=\255\22\214W\322)\27\312\211]\32c;z\322\335\220~E}\272@}\\\f\204O\35\307\215\372L\255]\31G\374\251h\346\205-\232\254\204\2340H\331\277$\0009\v\247>\353", 60) = 60
+43804 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43809 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "-[\361\36\226\210\202$\260Z\215\256\360\276\351vb\16N;\223P\212p\201\321$\2408L\32\216t\31\306t\203\31,~\260\375\224\213\303\3533b\200U\246A*\330\217\314[J\23-", 60) = 60
+43811 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43813 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\372\351,\212?\35\7\231h)\244\352\300\211o\370\320S\270\375\350\324\r\252\377\"Sd\277\376\253\333D2\27\301\24\20i<6\344\210,lr3k_\204|d\222\362\231G+v\350T", 60) = 60
+43815 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43816 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "ah\373\344\256\223P\2408\3X1\22\240\3669\2I/\271o\321\335\321\n\37\307\334\0338\213\341\236\23\271\312\253\217\225\307#\340\342.\317\314\31\242G\315*uv0\250i,\337\247\201", 60) = 60
+43819 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43821 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\272\257\34\23\356\4bD\245\351\307;K\235\242\222\235'\266Lr\tl)\341.\244e@\222\322\27;\0042[\32\273\316\361)\214\\\314@\3331 \323\203\206K\375\3362.3\371\16\315", 60) = 60
+43823 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43825 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\t\272<\361&\355\226F\250\217\253%_\347\246\3605\303m\202\326)3\33\254\255#3\262\v0x)\3036\354d\363:\267\234\222:\372B:\371\251\363\232h\214\337\311/\246\261\0H\364", 60) = 60
+43827 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43829 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "v\353\206`\33\220\31\300\316\27,\376v\360n#\222\0057\373\324n\210\2\335[\21064\247\306\204R\26\250\2Z\331i\316|\22\354\311\210\231\352 \206\214\325\303\357\213\205 B/\2.", 60) = 60
+43831 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43833 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "R7\205z\253D\273\10\35\206|\267\250\241pl\336\352\365\205\201\307\10O_\5_\204~\317\272mVu\324)\344\353\237\263\357i\200\252<*P\352\346\311\213\2\210\375\310\311\356A\37\246", 60) = 60
+43835 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43836 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\326=m'\305\225\335\25\235J\324\177\227\2555\256\326[\0\325Y\252\365ec\230\312\177\201\274\223\10o\304\252\301\0000l\326\222\35\223\216-\204\266\322D\30\3[\260\230\327\255\236G\252#", 60) = 60
+43839 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43841 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "O\333\236[\270a\306\372IBF\23\207Xr\337\0\26061~I\21M\337\26m\360d\224b2\200\t\352\345\311,\337V\225\227\343\200j>\211\237F\371\271\233'B1\243\250\5\336\307", 60) = 60
+43843 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43845 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\220iJb\320\25\354\7k\212n\235<\357\334 v\35^:?K\224\345e\270][^|\306\332_\0215h1\vwh\227\350\315\225c\345\3248\226>\340yh\210<\331\230\0263\373", 60) = 60
+43847 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43849 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "V\310\316\3107\31\347B\366\243\33\302\3\210\204\37\363T\351\216^S\377&\16\222\356\31\22\267\226\216IL\21\217\275\341\272\372\1\275v\25U\375MC\0372\233q\346\264<K1\35n\364", 60) = 60
+43851 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43853 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\360I\312E\254\363\335\215\30\2\20G(Z\322\307\363@X\236R\203\31`\217\370\350\0165\250}\33}\376\25pH\365\3Q\236Ug\364l\210\374\2\226\340\0\305\n\367\231\20\232:\23\375", 60) = 60
+43855 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43857 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "N\347\0013y\224\307v\205Jv|8\26y\354\31_\342>\2729\317hE\304\321M\211O\177\246\274\266[\350\6\206\363\373-:\363qSu20Z\251\254\203\313\354\353\213\341H\246]", 60) = 60
+43859 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43861 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "7\2167`\244\362m\303\2448\243\17\357\271y\216#)\337\347R/\267\300\1\333!e\0'\24h\345KY\177\343\313\25!c]\366x\206\362\t\355~\273Y\244;\357\2223\22\330\304\254", 60) = 60
+43863 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43865 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\307No\255\7\222\r%\225\34\37\241\10\231\247;\206F7$6h\372S(L\364\346\20\370\237\16sN\304\35\331\335\210\210\352:\252X\342\300\204^m<\244?|\223\214\350\0\211\346\210", 60) = 60
+43867 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43868 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\245\357a&'\270\225I\333\3402\220A\300\307\260-54y5\341\251\337D\33\367x\333\346\211\361*\360\343\302\27tJ\22\304G\323%\177\247\235\366\303~9\346jKq\4\\\273\23\373", 60) = 60
+43870 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43872 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "!\0045P\17ng\26\367\306\323\256\212\4(X\235\365h\335{\346\353hI\356\30\307\31F\334\303\311\213\366V\243\342?k\24b\32\230\323\32\364\245\365\350\330P\27rj:\356Q\7e", 60) = 60
+43875 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43877 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\35O>!\246\23\334\235\251\207\325A\200\237]\n\344\321\252\233\217\360j\237\340\20f\370}#F|P\262\26\35\354\225Ve9\336R\24\225J\21\33\243\364\370\216R>\342x\265\224i#", 60) = 60
+43880 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43882 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "B\317\26\326\3J\321r\26\npe\274(l\0216\25\3303\325>n\245\23BmS\10\231\v6w\321\233 \323\361\237\331\314\264\354\4\264&\367I\352Ot\212\6\f\354N\35W\352\225", 60) = 60
+43884 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43886 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\200\305\366:\350;\223\352g\267\225\210x._\236\266\211\266\316\177+\373nmu,\211t\321\220\202\351+\5\25\266\332H\323\331\277/\350d11WS\267\262s\242\326V\271\226t\377a", 60) = 60
+43888 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43890 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "G\260_\265\210+\311$(+\364A\20,B!\337%,\301xwl:\331\371r\257\24\220\223\36n\10\3121\331L\30\301\3\257]xv\272{\261\220\305\246N\337\202(\247\230\252yE", 60) = 60
+43892 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43894 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\331=q\350\310\373\264i\370\230}f\362>c\376\241\323\210\340\33\333\210\36*\4\322\270\243\222d\325\337\354\236\252\22\217\227]\266.\230\244\353\276@\366\312\306\\\236\275Z\23]\342\2163\255", 60) = 60
+43896 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43897 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\200;\244\266\231x@\352\16mX\227\356\310I\307\351w\322\277\314w{\222\242\272)\351\375\247&g\313\256\253Ht\2\302\345\211\201\330oR\257B\341\322i\230\304\252\201H \nL\4\37", 60) = 60
+43900 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99998})
+43903 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\312L\366\363f\10&--\375q<\2155\36A\243i\7\270\246\5\312\343\312\365d\0248'\262\221\235\t<\211\366p\331\201\310$K\324\264N\21\261F\346\36\t;\357\31\27$\347\7z", 60) = 60
+43905 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43907 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "4P\236E[G\35\304\346\210\3\353\376}PRj\223\r\236\327\370\323\343\10:\356]\263y\344:t*\23\265|\"\3\27\347\226\r\307\367\314\25\344\324ct\303yE\262!p\344\217\234", 60) = 60
+43910 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43911 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "V\252\2623\210{R\307\322\205f\2\320\304f\261\231\257H\360Q\232j/\242\240\30H\252\216\372.\272\343\370l\324a\345\224\335Q\325b2n\203\fk\252?\265\325\222\215\16\35}\24\364", 60) = 60
+43914 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43916 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\n\30\2'\267\226\3\363^sb\273\227\206\272\307U\315\357\265:\234\277\277\2238\363\23\256g\322\23\206\200\234\364v\1D1rx\265\321\6\24\225\td\316J\242Fx|\t\325\207\375\213", 60) = 60
+43918 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43920 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\207\336\225\320\f\200T77\356\302\205b\252\220\257\tNU\346g\211\200\1\327Y\243\315\365\324\3052(\257\212\351\341\1(\217\302i*\324\335\346i\320\262u4\0376+W@\344A\317\204", 60) = 60
+43922 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43923 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\357\231\v-d\374\2\r\360\247\235{jF\25687\305\273\213\242\202\214\357B\310\332\32\376-\0p\n\344\260\311\373\17\324l/\305i\374\31\277Z\352{H\335S\2\334\276\346\342\224\326s", 60) = 60
+43925 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43927 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\7\240\255\2465\212r\220\305\30R\304$\266\373O\267/\206\26g\20\0p\315\247\207\271]\336\312b4Co\234\363\23[\332\t>\272d\312Po\10\27\267s\24\303~\243\374\307\5\371\f", 60) = 60
+43929 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43931 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "@\341\\\204\360\306\36\344\211)Ou\325i\333\372\213\262`\240\206\342!\33Qo(\27+\236s\220X \321U\230\4bU.h=\340\336]\257,\233\215\221M\302\301\\\0\271\265\5\242", 60) = 60
+43933 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43935 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\f\327k^9)\200\202 #[\262\306{\346\226B\245\320|\371\33\"*\324\364\323\217\25\272z\236\373\362\242\330c\34np\362i\26\201Ow\216{\202_\v\n\324Y+Oq2\2132", 60) = 60
+43938 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43940 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "D\226!^\n]C\263&\333\16I\355\17\204\371@\234W\243\240)\275\350\301\0237U\314,[\r\356\311E\301KA\334'G\207#\214\3629G\333\37rvU\215\326o\3350V\202\223", 60) = 60
+43942 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43944 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\263\312y\234\304\304\226S\362\274\227\320\204\26\205\331-\303\31\275\271\305,\346\r$\343M\31\327d\0\27\273m\323mXde\370\2470:7h\236n\25\3\37\226`\177\202\377\3344\2343", 60) = 60
+43946 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43948 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\246}\240]0P\330s\221\266\f\304|\7v\205\21\344QL\16W\334D\32\213\330\346\320\373\221\264\223\264\236\\\230\216\354C\2105\3O=\222\367\271\307\351\"\354{T6\33\373r\24\347", 60) = 60
+43950 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43952 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "E\36\320RyO\v\301\3774VE\311\r\361C\311\344\25\241\210+\362{<&\213\212\336\32\250-B\232\\\336t\225\227\267Z\203\367\202\317\344z\20\26\21^1\227G\236#\223N\4\22", 60) = 60
+43954 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43956 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, ".\224%\325BI\363\346\224\357@\7\271\0\256\217\203\250\234\21B\370\230'\v\225\22#\361<\311\\\270C;\360\21.J\276\322\304\245\2\\y\202D\352oF8\306\204\3408'&\340>", 60) = 60
+43958 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43960 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\341)2\203yJ\211\7D\256\25\223\24^\300\206\277\25\320)\231\225\332d\305+\7<@\207\266\0?^\221c\25288\246\265\307\205ps\326\241\222\1\2172d\22\217\344E\347(\262\347", 60) = 60
+43962 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43964 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\311\361\246\266\242\242{\261\227\1\266\351\310{!{\363RN\373\353\312\2565\343\243\3264z\302r\233\vQ\207T\267\202\220\200d\236#mh0\235\36\353\267\364\216\276l\310\205\32\vJ\204", 60) = 60
+43966 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43968 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "m\275c\30\207\324\30<\220{\201\346s\236[%\1\237\361\221o\364\244\312_\346[\245\353\343Y\335\362<\213\243\367=2\177\364\236i\313\354\206{\264O[\265\331\273\3369Q\275\331?%", 60) = 60
+43970 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43972 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\21\243m\33\3171n7\310\322\267\265\320'1\317\333k\200v?v\222\313\211\317-\304\303?V\2720\221\353\242\34\354\351\305%\254nI\264\5\250.\373[\251\207\350\31\3146\365\21\247*", 60) = 60
+43974 , 55696 , 55696 , gnome-keyring-d , select(4, [3</dev/urandom>], NULL, NULL, {0, 100000}) = 1 (in [3], left {0, 99999})
+43976 , 55696 , 55696 , gnome-keyring-d , read(3</dev/urandom>, "\354\f\235\321\fF\241\\\33\266<W\317%1\353\321\263\313(ZN\263;\256N\330K+$\10\367dYUA=\220\270\223\242\177\336\260m\234\237\226\334\326\35\275\346\236\20\200Y\355\206j", 60) = 60
+43978 , 55696 , 55696 , gnome-keyring-d , getrusage(RUSAGE_SELF, {ru_utime={0, 0}, ru_stime={0, 20000}, ru_maxrss=5156, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=274, ru_majflt=2, ru_nswap=0, ru_inblock=392, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=928, ru_nivcsw=0}) = 0
+43980 , 55696 , 55696 , gnome-keyring-d , clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 20094426}) = 0
+43982 , 55696 , 55696 , gnome-keyring-d , futex(0x7f2bf27e6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+43984 , 55696 , 55696 , gnome-keyring-d , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+43986 , 55696 , 55696 , gnome-keyring-d , pipe2([4<pipe:[465864]>, 5<pipe:[465864]>], O_CLOEXEC) = 0
+43988 , 55696 , 55696 , gnome-keyring-d , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2bf3484b10) = 55703
+43992 , 55696 , 55696 , gnome-keyring-d , close(5<pipe:[465864]>) = 0
+43994 , 55696 , 55696 , gnome-keyring-d , read(4<pipe:[465864]>, "", 1) = 0
+45253 , 55696 , 55696 , gnome-keyring-d , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=55703, si_uid=0, si_status=0, si_utime=0, si_stime=1} ---
+45254 , 55696 , 55696 , gnome-keyring-d , exit_group(0) = ?
+45255 , 55696 , 55696 , gnome-keyring-d , +++ exited with 0 +++

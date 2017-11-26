@@ -1,0 +1,160 @@
+166164 , 55918 , 55918 , pool , set_robust_list(0x7fde3d4809e0, 24) = 0
+166174 , 55918 , 55918 , pool , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, 8) = 0
+166176 , 55918 , 55918 , pool , rt_sigaction(SIGQUIT, {SIG_DFL, [QUIT], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_DFL, [], 0}, 8) = 0
+166178 , 55918 , 55918 , pool , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_DFL, [], 0}, 8) = 0
+166180 , 55918 , 55918 , pool , rt_sigaction(SIGWINCH, {SIG_DFL, [WINCH], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_DFL, [], 0}, 8) = 0
+166182 , 55918 , 55918 , pool , rt_sigaction(SIGCONT, {SIG_DFL, [CONT], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_DFL, [], 0}, 8) = 0
+166185 , 55918 , 55918 , pool , rt_sigaction(SIGTSTP, {SIG_DFL, [TSTP], SA_RESTORER|SA_RESTART, 0x7fde5e5224b0}, {SIG_DFL, [], 0}, 8) = 0
+166187 , 55918 , 55918 , pool , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 18</proc/55918/fd>
+166189 , 55918 , 55918 , pool , fstat(18</proc/55918/fd>, {st_dev=makedev(0, 4), st_ino=513488, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:40.303729809, st_mtime=2017/11/26-08:16:40.303729809, st_ctime=2017/11/26-08:16:40.303729809}) = 0
+166191 , 55918 , 55918 , pool , getdents(18</proc/55918/fd>, [{d_ino=513488, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=513487, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=513490, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=513491, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=513492, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=513493, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=513494, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=513495, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=513496, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=513497, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=513498, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=513499, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=513500, d_off=13, d_reclen=24, d_name="10", d_type=DT_LNK}, {d_ino=513501, d_off=14, d_reclen=24, d_name="11", d_type=DT_LNK}, {d_ino=513502, d_off=15, d_reclen=24, d_name="12", d_type=DT_LNK}, {d_ino=513503, d_off=16, d_reclen=24, d_name="13", d_type=DT_LNK}, {d_ino=513504, d_off=17, d_reclen=24, d_name="14", d_type=DT_LNK}, {d_ino=513505, d_off=18, d_reclen=24, d_name="15", d_type=DT_LNK}, {d_ino=513506, d_off=19, d_reclen=24, d_name="16", d_type=DT_LNK}, {d_ino=513507, d_off=20, d_reclen=24, d_name="17", d_type=DT_LNK}, {d_ino=513489, d_off=66, d_reclen=24, d_name="18", d_type=DT_LNK}], 32768) = 504
+166193 , 55918 , 55918 , pool , fcntl(3<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+166195 , 55918 , 55918 , pool , fcntl(4<UNIX:[476015->476028]>, F_SETFD, FD_CLOEXEC) = 0
+166197 , 55918 , 55918 , pool , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+166198 , 55918 , 55918 , pool , fcntl(6<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+166200 , 55918 , 55918 , pool , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+166202 , 55918 , 55918 , pool , fcntl(8<UNIX:[490183->488689]>, F_SETFD, FD_CLOEXEC) = 0
+166204 , 55918 , 55918 , pool , fcntl(9</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+166206 , 55918 , 55918 , pool , fcntl(10<UNIX:[493671->493682]>, F_SETFD, FD_CLOEXEC) = 0
+166217 , 55918 , 55918 , pool , fcntl(11<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+166218 , 55918 , 55918 , pool , fcntl(12<NETLINK:[495575]>, F_SETFD, FD_CLOEXEC) = 0
+166219 , 55918 , 55918 , pool , fcntl(13<UNIX:[495591->495596]>, F_SETFD, FD_CLOEXEC) = 0
+166221 , 55918 , 55918 , pool , fcntl(14</etc/apt/sources.list>, F_SETFD, FD_CLOEXEC) = 0
+166223 , 55918 , 55918 , pool , fcntl(15<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+166224 , 55918 , 55918 , pool , fcntl(16<pipe:[513486]>, F_SETFD, FD_CLOEXEC) = 0
+166225 , 55918 , 55918 , pool , fcntl(17<pipe:[513486]>, F_SETFD, FD_CLOEXEC) = 0
+166226 , 55918 , 55918 , pool , fcntl(18</proc/55918/fd>, F_SETFD, FD_CLOEXEC) = 0
+166227 , 55918 , 55918 , pool , getdents(18</proc/55918/fd>, [], 32768) = 0
+166228 , 55918 , 55918 , pool , close(18</proc/55918/fd>) = 0
+166229 , 55918 , 55918 , pool , open("/dev/null", O_RDONLY) = 18</dev/null>
+166230 , 55918 , 55918 , pool , dup2(18</dev/null>, 0</dev/null>) = 0</dev/null>
+166231 , 55918 , 55918 , pool , close(16<pipe:[513486]>) = 0
+166232 , 55918 , 55918 , pool , dup2(17<pipe:[513486]>, 1<UNIX:[465235->465238]>) = 1<pipe:[513486]>
+166233 , 55918 , 55918 , pool , dup2(18</dev/null>, 2<UNIX:[465235->465238]>) = 2</dev/null>
+166234 , 55918 , 55918 , pool , execve("/usr/bin/dpkg", ["/usr/bin/dpkg", "--print-foreign-architectures"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "XDG_CURRENT_DESKTOP=GNOME", "QT_IM_MODULE=ibus", "XMODIFIERS=@im=ibus", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "XDG_MENU_PREFIX=gnome-", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/gnome-software-service.desktop", "GIO_LAUNCHED_DESKTOP_FILE_PID=55713"]) = 0
+166262 , 55918 , 55918 , dpkg , brk(NULL) = 0x1b3d000
+166263 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166264 , 55918 , 55918 , dpkg , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc79a3ec000
+166265 , 55918 , 55918 , dpkg , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+166266 , 55918 , 55918 , dpkg , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+166267 , 55918 , 55918 , dpkg , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+166268 , 55918 , 55918 , dpkg , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fc79a3cc000
+166269 , 55918 , 55918 , dpkg , close(3</etc/ld.so.cache>) = 0
+166270 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166271 , 55918 , 55918 , dpkg , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+166272 , 55918 , 55918 , dpkg , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+166273 , 55918 , 55918 , dpkg , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+166274 , 55918 , 55918 , dpkg , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fc799fa7000
+166275 , 55918 , 55918 , dpkg , mprotect(0x7fc799fc6000, 2093056, PROT_NONE) = 0
+166276 , 55918 , 55918 , dpkg , mmap(0x7fc79a1c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fc79a1c5000
+166277 , 55918 , 55918 , dpkg , mmap(0x7fc79a1c7000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc79a1c7000
+166278 , 55918 , 55918 , dpkg , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+166279 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166280 , 55918 , 55918 , dpkg , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+166281 , 55918 , 55918 , dpkg , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+166282 , 55918 , 55918 , dpkg , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+166283 , 55918 , 55918 , dpkg , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fc799bdd000
+166284 , 55918 , 55918 , dpkg , mprotect(0x7fc799d9d000, 2097152, PROT_NONE) = 0
+166285 , 55918 , 55918 , dpkg , mmap(0x7fc799f9d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fc799f9d000
+166286 , 55918 , 55918 , dpkg , mmap(0x7fc799fa3000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc799fa3000
+166287 , 55918 , 55918 , dpkg , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+166288 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166289 , 55918 , 55918 , dpkg , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+166290 , 55918 , 55918 , dpkg , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+166291 , 55918 , 55918 , dpkg , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+166292 , 55918 , 55918 , dpkg , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc79a3cb000
+166293 , 55918 , 55918 , dpkg , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fc79996d000
+166294 , 55918 , 55918 , dpkg , mprotect(0x7fc7999db000, 2097152, PROT_NONE) = 0
+166295 , 55918 , 55918 , dpkg , mmap(0x7fc799bdb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fc799bdb000
+166296 , 55918 , 55918 , dpkg , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+166297 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166298 , 55918 , 55918 , dpkg , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+166299 , 55918 , 55918 , dpkg , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+166300 , 55918 , 55918 , dpkg , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+166301 , 55918 , 55918 , dpkg , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fc799769000
+166302 , 55918 , 55918 , dpkg , mprotect(0x7fc79976c000, 2093056, PROT_NONE) = 0
+166303 , 55918 , 55918 , dpkg , mmap(0x7fc79996b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fc79996b000
+166304 , 55918 , 55918 , dpkg , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+166305 , 55918 , 55918 , dpkg , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+166306 , 55918 , 55918 , dpkg , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+166307 , 55918 , 55918 , dpkg , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+166308 , 55918 , 55918 , dpkg , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+166309 , 55918 , 55918 , dpkg , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fc79954c000
+166310 , 55918 , 55918 , dpkg , mprotect(0x7fc799564000, 2093056, PROT_NONE) = 0
+166311 , 55918 , 55918 , dpkg , mmap(0x7fc799763000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fc799763000
+166312 , 55918 , 55918 , dpkg , mmap(0x7fc799765000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc799765000
+166313 , 55918 , 55918 , dpkg , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+166314 , 55918 , 55918 , dpkg , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc79a3ca000
+166315 , 55918 , 55918 , dpkg , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc79a3c8000
+166316 , 55918 , 55918 , dpkg , arch_prctl(ARCH_SET_FS, 0x7fc79a3c8800) = 0
+166317 , 55918 , 55918 , dpkg , mprotect(0x7fc799f9d000, 16384, PROT_READ) = 0
+166318 , 55918 , 55918 , dpkg , mprotect(0x7fc799763000, 4096, PROT_READ) = 0
+166319 , 55918 , 55918 , dpkg , mprotect(0x7fc79996b000, 4096, PROT_READ) = 0
+166320 , 55918 , 55918 , dpkg , mprotect(0x7fc799bdb000, 4096, PROT_READ) = 0
+166321 , 55918 , 55918 , dpkg , mprotect(0x7fc79a1c5000, 4096, PROT_READ) = 0
+166322 , 55918 , 55918 , dpkg , mprotect(0x642000, 4096, PROT_READ) = 0
+166323 , 55918 , 55918 , dpkg , mprotect(0x7fc79a3ee000, 4096, PROT_READ) = 0
+166324 , 55918 , 55918 , dpkg , munmap(0x7fc79a3cc000, 129890) = 0
+166325 , 55918 , 55918 , dpkg , set_tid_address(0x7fc79a3c8ad0) = 55918
+166326 , 55918 , 55918 , dpkg , set_robust_list(0x7fc79a3c8ae0, 24) = 0
+166327 , 55918 , 55918 , dpkg , rt_sigaction(SIGRTMIN, {0x7fc799551b50, [], SA_RESTORER|SA_SIGINFO, 0x7fc79955d390}, NULL, 8) = 0
+166328 , 55918 , 55918 , dpkg , rt_sigaction(SIGRT_1, {0x7fc799551be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fc79955d390}, NULL, 8) = 0
+166329 , 55918 , 55918 , dpkg , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+166330 , 55918 , 55918 , dpkg , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+166331 , 55918 , 55918 , dpkg , statfs("/sys/fs/selinux", 0x7ffe321f7b10) = -1 ENOENT (No such file or directory)
+166332 , 55918 , 55918 , dpkg , statfs("/selinux", 0x7ffe321f7b10) = -1 ENOENT (No such file or directory)
+166333 , 55918 , 55918 , dpkg , brk(NULL) = 0x1b3d000
+166334 , 55918 , 55918 , dpkg , brk(0x1b5e000) = 0x1b5e000
+166335 , 55918 , 55918 , dpkg , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+166336 , 55918 , 55918 , dpkg , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:40.339730012, st_mtime=2017/11/26-08:16:40.339730012, st_ctime=2017/11/26-08:16:40.339730012}) = 0
+166337 , 55918 , 55918 , dpkg , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+166338 , 55918 , 55918 , dpkg , read(3</proc/filesystems>, "", 1024) = 0
+166339 , 55918 , 55918 , dpkg , close(3</proc/filesystems>) = 0
+166342 , 55918 , 55918 , dpkg , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+166343 , 55918 , 55918 , dpkg , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+166344 , 55918 , 55918 , dpkg , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fc799274000
+166345 , 55918 , 55918 , dpkg , close(3</usr/lib/locale/locale-archive>) = 0
+166346 , 55918 , 55918 , dpkg , ioctl(1<pipe:[513486]>, TCGETS, 0x7ffe321f7ad0) = -1 ENOTTY (Inappropriate ioctl for device)
+166347 , 55918 , 55918 , dpkg , umask(022) = 022
+166348 , 55918 , 55918 , dpkg , open("/etc/dpkg/dpkg.cfg.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3</etc/dpkg/dpkg.cfg.d>
+166361 , 55918 , 55918 , dpkg , fstat(3</etc/dpkg/dpkg.cfg.d>, {st_dev=makedev(8, 1), st_ino=132398, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:34:41.844713824, st_mtime=2016/04/20-18:19:28, st_ctime=2016/11/03-10:40:23.743999808}) = 0
+166362 , 55918 , 55918 , dpkg , getdents(3</etc/dpkg/dpkg.cfg.d>, [{d_ino=132403, d_off=3010095946851488672, d_reclen=48, d_name="pkg-config-hook-config", d_type=DT_REG}, {d_ino=131114, d_off=5710434140879988661, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=132398, d_off=9223372036854775807, d_reclen=24, d_name=".", d_type=DT_DIR}], 32768) = 96
+166394 , 55918 , 55918 , dpkg , getdents(3</etc/dpkg/dpkg.cfg.d>, [], 32768) = 0
+166395 , 55918 , 55918 , dpkg , close(3</etc/dpkg/dpkg.cfg.d>) = 0
+166396 , 55918 , 55918 , dpkg , open("/etc/dpkg/dpkg.cfg.d/pkg-config-hook-config", O_RDONLY) = 3</etc/dpkg/dpkg.cfg.d/pkg-config-hook-config>
+166397 , 55918 , 55918 , dpkg , fstat(3</etc/dpkg/dpkg.cfg.d/pkg-config-hook-config>, {st_dev=makedev(8, 1), st_ino=132403, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=204, st_atime=2017/11/25-09:34:41.844713824, st_mtime=2016/04/06-10:03:05, st_ctime=2016/11/03-10:37:31.495999939}) = 0
+166398 , 55918 , 55918 , dpkg , read(3</etc/dpkg/dpkg.cfg.d/pkg-config-hook-config>, "post-invoke=if { test \"$DPKG_HOOK_ACTION\" = add-architecture || test \"$DPKG_HOOK_ACTION\" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update;"..., 4096) = 204
+166444 , 55918 , 55918 , dpkg , read(3</etc/dpkg/dpkg.cfg.d/pkg-config-hook-config>, "", 4096) = 0
+166445 , 55918 , 55918 , dpkg , close(3</etc/dpkg/dpkg.cfg.d/pkg-config-hook-config>) = 0
+166446 , 55918 , 55918 , dpkg , open("/etc/dpkg/dpkg.cfg", O_RDONLY) = 3</etc/dpkg/dpkg.cfg>
+166447 , 55918 , 55918 , dpkg , fstat(3</etc/dpkg/dpkg.cfg>, {st_dev=makedev(8, 1), st_ino=132400, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=446, st_atime=2017/11/25-09:34:41.844713824, st_mtime=2014/11/27-20:08:21, st_ctime=2016/11/03-10:37:31.495999939}) = 0
+166448 , 55918 , 55918 , dpkg , read(3</etc/dpkg/dpkg.cfg>, "# dpkg configuration file\n#\n# This file can contain default options for dpkg.  All command-line\n# options are allowed.  Values can be specified by putting them after\n# the option, separated by whitesp"..., 4096) = 446
+166450 , 55918 , 55918 , dpkg , read(3</etc/dpkg/dpkg.cfg>, "", 4096) = 0
+166451 , 55918 , 55918 , dpkg , close(3</etc/dpkg/dpkg.cfg>) = 0
+166452 , 55918 , 55918 , dpkg , open("/home/elwin/.dpkg.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+166453 , 55918 , 55918 , dpkg , open("/var/lib/dpkg/arch", O_RDONLY) = 3</var/lib/dpkg/arch>
+166454 , 55918 , 55918 , dpkg , fstat(3</var/lib/dpkg/arch>, {st_dev=makedev(8, 1), st_ino=2097379, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=11, st_atime=2017/11/25-09:34:41.844713824, st_mtime=2017/06/24-09:24:45.275738376, st_ctime=2017/06/24-09:24:45.279738930}) = 0
+166455 , 55918 , 55918 , dpkg , read(3</var/lib/dpkg/arch>, "amd64\ni386\n", 4096) = 11
+166547 , 55918 , 55918 , dpkg , read(3</var/lib/dpkg/arch>, "", 4096) = 0
+166549 , 55918 , 55918 , dpkg , close(3</var/lib/dpkg/arch>) = 0
+166551 , 55918 , 55918 , dpkg , fstat(1<pipe:[513486]>, {st_dev=makedev(0, 10), st_ino=513486, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:40.295729765, st_mtime=2017/11/26-08:16:40.295729765, st_ctime=2017/11/26-08:16:40.295729765}) = 0
+166553 , 55918 , 55918 , dpkg , write(1<pipe:[513486]>, "i386\n", 5) = 5
+166555 , 55918 , 55918 , dpkg , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+166557 , 55918 , 55918 , dpkg , fstat(3</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+166559 , 55918 , 55918 , dpkg , read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+166562 , 55918 , 55918 , dpkg , read(3</etc/locale.alias>, "", 4096) = 0
+166564 , 55918 , 55918 , dpkg , close(3</etc/locale.alias>) = 0
+166567 , 55918 , 55918 , dpkg , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166569 , 55918 , 55918 , dpkg , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166571 , 55918 , 55918 , dpkg , open("/usr/share/locale/en_US/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166573 , 55918 , 55918 , dpkg , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166575 , 55918 , 55918 , dpkg , open("/usr/share/locale/en.utf8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166577 , 55918 , 55918 , dpkg , open("/usr/share/locale/en/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166579 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166582 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166584 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166586 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166589 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166591 , 55918 , 55918 , dpkg , open("/usr/share/locale-langpack/en/LC_MESSAGES/dpkg.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+166594 , 55918 , 55918 , dpkg , exit_group(0) = ?
+166596 , 55918 , 55918 , dpkg , +++ exited with 0 +++

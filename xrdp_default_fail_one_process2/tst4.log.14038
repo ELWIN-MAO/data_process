@@ -1,0 +1,53 @@
+3088 , 14038 , 14038 , startwm.sh , close(12</etc/X11/Xsession.d/20x11-common_process-args>) = 0
+3090 , 14038 , 14038 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+3091 , 14038 , 14038 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+3092 , 14038 , 14038 , startwm.sh , close(8<pipe:[31576]>) = 0
+3093 , 14038 , 14038 , startwm.sh , dup2(9<pipe:[31576]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[31576]>
+3094 , 14038 , 14038 , startwm.sh , close(9<pipe:[31576]>) = 0
+3095 , 14038 , 14038 , startwm.sh , stat("/bin/cat", {st_dev=makedev(8, 1), st_ino=4718616, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52080, st_atime=2017/11/25-09:34:45.240707058, st_mtime=2016/02/18-08:37:47, st_ctime=2016/11/03-10:37:30.907999939}) = 0
+3096 , 14038 , 14038 , startwm.sh , execve("/bin/cat", ["cat", "/etc/X11/Xsession.options"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c1", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3097 , 14038 , 14038 , cat , brk(NULL)  = 0xe3c000
+3098 , 14038 , 14038 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3099 , 14038 , 14038 , cat , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08a8392000
+3100 , 14038 , 14038 , cat , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3101 , 14038 , 14038 , cat , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+3102 , 14038 , 14038 , cat , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133816, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129302, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/11/23-00:52:24.619138953, st_ctime=2017/11/23-00:52:24.623139102}) = 0
+3103 , 14038 , 14038 , cat , mmap(NULL, 129302, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f08a8372000
+3104 , 14038 , 14038 , cat , close(8</etc/ld.so.cache>) = 0
+3105 , 14038 , 14038 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3106 , 14038 , 14038 , cat , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+3107 , 14038 , 14038 , cat , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+3108 , 14038 , 14038 , cat , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+3109 , 14038 , 14038 , cat , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f08a7da5000
+3110 , 14038 , 14038 , cat , mprotect(0x7f08a7f65000, 2097152, PROT_NONE) = 0
+3111 , 14038 , 14038 , cat , mmap(0x7f08a8165000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f08a8165000
+3112 , 14038 , 14038 , cat , mmap(0x7f08a816b000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f08a816b000
+3113 , 14038 , 14038 , cat , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+3114 , 14038 , 14038 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08a8371000
+3115 , 14038 , 14038 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08a8370000
+3116 , 14038 , 14038 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08a836f000
+3117 , 14038 , 14038 , cat , arch_prctl(ARCH_SET_FS, 0x7f08a8370700) = 0
+3118 , 14038 , 14038 , cat , mprotect(0x7f08a8165000, 16384, PROT_READ) = 0
+3119 , 14038 , 14038 , cat , mprotect(0x60b000, 4096, PROT_READ) = 0
+3120 , 14038 , 14038 , cat , mprotect(0x7f08a8394000, 4096, PROT_READ) = 0
+3121 , 14038 , 14038 , cat , munmap(0x7f08a8372000, 129302) = 0
+3122 , 14038 , 14038 , cat , brk(NULL)  = 0xe3c000
+3123 , 14038 , 14038 , cat , brk(0xe5d000) = 0xe5d000
+3124 , 14038 , 14038 , cat , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+3125 , 14038 , 14038 , cat , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+3126 , 14038 , 14038 , cat , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f08a7acd000
+3127 , 14038 , 14038 , cat , close(8</usr/lib/locale/locale-archive>) = 0
+3128 , 14038 , 14038 , cat , fstat(1<pipe:[31576]>, {st_dev=makedev(0, 10), st_ino=31576, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:40:32.512027588, st_mtime=2017/11/26-03:40:32.512027588, st_ctime=2017/11/26-03:40:32.512027588}) = 0
+3129 , 14038 , 14038 , cat , open("/etc/X11/Xsession.options", O_RDONLY) = 8</etc/X11/Xsession.options>
+3130 , 14038 , 14038 , cat , fstat(8</etc/X11/Xsession.options>, {st_dev=makedev(8, 1), st_ino=131335, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=265, st_atime=2017/11/26-03:14:07.143407193, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+3131 , 14038 , 14038 , cat , fadvise64(8</etc/X11/Xsession.options>, 0, 0, POSIX_FADV_SEQUENTIAL) = 0
+3132 , 14038 , 14038 , cat , mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f08a834d000
+3133 , 14038 , 14038 , cat , read(8</etc/X11/Xsession.options>, "# $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $\n#\n# configuration options for /etc/X11/Xsession\n# See Xsession.options(5) for an explanation of the available options.\nallow-failsafe\nallow-u"..., 131072) = 265
+3134 , 14038 , 14038 , cat , write(1<pipe:[31576]>, "# $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $\n#\n# configuration options for /etc/X11/Xsession\n# See Xsession.options(5) for an explanation of the available options.\nallow-failsafe\nallow-u"..., 265) = 265
+3135 , 14038 , 14038 , cat , read(8</etc/X11/Xsession.options>, "", 131072) = 0
+3137 , 14038 , 14038 , cat , munmap(0x7f08a834d000, 139264) = 0
+3139 , 14038 , 14038 , cat , close(8</etc/X11/Xsession.options>) = 0
+3141 , 14038 , 14038 , cat , close(1<pipe:[31576]>) = 0
+3142 , 14038 , 14038 , cat , close(2</home/elwin/.xsession-errors>) = 0
+3144 , 14038 , 14038 , cat , exit_group(0) = ?
+3146 , 14038 , 14038 , cat , +++ exited with 0 +++

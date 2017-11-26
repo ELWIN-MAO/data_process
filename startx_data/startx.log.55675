@@ -1,0 +1,955 @@
+29054 , 55675 , 55675 , at-spi-bus-laun , set_robust_list(0x7f52f485dae0, 24) = 0
+29062 , 55675 , 55675 , at-spi-bus-laun , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_DFL, [], 0}, 8) = 0
+29063 , 55675 , 55675 , at-spi-bus-laun , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_DFL, [], 0}, 8) = 0
+29065 , 55675 , 55675 , at-spi-bus-laun , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {0x402960, [TERM], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, 8) = 0
+29070 , 55675 , 55675 , at-spi-bus-laun , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_DFL, [], 0}, 8) = 0
+29074 , 55675 , 55675 , at-spi-bus-laun , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f52f348b4b0}, 8) = 0
+29076 , 55675 , 55675 , at-spi-bus-laun , close(12<pipe:[468551]>) = 0
+29078 , 55675 , 55675 , at-spi-bus-laun , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12</proc/55675/fd>
+29080 , 55675 , 55675 , at-spi-bus-laun , fstat(12</proc/55675/fd>, {st_dev=makedev(0, 4), st_ino=468563, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:15.991592538, st_mtime=2017/11/26-08:16:15.991592538, st_ctime=2017/11/26-08:16:15.991592538}) = 0
+29082 , 55675 , 55675 , at-spi-bus-laun , getdents(12</proc/55675/fd>, [{d_ino=468563, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=468562, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=468568, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=468569, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=468570, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=468571, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=468572, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=468573, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=468574, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=468575, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=468576, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=468577, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=468578, d_off=13, d_reclen=24, d_name="10", d_type=DT_LNK}, {d_ino=468579, d_off=14, d_reclen=24, d_name="11", d_type=DT_LNK}, {d_ino=468564, d_off=15, d_reclen=24, d_name="12", d_type=DT_LNK}, {d_ino=468580, d_off=66, d_reclen=24, d_name="13", d_type=DT_LNK}], 32768) = 384
+29084 , 55675 , 55675 , at-spi-bus-laun , fcntl(3<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+29086 , 55675 , 55675 , at-spi-bus-laun , fcntl(4<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+29087 , 55675 , 55675 , at-spi-bus-laun , fcntl(5<UNIX:[468380->465755]>, F_SETFD, FD_CLOEXEC) = 0
+29093 , 55675 , 55675 , at-spi-bus-laun , fcntl(6<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+29095 , 55675 , 55675 , at-spi-bus-laun , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+29098 , 55675 , 55675 , at-spi-bus-laun , fcntl(8<pipe:[468511]>, F_SETFD, FD_CLOEXEC) = 0
+29100 , 55675 , 55675 , at-spi-bus-laun , fcntl(9<pipe:[468511]>, F_SETFD, FD_CLOEXEC) = 0
+29102 , 55675 , 55675 , at-spi-bus-laun , fcntl(10<pipe:[468548]>, F_SETFD, FD_CLOEXEC) = 0
+29104 , 55675 , 55675 , at-spi-bus-laun , fcntl(11<pipe:[468548]>, F_SETFD, FD_CLOEXEC) = 0
+29106 , 55675 , 55675 , at-spi-bus-laun , fcntl(13<pipe:[468551]>, F_SETFD, FD_CLOEXEC) = 0
+29108 , 55675 , 55675 , at-spi-bus-laun , getdents(12</proc/55675/fd>, [], 32768) = 0
+29110 , 55675 , 55675 , at-spi-bus-laun , close(12</proc/55675/fd>) = 0
+29111 , 55675 , 55675 , at-spi-bus-laun , open("/dev/null", O_RDONLY) = 12</dev/null>
+29112 , 55675 , 55675 , at-spi-bus-laun , dup2(12</dev/null>, 0</dev/null>) = 0</dev/null>
+29113 , 55675 , 55675 , at-spi-bus-laun , close(12</dev/null>) = 0
+29114 , 55675 , 55675 , at-spi-bus-laun , close(10<pipe:[468548]>) = 0
+29115 , 55675 , 55675 , at-spi-bus-laun , dup2(11<pipe:[468548]>, 3<anon_inode:[eventfd]>) = 3<pipe:[468548]>
+29116 , 55675 , 55675 , at-spi-bus-laun , close(11<pipe:[468548]>) = 0
+29117 , 55675 , 55675 , at-spi-bus-laun , prctl(PR_SET_PDEATHSIG, SIGTERM) = 0
+29118 , 55675 , 55675 , at-spi-bus-laun , execve("/usr/bin/dbus-daemon", ["/usr/bin/dbus-daemon", "--config-file=/etc/at-spi2/accessibility.conf", "--nofork", "--print-address", "3"], ["SHELL=/bin/bash", "SUDO_GID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "QT_ACCESSIBILITY=1", "DISPLAY=:0", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "WINDOWPATH=1", "GTK_MODULES=gail:atk-bridge", "USERNAME=root", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "MAIL=/var/mail/root", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=55636", "XAUTHORITY=/home/elwin/.Xauthority", "USER=root", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "TERM=linux", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "SUDO_USER=elwin", "LANG=en_US.UTF-8", "SUDO_UID=1000", "HOME=/home/elwin", "LOGNAME=root"]) = 0
+29124 , 55675 , 55675 , dbus-daemon , brk(NULL) = 0x55a12a32e000
+29125 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29126 , 55675 , 55675 , dbus-daemon , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce2912d000
+29127 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+29128 , 55675 , 55675 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+29129 , 55675 , 55675 , dbus-daemon , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+29130 , 55675 , 55675 , dbus-daemon , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7fce2910d000
+29131 , 55675 , 55675 , dbus-daemon , close(4</etc/ld.so.cache>) = 0
+29132 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29133 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>
+29134 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\261\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\231\4\0\0\0\0\0\24\231\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\244\4\0\0\0\0\0H\244$\0\0\0\0\0H\244$\0\0\0\0\0T\f\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10\252\4\0\0\0\0\0\10\252$\0\0\0\0\0"..., 832) = 832
+29135 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, {st_dev=makedev(8, 1), st_ino=4985393, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=608, st_size=309392, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/10/12-09:19:48, st_ctime=2016/11/03-23:18:12.338184176}) = 0
+29136 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0) = 0x7fce28cbe000
+29137 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28d08000, 2097152, PROT_NONE) = 0
+29138 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28f08000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0x4a000) = 0x7fce28f08000
+29139 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>) = 0
+29140 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29141 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+29142 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+29143 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980824, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/09/28-21:40:34, st_ctime=2016/11/03-23:17:42.287864280}) = 0
+29144 , 55675 , 55675 , dbus-daemon , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7fce29088000
+29145 , 55675 , 55675 , dbus-daemon , mmap(0x7fce29108000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7fce29108000
+29146 , 55675 , 55675 , dbus-daemon , mmap(0x7fce2910c000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce2910c000
+29147 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+29148 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29149 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>
+29150 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0;\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\201\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L]\2\0\0\0\0\0L]\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210`\2\0\0\0\0\0\210`\"\0\0\0\0\0\210`\"\0\0\0\0\0\330\37\0\0\0\0\0\0\340\37\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340}\2\0\0\0\0\0\340}\"\0\0\0\0\0"..., 832) = 832
+29151 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_dev=makedev(8, 1), st_ino=4980763, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=328, st_size=166032, st_atime=2017/11/25-09:35:00.240677168, st_mtime=2017/06/27-09:51:17, st_ctime=2017/07/22-06:15:46.137151402}) = 0
+29152 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29087000
+29153 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7fce28a95000
+29154 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28abb000, 2097152, PROT_NONE) = 0
+29155 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28cbb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x26000) = 0x7fce28cbb000
+29156 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+29157 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29158 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libselinux.so.1>
+29159 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+29160 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+29161 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fce28873000
+29162 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28892000, 2093056, PROT_NONE) = 0
+29163 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28a91000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fce28a91000
+29164 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28a93000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce28a93000
+29165 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+29166 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29167 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libaudit.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>
+29168 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0*\0\0\0\0\0\0@\0\0\0\0\0\0\0(\303\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d\260\1\0\0\0\0\0d\260\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\273\1\0\0\0\0\0\310\273!\0\0\0\0\0\310\273!\0\0\0\0\0,\6\0\0\0\0\0\0`\246\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340\275\1\0\0\0\0\0\340\275!\0\0\0\0\0"..., 832) = 832
+29169 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4985477, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117288, st_atime=2017/11/25-09:38:03.878639474, st_mtime=2016/01/18-18:16:49, st_ctime=2016/11/03-10:37:49.195999926}) = 0
+29170 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2253352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, 0) = 0x7fce2864c000
+29171 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28668000, 2093056, PROT_NONE) = 0
+29172 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28867000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>, 0x1b000) = 0x7fce28867000
+29173 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28869000, 37416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce28869000
+29174 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libaudit.so.1.0.0>) = 0
+29175 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29176 , 55675 , 55675 , dbus-daemon , open("/usr/lib/x86_64-linux-gnu/libcap-ng.so.0", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>
+29177 , 55675 , 55675 , dbus-daemon , read(4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0@\0\0\0\0\0\0\0XB\0\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24=\0\0\0\0\0\0\24=\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240=\0\0\0\0\0\0\240= \0\0\0\0\0\240= \0\0\0\0\0\214\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350=\0\0\0\0\0\0\350= \0\0\0\0\0"..., 832) = 832
+29178 , 55675 , 55675 , dbus-daemon , fstat(4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465401, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18776, st_atime=2017/11/26-03:14:07.459404097, st_mtime=2015/10/23-17:11:58, st_ctime=2016/11/03-10:38:39.195999888}) = 0
+29179 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29086000
+29180 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2113840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0) = 0x7fce28447000
+29181 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2844b000, 2093056, PROT_NONE) = 0
+29182 , 55675 , 55675 , dbus-daemon , mmap(0x7fce2864a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>, 0x3000) = 0x7fce2864a000
+29183 , 55675 , 55675 , dbus-daemon , close(4</usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0>) = 0
+29184 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29185 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libapparmor.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>
+29186 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340&\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\364\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\350\0\0\0\0\0\0\\\350\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\353\0\0\0\0\0\0\320\353 \0\0\0\0\0\320\353 \0\0\0\0\0\33\7\0\0\0\0\0\0P\7\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\353\0\0\0\0\0\0\350\353 \0\0\0\0\0"..., 832) = 832
+29187 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, {st_dev=makedev(8, 1), st_ino=4985405, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=128, st_size=64144, st_atime=2017/11/26-03:14:07.459404097, st_mtime=2017/03/15-21:11:14, st_ctime=2017/04/03-11:26:59.129903727}) = 0
+29188 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2159392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, 0) = 0x7fce28237000
+29189 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28246000, 2093056, PROT_NONE) = 0
+29190 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28445000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>, 0xe000) = 0x7fce28445000
+29191 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libapparmor.so.1.4.0>) = 0
+29192 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29193 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libpthread-2.23.so>
+29194 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+29195 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29196 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fce2801a000
+29197 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28032000, 2093056, PROT_NONE) = 0
+29198 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28231000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fce28231000
+29199 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28233000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce28233000
+29200 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+29201 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29202 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+29203 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+29204 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29205 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29085000
+29206 , 55675 , 55675 , dbus-daemon , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fce27c50000
+29207 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27e10000, 2097152, PROT_NONE) = 0
+29208 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28010000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fce28010000
+29209 , 55675 , 55675 , dbus-daemon , mmap(0x7fce28016000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce28016000
+29210 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+29211 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29212 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/librt-2.23.so>
+29213 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+29214 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29215 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7fce27a48000
+29216 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27a4f000, 2093056, PROT_NONE) = 0
+29217 , 55675 , 55675 , dbus-daemon , mmap(0x7fce27c4e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7fce27c4e000
+29218 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+29219 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29220 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+29221 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+29222 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+29223 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7fce27826000
+29224 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27847000, 2093056, PROT_NONE) = 0
+29225 , 55675 , 55675 , dbus-daemon , mmap(0x7fce27a46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7fce27a46000
+29226 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+29227 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29228 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+29229 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+29230 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+29231 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29084000
+29232 , 55675 , 55675 , dbus-daemon , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7fce27545000
+29233 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2761d000, 2093056, PROT_NONE) = 0
+29234 , 55675 , 55675 , dbus-daemon , mmap(0x7fce2781c000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7fce2781c000
+29235 , 55675 , 55675 , dbus-daemon , mmap(0x7fce27825000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce27825000
+29236 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+29237 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29238 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+29239 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+29240 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+29241 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fce272d5000
+29242 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27343000, 2097152, PROT_NONE) = 0
+29243 , 55675 , 55675 , dbus-daemon , mmap(0x7fce27543000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fce27543000
+29244 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+29245 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29246 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libdl-2.23.so>
+29247 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+29248 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29249 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fce270d1000
+29250 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce270d4000, 2093056, PROT_NONE) = 0
+29251 , 55675 , 55675 , dbus-daemon , mmap(0x7fce272d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fce272d3000
+29252 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+29253 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29083000
+29254 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29255 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+29256 , 55675 , 55675 , dbus-daemon , read(4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+29257 , 55675 , 55675 , dbus-daemon , fstat(4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+29258 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7fce26ebd000
+29259 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26ecf000, 2097152, PROT_NONE) = 0
+29260 , 55675 , 55675 , dbus-daemon , mmap(0x7fce270cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7fce270cf000
+29261 , 55675 , 55675 , dbus-daemon , close(4</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+29262 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29082000
+29263 , 55675 , 55675 , dbus-daemon , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce29081000
+29264 , 55675 , 55675 , dbus-daemon , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fce2907f000
+29265 , 55675 , 55675 , dbus-daemon , arch_prctl(ARCH_SET_FS, 0x7fce2907f8c0) = 0
+29266 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28010000, 16384, PROT_READ) = 0
+29267 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce270cf000, 4096, PROT_READ) = 0
+29268 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce272d3000, 4096, PROT_READ) = 0
+29269 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28231000, 4096, PROT_READ) = 0
+29270 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27543000, 4096, PROT_READ) = 0
+29271 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2781c000, 4096, PROT_READ) = 0
+29272 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27a46000, 4096, PROT_READ) = 0
+29273 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce27c4e000, 4096, PROT_READ) = 0
+29274 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28445000, 4096, PROT_READ) = 0
+29275 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2864a000, 4096, PROT_READ) = 0
+29276 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28867000, 4096, PROT_READ) = 0
+29277 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28a91000, 4096, PROT_READ) = 0
+29278 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28cbb000, 8192, PROT_READ) = 0
+29279 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce29108000, 12288, PROT_READ) = 0
+29280 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce28f08000, 4096, PROT_READ) = 0
+29281 , 55675 , 55675 , dbus-daemon , mprotect(0x55a128df7000, 8192, PROT_READ) = 0
+29282 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2912f000, 4096, PROT_READ) = 0
+29283 , 55675 , 55675 , dbus-daemon , munmap(0x7fce2910d000, 129890) = 0
+29284 , 55675 , 55675 , dbus-daemon , set_tid_address(0x7fce2907fb90) = 55675
+29285 , 55675 , 55675 , dbus-daemon , set_robust_list(0x7fce2907fba0, 24) = 0
+29286 , 55675 , 55675 , dbus-daemon , rt_sigaction(SIGRTMIN, {0x7fce2801fb50, [], SA_RESTORER|SA_SIGINFO, 0x7fce2802b390}, NULL, 8) = 0
+29287 , 55675 , 55675 , dbus-daemon , rt_sigaction(SIGRT_1, {0x7fce2801fbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fce2802b390}, NULL, 8) = 0
+29288 , 55675 , 55675 , dbus-daemon , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+29289 , 55675 , 55675 , dbus-daemon , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+29290 , 55675 , 55675 , dbus-daemon , brk(NULL) = 0x55a12a32e000
+29291 , 55675 , 55675 , dbus-daemon , brk(0x55a12a34f000) = 0x55a12a34f000
+29292 , 55675 , 55675 , dbus-daemon , statfs("/sys/fs/selinux", 0x7ffe4c93ae80) = -1 ENOENT (No such file or directory)
+29293 , 55675 , 55675 , dbus-daemon , statfs("/selinux", 0x7ffe4c93ae80) = -1 ENOENT (No such file or directory)
+29294 , 55675 , 55675 , dbus-daemon , open("/proc/filesystems", O_RDONLY) = 4</proc/filesystems>
+29295 , 55675 , 55675 , dbus-daemon , fstat(4</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:16.007592630, st_mtime=2017/11/26-08:16:16.007592630, st_ctime=2017/11/26-08:16:16.007592630}) = 0
+29296 , 55675 , 55675 , dbus-daemon , read(4</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+29297 , 55675 , 55675 , dbus-daemon , read(4</proc/filesystems>, "", 1024) = 0
+29298 , 55675 , 55675 , dbus-daemon , close(4</proc/filesystems>) = 0
+29299 , 55675 , 55675 , dbus-daemon , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 4</proc/55675/mounts>
+29300 , 55675 , 55675 , dbus-daemon , futex(0x7fce28017008, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+29301 , 55675 , 55675 , dbus-daemon , fstat(4</proc/55675/mounts>, {st_dev=makedev(0, 4), st_ino=468586, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:16.007592630, st_mtime=2017/11/26-08:16:16.007592630, st_ctime=2017/11/26-08:16:16.007592630}) = 0
+29302 , 55675 , 55675 , dbus-daemon , read(4</proc/55675/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+29303 , 55675 , 55675 , dbus-daemon , stat("/sys/kernel/security/apparmor", {st_dev=makedev(0, 12), st_ino=9129, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:19:44.416000119, st_mtime=2017/11/26-03:19:44.416000119, st_ctime=2017/11/26-03:19:44.416000119}) = 0
+29304 , 55675 , 55675 , dbus-daemon , close(4</proc/55675/mounts>) = 0
+29305 , 55675 , 55675 , dbus-daemon , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 4</proc/55675/mounts>
+29306 , 55675 , 55675 , dbus-daemon , fstat(4</proc/55675/mounts>, {st_dev=makedev(0, 4), st_ino=468586, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:16.007592630, st_mtime=2017/11/26-08:16:16.007592630, st_ctime=2017/11/26-08:16:16.007592630}) = 0
+29307 , 55675 , 55675 , dbus-daemon , read(4</proc/55675/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+29308 , 55675 , 55675 , dbus-daemon , stat("/sys/kernel/security/apparmor", {st_dev=makedev(0, 12), st_ino=9129, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:19:44.416000119, st_mtime=2017/11/26-03:19:44.416000119, st_ctime=2017/11/26-03:19:44.416000119}) = 0
+29309 , 55675 , 55675 , dbus-daemon , close(4</proc/55675/mounts>) = 0
+29310 , 55675 , 55675 , dbus-daemon , open("/sys/kernel/security/apparmor/features/dbus/mask", O_RDONLY|O_CLOEXEC) = 4</sys/kernel/security/apparmor/features/dbus/mask>
+29311 , 55675 , 55675 , dbus-daemon , close(4</sys/kernel/security/apparmor/features/dbus/mask>) = 0
+29312 , 55675 , 55675 , dbus-daemon , clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+29313 , 55675 , 55675 , dbus-daemon , getresuid([0], [0], [0]) = 0
+29314 , 55675 , 55675 , dbus-daemon , getresgid([0], [0], [0]) = 0
+29315 , 55675 , 55675 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 4</dev/urandom>
+29316 , 55675 , 55675 , dbus-daemon , read(4</dev/urandom>, "r\243\364\225\2201\276\371\265\243\335\250", 12) = 12
+29317 , 55675 , 55675 , dbus-daemon , close(4</dev/urandom>) = 0
+29318 , 55675 , 55675 , dbus-daemon , epoll_create1(EPOLL_CLOEXEC) = 4<anon_inode:[eventpoll]>
+29319 , 55675 , 55675 , dbus-daemon , open("/etc/at-spi2/accessibility.conf", O_RDONLY) = 5</etc/at-spi2/accessibility.conf>
+29320 , 55675 , 55675 , dbus-daemon , fstat(5</etc/at-spi2/accessibility.conf>, {st_dev=makedev(8, 1), st_ino=131795, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1366, st_atime=2017/11/26-03:14:08.183397010, st_mtime=2016/02/24-22:18:24, st_ctime=2016/11/03-10:37:31.387999939}) = 0
+29321 , 55675 , 55675 , dbus-daemon , read(5</etc/at-spi2/accessibility.conf>, "<!DOCTYPE busconfig PUBLIC \"-//freedesktop//DTD D-Bus Bus Configuration 1.0//EN\" \"http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd\">\n<busconfig>\n\n  <type>accessibility</type>\n\n<servicedir>/"..., 1366) = 1366
+29322 , 55675 , 55675 , dbus-daemon , close(5</etc/at-spi2/accessibility.conf>) = 0
+29323 , 55675 , 55675 , dbus-daemon , getuid() = 0
+29324 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5<UNIX:[468587]>
+29325 , 55675 , 55675 , dbus-daemon , connect(5<UNIX:[468587]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+29326 , 55675 , 55675 , dbus-daemon , close(5<UNIX:[468587]>) = 0
+29327 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5<UNIX:[468591]>
+29328 , 55675 , 55675 , dbus-daemon , connect(5<UNIX:[468591]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+29329 , 55675 , 55675 , dbus-daemon , close(5<UNIX:[468591]>) = 0
+29330 , 55675 , 55675 , dbus-daemon , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 5</etc/nsswitch.conf>
+29331 , 55675 , 55675 , dbus-daemon , fstat(5</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2017/11/25-09:34:42.176713163, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+29332 , 55675 , 55675 , dbus-daemon , read(5</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+29333 , 55675 , 55675 , dbus-daemon , read(5</etc/nsswitch.conf>, "", 4096) = 0
+29334 , 55675 , 55675 , dbus-daemon , close(5</etc/nsswitch.conf>) = 0
+29335 , 55675 , 55675 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5</etc/ld.so.cache>
+29336 , 55675 , 55675 , dbus-daemon , fstat(5</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+29337 , 55675 , 55675 , dbus-daemon , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 5</etc/ld.so.cache>, 0) = 0x7fce2910d000
+29338 , 55675 , 55675 , dbus-daemon , close(5</etc/ld.so.cache>) = 0
+29339 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29340 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+29341 , 55675 , 55675 , dbus-daemon , read(5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+29342 , 55675 , 55675 , dbus-daemon , fstat(5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29343 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7fce26cb4000
+29344 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26cbc000, 2093056, PROT_NONE) = 0
+29345 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26ebb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7fce26ebb000
+29346 , 55675 , 55675 , dbus-daemon , close(5</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+29347 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29348 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 5</lib/x86_64-linux-gnu/libnsl-2.23.so>
+29349 , 55675 , 55675 , dbus-daemon , read(5</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+29350 , 55675 , 55675 , dbus-daemon , fstat(5</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29351 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fce26a9b000
+29352 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26ab1000, 2093056, PROT_NONE) = 0
+29353 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26cb0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fce26cb0000
+29354 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26cb2000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce26cb2000
+29355 , 55675 , 55675 , dbus-daemon , close(5</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+29356 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26cb0000, 4096, PROT_READ) = 0
+29357 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26ebb000, 4096, PROT_READ) = 0
+29358 , 55675 , 55675 , dbus-daemon , munmap(0x7fce2910d000, 129890) = 0
+29359 , 55675 , 55675 , dbus-daemon , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5</etc/ld.so.cache>
+29360 , 55675 , 55675 , dbus-daemon , fstat(5</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+29361 , 55675 , 55675 , dbus-daemon , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 5</etc/ld.so.cache>, 0) = 0x7fce2910d000
+29362 , 55675 , 55675 , dbus-daemon , close(5</etc/ld.so.cache>) = 0
+29363 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29364 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+29365 , 55675 , 55675 , dbus-daemon , read(5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+29366 , 55675 , 55675 , dbus-daemon , fstat(5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997535, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29367 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7fce2688f000
+29368 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce2689a000, 2093056, PROT_NONE) = 0
+29369 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26a99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7fce26a99000
+29370 , 55675 , 55675 , dbus-daemon , close(5</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+29371 , 55675 , 55675 , dbus-daemon , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+29372 , 55675 , 55675 , dbus-daemon , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 5</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+29373 , 55675 , 55675 , dbus-daemon , read(5</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+29374 , 55675 , 55675 , dbus-daemon , fstat(5</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997532, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+29375 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7fce2667d000
+29376 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26688000, 2093056, PROT_NONE) = 0
+29377 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26887000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7fce26887000
+29378 , 55675 , 55675 , dbus-daemon , mmap(0x7fce26889000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fce26889000
+29379 , 55675 , 55675 , dbus-daemon , close(5</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+29380 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26887000, 4096, PROT_READ) = 0
+29381 , 55675 , 55675 , dbus-daemon , mprotect(0x7fce26a99000, 4096, PROT_READ) = 0
+29382 , 55675 , 55675 , dbus-daemon , munmap(0x7fce2910d000, 129890) = 0
+29383 , 55675 , 55675 , dbus-daemon , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 5</etc/passwd>
+29384 , 55675 , 55675 , dbus-daemon , lseek(5</etc/passwd>, 0, SEEK_CUR) = 0
+29385 , 55675 , 55675 , dbus-daemon , fstat(5</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+29386 , 55675 , 55675 , dbus-daemon , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 5</etc/passwd>, 0) = 0x7fce2912c000
+29387 , 55675 , 55675 , dbus-daemon , lseek(5</etc/passwd>, 2368, SEEK_SET) = 2368
+29388 , 55675 , 55675 , dbus-daemon , munmap(0x7fce2912c000, 2368) = 0
+29389 , 55675 , 55675 , dbus-daemon , close(5</etc/passwd>) = 0
+29390 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5<UNIX:[468595]>
+29391 , 55675 , 55675 , dbus-daemon , connect(5<UNIX:[468595]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+29392 , 55675 , 55675 , dbus-daemon , close(5<UNIX:[468595]>) = 0
+29393 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5<UNIX:[468599]>
+29394 , 55675 , 55675 , dbus-daemon , connect(5<UNIX:[468599]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+29395 , 55675 , 55675 , dbus-daemon , close(5<UNIX:[468599]>) = 0
+29396 , 55675 , 55675 , dbus-daemon , open("/etc/group", O_RDONLY|O_CLOEXEC) = 5</etc/group>
+29397 , 55675 , 55675 , dbus-daemon , lseek(5</etc/group>, 0, SEEK_CUR) = 0
+29398 , 55675 , 55675 , dbus-daemon , fstat(5</etc/group>, {st_dev=makedev(8, 1), st_ino=140958, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1069, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.510337236, st_ctime=2017/06/24-10:10:27.514349619}) = 0
+29399 , 55675 , 55675 , dbus-daemon , mmap(NULL, 1069, PROT_READ, MAP_SHARED, 5</etc/group>, 0) = 0x7fce2912c000
+29400 , 55675 , 55675 , dbus-daemon , lseek(5</etc/group>, 1069, SEEK_SET) = 1069
+29401 , 55675 , 55675 , dbus-daemon , fstat(5</etc/group>, {st_dev=makedev(8, 1), st_ino=140958, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1069, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.510337236, st_ctime=2017/06/24-10:10:27.514349619}) = 0
+29402 , 55675 , 55675 , dbus-daemon , munmap(0x7fce2912c000, 1069) = 0
+29403 , 55675 , 55675 , dbus-daemon , close(5</etc/group>) = 0
+29404 , 55675 , 55675 , dbus-daemon , newfstatat(AT_FDCWD, "/run/systemd/system/", {st_dev=makedev(0, 19), st_ino=203, st_mode=S_IFDIR|0755, st_nlink=7, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=140, st_atime=2017/11/26-07:08:05.126357894, st_mtime=2017/11/26-08:11:53.909996648, st_ctime=2017/11/26-08:11:53.909996648}, AT_SYMLINK_NOFOLLOW) = 0
+29405 , 55675 , 55675 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 5</dev/urandom>
+29406 , 55675 , 55675 , dbus-daemon , read(5</dev/urandom>, "\322\2654\241\321\277.\275\256\357", 10) = 10
+29407 , 55675 , 55675 , dbus-daemon , close(5</dev/urandom>) = 0
+29408 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 5<UNIX:[468603]>
+29409 , 55675 , 55675 , dbus-daemon , bind(5<UNIX:[468603]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, 23) = 0
+29410 , 55675 , 55675 , dbus-daemon , listen(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, 30) = 0
+29411 , 55675 , 55675 , dbus-daemon , fcntl(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+29412 , 55675 , 55675 , dbus-daemon , fcntl(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+29413 , 55675 , 55675 , dbus-daemon , open("/dev/urandom", O_RDONLY) = 6</dev/urandom>
+29414 , 55675 , 55675 , dbus-daemon , read(6</dev/urandom>, "\7\345~\301\321%C\272\34Eh\321", 12) = 12
+29415 , 55675 , 55675 , dbus-daemon , close(6</dev/urandom>) = 0
+29416 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=5, u64=2940461381096308741}}) = 0
+29417 , 55675 , 55675 , dbus-daemon , open("/usr/share/dbus-1/accessibility-services", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6</usr/share/dbus-1/accessibility-services>
+29418 , 55675 , 55675 , dbus-daemon , fstat(6</usr/share/dbus-1/accessibility-services>, {st_dev=makedev(8, 1), st_ino=4852570, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:08.191396932, st_mtime=2016/04/20-18:11:02, st_ctime=2016/11/03-10:40:46.131999792}) = 0
+29419 , 55675 , 55675 , dbus-daemon , getdents(6</usr/share/dbus-1/accessibility-services>, [{d_ino=4851396, d_off=5710434140879988661, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4852570, d_off=8235926497448235668, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4852574, d_off=9223372036854775807, d_reclen=56, d_name="org.a11y.atspi.Registry.service", d_type=DT_REG}], 32768) = 104
+29420 , 55675 , 55675 , dbus-daemon , stat("/usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service", {st_dev=makedev(8, 1), st_ino=4852574, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=110, st_atime=2017/11/26-03:14:08.211396737, st_mtime=2016/02/24-22:18:24, st_ctime=2016/11/03-10:39:07.435999866}) = 0
+29421 , 55675 , 55675 , dbus-daemon , open("/usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service", O_RDONLY) = 7</usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service>
+29422 , 55675 , 55675 , dbus-daemon , fstat(7</usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service>, {st_dev=makedev(8, 1), st_ino=4852574, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=110, st_atime=2017/11/26-03:14:08.211396737, st_mtime=2016/02/24-22:18:24, st_ctime=2016/11/03-10:39:07.435999866}) = 0
+29423 , 55675 , 55675 , dbus-daemon , read(7</usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service>, "[D-BUS Service]\nName=org.a11y.atspi.Registry\nExec=/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session\n", 110) = 110
+29424 , 55675 , 55675 , dbus-daemon , close(7</usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service>) = 0
+29425 , 55675 , 55675 , dbus-daemon , stat("/usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service", {st_dev=makedev(8, 1), st_ino=4852574, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=110, st_atime=2017/11/26-03:14:08.211396737, st_mtime=2016/02/24-22:18:24, st_ctime=2016/11/03-10:39:07.435999866}) = 0
+29426 , 55675 , 55675 , dbus-daemon , getdents(6</usr/share/dbus-1/accessibility-services>, [], 32768) = 0
+29427 , 55675 , 55675 , dbus-daemon , close(6</usr/share/dbus-1/accessibility-services>) = 0
+29428 , 55675 , 55675 , dbus-daemon , write(3<pipe:[468548]>, "unix:abstract=/tmp/dbus-YvqbXFkDor,guid=07e57ec1d12543ba1c4568d15a1abea0\n", 73) = 73
+29429 , 55675 , 55675 , dbus-daemon , close(3<pipe:[468548]>) = 0
+29430 , 55675 , 55675 , dbus-daemon , gettid() = 55675
+29431 , 55675 , 55675 , dbus-daemon , open("/proc/55675/attr/current", O_RDONLY) = 3</proc/55675/attr/current>
+29432 , 55675 , 55675 , dbus-daemon , read(3</proc/55675/attr/current>, "unconfined\n", 128) = 11
+29433 , 55675 , 55675 , dbus-daemon , read(3</proc/55675/attr/current>, "", 117) = 0
+29434 , 55675 , 55675 , dbus-daemon , close(3</proc/55675/attr/current>) = 0
+29435 , 55675 , 55675 , dbus-daemon , getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=64*1024}) = 0
+29436 , 55675 , 55675 , dbus-daemon , getuid() = 0
+29437 , 55675 , 55675 , dbus-daemon , getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=64*1024}) = 0
+29438 , 55675 , 55675 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=64*1024, rlim_max=64*1024}) = 0
+29439 , 55675 , 55675 , dbus-daemon , inotify_init1(O_CLOEXEC) = 3<anon_inode:inotify>
+29440 , 55675 , 55675 , dbus-daemon , fcntl(3<anon_inode:inotify>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+29441 , 55675 , 55675 , dbus-daemon , fcntl(3<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+29442 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 3<anon_inode:inotify>, {EPOLLIN, {u32=3, u64=2940461381096308739}}) = 0
+29443 , 55675 , 55675 , dbus-daemon , inotify_add_watch(3<anon_inode:inotify>, "/usr/share/dbus-1/accessibility-services", IN_CLOSE_WRITE|IN_MOVED_FROM|IN_MOVED_TO|IN_DELETE) = 1
+29444 , 55675 , 55675 , dbus-daemon , capget({0 /* _LINUX_CAPABILITY_VERSION_??? */, 0}, NULL) = 0
+29445 , 55675 , 55675 , dbus-daemon , gettid() = 55675
+29446 , 55675 , 55675 , dbus-daemon , open("/proc/sys/kernel/cap_last_cap", O_RDONLY) = 6</proc/sys/kernel/cap_last_cap>
+29447 , 55675 , 55675 , dbus-daemon , read(6</proc/sys/kernel/cap_last_cap>, "37\n", 7) = 3
+29448 , 55675 , 55675 , dbus-daemon , close(6</proc/sys/kernel/cap_last_cap>) = 0
+29449 , 55675 , 55675 , dbus-daemon , capget({_LINUX_CAPABILITY_VERSION_3, 55675}, {CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP|CAP_MAC_OVERRIDE|CAP_MAC_ADMIN|CAP_SYSLOG|CAP_WAKE_ALARM|CAP_BLOCK_SUSPEND|CAP_AUDIT_READ, 0}) = 0
+29450 , 55675 , 55675 , dbus-daemon , open("/proc/55675/status", O_RDONLY|O_CLOEXEC) = 6</proc/55675/status>
+29451 , 55675 , 55675 , dbus-daemon , fstat(6</proc/55675/status>, {st_dev=makedev(0, 4), st_ino=468612, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:16.059592924, st_mtime=2017/11/26-08:16:16.059592924, st_ctime=2017/11/26-08:16:16.059592924}) = 0
+29452 , 55675 , 55675 , dbus-daemon , read(6</proc/55675/status>, "Name:\tdbus-daemon\nState:\tR (running)\nTgid:\t55675\nNgid:\t0\nPid:\t55675\nPPid:\t55670\nTracerPid:\t55576\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 3003 3004 \nNStgid:\t55675\nNSpid:\t55675\nNSpgid:\t55640\nNSsi"..., 1024) = 959
+29453 , 55675 , 55675 , dbus-daemon , close(6</proc/55675/status>) = 0
+29454 , 55675 , 55675 , dbus-daemon , fcntl(3<anon_inode:inotify>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+29455 , 55675 , 55675 , dbus-daemon , fcntl(3<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+29456 , 55675 , 55675 , dbus-daemon , fcntl(4<anon_inode:[eventpoll]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+29457 , 55675 , 55675 , dbus-daemon , fcntl(4<anon_inode:[eventpoll]>, F_SETFD, FD_CLOEXEC) = 0
+29458 , 55675 , 55675 , dbus-daemon , fcntl(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+29459 , 55675 , 55675 , dbus-daemon , fcntl(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFD, FD_CLOEXEC) = 0
+29460 , 55675 , 55675 , dbus-daemon , fcntl(6, F_GETFD) = -1 EBADF (Bad file descriptor)
+29461 , 55675 , 55675 , dbus-daemon , fcntl(7, F_GETFD) = -1 EBADF (Bad file descriptor)
+29462 , 55675 , 55675 , dbus-daemon , fcntl(8, F_GETFD) = -1 EBADF (Bad file descriptor)
+29463 , 55675 , 55675 , dbus-daemon , fcntl(9, F_GETFD) = -1 EBADF (Bad file descriptor)
+29464 , 55675 , 55675 , dbus-daemon , fcntl(10, F_GETFD) = -1 EBADF (Bad file descriptor)
+29465 , 55675 , 55675 , dbus-daemon , fcntl(11, F_GETFD) = -1 EBADF (Bad file descriptor)
+29466 , 55675 , 55675 , dbus-daemon , fcntl(12, F_GETFD) = -1 EBADF (Bad file descriptor)
+29467 , 55675 , 55675 , dbus-daemon , fcntl(13, F_GETFD) = -1 EBADF (Bad file descriptor)
+29468 , 55675 , 55675 , dbus-daemon , fcntl(14, F_GETFD) = -1 EBADF (Bad file descriptor)
+29469 , 55675 , 55675 , dbus-daemon , fcntl(15, F_GETFD) = -1 EBADF (Bad file descriptor)
+29470 , 55675 , 55675 , dbus-daemon , fcntl(16, F_GETFD) = -1 EBADF (Bad file descriptor)
+29471 , 55675 , 55675 , dbus-daemon , fcntl(17, F_GETFD) = -1 EBADF (Bad file descriptor)
+29472 , 55675 , 55675 , dbus-daemon , fcntl(18, F_GETFD) = -1 EBADF (Bad file descriptor)
+29473 , 55675 , 55675 , dbus-daemon , fcntl(19, F_GETFD) = -1 EBADF (Bad file descriptor)
+29474 , 55675 , 55675 , dbus-daemon , fcntl(20, F_GETFD) = -1 EBADF (Bad file descriptor)
+29475 , 55675 , 55675 , dbus-daemon , fcntl(21, F_GETFD) = -1 EBADF (Bad file descriptor)
+29476 , 55675 , 55675 , dbus-daemon , fcntl(22, F_GETFD) = -1 EBADF (Bad file descriptor)
+29477 , 55675 , 55675 , dbus-daemon , fcntl(23, F_GETFD) = -1 EBADF (Bad file descriptor)
+29478 , 55675 , 55675 , dbus-daemon , fcntl(24, F_GETFD) = -1 EBADF (Bad file descriptor)
+29479 , 55675 , 55675 , dbus-daemon , fcntl(25, F_GETFD) = -1 EBADF (Bad file descriptor)
+29480 , 55675 , 55675 , dbus-daemon , fcntl(26, F_GETFD) = -1 EBADF (Bad file descriptor)
+29481 , 55675 , 55675 , dbus-daemon , fcntl(27, F_GETFD) = -1 EBADF (Bad file descriptor)
+29482 , 55675 , 55675 , dbus-daemon , fcntl(28, F_GETFD) = -1 EBADF (Bad file descriptor)
+29483 , 55675 , 55675 , dbus-daemon , fcntl(29, F_GETFD) = -1 EBADF (Bad file descriptor)
+29484 , 55675 , 55675 , dbus-daemon , fcntl(30, F_GETFD) = -1 EBADF (Bad file descriptor)
+29485 , 55675 , 55675 , dbus-daemon , fcntl(31, F_GETFD) = -1 EBADF (Bad file descriptor)
+29486 , 55675 , 55675 , dbus-daemon , fcntl(32, F_GETFD) = -1 EBADF (Bad file descriptor)
+29487 , 55675 , 55675 , dbus-daemon , fcntl(33, F_GETFD) = -1 EBADF (Bad file descriptor)
+29488 , 55675 , 55675 , dbus-daemon , fcntl(34, F_GETFD) = -1 EBADF (Bad file descriptor)
+29489 , 55675 , 55675 , dbus-daemon , fcntl(35, F_GETFD) = -1 EBADF (Bad file descriptor)
+29490 , 55675 , 55675 , dbus-daemon , fcntl(36, F_GETFD) = -1 EBADF (Bad file descriptor)
+29491 , 55675 , 55675 , dbus-daemon , fcntl(37, F_GETFD) = -1 EBADF (Bad file descriptor)
+29492 , 55675 , 55675 , dbus-daemon , fcntl(38, F_GETFD) = -1 EBADF (Bad file descriptor)
+29493 , 55675 , 55675 , dbus-daemon , fcntl(39, F_GETFD) = -1 EBADF (Bad file descriptor)
+29494 , 55675 , 55675 , dbus-daemon , fcntl(40, F_GETFD) = -1 EBADF (Bad file descriptor)
+29495 , 55675 , 55675 , dbus-daemon , fcntl(41, F_GETFD) = -1 EBADF (Bad file descriptor)
+29496 , 55675 , 55675 , dbus-daemon , socket(PF_NETLINK, SOCK_RAW, NETLINK_AUDIT) = 6<NETLINK:[468651]>
+29497 , 55675 , 55675 , dbus-daemon , fcntl(6<NETLINK:[468651]>, F_SETFD, FD_CLOEXEC) = 0
+29498 , 55675 , 55675 , dbus-daemon , socketpair(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0, [7<UNIX:[468654->468655]>, 8<UNIX:[468655->468654]>]) = 0
+29499 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 7<UNIX:[468654->468655]>, {EPOLLIN, {u32=7, u64=2940461381096308743}}) = 0
+29500 , 55675 , 55675 , dbus-daemon , rt_sigaction(SIGTERM, {0x55a128be5810, [], SA_RESTORER, 0x7fce2802b390}, NULL, 8) = 0
+29501 , 55675 , 55675 , dbus-daemon , rt_sigaction(SIGHUP, {0x55a128be5810, [], SA_RESTORER, 0x7fce2802b390}, NULL, 8) = 0
+29502 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, -1) = 1
+29644 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>
+29645 , 55675 , 55675 , dbus-daemon , fcntl(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+29646 , 55675 , 55675 , dbus-daemon , fcntl(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+29647 , 55675 , 55675 , dbus-daemon , getsockname(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+29648 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+29649 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=2940461381096308745}}) = 0
+29650 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=3040889759565086729}}) = 0
+29651 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=3040889759565086729}}], 64, 239967) = 1
+29669 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+29670 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55668, uid=0, gid=0}, [12]) = 0
+29671 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+29672 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x55a12a337120, 2048) = -1 EAGAIN (Resource temporarily unavailable)
+29673 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=3040889759565086729}}], 64, 239965) = 1
+29676 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+29677 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=4294967305}}) = 0
+29678 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=9, u64=4294967305}}) = 0
+29679 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=9, u64=4294967305}}], 64, 239964) = 1
+29680 , 55675 , 55675 , dbus-daemon , sendto(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+29681 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=9, u64=9}}) = 0
+29682 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=9}}) = 0
+29683 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 239964) = 1
+29692 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+29693 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=4294967305}}) = 0
+29694 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=9, u64=4294967305}}) = 0
+29695 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=9, u64=4294967305}}], 64, 239961) = 1
+29696 , 55675 , 55675 , dbus-daemon , sendto(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+29697 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=9, u64=9}}) = 0
+29698 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=9}}) = 0
+29699 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 239961) = 1
+29708 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\n", 2048) = 7
+29709 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+29710 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 239959) = 1
+29715 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 128
+29716 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29717 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+29718 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+29719 , 55675 , 55675 , dbus-daemon , open("/proc/55668/cmdline", O_RDONLY) = 10</proc/55668/cmdline>
+29720 , 55675 , 55675 , dbus-daemon , read(10</proc/55668/cmdline>, "/usr/lib/gnome-session/gnome-session-check-acceler", 50) = 50
+29721 , 55675 , 55675 , dbus-daemon , close(10</proc/55668/cmdline>) = 0
+29722 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.0\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+29723 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.0\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+29724 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, -1) = 1
+29755 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 233
+29756 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29757 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, -1) = 1
+29760 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1d\0\0\0\3\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0_\0\0\0type='signal', interface='org.a11y.atspi.DeviceEvent"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 244
+29761 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29762 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, -1) = 1
+29765 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1o\0\0\0\4\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0j\0\0\0type='signal', arg0='org.a11y.atspi.Registry', inter"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 255
+29766 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29767 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, -1) = 1
+29769 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\0010\0\0\0\5\0\0\0\202\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 200
+29770 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+29771 , 55675 , 55675 , dbus-daemon , stat("/usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service", {st_dev=makedev(8, 1), st_ino=4852574, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=110, st_atime=2017/11/26-03:14:08.211396737, st_mtime=2016/02/24-22:18:24, st_ctime=2016/11/03-10:39:07.435999866}) = 0
+29772 , 55675 , 55675 , dbus-daemon , write(2<UNIX:[465752->468187]>, "Activating service name='org.a11y.atspi.Registry'", 49) = 49
+29773 , 55675 , 55675 , dbus-daemon , write(2<UNIX:[465752->468187]>, "\n", 1) = 1
+29774 , 55675 , 55675 , dbus-daemon , pipe2([10<pipe:[468872]>, 11<pipe:[468872]>], O_CLOEXEC) = 0
+29775 , 55675 , 55675 , dbus-daemon , socketpair(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0, [12<UNIX:[468873->468874]>, 13<UNIX:[468874->468873]>]) = 0
+29776 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 14<UNIX:[468877]>
+29777 , 55675 , 55675 , dbus-daemon , connect(14<UNIX:[468877]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+29778 , 55675 , 55675 , dbus-daemon , shutdown(14<UNIX:[468877->468880]>, SHUT_RD) = 0
+29779 , 55675 , 55675 , dbus-daemon , getsockopt(14<UNIX:[468877->468880]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+29780 , 55675 , 55675 , dbus-daemon , setsockopt(14<UNIX:[468877->468880]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = 0
+29781 , 55675 , 55675 , dbus-daemon , write(14<UNIX:[468877->468880]>, "org.a11y.atspi.Registry\n\n6\n0\n0\n0\n0\n", 35) = 35
+29782 , 55675 , 55675 , dbus-daemon , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 15<UNIX:[468885]>
+29783 , 55675 , 55675 , dbus-daemon , connect(15<UNIX:[468885]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+29784 , 55675 , 55675 , dbus-daemon , shutdown(15<UNIX:[468885->468888]>, SHUT_RD) = 0
+29785 , 55675 , 55675 , dbus-daemon , getsockopt(15<UNIX:[468885->468888]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+29786 , 55675 , 55675 , dbus-daemon , setsockopt(15<UNIX:[468885->468888]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = 0
+29787 , 55675 , 55675 , dbus-daemon , write(15<UNIX:[468885->468888]>, "org.a11y.atspi.Registry\n\n4\n0\n0\n0\n0\n", 35) = 35
+29788 , 55675 , 55675 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fce2907fb90) = 55676
+29789 , 55675 , 55675 , dbus-daemon , close(11<pipe:[468872]>) = 0
+29790 , 55675 , 55675 , dbus-daemon , close(13<UNIX:[468874->468873]>) = 0
+29791 , 55675 , 55675 , dbus-daemon , close(14<UNIX:[468877->468880]>) = 0
+29792 , 55675 , 55675 , dbus-daemon , close(15<UNIX:[468885->468888]>) = 0
+29793 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 10<pipe:[468872]>, {EPOLLIN, {u32=10, u64=2940461381096308746}}) = 0
+29794 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 12<UNIX:[468873->468874]>, {EPOLLIN, {u32=12, u64=2940461381096308748}}) = 0
+29795 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=2940461381096308748}}], 64, 119997) = 1
+29886 , 55675 , 55675 , dbus-daemon , read(12<UNIX:[468873->468874]>, "\3\0\0\0", 4) = 4
+29887 , 55675 , 55675 , dbus-daemon , read(12<UNIX:[468873->468874]>, "}\331\0\0", 4) = 4
+29888 , 55675 , 55675 , dbus-daemon , poll([{fd=10<pipe:[468872]>, events=POLLIN}, {fd=12<UNIX:[468873->468874]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+29889 , 55675 , 55675 , dbus-daemon , poll([{fd=10<pipe:[468872]>, events=POLLIN}, {fd=12<UNIX:[468873->468874]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+29890 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLHUP, {u32=10, u64=2940461381096308746}}], 64, 119984) = 1
+30466 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 10<pipe:[468872]>, 0x7ffe4c93aa70) = 0
+30470 , 55675 , 55675 , dbus-daemon , close(10<pipe:[468872]>) = 0
+30475 , 55675 , 55675 , dbus-daemon , poll([{fd=12<UNIX:[468873->468874]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+30478 , 55675 , 55675 , dbus-daemon , poll([{fd=12<UNIX:[468873->468874]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+30483 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 119916) = 1
+30997 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>
+30998 , 55675 , 55675 , dbus-daemon , fcntl(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+30999 , 55675 , 55675 , dbus-daemon , fcntl(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+31000 , 55675 , 55675 , dbus-daemon , getsockname(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+31001 , 55675 , 55675 , dbus-daemon , getsockopt(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+31002 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=10, u64=2940461381096308746}}) = 0
+31003 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=10, u64=3040947758803451914}}) = 0
+31004 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=3040947758803451914}}], 64, 119832) = 1
+31005 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+31006 , 55675 , 55675 , dbus-daemon , getsockopt(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55677, uid=0, gid=0}, [12]) = 0
+31007 , 55675 , 55675 , dbus-daemon , getsockopt(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+31008 , 55675 , 55675 , dbus-daemon , read(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+31009 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=10, u64=4294967306}}) = 0
+31010 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=10, u64=4294967306}}) = 0
+31011 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=10, u64=4294967306}}], 64, 119829) = 1
+31012 , 55675 , 55675 , dbus-daemon , sendto(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+31017 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=10, u64=10}}) = 0
+31018 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=10, u64=10}}) = 0
+31019 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 119828) = 1
+31020 , 55675 , 55675 , dbus-daemon , read(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+31021 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=10, u64=4294967306}}) = 0
+31022 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=10, u64=4294967306}}) = 0
+31023 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=10, u64=4294967306}}], 64, 119828) = 1
+31024 , 55675 , 55675 , dbus-daemon , sendto(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+31031 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=10, u64=10}}) = 0
+31032 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=10, u64=10}}) = 0
+31033 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 119827) = 1
+31034 , 55675 , 55675 , dbus-daemon , read(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+31035 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+31036 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+31037 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+31038 , 55675 , 55675 , dbus-daemon , open("/proc/55677/cmdline", O_RDONLY) = 11</proc/55677/cmdline>
+31039 , 55675 , 55675 , dbus-daemon , read(11</proc/55677/cmdline>, "/usr/lib/at-spi2-core/at-spi2-registryd\0--use-gnom", 50) = 50
+31040 , 55675 , 55675 , dbus-daemon , close(11</proc/55677/cmdline>) = 0
+31041 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+31052 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.1\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+31057 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 119825) = 1
+31058 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1 \0\0\0\2\0\0\0\200\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\v\0\0\0RequestName\0\0\0\0\0\10\1g\0\2su\0\27\0\0\0org.a11y.atspi.Registry\0\4\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 176
+31059 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+31060 , 55675 , 55675 , dbus-daemon , write(2<UNIX:[465752->468187]>, "Successfully activated service 'org.a11y.atspi.Registry'", 56) = 56
+31061 , 55675 , 55675 , dbus-daemon , write(2<UNIX:[465752->468187]>, "\n", 1) = 1
+31062 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\34\0\0\0\3\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\27\0\0\0org.a11y.atspi.Registry\0", 28}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 188
+31067 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.0\0\0\0\0", 168}, {"\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+31072 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\4\0\0\0\4\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\2\0\0\0\10\1g\0\1u\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\1\0\0\0", 4}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 84
+31106 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1-\0\0\0\3\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\27\0\0\0org.a11y.atspi.Registry\0\0\0\0\0\0\0\0\0\4\0\0\0:1.1\0", 45}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 205
+31107 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 12<UNIX:[468873->468874]>, 0x7ffe4c93a850) = 0
+31108 , 55675 , 55675 , dbus-daemon , close(12<UNIX:[468873->468874]>) = 0
+31112 , 55675 , 55675 , dbus-daemon , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=55676, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+31113 , 55675 , 55675 , dbus-daemon , wait4(55676, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 55676
+31114 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 0) = 1
+31115 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1O\0\0\0\3\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0J\0\0\0type='signal', interface='org.freedesktop.DBus', mem"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 415
+31116 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+31117 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 299986) = 1
+32980 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\5\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+32981 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+32982 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\6\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\0\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+32983 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[468797->465757,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\7\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+32984 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLERR|EPOLLHUP, {u32=9, u64=9}}], 64, 299750) = 1
+34359 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[468797,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 ECONNRESET (Connection reset by peer)
+34360 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 9<UNIX:[468797,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a970) = 0
+34361 , 55675 , 55675 , dbus-daemon , close(9<UNIX:[468797,@"/tmp/dbus-YvqbXFkDor"]>) = 0
+34362 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\5\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\0\0\0\0\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+34380 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 0) = 1
+34381 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1E\0\0\0\6\0\0\0m\0\0\0\5\1u\0\6\0\0\0\4\1s\0\"\0\0\0org.freedesktop.DBus.Error.NoReply\0\0\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0", 128}, {"@\0\0\0Message recipient disconnected from message bus without replying\0", 69}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 197
+34398 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\200\0\0\0\10\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\6\0\0\0remove\0\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 417
+34399 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+34400 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, -1) = 1
+37360 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>
+37361 , 55675 , 55675 , dbus-daemon , fcntl(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+37362 , 55675 , 55675 , dbus-daemon , fcntl(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+37363 , 55675 , 55675 , dbus-daemon , getsockname(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+37364 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+37365 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=2940461381096308745}}) = 0
+37366 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=3040817604114513929}}) = 0
+37367 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=3040817604114513929}}], 64, 238524) = 1
+37368 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+37369 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55685, uid=0, gid=0}, [12]) = 0
+37370 , 55675 , 55675 , dbus-daemon , getsockopt(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+37371 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+37372 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=4294967305}}) = 0
+37373 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=9, u64=4294967305}}) = 0
+37374 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=9, u64=4294967305}}], 64, 238523) = 1
+37375 , 55675 , 55675 , dbus-daemon , sendto(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+37380 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=9, u64=9}}) = 0
+37381 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=9}}) = 0
+37382 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 238523) = 1
+37383 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+37384 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=9, u64=4294967305}}) = 0
+37385 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=9, u64=4294967305}}) = 0
+37386 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=9, u64=4294967305}}], 64, 238522) = 1
+37387 , 55675 , 55675 , dbus-daemon , sendto(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+37394 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=9, u64=9}}) = 0
+37395 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=9, u64=9}}) = 0
+37396 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 238522) = 1
+37397 , 55675 , 55675 , dbus-daemon , read(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+37398 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+37399 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+37400 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+37401 , 55675 , 55675 , dbus-daemon , open("/proc/55685/cmdline", O_RDONLY) = 11</proc/55685/cmdline>
+37402 , 55675 , 55675 , dbus-daemon , read(11</proc/55685/cmdline>, "/usr/bin/gnome-screensaver\0--no-daemon\0", 50) = 39
+37403 , 55675 , 55675 , dbus-daemon , close(11</proc/55685/cmdline>) = 0
+37404 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\7\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.2\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.2\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+37421 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.2\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+37622 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.2\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+37623 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, -1) = 1
+37624 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+37625 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+37626 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 168}, {"\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+37646 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 0) = 1
+37647 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\n\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+37648 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+37649 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\v\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\1\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+37650 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\f\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+37651 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=9, u64=9}}], 64, 299997) = 1
+39703 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\30\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\v\0\0\0l\1\0\1\0\0\0\0\7\0\0\0\204\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0l\1\0\1\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 560
+39704 , 55675 , 55675 , dbus-daemon , recvmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+39705 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\v\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 56}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 56
+39722 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+39740 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\25\0\0\0GetKeystrokeListeners\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+39758 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\27\0\0\0GetDeviceEventListeners\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+39776 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 299462) = 1
+39777 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\r\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0\16\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0\17\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 208
+39778 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+39779 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\r\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+39792 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\16\0\0\0E\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+39806 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\17\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+39820 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 299455) = 1
+41720 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>
+41722 , 55675 , 55675 , dbus-daemon , fcntl(11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+41724 , 55675 , 55675 , dbus-daemon , fcntl(11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+41726 , 55675 , 55675 , dbus-daemon , getsockname(11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+41728 , 55675 , 55675 , dbus-daemon , getsockopt(11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+41730 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=11, u64=2940461381096308747}}) = 0
+41732 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[474789->474776,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=11, u64=3041003627738038283}}) = 0
+41737 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=11, u64=3041003627738038283}}], 64, 237393) = 1
+41775 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[474789,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 1}], msg_controllen=0, msg_flags=0}, 0) = 0
+41783 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 11<UNIX:[474789,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a960) = 0
+41785 , 55675 , 55675 , dbus-daemon , close(11<UNIX:[474789,@"/tmp/dbus-YvqbXFkDor"]>) = 0
+41804 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 237384) = 1
+72470 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>
+72478 , 55675 , 55675 , dbus-daemon , fcntl(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+72484 , 55675 , 55675 , dbus-daemon , fcntl(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+72492 , 55675 , 55675 , dbus-daemon , getsockname(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+72493 , 55675 , 55675 , dbus-daemon , getsockopt(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+72494 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=11, u64=2940461381096308747}}) = 0
+72495 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=11, u64=3041004246213328907}}) = 0
+72496 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=3041004246213328907}}], 64, 233699) = 1
+72497 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+72498 , 55675 , 55675 , dbus-daemon , getsockopt(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55727, uid=0, gid=0}, [12]) = 0
+72499 , 55675 , 55675 , dbus-daemon , getsockopt(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+72500 , 55675 , 55675 , dbus-daemon , read(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+72501 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=11, u64=4294967307}}) = 0
+72502 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=11, u64=4294967307}}) = 0
+72503 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=11, u64=4294967307}}], 64, 233698) = 1
+72504 , 55675 , 55675 , dbus-daemon , sendto(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+72726 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=11, u64=11}}) = 0
+72727 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=11, u64=11}}) = 0
+72728 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=11}}], 64, 233686) = 1
+72729 , 55675 , 55675 , dbus-daemon , read(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+72730 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=11, u64=4294967307}}) = 0
+72731 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=11, u64=4294967307}}) = 0
+72732 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=11, u64=4294967307}}], 64, 233685) = 1
+72733 , 55675 , 55675 , dbus-daemon , sendto(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+72740 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=11, u64=11}}) = 0
+72741 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=11, u64=11}}) = 0
+72742 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=11}}], 64, 233684) = 1
+72743 , 55675 , 55675 , dbus-daemon , read(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+72744 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+72745 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+72746 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+72747 , 55675 , 55675 , dbus-daemon , open("/proc/55727/cmdline", O_RDONLY) = 12</proc/55727/cmdline>
+72748 , 55675 , 55675 , dbus-daemon , read(12</proc/55727/cmdline>, "/usr/lib/policykit-1-gnome/polkit-gnome-authentica", 50) = 50
+72749 , 55675 , 55675 , dbus-daemon , close(12</proc/55727/cmdline>) = 0
+72750 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\10\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.3\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.3\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+72794 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.3\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+73791 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.3\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+73794 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=11}}], 64, 295034) = 1
+73795 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+73796 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+73799 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.3\0\0\0\0", 168}, {"\4\0\0\0:1.3\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+74098 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 294993) = 1
+74100 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\20\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\1\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.3\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+74102 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+74104 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\21\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\2\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+74106 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\22\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+74108 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 294992) = 1
+79487 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>
+79489 , 55675 , 55675 , dbus-daemon , fcntl(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+79492 , 55675 , 55675 , dbus-daemon , fcntl(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+79494 , 55675 , 55675 , dbus-daemon , getsockname(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+79496 , 55675 , 55675 , dbus-daemon , getsockopt(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+79503 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=12, u64=2940461381096308748}}) = 0
+79504 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=12, u64=3041046646130475020}}) = 0
+79506 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=3041046646130475020}}], 64, 232355) = 1
+79508 , 55675 , 55675 , dbus-daemon , recvmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+79510 , 55675 , 55675 , dbus-daemon , getsockopt(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55710, uid=0, gid=0}, [12]) = 0
+79512 , 55675 , 55675 , dbus-daemon , getsockopt(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+79514 , 55675 , 55675 , dbus-daemon , read(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+79516 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=12, u64=4294967308}}) = 0
+79518 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=12, u64=4294967308}}) = 0
+79520 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=12, u64=4294967308}}], 64, 232353) = 1
+79522 , 55675 , 55675 , dbus-daemon , sendto(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+79537 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=12, u64=12}}) = 0
+79539 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=12, u64=12}}) = 0
+79542 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=12}}], 64, 232349) = 1
+79544 , 55675 , 55675 , dbus-daemon , read(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+79545 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=12, u64=4294967308}}) = 0
+79547 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=12, u64=4294967308}}) = 0
+79556 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=12, u64=4294967308}}], 64, 232345) = 1
+79558 , 55675 , 55675 , dbus-daemon , sendto(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+79571 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=12, u64=12}}) = 0
+79573 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=12, u64=12}}) = 0
+79584 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=12}}], 64, 232340) = 1
+79586 , 55675 , 55675 , dbus-daemon , read(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+79588 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+79590 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+79592 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79594 , 55675 , 55675 , dbus-daemon , open("/proc/55710/cmdline", O_RDONLY) = 13</proc/55710/cmdline>
+79598 , 55675 , 55675 , dbus-daemon , read(13</proc/55710/cmdline>, "clipit\0", 50) = 7
+79602 , 55675 , 55675 , dbus-daemon , close(13</proc/55710/cmdline>) = 0
+79606 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\t\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.4\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.4\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+79643 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.4\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+79689 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.4\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+79691 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=12}}], 64, 293820) = 1
+79693 , 55675 , 55675 , dbus-daemon , recvmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+79695 , 55675 , 55675 , dbus-daemon , recvmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+79697 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.4\0\0\0\0", 168}, {"\4\0\0\0:1.4\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+79745 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 293811) = 1
+79753 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\23\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\2\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.4\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+79755 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+79757 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\24\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\3\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+79759 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\25\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+79760 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=12, u64=12}}], 64, 293808) = 1
+80905 , 55675 , 55675 , dbus-daemon , recvmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\30\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\24\0\0\0l\1\0\1\0\0\0\0\7\0\0\0\204\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0l\1\0\1\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 560
+80909 , 55675 , 55675 , dbus-daemon , recvmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+80913 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\24\0\0\0\7\1s\0\4\0\0\0:1.4\0\0\0\0", 56}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 56
+80917 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.4\0\0\0\0", 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+80922 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\25\0\0\0GetKeystrokeListeners\0\0\0\7\1s\0\4\0\0\0:1.4\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+80924 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\27\0\0\0GetDeviceEventListeners\0\7\1s\0\4\0\0\0:1.4\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+80926 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 293525) = 1
+80971 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\26\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 64
+80977 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+80979 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\26\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+81009 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 293503) = 1
+81022 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\27\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0\30\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+81029 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+81031 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\27\0\0\0E\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+81130 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\30\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.4\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+81146 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=11, u64=11}}], 64, 293480) = 1
+88711 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\30\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\21\0\0\0l\1\0\1\0\0\0\0\7\0\0\0\204\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0l\1\0\1\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 560
+88712 , 55675 , 55675 , dbus-daemon , recvmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+88713 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\21\0\0\0\7\1s\0\4\0\0\0:1.3\0\0\0\0", 56}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 56
+88730 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.3\0\0\0\0", 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+88748 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\25\0\0\0GetKeystrokeListeners\0\0\0\7\1s\0\4\0\0\0:1.3\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+88766 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\27\0\0\0GetDeviceEventListeners\0\7\1s\0\4\0\0\0:1.3\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+88784 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 292317) = 1
+88785 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\31\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0\32\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0\33\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 208
+88786 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+88787 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\31\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+88800 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\32\0\0\0E\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+88814 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\33\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.3\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+88828 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 292310) = 1
+94962 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>
+94964 , 55675 , 55675 , dbus-daemon , fcntl(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+94966 , 55675 , 55675 , dbus-daemon , fcntl(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+94968 , 55675 , 55675 , dbus-daemon , getsockname(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+94970 , 55675 , 55675 , dbus-daemon , getsockopt(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+94971 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=13, u64=2940461381096308749}}) = 0
+94972 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=13, u64=3041088358852853773}}) = 0
+94973 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=3041088358852853773}}], 64, 229919) = 1
+94974 , 55675 , 55675 , dbus-daemon , recvmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+94975 , 55675 , 55675 , dbus-daemon , getsockopt(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55713, uid=0, gid=0}, [12]) = 0
+94976 , 55675 , 55675 , dbus-daemon , getsockopt(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+94977 , 55675 , 55675 , dbus-daemon , read(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+94978 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+94979 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+94980 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 229918) = 1
+94981 , 55675 , 55675 , dbus-daemon , sendto(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+94986 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+94987 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+94988 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 229917) = 1
+94989 , 55675 , 55675 , dbus-daemon , read(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+94990 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=13, u64=4294967309}}) = 0
+94991 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=13, u64=4294967309}}) = 0
+94992 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=13, u64=4294967309}}], 64, 229913) = 1
+94993 , 55675 , 55675 , dbus-daemon , sendto(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+95000 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=13, u64=13}}) = 0
+95001 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=13, u64=13}}) = 0
+95002 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 229911) = 1
+95003 , 55675 , 55675 , dbus-daemon , read(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+95004 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+95005 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+95006 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+95007 , 55675 , 55675 , dbus-daemon , open("/proc/55713/cmdline", O_RDONLY) = 14</proc/55713/cmdline>
+95008 , 55675 , 55675 , dbus-daemon , read(14</proc/55713/cmdline>, "/usr/bin/gnome-software\0--gapplication-service\0", 50) = 47
+95009 , 55675 , 55675 , dbus-daemon , close(14</proc/55713/cmdline>) = 0
+95010 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\n\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.5\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.5\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+95032 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.5\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+95145 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.5\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+95147 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 291377) = 1
+95149 , 55675 , 55675 , dbus-daemon , recvmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+95151 , 55675 , 55675 , dbus-daemon , recvmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+95153 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.5\0\0\0\0", 168}, {"\4\0\0\0:1.5\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+95194 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 291369) = 1
+95196 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\34\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\3\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.5\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+95198 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+95200 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\35\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\4\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+95202 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\36\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+95204 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 291368) = 1
+101075 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>
+101076 , 55675 , 55675 , dbus-daemon , fcntl(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+101077 , 55675 , 55675 , dbus-daemon , fcntl(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+101078 , 55675 , 55675 , dbus-daemon , getsockname(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+101079 , 55675 , 55675 , dbus-daemon , getsockopt(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+101080 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=14, u64=2940461381096308750}}) = 0
+101081 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=14, u64=3041144365226393614}}) = 0
+101082 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=3041144365226393614}}], 64, 228452) = 1
+101083 , 55675 , 55675 , dbus-daemon , recvmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+101084 , 55675 , 55675 , dbus-daemon , getsockopt(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55738, uid=0, gid=0}, [12]) = 0
+101085 , 55675 , 55675 , dbus-daemon , getsockopt(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+101086 , 55675 , 55675 , dbus-daemon , read(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+101087 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=14, u64=4294967310}}) = 0
+101088 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=14, u64=4294967310}}) = 0
+101089 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=14, u64=4294967310}}], 64, 228451) = 1
+101090 , 55675 , 55675 , dbus-daemon , sendto(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+101095 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+101096 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=14, u64=14}}) = 0
+101097 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 228450) = 1
+101098 , 55675 , 55675 , dbus-daemon , read(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+101099 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=14, u64=4294967310}}) = 0
+101100 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=14, u64=4294967310}}) = 0
+101101 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=14, u64=4294967310}}], 64, 228450) = 1
+101102 , 55675 , 55675 , dbus-daemon , sendto(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+101109 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+101110 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=14, u64=14}}) = 0
+101111 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 228449) = 1
+101112 , 55675 , 55675 , dbus-daemon , read(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+101113 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+101114 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+101115 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+101116 , 55675 , 55675 , dbus-daemon , open("/proc/55738/cmdline", O_RDONLY) = 15</proc/55738/cmdline>
+101117 , 55675 , 55675 , dbus-daemon , read(15</proc/55738/cmdline>, "nautilus\0-n\0", 50) = 12
+101118 , 55675 , 55675 , dbus-daemon , close(15</proc/55738/cmdline>) = 0
+101119 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\v\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.6\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.6\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+101136 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.6\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+101192 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.6\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+101193 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 289933) = 1
+101194 , 55675 , 55675 , dbus-daemon , recvmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+101195 , 55675 , 55675 , dbus-daemon , recvmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+101196 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.6\0\0\0\0", 168}, {"\4\0\0\0:1.6\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+101216 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 289930) = 1
+101217 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0\37\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\4\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.6\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+101218 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+101219 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0 \0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\5\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+101220 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0!\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+101221 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=13, u64=13}}], 64, 289929) = 1
+102181 , 55675 , 55675 , dbus-daemon , recvmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\30\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\35\0\0\0l\1\0\1\0\0\0\0\7\0\0\0\204\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0l\1\0\1\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 560
+102195 , 55675 , 55675 , dbus-daemon , recvmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+102196 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\35\0\0\0\7\1s\0\4\0\0\0:1.5\0\0\0\0", 56}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 56
+102197 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.5\0\0\0\0", 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+102200 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\25\0\0\0GetKeystrokeListeners\0\0\0\7\1s\0\4\0\0\0:1.5\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+102201 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\27\0\0\0GetDeviceEventListeners\0\7\1s\0\4\0\0\0:1.5\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+102202 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 289611) = 1
+102257 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\"\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 64
+102261 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+102326 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\"\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+102339 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 289573) = 1
+102340 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0#\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\2\1\1\10\0\0\0$\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 144
+102341 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+102342 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0#\0\0\0E\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+102356 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0$\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.5\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+102370 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 289566) = 1
+105214 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1H\0\0\0%\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Abs\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0\0\0\0\0\0\0\0\0\220\1\0\0,\1\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 400
+105215 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+105216 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 287868) = 1
+106117 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1H\0\0\0'\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Abs\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0\0\0\0\0\0\0\0\0<\0\0\0\261\0\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 400
+106118 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+106119 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=14, u64=14}}], 64, 287575) = 1
+133610 , 55675 , 55675 , dbus-daemon , recvmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\30\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0 \0\0\0l\1\0\1\0\0\0\0\7\0\0\0\204\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0l\1\0\1\0\0\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 560
+133614 , 55675 , 55675 , dbus-daemon , recvmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+133619 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0 \0\0\0\7\1s\0\4\0\0\0:1.6\0\0\0\0", 56}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 56
+133627 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.6\0\0\0\0", 168}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+133748 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\25\0\0\0GetKeystrokeListeners\0\0\0\7\1s\0\4\0\0\0:1.6\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+133751 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\t\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11y/atspi/registry/deviceeventcontroller\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0$\0\0\0org.a11y.atspi.DeviceEventController\0\0\0\0\3\1s\0\27\0\0\0GetDeviceEventListeners\0\7\1s\0\4\0\0\0:1.6\0\0\0\0", 200}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+133754 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 281723) = 1
+134033 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0)\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 64
+134039 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+134045 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0)\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+134049 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 281680) = 1
+134258 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0*\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 80
+134268 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+134271 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0*\0\0\0E\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 88}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 96
+134278 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 281649) = 1
+134281 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0+\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 64
+134287 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+134298 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0+\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.6\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+134304 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=5, u64=2940461381096308741}}], 64, 281645) = 1
+340318 , 55675 , 55675 , dbus-daemon , accept4(5<UNIX:[468603,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, NULL}, [2], SOCK_CLOEXEC) = 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>
+340320 , 55675 , 55675 , dbus-daemon , fcntl(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, F_GETFL) = 0x2 (flags O_RDWR)
+340322 , 55675 , 55675 , dbus-daemon , fcntl(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+340325 , 55675 , 55675 , dbus-daemon , getsockname(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YvqbXFkDor"}, [23]) = 0
+340327 , 55675 , 55675 , dbus-daemon , getsockopt(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+340329 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=15, u64=2940461381096308751}}) = 0
+340331 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=15, u64=3041186077948772367}}) = 0
+340333 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=3041186077948772367}}], 64, 175924) = 1
+340335 , 55675 , 55675 , dbus-daemon , recvmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=0, msg_flags=0}, 0) = 1
+340337 , 55675 , 55675 , dbus-daemon , getsockopt(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERCRED, {pid=55962, uid=0, gid=0}, [12]) = 0
+340339 , 55675 , 55675 , dbus-daemon , getsockopt(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, SOL_SOCKET, SO_PEERSEC, "unconfined", [10]) = 0
+340341 , 55675 , 55675 , dbus-daemon , read(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, "AUTH EXTERNAL 30\r\n", 2048) = 18
+340342 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=15, u64=4294967311}}) = 0
+340343 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=15, u64=4294967311}}) = 0
+340344 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=15, u64=4294967311}}], 64, 175919) = 1
+340345 , 55675 , 55675 , dbus-daemon , sendto(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, "OK 07e57ec1d12543ba1c4568d15a1abea0\r\n", 37, MSG_NOSIGNAL, NULL, 0) = 37
+340350 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=15, u64=15}}) = 0
+340351 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=15, u64=15}}) = 0
+340352 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 175916) = 1
+340353 , 55675 , 55675 , dbus-daemon , read(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, "NEGOTIATE_UNIX_FD\r\n", 2048) = 19
+340354 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLET, {u32=15, u64=4294967311}}) = 0
+340355 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLOUT, {u32=15, u64=4294967311}}) = 0
+340356 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=15, u64=4294967311}}], 64, 175915) = 1
+340357 , 55675 , 55675 , dbus-daemon , sendto(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, "AGREE_UNIX_FD\r\n", 15, MSG_NOSIGNAL, NULL, 0) = 15
+340364 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN|EPOLLOUT, {u32=15, u64=15}}) = 0
+340365 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_MOD, 15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {EPOLLIN, {u32=15, u64=15}}) = 0
+340366 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 175913) = 1
+340367 , 55675 , 55675 , dbus-daemon , read(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, "BEGIN\r\nl\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 2048) = 135
+340368 , 55675 , 55675 , dbus-daemon , geteuid() = 0
+340369 , 55675 , 55675 , dbus-daemon , access("/run/systemd/seats/", F_OK) = 0
+340370 , 55675 , 55675 , dbus-daemon , open("/run/systemd/users/0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+340371 , 55675 , 55675 , dbus-daemon , open("/proc/55962/cmdline", O_RDONLY) = 16</proc/55962/cmdline>
+340372 , 55675 , 55675 , dbus-daemon , read(16</proc/55962/cmdline>, "update-notifier\0", 50) = 16
+340373 , 55675 , 55675 , dbus-daemon , close(16</proc/55962/cmdline>) = 0
+340374 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\f\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.7\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+340390 , 55675 , 55675 , dbus-daemon , sendmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.7\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 80}, {"\4\0\0\0:1.7\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 89
+340413 , 55675 , 55675 , dbus-daemon , sendmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.7\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 160}, {"\4\0\0\0:1.7\0", 9}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+340414 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=15, u64=15}}], 64, 237392) = 1
+340415 , 55675 , 55675 , dbus-daemon , recvmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\1\1Y\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0T\0\0\0type='signal', interface='org.a11y.atspi.Registry', "..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 932
+340416 , 55675 , 55675 , dbus-daemon , recvmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+340417 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.7\0\0\0\0", 168}, {"\4\0\0\0:1.7\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 216
+340443 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 237387) = 1
+340444 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1x\0\0\0,\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\3\0\0\0add\0\5\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.7\0\0\0\0\37\0\0\0/org/a11y/atspi/accessib"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 552
+340449 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+340451 , 55675 , 55675 , dbus-daemon , sendmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0-\0\0\0\215\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.7\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 160}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\6\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 208
+340458 , 55675 , 55675 , dbus-daemon , sendmsg(15<UNIX:[523621->532834,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0.\0\0\0005\0\0\0\6\1s\0\4\0\0\0:1.7\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 72}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 120
+340460 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLERR|EPOLLHUP, {u32=15, u64=15}}], 64, 237382) = 1
+341472 , 55675 , 55675 , dbus-daemon , recvmsg(15<UNIX:[523621,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 ECONNRESET (Connection reset by peer)
+341475 , 55675 , 55675 , dbus-daemon , epoll_ctl(4<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 15<UNIX:[523621,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a970) = 0
+341477 , 55675 , 55675 , dbus-daemon , close(15<UNIX:[523621,@"/tmp/dbus-YvqbXFkDor"]>) = 0
+341480 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\35\0\0\0\r\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0", 160}, {"\4\0\0\0:1.7\0\0\0\0\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 29}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 189
+341500 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=10, u64=10}}], 64, 0) = 1
+341502 , 55675 , 55675 , dbus-daemon , sendmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\3\1\1E\0\0\0\16\0\0\0m\0\0\0\5\1u\0-\0\0\0\4\1s\0\"\0\0\0org.freedesktop.DBus.Error.NoReply\0\0\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0", 128}, {"@\0\0\0Message recipient disconnected from message bus without replying\0", 69}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 197
+341520 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\200\0\0\0/\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0\6\0\0\0remove\0\0\5\0\0\0\0\0\0\0\4(so)\0\0\0\0\0\0\0\4\0\0\0:1.7\0\0\0\0\37\0\0\0/org/a11y/atspi/"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 417
+341522 , 55675 , 55675 , dbus-daemon , recvmsg(10<UNIX:[469279->469268,@"/tmp/dbus-YvqbXFkDor"]>, 0x7ffe4c93a980, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+341524 , 55675 , 55675 , dbus-daemon , sendmsg(14<UNIX:[496558->496547,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0000\0\0\0\205\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 152}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+341527 , 55675 , 55675 , dbus-daemon , sendmsg(13<UNIX:[493682->493671,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0000\0\0\0\205\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 152}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+341530 , 55675 , 55675 , dbus-daemon , sendmsg(12<UNIX:[487443->487432,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0000\0\0\0\205\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 152}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+341582 , 55675 , 55675 , dbus-daemon , sendmsg(11<UNIX:[485068->485055,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0000\0\0\0\205\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 152}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+341596 , 55675 , 55675 , dbus-daemon , sendmsg(9<UNIX:[473312->473301,@"/tmp/dbus-YvqbXFkDor"]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0000\0\0\0\205\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0\7\1s\0\4\0\0\0:1.1\0\0\0\0", 152}, {"\4\0\0\0:1.7\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 169
+341610 , 55675 , 55675 , dbus-daemon , epoll_wait(4<anon_inode:[eventpoll]>, 

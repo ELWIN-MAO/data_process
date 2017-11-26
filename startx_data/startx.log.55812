@@ -1,0 +1,530 @@
+91390 , 55812 , 55812 , dbus-daemon , set_robust_list(0x7f9addcf1ba0, 24) = 0
+91397 , 55812 , 55812 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, 8) = 0
+91398 , 55812 , 55812 , dbus-daemon , close(39<UNIX:[488705->488704]>) = 0
+91399 , 55812 , 55812 , dbus-daemon , dup2(40<UNIX:[488706->491758]>, 1</dev/null>) = 1<UNIX:[488706->491758]>
+91400 , 55812 , 55812 , dbus-daemon , dup2(41<UNIX:[488707->491765]>, 2</dev/null>) = 2<UNIX:[488707->491765]>
+91401 , 55812 , 55812 , dbus-daemon , close(40<UNIX:[488706->491758]>) = 0
+91402 , 55812 , 55812 , dbus-daemon , close(41<UNIX:[488707->491765]>) = 0
+91403 , 55812 , 55812 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=64*1024}) = 0
+91404 , 55812 , 55812 , dbus-daemon , execve("/usr/lib/gvfs/gvfs-afc-volume-monitor", ["/usr/lib/gvfs/gvfs-afc-volume-monitor"], ["SHELL=/bin/bash", "SUDO_GID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "XDG_CURRENT_DESKTOP=GNOME", "QT_ACCESSIBILITY=1", "DISPLAY=:0", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "XMODIFIERS=@im=ibus", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "WINDOWPATH=1", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "GTK_MODULES=gail:atk-bridge", "USERNAME=root", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "MAIL=/var/mail/root", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=55636", "QT_IM_MODULE=ibus", "XAUTHORITY=/home/elwin/.Xauthority", "USER=root", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "TERM=linux", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "SUDO_USER=elwin", "XDG_MENU_PREFIX=gnome-", "LANG=en_US.UTF-8", "SUDO_UID=1000", "HOME=/home/elwin", "LOGNAME=root"]) = 0
+91476 , 55812 , 55812 , gvfs-afc-volume , brk(NULL) = 0x22aa000
+91478 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91481 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6383000
+91483 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+91485 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libimobiledevice.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91487 , 55812 , 55812 , gvfs-afc-volume , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7fff07fe14f0) = -1 ENOENT (No such file or directory)
+91490 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libimobiledevice.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91492 , 55812 , 55812 , gvfs-afc-volume , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7fff07fe14f0) = -1 ENOENT (No such file or directory)
+91495 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libimobiledevice.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91497 , 55812 , 55812 , gvfs-afc-volume , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7fff07fe14f0) = -1 ENOENT (No such file or directory)
+91499 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libimobiledevice.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91502 , 55812 , 55812 , gvfs-afc-volume , stat("/usr/lib/x86_64-linux-gnu/gvfs", {st_dev=makedev(8, 1), st_ino=4720275, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/04/20-18:11:50, st_mtime=2016/04/20-18:11:50, st_ctime=2016/11/03-10:40:40.459999796}) = 0
+91504 , 55812 , 55812 , gvfs-afc-volume , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+91506 , 55812 , 55812 , gvfs-afc-volume , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+91508 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f56b6363000
+91510 , 55812 , 55812 , gvfs-afc-volume , close(3</etc/ld.so.cache>) = 0
+91512 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91515 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libimobiledevice.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>
+91517 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000t\0\0\0\0\0\0@\0\0\0\0\0\0\0000\26\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\254\6\2\0\0\0\0\0\254\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\330\f\2\0\0\0\0\0\330\f\"\0\0\0\0\0\330\f\"\0\0\0\0\0(\10\0\0\0\0\0\0P\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220\r\2\0\0\0\0\0\220\r\"\0\0\0\0\0"..., 832) = 832
+91583 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4457064, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138544, st_atime=2017/11/26-03:11:56.857263288, st_mtime=2016/06/02-10:28:04, st_ctime=2016/11/03-23:20:44.371140187}) = 0
+91585 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2233640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>, 0) = 0x7f56b5f3e000
+91587 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5f5f000, 2093056, PROT_NONE) = 0
+91590 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b615e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>, 0x20000) = 0x7f56b615e000
+91598 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libimobiledevice.so.6.0.0>) = 0
+91602 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libplist.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91603 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91604 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libplist.so.3", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>
+91605 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\33\0\0\0\0\0\0@\0\0\0\0\0\0\0X\242\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274\231\0\0\0\0\0\0\274\231\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\235\0\0\0\0\0\0\320\235 \0\0\0\0\0\320\235 \0\0\0\0\0h\3\0\0\0\0\0\0p\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\235\0\0\0\0\0\0\350\235 \0\0\0\0\0"..., 832) = 832
+91691 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>, {st_dev=makedev(8, 1), st_ino=4458276, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43288, st_atime=2017/11/26-03:11:56.877262877, st_mtime=2017/09/25-13:31:06, st_ctime=2017/09/27-10:37:22.102306710}) = 0
+91692 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2138432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>, 0) = 0x7f56b5d33000
+91693 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5d3d000, 2093056, PROT_NONE) = 0
+91694 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5f3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>, 0x9000) = 0x7f56b5f3c000
+91698 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libplist.so.3.0.0>) = 0
+91699 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91700 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91701 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+91702 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+91703 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+91704 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6362000
+91705 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f56b59ab000
+91706 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5b2b000, 2097152, PROT_NONE) = 0
+91707 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5d2b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f56b5d2b000
+91708 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5d31000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b5d31000
+91709 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+91710 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91711 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91712 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+91713 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+91714 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+91715 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f56b5758000
+91716 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b57aa000, 2093056, PROT_NONE) = 0
+91717 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b59a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f56b59a9000
+91718 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+91719 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91720 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91721 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+91722 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+91723 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+91724 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f56b5447000
+91725 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5555000, 2097152, PROT_NONE) = 0
+91726 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5755000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f56b5755000
+91727 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5757000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b5757000
+91728 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+91729 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91730 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91731 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+91732 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91733 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+91734 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6361000
+91735 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f56b522a000
+91736 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5242000, 2093056, PROT_NONE) = 0
+91737 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5441000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f56b5441000
+91738 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5443000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b5443000
+91739 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+91740 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91741 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91742 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+91743 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+91744 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+91745 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f56b4e60000
+91746 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5020000, 2097152, PROT_NONE) = 0
+91747 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5220000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f56b5220000
+91748 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b5226000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b5226000
+91749 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+91750 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91751 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91752 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>
+91753 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\2\0\0\0\0\0@\0\0\0\0\0\0\0P\342\22\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l*\22\0\0\0\0\0l*\22\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270-\22\0\0\0\0\0\270-2\0\0\0\0\0\270-2\0\0\0\0\0X\263\0\0\0\0\0\0\310\303\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0x\313\22\0\0\0\0\0x\3132\0\0\0\0\0"..., 832) = 832
+91754 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, {st_dev=makedev(8, 1), st_ino=4456883, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2424, st_size=1239440, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/06/12-11:51:37, st_ctime=2017/06/24-03:59:34.980084966}) = 0
+91755 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3338624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0) = 0x7f56b4b30000
+91756 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4c53000, 2093056, PROT_NONE) = 0
+91757 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4e52000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0x122000) = 0x7f56b4e52000
+91758 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4e5f000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b4e5f000
+91759 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>) = 0
+91760 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91761 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91762 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>
+91763 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340)\0\0\0\0\0\0@\0\0\0\0\0\0\0`\"\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\16\1\0\0\0\0\0\204\16\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\25\1\0\0\0\0\0\10\25!\0\0\0\0\0\10\25!\0\0\0\0\0\34\f\0\0\0\0\0\0\0\17\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\1\0\0\0\0\0\320\35!\0\0\0\0\0"..., 832) = 832
+91764 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, {st_dev=makedev(8, 1), st_ino=4458720, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=76192, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/06/01-13:53:02, st_ctime=2017/06/08-02:50:09.820388315}) = 0
+91765 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6360000
+91766 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2171912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0) = 0x7f56b491d000
+91767 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b492e000, 2097152, PROT_NONE) = 0
+91768 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4b2e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0x11000) = 0x7f56b4b2e000
+91769 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>) = 0
+91770 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91771 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91772 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+91773 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+91774 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+91775 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f56b463c000
+91776 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4714000, 2093056, PROT_NONE) = 0
+91777 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4913000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f56b4913000
+91778 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b491c000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b491c000
+91779 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+91780 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libusbmuxd.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91781 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91782 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libusbmuxd.so.4", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>
+91783 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \34\0\0\0\0\0\0@\0\0\0\0\0\0\0008s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24k\0\0\0\0\0\0\24k\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310m\0\0\0\0\0\0\310m \0\0\0\0\0\310m \0\0\0\0\0P\4\0\0\0\0\0\0\230\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340m\0\0\0\0\0\0\340m \0\0\0\0\0"..., 832) = 832
+91822 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>, {st_dev=makedev(8, 1), st_ino=4456694, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31224, st_atime=2017/11/26-03:11:56.877262877, st_mtime=2016/06/02-10:16:34, st_ctime=2016/11/03-23:20:44.139149627}) = 0
+91823 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2126432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>, 0) = 0x7f56b4434000
+91824 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b443b000, 2093056, PROT_NONE) = 0
+91825 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b463a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>, 0x6000) = 0x7f56b463a000
+91827 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libusbmuxd.so.4.0.0>) = 0
+91828 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libxml2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91829 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91830 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libxml2.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>
+91831 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\326\2\0\0\0\0\0@\0\0\0\0\0\0\0008\226\33\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|\3\33\0\0\0\0\0|\3\33\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\6\33\0\0\0\0\0H\6;\0\0\0\0\0H\6;\0\0\0\0\0\274\216\0\0\0\0\0\0p\243\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10x\33\0\0\0\0\0\10x;\0\0\0\0\0"..., 832) = 832
+91832 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>, {st_dev=makedev(8, 1), st_ino=4457438, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3536, st_size=1809656, st_atime=2017/11/25-09:35:04.056669567, st_mtime=2017/09/15-20:26:51, st_ctime=2017/09/19-22:09:45.352713559}) = 0
+91833 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635f000
+91834 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3910072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>, 0) = 0x7f56b4079000
+91835 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b422a000, 2093056, PROT_NONE) = 0
+91836 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4429000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>, 0x1b0000) = 0x7f56b4429000
+91837 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4433000, 2488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b4433000
+91838 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3>) = 0
+91839 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91840 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91841 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+91842 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+91843 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+91844 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f56b3e75000
+91845 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3e78000, 2093056, PROT_NONE) = 0
+91846 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b4077000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f56b4077000
+91847 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+91848 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91849 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91850 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+91851 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+91852 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+91853 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f56b3c5b000
+91854 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3c74000, 2093056, PROT_NONE) = 0
+91855 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3e73000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f56b3e73000
+91856 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+91857 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91858 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91859 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+91860 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+91861 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+91862 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635e000
+91863 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f56b3a39000
+91864 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3a58000, 2093056, PROT_NONE) = 0
+91865 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3c57000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f56b3c57000
+91866 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3c59000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b3c59000
+91867 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+91868 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91869 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91870 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+91871 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+91872 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+91873 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f56b381e000
+91874 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3835000, 2097152, PROT_NONE) = 0
+91875 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3a35000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f56b3a35000
+91876 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3a37000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b3a37000
+91877 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+91878 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91879 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91880 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+91881 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+91882 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+91883 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f56b3616000
+91884 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b361d000, 2093056, PROT_NONE) = 0
+91885 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b381c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f56b381c000
+91886 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+91887 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91888 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91889 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+91890 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+91891 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+91892 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635d000
+91893 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f56b33a6000
+91894 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3414000, 2097152, PROT_NONE) = 0
+91895 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b3614000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f56b3614000
+91896 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+91897 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91898 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91899 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+91900 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+91901 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+91902 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7f56b3141000
+91903 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b319b000, 2093056, PROT_NONE) = 0
+91904 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b339a000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7f56b339a000
+91905 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+91906 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libidn.so.11", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91907 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91908 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>
+91909 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p+\0\0\0\0\0\0@\0\0\0\0\0\0\0(\"\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\17\3\0\0\0\0\0$\17\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\22\3\0\0\0\0\0\310\22#\0\0\0\0\0\310\22#\0\0\0\0\0 \16\0\0\0\0\0\0(\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\35\3\0\0\0\0\0\300\35#\0\0\0\0\0"..., 832) = 832
+91910 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, {st_dev=makedev(8, 1), st_ino=4458278, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207208, st_atime=2017/11/25-09:34:42.548712422, st_mtime=2017/09/25-14:06:07, st_ctime=2017/10/15-01:10:13.024850379}) = 0
+91911 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2302192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0) = 0x7f56b2f0e000
+91912 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2f3f000, 2097152, PROT_NONE) = 0
+91913 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b313f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0x31000) = 0x7f56b313f000
+91914 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>) = 0
+91915 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libnettle.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91916 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91917 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libnettle.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>
+91918 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`~\0\0\0\0\0\0@\0\0\0\0\0\0\0\210Q\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3744\3\0\0\0\0\0\3744\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h?\3\0\0\0\0\0h?#\0\0\0\0\0h?#\0\0\0\0\0\0\21\0\0\0\0\0\0(\21\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xM\3\0\0\0\0\0xM#\0\0\0\0\0"..., 832) = 832
+91919 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, {st_dev=makedev(8, 1), st_ino=4458826, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=432, st_size=219336, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/02/03-09:27:37, st_ctime=2017/04/03-11:27:11.578425564}) = 0
+91920 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635c000
+91921 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2314384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0) = 0x7f56b2cd8000
+91922 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2d0c000, 2093056, PROT_NONE) = 0
+91923 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2f0b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0x33000) = 0x7f56b2f0b000
+91924 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>) = 0
+91925 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libhogweed.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91926 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91927 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libhogweed.so.4", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>
+91928 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340e\0\0\0\0\0\0@\0\0\0\0\0\0\0\330#\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\25\3\0\0\0\0\0D\25\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\26\3\0\0\0\0\0(\26#\0\0\0\0\0(\26#\0\0\0\0\0\220\f\0\0\0\0\0\0\230\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\35\3\0\0\0\0\0\250\35#\0\0\0\0\0"..., 832) = 832
+91929 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, {st_dev=makedev(8, 1), st_ino=4456748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207640, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/02/03-09:27:38, st_ctime=2017/04/03-11:27:11.398474786}) = 0
+91930 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2302656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0) = 0x7f56b2aa5000
+91931 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2ad7000, 2093056, PROT_NONE) = 0
+91932 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2cd6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0x31000) = 0x7f56b2cd6000
+91933 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>) = 0
+91934 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91935 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91936 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>
+91937 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\223\0\0\0\0\0\0@\0\0\0\0\0\0\0\250\362\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\342\7\0\0\0\0\0l\342\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\351\7\0\0\0\0\0\10\351'\0\0\0\0\0\10\351'\0\0\0\0\0p\10\0\0\0\0\0\0\270\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0 \355\7\0\0\0\0\0 \355'\0\0\0\0\0"..., 832) = 832
+91938 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, {st_dev=makedev(8, 1), st_ino=4465744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1024, st_size=522664, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/11/17-12:15:19, st_ctime=2016/11/03-10:38:41.003999886}) = 0
+91939 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2617792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0) = 0x7f56b2825000
+91940 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b28a4000, 2093056, PROT_NONE) = 0
+91941 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2aa3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0x7e000) = 0x7f56b2aa3000
+91942 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>) = 0
+91943 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91944 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91945 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+91946 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+91947 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+91948 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635b000
+91949 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f56b2611000
+91950 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2623000, 2097152, PROT_NONE) = 0
+91951 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2823000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f56b2823000
+91952 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+91953 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91954 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91955 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+91956 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+91957 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+91958 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f56b240d000
+91959 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2410000, 2093056, PROT_NONE) = 0
+91960 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b260f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f56b260f000
+91961 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+91962 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libicuuc.so.55", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91963 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91964 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libicuuc.so.55", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>
+91965 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320T\5\0\0\0\0\0@\0\0\0\0\0\0\0H\361\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0)\347\27\0\0\0\0\0)\347\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\363\27\0\0\0\0\0\350\3637\0\0\0\0\0\350\3637\0\0\0\0\0,\374\0\0\0\0\0\0008G\1\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340\352\30\0\0\0\0\0\340\3528\0\0\0\0\0"..., 832) = 832
+91966 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, {st_dev=makedev(8, 1), st_ino=4459819, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3200, st_size=1636360, st_atime=2017/11/25-09:35:04.056669567, st_mtime=2017/10/17-10:48:58, st_ctime=2017/10/29-07:20:54.047937642}) = 0
+91967 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3750688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, 0) = 0x7f56b2079000
+91968 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b21f8000, 2097152, PROT_NONE) = 0
+91969 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b23f8000, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, 0x17f000) = 0x7f56b23f8000
+91970 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2409000, 15136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b2409000
+91971 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>) = 0
+91972 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91973 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91974 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+91975 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+91976 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+91977 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b635a000
+91978 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f56b1e57000
+91979 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b1e78000, 2093056, PROT_NONE) = 0
+91980 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b2077000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f56b2077000
+91981 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+91982 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91983 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91984 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+91985 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+91986 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+91987 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f56b1b4e000
+91988 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b1c56000, 2093056, PROT_NONE) = 0
+91989 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b1e55000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f56b1e55000
+91990 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+91991 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libicudata.so.55", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+91992 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+91993 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libicudata.so.55", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>
+91994 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\5\0\0\0\0\0\0@\0\0\0\0\0\0\0\20a\213\1\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\30\0\27\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4[\213\1\0\0\0\0\4[\213\1\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\330]\213\1\0\0\0\0\330]\253\1\0\0\0\0\330]\253\1\0\0\0\0000\2\0\0\0\0\0\0008\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\360]\213\1\0\0\0\0\360]\253\1\0\0\0\0"..., 832) = 832
+91995 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, {st_dev=makedev(8, 1), st_ino=4459817, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=50616, st_size=25913104, st_atime=2017/11/25-09:35:04.056669567, st_mtime=2017/10/17-10:48:58, st_ctime=2017/10/29-07:20:54.047937642}) = 0
+91996 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6359000
+91997 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 28008464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, 0) = 0x7f56b0097000
+91998 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b194d000, 2093056, PROT_NONE) = 0
+91999 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b1b4c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, 0x18b5000) = 0x7f56b1b4c000
+92000 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>) = 0
+92001 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+92002 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+92003 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+92004 , 55812 , 55812 , gvfs-afc-volume , read(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+92005 , 55812 , 55812 , gvfs-afc-volume , fstat(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4461343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/11/02-21:42:14, st_ctime=2016/11/10-22:22:35.303200843}) = 0
+92006 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7f56afd15000
+92007 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56afe87000, 2097152, PROT_NONE) = 0
+92008 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b0087000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7f56b0087000
+92009 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56b0093000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f56b0093000
+92010 , 55812 , 55812 , gvfs-afc-volume , close(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+92011 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+92012 , 55812 , 55812 , gvfs-afc-volume , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+92013 , 55812 , 55812 , gvfs-afc-volume , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcc_s.so.1>
+92014 , 55812 , 55812 , gvfs-afc-volume , read(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+92015 , 55812 , 55812 , gvfs-afc-volume , fstat(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+92016 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f56afaff000
+92017 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56afb15000, 2093056, PROT_NONE) = 0
+92018 , 55812 , 55812 , gvfs-afc-volume , mmap(0x7f56afd14000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f56afd14000
+92019 , 55812 , 55812 , gvfs-afc-volume , close(3</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+92020 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6358000
+92021 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6357000
+92022 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6356000
+92023 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6355000
+92024 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6353000
+92025 , 55812 , 55812 , gvfs-afc-volume , arch_prctl(ARCH_SET_FS, 0x7f56b6353800) = 0
+92026 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5220000, 16384, PROT_READ) = 0
+92027 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b1e55000, 4096, PROT_READ) = 0
+92028 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f56b6352000
+92029 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b0087000, 40960, PROT_READ) = 0
+92030 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b1b4c000, 4096, PROT_READ) = 0
+92031 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b260f000, 4096, PROT_READ) = 0
+92032 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2077000, 4096, PROT_READ) = 0
+92033 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b23f8000, 65536, PROT_READ) = 0
+92034 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2823000, 4096, PROT_READ) = 0
+92035 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2aa3000, 4096, PROT_READ) = 0
+92036 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2f0b000, 8192, PROT_READ) = 0
+92037 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b2cd6000, 4096, PROT_READ) = 0
+92038 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b313f000, 4096, PROT_READ) = 0
+92039 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5441000, 4096, PROT_READ) = 0
+92040 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b381c000, 4096, PROT_READ) = 0
+92041 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b339a000, 40960, PROT_READ) = 0
+92042 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3614000, 4096, PROT_READ) = 0
+92043 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3a35000, 4096, PROT_READ) = 0
+92044 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3c57000, 4096, PROT_READ) = 0
+92045 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b3e73000, 4096, PROT_READ) = 0
+92046 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5755000, 4096, PROT_READ) = 0
+92047 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4077000, 4096, PROT_READ) = 0
+92048 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4429000, 32768, PROT_READ) = 0
+92049 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5f3c000, 4096, PROT_READ) = 0
+92050 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b463a000, 4096, PROT_READ) = 0
+92051 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4913000, 4096, PROT_READ) = 0
+92052 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4b2e000, 4096, PROT_READ) = 0
+92053 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b4e52000, 45056, PROT_READ) = 0
+92054 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b59a9000, 4096, PROT_READ) = 0
+92055 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b5d2b000, 16384, PROT_READ) = 0
+92056 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b615e000, 4096, PROT_READ) = 0
+92057 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x611000, 12288, PROT_READ) = 0
+92058 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56b6385000, 4096, PROT_READ) = 0
+92059 , 55812 , 55812 , gvfs-afc-volume , munmap(0x7f56b6363000, 129890) = 0
+92060 , 55812 , 55812 , gvfs-afc-volume , set_tid_address(0x7f56b6353ad0) = 55812
+92061 , 55812 , 55812 , gvfs-afc-volume , set_robust_list(0x7f56b6353ae0, 24) = 0
+92062 , 55812 , 55812 , gvfs-afc-volume , rt_sigaction(SIGRTMIN, {0x7f56b522fb50, [], SA_RESTORER|SA_SIGINFO, 0x7f56b523b390}, NULL, 8) = 0
+92063 , 55812 , 55812 , gvfs-afc-volume , rt_sigaction(SIGRT_1, {0x7f56b522fbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f56b523b390}, NULL, 8) = 0
+92064 , 55812 , 55812 , gvfs-afc-volume , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+92065 , 55812 , 55812 , gvfs-afc-volume , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+92066 , 55812 , 55812 , gvfs-afc-volume , brk(NULL) = 0x22aa000
+92067 , 55812 , 55812 , gvfs-afc-volume , brk(0x22dc000) = 0x22dc000
+92068 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b33a5740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92069 , 55812 , 55812 , gvfs-afc-volume , statfs("/sys/fs/selinux", 0x7fff07fe1d00) = -1 ENOENT (No such file or directory)
+92070 , 55812 , 55812 , gvfs-afc-volume , statfs("/selinux", 0x7fff07fe1d00) = -1 ENOENT (No such file or directory)
+92071 , 55812 , 55812 , gvfs-afc-volume , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+92072 , 55812 , 55812 , gvfs-afc-volume , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:25.627647127, st_mtime=2017/11/26-08:16:25.627647127, st_ctime=2017/11/26-08:16:25.627647127}) = 0
+92073 , 55812 , 55812 , gvfs-afc-volume , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+92074 , 55812 , 55812 , gvfs-afc-volume , read(3</proc/filesystems>, "", 1024) = 0
+92075 , 55812 , 55812 , gvfs-afc-volume , close(3</proc/filesystems>) = 0
+92076 , 55812 , 55812 , gvfs-afc-volume , brk(0x22fd000) = 0x22fd000
+92077 , 55812 , 55812 , gvfs-afc-volume , open("/dev/urandom", O_RDONLY) = 3</dev/urandom>
+92078 , 55812 , 55812 , gvfs-afc-volume , fcntl(3</dev/urandom>, F_GETFD) = 0
+92079 , 55812 , 55812 , gvfs-afc-volume , fcntl(3</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+92080 , 55812 , 55812 , gvfs-afc-volume , fstat(3</dev/urandom>, {st_dev=makedev(0, 6), st_ino=11, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2017/11/26-03:20:03.411999619, st_mtime=2017/11/26-03:20:03.411999619, st_ctime=2017/11/26-03:20:03.411999619}) = 0
+92081 , 55812 , 55812 , gvfs-afc-volume , getrusage(0x1 /* RUSAGE_??? */, {ru_utime={0, 4000}, ru_stime={0, 4000}, ru_maxrss=6252, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=353, ru_majflt=5, ru_nswap=0, ru_inblock=600, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=782, ru_nivcsw=3}) = 0
+92082 , 55812 , 55812 , gvfs-afc-volume , read(3</dev/urandom>, "\313\343mg^\310\204O\343\23\375\267~y\231)\2044\352\316e\202DDZ>Vac\326\347\304", 32) = 32
+92083 , 55812 , 55812 , gvfs-afc-volume , read(3</dev/urandom>, "\301\231$\361#Y\266\7\33052\375K4\244\377\253\300\227\325\304}mmA\276 \nB)\234\311", 32) = 32
+92084 , 55812 , 55812 , gvfs-afc-volume , read(3</dev/urandom>, "\324\270\356\276v\263\214\362", 8) = 8
+92085 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92086 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92087 , 55812 , 55812 , gvfs-afc-volume , fstat(3</dev/urandom>, {st_dev=makedev(0, 6), st_ino=11, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2017/11/26-03:20:03.411999619, st_mtime=2017/11/26-03:20:03.411999619, st_ctime=2017/11/26-03:20:03.411999619}) = 0
+92088 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b615f514, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92089 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 4</usr/lib/locale/locale-archive>
+92090 , 55812 , 55812 , gvfs-afc-volume , fstat(4</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+92091 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 4</usr/lib/locale/locale-archive>, 0) = 0x7f56af827000
+92092 , 55812 , 55812 , gvfs-afc-volume , close(4</usr/lib/locale/locale-archive>) = 0
+92093 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92094 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92095 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92096 , 55812 , 55812 , gvfs-afc-volume , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 4<anon_inode:[eventfd]>
+92097 , 55812 , 55812 , gvfs-afc-volume , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92098 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92099 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92100 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92101 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f56af026000
+92102 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56af026000, 4096, PROT_NONE) = 0
+92103 , 55812 , 55812 , gvfs-afc-volume , clone(child_stack=0x7f56af825ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f56af8269d0, tls=0x7f56af826700, child_tidptr=0x7f56af8269d0) = 55813
+92104 , 55812 , 55812 , gvfs-afc-volume , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+92105 , 55812 , 55812 , gvfs-afc-volume , fstat(1<UNIX:[488706->491758]>, {st_dev=makedev(0, 8), st_ino=488706, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+92106 , 55812 , 55812 , gvfs-afc-volume , write(1<UNIX:[488706->491758]>, "Volume monitor alive\n", 21) = 21
+92107 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92108 , 55812 , 55812 , gvfs-afc-volume , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+92109 , 55812 , 55812 , gvfs-afc-volume , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+92110 , 55812 , 55812 , gvfs-afc-volume , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92111 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f56ae825000
+92112 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56ae825000, 4096, PROT_NONE) = 0
+92113 , 55812 , 55812 , gvfs-afc-volume , clone(child_stack=0x7f56af024ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f56af0259d0, tls=0x7f56af025700, child_tidptr=0x7f56af0259d0) = 55814
+92114 , 55812 , 55812 , gvfs-afc-volume , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+92115 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92116 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92117 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92118 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 6</etc/locale.alias>
+92119 , 55812 , 55812 , gvfs-afc-volume , fstat(6</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+92120 , 55812 , 55812 , gvfs-afc-volume , read(6</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+92121 , 55812 , 55812 , gvfs-afc-volume , read(6</etc/locale.alias>, "", 4096) = 0
+92122 , 55812 , 55812 , gvfs-afc-volume , close(6</etc/locale.alias>) = 0
+92123 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92124 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92125 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92126 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92127 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92128 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92129 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92130 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92131 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92132 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92133 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92134 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92135 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92136 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92137 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92138 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92139 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92140 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92141 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92142 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92143 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92144 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92145 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92146 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92147 , 55812 , 55812 , gvfs-afc-volume , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+92148 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92149 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92150 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92151 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92152 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92153 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92154 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92155 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92156 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92157 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92158 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92159 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92160 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92161 , 55812 , 55812 , gvfs-afc-volume , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f56ae024000
+92162 , 55812 , 55812 , gvfs-afc-volume , mprotect(0x7f56ae024000, 4096, PROT_NONE) = 0
+92163 , 55812 , 55812 , gvfs-afc-volume , clone(child_stack=0x7f56ae823ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f56ae8249d0, tls=0x7f56ae824700, child_tidptr=0x7f56ae8249d0) = 55815
+92164 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+92165 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+92166 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+92167 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+92595 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+92597 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92598 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92600 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92601 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92603 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92605 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92607 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92609 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f56b5757428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+92611 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92612 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=4, revents=POLLIN}])
+92699 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+92701 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+92884 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+92886 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+92888 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92890 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+92895 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+92898 , 55812 , 55812 , gvfs-afc-volume , futex(0x22f3078, FUTEX_WAKE_PRIVATE, 1) = 1
+92904 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92906 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+92909 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+92912 , 55812 , 55812 , gvfs-afc-volume , futex(0x22f3078, FUTEX_WAKE_PRIVATE, 1) = 1
+92918 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+92920 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+92924 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+92927 , 55812 , 55812 , gvfs-afc-volume , futex(0x22f3078, FUTEX_WAKE_PRIVATE, 1) = 1
+92933 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=4, revents=POLLIN}])
+92966 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+92967 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+93200 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+93201 , 55812 , 55812 , gvfs-afc-volume , brk(0x231e000) = 0x231e000
+93202 , 55812 , 55812 , gvfs-afc-volume , brk(0x231d000) = 0x231d000
+93203 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+93205 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+93209 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+93212 , 55812 , 55812 , gvfs-afc-volume , futex(0x22f3078, FUTEX_WAKE_PRIVATE, 1) = 1
+93218 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+365367 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+365370 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+365372 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+365376 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+365379 , 55812 , 55812 , gvfs-afc-volume , futex(0x22f3078, FUTEX_WAKE_PRIVATE, 1) = 1
+365386 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+365388 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 0
+365391 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+365393 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 1
+365396 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=4, revents=POLLIN}])
+365552 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+365554 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+365650 , 55812 , 55812 , gvfs-afc-volume , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+365652 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+365655 , 55812 , 55812 , gvfs-afc-volume , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+365657 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 0
+365659 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+365662 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800da00, FUTEX_WAKE_PRIVATE, 1) = 0
+365663 , 55812 , 55812 , gvfs-afc-volume , futex(0x7f569800d550, FUTEX_WAKE_PRIVATE, 1) = 1
+365665 , 55812 , 55812 , gvfs-afc-volume , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

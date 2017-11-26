@@ -1,0 +1,10 @@
+35930 , 47188 , 47184 , at-spi-bus-laun , set_robust_list(0x7f4e26ade9e0, 24) = 0
+35933 , 47188 , 47184 , at-spi-bus-laun , prctl(PR_SET_NAME, "pool\0\177\0\0x\233\355.N\177\0\0") = 0
+35936 , 47188 , 47184 , pool , mmap(0x7f4e1c000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f4e1c000000
+35938 , 47188 , 47184 , pool , mprotect(0x7f4e1c000000, 139264, PROT_READ|PROT_WRITE) = 0
+35941 , 47188 , 47184 , pool , futex(0x1d4d770, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+35947 , 47188 , 47184 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+35949 , 47188 , 47184 , pool , futex(0x1d4d770, FUTEX_WAKE_PRIVATE, 1) = 0
+35952 , 47188 , 47184 , pool , futex(0x1d6b0f0, FUTEX_WAIT_PRIVATE, 0, {0, 499999272}) = -1 ETIMEDOUT (Connection timed out)
+38167 , 47188 , 47184 , pool , futex(0x1d6b140, FUTEX_WAIT_PRIVATE, 0, {14, 999999185} <unfinished ...>
+41720 , 47188 , -1 , NULL , +++ exited with 0 +++

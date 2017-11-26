@@ -1,0 +1,13 @@
+126821 , 55874 , 55867 , evolution-addre , set_robust_list(0x7f2e195b79e0, 24) = 0
+126824 , 55874 , 55867 , evolution-addre , prctl(PR_SET_NAME, "pool\0U\0\0`\364\1\24.\177\0\0") = 0
+126827 , 55874 , 55867 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2e04000000
+126830 , 55874 , 55867 , pool , munmap(0x7f2e08000000, 67108864) = 0
+126833 , 55874 , 55867 , pool , mprotect(0x7f2e04000000, 139264, PROT_READ|PROT_WRITE) = 0
+126836 , 55874 , 55867 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+126839 , 55874 , 55867 , pool , futex(0x5592d4708160, FUTEX_WAIT_PRIVATE, 0, {0, 499999366}) = 0
+127505 , 55874 , 55867 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127508 , 55874 , 55867 , pool , futex(0x5592d4708160, FUTEX_WAIT_PRIVATE, 1, {0, 499999444}) = -1 ETIMEDOUT (Connection timed out)
+130942 , 55874 , 55867 , pool , futex(0x5592d47081b0, FUTEX_WAIT_PRIVATE, 0, {14, 999999112}) = -1 ETIMEDOUT (Connection timed out)
+248490 , 55874 , 55867 , pool , madvise(0x7f2e18db7000, 8368128, MADV_DONTNEED) = 0
+248491 , 55874 , 55867 , pool , exit(0) = ?
+248492 , 55874 , -1 , NULL , +++ exited with 0 +++

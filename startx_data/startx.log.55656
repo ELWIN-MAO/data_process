@@ -1,0 +1,11 @@
+19821 , 55656 , 55653 , gvfsd , set_robust_list(0x7f27061469e0, 24) = 0
+19822 , 55656 , 55653 , gvfsd , prctl(PR_SET_NAME, "pool\0\0\0\0\0\0\0\0\0\0\0\0") = 0
+19823 , 55656 , 55653 , pool , mmap(0x7f26fc000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f26fc000000
+19824 , 55656 , 55653 , pool , mprotect(0x7f26fc000000, 139264, PROT_READ|PROT_WRITE) = 0
+19825 , 55656 , 55653 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+19827 , 55656 , 55653 , pool , futex(0x15a8ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+19832 , 55656 , 55653 , pool , futex(0x15baa00, FUTEX_WAIT_PRIVATE, 0, {0, 499999599}) = -1 ETIMEDOUT (Connection timed out)
+21391 , 55656 , 55653 , pool , futex(0x15baa50, FUTEX_WAIT_PRIVATE, 0, {14, 999998660}) = -1 ETIMEDOUT (Connection timed out)
+103139 , 55656 , 55653 , pool , madvise(0x7f2705946000, 8368128, MADV_DONTNEED) = 0
+103140 , 55656 , 55653 , pool , exit(0) = ?
+103141 , 55656 , -1 , NULL , +++ exited with 0 +++

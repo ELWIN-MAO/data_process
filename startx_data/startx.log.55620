@@ -1,0 +1,143 @@
+14696 , 55620 , 55620 , xinitrc , close(12</etc/X11/Xsession.d/35x11-common_xhost-local>) = 0
+14697 , 55620 , 55620 , xinitrc , close(11</etc/X11/Xsession>) = 0
+14698 , 55620 , 55620 , xinitrc , close(10</etc/X11/xinit/xinitrc>) = 0
+14699 , 55620 , 55620 , xinitrc , execve("/usr/bin/xhost", ["xhost", "+si:localuser:root"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "HOME=/home/elwin", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SHELL=/bin/bash", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data"]) = 0
+14700 , 55620 , 55620 , xhost , brk(NULL) = 0x2260000
+14701 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14702 , 55620 , 55620 , xhost , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ad8000
+14703 , 55620 , 55620 , xhost , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+14704 , 55620 , 55620 , xhost , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+14705 , 55620 , 55620 , xhost , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+14706 , 55620 , 55620 , xhost , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7f8c76ab8000
+14707 , 55620 , 55620 , xhost , close(4</etc/ld.so.cache>) = 0
+14708 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14709 , 55620 , 55620 , xhost , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+14710 , 55620 , 55620 , xhost , read(4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+14711 , 55620 , 55620 , xhost , fstat(4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2017/11/25-09:35:01.512674636, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+14712 , 55620 , 55620 , xhost , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f8c7657b000
+14713 , 55620 , 55620 , xhost , mprotect(0x7f8c766b0000, 2097152, PROT_NONE) = 0
+14714 , 55620 , 55620 , xhost , mmap(0x7f8c768b0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f8c768b0000
+14715 , 55620 , 55620 , xhost , close(4</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+14716 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14717 , 55620 , 55620 , xhost , open("/usr/lib/x86_64-linux-gnu/libXmuu.so.1", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>
+14718 , 55620 , 55620 , xhost , read(4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\23\0\0\0\0\0\0@\0\0\0\0\0\0\0\3001\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d(\0\0\0\0\0\0d(\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10)\0\0\0\0\0\0\10) \0\0\0\0\0\10) \0\0\0\0\0\210\7\0\0\0\0\0\0\220\7\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0"..., 832) = 832
+14719 , 55620 , 55620 , xhost , fstat(4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14528, st_atime=2017/11/26-03:12:08.909025945, st_mtime=2015/12/10-06:38:10, st_ctime=2016/11/03-10:38:38.799999888}) = 0
+14720 , 55620 , 55620 , xhost , mmap(NULL, 2109592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, 0) = 0x7f8c76377000
+14721 , 55620 , 55620 , xhost , mprotect(0x7f8c7637a000, 2093056, PROT_NONE) = 0
+14722 , 55620 , 55620 , xhost , mmap(0x7f8c76579000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, 0x2000) = 0x7f8c76579000
+14723 , 55620 , 55620 , xhost , close(4</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>) = 0
+14724 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14725 , 55620 , 55620 , xhost , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+14726 , 55620 , 55620 , xhost , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+14727 , 55620 , 55620 , xhost , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14728 , 55620 , 55620 , xhost , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ab7000
+14729 , 55620 , 55620 , xhost , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f8c75fad000
+14730 , 55620 , 55620 , xhost , mprotect(0x7f8c7616d000, 2097152, PROT_NONE) = 0
+14731 , 55620 , 55620 , xhost , mmap(0x7f8c7636d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f8c7636d000
+14732 , 55620 , 55620 , xhost , mmap(0x7f8c76373000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8c76373000
+14733 , 55620 , 55620 , xhost , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+14734 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14735 , 55620 , 55620 , xhost , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+14736 , 55620 , 55620 , xhost , read(4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+14737 , 55620 , 55620 , xhost , fstat(4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+14738 , 55620 , 55620 , xhost , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f8c75d8b000
+14739 , 55620 , 55620 , xhost , mprotect(0x7f8c75dac000, 2093056, PROT_NONE) = 0
+14740 , 55620 , 55620 , xhost , mmap(0x7f8c75fab000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f8c75fab000
+14741 , 55620 , 55620 , xhost , close(4</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+14742 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14743 , 55620 , 55620 , xhost , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libdl-2.23.so>
+14744 , 55620 , 55620 , xhost , read(4</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+14745 , 55620 , 55620 , xhost , fstat(4</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14746 , 55620 , 55620 , xhost , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f8c75b87000
+14747 , 55620 , 55620 , xhost , mprotect(0x7f8c75b8a000, 2093056, PROT_NONE) = 0
+14748 , 55620 , 55620 , xhost , mmap(0x7f8c75d89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f8c75d89000
+14749 , 55620 , 55620 , xhost , close(4</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+14750 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14751 , 55620 , 55620 , xhost , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+14752 , 55620 , 55620 , xhost , read(4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+14753 , 55620 , 55620 , xhost , fstat(4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+14754 , 55620 , 55620 , xhost , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ab6000
+14755 , 55620 , 55620 , xhost , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f8c75983000
+14756 , 55620 , 55620 , xhost , mprotect(0x7f8c75985000, 2097152, PROT_NONE) = 0
+14757 , 55620 , 55620 , xhost , mmap(0x7f8c75b85000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f8c75b85000
+14758 , 55620 , 55620 , xhost , close(4</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+14759 , 55620 , 55620 , xhost , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14760 , 55620 , 55620 , xhost , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+14761 , 55620 , 55620 , xhost , read(4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+14762 , 55620 , 55620 , xhost , fstat(4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2017/11/25-09:35:01.528674605, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+14763 , 55620 , 55620 , xhost , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f8c7577d000
+14764 , 55620 , 55620 , xhost , mprotect(0x7f8c75782000, 2093056, PROT_NONE) = 0
+14765 , 55620 , 55620 , xhost , mmap(0x7f8c75981000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f8c75981000
+14766 , 55620 , 55620 , xhost , close(4</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+14767 , 55620 , 55620 , xhost , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ab5000
+14768 , 55620 , 55620 , xhost , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ab4000
+14769 , 55620 , 55620 , xhost , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c76ab3000
+14770 , 55620 , 55620 , xhost , arch_prctl(ARCH_SET_FS, 0x7f8c76ab4700) = 0
+14771 , 55620 , 55620 , xhost , mprotect(0x7f8c7636d000, 16384, PROT_READ) = 0
+14772 , 55620 , 55620 , xhost , mprotect(0x7f8c75981000, 4096, PROT_READ) = 0
+14773 , 55620 , 55620 , xhost , mprotect(0x7f8c75b85000, 4096, PROT_READ) = 0
+14774 , 55620 , 55620 , xhost , mprotect(0x7f8c75d89000, 4096, PROT_READ) = 0
+14775 , 55620 , 55620 , xhost , mprotect(0x7f8c75fab000, 4096, PROT_READ) = 0
+14776 , 55620 , 55620 , xhost , mprotect(0x7f8c768b0000, 4096, PROT_READ) = 0
+14777 , 55620 , 55620 , xhost , mprotect(0x7f8c76579000, 4096, PROT_READ) = 0
+14778 , 55620 , 55620 , xhost , mprotect(0x602000, 4096, PROT_READ) = 0
+14779 , 55620 , 55620 , xhost , mprotect(0x7f8c76ada000, 4096, PROT_READ) = 0
+14780 , 55620 , 55620 , xhost , munmap(0x7f8c76ab8000, 129890) = 0
+14781 , 55620 , 55620 , xhost , brk(NULL) = 0x2260000
+14782 , 55620 , 55620 , xhost , brk(0x2282000) = 0x2282000
+14783 , 55620 , 55620 , xhost , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4<UNIX:[460696]>
+14784 , 55620 , 55620 , xhost , connect(4<UNIX:[460696]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+14793 , 55620 , 55620 , xhost , getpeername(4<UNIX:[460696->460700]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+14794 , 55620 , 55620 , xhost , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-101-generic", version="#124-Ubuntu SMP Fri Nov 10 18:29:59 UTC 2017", machine="x86_64", domainname="(none)"}) = 0
+14795 , 55620 , 55620 , xhost , access("/home/elwin/.Xauthority", R_OK) = 0
+14796 , 55620 , 55620 , xhost , open("/home/elwin/.Xauthority", O_RDONLY) = 5</home/elwin/.Xauthority>
+14797 , 55620 , 55620 , xhost , fstat(5</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2883841, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=477, st_atime=2017/11/26-08:16:10.211559677, st_mtime=2017/11/26-08:16:05.463532617, st_ctime=2017/11/26-08:16:05.463532617}) = 0
+14798 , 55620 , 55620 , xhost , read(5</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\324o\n\227\213\223\202\304\363\276\333\4+v\3241\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MA"..., 4096) = 477
+14799 , 55620 , 55620 , xhost , read(5</home/elwin/.Xauthority>, "", 4096) = 0
+14800 , 55620 , 55620 , xhost , close(5</home/elwin/.Xauthority>) = 0
+14801 , 55620 , 55620 , xhost , getsockname(4<UNIX:[460696->460700]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+14802 , 55620 , 55620 , xhost , fcntl(4<UNIX:[460696->460700]>, F_GETFL) = 0x2 (flags O_RDWR)
+14803 , 55620 , 55620 , xhost , fcntl(4<UNIX:[460696->460700]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+14804 , 55620 , 55620 , xhost , fcntl(4<UNIX:[460696->460700]>, F_SETFD, FD_CLOEXEC) = 0
+14805 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14806 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"X\36\nC\327\306\336\376\343\200N\220\351B\24*", 16}, {"", 0}], 6) = 48
+14818 , 55620 , 55620 , xhost , recvfrom(4<UNIX:[460696->460700]>, "\1\0\v\0\0\0\263\4", 8, 0, NULL, NULL) = 8
+14819 , 55620 , 55620 , xhost , recvfrom(4<UNIX:[460696->460700]>, "`\35\264\0\0\0@\0\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0The X.Org Foundation\1\1 \0\0\0\0\0\4\10 \0\0\0\0\0\10\10 \0\0\0\0\0\17\20 \0\0\0\0\0\20\20 \0\0\0\0\0\30  \0\0\0\0\0   \0\0\0\0\0%\2\0\0 \0\0\0\377\377\377\0\0\0\0\0\0\0\0\0 \3X\2\323\0\236\0\1\0\1\0!\0\0\0\1\0\30\7\30\0\277\0\0\0\0\0!\0\0\0\4\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0\0\0\0\0\"\0\0\0\5\10\0\1\0\0\377\0\0\377\0\0\377\0\0\0"..., 4812, 0, NULL, NULL) = 4812
+14820 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14821 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+14828 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14829 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0\1\206\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+14830 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14831 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"\206\0\1\0", 4}], 1) = 4
+14838 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14839 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+14840 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236e00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14841 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14842 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"7\0\5\0\0\0@\0%\2\0\0\10\0\0\0\377\377\377\0\24\0\6\0%\2\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+14850 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14851 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0*customization:\t-color\n\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+14852 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236e40, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14853 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14854 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"b\0\5\0\t\0@\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+14859 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14861 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0\1\210U\211\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+14863 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236d10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14864 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236d10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14865 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14866 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"\210\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+14867 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14871 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+14873 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236dc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14875 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236dc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14877 , 55620 , 55620 , xhost , fstat(1</home/elwin/.xsession-errors>, {st_dev=makedev(8, 1), st_ino=2883595, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=32, st_size=14826, st_atime=2017/11/26-08:16:10.423560884, st_mtime=2017/11/26-08:16:10.475561181, st_ctime=2017/11/26-08:16:10.475561181}) = 0
+14878 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=4, revents=POLLOUT}])
+14879 , 55620 , 55620 , xhost , writev(4<UNIX:[460696->460700]>, [{"m\0\6\0\5\0\16\0localuser\0root\6\0<\2\2\0\0\0@\0+\0\1\0", 36}, {NULL, 0}, {"", 0}], 3) = 36
+14880 , 55620 , 55620 , xhost , poll([{fd=4<UNIX:[460696->460700]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14950 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+14951 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236ee0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14952 , 55620 , 55620 , xhost , recvmsg(4<UNIX:[460696->460700]>, 0x7fffc9236ee0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14953 , 55620 , 55620 , xhost , shutdown(4<UNIX:[460696->460700]>, SHUT_RDWR) = 0
+14954 , 55620 , 55620 , xhost , close(4<UNIX:[460696->460700]>) = 0
+14955 , 55620 , 55620 , xhost , write(1</home/elwin/.xsession-errors>, "localuser:root being added to access control list\n", 50) = 50
+14956 , 55620 , 55620 , xhost , exit_group(0) = ?
+14957 , 55620 , -1 , NULL , +++ exited with 0 +++

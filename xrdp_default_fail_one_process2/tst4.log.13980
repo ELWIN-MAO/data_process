@@ -1,0 +1,257 @@
+1497 , 13980 , 13980 , xrdp-sesman , set_robust_list(0x7efdcb3569e0, 24) = 0
+1499 , 13980 , 13980 , xrdp-sesman , mkdir("/tmp/.xrdp/xrdp-sesman-0xYOP4", 0700) = 0
+1501 , 13980 , 13980 , xrdp-sesman , socket(PF_NETLINK, SOCK_RAW, NETLINK_AUDIT) = 8<NETLINK:[31099]>
+1504 , 13980 , 13980 , xrdp-sesman , fcntl(8<NETLINK:[31099]>, F_SETFD, FD_CLOEXEC) = 0
+1507 , 13980 , 13980 , xrdp-sesman , sendto(8<NETLINK:[31099]>, "t\0\0\0O\4\5\0\3\0\0\0\0\0\0\0op=PAM:setcred acct=\"elwin\" exe=\"/usr/sbin/xrdp-sesman\" hostname=? addr=? terminal=:10 res=success\0\0", 116, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 116
+1509 , 13980 , 13980 , xrdp-sesman , poll([{fd=8<NETLINK:[31099]>, events=POLLIN}], 1, 500) = 1 ([{fd=8, revents=POLLIN}])
+1512 , 13980 , 13980 , xrdp-sesman , recvfrom(8<NETLINK:[31099]>, "$\0\0\0\2\0\0\0\3\0\0\0\2346\0\0\0\0\0\0t\0\0\0O\4\5\0\3\0\0\0\0\0\0\0", 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+1515 , 13980 , 13980 , xrdp-sesman , recvfrom(8<NETLINK:[31099]>, "$\0\0\0\2\0\0\0\3\0\0\0\2346\0\0\0\0\0\0t\0\0\0O\4\5\0\3\0\0\0\0\0\0\0", 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+1517 , 13980 , 13980 , xrdp-sesman , close(8<NETLINK:[31099]>) = 0
+1519 , 13980 , 13980 , xrdp-sesman , open("/etc/login.defs", O_RDONLY) = 8</etc/login.defs>
+1521 , 13980 , 13980 , xrdp-sesman , fstat(8</etc/login.defs>, {st_dev=makedev(8, 1), st_ino=131248, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10551, st_atime=2017/11/25-09:35:01.620674421, st_mtime=2016/03/29-05:25:06, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+1523 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, "#\n# /etc/login.defs - Configuration control definitions for the login package.\n#\n# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.\n# If unspecified, some arbitrary (and possibly inco"..., 4096) = 4096
+1525 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, " issuing \n# the \"mesg y\" command.\n\nTTYGROUP\ttty\nTTYPERM\t\t0600\n\n#\n# Login configuration initializations:\n#\n#\tERASECHAR\tTerminal ERASE character ('\\010' = backspace).\n#\tKILLCHAR\tTerminal KILL character "..., 4096) = 4096
+1527 , 13980 , 13980 , xrdp-sesman , close(8</etc/login.defs>) = 0
+1528 , 13980 , 13980 , xrdp-sesman , open("/etc/login.defs", O_RDONLY) = 8</etc/login.defs>
+1530 , 13980 , 13980 , xrdp-sesman , fstat(8</etc/login.defs>, {st_dev=makedev(8, 1), st_ino=131248, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10551, st_atime=2017/11/25-09:35:01.620674421, st_mtime=2016/03/29-05:25:06, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+1531 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, "#\n# /etc/login.defs - Configuration control definitions for the login package.\n#\n# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.\n# If unspecified, some arbitrary (and possibly inco"..., 4096) = 4096
+1532 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, " issuing \n# the \"mesg y\" command.\n\nTTYGROUP\ttty\nTTYPERM\t\t0600\n\n#\n# Login configuration initializations:\n#\n#\tERASECHAR\tTerminal ERASE character ('\\010' = backspace).\n#\tKILLCHAR\tTerminal KILL character "..., 4096) = 4096
+1533 , 13980 , 13980 , xrdp-sesman , close(8</etc/login.defs>) = 0
+1534 , 13980 , 13980 , xrdp-sesman , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 8</etc/passwd>
+1535 , 13980 , 13980 , xrdp-sesman , lseek(8</etc/passwd>, 0, SEEK_CUR) = 0
+1536 , 13980 , 13980 , xrdp-sesman , fstat(8</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+1537 , 13980 , 13980 , xrdp-sesman , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 8</etc/passwd>, 0) = 0x7efdcb373000
+1538 , 13980 , 13980 , xrdp-sesman , lseek(8</etc/passwd>, 2368, SEEK_SET) = 2368
+1539 , 13980 , 13980 , xrdp-sesman , munmap(0x7efdcb373000, 2368) = 0
+1540 , 13980 , 13980 , xrdp-sesman , close(8</etc/passwd>) = 0
+1541 , 13980 , 13980 , xrdp-sesman , umask(022) = 022
+1542 , 13980 , 13980 , xrdp-sesman , open("/etc/group", O_RDONLY|O_CLOEXEC) = 8</etc/group>
+1543 , 13980 , 13980 , xrdp-sesman , lseek(8</etc/group>, 0, SEEK_CUR) = 0
+1544 , 13980 , 13980 , xrdp-sesman , fstat(8</etc/group>, {st_dev=makedev(8, 1), st_ino=140958, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1069, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.510337236, st_ctime=2017/06/24-10:10:27.514349619}) = 0
+1545 , 13980 , 13980 , xrdp-sesman , mmap(NULL, 1069, PROT_READ, MAP_SHARED, 8</etc/group>, 0) = 0x7efdcb373000
+1546 , 13980 , 13980 , xrdp-sesman , lseek(8</etc/group>, 1069, SEEK_SET) = 1069
+1547 , 13980 , 13980 , xrdp-sesman , munmap(0x7efdcb373000, 1069) = 0
+1548 , 13980 , 13980 , xrdp-sesman , close(8</etc/group>) = 0
+1549 , 13980 , 13980 , xrdp-sesman , umask(0777) = 022
+1550 , 13980 , 13980 , xrdp-sesman , umask(02) = 0777
+1551 , 13980 , 13980 , xrdp-sesman , getuid() = 0
+1552 , 13980 , 13980 , xrdp-sesman , open("/etc/login.defs", O_RDONLY) = 8</etc/login.defs>
+1553 , 13980 , 13980 , xrdp-sesman , fstat(8</etc/login.defs>, {st_dev=makedev(8, 1), st_ino=131248, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10551, st_atime=2017/11/25-09:35:01.620674421, st_mtime=2016/03/29-05:25:06, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+1554 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, "#\n# /etc/login.defs - Configuration control definitions for the login package.\n#\n# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.\n# If unspecified, some arbitrary (and possibly inco"..., 4096) = 4096
+1555 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, " issuing \n# the \"mesg y\" command.\n\nTTYGROUP\ttty\nTTYPERM\t\t0600\n\n#\n# Login configuration initializations:\n#\n#\tERASECHAR\tTerminal ERASE character ('\\010' = backspace).\n#\tKILLCHAR\tTerminal KILL character "..., 4096) = 4096
+1556 , 13980 , 13980 , xrdp-sesman , read(8</etc/login.defs>, " algorithm compatible with the one used by recent releases of FreeBSD.\n# It supports passwords of unlimited length and longer salt strings.\n# Set to \"no\" if you need to copy encrypted passwords to oth"..., 4096) = 2359
+1557 , 13980 , 13980 , xrdp-sesman , close(8</etc/login.defs>) = 0
+1558 , 13980 , 13980 , xrdp-sesman , access("/var/run/utmpx", F_OK) = -1 ENOENT (No such file or directory)
+1559 , 13980 , 13980 , xrdp-sesman , open("/var/run/utmp", O_RDONLY|O_CLOEXEC) = 8</run/utmp>
+1560 , 13980 , 13980 , xrdp-sesman , lseek(8</run/utmp>, 0, SEEK_SET) = 0
+1561 , 13980 , 13980 , xrdp-sesman , alarm(0) = 0
+1562 , 13980 , 13980 , xrdp-sesman , rt_sigaction(SIGALRM, {0x7efdca68b340, [], SA_RESTORER, 0x7efdca57f4b0}, {SIG_DFL, [], 0}, 8) = 0
+1563 , 13980 , 13980 , xrdp-sesman , alarm(10) = 0
+1564 , 13980 , 13980 , xrdp-sesman , fcntl(8</run/utmp>, F_SETLKW, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1565 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "\2\0\0\0\0\0\0\0~\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0~~\0\0reboot\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004.4.0-101-generic\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 384) = 384
+1566 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "\1\0\0\0005\0\0\0~\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0~~\0\0runlevel\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004.4.0-101-generic\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 384) = 384
+1567 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "\6\0\0\0\247\3\0\0tty1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0tty1LOGIN\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 384) = 384
+1568 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "\10\0\0\0\203\4\0\0pts/0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0ts/0\0lwin\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\000192.168.209.1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 384) = 384
+1569 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "\7\0\0\0\313\v\0\0pts/1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0/1\0\0elwin\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\000192.168.209.1:S.0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 384) = 384
+1570 , 13980 , 13980 , xrdp-sesman , read(8</run/utmp>, "", 384) = 0
+1571 , 13980 , 13980 , xrdp-sesman , fcntl(8</run/utmp>, F_SETLKW, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1572 , 13980 , 13980 , xrdp-sesman , alarm(0) = 10
+1573 , 13980 , 13980 , xrdp-sesman , rt_sigaction(SIGALRM, {SIG_DFL, [], SA_RESTORER, 0x7efdca57f4b0}, NULL, 8) = 0
+1574 , 13980 , 13980 , xrdp-sesman , close(8</run/utmp>) = 0
+1575 , 13980 , 13980 , xrdp-sesman , getuid() = 0
+1576 , 13980 , 13980 , xrdp-sesman , socket(PF_LOCAL, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 8<UNIX:[31942]>
+1577 , 13980 , 13980 , xrdp-sesman , connect(8<UNIX:[31942]>, {sa_family=AF_LOCAL, sun_path="/dev/log"}, 110) = 0
+1578 , 13980 , 13980 , xrdp-sesman , sendto(8<UNIX:[31942->1478]>, "<86>Nov 26 03:40:31 xrdp-sesman: pam_unix(xrdp-sesman:session): session opened for user elwin by (uid=0)", 104, MSG_NOSIGNAL, NULL, 0) = 104
+1579 , 13980 , 13980 , xrdp-sesman , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 9</etc/passwd>
+1580 , 13980 , 13980 , xrdp-sesman , lseek(9</etc/passwd>, 0, SEEK_CUR) = 0
+1581 , 13980 , 13980 , xrdp-sesman , fstat(9</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+1582 , 13980 , 13980 , xrdp-sesman , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 9</etc/passwd>, 0) = 0x7efdcb373000
+1583 , 13980 , 13980 , xrdp-sesman , lseek(9</etc/passwd>, 2368, SEEK_SET) = 2368
+1584 , 13980 , 13980 , xrdp-sesman , munmap(0x7efdcb373000, 2368) = 0
+1585 , 13980 , 13980 , xrdp-sesman , close(9</etc/passwd>) = 0
+1586 , 13980 , 13980 , xrdp-sesman , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[31943]>
+1587 , 13980 , 13980 , xrdp-sesman , connect(9<UNIX:[31943]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 20) = -1 ENOENT (No such file or directory)
+1588 , 13980 , 13980 , xrdp-sesman , close(9<UNIX:[31943]>) = 0
+1589 , 13980 , 13980 , xrdp-sesman , open("/sys/fs/kdbus/0-system/bus", O_RDWR|O_NOCTTY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1590 , 13980 , 13980 , xrdp-sesman , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[31944]>
+1591 , 13980 , 13980 , xrdp-sesman , getsockopt(9<UNIX:[31944]>, SOL_SOCKET, SO_RCVBUF, [212992], [4]) = 0
+1592 , 13980 , 13980 , xrdp-sesman , setsockopt(9<UNIX:[31944]>, SOL_SOCKET, SO_RCVBUFFORCE, [8388608], 4) = 0
+1593 , 13980 , 13980 , xrdp-sesman , getsockopt(9<UNIX:[31944]>, SOL_SOCKET, SO_SNDBUF, [212992], [4]) = 0
+1594 , 13980 , 13980 , xrdp-sesman , setsockopt(9<UNIX:[31944]>, SOL_SOCKET, SO_SNDBUFFORCE, [8388608], 4) = 0
+1595 , 13980 , 13980 , xrdp-sesman , connect(9<UNIX:[31944]>, {sa_family=AF_LOCAL, sun_path="/var/run/dbus/system_bus_socket"}, 33) = 0
+1596 , 13980 , 13980 , xrdp-sesman , getsockopt(9<UNIX:[31944->31212]>, SOL_SOCKET, SO_PEERCRED, {pid=1, uid=0, gid=0}, [12]) = 0
+1597 , 13980 , 13980 , xrdp-sesman , fstat(9<UNIX:[31944->31212]>, {st_dev=makedev(0, 8), st_ino=31944, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+1598 , 13980 , 13980 , xrdp-sesman , getsockopt(9<UNIX:[31944->31212]>, SOL_SOCKET, SO_ACCEPTCONN, [0], [4]) = 0
+1599 , 13980 , 13980 , xrdp-sesman , getsockname(9<UNIX:[31944->31212]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+1600 , 13980 , 13980 , xrdp-sesman , geteuid() = 0
+1601 , 13980 , 13980 , xrdp-sesman , sendmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(3)=[{"\0AUTH EXTERNAL ", 15}, {"30", 2}, {"\r\nNEGOTIATE_UNIX_FD\r\nBEGIN\r\n", 28}], msg_controllen=0, msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 45
+1602 , 13980 , 13980 , xrdp-sesman , gettid() = 13980
+1603 , 13980 , 13980 , xrdp-sesman , getrandom("Z\361]\262J\17\323\275\265At\363V\226\260l", 16, GRND_NONBLOCK) = 16
+1604 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"OK b80b3ebf2785948224d3eb0e5a1a7937\r\nAGREE_UNIX_FD\r\n", 256}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 52
+1605 , 13980 , 13980 , xrdp-sesman , sendmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\1\0\0\0m\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0", 128}], msg_controllen=0, msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 128
+1606 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\v\0\0\0\1\0\0\0=\0\0\0\6\1s\0\6\0\0\0", 24}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 24
+1607 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{":1.460\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\0\0\0:1.460\0", 67}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 67
+1608 , 13980 , 13980 , xrdp-sesman , sendmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1h\0\0\0\2\0\0\0\230\0\0\0\1\1o\0\27\0\0\0/org/freedesktop/login1\0\3\1s\0\r\0\0\0CreateSession\0\0\0\2\1s\0\36\0\0\0org.freedesktop.login1.Manager\0\0\6\1s\0\26\0\0\0org.freedesktop.login1\0\0\10\1g\0\22uusssssussbssa(sv)\0", 168}, {"\350\3\0\0\2346\0\0\v\0\0\0xrdp-sesman\0\3\0\0\0x11\0\4\0\0\0user\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0:10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 104}], msg_controllen=0, msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 272
+1609 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\v\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0", 24}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 24
+1610 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\6\0\0\0:1.460\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\6\0\0\0:1.460\0", 147}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 147
+1611 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, 0x7ffd04b084a0, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+1612 , 13980 , 13980 , xrdp-sesman , ppoll([{fd=9<UNIX:[31944->31212]>, events=POLLIN}], 1, {24, 996613000}, NULL, 8) = 1 ([{fd=9, revents=POLLIN}], left {24, 981929646})
+1613 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\\\0\0\0 \0\0\0=\0\0\0\5\1u\0\2\0\0\0", 24}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [10</run/systemd/sessions/c1.ref>]}], msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 24
+1614 , 13980 , 13980 , xrdp-sesman , recvmsg(9<UNIX:[31944->31212]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\1s\0\6\0\0\0:1.460\0\0\10\1g\0\10soshusub\0\0\0\t\1u\0\1\0\0\0\7\1s\0\4\0\0\0:1.3\0\0\0\0\2\0\0\0c1\0\0\"\0\0\0/org/freedesktop/login1/session/c1\0\0\16\0\0\0/run/user/1000\0\0\0\0\0\0\350\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 148}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_NOSIGNAL|MSG_CMSG_CLOEXEC) = 148
+1615 , 13980 , 13980 , xrdp-sesman , access("/proc/vz", F_OK) = -1 ENOENT (No such file or directory)
+1616 , 13980 , 13980 , xrdp-sesman , open("/run/systemd/container", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1617 , 13980 , 13980 , xrdp-sesman , open("/proc/1/environ", O_RDONLY|O_CLOEXEC) = 11</proc/1/environ>
+1618 , 13980 , 13980 , xrdp-sesman , fstat(11</proc/1/environ>, {st_dev=makedev(0, 4), st_ino=1083, st_mode=S_IFREG|0400, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-03:19:46.643999996, st_mtime=2017/11/26-03:19:46.643999996, st_ctime=2017/11/26-03:19:46.643999996}) = 0
+1619 , 13980 , 13980 , xrdp-sesman , read(11</proc/1/environ>, "HOME=/\0init=/sbin/init\0recovery=\0TERM=linux\0drop_caps=\0BOOT_IMAGE=/boot/vmlinuz-4.4.0-101-generic\0PATH=/sbin:/usr/sbin:/bin:/usr/bin\0PWD=/\0rootmnt=/root\0", 1024) = 153
+1620 , 13980 , 13980 , xrdp-sesman , read(11</proc/1/environ>, "", 1024) = 0
+1621 , 13980 , 13980 , xrdp-sesman , close(11</proc/1/environ>) = 0
+1622 , 13980 , 13980 , xrdp-sesman , open("/proc/cmdline", O_RDONLY|O_CLOEXEC) = 11</proc/cmdline>
+1623 , 13980 , 13980 , xrdp-sesman , fstat(11</proc/cmdline>, {st_dev=makedev(0, 4), st_ino=4026531983, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-03:40:31.860121140, st_mtime=2017/11/26-03:40:31.860121140, st_ctime=2017/11/26-03:40:31.860121140}) = 0
+1624 , 13980 , 13980 , xrdp-sesman , read(11</proc/cmdline>, "BOOT_IMAGE=/boot/vmlinuz-4.4.0-101-generic root=UUID=4b5d7bc0-be20-4c49-87b5-ca315d031014 ro quiet splash\n", 1024) = 106
+1625 , 13980 , 13980 , xrdp-sesman , close(11</proc/cmdline>) = 0
+1626 , 13980 , 13980 , xrdp-sesman , access("/etc/initrd-release", F_OK) = -1 ENOENT (No such file or directory)
+1627 , 13980 , 13980 , xrdp-sesman , open("/proc/cmdline", O_RDONLY|O_CLOEXEC) = 11</proc/cmdline>
+1628 , 13980 , 13980 , xrdp-sesman , fstat(11</proc/cmdline>, {st_dev=makedev(0, 4), st_ino=4026531983, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-03:40:31.864120566, st_mtime=2017/11/26-03:40:31.864120566, st_ctime=2017/11/26-03:40:31.864120566}) = 0
+1629 , 13980 , 13980 , xrdp-sesman , read(11</proc/cmdline>, "BOOT_IMAGE=/boot/vmlinuz-4.4.0-101-generic root=UUID=4b5d7bc0-be20-4c49-87b5-ca315d031014 ro quiet splash\n", 1024) = 106
+1630 , 13980 , 13980 , xrdp-sesman , close(11</proc/cmdline>) = 0
+1631 , 13980 , 13980 , xrdp-sesman , open("/sys/fs/kdbus/control", O_RDWR|O_NOCTTY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1632 , 13980 , 13980 , xrdp-sesman , access("/run/user/1000/bus", F_OK) = -1 ENOENT (No such file or directory)
+1633 , 13980 , 13980 , xrdp-sesman , fcntl(10</run/systemd/sessions/c1.ref>, F_DUPFD_CLOEXEC, 3) = 11</run/systemd/sessions/c1.ref>
+1634 , 13980 , 13980 , xrdp-sesman , close(9<UNIX:[31944->31212]>) = 0
+1635 , 13980 , 13980 , xrdp-sesman , close(10</run/systemd/sessions/c1.ref>) = 0
+1636 , 13980 , 13980 , xrdp-sesman , socket(PF_NETLINK, SOCK_RAW, NETLINK_AUDIT) = 9<NETLINK:[31948]>
+1637 , 13980 , 13980 , xrdp-sesman , fcntl(9<NETLINK:[31948]>, F_SETFD, FD_CLOEXEC) = 0
+1638 , 13980 , 13980 , xrdp-sesman , sendto(9<NETLINK:[31948]>, "x\0\0\0Q\4\5\0\4\0\0\0\0\0\0\0op=PAM:session_open acct=\"elwin\" exe=\"/usr/sbin/xrdp-sesman\" hostname=? addr=? terminal=:10 res=success\0", 120, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 120
+1639 , 13980 , 13980 , xrdp-sesman , poll([{fd=9<NETLINK:[31948]>, events=POLLIN}], 1, 500) = 1 ([{fd=9, revents=POLLIN}])
+1640 , 13980 , 13980 , xrdp-sesman , recvfrom(9<NETLINK:[31948]>, "$\0\0\0\2\0\0\0\4\0\0\0\2346\0\0\0\0\0\0x\0\0\0Q\4\5\0\4\0\0\0\0\0\0\0", 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+1641 , 13980 , 13980 , xrdp-sesman , recvfrom(9<NETLINK:[31948]>, "$\0\0\0\2\0\0\0\4\0\0\0\2346\0\0\0\0\0\0x\0\0\0Q\4\5\0\4\0\0\0\0\0\0\0", 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+1642 , 13980 , 13980 , xrdp-sesman , close(9<NETLINK:[31948]>) = 0
+1643 , 13980 , 13980 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7efdcb3569d0) = 13994
+1645 , 13980 , 13980 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7efdcb3569d0) = 13995
+1648 , 13980 , 13980 , xrdp-sesman , access("/tmp/.X11-unix/X10", F_OK) = -1 ENOENT (No such file or directory)
+1652 , 13980 , 13980 , xrdp-sesman , access("/tmp/.X10-lock", F_OK) = -1 ENOENT (No such file or directory)
+1654 , 13980 , 13980 , xrdp-sesman , nanosleep({0, 250000000}, NULL) = 0
+1828 , 13980 , 13980 , xrdp-sesman , access("/tmp/.X11-unix/X10", F_OK) = 0
+1856 , 13980 , 13980 , xrdp-sesman , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+1857 , 13980 , 13980 , xrdp-sesman , write(3</var/log/xrdp-sesman.log>, "[20171126-03:40:32] [INFO ] starting xrdp-sessvc - xpid=13995 - wmpid=13994\n", 76) = 76
+1862 , 13980 , 13980 , xrdp-sesman , rmdir("/tmp/.xrdp/xrdp-sesman-0xYOP4") = 0
+1864 , 13980 , 13980 , xrdp-sesman , execve("/usr/sbin/xrdp-sessvc", ["/usr/sbin/xrdp-sessvc", "13995", "13994"], ["PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin", "LANG=en_US.UTF-8", "_SYSTEMCTL_SKIP_REDIRECT=true", "PWD=/", "XRDP_SESSVC_DISPLAY=10", "DISPLAY=:10.0"]) = 0
+1889 , 13980 , 13980 , xrdp-sessvc , brk(NULL) = 0xfb1000
+1892 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1895 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f358071f000
+1899 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1902 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/tls/x86_64/libcommon.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1906 , 13980 , 13980 , xrdp-sessvc , stat("/usr/lib/xrdp/tls/x86_64", 0x7ffca647e240) = -1 ENOENT (No such file or directory)
+1909 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/tls/libcommon.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1912 , 13980 , 13980 , xrdp-sessvc , stat("/usr/lib/xrdp/tls", 0x7ffca647e240) = -1 ENOENT (No such file or directory)
+1919 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/x86_64/libcommon.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1922 , 13980 , 13980 , xrdp-sessvc , stat("/usr/lib/xrdp/x86_64", 0x7ffca647e240) = -1 ENOENT (No such file or directory)
+1926 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libcommon.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/xrdp/libcommon.so.0.0.0>
+1929 , 13980 , 13980 , xrdp-sessvc , read(8</usr/lib/xrdp/libcommon.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300L\0\0\0\0\0\0@\0\0\0\0\0\0\0P\325\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\314\0\0\0\0\0\0\344\314\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\315\0\0\0\0\0\0\250\315 \0\0\0\0\0\250\315 \0\0\0\0\0\210\6\0\0\0\0\0\0\330\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\315\0\0\0\0\0\0\300\315 \0\0\0\0\0"..., 832) = 832
+1932 , 13980 , 13980 , xrdp-sessvc , fstat(8</usr/lib/xrdp/libcommon.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4461262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=112, st_size=56272, st_atime=2017/11/26-03:22:48.801412063, st_mtime=2014/10/25-20:14:35, st_ctime=2016/12/08-03:40:17.022040678}) = 0
+1935 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 2152064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/xrdp/libcommon.so.0.0.0>, 0) = 0x7f35802ee000
+1938 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f35802fb000, 2093056, PROT_NONE) = 0
+1941 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f35804fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/xrdp/libcommon.so.0.0.0>, 0xc000) = 0x7f35804fa000
+1944 , 13980 , 13980 , xrdp-sessvc , close(8</usr/lib/xrdp/libcommon.so.0.0.0>) = 0
+1945 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1948 , 13980 , 13980 , xrdp-sessvc , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+1950 , 13980 , 13980 , xrdp-sessvc , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133816, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129302, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/11/23-00:52:24.619138953, st_ctime=2017/11/23-00:52:24.623139102}) = 0
+1952 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 129302, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f35806ff000
+1954 , 13980 , 13980 , xrdp-sessvc , close(8</etc/ld.so.cache>) = 0
+1956 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1959 , 13980 , 13980 , xrdp-sessvc , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+1960 , 13980 , 13980 , xrdp-sessvc , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+1962 , 13980 , 13980 , xrdp-sessvc , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+1964 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f357ff24000
+1966 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f35800e4000, 2097152, PROT_NONE) = 0
+1968 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f35802e4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f35802e4000
+1970 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f35802ea000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35802ea000
+1972 , 13980 , 13980 , xrdp-sessvc , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+1975 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1977 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1980 , 13980 , 13980 , xrdp-sessvc , open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>
+1982 , 13980 , 13980 , xrdp-sessvc , read(8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\6\0\0\0\0\0@\0\0\0\0\0\0\0\300\2$\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214\224!\0\0\0\0\0\214\224!\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\232!\0\0\0\0\0\210\232A\0\0\0\0\0\210\232A\0\0\0\0\0\371f\2\0\0\0\0\0\370\240\2\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220I#\0\0\0\0\0\220IC\0\0\0\0\0"..., 832) = 832
+1984 , 13980 , 13980 , xrdp-sessvc , fstat(8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4981731, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=4616, st_size=2361856, st_atime=2017/11/25-09:35:00.488676675, st_mtime=2017/11/02-13:19:32, st_ctime=2017/11/12-08:12:24.223221431}) = 0
+1986 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35806fe000
+1988 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4471680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>, 0) = 0x7f357fae0000
+1990 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357fcfa000, 2093056, PROT_NONE) = 0
+1992 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357fef9000, 163840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>, 0x219000) = 0x7f357fef9000
+1993 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357ff21000, 11136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f357ff21000
+1995 , 13980 , 13980 , xrdp-sessvc , close(8</lib/x86_64-linux-gnu/libcrypto.so.1.0.0>) = 0
+1997 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1999 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2001 , 13980 , 13980 , xrdp-sessvc , open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libssl.so.1.0.0>
+2003 , 13980 , 13980 , xrdp-sessvc , read(8</lib/x86_64-linux-gnu/libssl.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320^\1\0\0\0\0\0@\0\0\0\0\0\0\0 \202\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\337\5\0\0\0\0\0\264\337\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\343\5\0\0\0\0\0\350\343%\0\0\0\0\0\350\343%\0\0\0\0\0\370\234\0\0\0\0\0\0\350\235\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\35\6\0\0\0\0\0\200\35&\0\0\0\0\0"..., 832) = 832
+2005 , 13980 , 13980 , xrdp-sessvc , fstat(8</lib/x86_64-linux-gnu/libssl.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4981729, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=840, st_size=428384, st_atime=2017/11/25-09:35:00.544676564, st_mtime=2017/11/02-13:19:32, st_ctime=2017/11/12-08:12:24.223221431}) = 0
+2007 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 2523600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libssl.so.1.0.0>, 0) = 0x7f357f877000
+2010 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357f8d5000, 2097152, PROT_NONE) = 0
+2012 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357fad5000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libssl.so.1.0.0>, 0x5e000) = 0x7f357fad5000
+2014 , 13980 , 13980 , xrdp-sessvc , close(8</lib/x86_64-linux-gnu/libssl.so.1.0.0>) = 0
+2016 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+2018 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2019 , 13980 , 13980 , xrdp-sessvc , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+2020 , 13980 , 13980 , xrdp-sessvc , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2021 , 13980 , 13980 , xrdp-sessvc , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+2022 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f357f65a000
+2023 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357f672000, 2093056, PROT_NONE) = 0
+2024 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357f871000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f357f871000
+2025 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357f873000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f357f873000
+2026 , 13980 , 13980 , xrdp-sessvc , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+2027 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/xrdp/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+2028 , 13980 , 13980 , xrdp-sessvc , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2029 , 13980 , 13980 , xrdp-sessvc , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+2030 , 13980 , 13980 , xrdp-sessvc , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+2031 , 13980 , 13980 , xrdp-sessvc , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+2032 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35806fd000
+2033 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f357f456000
+2034 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357f459000, 2093056, PROT_NONE) = 0
+2035 , 13980 , 13980 , xrdp-sessvc , mmap(0x7f357f658000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f357f658000
+2037 , 13980 , 13980 , xrdp-sessvc , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+2039 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35806fc000
+2041 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35806fb000
+2044 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35806fa000
+2046 , 13980 , 13980 , xrdp-sessvc , arch_prctl(ARCH_SET_FS, 0x7f35806fb700) = 0
+2048 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f35802e4000, 16384, PROT_READ) = 0
+2051 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357f658000, 4096, PROT_READ) = 0
+2053 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357f871000, 4096, PROT_READ) = 0
+2054 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357fef9000, 114688, PROT_READ) = 0
+2055 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f357fad5000, 16384, PROT_READ) = 0
+2056 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f35804fa000, 4096, PROT_READ) = 0
+2057 , 13980 , 13980 , xrdp-sessvc , mprotect(0x601000, 4096, PROT_READ) = 0
+2058 , 13980 , 13980 , xrdp-sessvc , mprotect(0x7f3580721000, 4096, PROT_READ) = 0
+2059 , 13980 , 13980 , xrdp-sessvc , munmap(0x7f35806ff000, 129302) = 0
+2060 , 13980 , 13980 , xrdp-sessvc , set_tid_address(0x7f35806fb9d0) = 13980
+2061 , 13980 , 13980 , xrdp-sessvc , set_robust_list(0x7f35806fb9e0, 24) = 0
+2062 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGRTMIN, {0x7f357f65fb50, [], SA_RESTORER|SA_SIGINFO, 0x7f357f66b390}, NULL, 8) = 0
+2063 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGRT_1, {0x7f357f65fbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f357f66b390}, NULL, 8) = 0
+2064 , 13980 , 13980 , xrdp-sessvc , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+2065 , 13980 , 13980 , xrdp-sessvc , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+2066 , 13980 , 13980 , xrdp-sessvc , brk(NULL) = 0xfb1000
+2067 , 13980 , 13980 , xrdp-sessvc , brk(0xfd2000) = 0xfd2000
+2068 , 13980 , 13980 , xrdp-sessvc , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+2069 , 13980 , 13980 , xrdp-sessvc , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+2070 , 13980 , 13980 , xrdp-sessvc , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f357f17e000
+2071 , 13980 , 13980 , xrdp-sessvc , close(8</usr/lib/locale/locale-archive>) = 0
+2072 , 13980 , 13980 , xrdp-sessvc , stat("/tmp/.xrdp", {st_dev=makedev(8, 1), st_ino=3543702, st_mode=S_IFDIR|S_ISVTX|0777, st_nlink=4, st_uid=122, st_gid=131, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:22:48.805377509, st_mtime=2017/11/26-03:40:32.132082134, st_ctime=2017/11/26-03:40:32.132082134}) = 0
+2073 , 13980 , 13980 , xrdp-sessvc , mkdir("/tmp/.xrdp/xrdp-sessvc-dKe0bK", 0700) = 0
+2074 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGKILL, {0x400f10, [KILL], SA_RESTORER|SA_RESTART, 0x7f357ff594b0}, 0x7ffca647e7c0, 8) = -1 EINVAL (Invalid argument)
+2075 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGTERM, {0x400f10, [TERM], SA_RESTORER|SA_RESTART, 0x7f357ff594b0}, {SIG_DFL, [], 0}, 8) = 0
+2076 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGINT, {0x400f10, [INT], SA_RESTORER|SA_RESTART, 0x7f357ff594b0}, {SIG_DFL, [], 0}, 8) = 0
+2077 , 13980 , 13980 , xrdp-sessvc , rt_sigaction(SIGPIPE, {0x400f40, [PIPE], SA_RESTORER|SA_RESTART, 0x7f357ff594b0}, {SIG_DFL, [], 0}, 8) = 0
+2078 , 13980 , 13980 , xrdp-sessvc , fstat(1</dev/null>, {st_dev=makedev(0, 6), st_ino=6, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2017/11/26-03:20:03.407999619, st_mtime=2017/11/26-03:20:03.407999619, st_ctime=2017/11/26-03:20:03.407999619}) = 0
+2079 , 13980 , 13980 , xrdp-sessvc , ioctl(1</dev/null>, TCGETS, 0x7ffca647e180) = -1 ENOTTY (Inappropriate ioctl for device)
+2080 , 13980 , 13980 , xrdp-sessvc , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f35806fb9d0) = 13996
+2082 , 13980 , 13980 , xrdp-sessvc , wait4(13994, NULL, 0, NULL) = 13994
+41189 , 13980 , 13980 , xrdp-sessvc , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13994, si_uid=1000, si_status=1, si_utime=0, si_stime=11} ---
+41191 , 13980 , 13980 , xrdp-sessvc , kill(13996, SIGTERM) = 0
+41195 , 13980 , 13980 , xrdp-sessvc , wait4(13996, NULL, 0, NULL) = 13996
+41257 , 13980 , 13980 , xrdp-sessvc , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13996, si_uid=0, si_status=0, si_utime=0, si_stime=1} ---
+41258 , 13980 , 13980 , xrdp-sessvc , access("/tmp/.xrdp/xrdp_chansrv_000036ac_main_term", F_OK) = -1 ENOENT (No such file or directory)
+41259 , 13980 , 13980 , xrdp-sessvc , access("/tmp/.xrdp/xrdp_chansrv_000036ac_thread_done", F_OK) = -1 ENOENT (No such file or directory)
+41260 , 13980 , 13980 , xrdp-sessvc , kill(13995, SIGTERM) = 0
+41262 , 13980 , 13980 , xrdp-sessvc , wait4(13995, NULL, 0, NULL) = 13995
+41607 , 13980 , 13980 , xrdp-sessvc , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13995, si_uid=1000, si_status=0, si_utime=0, si_stime=11} ---
+41609 , 13980 , 13980 , xrdp-sessvc , rmdir("/tmp/.xrdp/xrdp-sessvc-dKe0bK") = 0
+41614 , 13980 , 13980 , xrdp-sessvc , write(1</dev/null>, "xrdp-sessvc: waiting for X (pid 13995) and WM (pid 13994)\nxrdp-sessvc: WM is dead (waitpid said 13994, errno is 0) exiting...\nxrdp-sessvc: stopping channel server\nxrdp-sessvc: stopping X server\nxrdp-s"..., 218) = 218
+41618 , 13980 , 13980 , xrdp-sessvc , exit_group(0) = ?
+41623 , 13980 , 13980 , xrdp-sessvc , +++ exited with 0 +++

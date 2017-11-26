@@ -1,0 +1,44 @@
+335 , 55584 , 55584 , startx , close(10</usr/bin/startx>) = 0
+336 , 55584 , 55584 , startx , execve("/bin/hostname", ["hostname", "--version"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "HOME=/home/elwin", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SHELL=/bin/bash", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data"]) = 0
+337 , 55584 , 55584 , hostname , brk(NULL) = 0xc38000
+338 , 55584 , 55584 , hostname , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+339 , 55584 , 55584 , hostname , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0599000
+340 , 55584 , 55584 , hostname , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+341 , 55584 , 55584 , hostname , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+342 , 55584 , 55584 , hostname , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+343 , 55584 , 55584 , hostname , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7fc5b0579000
+344 , 55584 , 55584 , hostname , close(4</etc/ld.so.cache>) = 0
+345 , 55584 , 55584 , hostname , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+346 , 55584 , 55584 , hostname , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libnsl-2.23.so>
+347 , 55584 , 55584 , hostname , read(4</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+348 , 55584 , 55584 , hostname , fstat(4</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+349 , 55584 , 55584 , hostname , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fc5b015d000
+350 , 55584 , 55584 , hostname , mprotect(0x7fc5b0173000, 2093056, PROT_NONE) = 0
+351 , 55584 , 55584 , hostname , mmap(0x7fc5b0372000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fc5b0372000
+352 , 55584 , 55584 , hostname , mmap(0x7fc5b0374000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0374000
+353 , 55584 , 55584 , hostname , close(4</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+354 , 55584 , 55584 , hostname , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+355 , 55584 , 55584 , hostname , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+356 , 55584 , 55584 , hostname , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+357 , 55584 , 55584 , hostname , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+358 , 55584 , 55584 , hostname , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fc5afd93000
+359 , 55584 , 55584 , hostname , mprotect(0x7fc5aff53000, 2097152, PROT_NONE) = 0
+360 , 55584 , 55584 , hostname , mmap(0x7fc5b0153000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fc5b0153000
+361 , 55584 , 55584 , hostname , mmap(0x7fc5b0159000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0159000
+362 , 55584 , 55584 , hostname , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+363 , 55584 , 55584 , hostname , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0578000
+364 , 55584 , 55584 , hostname , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0577000
+365 , 55584 , 55584 , hostname , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0576000
+366 , 55584 , 55584 , hostname , arch_prctl(ARCH_SET_FS, 0x7fc5b0577700) = 0
+367 , 55584 , 55584 , hostname , mprotect(0x7fc5b0153000, 16384, PROT_READ) = 0
+368 , 55584 , 55584 , hostname , mprotect(0x7fc5b0372000, 4096, PROT_READ) = 0
+369 , 55584 , 55584 , hostname , mprotect(0x602000, 4096, PROT_READ) = 0
+370 , 55584 , 55584 , hostname , mprotect(0x7fc5b059b000, 4096, PROT_READ) = 0
+371 , 55584 , 55584 , hostname , munmap(0x7fc5b0579000, 129890) = 0
+372 , 55584 , 55584 , hostname , fstat(1</dev/null>, {st_dev=makedev(0, 6), st_ino=6, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2017/11/26-03:20:03.407999619, st_mtime=2017/11/26-03:20:03.407999619, st_ctime=2017/11/26-03:20:03.407999619}) = 0
+373 , 55584 , 55584 , hostname , ioctl(1</dev/null>, TCGETS, 0x7ffe18ec99c0) = -1 ENOTTY (Inappropriate ioctl for device)
+374 , 55584 , 55584 , hostname , brk(NULL) = 0xc38000
+375 , 55584 , 55584 , hostname , brk(0xc5a000) = 0xc5a000
+376 , 55584 , 55584 , hostname , write(1</dev/null>, "hostname 3.16\n", 14) = 14
+377 , 55584 , 55584 , hostname , exit_group(0) = ?
+378 , 55584 , -1 , NULL , +++ exited with 0 +++

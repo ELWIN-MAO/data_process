@@ -1,0 +1,19 @@
+35904 , 47187 , 47184 , at-spi-bus-laun , set_robust_list(0x7f4e272df9e0, 24) = 0
+35906 , 47187 , 47184 , at-spi-bus-laun , prctl(PR_SET_NAME, "dconf worker\0\177\0\0") = 0
+35908 , 47187 , 47184 , dconf worker , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f4e18000000
+35909 , 47187 , 47184 , dconf worker , munmap(0x7f4e1c000000, 67108864) = 0
+35911 , 47187 , 47184 , dconf worker , mprotect(0x7f4e18000000, 139264, PROT_READ|PROT_WRITE) = 0
+35913 , 47187 , 47184 , dconf worker , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=4, revents=POLLIN}])
+35915 , 47187 , 47184 , dconf worker , futex(0x7f4e2d6115d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+35917 , 47187 , 47184 , dconf worker , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+35920 , 47187 , 47184 , dconf worker , futex(0x1d6ba10, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+35922 , 47187 , 47184 , dconf worker , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+35925 , 47187 , 47184 , dconf worker , futex(0x1d6ba10, FUTEX_WAKE_PRIVATE, 1) = 1
+35928 , 47187 , 47184 , dconf worker , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=4, revents=POLLIN}])
+35931 , 47187 , 47184 , dconf worker , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+35934 , 47187 , 47184 , dconf worker , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 24995) = 1 ([{fd=4, revents=POLLIN}])
+35976 , 47187 , 47184 , dconf worker , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+35979 , 47187 , 47184 , dconf worker , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, 24993) = 1 ([{fd=4, revents=POLLIN}])
+35996 , 47187 , 47184 , dconf worker , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+35998 , 47187 , 47184 , dconf worker , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}], 1, -1 <unfinished ...>
+41715 , 47187 , -1 , NULL , +++ exited with 0 +++

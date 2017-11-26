@@ -1,0 +1,42 @@
+169545 , 55930 , 55725 , indicator-datet , set_robust_list(0x7f5c42ffd9e0, 24) = 0
+169547 , 55930 , 55725 , indicator-datet , futex(0x7f5c6973d408, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+169549 , 55930 , 55725 , indicator-datet , futex(0x7f5c6973d408, FUTEX_WAKE_PRIVATE, 1) = 1
+169642 , 55930 , 55725 , indicator-datet , prctl(PR_SET_NAME, "pool\0\0\0\0\0\0\0\0\0\0\0\0") = 0
+169643 , 55930 , 55725 , pool , mmap(0x7f5c20000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5c20000000
+169644 , 55930 , 55725 , pool , mprotect(0x7f5c20000000, 139264, PROT_READ|PROT_WRITE) = 0
+169645 , 55930 , 55725 , pool , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 20<anon_inode:[eventfd]>
+169646 , 55930 , 55725 , pool , write(20<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+169647 , 55930 , 55725 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+169648 , 55930 , 55725 , pool , poll([{fd=20<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=20, revents=POLLIN}])
+169649 , 55930 , 55725 , pool , poll([{fd=20<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=20, revents=POLLIN}])
+169650 , 55930 , 55725 , pool , read(20<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+169651 , 55930 , 55725 , pool , poll([{fd=20<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=20, revents=POLLIN}])
+171728 , 55930 , 55725 , pool , futex(0x7f5c20002c00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+171732 , 55930 , 55725 , pool , read(20<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171733 , 55930 , 55725 , pool , futex(0x7f5c20002c00, FUTEX_WAKE_PRIVATE, 1) = 0
+171734 , 55930 , 55725 , pool , write(20<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+171735 , 55930 , 55725 , pool , futex(0x7f5c20002c10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+171736 , 55930 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+171737 , 55930 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+171738 , 55930 , 55725 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+171739 , 55930 , 55725 , pool , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 17<anon_inode:[eventfd]>
+171740 , 55930 , 55725 , pool , write(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+171741 , 55930 , 55725 , pool , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+172772 , 55930 , 55725 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+172773 , 55930 , 55725 , pool , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+172774 , 55930 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+172775 , 55930 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+172776 , 55930 , 55725 , pool , read(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+172777 , 55930 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+173837 , 55930 , 55725 , pool , futex(0x7f5c20009350, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+173840 , 55930 , 55725 , pool , read(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+173841 , 55930 , 55725 , pool , futex(0x7f5c20009350, FUTEX_WAKE_PRIVATE, 1) = 0
+173842 , 55930 , 55725 , pool , write(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+173843 , 55930 , 55725 , pool , futex(0x7f5c20009360, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+173844 , 55930 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+173845 , 55930 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+173846 , 55930 , 55725 , pool , futex(0x244d330, FUTEX_WAIT_PRIVATE, 3, {0, 499999618}) = -1 ETIMEDOUT (Connection timed out)
+176851 , 55930 , 55725 , pool , madvise(0x7f5c427fd000, 8368128, MADV_DONTNEED) = 0
+176852 , 55930 , 55725 , pool , munmap(0x7f5c2e7fd000, 8392704) = 0
+176853 , 55930 , 55725 , pool , exit(0) = ?
+176854 , 55930 , -1 , NULL , +++ exited with 0 +++

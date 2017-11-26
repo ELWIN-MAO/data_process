@@ -1,0 +1,1321 @@
+56849 , 55741 , 55741 , gnome-session-b , set_robust_list(0x7fc823a45d60, 24) = 0
+56850 , 55741 , 55741 , gnome-session-b , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+56851 , 55741 , 55741 , gnome-session-b , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+56852 , 55741 , 55741 , gnome-session-b , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+56853 , 55741 , 55741 , gnome-session-b , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_DFL, [], 0}, 8) = 0
+56854 , 55741 , 55741 , gnome-session-b , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, 8) = 0
+56855 , 55741 , 55741 , gnome-session-b , close(15<pipe:[478753]>) = 0
+56856 , 55741 , 55741 , gnome-session-b , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 15</proc/55741/fd>
+56857 , 55741 , 55741 , gnome-session-b , fstat(15</proc/55741/fd>, {st_dev=makedev(0, 4), st_ino=478756, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:20.503618129, st_mtime=2017/11/26-08:16:20.503618129, st_ctime=2017/11/26-08:16:20.503618129}) = 0
+56858 , 55741 , 55741 , gnome-session-b , getdents(15</proc/55741/fd>, [{d_ino=478756, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=478755, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=478758, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=478759, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=478760, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=478761, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=478762, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=478763, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=478764, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=478765, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=478766, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=478767, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=478768, d_off=13, d_reclen=24, d_name="10", d_type=DT_LNK}, {d_ino=478769, d_off=14, d_reclen=24, d_name="11", d_type=DT_LNK}, {d_ino=478770, d_off=15, d_reclen=24, d_name="12", d_type=DT_LNK}, {d_ino=478771, d_off=16, d_reclen=24, d_name="13", d_type=DT_LNK}, {d_ino=478772, d_off=17, d_reclen=24, d_name="14", d_type=DT_LNK}, {d_ino=478757, d_off=18, d_reclen=24, d_name="15", d_type=DT_LNK}, {d_ino=478773, d_off=66, d_reclen=24, d_name="16", d_type=DT_LNK}], 32768) = 456
+56859 , 55741 , 55741 , gnome-session-b , fcntl(3</dev/pid2task>, F_SETFD, FD_CLOEXEC) = 0
+56860 , 55741 , 55741 , gnome-session-b , fcntl(4<UNIX:[465235->465238]>, F_SETFD, FD_CLOEXEC) = 0
+56861 , 55741 , 55741 , gnome-session-b , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+56862 , 55741 , 55741 , gnome-session-b , fcntl(6<UNIX:[465115->465121]>, F_SETFD, FD_CLOEXEC) = 0
+56863 , 55741 , 55741 , gnome-session-b , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+56864 , 55741 , 55741 , gnome-session-b , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+56865 , 55741 , 55741 , gnome-session-b , fcntl(9<UNIX:[471861->465826]>, F_SETFD, FD_CLOEXEC) = 0
+56866 , 55741 , 55741 , gnome-session-b , fcntl(10<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+56867 , 55741 , 55741 , gnome-session-b , fcntl(11<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+56868 , 55741 , 55741 , gnome-session-b , fcntl(12<UNIX:[474331,@"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+56869 , 55741 , 55741 , gnome-session-b , fcntl(13<UNIX:[474336,"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+56870 , 55741 , 55741 , gnome-session-b , fcntl(14<UNIX:[475613->1478]>, F_SETFD, FD_CLOEXEC) = 0
+56871 , 55741 , 55741 , gnome-session-b , fcntl(16<pipe:[478753]>, F_SETFD, FD_CLOEXEC) = 0
+56872 , 55741 , 55741 , gnome-session-b , getdents(15</proc/55741/fd>, [], 32768) = 0
+56873 , 55741 , 55741 , gnome-session-b , close(15</proc/55741/fd>) = 0
+56874 , 55741 , 55741 , gnome-session-b , open("/dev/null", O_RDONLY) = 15</dev/null>
+56875 , 55741 , 55741 , gnome-session-b , dup2(15</dev/null>, 0</dev/tty1>) = 0</dev/null>
+56876 , 55741 , 55741 , gnome-session-b , close(15</dev/null>) = 0
+56877 , 55741 , 55741 , gnome-session-b , execve("/usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service", ["/usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "XDG_CURRENT_DESKTOP=GNOME", "QT_IM_MODULE=ibus", "XMODIFIERS=@im=ibus", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "XDG_MENU_PREFIX=gnome-", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "DESKTOP_AUTOSTART_ID=10429ce9d5a07de939151170217842795300000556040006", "GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/indicator-messages.desktop", "GIO_LAUNCHED_DESKTOP_FILE_PID=55741"]) = 0
+57047 , 55741 , 55741 , indicator-messa , brk(NULL) = 0x21c2000
+57048 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57049 , 55741 , 55741 , indicator-messa , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b77a5000
+57050 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+57051 , 55741 , 55741 , indicator-messa , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+57052 , 55741 , 55741 , indicator-messa , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+57053 , 55741 , 55741 , indicator-messa , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fc3b7785000
+57054 , 55741 , 55741 , indicator-messa , close(3</etc/ld.so.cache>) = 0
+57055 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57056 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+57057 , 55741 , 55741 , indicator-messa , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+57058 , 55741 , 55741 , indicator-messa , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+57059 , 55741 , 55741 , indicator-messa , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7fc3b71fa000
+57060 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b737a000, 2097152, PROT_NONE) = 0
+57061 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b757a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7fc3b757a000
+57062 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b7580000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7580000
+57063 , 55741 , 55741 , indicator-messa , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+57064 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57065 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+57066 , 55741 , 55741 , indicator-messa , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+57067 , 55741 , 55741 , indicator-messa , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+57068 , 55741 , 55741 , indicator-messa , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7fc3b6fa7000
+57069 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6ff9000, 2093056, PROT_NONE) = 0
+57070 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b71f8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7fc3b71f8000
+57071 , 55741 , 55741 , indicator-messa , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+57072 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57073 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+57074 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+57075 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+57076 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7784000
+57077 , 55741 , 55741 , indicator-messa , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7fc3b6c96000
+57078 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6da4000, 2097152, PROT_NONE) = 0
+57079 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6fa4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7fc3b6fa4000
+57080 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6fa6000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b6fa6000
+57081 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+57082 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57083 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libaccountsservice.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>
+57084 , 55741 , 55741 , indicator-messa , read(3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2408\1\0\0\0\0\0@\0\0\0\0\0\0\0\10x\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\17\4\0\0\0\0\0\24\17\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\35\4\0\0\0\0\0\210\35$\0\0\0\0\0\210\35$\0\0\0\0\0PY\0\0\0\0\0\0\370Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0hm\4\0\0\0\0\0hm$\0\0\0\0\0"..., 832) = 832
+57379 , 55741 , 55741 , indicator-messa , fstat(3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465293, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=576, st_size=294664, st_atime=2017/11/26-03:14:11.387365951, st_mtime=2016/04/19-05:33:28, st_ctime=2016/11/03-10:38:38.827999888}) = 0
+57380 , 55741 , 55741 , indicator-messa , mmap(NULL, 2390144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>, 0) = 0x7fc3b6a4e000
+57381 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6a8f000, 2097152, PROT_NONE) = 0
+57382 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6c8f000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>, 0x41000) = 0x7fc3b6c8f000
+58209 , 55741 , 55741 , indicator-messa , close(3</usr/lib/x86_64-linux-gnu/libaccountsservice.so.0.0.0>) = 0
+58261 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58262 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+58263 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+58264 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+58265 , 55741 , 55741 , indicator-messa , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fc3b6831000
+58266 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6849000, 2093056, PROT_NONE) = 0
+58267 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6a48000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fc3b6a48000
+58268 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6a4a000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b6a4a000
+58269 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+58270 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58271 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+58272 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+58273 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+58274 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7783000
+58275 , 55741 , 55741 , indicator-messa , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fc3b6467000
+58276 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6627000, 2097152, PROT_NONE) = 0
+58277 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6827000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fc3b6827000
+58278 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b682d000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b682d000
+58279 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+58280 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58281 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+58282 , 55741 , 55741 , indicator-messa , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+58283 , 55741 , 55741 , indicator-messa , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+58284 , 55741 , 55741 , indicator-messa , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7fc3b6263000
+58285 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6266000, 2093056, PROT_NONE) = 0
+58286 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6465000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7fc3b6465000
+58287 , 55741 , 55741 , indicator-messa , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+58288 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58289 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+58290 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+58291 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+58292 , 55741 , 55741 , indicator-messa , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7fc3b6049000
+58293 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6062000, 2093056, PROT_NONE) = 0
+58294 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6261000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7fc3b6261000
+58295 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+58296 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58297 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+58298 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+58299 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+58300 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7782000
+58301 , 55741 , 55741 , indicator-messa , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fc3b5e27000
+58302 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5e46000, 2093056, PROT_NONE) = 0
+58303 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6045000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fc3b6045000
+58304 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b6047000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b6047000
+58305 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+58306 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58307 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+58308 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+58309 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+58310 , 55741 , 55741 , indicator-messa , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7fc3b5c0c000
+58311 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5c23000, 2097152, PROT_NONE) = 0
+58312 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5e23000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7fc3b5e23000
+58313 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5e25000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b5e25000
+58314 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+58315 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58316 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+58317 , 55741 , 55741 , indicator-messa , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+58318 , 55741 , 55741 , indicator-messa , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+58319 , 55741 , 55741 , indicator-messa , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7fc3b5a04000
+58320 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5a0b000, 2093056, PROT_NONE) = 0
+58321 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5c0a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7fc3b5c0a000
+58322 , 55741 , 55741 , indicator-messa , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+58323 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58324 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+58325 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+58326 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+58327 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7781000
+58328 , 55741 , 55741 , indicator-messa , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fc3b5794000
+58329 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5802000, 2097152, PROT_NONE) = 0
+58330 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5a02000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fc3b5a02000
+58331 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+58332 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58333 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libcrypt-2.23.so>
+58334 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libcrypt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\v\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\221\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\207\0\0\0\0\0\0(\207\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\230\215\0\0\0\0\0\0\230\215 \0\0\0\0\0\230\215 \0\0\0\0\0\370\2\0\0\0\0\0\0H\344\2\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260\215\0\0\0\0\0\0\260\215 \0\0\0\0\0"..., 832) = 832
+58335 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libcrypt-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997533, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39224, st_atime=2017/11/25-09:34:42.812711896, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+58336 , 55741 , 55741 , indicator-messa , mmap(NULL, 2322912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcrypt-2.23.so>, 0) = 0x7fc3b555c000
+58337 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5565000, 2093056, PROT_NONE) = 0
+58338 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5764000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libcrypt-2.23.so>, 0x8000) = 0x7fc3b5764000
+58339 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b5766000, 184800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3b5766000
+58340 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libcrypt-2.23.so>) = 0
+58341 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+58342 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+58343 , 55741 , 55741 , indicator-messa , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+58344 , 55741 , 55741 , indicator-messa , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+58345 , 55741 , 55741 , indicator-messa , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fc3b5358000
+58346 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b535b000, 2093056, PROT_NONE) = 0
+58347 , 55741 , 55741 , indicator-messa , mmap(0x7fc3b555a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fc3b555a000
+58348 , 55741 , 55741 , indicator-messa , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+58349 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b7780000
+58350 , 55741 , 55741 , indicator-messa , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b777f000
+58351 , 55741 , 55741 , indicator-messa , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3b777d000
+58352 , 55741 , 55741 , indicator-messa , arch_prctl(ARCH_SET_FS, 0x7fc3b777d800) = 0
+58353 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6827000, 16384, PROT_READ) = 0
+58354 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b555a000, 4096, PROT_READ) = 0
+58355 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5764000, 4096, PROT_READ) = 0
+58356 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6a48000, 4096, PROT_READ) = 0
+58357 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5a02000, 4096, PROT_READ) = 0
+58358 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5c0a000, 4096, PROT_READ) = 0
+58359 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b5e23000, 4096, PROT_READ) = 0
+58360 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6045000, 4096, PROT_READ) = 0
+58361 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6261000, 4096, PROT_READ) = 0
+58362 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6fa4000, 4096, PROT_READ) = 0
+58363 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6465000, 4096, PROT_READ) = 0
+58364 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b71f8000, 4096, PROT_READ) = 0
+58365 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b757a000, 16384, PROT_READ) = 0
+58366 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b6c8f000, 24576, PROT_READ) = 0
+58367 , 55741 , 55741 , indicator-messa , mprotect(0x619000, 8192, PROT_READ) = 0
+58368 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b77a7000, 4096, PROT_READ) = 0
+58369 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b7785000, 129890) = 0
+58370 , 55741 , 55741 , indicator-messa , set_tid_address(0x7fc3b777dad0) = 55741
+58371 , 55741 , 55741 , indicator-messa , set_robust_list(0x7fc3b777dae0, 24) = 0
+58372 , 55741 , 55741 , indicator-messa , rt_sigaction(SIGRTMIN, {0x7fc3b6836b50, [], SA_RESTORER|SA_SIGINFO, 0x7fc3b6842390}, NULL, 8) = 0
+58373 , 55741 , 55741 , indicator-messa , rt_sigaction(SIGRT_1, {0x7fc3b6836be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fc3b6842390}, NULL, 8) = 0
+58374 , 55741 , 55741 , indicator-messa , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+58375 , 55741 , 55741 , indicator-messa , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+58376 , 55741 , 55741 , indicator-messa , statfs("/sys/fs/selinux", 0x7fffbf1b8ef0) = -1 ENOENT (No such file or directory)
+58377 , 55741 , 55741 , indicator-messa , statfs("/selinux", 0x7fffbf1b8ef0) = -1 ENOENT (No such file or directory)
+58378 , 55741 , 55741 , indicator-messa , brk(NULL) = 0x21c2000
+58379 , 55741 , 55741 , indicator-messa , brk(0x21e3000) = 0x21e3000
+58380 , 55741 , 55741 , indicator-messa , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+58381 , 55741 , 55741 , indicator-messa , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:20.791619765, st_mtime=2017/11/26-08:16:20.791619765, st_ctime=2017/11/26-08:16:20.791619765}) = 0
+58382 , 55741 , 55741 , indicator-messa , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+58383 , 55741 , 55741 , indicator-messa , read(3</proc/filesystems>, "", 1024) = 0
+58384 , 55741 , 55741 , indicator-messa , close(3</proc/filesystems>) = 0
+58385 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58386 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58387 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58388 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+58389 , 55741 , 55741 , indicator-messa , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58390 , 55741 , 55741 , indicator-messa , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 4</usr/lib/locale/locale-archive>
+58391 , 55741 , 55741 , indicator-messa , fstat(4</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+58392 , 55741 , 55741 , indicator-messa , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 4</usr/lib/locale/locale-archive>, 0) = 0x7fc3b5080000
+58393 , 55741 , 55741 , indicator-messa , close(4</usr/lib/locale/locale-archive>) = 0
+58394 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58395 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58396 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58397 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58398 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58399 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58400 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58401 , 55741 , 55741 , indicator-messa , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+58402 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 4<anon_inode:[eventfd]>
+58403 , 55741 , 55741 , indicator-messa , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58404 , 55741 , 55741 , indicator-messa , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc3b487f000
+58405 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b487f000, 4096, PROT_NONE) = 0
+58406 , 55741 , 55741 , indicator-messa , clone(child_stack=0x7fc3b507eef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fc3b507f9d0, tls=0x7fc3b507f700, child_tidptr=0x7fc3b507f9d0) = 55746
+58407 , 55741 , 55741 , indicator-messa , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+58408 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58409 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58410 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58411 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 5</etc/locale.alias>
+58412 , 55741 , 55741 , indicator-messa , fstat(5</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+58413 , 55741 , 55741 , indicator-messa , read(5</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+58414 , 55741 , 55741 , indicator-messa , read(5</etc/locale.alias>, "", 4096) = 0
+58415 , 55741 , 55741 , indicator-messa , close(5</etc/locale.alias>) = 0
+58416 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58417 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58418 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58419 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58420 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.utf8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58421 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58422 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58423 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58424 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58425 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58426 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58427 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en/LC_MESSAGES/indicator-messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58428 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58429 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58430 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58431 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58432 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58433 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58434 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58435 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58436 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58437 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58438 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58439 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58440 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+58441 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58442 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58443 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58444 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58445 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58446 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58447 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58448 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58449 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58450 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58451 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58452 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58453 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58454 , 55741 , 55741 , indicator-messa , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc3b407e000
+58455 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3b407e000, 4096, PROT_NONE) = 0
+58456 , 55741 , 55741 , indicator-messa , clone(child_stack=0x7fc3b487def0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fc3b487e9d0, tls=0x7fc3b487e700, child_tidptr=0x7fc3b487e9d0) = 55747
+58457 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58458 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58459 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58460 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58461 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58462 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58463 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58464 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58465 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58466 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58467 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58468 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58469 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58470 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58471 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58472 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58473 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58474 , 55741 , 55741 , indicator-messa , brk(0x2204000) = 0x2204000
+58475 , 55741 , 55741 , indicator-messa , brk(0x2203000) = 0x2203000
+58476 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58477 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58478 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58479 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58480 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58481 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58482 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58483 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58484 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58485 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58486 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58487 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58488 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58489 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58490 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58491 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58492 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58493 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58494 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58495 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58496 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58497 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58498 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58499 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58500 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58501 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58502 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58503 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58504 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58505 , 55741 , 55741 , indicator-messa , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc3b649c4b0}, {SIG_DFL, [], 0}, 8) = 0
+58506 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58507 , 55741 , 55741 , indicator-messa , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 5<UNIX:[478995]>
+58510 , 55741 , 55741 , indicator-messa , fcntl(5<UNIX:[478995]>, F_GETFL) = 0x2 (flags O_RDWR)
+58519 , 55741 , 55741 , indicator-messa , fcntl(5<UNIX:[478995]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+58522 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58524 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6430, FUTEX_WAKE_PRIVATE, 1) = 0
+58533 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6430, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+58534 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58536 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6430, FUTEX_WAKE_PRIVATE, 1) = 0
+58539 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58541 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58542 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58543 , 55741 , 55741 , indicator-messa , futex(0x21ceae0, FUTEX_WAKE_PRIVATE, 1) = 1
+58578 , 55741 , 55741 , indicator-messa , connect(5<UNIX:[478995]>, {sa_family=AF_LOCAL, sun_path="/var/run/dbus/system_bus_socket"}, 110) = 0
+58579 , 55741 , 55741 , indicator-messa , geteuid() = 0
+58580 , 55741 , 55741 , indicator-messa , getegid() = 0
+58581 , 55741 , 55741 , indicator-messa , geteuid() = 0
+58582 , 55741 , 55741 , indicator-messa , getegid() = 0
+58583 , 55741 , 55741 , indicator-messa , sendmsg(5<UNIX:[478995->477321]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55741, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+58584 , 55741 , 55741 , indicator-messa , sendto(5<UNIX:[478995->477321]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+58585 , 55741 , 55741 , indicator-messa , recvfrom(5<UNIX:[478995->477321]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+58586 , 55741 , 55741 , indicator-messa , sendto(5<UNIX:[478995->477321]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+58587 , 55741 , 55741 , indicator-messa , recvfrom(5<UNIX:[478995->477321]>, "OK b80b3ebf2785948224d3eb0e5a1a7937\r\n", 4096, 0, NULL, NULL) = 37
+58588 , 55741 , 55741 , indicator-messa , sendto(5<UNIX:[478995->477321]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+58589 , 55741 , 55741 , indicator-messa , recvfrom(5<UNIX:[478995->477321]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+58590 , 55741 , 55741 , indicator-messa , sendto(5<UNIX:[478995->477321]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+58591 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58592 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+58593 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58594 , 55741 , 55741 , indicator-messa , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc3af7ff000
+58595 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af7ff000, 4096, PROT_NONE) = 0
+58596 , 55741 , 55741 , indicator-messa , clone(child_stack=0x7fc3afffeef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fc3affff9d0, tls=0x7fc3affff700, child_tidptr=0x7fc3affff9d0) = 55748
+58597 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58598 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58599 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+58600 , 55741 , 55741 , indicator-messa , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58601 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+58602 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=8, revents=POLLIN}])
+58603 , 55741 , 55741 , indicator-messa , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+58604 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=8, revents=POLLIN}])
+58700 , 55741 , 55741 , indicator-messa , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+58701 , 55741 , 55741 , indicator-messa , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58702 , 55741 , 55741 , indicator-messa , futex(0x21da610, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58703 , 55741 , 55741 , indicator-messa , close(8<anon_inode:[eventfd]>) = 0
+58704 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58705 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58706 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58707 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58708 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58709 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58710 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58711 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58712 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+58713 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58715 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58719 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58722 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58740 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58742 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58746 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58749 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58766 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58768 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58772 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58775 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58792 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+58793 , 55741 , 55741 , indicator-messa , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58794 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58796 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58800 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58803 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58821 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+58822 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58824 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58828 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58831 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58849 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+58850 , 55741 , 55741 , indicator-messa , read(8<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+58851 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+58853 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+58857 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+58860 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+58866 , 55741 , 55741 , indicator-messa , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+59781 , 55741 , 55741 , indicator-messa , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+59783 , 55741 , 55741 , indicator-messa , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+59785 , 55741 , 55741 , indicator-messa , futex(0x21edd50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59787 , 55741 , 55741 , indicator-messa , close(8<anon_inode:[eventfd]>) = 0
+59789 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59791 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59793 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59795 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59797 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59799 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59801 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59803 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59805 , 55741 , 55741 , indicator-messa , open("/var/lib/snapd/desktop/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+59806 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+59807 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59808 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59809 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59810 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59811 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59813 , 55741 , 55741 , indicator-messa , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59815 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59817 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59819 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59821 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59823 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59825 , 55741 , 55741 , indicator-messa , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+59827 , 55741 , 55741 , indicator-messa , open("/usr/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = 8</usr/share/glib-2.0/schemas/gschemas.compiled>
+59830 , 55741 , 55741 , indicator-messa , fstat(8</usr/share/glib-2.0/schemas/gschemas.compiled>, {st_dev=makedev(8, 1), st_ino=657187, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=568, st_size=289509, st_atime=2017/11/26-03:11:56.013280590, st_mtime=2017/08/27-05:23:00.494191592, st_ctime=2017/08/27-05:23:00.502188777}) = 0
+59832 , 55741 , 55741 , indicator-messa , mmap(NULL, 289509, PROT_READ, MAP_PRIVATE, 8</usr/share/glib-2.0/schemas/gschemas.compiled>, 0) = 0x7fc3b7736000
+59834 , 55741 , 55741 , indicator-messa , close(8</usr/share/glib-2.0/schemas/gschemas.compiled>) = 0
+59836 , 55741 , 55741 , indicator-messa , open("/usr/local/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+59838 , 55741 , 55741 , indicator-messa , open("/usr/share/gnome/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+59840 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59842 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59843 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59844 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59845 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59846 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59847 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59848 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59849 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59850 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59851 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59852 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59853 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/gio/modules>
+59854 , 55741 , 55741 , indicator-messa , fstat(8</usr/lib/x86_64-linux-gnu/gio/modules>, {st_dev=makedev(8, 1), st_ino=4721503, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:40:41.151999795}) = 0
+59855 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+59856 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", O_RDONLY) = 10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>
+59857 , 55741 , 55741 , indicator-messa , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+59858 , 55741 , 55741 , indicator-messa , read(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, "libdconfsettings.so: gsettings-backend\nlibgvfsdbus.so: gio-vfs,gio-volume-monitor\nlibgiognutls.so: gio-tls-backend\nlibgiolibproxy.so: gio-proxy-resolver\nlibgioremote-volume-monitor.so: gio-native-volu"..., 270) = 270
+59859 , 55741 , 55741 , indicator-messa , close(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>) = 0
+59860 , 55741 , 55741 , indicator-messa , getdents(8</usr/lib/x86_64-linux-gnu/gio/modules>, [{d_ino=4721504, d_off=3010095946851488672, d_reclen=40, d_name="giomodule.cache", d_type=DT_REG}, {d_ino=4720263, d_off=3343782266566960305, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4721505, d_off=5361588105076898494, d_reclen=40, d_name="libdconfsettings.so", d_type=DT_REG}, {d_ino=4721509, d_off=5617113554901321935, d_reclen=56, d_name="libgioremote-volume-monitor.so", d_type=DT_REG}, {d_ino=4721506, d_off=5710434140879988661, d_reclen=40, d_name="libgiognomeproxy.so", d_type=DT_REG}, {d_ino=4721503, d_off=6257115072957225029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4721507, d_off=8469700843271208950, d_reclen=40, d_name="libgiognutls.so", d_type=DT_REG}, {d_ino=4721508, d_off=8867988669331726394, d_reclen=40, d_name="libgiolibproxy.so", d_type=DT_REG}, {d_ino=4721510, d_off=9223372036854775807, d_reclen=40, d_name="libgvfsdbus.so", d_type=DT_REG}], 32768) = 344
+59861 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59862 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+59863 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+59864 , 55741 , 55741 , indicator-messa , futex(0x7fc3b555b0a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59865 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>
+59866 , 55741 , 55741 , indicator-messa , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340;\0\0\0\0\0\0@\0\0\0\0\0\0\0@\306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\256\0\0\0\0\0\0\4\256\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\274\0\0\0\0\0\0\240\274 \0\0\0\0\0\240\274 \0\0\0\0\0p\10\0\0\0\0\0\0X\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\275\0\0\0\0\0\0\250\275 \0\0\0\0\0"..., 832) = 832
+59867 , 55741 , 55741 , indicator-messa , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+59868 , 55741 , 55741 , indicator-messa , mmap(NULL, 2147832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0) = 0x7fc3af5f2000
+59869 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af5fd000, 2097152, PROT_NONE) = 0
+59870 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af7fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0xb000) = 0x7fc3af7fd000
+59871 , 55741 , 55741 , indicator-messa , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>) = 0
+59872 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af7fd000, 4096, PROT_READ) = 0
+59873 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59874 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+59875 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+59876 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>
+59877 , 55741 , 55741 , indicator-messa , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0t\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\307\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\212\1\0\0\0\0\0004\212\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\230\1\0\0\0\0\0H\230!\0\0\0\0\0H\230!\0\0\0\0\0$.\0\0\0\0\0\0\260/\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\275\1\0\0\0\0\0H\275!\0\0\0\0\0"..., 832) = 832
+59878 , 55741 , 55741 , indicator-messa , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+59879 , 55741 , 55741 , indicator-messa , mmap(NULL, 2213880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0) = 0x7fc3af3d5000
+59880 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af3ee000, 2097152, PROT_NONE) = 0
+59881 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af5ee000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0x19000) = 0x7fc3af5ee000
+59882 , 55741 , 55741 , indicator-messa , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>) = 0
+59883 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+59884 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7fffbf1b7c30) = -1 ENOENT (No such file or directory)
+59885 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+59886 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7fffbf1b7c30) = -1 ENOENT (No such file or directory)
+59887 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+59888 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7fffbf1b7c30) = -1 ENOENT (No such file or directory)
+59889 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>
+59890 , 55741 , 55741 , indicator-messa , read(10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360%\1\0\0\0\0\0@\0\0\0\0\0\0\0\230\271\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24S\3\0\0\0\0\0\24S\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h`\3\0\0\0\0\0h`#\0\0\0\0\0h`#\0\0\0\0\0\0X\0\0\0\0\0\0\260Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\3\0\0\0\0\0\210\255#\0\0\0\0\0"..., 832) = 832
+59891 , 55741 , 55741 , indicator-messa , fstat(10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, {st_dev=makedev(8, 1), st_ino=4722066, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=488, st_size=245912, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.803999877}) = 0
+59892 , 55741 , 55741 , indicator-messa , mmap(NULL, 2341656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0) = 0x7fc3af199000
+59893 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af1cf000, 2097152, PROT_NONE) = 0
+59894 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af3cf000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0x36000) = 0x7fc3af3cf000
+59895 , 55741 , 55741 , indicator-messa , close(10</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>) = 0
+59896 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af3cf000, 20480, PROT_READ) = 0
+59897 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af5ee000, 12288, PROT_READ) = 0
+59898 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59899 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59900 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59901 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59902 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59903 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+59904 , 55741 , 55741 , indicator-messa , futex(0x21db080, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+60342 , 55741 , 55741 , indicator-messa , futex(0x21db080, FUTEX_WAKE_PRIVATE, 1) = 0
+60344 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+60346 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+60350 , 55741 , 55741 , indicator-messa , futex(0x7fc3b0006b30, FUTEX_WAKE_PRIVATE, 1) = 1
+60353 , 55741 , 55741 , indicator-messa , futex(0x21db078, FUTEX_WAKE_PRIVATE, 1) = 1
+60359 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+60360 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+60361 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+60363 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+60366 , 55741 , 55741 , indicator-messa , futex(0x7fc3b0006b30, FUTEX_WAKE_PRIVATE, 1) = 1
+60369 , 55741 , 55741 , indicator-messa , futex(0x21db078, FUTEX_WAKE_PRIVATE, 1) = 1
+60375 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+60376 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+60377 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+60378 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=9, revents=POLLIN}])
+60693 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+60694 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+60696 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+60700 , 55741 , 55741 , indicator-messa , futex(0x7fc3b0006b30, FUTEX_WAKE_PRIVATE, 1) = 1
+60703 , 55741 , 55741 , indicator-messa , futex(0x21db078, FUTEX_WAKE_PRIVATE, 1) = 1
+60709 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+61691 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+61692 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+61693 , 55741 , 55741 , indicator-messa , futex(0x2200010, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+61694 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+61695 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+61696 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+61697 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+61699 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+61703 , 55741 , 55741 , indicator-messa , futex(0x7fc3b0006b30, FUTEX_WAKE_PRIVATE, 1) = 1
+61706 , 55741 , 55741 , indicator-messa , futex(0x21db078, FUTEX_WAKE_PRIVATE, 1) = 1
+61712 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+61713 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+61714 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+61715 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+61932 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+61933 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+61934 , 55741 , 55741 , indicator-messa , futex(0x2200010, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+61935 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+61936 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+61937 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+61938 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>
+61939 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\30\0\0\0\0\0\0@\0\0\0\0\0\0\0\350B\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304/\0\0\0\0\0\0\304/\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270=\0\0\0\0\0\0\270= \0\0\0\0\0\270= \0\0\0\0\0(\4\0\0\0\0\0\0H\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320=\0\0\0\0\0\0\320= \0\0\0\0\0"..., 832) = 832
+61940 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+61941 , 55741 , 55741 , indicator-messa , mmap(NULL, 2114048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0) = 0x7fc3aef94000
+61942 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef97000, 2097152, PROT_NONE) = 0
+61943 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af197000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0x3000) = 0x7fc3af197000
+61944 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>) = 0
+61945 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af197000, 4096, PROT_READ) = 0
+61946 , 55741 , 55741 , indicator-messa , munmap(0x7fc3aef94000, 2114048) = 0
+61947 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+61948 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+61949 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>
+61950 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0r\0\0\0\0\0\0@\0\0\0\0\0\0\0\330\272\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\241\1\0\0\0\0\0\24\241\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\255\1\0\0\0\0\0H\255!\0\0\0\0\0H\255!\0\0\0\0\0\220\f\0\0\0\0\0\0p\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`\255\1\0\0\0\0\0`\255!\0\0\0\0\0"..., 832) = 832
+61951 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+61952 , 55741 , 55741 , indicator-messa , mmap(NULL, 2210744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0) = 0x7fc3aef7d000
+61953 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef98000, 2093056, PROT_NONE) = 0
+61954 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af197000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0x1a000) = 0x7fc3af197000
+61955 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>) = 0
+61956 , 55741 , 55741 , indicator-messa , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+61957 , 55741 , 55741 , indicator-messa , fstat(9</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+61958 , 55741 , 55741 , indicator-messa , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7fc3b7785000
+61959 , 55741 , 55741 , indicator-messa , close(9</etc/ld.so.cache>) = 0
+61960 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+61961 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+61962 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+61963 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+61964 , 55741 , 55741 , indicator-messa , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7fc3aed18000
+61965 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aed72000, 2093056, PROT_NONE) = 0
+61966 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aef71000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7fc3aef71000
+61967 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+61968 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+61969 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>
+61970 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\2\0\0\0\0\0@\0\0\0\0\0\0\0P\342\22\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l*\22\0\0\0\0\0l*\22\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270-\22\0\0\0\0\0\270-2\0\0\0\0\0\270-2\0\0\0\0\0X\263\0\0\0\0\0\0\310\303\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0x\313\22\0\0\0\0\0x\3132\0\0\0\0\0"..., 832) = 832
+61971 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, {st_dev=makedev(8, 1), st_ino=4456883, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2424, st_size=1239440, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/06/12-11:51:37, st_ctime=2017/06/24-03:59:34.980084966}) = 0
+61972 , 55741 , 55741 , indicator-messa , mmap(NULL, 3338624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0) = 0x7fc3ae9e8000
+61973 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aeb0b000, 2093056, PROT_NONE) = 0
+61974 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aed0a000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0x122000) = 0x7fc3aed0a000
+61975 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aed17000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3aed17000
+61976 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>) = 0
+61977 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+61978 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>
+61979 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p+\0\0\0\0\0\0@\0\0\0\0\0\0\0(\"\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\17\3\0\0\0\0\0$\17\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\22\3\0\0\0\0\0\310\22#\0\0\0\0\0\310\22#\0\0\0\0\0 \16\0\0\0\0\0\0(\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\35\3\0\0\0\0\0\300\35#\0\0\0\0\0"..., 832) = 832
+61980 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, {st_dev=makedev(8, 1), st_ino=4458278, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207208, st_atime=2017/11/25-09:34:42.548712422, st_mtime=2017/09/25-14:06:07, st_ctime=2017/10/15-01:10:13.024850379}) = 0
+61981 , 55741 , 55741 , indicator-messa , mmap(NULL, 2302192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0) = 0x7fc3ae7b5000
+61982 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae7e6000, 2097152, PROT_NONE) = 0
+61983 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae9e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0x31000) = 0x7fc3ae9e6000
+61984 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>) = 0
+61985 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+61986 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>
+61987 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340)\0\0\0\0\0\0@\0\0\0\0\0\0\0`\"\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\16\1\0\0\0\0\0\204\16\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\25\1\0\0\0\0\0\10\25!\0\0\0\0\0\10\25!\0\0\0\0\0\34\f\0\0\0\0\0\0\0\17\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\1\0\0\0\0\0\320\35!\0\0\0\0\0"..., 832) = 832
+61988 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, {st_dev=makedev(8, 1), st_ino=4458720, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=76192, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/06/01-13:53:02, st_ctime=2017/06/08-02:50:09.820388315}) = 0
+61989 , 55741 , 55741 , indicator-messa , mmap(NULL, 2171912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0) = 0x7fc3ae5a2000
+61990 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae5b3000, 2097152, PROT_NONE) = 0
+61991 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae7b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0x11000) = 0x7fc3ae7b3000
+61992 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>) = 0
+61993 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+61994 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libnettle.so.6", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>
+61995 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`~\0\0\0\0\0\0@\0\0\0\0\0\0\0\210Q\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3744\3\0\0\0\0\0\3744\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h?\3\0\0\0\0\0h?#\0\0\0\0\0h?#\0\0\0\0\0\0\21\0\0\0\0\0\0(\21\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xM\3\0\0\0\0\0xM#\0\0\0\0\0"..., 832) = 832
+61996 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, {st_dev=makedev(8, 1), st_ino=4458826, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=432, st_size=219336, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/02/03-09:27:37, st_ctime=2017/04/03-11:27:11.578425564}) = 0
+61997 , 55741 , 55741 , indicator-messa , mmap(NULL, 2314384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0) = 0x7fc3ae36c000
+61998 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae3a0000, 2093056, PROT_NONE) = 0
+61999 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae59f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0x33000) = 0x7fc3ae59f000
+62000 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>) = 0
+62001 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62002 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libhogweed.so.4", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>
+62003 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340e\0\0\0\0\0\0@\0\0\0\0\0\0\0\330#\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\25\3\0\0\0\0\0D\25\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\26\3\0\0\0\0\0(\26#\0\0\0\0\0(\26#\0\0\0\0\0\220\f\0\0\0\0\0\0\230\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\35\3\0\0\0\0\0\250\35#\0\0\0\0\0"..., 832) = 832
+62004 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, {st_dev=makedev(8, 1), st_ino=4456748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207640, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/02/03-09:27:38, st_ctime=2017/04/03-11:27:11.398474786}) = 0
+62005 , 55741 , 55741 , indicator-messa , mmap(NULL, 2302656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0) = 0x7fc3ae139000
+62006 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae16b000, 2093056, PROT_NONE) = 0
+62007 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae36a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0x31000) = 0x7fc3ae36a000
+62008 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>) = 0
+62009 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62010 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>
+62011 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\223\0\0\0\0\0\0@\0\0\0\0\0\0\0\250\362\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\342\7\0\0\0\0\0l\342\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\351\7\0\0\0\0\0\10\351'\0\0\0\0\0\10\351'\0\0\0\0\0p\10\0\0\0\0\0\0\270\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0 \355\7\0\0\0\0\0 \355'\0\0\0\0\0"..., 832) = 832
+62012 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, {st_dev=makedev(8, 1), st_ino=4465744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1024, st_size=522664, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/11/17-12:15:19, st_ctime=2016/11/03-10:38:41.003999886}) = 0
+62013 , 55741 , 55741 , indicator-messa , mmap(NULL, 2617792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0) = 0x7fc3adeb9000
+62014 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3adf38000, 2093056, PROT_NONE) = 0
+62015 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae137000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0x7e000) = 0x7fc3ae137000
+62016 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>) = 0
+62017 , 55741 , 55741 , indicator-messa , brk(0x2224000) = 0x2224000
+62018 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae137000, 4096, PROT_READ) = 0
+62019 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae59f000, 8192, PROT_READ) = 0
+62020 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae36a000, 4096, PROT_READ) = 0
+62021 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae7b3000, 4096, PROT_READ) = 0
+62022 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae9e6000, 4096, PROT_READ) = 0
+62023 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef71000, 40960, PROT_READ) = 0
+62024 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aed0a000, 45056, PROT_READ) = 0
+62025 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af197000, 4096, PROT_READ) = 0
+62026 , 55741 , 55741 , indicator-messa , futex(0x7fc3aef7c740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62027 , 55741 , 55741 , indicator-messa , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+62028 , 55741 , 55741 , indicator-messa , fcntl(9</dev/urandom>, F_GETFD) = 0
+62029 , 55741 , 55741 , indicator-messa , fcntl(9</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+62030 , 55741 , 55741 , indicator-messa , fstat(9</dev/urandom>, {st_dev=makedev(0, 6), st_ino=11, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2017/11/26-03:20:03.411999619, st_mtime=2017/11/26-03:20:03.411999619, st_ctime=2017/11/26-03:20:03.411999619}) = 0
+62031 , 55741 , 55741 , indicator-messa , getrusage(0x1 /* RUSAGE_??? */, {ru_utime={0, 4000}, ru_stime={0, 8000}, ru_maxrss=9364, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=424, ru_majflt=3, ru_nswap=0, ru_inblock=808, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=1277, ru_nivcsw=8}) = 0
+62032 , 55741 , 55741 , indicator-messa , read(9</dev/urandom>, "\v\32\317\1\226\256H\0323\"\312\270\0275\354\205@\344\320\3171\364\213\276A\333\342\t\21\34\207\225", 32) = 32
+62033 , 55741 , 55741 , indicator-messa , read(9</dev/urandom>, "{\1\357\365\242\330n\332U\203\271\10\363\300e\351\2\243\317v\247\212/\237\301$\333~\377\372\343\250", 32) = 32
+62034 , 55741 , 55741 , indicator-messa , read(9</dev/urandom>, "\334\357+\177\330\4\27\317", 8) = 8
+62035 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b7785000, 129890) = 0
+62036 , 55741 , 55741 , indicator-messa , close(9</dev/urandom>) = 0
+62037 , 55741 , 55741 , indicator-messa , munmap(0x7fc3aef7d000, 2210744) = 0
+62038 , 55741 , 55741 , indicator-messa , munmap(0x7fc3ae9e8000, 3338624) = 0
+62039 , 55741 , 55741 , indicator-messa , munmap(0x7fc3aed18000, 2508688) = 0
+62040 , 55741 , 55741 , indicator-messa , munmap(0x7fc3ae7b5000, 2302192) = 0
+62041 , 55741 , 55741 , indicator-messa , munmap(0x7fc3ae5a2000, 2171912) = 0
+62042 , 55741 , 55741 , indicator-messa , munmap(0x7fc3ae139000, 2302656) = 0
+62043 , 55741 , 55741 , indicator-messa , munmap(0x7fc3ae36c000, 2314384) = 0
+62044 , 55741 , 55741 , indicator-messa , munmap(0x7fc3adeb9000, 2617792) = 0
+62045 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+62046 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+62047 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>
+62048 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\21\0\0\0\0\0\0@\0\0\0\0\0\0\0@\"\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214\35\0\0\0\0\0\0\214\35\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\35\0\0\0\0\0\0\240\35 \0\0\0\0\0\240\35 \0\0\0\0\0\230\3\0\0\0\0\0\0\270\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\35\0\0\0\0\0\0\270\35 \0\0\0\0\0"..., 832) = 832
+62049 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+62050 , 55741 , 55741 , indicator-messa , mmap(NULL, 2105688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0) = 0x7fc3aef96000
+62051 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef98000, 2093056, PROT_NONE) = 0
+62052 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af197000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0x1000) = 0x7fc3af197000
+62053 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>) = 0
+62054 , 55741 , 55741 , indicator-messa , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+62055 , 55741 , 55741 , indicator-messa , fstat(9</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+62056 , 55741 , 55741 , indicator-messa , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7fc3b7785000
+62057 , 55741 , 55741 , indicator-messa , close(9</etc/ld.so.cache>) = 0
+62058 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62059 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libproxy.so.1", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>
+62060 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300h\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\5\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\363\350\1\0\0\0\0\0\363\350\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X\370\1\0\0\0\0\0X\370!\0\0\0\0\0X\370!\0\0\0\0\0`\f\0\0\0\0\0\0h\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\374\1\0\0\0\0\0\350\374!\0\0\0\0\0"..., 832) = 832
+62061 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4466215, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=264, st_size=134456, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/02/16-08:49:32, st_ctime=2016/11/03-10:38:45.531999883}) = 0
+62062 , 55741 , 55741 , indicator-messa , mmap(NULL, 2229440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0) = 0x7fc3aed75000
+62063 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aed94000, 2097152, PROT_NONE) = 0
+62064 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aef94000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0x1f000) = 0x7fc3aef94000
+62065 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>) = 0
+62066 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62067 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+62068 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+62069 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4461343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/11/02-21:42:14, st_ctime=2016/11/10-22:22:35.303200843}) = 0
+62070 , 55741 , 55741 , indicator-messa , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7fc3ae9f3000
+62071 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aeb65000, 2097152, PROT_NONE) = 0
+62072 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aed65000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7fc3aed65000
+62073 , 55741 , 55741 , indicator-messa , mmap(0x7fc3aed71000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3aed71000
+62074 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+62075 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62076 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libgcc_s.so.1>
+62077 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+62078 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+62079 , 55741 , 55741 , indicator-messa , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7fc3ae7dd000
+62080 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae7f3000, 2093056, PROT_NONE) = 0
+62081 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae9f2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7fc3ae9f2000
+62082 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+62083 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+62084 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libm-2.23.so>
+62085 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+62086 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+62087 , 55741 , 55741 , indicator-messa , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7fc3ae4d4000
+62088 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae5dc000, 2093056, PROT_NONE) = 0
+62089 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ae7db000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7fc3ae7db000
+62090 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+62091 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ae7db000, 4096, PROT_READ) = 0
+62092 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aed65000, 40960, PROT_READ) = 0
+62093 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef94000, 4096, PROT_READ) = 0
+62094 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af197000, 4096, PROT_READ) = 0
+62095 , 55741 , 55741 , indicator-messa , futex(0x7fc3aed721ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62096 , 55741 , 55741 , indicator-messa , futex(0x7fc3aed721b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62097 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b7785000, 129890) = 0
+62098 , 55741 , 55741 , indicator-messa , munmap(0x7fc3aef96000, 2105688) = 0
+62099 , 55741 , 55741 , indicator-messa , munmap(0x7fc3aed75000, 2229440) = 0
+62100 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+62101 , 55741 , 55741 , indicator-messa , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+62102 , 55741 , 55741 , indicator-messa , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>
+62103 , 55741 , 55741 , indicator-messa , read(9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \267\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\20\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\366\2\0\0\0\0\0\f\366\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\367\2\0\0\0\0\0\350\367\"\0\0\0\0\0\350\367\"\0\0\0\0\0\264\27\0\0\0\0\0\0\240\31\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\375\2\0\0\0\0\0H\375\"\0\0\0\0\0"..., 832) = 832
+62104 , 55741 , 55741 , indicator-messa , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+62105 , 55741 , 55741 , indicator-messa , mmap(NULL, 2298248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0) = 0x7fc3aef67000
+62106 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3aef97000, 2093056, PROT_NONE) = 0
+62107 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af196000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0x2f000) = 0x7fc3af196000
+62108 , 55741 , 55741 , indicator-messa , mmap(0x7fc3af198000, 392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3af198000
+62109 , 55741 , 55741 , indicator-messa , close(9</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>) = 0
+62110 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3af196000, 4096, PROT_READ) = 0
+62111 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62112 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62113 , 55741 , 55741 , indicator-messa , getdents(8</usr/lib/x86_64-linux-gnu/gio/modules>, [], 32768) = 0
+62114 , 55741 , 55741 , indicator-messa , close(8</usr/lib/x86_64-linux-gnu/gio/modules>) = 0
+62115 , 55741 , 55741 , indicator-messa , open("/usr/lib/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+62116 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62117 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62118 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62119 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62120 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62121 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62122 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62123 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62124 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62125 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62126 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62127 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62128 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62129 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62130 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62131 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62132 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62133 , 55741 , 55741 , indicator-messa , open("/etc/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+62134 , 55741 , 55741 , indicator-messa , open("/usr/share/gnome/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+62135 , 55741 , 55741 , indicator-messa , open("/usr/local/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+62136 , 55741 , 55741 , indicator-messa , open("/usr/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+62137 , 55741 , 55741 , indicator-messa , open("/var/lib/snapd/desktop/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+62138 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62139 , 55741 , 55741 , indicator-messa , mkdir("/home/elwin/.cache", 0700) = -1 EEXIST (File exists)
+62140 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62141 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62142 , 55741 , 55741 , indicator-messa , access("/home", F_OK) = 0
+62143 , 55741 , 55741 , indicator-messa , stat("/home", {st_dev=makedev(8, 1), st_ino=2883585, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-06:55:15.315006883, st_mtime=2017/06/24-10:10:27.305705697, st_ctime=2017/06/24-10:10:27.305705697}) = 0
+62144 , 55741 , 55741 , indicator-messa , access("/home/elwin", F_OK) = 0
+62145 , 55741 , 55741 , indicator-messa , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=41, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-08:09:52.117160270, st_mtime=2017/11/26-08:16:18.143604751, st_ctime=2017/11/26-08:16:18.143604751}) = 0
+62146 , 55741 , 55741 , indicator-messa , access("/home/elwin/.cache", F_OK) = 0
+62147 , 55741 , 55741 , indicator-messa , stat("/home/elwin/.cache", {st_dev=makedev(8, 1), st_ino=2883591, st_mode=S_IFDIR|0700, st_nlink=28, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-05:11:19.540373524, st_mtime=2017/05/29-12:44:07.246858381, st_ctime=2017/05/29-12:44:07.246858381}) = 0
+62148 , 55741 , 55741 , indicator-messa , access("/home/elwin/.cache/dconf", F_OK) = 0
+62149 , 55741 , 55741 , indicator-messa , stat("/home/elwin/.cache/dconf", {st_dev=makedev(8, 1), st_ino=3538966, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-01:10:57.608512372, st_mtime=2017/05/04-04:12:39.107169060, st_ctime=2017/05/04-04:12:39.107169060}) = 0
+62150 , 55741 , 55741 , indicator-messa , open("/home/elwin/.cache/dconf/user", O_RDWR|O_CREAT, 0600) = 8</home/elwin/.cache/dconf/user>
+62151 , 55741 , 55741 , indicator-messa , pwrite64(8</home/elwin/.cache/dconf/user>, "\0", 1, 1) = 1
+62152 , 55741 , 55741 , indicator-messa , mmap(NULL, 1, PROT_READ, MAP_SHARED, 8</home/elwin/.cache/dconf/user>, 0) = 0x7fc3b77a4000
+62153 , 55741 , 55741 , indicator-messa , close(8</home/elwin/.cache/dconf/user>) = 0
+62154 , 55741 , 55741 , indicator-messa , open("/home/elwin/.config/dconf/user", O_RDONLY) = 8</home/elwin/.config/dconf/user>
+62155 , 55741 , 55741 , indicator-messa , fstat(8</home/elwin/.config/dconf/user>, {st_dev=makedev(8, 1), st_ino=2883824, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=32, st_size=14590, st_atime=2017/11/26-03:15:19.070802471, st_mtime=2017/11/26-03:15:13.458843521, st_ctime=2017/11/26-03:15:13.462843491}) = 0
+62156 , 55741 , 55741 , indicator-messa , mmap(NULL, 14590, PROT_READ, MAP_PRIVATE, 8</home/elwin/.config/dconf/user>, 0) = 0x7fc3b77a0000
+62157 , 55741 , 55741 , indicator-messa , close(8</home/elwin/.config/dconf/user>) = 0
+62158 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+62159 , 55741 , 55741 , indicator-messa , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62160 , 55741 , 55741 , indicator-messa , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc3adcd3000
+62161 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3adcd3000, 4096, PROT_NONE) = 0
+62162 , 55741 , 55741 , indicator-messa , clone(child_stack=0x7fc3ae4d2ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fc3ae4d39d0, tls=0x7fc3ae4d3700, child_tidptr=0x7fc3ae4d39d0) = 55755
+62163 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62164 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62165 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62166 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62167 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62168 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62169 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62170 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62171 , 55741 , 55741 , indicator-messa , rt_sigaction(SIGTERM, {0x7fc3b6cdc890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc3b6842390}, NULL, 8) = 0
+62172 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+62173 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62174 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62176 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62180 , 55741 , 55741 , indicator-messa , futex(0x7fc3b0006b30, FUTEX_WAKE_PRIVATE, 1) = 1
+62183 , 55741 , 55741 , indicator-messa , futex(0x21db078, FUTEX_WAKE_PRIVATE, 1) = 1
+62189 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+62190 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62191 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62193 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62196 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62199 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62218 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62219 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62220 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62222 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62226 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62229 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62247 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62251 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62259 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62265 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62284 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62286 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62290 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62293 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62310 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+62311 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62312 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62314 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62318 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62321 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62329 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=9, revents=POLLIN}])
+62331 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=9, revents=POLLIN}])
+62333 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62335 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=9, revents=POLLIN}])
+62353 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62361 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62380 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 0
+62387 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+62394 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 0
+62396 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62400 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62466 , 55741 , 55741 , indicator-messa , futex(0x221b510, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+62471 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62473 , 55741 , 55741 , indicator-messa , futex(0x221b510, FUTEX_WAKE_PRIVATE, 1) = 1
+62478 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62480 , 55741 , 55741 , indicator-messa , futex(0x221b520, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62485 , 55741 , 55741 , indicator-messa , futex(0x221b510, FUTEX_WAKE_PRIVATE, 1) = 1
+62490 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+62498 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62501 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62505 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+62508 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 0
+62511 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 0
+62513 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+62516 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62528 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62537 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62540 , 55741 , 55741 , indicator-messa , brk(0x2245000) = 0x2245000
+62545 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+62549 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62554 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62558 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62568 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62571 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62637 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62642 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+62648 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62651 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 0
+62654 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62695 , 55741 , 55741 , indicator-messa , futex(0x21ea570, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+62698 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62700 , 55741 , 55741 , indicator-messa , futex(0x21ea570, FUTEX_WAKE_PRIVATE, 1) = 0
+62706 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62709 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62711 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+62716 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 0
+62718 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62722 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+62741 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62742 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62743 , 55741 , 55741 , indicator-messa , futex(0x21ea580, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62744 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+62745 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62747 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62751 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62754 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62771 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62773 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62777 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62780 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62797 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+62798 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62799 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62801 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62805 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62808 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62826 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+62827 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62829 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62833 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62836 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62854 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+62855 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+62856 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62858 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62862 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62865 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62883 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+62884 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+62885 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62886 , 55741 , 55741 , indicator-messa , futex(0x221b750, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+62887 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+62888 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62890 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62894 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62897 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62915 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62917 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62921 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62924 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62941 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62943 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62947 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62950 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62967 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+62968 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62969 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62971 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+62975 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+62978 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+62996 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+62997 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+62999 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63003 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63006 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63024 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63025 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63026 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63028 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63032 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63035 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63056 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63057 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63058 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63059 , 55741 , 55741 , indicator-messa , futex(0x222bae0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63060 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63061 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63063 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63067 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63070 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63087 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63089 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63093 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63096 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63113 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+63114 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63115 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63117 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63121 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63124 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63142 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63143 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63145 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63149 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63152 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63170 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63171 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63172 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63174 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63178 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63181 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63199 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63200 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63201 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63202 , 55741 , 55741 , indicator-messa , futex(0x222dee0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63203 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63204 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63206 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63210 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63213 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63232 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63233 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63234 , 55741 , 55741 , indicator-messa , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[477543]>
+63235 , 55741 , 55741 , indicator-messa , connect(9<UNIX:[477543]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+63236 , 55741 , 55741 , indicator-messa , close(9<UNIX:[477543]>) = 0
+63237 , 55741 , 55741 , indicator-messa , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[477547]>
+63238 , 55741 , 55741 , indicator-messa , connect(9<UNIX:[477547]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+63239 , 55741 , 55741 , indicator-messa , close(9<UNIX:[477547]>) = 0
+63240 , 55741 , 55741 , indicator-messa , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 9</etc/nsswitch.conf>
+63241 , 55741 , 55741 , indicator-messa , fstat(9</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2017/11/25-09:34:42.176713163, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+63242 , 55741 , 55741 , indicator-messa , read(9</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+63243 , 55741 , 55741 , indicator-messa , read(9</etc/nsswitch.conf>, "", 4096) = 0
+63244 , 55741 , 55741 , indicator-messa , close(9</etc/nsswitch.conf>) = 0
+63245 , 55741 , 55741 , indicator-messa , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+63246 , 55741 , 55741 , indicator-messa , fstat(9</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+63247 , 55741 , 55741 , indicator-messa , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7fc3b7716000
+63248 , 55741 , 55741 , indicator-messa , close(9</etc/ld.so.cache>) = 0
+63249 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+63250 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+63251 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+63252 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+63253 , 55741 , 55741 , indicator-messa , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7fc3adaca000
+63254 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3adad2000, 2093056, PROT_NONE) = 0
+63255 , 55741 , 55741 , indicator-messa , mmap(0x7fc3adcd1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7fc3adcd1000
+63256 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+63257 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+63258 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnsl-2.23.so>
+63259 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+63260 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+63261 , 55741 , 55741 , indicator-messa , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fc3ad8b1000
+63262 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ad8c7000, 2093056, PROT_NONE) = 0
+63263 , 55741 , 55741 , indicator-messa , mmap(0x7fc3adac6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fc3adac6000
+63264 , 55741 , 55741 , indicator-messa , mmap(0x7fc3adac8000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3adac8000
+63265 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+63266 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3adac6000, 4096, PROT_READ) = 0
+63267 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3adcd1000, 4096, PROT_READ) = 0
+63268 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b7716000, 129890) = 0
+63269 , 55741 , 55741 , indicator-messa , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 9</etc/ld.so.cache>
+63270 , 55741 , 55741 , indicator-messa , fstat(9</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+63271 , 55741 , 55741 , indicator-messa , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 9</etc/ld.so.cache>, 0) = 0x7fc3b7716000
+63272 , 55741 , 55741 , indicator-messa , close(9</etc/ld.so.cache>) = 0
+63273 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+63274 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+63275 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+63276 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997535, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+63277 , 55741 , 55741 , indicator-messa , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7fc3ad6a5000
+63278 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ad6b0000, 2093056, PROT_NONE) = 0
+63279 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ad8af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7fc3ad8af000
+63280 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+63281 , 55741 , 55741 , indicator-messa , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+63282 , 55741 , 55741 , indicator-messa , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+63283 , 55741 , 55741 , indicator-messa , read(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+63284 , 55741 , 55741 , indicator-messa , fstat(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997532, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+63285 , 55741 , 55741 , indicator-messa , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7fc3ad493000
+63286 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ad49e000, 2093056, PROT_NONE) = 0
+63287 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ad69d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7fc3ad69d000
+63288 , 55741 , 55741 , indicator-messa , mmap(0x7fc3ad69f000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3ad69f000
+63289 , 55741 , 55741 , indicator-messa , close(9</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+63290 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ad69d000, 4096, PROT_READ) = 0
+63291 , 55741 , 55741 , indicator-messa , mprotect(0x7fc3ad8af000, 4096, PROT_READ) = 0
+63292 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b7716000, 129890) = 0
+63293 , 55741 , 55741 , indicator-messa , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 9</etc/passwd>
+63294 , 55741 , 55741 , indicator-messa , lseek(9</etc/passwd>, 0, SEEK_CUR) = 0
+63295 , 55741 , 55741 , indicator-messa , fstat(9</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+63296 , 55741 , 55741 , indicator-messa , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 9</etc/passwd>, 0) = 0x7fc3b779f000
+63297 , 55741 , 55741 , indicator-messa , lseek(9</etc/passwd>, 2368, SEEK_SET) = 2368
+63298 , 55741 , 55741 , indicator-messa , munmap(0x7fc3b779f000, 2368) = 0
+63299 , 55741 , 55741 , indicator-messa , close(9</etc/passwd>) = 0
+63300 , 55741 , 55741 , indicator-messa , getuid() = 0
+63301 , 55741 , 55741 , indicator-messa , futex(0x7fc3b6fa6428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63302 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63304 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63308 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63311 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63339 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63340 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+63341 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63343 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63347 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63350 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63367 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63369 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63373 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63376 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63393 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+63394 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63395 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63397 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63401 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63404 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63422 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63423 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63425 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63429 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63432 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63450 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63451 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63452 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63454 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63458 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63461 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63479 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63480 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63481 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63482 , 55741 , 55741 , indicator-messa , futex(0x2231680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63483 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63484 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63486 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63490 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63493 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63510 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63512 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63516 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63519 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63536 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+63537 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63538 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63540 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63544 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63547 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63565 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63566 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63568 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63572 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63575 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63593 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63594 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63595 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63597 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63601 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63604 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63622 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63623 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63624 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63625 , 55741 , 55741 , indicator-messa , futex(0x2231970, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63626 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63627 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63629 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63633 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63636 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63654 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+63655 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63656 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63658 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63662 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63665 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63683 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63684 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63686 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63690 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63693 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63711 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63712 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+63713 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63715 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63719 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63722 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63741 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63742 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63743 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63744 , 55741 , 55741 , indicator-messa , futex(0x2232880, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63745 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63746 , 55741 , 55741 , indicator-messa , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+63747 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63748 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63750 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63754 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63757 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63763 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=9, revents=POLLIN}])
+63764 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=9, revents=POLLIN}])
+63765 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63766 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=9, revents=POLLIN}])
+63791 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63792 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63794 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63798 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63801 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63819 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63820 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63821 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63823 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63827 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63830 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63848 , 55741 , 55741 , indicator-messa , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+63849 , 55741 , 55741 , indicator-messa , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63850 , 55741 , 55741 , indicator-messa , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63851 , 55741 , 55741 , indicator-messa , futex(0x2232840, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+63852 , 55741 , 55741 , indicator-messa , close(9<anon_inode:[eventfd]>) = 0
+63853 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63855 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63859 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63862 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63880 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63881 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+63882 , 55741 , 55741 , indicator-messa , futex(0x21d2f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63883 , 55741 , 55741 , indicator-messa , write(2<UNIX:[465235->465238]>, "\n(process:55741): GLib-GObject-WARNING **: instance with invalid (NULL) class pointer\n", 86) = 86
+63885 , 55741 , 55741 , indicator-messa , write(2<UNIX:[465235->465238]>, "\n(process:55741): GLib-GObject-CRITICAL **: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed\n", 118) = 118
+63887 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63888 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63889 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63891 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63895 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63898 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63915 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63917 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63921 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63924 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63941 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63943 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63947 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63950 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63968 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63969 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63970 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+63972 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+63976 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+63979 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+63997 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+63998 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+63999 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+64001 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+64005 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+64008 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+64026 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+64027 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+64028 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 24799) = 1 ([{fd=3, revents=POLLIN}])
+64453 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+64454 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+81844 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81846 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+81868 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+81873 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+81875 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+81878 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+81886 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+82370 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+82374 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82379 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82383 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82386 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82390 , 55741 , 55741 , indicator-messa , futex(0x21d2fb0, FUTEX_WAKE_PRIVATE, 1) = 1
+82396 , 55741 , 55741 , indicator-messa , futex(0x21d2fa0, FUTEX_WAKE_PRIVATE, 1) = 0
+82402 , 55741 , 55741 , indicator-messa , futex(0x21d2f50, FUTEX_WAKE_PRIVATE, 1) = 1
+82405 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+82417 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+82421 , 55741 , 55741 , indicator-messa , futex(0x21ccdd0, FUTEX_WAKE_PRIVATE, 1) = 1
+82424 , 55741 , 55741 , indicator-messa , futex(0x21ccdd0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+82499 , 55741 , 55741 , indicator-messa , futex(0x21ccdd0, FUTEX_WAKE_PRIVATE, 1) = 0
+82610 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82612 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82620 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82624 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82632 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82636 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82640 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82643 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82746 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82748 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82752 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82755 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82773 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82775 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82787 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82792 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82799 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+82800 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\t\0\0\0\0\0\0\0", 16) = 8
+82804 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82806 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82809 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82812 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82818 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82820 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82824 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82827 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82868 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82870 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82874 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82877 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82900 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+82905 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+82907 , 55741 , 55741 , indicator-messa , futex(0x21d2f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82909 , 55741 , 55741 , indicator-messa , futex(0x21d2f50, FUTEX_WAKE_PRIVATE, 1) = 1
+82912 , 55741 , 55741 , indicator-messa , futex(0x21d7b10, FUTEX_WAKE_PRIVATE, 1) = 1
+82916 , 55741 , 55741 , indicator-messa , futex(0x21d2f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82918 , 55741 , 55741 , indicator-messa , futex(0x21d2f50, FUTEX_WAKE_PRIVATE, 1) = 1
+82921 , 55741 , 55741 , indicator-messa , futex(0x222c430, FUTEX_WAKE_PRIVATE, 1) = 1
+82925 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82927 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82933 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82938 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82944 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+82945 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+82946 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82948 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82951 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82954 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82974 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82976 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82980 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82983 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+82989 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+82990 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+82991 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+82993 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+82996 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+82999 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83034 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+83035 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+83036 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83038 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83042 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83045 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83063 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83065 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83069 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83072 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83249 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+83250 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+83251 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83253 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83257 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83260 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83859 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83862 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83867 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83871 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83891 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+83892 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+83893 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83895 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83899 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83902 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83919 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83921 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83925 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83928 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+83947 , 55741 , 55741 , indicator-messa , futex(0x21d2f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83953 , 55741 , 55741 , indicator-messa , futex(0x21d2f50, FUTEX_WAKE_PRIVATE, 1) = 1
+83959 , 55741 , 55741 , indicator-messa , futex(0x222c1c0, FUTEX_WAKE_PRIVATE, 1) = 1
+83981 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+83982 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+83983 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83985 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+83989 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+83992 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+84009 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+84011 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+84015 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+84018 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+84035 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+84037 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+84041 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+84044 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+84062 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+84063 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+84064 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+84066 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+84070 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+84073 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+84098 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+84102 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+84122 , 55741 , 55741 , indicator-messa , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+84124 , 55741 , 55741 , indicator-messa , futex(0x21d9f60, FUTEX_WAKE_PRIVATE, 1) = 1
+84128 , 55741 , 55741 , indicator-messa , futex(0x21e3e80, FUTEX_WAKE_PRIVATE, 1) = 1
+84131 , 55741 , 55741 , indicator-messa , futex(0x21db178, FUTEX_WAKE_PRIVATE, 1) = 1
+84149 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+84150 , 55741 , 55741 , indicator-messa , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+84151 , 55741 , 55741 , indicator-messa , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

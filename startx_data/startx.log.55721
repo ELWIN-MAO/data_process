@@ -1,0 +1,24 @@
+48127 , 55721 , 55711 , indicator-sessi , set_robust_list(0x7fd6d0d089e0, 24) = 0
+48130 , 55721 , 55711 , indicator-sessi , futex(0x7fd6d6ae0408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+48146 , 55721 , 55711 , indicator-sessi , futex(0x7fd6d6ae0408, FUTEX_WAKE_PRIVATE, 1) = 0
+48148 , 55721 , 55711 , indicator-sessi , prctl(PR_SET_NAME, "pool\0\0\0\0\250\254|\326\326\177\0\0") = 0
+48154 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+48168 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 0
+48171 , 55721 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 0, {0, 499999048}) = -1 EAGAIN (Resource temporarily unavailable)
+48176 , 55721 , 55711 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd6ac000000
+48180 , 55721 , 55711 , pool , munmap(0x7fd6b0000000, 67108864) = 0
+48183 , 55721 , 55711 , pool , mprotect(0x7fd6ac000000, 139264, PROT_READ|PROT_WRITE) = 0
+48186 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 1
+48193 , 55721 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 1, {0, 499999745}) = 0
+51975 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+51977 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 0
+51980 , 55721 , 55711 , pool , futex(0x1a338b0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+51991 , 55721 , 55711 , pool , futex(0x1a338b0, FUTEX_WAKE_PRIVATE, 1) = 0
+51997 , 55721 , 55711 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+51999 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+52004 , 55721 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 0
+52007 , 55721 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAKE_PRIVATE, 1) = 1
+52008 , 55721 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 6, {0, 499998799}) = -1 ETIMEDOUT (Connection timed out)
+56373 , 55721 , 55711 , pool , madvise(0x7fd6d0508000, 8368128, MADV_DONTNEED) = 0
+56377 , 55721 , 55711 , pool , exit(0)  = ?
+56379 , 55721 , -1 , NULL , +++ exited with 0 +++

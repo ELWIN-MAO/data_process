@@ -1,0 +1,39 @@
+11202 , 20705 , 20705 , im-launch , close(8<pipe:[113244]>) = 0
+11204 , 20705 , 20705 , im-launch , dup2(9<pipe:[113244]>, 1<pipe:[113057]>) = 1<pipe:[113244]>
+11207 , 20705 , 20705 , im-launch , close(9<pipe:[113244]>) = 0
+11209 , 20705 , 20705 , im-launch , execve("/usr/bin/locale", ["locale"], ["USER=elwin", "TEXTDOMAIN=im-config", "SSH_AGENT_PID=14121", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YJJO3dwNe0,guid=9853040743ab857b2af735ea5a1a7e02", "IM_CONFIG_PHASE=2", "XDG_SESSION_ID=c1", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-gL4RkLZkuPEU/agent.13994", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+11215 , 20705 , 20705 , locale , brk(NULL) = 0x12d3000
+11219 , 20705 , 20705 , locale , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+11222 , 20705 , 20705 , locale , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3c90fb0000
+11226 , 20705 , 20705 , locale , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+11229 , 20705 , 20705 , locale , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+11234 , 20705 , 20705 , locale , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133816, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129302, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/11/23-00:52:24.619138953, st_ctime=2017/11/23-00:52:24.623139102}) = 0
+11236 , 20705 , 20705 , locale , mmap(NULL, 129302, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f3c90f90000
+11239 , 20705 , 20705 , locale , close(8</etc/ld.so.cache>) = 0
+11241 , 20705 , 20705 , locale , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+11244 , 20705 , 20705 , locale , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+11246 , 20705 , 20705 , locale , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+11249 , 20705 , 20705 , locale , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+11251 , 20705 , 20705 , locale , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f3c909c3000
+11254 , 20705 , 20705 , locale , mprotect(0x7f3c90b83000, 2097152, PROT_NONE) = 0
+11256 , 20705 , 20705 , locale , mmap(0x7f3c90d83000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f3c90d83000
+11259 , 20705 , 20705 , locale , mmap(0x7f3c90d89000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3c90d89000
+11263 , 20705 , 20705 , locale , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+11267 , 20705 , 20705 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3c90f8f000
+11270 , 20705 , 20705 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3c90f8e000
+11272 , 20705 , 20705 , locale , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3c90f8d000
+11275 , 20705 , 20705 , locale , arch_prctl(ARCH_SET_FS, 0x7f3c90f8e700) = 0
+11278 , 20705 , 20705 , locale , mprotect(0x7f3c90d83000, 16384, PROT_READ) = 0
+11281 , 20705 , 20705 , locale , mprotect(0x606000, 4096, PROT_READ) = 0
+11283 , 20705 , 20705 , locale , mprotect(0x7f3c90fb2000, 4096, PROT_READ) = 0
+11288 , 20705 , 20705 , locale , munmap(0x7f3c90f90000, 129302) = 0
+11290 , 20705 , 20705 , locale , brk(NULL) = 0x12d3000
+11293 , 20705 , 20705 , locale , brk(0x12f4000) = 0x12f4000
+11297 , 20705 , 20705 , locale , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+11300 , 20705 , 20705 , locale , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+11302 , 20705 , 20705 , locale , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f3c906eb000
+11305 , 20705 , 20705 , locale , close(8</usr/lib/locale/locale-archive>) = 0
+11309 , 20705 , 20705 , locale , fstat(1<pipe:[113244]>, {st_dev=makedev(0, 10), st_ino=113244, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:41:04.307313725, st_mtime=2017/11/26-03:41:04.307313725, st_ctime=2017/11/26-03:41:04.307313725}) = 0
+11313 , 20705 , 20705 , locale , write(1<pipe:[113244]>, "LANG=en_US.UTF-8\nLANGUAGE=\nLC_CTYPE=\"en_US.UTF-8\"\nLC_NUMERIC=\"en_US.UTF-8\"\nLC_TIME=\"en_US.UTF-8\"\nLC_COLLATE=\"en_US.UTF-8\"\nLC_MONETARY=\"en_US.UTF-8\"\nLC_MESSAGES=\"en_US.UTF-8\"\nLC_PAPER=\"en_US.UTF-8\"\nLC_"..., 340) = 340
+11315 , 20705 , 20705 , locale , exit_group(0) = ?
+11317 , 20705 , 20705 , locale , +++ exited with 0 +++

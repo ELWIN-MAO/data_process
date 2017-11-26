@@ -1,0 +1,22 @@
+157547 , 55909 , 55876 , evolution-addre , set_robust_list(0x7fef1c8bf9e0, 24) = 0
+157549 , 55909 , 55876 , evolution-addre , mmap(0x7fef08000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fef08000000
+157551 , 55909 , 55876 , evolution-addre , mprotect(0x7fef08000000, 135168, PROT_READ|PROT_WRITE) = 0
+157552 , 55909 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157553 , 55909 , 55876 , evolution-addre , futex(0x55deaee8b8e8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+157554 , 55909 , 55876 , evolution-addre , fcntl(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+157555 , 55909 , 55876 , evolution-addre , fcntl(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+157556 , 55909 , 55876 , evolution-addre , fcntl(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+157557 , 55909 , 55876 , evolution-addre , stat("/home/elwin/.local/share/evolution/addressbook/system/contacts.db-journal", 0x7fef1c8be5c0) = -1 ENOENT (No such file or directory)
+157558 , 55909 , 55876 , evolution-addre , fstat(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, {st_dev=makedev(8, 1), st_ino=2883736, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=48, st_size=24576, st_atime=2017/11/26-08:16:37.731715359, st_mtime=2017/11/26-08:16:37.715715268, st_ctime=2017/11/26-08:16:37.715715268}) = 0
+157559 , 55909 , 55876 , evolution-addre , lseek(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, 24, SEEK_SET) = 24
+157560 , 55909 , 55876 , evolution-addre , read(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, "\0\0\0\34\0\0\0\30\0\0\0\0\0\0\0\0", 16) = 16
+157561 , 55909 , 55876 , evolution-addre , fstat(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, {st_dev=makedev(8, 1), st_ino=2883736, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=48, st_size=24576, st_atime=2017/11/26-08:16:37.731715359, st_mtime=2017/11/26-08:16:37.715715268, st_ctime=2017/11/26-08:16:37.715715268}) = 0
+157562 , 55909 , 55876 , evolution-addre , stat("/home/elwin/.local/share/evolution/addressbook/system/contacts.db-wal", 0x7fef1c8be5c0) = -1 ENOENT (No such file or directory)
+157563 , 55909 , 55876 , evolution-addre , fstat(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, {st_dev=makedev(8, 1), st_ino=2883736, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=48, st_size=24576, st_atime=2017/11/26-08:16:37.731715359, st_mtime=2017/11/26-08:16:37.715715268, st_ctime=2017/11/26-08:16:37.715715268}) = 0
+157564 , 55909 , 55876 , evolution-addre , lseek(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, 6144, SEEK_SET) = 6144
+157565 , 55909 , 55876 , evolution-addre , read(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, "\r\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+157566 , 55909 , 55876 , evolution-addre , fcntl(11</home/elwin/.local/share/evolution/addressbook/system/contacts.db>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+157567 , 55909 , 55876 , evolution-addre , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157568 , 55909 , 55876 , evolution-addre , madvise(0x7fef1c0bf000, 8368128, MADV_DONTNEED) = 0
+157569 , 55909 , 55876 , evolution-addre , exit(0) = ?
+157570 , 55909 , -1 , NULL , +++ exited with 0 +++

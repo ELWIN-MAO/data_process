@@ -18,7 +18,7 @@ label = "process #130321";
 color = blue;
 }
 subgraph cluster_130335 {
-130335   [label="thread_id:130335\nthread_name_list:\"xrdp-sesman\",\"startwm.sh\",\"ssh-agent\",\"dbus-launch\",\"im-launch\",\"x-session-manag\",\"gnome-session-b\"\nexecve:1747:\"/etc/xrdp/startwm.sh\"=0\nexecve:5703:\"/usr/bin/ssh-agent\"=0\nexecve:5786:\"/usr/bin/dbus-launch\"=0\nexecve:7090:\"/usr/bin/im-launch\"=0\nexecve:7695:\"/bin/x-session-manager\"=-1\nexecve:7696:\"/usr/bin/x-session-manager\"=0\nexecve:10713:\"/usr/lib/gnome-session/gnome-session-binary\"=0\nexit_code:32084:\"1\"", style = filled , color="indianred1"];
+130335   [label="thread_id:130335\nthread_name_list:\"xrdp-sesman\",\"startwm.sh\",\"ssh-agent\",\"dbus-launch\",\"im-launch\",\"x-session-manag\",\"gnome-session-b\"\nexecve:1747:\"/etc/xrdp/startwm.sh\"=0\nexecve:5703:\"/usr/bin/ssh-agent\"=0\nexecve:5786:\"/usr/bin/dbus-launch\"=0\nexecve:7090:\"/usr/bin/im-launch\"=0\nexecve:7695:\"/bin/x-session-manager\"=-1\nexecve:7696:\"/usr/bin/x-session-manager\"=0\nexecve:10713:\"/usr/lib/gnome-session/gnome-session-binary\"=0\nwrite2:32069:\"2<UNIX:[1307903->1307952]>, [{\"gnome-session-binary[130335]: WARNING: software ac\"..., 108}], 1\"\nwrite2:32080:\"2<UNIX:[1307903->1307952]>, [{\"gnome-session-binary[130335]: CRITICAL: We failed,\"..., 89}], 1\"\nexit_code:32084:\"1\"", style = filled , color="indianred1"];
 5431   [label="thread_id:5431\nthread_name_list:\"gnome-session-b\",\"gmain\""];
 5455   [label="thread_id:5455\nthread_name_list:\"gnome-session-b\",\"gdbus\""];
 label = "process #130335";

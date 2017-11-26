@@ -1,0 +1,24 @@
+169652 , 55929 , 55725 , indicator-datet , set_robust_list(0x7f5c427fc9e0, 24) = 0
+169653 , 55929 , 55725 , indicator-datet , prctl(PR_SET_NAME, "pool\0\177\0\0\210\373\350h\\\177\0\0") = 0
+169654 , 55929 , 55725 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5c14000000
+169655 , 55929 , 55725 , pool , munmap(0x7f5c18000000, 67108864) = 0
+169656 , 55929 , 55725 , pool , mprotect(0x7f5c14000000, 139264, PROT_READ|PROT_WRITE) = 0
+169657 , 55929 , 55725 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+169658 , 55929 , 55725 , pool , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 21<anon_inode:[eventfd]>
+169659 , 55929 , 55725 , pool , write(21<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+169660 , 55929 , 55725 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+169661 , 55929 , 55725 , pool , poll([{fd=21<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=21, revents=POLLIN}])
+169662 , 55929 , 55725 , pool , poll([{fd=21<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=21, revents=POLLIN}])
+169663 , 55929 , 55725 , pool , read(21<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+169664 , 55929 , 55725 , pool , poll([{fd=21<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=21, revents=POLLIN}])
+172823 , 55929 , 55725 , pool , futex(0x7f5c14002c00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+172829 , 55929 , 55725 , pool , read(21<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+172830 , 55929 , 55725 , pool , futex(0x7f5c14002c00, FUTEX_WAKE_PRIVATE, 1) = 0
+172831 , 55929 , 55725 , pool , write(21<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+172832 , 55929 , 55725 , pool , futex(0x7f5c14002c10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+172833 , 55929 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+172834 , 55929 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+172835 , 55929 , 55725 , pool , futex(0x244d330, FUTEX_WAIT_PRIVATE, 3, {0, 499999167}) = -1 ETIMEDOUT (Connection timed out)
+175676 , 55929 , 55725 , pool , madvise(0x7f5c41ffc000, 8368128, MADV_DONTNEED) = 0
+175677 , 55929 , 55725 , pool , exit(0) = ?
+175678 , 55929 , -1 , NULL , +++ exited with 0 +++

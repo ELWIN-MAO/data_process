@@ -1,0 +1,88 @@
+1 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [6])
+2 , 2731  , 2731 , xrdp , select(5, [4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+3 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+4 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+5 , 2731  , 2731 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 1 (in [6], left {0, 0})
+6 , 2731  , 2731 , xrdp , getsockopt(6<TCP:[0.0.0.0:3389]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+7 , 2731  , 2731 , xrdp , accept(6<TCP:[0.0.0.0:3389]>, {sa_family=AF_INET, sin_port=htons(49621), sin_addr=inet_addr("192.168.209.1")}, [16]) = 7<TCP:[192.168.209.128:3389->192.168.209.1:49621]>
+8 , 2731  , 2731 , xrdp , socket(PF_LOCAL, SOCK_DGRAM, 0) = 8<UNIX:[29595]>
+9 , 2731  , 2731 , xrdp , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+10 , 2731  , 2731 , xrdp , read(9</dev/urandom>, "\331L\333\323", 4) = 4
+11 , 2731  , 2731 , xrdp , close(9</dev/urandom>) = 0
+12 , 2731  , 2731 , xrdp , bind(8<UNIX:[29595]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000001_d3db4cd9"}, 110) = 0
+13 , 2731  , 2731 , xrdp , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f030ded7000
+14 , 2731  , 2731 , xrdp , mprotect(0x7f030ded7000, 4096, PROT_NONE) = 0
+15 , 2731  , 2731 , xrdp , clone(child_stack=0x7f030e6d6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f030e6d79d0, tls=0x7f030e6d7700, child_tidptr=0x7f030e6d79d0) = 13965
+16 , 2731  , 2731 , xrdp , futex(0xc6f8d0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, ffffffff) = 0
+20 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [3])
+46 , 2731  , 2731 , xrdp , select(5, [4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+48 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+50 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+53 , 2731  , 2731 , xrdp , getsockopt(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+54 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+55 , 2731  , 2731 , xrdp , getsockopt(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+56 , 2731  , 2731 , xrdp , recvfrom(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, "sig\0", 64, 0, NULL, NULL) = 4
+57 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+58 , 2731  , 2731 , xrdp , getsockname(8<UNIX:[29595,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000001_d3db4cd9"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000001_d3db4cd9"}, [81]) = 0
+59 , 2731  , 2731 , xrdp , close(8<UNIX:[29595,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000001_d3db4cd9"]>) = 0
+60 , 2731  , 2731 , xrdp , unlink("/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000001_d3db4cd9") = 0
+61 , 2731  , 2731 , xrdp , shutdown(7<TCP:[29792]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+62 , 2731  , 2731 , xrdp , close(7<TCP:[29792]>) = 0
+63 , 2731  , 2731 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+64 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [6])
+65 , 2731  , 2731 , xrdp , select(5, [4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+66 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+67 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+68 , 2731  , 2731 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 1 (in [6], left {0, 0})
+69 , 2731  , 2731 , xrdp , getsockopt(6<TCP:[0.0.0.0:3389]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+70 , 2731  , 2731 , xrdp , accept(6<TCP:[0.0.0.0:3389]>, {sa_family=AF_INET, sin_port=htons(49622), sin_addr=inet_addr("192.168.209.1")}, [16]) = 7<TCP:[192.168.209.128:3389->192.168.209.1:49622]>
+71 , 2731  , 2731 , xrdp , socket(PF_LOCAL, SOCK_DGRAM, 0) = 8<UNIX:[29635]>
+72 , 2731  , 2731 , xrdp , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+73 , 2731  , 2731 , xrdp , read(9</dev/urandom>, "\2500\217\22", 4) = 4
+74 , 2731  , 2731 , xrdp , close(9</dev/urandom>) = 0
+75 , 2731  , 2731 , xrdp , bind(8<UNIX:[29635]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000002_128f30a8"}, 110) = 0
+76 , 2731  , 2731 , xrdp , clone(child_stack=0x7f030e6d6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f030e6d79d0, tls=0x7f030e6d7700, child_tidptr=0x7f030e6d79d0) = 13966
+78 , 2731  , 2731 , xrdp , futex(0xc6f8d0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, ffffffff) = 0
+81 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [5])
+1686 , 2731  , 2731 , xrdp , select(5, [4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1688 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1690 , 2731  , 2731 , xrdp , getsockopt(5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1691 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1692 , 2731  , 2731 , xrdp , getsockopt(5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1693 , 2731  , 2731 , xrdp , recvfrom(5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>, "sig\0", 64, 0, NULL, NULL) = 4
+1694 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1695 , 2731  , 2731 , xrdp , futex(0x7f030ebb30a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1696 , 2731  , 2731 , xrdp , open("/usr/lib/xrdp/libvnc.so", O_RDONLY|O_CLOEXEC) = 11</usr/lib/xrdp/libvnc.so.0.0.0>
+1697 , 2731  , 2731 , xrdp , read(11</usr/lib/xrdp/libvnc.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0 R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4J\0\0\0\0\0\0\4J\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0\320M \0\0\0\0\0000\3\0\0\0\0\0\0008\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350M\0\0\0\0\0\0\350M \0\0\0\0\0"..., 832) = 832
+1702 , 2731  , 2731 , xrdp , fstat(11</usr/lib/xrdp/libvnc.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4461246, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22688, st_atime=2017/11/26-03:40:31.952107958, st_mtime=2014/10/25-20:14:35, st_ctime=2016/12/08-03:40:17.022040678}) = 0
+1703 , 2731  , 2731 , xrdp , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0) = 0x7f030dcd1000
+1704 , 2731  , 2731 , xrdp , mprotect(0x7f030dcd6000, 2093056, PROT_NONE) = 0
+1705 , 2731  , 2731 , xrdp , mmap(0x7f030ded5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0x4000) = 0x7f030ded5000
+1706 , 2731  , 2731 , xrdp , close(11</usr/lib/xrdp/libvnc.so.0.0.0>) = 0
+1707 , 2731  , 2731 , xrdp , mprotect(0x7f030ded5000, 4096, PROT_READ) = 0
+1708 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1709 , 2731  , 2731 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1710 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [3])
+41644 , 2731  , 2731 , xrdp , select(5, [4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+41650 , 2731  , 2731 , xrdp , select(6, [5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+41654 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+41656 , 2731  , 2731 , xrdp , getsockopt(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+41658 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+41661 , 2731  , 2731 , xrdp , getsockopt(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+41663 , 2731  , 2731 , xrdp , recvfrom(3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>, "sig\0", 64, 0, NULL, NULL) = 4
+41665 , 2731  , 2731 , xrdp , select(4, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+41667 , 2731  , 2731 , xrdp , getsockname(8<UNIX:[29635,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000002_128f30a8"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000002_128f30a8"}, [81]) = 0
+41669 , 2731  , 2731 , xrdp , close(8<UNIX:[29635,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000002_128f30a8"]>) = 0
+41671 , 2731  , 2731 , xrdp , unlink("/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_process_self_term_event_00000002_128f30a8") = 0
+41674 , 2731  , 2731 , xrdp , shutdown(11<TCP:[127.0.0.1:46396->127.0.0.1:5910]>, SHUT_RDWR) = 0
+41676 , 2731  , 2731 , xrdp , close(11<TCP:[31282]>) = 0
+41678 , 2731  , 2731 , xrdp , munmap(0x7f030dcd1000, 2117896) = 0
+41680 , 2731  , 2731 , xrdp , munmap(0x7f030fe1a000, 331776) = 0
+41682 , 2731  , 2731 , xrdp , munmap(0x7f030fd7d000, 643072) = 0
+41701 , 2731  , 2731 , xrdp , getsockname(9<UNIX:[29636,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_wm_login_mode_event_00000002_11b9a32b"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_wm_login_mode_event_00000002_11b9a32b"}, [77]) = 0
+41706 , 2731  , 2731 , xrdp , close(9<UNIX:[29636,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_wm_login_mode_event_00000002_11b9a32b"]>) = 0
+41708 , 2731  , 2731 , xrdp , unlink("/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_wm_login_mode_event_00000002_11b9a32b") = 0
+41711 , 2731  , 2731 , xrdp , shutdown(7<TCP:[29634]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+41713 , 2731  , 2731 , xrdp , close(7<TCP:[29634]>) = 0
+41718 , 2731  , 2731 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+41719 , 2731  , 2731 , xrdp , select(7, [3<UNIX:[25882,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_listen_pro_done_event_287b3944"]> 4<UNIX:[25883,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_term_668dedc5"]> 5<UNIX:[25884,"/tmp/.xrdp/xrdp-6AH08E/xrdp_00000aab_main_sync_662913ea"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL <detached ...>

@@ -1,0 +1,41 @@
+67554 , 55759 , 55745 , indicator-sound , set_robust_list(0x7fe04abbf9e0, 24) = 0
+67556 , 55759 , 55745 , indicator-sound , prctl(PR_SET_NAME, "dconf worker\0\177\0\0") = 0
+67558 , 55759 , 55745 , dconf worker , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe0423bf000
+67561 , 55759 , 55745 , dconf worker , munmap(0x7fe0423bf000, 29626368) = 0
+67570 , 55759 , 55745 , dconf worker , munmap(0x7fe048000000, 37482496) = 0
+67577 , 55759 , 55745 , dconf worker , mprotect(0x7fe044000000, 139264, PROT_READ|PROT_WRITE) = 0
+67581 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+67587 , 55759 , 55745 , dconf worker , futex(0x7fe04bbe15d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+67590 , 55759 , 55745 , dconf worker , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+67591 , 55759 , 55745 , dconf worker , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+67592 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+67593 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+67594 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+67647 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+67649 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+67650 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 0
+67651 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24989) = 1 ([{fd=8, revents=POLLIN}])
+67699 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+67702 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+67703 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 0
+67704 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24984) = 1 ([{fd=8, revents=POLLIN}])
+69021 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+69024 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+69027 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 1
+69029 , 55759 , 55745 , dconf worker , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+69031 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+69097 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+69099 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+69102 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 1
+69104 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24992) = 1 ([{fd=8, revents=POLLIN}])
+70801 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+70808 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+70810 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 1
+70814 , 55759 , 55745 , dconf worker , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+70816 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=8, revents=POLLIN}])
+70882 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+70884 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+70886 , 55759 , 55745 , dconf worker , futex(0x239d400, FUTEX_WAKE_PRIVATE, 1) = 1
+70890 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, 24993) = 0 (Timeout)
+216531 , 55759 , 55745 , dconf worker , read(8<anon_inode:[eventfd]>, 0x7fe04abbec80, 16) = -1 EAGAIN (Resource temporarily unavailable)
+216533 , 55759 , 55745 , dconf worker , poll([{fd=8<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

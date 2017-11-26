@@ -1,0 +1,430 @@
+90696 , 55808 , 55725 , indicator-datet , set_robust_list(0x7f5c58d689e0, 24) = 0
+90697 , 55808 , 55725 , indicator-datet , prctl(PR_SET_NAME, "cal-client-dbus-") = 0
+90711 , 55808 , 55725 , cal-client-dbus , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5c3c000000
+90712 , 55808 , 55725 , cal-client-dbus , munmap(0x7f5c40000000, 67108864) = 0
+90713 , 55808 , 55725 , cal-client-dbus , mprotect(0x7f5c3c000000, 139264, PROT_READ|PROT_WRITE) = 0
+90714 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+90715 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+90716 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+90717 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+90718 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+90719 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+90720 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+90721 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+90722 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+90723 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+90724 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+90725 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+90726 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+113998 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114000 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+114001 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAKE_PRIVATE, 1) = 0
+114002 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114004 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+114005 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+114006 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+114065 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114067 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+114068 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAKE_PRIVATE, 1) = 0
+114069 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114071 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+114072 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+114073 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+114129 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114131 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+114132 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006200, FUTEX_WAKE_PRIVATE, 1) = 0
+114133 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+114134 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c006210, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+114135 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+114136 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+114137 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+114140 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+114141 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+114142 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+114143 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+114144 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+114145 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+121616 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005d50, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+121618 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+121620 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005d50, FUTEX_WAKE_PRIVATE, 1) = 0
+121624 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121627 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005d60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+121630 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005d50, FUTEX_WAKE_PRIVATE, 1) = 1
+121632 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+121641 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121643 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+121645 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+121649 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121651 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121653 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+121657 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+121659 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121662 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121665 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+121668 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121670 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+121672 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121674 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121676 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+121678 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+121681 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+121683 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+121685 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+121687 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+121689 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+121981 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+121986 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+121988 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8e0, FUTEX_WAKE_PRIVATE, 1) = 0
+121991 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+121999 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122002 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+122005 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+122007 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+122254 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+122258 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+122260 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8e0, FUTEX_WAKE_PRIVATE, 1) = 0
+122264 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122266 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+122268 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a8e0, FUTEX_WAKE_PRIVATE, 1) = 0
+122272 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+122281 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+122286 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122290 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 1
+122294 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122308 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122310 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122312 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122328 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+122332 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122334 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+122338 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122341 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122344 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 1
+122346 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+122348 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122353 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+122358 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122360 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+122362 , 55808 , 55725 , cal-client-dbus , futex(0x2461f60, FUTEX_WAKE_PRIVATE, 1) = 1
+122366 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+122368 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+122370 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+122372 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+122650 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00b900, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+122654 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+122672 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00b900, FUTEX_WAKE_PRIVATE, 1) = 0
+122675 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+122679 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+122681 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+122683 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+122686 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+122998 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+123001 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+123003 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+123312 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00b900, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+123314 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+123321 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00b900, FUTEX_WAKE_PRIVATE, 1) = 0
+123324 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+123327 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00b910, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+123329 , 55808 , 55725 , cal-client-dbus , close(12<anon_inode:[eventfd]>) = 0
+123332 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+123334 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+123337 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+123361 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+123363 , 55808 , 55725 , cal-client-dbus , futex(0x2473760, FUTEX_WAKE_PRIVATE, 1) = 0
+123365 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+123367 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+123369 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+123371 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=12, revents=POLLIN}])
+148008 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148011 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148032 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00a7f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148035 , 55808 , 55725 , cal-client-dbus , close(12<anon_inode:[eventfd]>) = 0
+148036 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148038 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148040 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148042 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148044 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148046 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148048 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+148050 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148052 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148054 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148056 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148058 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148060 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148403 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00cc50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148406 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148408 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00cc50, FUTEX_WAKE_PRIVATE, 1) = 0
+148410 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148414 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148416 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+148418 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148814 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00cc50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148818 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148820 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00cc50, FUTEX_WAKE_PRIVATE, 1) = 0
+148822 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148823 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00cc60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148825 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148831 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+148833 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148836 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148838 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148840 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148842 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148844 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148846 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148848 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148850 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+148852 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148854 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148856 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148858 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148860 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148862 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+149388 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149392 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+149394 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAKE_PRIVATE, 1) = 0
+149396 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149400 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+149402 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+149404 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+149706 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149710 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+149711 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAKE_PRIVATE, 1) = 0
+149713 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149717 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+149719 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+149720 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+150479 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150481 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150482 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7a0, FUTEX_WAKE_PRIVATE, 1) = 0
+150483 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150484 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d7b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+150485 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+150486 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150487 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+150490 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150491 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+150492 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+150493 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+150494 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150495 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+152739 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d3f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+152741 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+152742 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d3f0, FUTEX_WAKE_PRIVATE, 1) = 0
+152743 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152744 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00d400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152745 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+152748 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152749 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+152750 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152751 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152752 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152753 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152754 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+152755 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152756 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152757 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+152758 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+152759 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+152760 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+156486 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00ac40, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156488 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156489 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00ac40, FUTEX_WAKE_PRIVATE, 1) = 0
+156490 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156492 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156493 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+156494 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+156742 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00ac40, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156744 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156745 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00ac40, FUTEX_WAKE_PRIVATE, 1) = 0
+156746 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156747 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00ac50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156748 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156751 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+156752 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156753 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156754 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156755 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156756 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156757 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+156758 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\5\0\0\0\0\0\0\0", 16) = 8
+156759 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+156760 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156761 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156762 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+156763 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+156764 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156765 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+156936 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156938 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156939 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAKE_PRIVATE, 1) = 0
+156940 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156941 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fc0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156942 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156943 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156944 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c6973d428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+156945 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+156948 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156949 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+156950 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156951 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+156952 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156953 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156955 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+156957 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+156959 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156975 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=12, revents=POLLIN}])
+157229 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157231 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157232 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAKE_PRIVATE, 1) = 0
+157233 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157235 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157236 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+157237 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+157262 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157264 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157265 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAKE_PRIVATE, 1) = 0
+157266 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157268 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157269 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+157270 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+157636 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157638 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157639 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAKE_PRIVATE, 1) = 0
+157640 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157641 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+157642 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157643 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+157644 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157645 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+157840 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157842 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157843 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAKE_PRIVATE, 1) = 0
+157844 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+157846 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+157847 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157848 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+160978 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+160980 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+160981 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAKE_PRIVATE, 1) = 0
+160982 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+160984 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+160985 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+160987 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+161075 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161077 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161078 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAKE_PRIVATE, 1) = 0
+161079 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161081 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+161082 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161083 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161084 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+161133 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161135 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161136 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAKE_PRIVATE, 1) = 0
+161137 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+161138 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161139 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161140 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+161141 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+161142 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161143 , 55808 , 55725 , cal-client-dbus , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+161427 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161429 , 55808 , 55725 , cal-client-dbus , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161430 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb10, FUTEX_WAKE_PRIVATE, 1) = 0
+161431 , 55808 , 55725 , cal-client-dbus , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161432 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fb20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+161433 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161436 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161448 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+161449 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161450 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+161451 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161452 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161453 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+161454 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+161455 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161456 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+161890 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161892 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161893 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAKE_PRIVATE, 1) = 0
+161894 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161896 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161897 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+161898 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+161936 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161938 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+161939 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAKE_PRIVATE, 1) = 0
+161940 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+161942 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+161943 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+161944 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162001 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162003 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162004 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAKE_PRIVATE, 1) = 0
+162005 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162006 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fc0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+162007 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162008 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+162009 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+162010 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162013 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+162014 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162015 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+162016 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162017 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162018 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+162019 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+162020 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162021 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=12, revents=POLLIN}])
+162131 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162133 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162134 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fb0, FUTEX_WAKE_PRIVATE, 1) = 0
+162135 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162136 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c005fc0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+162137 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162140 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162141 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+162142 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162143 , 55808 , 55725 , cal-client-dbus , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+162144 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162145 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162146 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162147 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162148 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162149 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162339 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162341 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162342 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAKE_PRIVATE, 1) = 0
+162343 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162345 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162346 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+162347 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162407 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162409 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162410 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAKE_PRIVATE, 1) = 0
+162411 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162413 , 55808 , 55725 , cal-client-dbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162414 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+162415 , 55808 , 55725 , cal-client-dbus , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+162576 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162578 , 55808 , 55725 , cal-client-dbus , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162579 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fda0, FUTEX_WAKE_PRIVATE, 1) = 0
+162580 , 55808 , 55725 , cal-client-dbus , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162581 , 55808 , 55725 , cal-client-dbus , futex(0x7f5c3c00fdb0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+162582 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162583 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+162584 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+162585 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+162588 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+162589 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+162590 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+163267 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+163272 , 55808 , 55725 , cal-client-dbus , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+163274 , 55808 , 55725 , cal-client-dbus , futex(0x24c1c60, FUTEX_WAKE_PRIVATE, 1) = 0
+163276 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+163283 , 55808 , 55725 , cal-client-dbus , futex(0x246a0d8, FUTEX_WAKE_PRIVATE, 1) = 0
+163286 , 55808 , 55725 , cal-client-dbus , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+163288 , 55808 , 55725 , cal-client-dbus , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

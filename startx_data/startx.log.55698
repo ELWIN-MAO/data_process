@@ -1,0 +1,21 @@
+41735 , 55698 , 55692 , at-spi-bus-laun , set_robust_list(0x7ff2fb9ac9e0, 24) = 0
+41738 , 55698 , 55692 , at-spi-bus-laun , prctl(PR_SET_NAME, "gdbus\0\0\0\0\0\0\0\0\0\0\0") = 0
+41740 , 55698 , 55692 , gdbus , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7ff2ec000000
+41742 , 55698 , 55692 , gdbus , munmap(0x7ff2f0000000, 67108864) = 0
+41744 , 55698 , 55692 , gdbus , mprotect(0x7ff2ec000000, 139264, PROT_READ|PROT_WRITE) = 0
+41746 , 55698 , 55692 , gdbus , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+41749 , 55698 , 55692 , gdbus , poll([{fd=5<UNIX:[474776->474789]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+41752 , 55698 , 55692 , gdbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+41754 , 55698 , 55692 , gdbus , futex(0x7ff2fe2e2428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+41756 , 55698 , 55692 , gdbus , futex(0x7ff2fe2e2428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+41759 , 55698 , 55692 , gdbus , close(5<UNIX:[474776->474789]>) = 0
+41761 , 55698 , 55692 , gdbus , poll([{fd=5, events=POLLIN}, {fd=7<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 2 ([{fd=5, revents=POLLNVAL}, {fd=7, revents=POLLIN}])
+41763 , 55698 , 55692 , gdbus , read(7<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+41765 , 55698 , 55692 , gdbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+41768 , 55698 , 55692 , gdbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+41770 , 55698 , 55692 , gdbus , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+41772 , 55698 , 55692 , gdbus , futex(0x7ff2fe2e2428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+41776 , 55698 , 55692 , gdbus , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+41778 , 55698 , 55692 , gdbus , read(7<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+41780 , 55698 , 55692 , gdbus , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, -1 <unfinished ...>
+41799 , 55698 , -1 , NULL , +++ exited with 0 +++

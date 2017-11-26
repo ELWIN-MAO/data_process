@@ -1,0 +1,166 @@
+14523 , 55619 , 55619 , xinitrc , close(12</etc/X11/Xsession.d/35x11-common_xhost-local>) = 0
+14524 , 55619 , 55619 , xinitrc , close(11</etc/X11/Xsession>) = 0
+14525 , 55619 , 55619 , xinitrc , close(10</etc/X11/xinit/xinitrc>) = 0
+14526 , 55619 , 55619 , xinitrc , close(4<pipe:[460672]>) = 0
+14527 , 55619 , 55619 , xinitrc , dup2(5<pipe:[460672]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[460672]>
+14528 , 55619 , 55619 , xinitrc , close(5<pipe:[460672]>) = 0
+14529 , 55619 , 55619 , xinitrc , stat("/usr/local/sbin/id", 0x7ffca23d2d70) = -1 ENOENT (No such file or directory)
+14530 , 55619 , 55619 , xinitrc , stat("/usr/local/bin/id", 0x7ffca23d2d70) = -1 ENOENT (No such file or directory)
+14531 , 55619 , 55619 , xinitrc , stat("/usr/sbin/id", 0x7ffca23d2d70) = -1 ENOENT (No such file or directory)
+14532 , 55619 , 55619 , xinitrc , stat("/usr/bin/id", {st_dev=makedev(8, 1), st_ino=4457052, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39760, st_atime=2017/11/25-09:45:40.355537735, st_mtime=2016/02/18-08:37:47, st_ctime=2016/11/03-10:37:53.111999923}) = 0
+14533 , 55619 , 55619 , xinitrc , execve("/usr/bin/id", ["id", "-un"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "HOME=/home/elwin", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SHELL=/bin/bash", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data"]) = 0
+14534 , 55619 , 55619 , id , brk(NULL)  = 0x15fd000
+14535 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14536 , 55619 , 55619 , id , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3e457cd000
+14537 , 55619 , 55619 , id , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+14538 , 55619 , 55619 , id , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+14539 , 55619 , 55619 , id , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+14540 , 55619 , 55619 , id , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7f3e457ad000
+14541 , 55619 , 55619 , id , close(4</etc/ld.so.cache>) = 0
+14542 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14543 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libselinux.so.1>
+14544 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+14545 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+14546 , 55619 , 55619 , id , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f3e45388000
+14547 , 55619 , 55619 , id , mprotect(0x7f3e453a7000, 2093056, PROT_NONE) = 0
+14548 , 55619 , 55619 , id , mmap(0x7f3e455a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f3e455a6000
+14549 , 55619 , 55619 , id , mmap(0x7f3e455a8000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3e455a8000
+14550 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+14551 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14552 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+14553 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+14554 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14555 , 55619 , 55619 , id , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f3e44fbe000
+14556 , 55619 , 55619 , id , mprotect(0x7f3e4517e000, 2097152, PROT_NONE) = 0
+14557 , 55619 , 55619 , id , mmap(0x7f3e4537e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f3e4537e000
+14558 , 55619 , 55619 , id , mmap(0x7f3e45384000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3e45384000
+14559 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+14560 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14561 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+14562 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+14563 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+14564 , 55619 , 55619 , id , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3e457ac000
+14565 , 55619 , 55619 , id , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f3e44d4e000
+14566 , 55619 , 55619 , id , mprotect(0x7f3e44dbc000, 2097152, PROT_NONE) = 0
+14567 , 55619 , 55619 , id , mmap(0x7f3e44fbc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f3e44fbc000
+14568 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+14569 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14570 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libdl-2.23.so>
+14571 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+14572 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14573 , 55619 , 55619 , id , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f3e44b4a000
+14574 , 55619 , 55619 , id , mprotect(0x7f3e44b4d000, 2093056, PROT_NONE) = 0
+14575 , 55619 , 55619 , id , mmap(0x7f3e44d4c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f3e44d4c000
+14576 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+14577 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14578 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libpthread-2.23.so>
+14579 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+14580 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14581 , 55619 , 55619 , id , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f3e4492d000
+14582 , 55619 , 55619 , id , mprotect(0x7f3e44945000, 2093056, PROT_NONE) = 0
+14583 , 55619 , 55619 , id , mmap(0x7f3e44b44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f3e44b44000
+14584 , 55619 , 55619 , id , mmap(0x7f3e44b46000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3e44b46000
+14585 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+14586 , 55619 , 55619 , id , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3e457ab000
+14587 , 55619 , 55619 , id , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3e457a9000
+14588 , 55619 , 55619 , id , arch_prctl(ARCH_SET_FS, 0x7f3e457a9800) = 0
+14589 , 55619 , 55619 , id , mprotect(0x7f3e4537e000, 16384, PROT_READ) = 0
+14590 , 55619 , 55619 , id , mprotect(0x7f3e44b44000, 4096, PROT_READ) = 0
+14591 , 55619 , 55619 , id , mprotect(0x7f3e44d4c000, 4096, PROT_READ) = 0
+14592 , 55619 , 55619 , id , mprotect(0x7f3e44fbc000, 4096, PROT_READ) = 0
+14593 , 55619 , 55619 , id , mprotect(0x7f3e455a6000, 4096, PROT_READ) = 0
+14594 , 55619 , 55619 , id , mprotect(0x608000, 4096, PROT_READ) = 0
+14595 , 55619 , 55619 , id , mprotect(0x7f3e457cf000, 4096, PROT_READ) = 0
+14596 , 55619 , 55619 , id , munmap(0x7f3e457ad000, 129890) = 0
+14597 , 55619 , 55619 , id , set_tid_address(0x7f3e457a9ad0) = 55619
+14598 , 55619 , 55619 , id , set_robust_list(0x7f3e457a9ae0, 24) = 0
+14599 , 55619 , 55619 , id , rt_sigaction(SIGRTMIN, {0x7f3e44932b50, [], SA_RESTORER|SA_SIGINFO, 0x7f3e4493e390}, NULL, 8) = 0
+14600 , 55619 , 55619 , id , rt_sigaction(SIGRT_1, {0x7f3e44932be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f3e4493e390}, NULL, 8) = 0
+14601 , 55619 , 55619 , id , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+14602 , 55619 , 55619 , id , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+14603 , 55619 , 55619 , id , statfs("/sys/fs/selinux", 0x7fff722564f0) = -1 ENOENT (No such file or directory)
+14604 , 55619 , 55619 , id , statfs("/selinux", 0x7fff722564f0) = -1 ENOENT (No such file or directory)
+14605 , 55619 , 55619 , id , brk(NULL)  = 0x15fd000
+14606 , 55619 , 55619 , id , brk(0x161e000) = 0x161e000
+14607 , 55619 , 55619 , id , open("/proc/filesystems", O_RDONLY) = 4</proc/filesystems>
+14608 , 55619 , 55619 , id , fstat(4</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:11.363566234, st_mtime=2017/11/26-08:16:11.363566234, st_ctime=2017/11/26-08:16:11.363566234}) = 0
+14609 , 55619 , 55619 , id , read(4</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+14610 , 55619 , 55619 , id , read(4</proc/filesystems>, "", 1024) = 0
+14611 , 55619 , 55619 , id , close(4</proc/filesystems>) = 0
+14612 , 55619 , 55619 , id , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 4</usr/lib/locale/locale-archive>
+14613 , 55619 , 55619 , id , fstat(4</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+14614 , 55619 , 55619 , id , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 4</usr/lib/locale/locale-archive>, 0) = 0x7f3e44655000
+14615 , 55619 , 55619 , id , close(4</usr/lib/locale/locale-archive>) = 0
+14616 , 55619 , 55619 , id , geteuid()  = 0
+14617 , 55619 , 55619 , id , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4<UNIX:[460681]>
+14618 , 55619 , 55619 , id , connect(4<UNIX:[460681]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+14619 , 55619 , 55619 , id , close(4<UNIX:[460681]>) = 0
+14620 , 55619 , 55619 , id , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4<UNIX:[460685]>
+14621 , 55619 , 55619 , id , connect(4<UNIX:[460685]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+14622 , 55619 , 55619 , id , close(4<UNIX:[460685]>) = 0
+14623 , 55619 , 55619 , id , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4</etc/nsswitch.conf>
+14624 , 55619 , 55619 , id , fstat(4</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2017/11/25-09:34:42.176713163, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+14625 , 55619 , 55619 , id , read(4</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+14626 , 55619 , 55619 , id , read(4</etc/nsswitch.conf>, "", 4096) = 0
+14627 , 55619 , 55619 , id , close(4</etc/nsswitch.conf>) = 0
+14628 , 55619 , 55619 , id , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+14629 , 55619 , 55619 , id , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+14630 , 55619 , 55619 , id , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7f3e457ad000
+14631 , 55619 , 55619 , id , close(4</etc/ld.so.cache>) = 0
+14632 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14633 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+14634 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+14635 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14636 , 55619 , 55619 , id , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7f3e4444c000
+14637 , 55619 , 55619 , id , mprotect(0x7f3e44454000, 2093056, PROT_NONE) = 0
+14638 , 55619 , 55619 , id , mmap(0x7f3e44653000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7f3e44653000
+14639 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+14640 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14641 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libnsl-2.23.so>
+14642 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+14643 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14644 , 55619 , 55619 , id , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7f3e44233000
+14645 , 55619 , 55619 , id , mprotect(0x7f3e44249000, 2093056, PROT_NONE) = 0
+14646 , 55619 , 55619 , id , mmap(0x7f3e44448000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7f3e44448000
+14647 , 55619 , 55619 , id , mmap(0x7f3e4444a000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3e4444a000
+14648 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+14649 , 55619 , 55619 , id , mprotect(0x7f3e44448000, 4096, PROT_READ) = 0
+14650 , 55619 , 55619 , id , mprotect(0x7f3e44653000, 4096, PROT_READ) = 0
+14651 , 55619 , 55619 , id , munmap(0x7f3e457ad000, 129890) = 0
+14652 , 55619 , 55619 , id , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+14653 , 55619 , 55619 , id , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+14654 , 55619 , 55619 , id , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7f3e457ad000
+14655 , 55619 , 55619 , id , close(4</etc/ld.so.cache>) = 0
+14656 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14657 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+14658 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+14659 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997535, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14660 , 55619 , 55619 , id , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7f3e44027000
+14661 , 55619 , 55619 , id , mprotect(0x7f3e44032000, 2093056, PROT_NONE) = 0
+14662 , 55619 , 55619 , id , mmap(0x7f3e44231000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7f3e44231000
+14663 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+14664 , 55619 , 55619 , id , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14665 , 55619 , 55619 , id , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+14666 , 55619 , 55619 , id , read(4</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+14667 , 55619 , 55619 , id , fstat(4</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997532, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+14668 , 55619 , 55619 , id , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7f3e43e15000
+14669 , 55619 , 55619 , id , mprotect(0x7f3e43e20000, 2093056, PROT_NONE) = 0
+14670 , 55619 , 55619 , id , mmap(0x7f3e4401f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7f3e4401f000
+14671 , 55619 , 55619 , id , mmap(0x7f3e44021000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3e44021000
+14672 , 55619 , 55619 , id , close(4</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+14673 , 55619 , 55619 , id , mprotect(0x7f3e4401f000, 4096, PROT_READ) = 0
+14674 , 55619 , 55619 , id , mprotect(0x7f3e44231000, 4096, PROT_READ) = 0
+14675 , 55619 , 55619 , id , munmap(0x7f3e457ad000, 129890) = 0
+14676 , 55619 , 55619 , id , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4</etc/passwd>
+14677 , 55619 , 55619 , id , lseek(4</etc/passwd>, 0, SEEK_CUR) = 0
+14678 , 55619 , 55619 , id , fstat(4</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+14679 , 55619 , 55619 , id , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 4</etc/passwd>, 0) = 0x7f3e457cc000
+14680 , 55619 , 55619 , id , lseek(4</etc/passwd>, 2368, SEEK_SET) = 2368
+14681 , 55619 , 55619 , id , munmap(0x7f3e457cc000, 2368) = 0
+14682 , 55619 , 55619 , id , close(4</etc/passwd>) = 0
+14683 , 55619 , 55619 , id , fstat(1<pipe:[460672]>, {st_dev=makedev(0, 10), st_ino=460672, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:11.351566166, st_mtime=2017/11/26-08:16:11.351566166, st_ctime=2017/11/26-08:16:11.351566166}) = 0
+14684 , 55619 , 55619 , id , write(1<pipe:[460672]>, "root\n", 5) = 5
+14686 , 55619 , 55619 , id , close(1<pipe:[460672]>) = 0
+14689 , 55619 , 55619 , id , close(2</home/elwin/.xsession-errors>) = 0
+14690 , 55619 , 55619 , id , exit_group(0) = ?
+14691 , 55619 , -1 , NULL , +++ exited with 0 +++

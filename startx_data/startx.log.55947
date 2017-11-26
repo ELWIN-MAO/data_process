@@ -1,0 +1,15 @@
+175804 , 55947 , 55928 , zeitgeist-daemo , set_robust_list(0x7fe90f7fe9e0, 24) = 0
+175807 , 55947 , 55928 , zeitgeist-daemo , prctl(PR_SET_NAME, "pool\0\177\0\0\270+}\26\351\177\0\0") = 0
+175810 , 55947 , 55928 , pool , futex(0x149e700, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+175816 , 55947 , 55928 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe8fc000000
+175818 , 55947 , 55928 , pool , munmap(0x7fe900000000, 67108864) = 0
+175820 , 55947 , 55928 , pool , mprotect(0x7fe8fc000000, 139264, PROT_READ|PROT_WRITE) = 0
+175823 , 55947 , 55928 , pool , futex(0x149e700, FUTEX_WAKE_PRIVATE, 1) = 0
+175825 , 55947 , 55928 , pool , futex(0x14941e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+176165 , 55947 , 55928 , pool , futex(0x14941e0, FUTEX_WAKE_PRIVATE, 1) = 0
+176166 , 55947 , 55928 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176167 , 55947 , 55928 , pool , futex(0x149e710, FUTEX_WAIT_PRIVATE, 0, {0, 499999417}) = -1 ETIMEDOUT (Connection timed out)
+179565 , 55947 , 55928 , pool , futex(0x149e760, FUTEX_WAIT_PRIVATE, 0, {14, 999999426}) = -1 ETIMEDOUT (Connection timed out)
+314952 , 55947 , 55928 , pool , madvise(0x7fe90effe000, 8368128, MADV_DONTNEED) = 0
+315042 , 55947 , 55928 , pool , exit(0) = ?
+315085 , 55947 , -1 , NULL , +++ exited with 0 +++

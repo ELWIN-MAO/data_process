@@ -1,0 +1,760 @@
+53650 , 55733 , 55733 , gnome-session-b , set_robust_list(0x7fc823a45d60, 24) = 0
+53652 , 55733 , 55733 , gnome-session-b , rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+53656 , 55733 , 55733 , gnome-session-b , rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+53657 , 55733 , 55733 , gnome-session-b , rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {0x7fc8227bd890, [], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7fc8223e24b0}, 8) = 0
+53660 , 55733 , 55733 , gnome-session-b , rt_sigaction(SIGHUP, {SIG_DFL, [HUP], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_DFL, [], 0}, 8) = 0
+53661 , 55733 , 55733 , gnome-session-b , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc8223e24b0}, 8) = 0
+53662 , 55733 , 55733 , gnome-session-b , close(15<pipe:[477309]>) = 0
+53663 , 55733 , 55733 , gnome-session-b , open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 15</proc/55733/fd>
+53664 , 55733 , 55733 , gnome-session-b , fstat(15</proc/55733/fd>, {st_dev=makedev(0, 4), st_ino=478248, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:20.119615954, st_mtime=2017/11/26-08:16:20.119615954, st_ctime=2017/11/26-08:16:20.119615954}) = 0
+53665 , 55733 , 55733 , gnome-session-b , getdents(15</proc/55733/fd>, [{d_ino=478248, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=478247, d_off=2, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=478250, d_off=3, d_reclen=24, d_name="0", d_type=DT_LNK}, {d_ino=478251, d_off=4, d_reclen=24, d_name="1", d_type=DT_LNK}, {d_ino=478252, d_off=5, d_reclen=24, d_name="2", d_type=DT_LNK}, {d_ino=478253, d_off=6, d_reclen=24, d_name="3", d_type=DT_LNK}, {d_ino=478254, d_off=7, d_reclen=24, d_name="4", d_type=DT_LNK}, {d_ino=478255, d_off=8, d_reclen=24, d_name="5", d_type=DT_LNK}, {d_ino=478256, d_off=9, d_reclen=24, d_name="6", d_type=DT_LNK}, {d_ino=478257, d_off=10, d_reclen=24, d_name="7", d_type=DT_LNK}, {d_ino=478258, d_off=11, d_reclen=24, d_name="8", d_type=DT_LNK}, {d_ino=478259, d_off=12, d_reclen=24, d_name="9", d_type=DT_LNK}, {d_ino=478260, d_off=13, d_reclen=24, d_name="10", d_type=DT_LNK}, {d_ino=478261, d_off=14, d_reclen=24, d_name="11", d_type=DT_LNK}, {d_ino=478262, d_off=15, d_reclen=24, d_name="12", d_type=DT_LNK}, {d_ino=478263, d_off=16, d_reclen=24, d_name="13", d_type=DT_LNK}, {d_ino=478264, d_off=17, d_reclen=24, d_name="14", d_type=DT_LNK}, {d_ino=478249, d_off=18, d_reclen=24, d_name="15", d_type=DT_LNK}, {d_ino=478265, d_off=66, d_reclen=24, d_name="16", d_type=DT_LNK}], 32768) = 456
+53666 , 55733 , 55733 , gnome-session-b , fcntl(3</dev/pid2task>, F_SETFD, FD_CLOEXEC) = 0
+53702 , 55733 , 55733 , gnome-session-b , fcntl(4<UNIX:[465235->465238]>, F_SETFD, FD_CLOEXEC) = 0
+53703 , 55733 , 55733 , gnome-session-b , fcntl(5<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+53704 , 55733 , 55733 , gnome-session-b , fcntl(6<UNIX:[465115->465121]>, F_SETFD, FD_CLOEXEC) = 0
+53705 , 55733 , 55733 , gnome-session-b , fcntl(7<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+53706 , 55733 , 55733 , gnome-session-b , fcntl(8<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+53707 , 55733 , 55733 , gnome-session-b , fcntl(9<UNIX:[471861->465826]>, F_SETFD, FD_CLOEXEC) = 0
+53708 , 55733 , 55733 , gnome-session-b , fcntl(10<anon_inode:inotify>, F_SETFD, FD_CLOEXEC) = 0
+53709 , 55733 , 55733 , gnome-session-b , fcntl(11<anon_inode:[eventfd]>, F_SETFD, FD_CLOEXEC) = 0
+53710 , 55733 , 55733 , gnome-session-b , fcntl(12<UNIX:[474331,@"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+53711 , 55733 , 55733 , gnome-session-b , fcntl(13<UNIX:[474336,"/tmp/.ICE-unix/55604"]>, F_SETFD, FD_CLOEXEC) = 0
+53712 , 55733 , 55733 , gnome-session-b , fcntl(14<UNIX:[475613->1478]>, F_SETFD, FD_CLOEXEC) = 0
+53713 , 55733 , 55733 , gnome-session-b , fcntl(16<pipe:[477309]>, F_SETFD, FD_CLOEXEC) = 0
+53714 , 55733 , 55733 , gnome-session-b , getdents(15</proc/55733/fd>, [], 32768) = 0
+53715 , 55733 , 55733 , gnome-session-b , close(15</proc/55733/fd>) = 0
+53716 , 55733 , 55733 , gnome-session-b , open("/dev/null", O_RDONLY) = 15</dev/null>
+53717 , 55733 , 55733 , gnome-session-b , dup2(15</dev/null>, 0</dev/tty1>) = 0</dev/null>
+53718 , 55733 , 55733 , gnome-session-b , close(15</dev/null>) = 0
+53719 , 55733 , 55733 , gnome-session-b , execve("/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service", ["/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "XDG_CURRENT_DESKTOP=GNOME", "QT_IM_MODULE=ibus", "XMODIFIERS=@im=ibus", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "XDG_MENU_PREFIX=gnome-", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "DESKTOP_AUTOSTART_ID=10429ce9d5a07de939151170217852477900000556040035", "GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/indicator-bluetooth.desktop", "GIO_LAUNCHED_DESKTOP_FILE_PID=55733"]) = 0
+54370 , 55733 , 55733 , indicator-bluet , brk(NULL) = 0x24af000
+54371 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54372 , 55733 , 55733 , indicator-bluet , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190375000
+54373 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+54374 , 55733 , 55733 , indicator-bluet , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+54375 , 55733 , 55733 , indicator-bluet , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+54376 , 55733 , 55733 , indicator-bluet , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f9190355000
+54377 , 55733 , 55733 , indicator-bluet , close(3</etc/ld.so.cache>) = 0
+54378 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54379 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>
+54380 , 55733 , 55733 , indicator-bluet , read(3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\350!\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\254\24\0\0\0\0\0\0\254\24\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300\35\0\0\0\0\0\0\300\35 \0\0\0\0\0\300\35 \0\0\0\0\0\10\3\0\0\0\0\0\0\20\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330\35\0\0\0\0\0\0\330\35 \0\0\0\0\0"..., 832) = 832
+54381 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4466462, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10408, st_atime=2017/11/26-03:14:10.771371885, st_mtime=2015/12/10-20:34:55, st_ctime=2016/11/03-10:38:46.971999882}) = 0
+54382 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2105552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>, 0) = 0x7f918ff4f000
+54383 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ff51000, 2093056, PROT_NONE) = 0
+54384 , 55733 , 55733 , indicator-bluet , mmap(0x7f9190150000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>, 0x1000) = 0x7f9190150000
+54385 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/x86_64-linux-gnu/liburl-dispatcher.so.1.0.0>) = 0
+54386 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54387 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+54388 , 55733 , 55733 , indicator-bluet , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+54389 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+54390 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f918fbc7000
+54391 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918fd47000, 2097152, PROT_NONE) = 0
+54392 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ff47000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f918ff47000
+54393 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ff4d000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918ff4d000
+54394 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+54395 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54396 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+54397 , 55733 , 55733 , indicator-bluet , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+54398 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+54399 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190354000
+54400 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f918f974000
+54401 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f9c6000, 2093056, PROT_NONE) = 0
+54402 , 55733 , 55733 , indicator-bluet , mmap(0x7f918fbc5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f918fbc5000
+54403 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+54404 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54405 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+54406 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+54407 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+54408 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f918f663000
+54409 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f771000, 2097152, PROT_NONE) = 0
+54410 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f971000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f918f971000
+54411 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f973000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918f973000
+54412 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+54413 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54414 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+54415 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+54416 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+54417 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f918f446000
+54418 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f45e000, 2093056, PROT_NONE) = 0
+54419 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f65d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f918f65d000
+54420 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f65f000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918f65f000
+54421 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+54422 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54423 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+54424 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+54425 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+54426 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190353000
+54427 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f918f07c000
+54428 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f23c000, 2097152, PROT_NONE) = 0
+54429 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f43c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f918f43c000
+54430 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f442000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918f442000
+54431 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+54432 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54433 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+54434 , 55733 , 55733 , indicator-bluet , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+54435 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+54436 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f918ee78000
+54437 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ee7b000, 2093056, PROT_NONE) = 0
+54438 , 55733 , 55733 , indicator-bluet , mmap(0x7f918f07a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f918f07a000
+54439 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+54440 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54441 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+54442 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+54443 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+54444 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f918ec5e000
+54445 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ec77000, 2093056, PROT_NONE) = 0
+54446 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ee76000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f918ee76000
+54447 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+54448 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54449 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+54450 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+54451 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+54452 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190352000
+54453 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f918ea3c000
+54454 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ea5b000, 2093056, PROT_NONE) = 0
+54455 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ec5a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f918ec5a000
+54456 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ec5c000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918ec5c000
+54457 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+54458 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54459 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+54460 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+54461 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+54462 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f918e821000
+54463 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e838000, 2097152, PROT_NONE) = 0
+54464 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ea38000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f918ea38000
+54465 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ea3a000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f918ea3a000
+54466 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+54467 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54468 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+54469 , 55733 , 55733 , indicator-bluet , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+54470 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+54471 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f918e619000
+54472 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e620000, 2093056, PROT_NONE) = 0
+54473 , 55733 , 55733 , indicator-bluet , mmap(0x7f918e81f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f918e81f000
+54474 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+54475 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54476 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+54477 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+54478 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+54479 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190351000
+54480 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f918e3a9000
+54481 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e417000, 2097152, PROT_NONE) = 0
+54482 , 55733 , 55733 , indicator-bluet , mmap(0x7f918e617000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f918e617000
+54483 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+54484 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+54485 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+54486 , 55733 , 55733 , indicator-bluet , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+54487 , 55733 , 55733 , indicator-bluet , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+54488 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f918e1a5000
+54489 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e1a8000, 2093056, PROT_NONE) = 0
+54490 , 55733 , 55733 , indicator-bluet , mmap(0x7f918e3a7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f918e3a7000
+54491 , 55733 , 55733 , indicator-bluet , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+54492 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9190350000
+54493 , 55733 , 55733 , indicator-bluet , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f919034f000
+54494 , 55733 , 55733 , indicator-bluet , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f919034d000
+54495 , 55733 , 55733 , indicator-bluet , arch_prctl(ARCH_SET_FS, 0x7f919034d800) = 0
+54496 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f43c000, 16384, PROT_READ) = 0
+54497 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e3a7000, 4096, PROT_READ) = 0
+54498 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f65d000, 4096, PROT_READ) = 0
+54499 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e617000, 4096, PROT_READ) = 0
+54500 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918e81f000, 4096, PROT_READ) = 0
+54501 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ea38000, 4096, PROT_READ) = 0
+54502 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ec5a000, 4096, PROT_READ) = 0
+54503 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ee76000, 4096, PROT_READ) = 0
+54504 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f971000, 4096, PROT_READ) = 0
+54505 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918f07a000, 4096, PROT_READ) = 0
+54506 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918fbc5000, 4096, PROT_READ) = 0
+54507 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ff47000, 16384, PROT_READ) = 0
+54508 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9190150000, 4096, PROT_READ) = 0
+54509 , 55733 , 55733 , indicator-bluet , mprotect(0x614000, 4096, PROT_READ) = 0
+54510 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9190377000, 4096, PROT_READ) = 0
+54511 , 55733 , 55733 , indicator-bluet , munmap(0x7f9190355000, 129890) = 0
+54512 , 55733 , 55733 , indicator-bluet , set_tid_address(0x7f919034dad0) = 55733
+54513 , 55733 , 55733 , indicator-bluet , set_robust_list(0x7f919034dae0, 24) = 0
+54514 , 55733 , 55733 , indicator-bluet , rt_sigaction(SIGRTMIN, {0x7f918f44bb50, [], SA_RESTORER|SA_SIGINFO, 0x7f918f457390}, NULL, 8) = 0
+54515 , 55733 , 55733 , indicator-bluet , rt_sigaction(SIGRT_1, {0x7f918f44bbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f918f457390}, NULL, 8) = 0
+54516 , 55733 , 55733 , indicator-bluet , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+54517 , 55733 , 55733 , indicator-bluet , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+54518 , 55733 , 55733 , indicator-bluet , statfs("/sys/fs/selinux", 0x7ffdec8fffc0) = -1 ENOENT (No such file or directory)
+54519 , 55733 , 55733 , indicator-bluet , statfs("/selinux", 0x7ffdec8fffc0) = -1 ENOENT (No such file or directory)
+54520 , 55733 , 55733 , indicator-bluet , brk(NULL) = 0x24af000
+54521 , 55733 , 55733 , indicator-bluet , brk(0x24d0000) = 0x24d0000
+54522 , 55733 , 55733 , indicator-bluet , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+54523 , 55733 , 55733 , indicator-bluet , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:20.203616430, st_mtime=2017/11/26-08:16:20.203616430, st_ctime=2017/11/26-08:16:20.203616430}) = 0
+54524 , 55733 , 55733 , indicator-bluet , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+54525 , 55733 , 55733 , indicator-bluet , read(3</proc/filesystems>, "", 1024) = 0
+54526 , 55733 , 55733 , indicator-bluet , close(3</proc/filesystems>) = 0
+54527 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54528 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54529 , 55733 , 55733 , indicator-bluet , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+54530 , 55733 , 55733 , indicator-bluet , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+54531 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f918decd000
+54532 , 55733 , 55733 , indicator-bluet , close(3</usr/lib/locale/locale-archive>) = 0
+54533 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54534 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54535 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54536 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54537 , 55733 , 55733 , indicator-bluet , open("/dev/rfkill", O_RDWR|O_NONBLOCK) = 3</dev/rfkill>
+54538 , 55733 , 55733 , indicator-bluet , read(3</dev/rfkill>, 0x7ffdec8ffc80, 8) = -1 EAGAIN (Resource temporarily unavailable)
+54539 , 55733 , 55733 , indicator-bluet , fstat(3</dev/rfkill>, {st_dev=makedev(0, 6), st_ino=4, st_mode=S_IFCHR|0664, st_nlink=1, st_uid=0, st_gid=109, st_blksize=4096, st_blocks=0, st_rdev=makedev(10, 62), st_atime=2017/11/26-03:20:03.419999619, st_mtime=2017/11/26-03:20:03.419999619, st_ctime=2017/11/26-08:11:54.085997805}) = 0
+54540 , 55733 , 55733 , indicator-bluet , fcntl(3</dev/rfkill>, F_GETFL) = 0x8802 (flags O_RDWR|O_NONBLOCK|O_LARGEFILE)
+54541 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54542 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 4<anon_inode:[eventfd]>
+54543 , 55733 , 55733 , indicator-bluet , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+54544 , 55733 , 55733 , indicator-bluet , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+54545 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54546 , 55733 , 55733 , indicator-bluet , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+54547 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+54548 , 55733 , 55733 , indicator-bluet , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+54549 , 55733 , 55733 , indicator-bluet , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f918d6cc000
+54550 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918d6cc000, 4096, PROT_NONE) = 0
+54551 , 55733 , 55733 , indicator-bluet , clone(child_stack=0x7f918decbef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f918decc9d0, tls=0x7f918decc700, child_tidptr=0x7f918decc9d0) = 55734
+54552 , 55733 , 55733 , indicator-bluet , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+54553 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54554 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54555 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54556 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 6</etc/locale.alias>
+54557 , 55733 , 55733 , indicator-bluet , fstat(6</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+54558 , 55733 , 55733 , indicator-bluet , read(6</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+54559 , 55733 , 55733 , indicator-bluet , read(6</etc/locale.alias>, "", 4096) = 0
+54560 , 55733 , 55733 , indicator-bluet , close(6</etc/locale.alias>) = 0
+54561 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54562 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54563 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54564 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54565 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.utf8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54566 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54567 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54568 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54569 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54570 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54571 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54572 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en/LC_MESSAGES/indicator-bluetooth.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54573 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54574 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54575 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54576 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54577 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54578 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54579 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54580 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54581 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54582 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54583 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54584 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54585 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54586 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54587 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54588 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54589 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54590 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54591 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54592 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54593 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54594 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54595 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54596 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54597 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54598 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54599 , 55733 , 55733 , indicator-bluet , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f918cecb000
+54600 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918cecb000, 4096, PROT_NONE) = 0
+54601 , 55733 , 55733 , indicator-bluet , clone(child_stack=0x7f918d6caef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f918d6cb9d0, tls=0x7f918d6cb700, child_tidptr=0x7f918d6cb9d0) = 55735
+54602 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54603 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54604 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54605 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54606 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54607 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54608 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54609 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54610 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54611 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54612 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54613 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54614 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54615 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54616 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54617 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54618 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54619 , 55733 , 55733 , indicator-bluet , brk(0x24f1000) = 0x24f1000
+54620 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54621 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54622 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54623 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54624 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54625 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54626 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54627 , 55733 , 55733 , indicator-bluet , open("/var/lib/snapd/desktop/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+54628 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+54629 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54630 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54631 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54632 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54633 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54634 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54635 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54636 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54637 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54638 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54639 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54640 , 55733 , 55733 , indicator-bluet , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+54641 , 55733 , 55733 , indicator-bluet , open("/usr/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = 6</usr/share/glib-2.0/schemas/gschemas.compiled>
+54642 , 55733 , 55733 , indicator-bluet , fstat(6</usr/share/glib-2.0/schemas/gschemas.compiled>, {st_dev=makedev(8, 1), st_ino=657187, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=568, st_size=289509, st_atime=2017/11/26-03:11:56.013280590, st_mtime=2017/08/27-05:23:00.494191592, st_ctime=2017/08/27-05:23:00.502188777}) = 0
+54643 , 55733 , 55733 , indicator-bluet , mmap(NULL, 289509, PROT_READ, MAP_PRIVATE, 6</usr/share/glib-2.0/schemas/gschemas.compiled>, 0) = 0x7f9190306000
+54644 , 55733 , 55733 , indicator-bluet , close(6</usr/share/glib-2.0/schemas/gschemas.compiled>) = 0
+54645 , 55733 , 55733 , indicator-bluet , open("/usr/local/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+54646 , 55733 , 55733 , indicator-bluet , open("/usr/share/gnome/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+54647 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54648 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54649 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54650 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54651 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54652 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54653 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54654 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54655 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54656 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54657 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54658 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54659 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54660 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 6</usr/lib/x86_64-linux-gnu/gio/modules>
+54661 , 55733 , 55733 , indicator-bluet , fstat(6</usr/lib/x86_64-linux-gnu/gio/modules>, {st_dev=makedev(8, 1), st_ino=4721503, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:40:41.151999795}) = 0
+54662 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+54663 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", O_RDONLY) = 7</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>
+54664 , 55733 , 55733 , indicator-bluet , fstat(7</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, {st_dev=makedev(8, 1), st_ino=4721504, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/20-18:13:40, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+54665 , 55733 , 55733 , indicator-bluet , read(7</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, "libdconfsettings.so: gsettings-backend\nlibgvfsdbus.so: gio-vfs,gio-volume-monitor\nlibgiognutls.so: gio-tls-backend\nlibgiolibproxy.so: gio-proxy-resolver\nlibgioremote-volume-monitor.so: gio-native-volu"..., 270) = 270
+54666 , 55733 , 55733 , indicator-bluet , close(7</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>) = 0
+54667 , 55733 , 55733 , indicator-bluet , getdents(6</usr/lib/x86_64-linux-gnu/gio/modules>, [{d_ino=4721504, d_off=3010095946851488672, d_reclen=40, d_name="giomodule.cache", d_type=DT_REG}, {d_ino=4720263, d_off=3343782266566960305, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4721505, d_off=5361588105076898494, d_reclen=40, d_name="libdconfsettings.so", d_type=DT_REG}, {d_ino=4721509, d_off=5617113554901321935, d_reclen=56, d_name="libgioremote-volume-monitor.so", d_type=DT_REG}, {d_ino=4721506, d_off=5710434140879988661, d_reclen=40, d_name="libgiognomeproxy.so", d_type=DT_REG}, {d_ino=4721503, d_off=6257115072957225029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4721507, d_off=8469700843271208950, d_reclen=40, d_name="libgiognutls.so", d_type=DT_REG}, {d_ino=4721508, d_off=8867988669331726394, d_reclen=40, d_name="libgiolibproxy.so", d_type=DT_REG}, {d_ino=4721510, d_off=9223372036854775807, d_reclen=40, d_name="libgvfsdbus.so", d_type=DT_REG}], 32768) = 344
+54668 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54669 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+54670 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+54671 , 55733 , 55733 , indicator-bluet , futex(0x7f918e3a80a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54672 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", O_RDONLY|O_CLOEXEC) = 7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>
+54673 , 55733 , 55733 , indicator-bluet , read(7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340;\0\0\0\0\0\0@\0\0\0\0\0\0\0@\306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\256\0\0\0\0\0\0\4\256\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\274\0\0\0\0\0\0\240\274 \0\0\0\0\0\240\274 \0\0\0\0\0p\10\0\0\0\0\0\0X\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\275\0\0\0\0\0\0\250\275 \0\0\0\0\0"..., 832) = 832
+54674 , 55733 , 55733 , indicator-bluet , fstat(7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+54675 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2147832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0) = 0x7f918ccbe000
+54676 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ccc9000, 2097152, PROT_NONE) = 0
+54677 , 55733 , 55733 , indicator-bluet , mmap(0x7f918cec9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0xb000) = 0x7f918cec9000
+54678 , 55733 , 55733 , indicator-bluet , close(7</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>) = 0
+54679 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918cec9000, 4096, PROT_READ) = 0
+54680 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54681 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+54682 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+54683 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", O_RDONLY|O_CLOEXEC) = 7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>
+54684 , 55733 , 55733 , indicator-bluet , read(7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0t\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\307\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\212\1\0\0\0\0\0004\212\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\230\1\0\0\0\0\0H\230!\0\0\0\0\0H\230!\0\0\0\0\0$.\0\0\0\0\0\0\260/\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\275\1\0\0\0\0\0H\275!\0\0\0\0\0"..., 832) = 832
+54685 , 55733 , 55733 , indicator-bluet , fstat(7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, {st_dev=makedev(8, 1), st_ino=4721509, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.331999877}) = 0
+54686 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2213880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0) = 0x7f918caa1000
+54687 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918caba000, 2097152, PROT_NONE) = 0
+54688 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ccba000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>, 0x19000) = 0x7f918ccba000
+54689 , 55733 , 55733 , indicator-bluet , close(7</usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so>) = 0
+54690 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+54691 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7ffdec8fec80) = -1 ENOENT (No such file or directory)
+54692 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+54693 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7ffdec8fec80) = -1 ENOENT (No such file or directory)
+54694 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+54695 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7ffdec8fec80) = -1 ENOENT (No such file or directory)
+54696 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = 7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>
+54697 , 55733 , 55733 , indicator-bluet , read(7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360%\1\0\0\0\0\0@\0\0\0\0\0\0\0\230\271\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24S\3\0\0\0\0\0\24S\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h`\3\0\0\0\0\0h`#\0\0\0\0\0h`#\0\0\0\0\0\0X\0\0\0\0\0\0\260Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\3\0\0\0\0\0\210\255#\0\0\0\0\0"..., 832) = 832
+54698 , 55733 , 55733 , indicator-bluet , fstat(7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, {st_dev=makedev(8, 1), st_ino=4722066, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=488, st_size=245912, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.803999877}) = 0
+54699 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2341656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0) = 0x7f918c865000
+54700 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918c89b000, 2097152, PROT_NONE) = 0
+54701 , 55733 , 55733 , indicator-bluet , mmap(0x7f918ca9b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0x36000) = 0x7f918ca9b000
+54702 , 55733 , 55733 , indicator-bluet , close(7</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>) = 0
+54703 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ca9b000, 20480, PROT_READ) = 0
+54704 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918ccba000, 12288, PROT_READ) = 0
+54705 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54706 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54707 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54708 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54709 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54710 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54711 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54712 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54713 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54714 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54715 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54716 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54717 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54718 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54719 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54720 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54721 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54722 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54723 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54724 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54725 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54726 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54727 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54728 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54729 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54730 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54731 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54732 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54733 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54734 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54735 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54736 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54737 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54738 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54739 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54740 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54741 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54742 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54743 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54744 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54745 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54746 , 55733 , 55733 , indicator-bluet , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f918f0b14b0}, {SIG_DFL, [], 0}, 8) = 0
+54747 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54748 , 55733 , 55733 , indicator-bluet , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 7<UNIX:[478345]>
+54749 , 55733 , 55733 , indicator-bluet , fcntl(7<UNIX:[478345]>, F_GETFL) = 0x2 (flags O_RDWR)
+54752 , 55733 , 55733 , indicator-bluet , fcntl(7<UNIX:[478345]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+54755 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54758 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54761 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54764 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54767 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54770 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 0
+54773 , 55733 , 55733 , indicator-bluet , connect(7<UNIX:[478345]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-SivJgCHTvt"}, 23) = 0
+54776 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+54794 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 0
+54796 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+54798 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54800 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 0
+54802 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54804 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54806 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54807 , 55733 , 55733 , indicator-bluet , futex(0x24bc070, FUTEX_WAKE_PRIVATE, 1) = 1
+54809 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54811 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54812 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 1
+54814 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54815 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 1
+54817 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54818 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 1
+54820 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+54821 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973430, FUTEX_WAKE_PRIVATE, 1) = 1
+54865 , 55733 , 55733 , indicator-bluet , geteuid() = 0
+54866 , 55733 , 55733 , indicator-bluet , getegid() = 0
+54867 , 55733 , 55733 , indicator-bluet , geteuid() = 0
+54868 , 55733 , 55733 , indicator-bluet , getegid() = 0
+54869 , 55733 , 55733 , indicator-bluet , sendmsg(7<UNIX:[478345]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55733, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+54870 , 55733 , 55733 , indicator-bluet , sendto(7<UNIX:[478345]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+54871 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345]>, 0x24eac00, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+54872 , 55733 , 55733 , indicator-bluet , poll([{fd=7<UNIX:[478345]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+55472 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345->477312]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+55476 , 55733 , 55733 , indicator-bluet , sendto(7<UNIX:[478345->477312]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+55479 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345->477312]>, 0x24eac00, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+55481 , 55733 , 55733 , indicator-bluet , poll([{fd=7<UNIX:[478345->477312]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+55611 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345->477312]>, "OK b91cd6b4be1a82c55d8bde6e5a1abe9c\r\n", 4096, 0, NULL, NULL) = 37
+55614 , 55733 , 55733 , indicator-bluet , sendto(7<UNIX:[478345->477312]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+55616 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345->477312]>, 0x24eac00, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+55619 , 55733 , 55733 , indicator-bluet , poll([{fd=7<UNIX:[478345->477312]>, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+55659 , 55733 , 55733 , indicator-bluet , recvfrom(7<UNIX:[478345->477312]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+55662 , 55733 , 55733 , indicator-bluet , sendto(7<UNIX:[478345->477312]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+55665 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55668 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 0
+55672 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+55678 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 0
+55682 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+55684 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55687 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+55690 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55694 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+55696 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55699 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55701 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+55704 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55794 , 55733 , 55733 , indicator-bluet , futex(0x24cde00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+55797 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+55799 , 55733 , 55733 , indicator-bluet , futex(0x24cde00, FUTEX_WAKE_PRIVATE, 1) = 0
+55802 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55804 , 55733 , 55733 , indicator-bluet , futex(0x24cde10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+55809 , 55733 , 55733 , indicator-bluet , close(10<anon_inode:[eventfd]>) = 0
+55811 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55813 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 0
+55817 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+55819 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55825 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55830 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55834 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+55838 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=10, revents=POLLIN}])
+55916 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+55920 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+55923 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55925 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+55928 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55972 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+55975 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55977 , 55733 , 55733 , indicator-bluet , futex(0x24eba30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+55979 , 55733 , 55733 , indicator-bluet , close(10<anon_inode:[eventfd]>) = 0
+55981 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 10<anon_inode:[eventfd]>
+55983 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55986 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+55995 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+55997 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+55999 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+56001 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+56003 , 55733 , 55733 , indicator-bluet , poll([{fd=10<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=10, revents=POLLIN}])
+56949 , 55733 , 55733 , indicator-bluet , read(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+56954 , 55733 , 55733 , indicator-bluet , write(10<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+57096 , 55733 , 55733 , indicator-bluet , futex(0x24eba30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57097 , 55733 , 55733 , indicator-bluet , close(10<anon_inode:[eventfd]>) = 0
+57098 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+57099 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+57100 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>
+57101 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\30\0\0\0\0\0\0@\0\0\0\0\0\0\0\350B\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304/\0\0\0\0\0\0\304/\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270=\0\0\0\0\0\0\270= \0\0\0\0\0\270= \0\0\0\0\0(\4\0\0\0\0\0\0H\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320=\0\0\0\0\0\0\320= \0\0\0\0\0"..., 832) = 832
+57102 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, {st_dev=makedev(8, 1), st_ino=4721506, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18856, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+57103 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2114048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0) = 0x7f9187dfb000
+57104 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dfe000, 2097152, PROT_NONE) = 0
+57105 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>, 0x3000) = 0x7f9187ffe000
+57106 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so>) = 0
+57107 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187ffe000, 4096, PROT_READ) = 0
+57108 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187dfb000, 2114048) = 0
+57109 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57110 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57111 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>
+57112 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0r\0\0\0\0\0\0@\0\0\0\0\0\0\0\330\272\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\241\1\0\0\0\0\0\24\241\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\255\1\0\0\0\0\0H\255!\0\0\0\0\0H\255!\0\0\0\0\0\220\f\0\0\0\0\0\0p\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`\255\1\0\0\0\0\0`\255!\0\0\0\0\0"..., 832) = 832
+57113 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, {st_dev=makedev(8, 1), st_ino=4721507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115096, st_atime=2017/11/25-09:35:02.016673632, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57114 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2210744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0) = 0x7f9187de4000
+57115 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dff000, 2093056, PROT_NONE) = 0
+57116 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>, 0x1a000) = 0x7f9187ffe000
+57117 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so>) = 0
+57118 , 55733 , 55733 , indicator-bluet , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 10</etc/ld.so.cache>
+57119 , 55733 , 55733 , indicator-bluet , fstat(10</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+57120 , 55733 , 55733 , indicator-bluet , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 10</etc/ld.so.cache>, 0) = 0x7f9190355000
+57121 , 55733 , 55733 , indicator-bluet , close(10</etc/ld.so.cache>) = 0
+57122 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57123 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+57124 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+57125 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+57126 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7f9187b7f000
+57127 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187bd9000, 2093056, PROT_NONE) = 0
+57128 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187dd8000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7f9187dd8000
+57129 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+57130 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57131 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libgnutls.so.30", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>
+57132 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\2\0\0\0\0\0@\0\0\0\0\0\0\0P\342\22\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l*\22\0\0\0\0\0l*\22\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270-\22\0\0\0\0\0\270-2\0\0\0\0\0\270-2\0\0\0\0\0X\263\0\0\0\0\0\0\310\303\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0x\313\22\0\0\0\0\0x\3132\0\0\0\0\0"..., 832) = 832
+57133 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, {st_dev=makedev(8, 1), st_ino=4456883, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2424, st_size=1239440, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/06/12-11:51:37, st_ctime=2017/06/24-03:59:34.980084966}) = 0
+57134 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3338624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0) = 0x7f918784f000
+57135 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187972000, 2093056, PROT_NONE) = 0
+57136 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187b71000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>, 0x122000) = 0x7f9187b71000
+57137 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187b7e000, 384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9187b7e000
+57138 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libgnutls.so.30.6.2>) = 0
+57139 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57140 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>
+57141 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p+\0\0\0\0\0\0@\0\0\0\0\0\0\0(\"\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\17\3\0\0\0\0\0$\17\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\22\3\0\0\0\0\0\310\22#\0\0\0\0\0\310\22#\0\0\0\0\0 \16\0\0\0\0\0\0(\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\35\3\0\0\0\0\0\300\35#\0\0\0\0\0"..., 832) = 832
+57142 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, {st_dev=makedev(8, 1), st_ino=4458278, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207208, st_atime=2017/11/25-09:34:42.548712422, st_mtime=2017/09/25-14:06:07, st_ctime=2017/10/15-01:10:13.024850379}) = 0
+57143 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2302192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0) = 0x7f918761c000
+57144 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918764d000, 2097152, PROT_NONE) = 0
+57145 , 55733 , 55733 , indicator-bluet , mmap(0x7f918784d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>, 0x31000) = 0x7f918784d000
+57146 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libidn.so.11.6.15>) = 0
+57147 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57148 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>
+57149 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340)\0\0\0\0\0\0@\0\0\0\0\0\0\0`\"\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\16\1\0\0\0\0\0\204\16\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\25\1\0\0\0\0\0\10\25!\0\0\0\0\0\10\25!\0\0\0\0\0\34\f\0\0\0\0\0\0\0\17\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\1\0\0\0\0\0\320\35!\0\0\0\0\0"..., 832) = 832
+57150 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, {st_dev=makedev(8, 1), st_ino=4458720, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=76192, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/06/01-13:53:02, st_ctime=2017/06/08-02:50:09.820388315}) = 0
+57151 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2171912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0) = 0x7f9187409000
+57152 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918741a000, 2097152, PROT_NONE) = 0
+57153 , 55733 , 55733 , indicator-bluet , mmap(0x7f918761a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>, 0x11000) = 0x7f918761a000
+57154 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.1>) = 0
+57155 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57156 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libnettle.so.6", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>
+57157 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`~\0\0\0\0\0\0@\0\0\0\0\0\0\0\210Q\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3744\3\0\0\0\0\0\3744\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h?\3\0\0\0\0\0h?#\0\0\0\0\0h?#\0\0\0\0\0\0\21\0\0\0\0\0\0(\21\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xM\3\0\0\0\0\0xM#\0\0\0\0\0"..., 832) = 832
+57158 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, {st_dev=makedev(8, 1), st_ino=4458826, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=432, st_size=219336, st_atime=2017/11/25-09:34:42.572712374, st_mtime=2017/02/03-09:27:37, st_ctime=2017/04/03-11:27:11.578425564}) = 0
+57159 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2314384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0) = 0x7f91871d3000
+57160 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187207000, 2093056, PROT_NONE) = 0
+57161 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187406000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>, 0x33000) = 0x7f9187406000
+57162 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libnettle.so.6.2>) = 0
+57163 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57164 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libhogweed.so.4", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>
+57165 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340e\0\0\0\0\0\0@\0\0\0\0\0\0\0\330#\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\25\3\0\0\0\0\0D\25\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\26\3\0\0\0\0\0(\26#\0\0\0\0\0(\26#\0\0\0\0\0\220\f\0\0\0\0\0\0\230\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\35\3\0\0\0\0\0\250\35#\0\0\0\0\0"..., 832) = 832
+57166 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, {st_dev=makedev(8, 1), st_ino=4456748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=207640, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2017/02/03-09:27:38, st_ctime=2017/04/03-11:27:11.398474786}) = 0
+57167 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2302656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0) = 0x7f9186fa0000
+57168 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9186fd2000, 2093056, PROT_NONE) = 0
+57169 , 55733 , 55733 , indicator-bluet , mmap(0x7f91871d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>, 0x31000) = 0x7f91871d1000
+57170 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libhogweed.so.4.2>) = 0
+57171 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57172 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>
+57173 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\223\0\0\0\0\0\0@\0\0\0\0\0\0\0\250\362\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\342\7\0\0\0\0\0l\342\7\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\351\7\0\0\0\0\0\10\351'\0\0\0\0\0\10\351'\0\0\0\0\0p\10\0\0\0\0\0\0\270\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0 \355\7\0\0\0\0\0 \355'\0\0\0\0\0"..., 832) = 832
+57174 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, {st_dev=makedev(8, 1), st_ino=4465744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1024, st_size=522664, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/11/17-12:15:19, st_ctime=2016/11/03-10:38:41.003999886}) = 0
+57175 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2617792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0) = 0x7f9186d20000
+57176 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9186d9f000, 2093056, PROT_NONE) = 0
+57177 , 55733 , 55733 , indicator-bluet , mmap(0x7f9186f9e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>, 0x7e000) = 0x7f9186f9e000
+57178 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libgmp.so.10.3.0>) = 0
+57179 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9186f9e000, 4096, PROT_READ) = 0
+57180 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187406000, 8192, PROT_READ) = 0
+57181 , 55733 , 55733 , indicator-bluet , mprotect(0x7f91871d1000, 4096, PROT_READ) = 0
+57182 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918761a000, 4096, PROT_READ) = 0
+57183 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918784d000, 4096, PROT_READ) = 0
+57184 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dd8000, 40960, PROT_READ) = 0
+57185 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187b71000, 45056, PROT_READ) = 0
+57186 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187ffe000, 4096, PROT_READ) = 0
+57187 , 55733 , 55733 , indicator-bluet , futex(0x7f9187de3740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57188 , 55733 , 55733 , indicator-bluet , brk(0x2512000) = 0x2512000
+57189 , 55733 , 55733 , indicator-bluet , open("/dev/urandom", O_RDONLY) = 10</dev/urandom>
+57190 , 55733 , 55733 , indicator-bluet , fcntl(10</dev/urandom>, F_GETFD) = 0
+57191 , 55733 , 55733 , indicator-bluet , fcntl(10</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+57192 , 55733 , 55733 , indicator-bluet , fstat(10</dev/urandom>, {st_dev=makedev(0, 6), st_ino=11, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2017/11/26-03:20:03.411999619, st_mtime=2017/11/26-03:20:03.411999619, st_ctime=2017/11/26-03:20:03.411999619}) = 0
+57193 , 55733 , 55733 , indicator-bluet , getrusage(0x1 /* RUSAGE_??? */, {ru_utime={0, 4000}, ru_stime={0, 4000}, ru_maxrss=7324, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=411, ru_majflt=1, ru_nswap=0, ru_inblock=176, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=1208, ru_nivcsw=4}) = 0
+57194 , 55733 , 55733 , indicator-bluet , read(10</dev/urandom>, "\231Y\314.\330\330\374j\251\311\374\235rQ\363\3627\311\237\252s\244M/U\315\207\233{h\234\245", 32) = 32
+57195 , 55733 , 55733 , indicator-bluet , read(10</dev/urandom>, "\302\247\317\5\372Q\16i\321\235\25b\333\317\235\302e\24\302o\324\275\274\224Y,5\32\345g\202q", 32) = 32
+57196 , 55733 , 55733 , indicator-bluet , read(10</dev/urandom>, ":\262\310\341^\177\362\0", 8) = 8
+57197 , 55733 , 55733 , indicator-bluet , munmap(0x7f9190355000, 129890) = 0
+57198 , 55733 , 55733 , indicator-bluet , close(10</dev/urandom>) = 0
+57199 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187de4000, 2210744) = 0
+57200 , 55733 , 55733 , indicator-bluet , munmap(0x7f918784f000, 3338624) = 0
+57201 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187b7f000, 2508688) = 0
+57202 , 55733 , 55733 , indicator-bluet , munmap(0x7f918761c000, 2302192) = 0
+57203 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187409000, 2171912) = 0
+57204 , 55733 , 55733 , indicator-bluet , munmap(0x7f9186fa0000, 2302656) = 0
+57205 , 55733 , 55733 , indicator-bluet , munmap(0x7f91871d3000, 2314384) = 0
+57206 , 55733 , 55733 , indicator-bluet , munmap(0x7f9186d20000, 2617792) = 0
+57208 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57210 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57211 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>
+57212 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\21\0\0\0\0\0\0@\0\0\0\0\0\0\0@\"\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214\35\0\0\0\0\0\0\214\35\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\35\0\0\0\0\0\0\240\35 \0\0\0\0\0\240\35 \0\0\0\0\0\230\3\0\0\0\0\0\0\270\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\35\0\0\0\0\0\0\270\35 \0\0\0\0\0"..., 832) = 832
+57213 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, {st_dev=makedev(8, 1), st_ino=4721508, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10496, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:29:38, st_ctime=2016/11/03-10:38:53.311999877}) = 0
+57214 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2105688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0) = 0x7f9187dfd000
+57215 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dff000, 2093056, PROT_NONE) = 0
+57216 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>, 0x1000) = 0x7f9187ffe000
+57217 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so>) = 0
+57218 , 55733 , 55733 , indicator-bluet , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 10</etc/ld.so.cache>
+57219 , 55733 , 55733 , indicator-bluet , fstat(10</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+57220 , 55733 , 55733 , indicator-bluet , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 10</etc/ld.so.cache>, 0) = 0x7f9190355000
+57221 , 55733 , 55733 , indicator-bluet , close(10</etc/ld.so.cache>) = 0
+57222 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57223 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libproxy.so.1", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>
+57224 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300h\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\5\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\363\350\1\0\0\0\0\0\363\350\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X\370\1\0\0\0\0\0X\370!\0\0\0\0\0X\370!\0\0\0\0\0`\f\0\0\0\0\0\0h\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\374\1\0\0\0\0\0\350\374!\0\0\0\0\0"..., 832) = 832
+57225 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4466215, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=264, st_size=134456, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/02/16-08:49:32, st_ctime=2016/11/03-10:38:45.531999883}) = 0
+57226 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2229440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0) = 0x7f9187bdc000
+57227 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187bfb000, 2097152, PROT_NONE) = 0
+57228 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187dfb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>, 0x1f000) = 0x7f9187dfb000
+57229 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libproxy.so.1.0.0>) = 0
+57230 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57231 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+57232 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+57233 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4461343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/11/02-21:42:14, st_ctime=2016/11/10-22:22:35.303200843}) = 0
+57234 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7f918785a000
+57235 , 55733 , 55733 , indicator-bluet , mprotect(0x7f91879cc000, 2097152, PROT_NONE) = 0
+57236 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187bcc000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7f9187bcc000
+57237 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187bd8000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9187bd8000
+57238 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+57239 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57240 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libgcc_s.so.1>
+57241 , 55733 , 55733 , indicator-bluet , read(10</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+57242 , 55733 , 55733 , indicator-bluet , fstat(10</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+57243 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f9187644000
+57244 , 55733 , 55733 , indicator-bluet , mprotect(0x7f918765a000, 2093056, PROT_NONE) = 0
+57245 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187859000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f9187859000
+57246 , 55733 , 55733 , indicator-bluet , close(10</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+57247 , 55733 , 55733 , indicator-bluet , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+57248 , 55733 , 55733 , indicator-bluet , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 10</lib/x86_64-linux-gnu/libm-2.23.so>
+57249 , 55733 , 55733 , indicator-bluet , read(10</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+57250 , 55733 , 55733 , indicator-bluet , fstat(10</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997546, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+57251 , 55733 , 55733 , indicator-bluet , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f918733b000
+57252 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187443000, 2093056, PROT_NONE) = 0
+57253 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187642000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f9187642000
+57254 , 55733 , 55733 , indicator-bluet , close(10</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+57255 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187642000, 4096, PROT_READ) = 0
+57256 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187bcc000, 40960, PROT_READ) = 0
+57257 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dfb000, 4096, PROT_READ) = 0
+57258 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187ffe000, 4096, PROT_READ) = 0
+57259 , 55733 , 55733 , indicator-bluet , futex(0x7f9187bd91ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57261 , 55733 , 55733 , indicator-bluet , futex(0x7f9187bd91b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57262 , 55733 , 55733 , indicator-bluet , munmap(0x7f9190355000, 129890) = 0
+57264 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187dfd000, 2105688) = 0
+57265 , 55733 , 55733 , indicator-bluet , munmap(0x7f9187bdc000, 2229440) = 0
+57266 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+57268 , 55733 , 55733 , indicator-bluet , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+57269 , 55733 , 55733 , indicator-bluet , open("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", O_RDONLY|O_CLOEXEC) = 10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>
+57270 , 55733 , 55733 , indicator-bluet , read(10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \267\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\20\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\366\2\0\0\0\0\0\f\366\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\367\2\0\0\0\0\0\350\367\"\0\0\0\0\0\350\367\"\0\0\0\0\0\264\27\0\0\0\0\0\0\240\31\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\375\2\0\0\0\0\0H\375\"\0\0\0\0\0"..., 832) = 832
+57271 , 55733 , 55733 , indicator-bluet , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, {st_dev=makedev(8, 1), st_ino=4721510, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=400, st_size=202704, st_atime=2017/11/25-09:35:02.028673608, st_mtime=2016/04/14-15:31:58, st_ctime=2016/11/03-10:38:53.335999877}) = 0
+57272 , 55733 , 55733 , indicator-bluet , mmap(NULL, 2298248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0) = 0x7f9187dce000
+57273 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187dfe000, 2093056, PROT_NONE) = 0
+57274 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187ffd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>, 0x2f000) = 0x7f9187ffd000
+57275 , 55733 , 55733 , indicator-bluet , mmap(0x7f9187fff000, 392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9187fff000
+57276 , 55733 , 55733 , indicator-bluet , close(10</usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so>) = 0
+57277 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9187ffd000, 4096, PROT_READ) = 0
+57278 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57279 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57280 , 55733 , 55733 , indicator-bluet , getdents(6</usr/lib/x86_64-linux-gnu/gio/modules>, [], 32768) = 0
+57281 , 55733 , 55733 , indicator-bluet , close(6</usr/lib/x86_64-linux-gnu/gio/modules>) = 0
+57282 , 55733 , 55733 , indicator-bluet , open("/usr/lib/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+57283 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57284 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57285 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57286 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57287 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57288 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57289 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57290 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57291 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57292 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57293 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57294 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57295 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57296 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57297 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57298 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57299 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57300 , 55733 , 55733 , indicator-bluet , open("/etc/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+57301 , 55733 , 55733 , indicator-bluet , open("/usr/share/gnome/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+57302 , 55733 , 55733 , indicator-bluet , open("/usr/local/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+57303 , 55733 , 55733 , indicator-bluet , open("/usr/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+57304 , 55733 , 55733 , indicator-bluet , open("/var/lib/snapd/desktop/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+57305 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57306 , 55733 , 55733 , indicator-bluet , mkdir("/home/elwin/.cache", 0700) = -1 EEXIST (File exists)
+57307 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57308 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57309 , 55733 , 55733 , indicator-bluet , access("/home", F_OK) = 0
+57310 , 55733 , 55733 , indicator-bluet , stat("/home", {st_dev=makedev(8, 1), st_ino=2883585, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-06:55:15.315006883, st_mtime=2017/06/24-10:10:27.305705697, st_ctime=2017/06/24-10:10:27.305705697}) = 0
+57311 , 55733 , 55733 , indicator-bluet , access("/home/elwin", F_OK) = 0
+57312 , 55733 , 55733 , indicator-bluet , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=41, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-08:09:52.117160270, st_mtime=2017/11/26-08:16:18.143604751, st_ctime=2017/11/26-08:16:18.143604751}) = 0
+57313 , 55733 , 55733 , indicator-bluet , access("/home/elwin/.cache", F_OK) = 0
+57314 , 55733 , 55733 , indicator-bluet , stat("/home/elwin/.cache", {st_dev=makedev(8, 1), st_ino=2883591, st_mode=S_IFDIR|0700, st_nlink=28, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-05:11:19.540373524, st_mtime=2017/05/29-12:44:07.246858381, st_ctime=2017/05/29-12:44:07.246858381}) = 0
+57315 , 55733 , 55733 , indicator-bluet , access("/home/elwin/.cache/dconf", F_OK) = 0
+57316 , 55733 , 55733 , indicator-bluet , stat("/home/elwin/.cache/dconf", {st_dev=makedev(8, 1), st_ino=3538966, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/05/01-01:10:57.608512372, st_mtime=2017/05/04-04:12:39.107169060, st_ctime=2017/05/04-04:12:39.107169060}) = 0
+57317 , 55733 , 55733 , indicator-bluet , open("/home/elwin/.cache/dconf/user", O_RDWR|O_CREAT, 0600) = 6</home/elwin/.cache/dconf/user>
+57318 , 55733 , 55733 , indicator-bluet , pwrite64(6</home/elwin/.cache/dconf/user>, "\0", 1, 1) = 1
+57319 , 55733 , 55733 , indicator-bluet , mmap(NULL, 1, PROT_READ, MAP_SHARED, 6</home/elwin/.cache/dconf/user>, 0) = 0x7f9190374000
+57320 , 55733 , 55733 , indicator-bluet , close(6</home/elwin/.cache/dconf/user>) = 0
+57321 , 55733 , 55733 , indicator-bluet , open("/home/elwin/.config/dconf/user", O_RDONLY) = 6</home/elwin/.config/dconf/user>
+57322 , 55733 , 55733 , indicator-bluet , fstat(6</home/elwin/.config/dconf/user>, {st_dev=makedev(8, 1), st_ino=2883824, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=32, st_size=14590, st_atime=2017/11/26-03:15:19.070802471, st_mtime=2017/11/26-03:15:13.458843521, st_ctime=2017/11/26-03:15:13.462843491}) = 0
+57323 , 55733 , 55733 , indicator-bluet , mmap(NULL, 14590, PROT_READ, MAP_PRIVATE, 6</home/elwin/.config/dconf/user>, 0) = 0x7f9190370000
+57324 , 55733 , 55733 , indicator-bluet , close(6</home/elwin/.config/dconf/user>) = 0
+57325 , 55733 , 55733 , indicator-bluet , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+57326 , 55733 , 55733 , indicator-bluet , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+57327 , 55733 , 55733 , indicator-bluet , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9186b3a000
+57328 , 55733 , 55733 , indicator-bluet , mprotect(0x7f9186b3a000, 4096, PROT_NONE) = 0
+57329 , 55733 , 55733 , indicator-bluet , clone(child_stack=0x7f9187339ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f918733a9d0, tls=0x7f918733a700, child_tidptr=0x7f918733a9d0) = 55742
+57330 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57331 , 55733 , 55733 , indicator-bluet , futex(0x24c0360, FUTEX_WAKE_PRIVATE, 1) = 1
+57332 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+57334 , 55733 , 55733 , indicator-bluet , futex(0x24be070, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+57336 , 55733 , 55733 , indicator-bluet , futex(0x24be070, FUTEX_WAKE_PRIVATE, 1) = 0
+57338 , 55733 , 55733 , indicator-bluet , futex(0x7f918f973428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+57339 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+57341 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+57345 , 55733 , 55733 , indicator-bluet , futex(0x7f91880058a0, FUTEX_WAKE_PRIVATE, 1) = 1
+57348 , 55733 , 55733 , indicator-bluet , futex(0x24c8098, FUTEX_WAKE_PRIVATE, 1) = 1
+57365 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+57367 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+57371 , 55733 , 55733 , indicator-bluet , futex(0x7f91880058a0, FUTEX_WAKE_PRIVATE, 1) = 1
+57374 , 55733 , 55733 , indicator-bluet , futex(0x24c8098, FUTEX_WAKE_PRIVATE, 1) = 1
+57385 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+57389 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+57395 , 55733 , 55733 , indicator-bluet , futex(0x24cd140, FUTEX_WAKE_PRIVATE, 1) = 1
+57401 , 55733 , 55733 , indicator-bluet , futex(0x24c8198, FUTEX_WAKE_PRIVATE, 1) = 1
+57420 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 24993) = 1 ([{fd=4, revents=POLLIN}])
+57423 , 55733 , 55733 , indicator-bluet , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+57437 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 24992) = 1 ([{fd=4, revents=POLLIN}])
+58003 , 55733 , 55733 , indicator-bluet , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+58005 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 24917) = 0 (Timeout)
+206160 , 55733 , 55733 , indicator-bluet , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+206164 , 55733 , 55733 , indicator-bluet , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+206169 , 55733 , 55733 , indicator-bluet , futex(0x7f9188005e30, FUTEX_WAKE_PRIVATE, 1) = 1
+206177 , 55733 , 55733 , indicator-bluet , futex(0x7f91880058a0, FUTEX_WAKE_PRIVATE, 1) = 1
+206182 , 55733 , 55733 , indicator-bluet , futex(0x24c8098, FUTEX_WAKE_PRIVATE, 1) = 1
+206221 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+206227 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+206229 , 55733 , 55733 , indicator-bluet , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+206231 , 55733 , 55733 , indicator-bluet , poll([{fd=3</dev/rfkill>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, -1

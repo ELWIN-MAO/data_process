@@ -1,0 +1,159 @@
+121543 , 55865 , 55857 , evolution-calen , set_robust_list(0x7fb4b7fff9e0, 24) = 0
+121545 , 55865 , 55857 , evolution-calen , prctl(PR_SET_NAME, "book-client-dbus") = 0
+121547 , 55865 , 55857 , book-client-dbu , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb4af7ff000
+121549 , 55865 , 55857 , book-client-dbu , munmap(0x7fb4af7ff000, 8392704) = 0
+121551 , 55865 , 55857 , book-client-dbu , munmap(0x7fb4b4000000, 58716160) = 0
+121553 , 55865 , 55857 , book-client-dbu , mprotect(0x7fb4b0000000, 139264, PROT_READ|PROT_WRITE) = 0
+121556 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=11, revents=POLLIN}])
+121558 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+121560 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+121565 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121567 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121570 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 1
+121573 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121575 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 1
+121577 , 55865 , 55857 , book-client-dbu , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+121579 , 55865 , 55857 , book-client-dbu , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+121582 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+121585 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=12, revents=POLLIN}])
+121587 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+121589 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=12, revents=POLLIN}])
+126984 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+126988 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+126990 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+127093 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006430, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+127096 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+127099 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006430, FUTEX_WAKE_PRIVATE, 1) = 0
+127101 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127103 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 0
+127107 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+127257 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006430, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+127262 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+127265 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006430, FUTEX_WAKE_PRIVATE, 1) = 0
+127267 , 55865 , 55857 , book-client-dbu , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127269 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006440, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+127272 , 55865 , 55857 , book-client-dbu , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+127276 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127280 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+127289 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+127291 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 0
+127293 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAKE_PRIVATE, 1) = 0
+127295 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+127299 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+127303 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+127307 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=13, revents=POLLIN}])
+148124 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006880, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148126 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148127 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006880, FUTEX_WAKE_PRIVATE, 1) = 0
+148128 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148129 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0006890, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148130 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148133 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148134 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAKE_PRIVATE, 1) = 0
+148135 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148136 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148137 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148138 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148139 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148140 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148141 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148142 , 55865 , 55857 , book-client-dbu , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 12<anon_inode:[eventfd]>
+148143 , 55865 , 55857 , book-client-dbu , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148144 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148145 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148146 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148147 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148148 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148537 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000aa10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148539 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148540 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000aa10, FUTEX_WAKE_PRIVATE, 1) = 0
+148541 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148543 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148544 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAKE_PRIVATE, 1) = 0
+148545 , 55865 , 55857 , book-client-dbu , poll([{fd=12<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=12, revents=POLLIN}])
+148732 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000aa10, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148734 , 55865 , 55857 , book-client-dbu , read(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+148735 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000aa10, FUTEX_WAKE_PRIVATE, 1) = 0
+148736 , 55865 , 55857 , book-client-dbu , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148737 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000aa20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+148738 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+148741 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAKE_PRIVATE, 1) = 0
+148742 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148743 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148744 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148745 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148746 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+148747 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=11, revents=POLLIN}])
+148748 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+148749 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=11, revents=POLLIN}])
+149059 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149061 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+149062 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAKE_PRIVATE, 1) = 0
+149063 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 24959) = 1 ([{fd=11, revents=POLLIN}])
+149842 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149844 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+149845 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAKE_PRIVATE, 1) = 0
+149846 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+149848 , 55865 , 55857 , book-client-dbu , futex(0x5627031760c8, FUTEX_WAKE_PRIVATE, 1) = 0
+149849 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+149850 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+149851 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=11, revents=POLLIN}])
+150901 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+150903 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150904 , 55865 , 55857 , book-client-dbu , futex(0x5627031a0b50, FUTEX_WAKE_PRIVATE, 1) = 1
+150906 , 55865 , 55857 , book-client-dbu , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+150908 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150910 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+150912 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+150914 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+150915 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+150916 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=13, revents=POLLIN}])
+152810 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0005f30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+152813 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+152815 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0005f30, FUTEX_WAKE_PRIVATE, 1) = 0
+152817 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+152820 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b0005f40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152822 , 55865 , 55857 , book-client-dbu , close(13<anon_inode:[eventfd]>) = 0
+152825 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152829 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152835 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152845 , 55865 , 55857 , book-client-dbu , futex(0x7fb4da978428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+152965 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+153010 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 0
+153013 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+153035 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 0
+153152 , 55865 , 55857 , book-client-dbu , futex(0x5627031803d0, FUTEX_WAKE_PRIVATE, 1) = 1
+153159 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+153183 , 55865 , 55857 , book-client-dbu , futex(0x5627031803d0, FUTEX_WAKE_PRIVATE, 1) = 1
+153196 , 55865 , 55857 , book-client-dbu , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 13<anon_inode:[eventfd]>
+153199 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+153204 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+153207 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=13, revents=POLLIN}])
+153210 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+153213 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 24996) = 1 ([{fd=13, revents=POLLIN}])
+156633 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000c1e0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+156635 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156637 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000c1e0, FUTEX_WAKE_PRIVATE, 1) = 1
+156638 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000c1e0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+156640 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000c1e0, FUTEX_WAKE_PRIVATE, 1) = 0
+156644 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156649 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 1
+156651 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+156728 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+156731 , 55865 , 55857 , book-client-dbu , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+156806 , 55865 , 55857 , book-client-dbu , futex(0x562703181160, FUTEX_WAKE_PRIVATE, 1) = 1
+156808 , 55865 , 55857 , book-client-dbu , poll([{fd=13<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=13, revents=POLLIN}])
+157188 , 55865 , 55857 , book-client-dbu , read(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157191 , 55865 , 55857 , book-client-dbu , write(13<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157193 , 55865 , 55857 , book-client-dbu , futex(0x7fb4b000c1f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+157195 , 55865 , 55857 , book-client-dbu , close(13<anon_inode:[eventfd]>) = 0
+157198 , 55865 , 55857 , book-client-dbu , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157201 , 55865 , 55857 , book-client-dbu , futex(0x7fb4ac001740, FUTEX_WAKE_PRIVATE, 1) = 1
+157213 , 55865 , 55857 , book-client-dbu , close(12<anon_inode:[eventfd]>) = 0
+157215 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=11, revents=POLLIN}])
+157599 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157602 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157604 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=11, revents=POLLIN}])
+157617 , 55865 , 55857 , book-client-dbu , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+157621 , 55865 , 55857 , book-client-dbu , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+157634 , 55865 , 55857 , book-client-dbu , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

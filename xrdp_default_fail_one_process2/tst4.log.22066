@@ -1,0 +1,793 @@
+13252 , 22066 , 22066 , dbus-daemon , set_robust_list(0x7f2033444ba0, 24) = 0
+13255 , 22066 , 22066 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f203204a4b0}, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f203204a4b0}, 8) = 0
+13258 , 22066 , 22066 , dbus-daemon , close(17<UNIX:[128920->128919]>) = 0
+13261 , 22066 , 22066 , dbus-daemon , dup2(18<UNIX:[129799->129800]>, 1</dev/null>) = 1<UNIX:[129799->129800]>
+13265 , 22066 , 22066 , dbus-daemon , dup2(19<UNIX:[130022->130023]>, 2</dev/null>) = 2<UNIX:[130022->130023]>
+13268 , 22066 , 22066 , dbus-daemon , close(18<UNIX:[129799->129800]>) = 0
+13270 , 22066 , 22066 , dbus-daemon , close(19<UNIX:[130022->130023]>) = 0
+13272 , 22066 , 22066 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+13275 , 22066 , 22066 , dbus-daemon , execve("/usr/lib/gvfs/gvfsd", ["/usr/lib/gvfs/gvfsd"], ["SHELL=/bin/bash", "UID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-YJJO3dwNe0,guid=9853040743ab857b2af735ea5a1a7e02", "QT_ACCESSIBILITY=1", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "SSH_AUTH_SOCK=/tmp/ssh-gL4RkLZkuPEU/agent.13994", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "GTK_MODULES=gail:atk-bridge", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "XDG_SESSION_ID=c1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YJJO3dwNe0,guid=9853040743ab857b2af735ea5a1a7e02", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=14121", "USER=elwin", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "PWD=/home/elwin", "LANG=en_US.UTF-8", "HOME=/home/elwin"]) = 0
+13294 , 22066 , 22066 , gvfsd , brk(NULL) = 0x770000
+13298 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13300 , 22066 , 22066 , gvfsd , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1645f000
+13303 , 22066 , 22066 , gvfsd , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+13306 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13309 , 22066 , 22066 , gvfsd , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7ffe919e6400) = -1 ENOENT (No such file or directory)
+13312 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13313 , 22066 , 22066 , gvfsd , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7ffe919e6400) = -1 ENOENT (No such file or directory)
+13316 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13318 , 22066 , 22066 , gvfsd , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7ffe919e6400) = -1 ENOENT (No such file or directory)
+13321 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>
+13324 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\243\0\0\0\0\0\0@\0\0\0\0\0\0\0xJ\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3349\2\0\0\0\0\0\3349\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310<\2\0\0\0\0\0\310<\"\0\0\0\0\0\310<\"\0\0\0\0\0|\f\0\0\0\0\0\0\370\20\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0(=\2\0\0\0\0\0(=\"\0\0\0\0\0"..., 832) = 832
+13330 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, {st_dev=makedev(8, 1), st_ino=4722067, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=304, st_size=151928, st_atime=2017/11/26-03:14:07.679401940, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.807999877}) = 0
+13332 , 22066 , 22066 , gvfsd , mmap(NULL, 2248128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, 0) = 0x7fba16017000
+13335 , 22066 , 22066 , gvfsd , mprotect(0x7fba1603b000, 2093056, PROT_NONE) = 0
+13336 , 22066 , 22066 , gvfsd , mmap(0x7fba1623a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>, 0x23000) = 0x7fba1623a000
+13340 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so>) = 0
+13344 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>
+13346 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360%\1\0\0\0\0\0@\0\0\0\0\0\0\0\230\271\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24S\3\0\0\0\0\0\24S\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h`\3\0\0\0\0\0h`#\0\0\0\0\0h`#\0\0\0\0\0\0X\0\0\0\0\0\0\260Z\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\3\0\0\0\0\0\210\255#\0\0\0\0\0"..., 832) = 832
+13348 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, {st_dev=makedev(8, 1), st_ino=4722066, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=488, st_size=245912, st_atime=2017/11/25-09:35:01.996673672, st_mtime=2016/04/14-15:32:03, st_ctime=2016/11/03-10:38:53.803999877}) = 0
+13349 , 22066 , 22066 , gvfsd , mmap(NULL, 2341656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0) = 0x7fba15ddb000
+13351 , 22066 , 22066 , gvfsd , mprotect(0x7fba15e11000, 2097152, PROT_NONE) = 0
+13353 , 22066 , 22066 , gvfsd , mmap(0x7fba16011000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>, 0x36000) = 0x7fba16011000
+13355 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so>) = 0
+13356 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13358 , 22066 , 22066 , gvfsd , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+13360 , 22066 , 22066 , gvfsd , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133816, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129302, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/11/23-00:52:24.619138953, st_ctime=2017/11/23-00:52:24.623139102}) = 0
+13362 , 22066 , 22066 , gvfsd , mmap(NULL, 129302, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fba1643f000
+13365 , 22066 , 22066 , gvfsd , close(3</etc/ld.so.cache>) = 0
+13369 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13372 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+13374 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+13377 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+13379 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1643e000
+13381 , 22066 , 22066 , gvfsd , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7fba15a53000
+13383 , 22066 , 22066 , gvfsd , mprotect(0x7fba15bd3000, 2097152, PROT_NONE) = 0
+13386 , 22066 , 22066 , gvfsd , mmap(0x7fba15dd3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7fba15dd3000
+13389 , 22066 , 22066 , gvfsd , mmap(0x7fba15dd9000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba15dd9000
+13391 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+13394 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13395 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13398 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+13400 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+13402 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+13405 , 22066 , 22066 , gvfsd , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7fba15800000
+13410 , 22066 , 22066 , gvfsd , mprotect(0x7fba15852000, 2093056, PROT_NONE) = 0
+13412 , 22066 , 22066 , gvfsd , mmap(0x7fba15a51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7fba15a51000
+13415 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+13418 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13420 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13422 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+13425 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+13427 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+13429 , 22066 , 22066 , gvfsd , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7fba154ef000
+13435 , 22066 , 22066 , gvfsd , mprotect(0x7fba155fd000, 2097152, PROT_NONE) = 0
+13437 , 22066 , 22066 , gvfsd , mmap(0x7fba157fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7fba157fd000
+13440 , 22066 , 22066 , gvfsd , mmap(0x7fba157ff000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba157ff000
+13445 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+13448 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13450 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13453 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+13455 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13458 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+13460 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1643d000
+13463 , 22066 , 22066 , gvfsd , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fba152d2000
+13467 , 22066 , 22066 , gvfsd , mprotect(0x7fba152ea000, 2093056, PROT_NONE) = 0
+13472 , 22066 , 22066 , gvfsd , mmap(0x7fba154e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fba154e9000
+13475 , 22066 , 22066 , gvfsd , mmap(0x7fba154eb000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba154eb000
+13477 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+13479 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13482 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13484 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+13486 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13489 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+13491 , 22066 , 22066 , gvfsd , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fba14f08000
+13493 , 22066 , 22066 , gvfsd , mprotect(0x7fba150c8000, 2097152, PROT_NONE) = 0
+13495 , 22066 , 22066 , gvfsd , mmap(0x7fba152c8000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fba152c8000
+13497 , 22066 , 22066 , gvfsd , mmap(0x7fba152ce000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba152ce000
+13498 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+13500 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13502 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13504 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13506 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>
+13511 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\315\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\353\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\267\4\0\0\0\0\0T\267\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\267\4\0\0\0\0\0\250\267$\0\0\0\0\0\250\267$\0\0\0\0\0\3102\0\0\0\0\0\00085\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\335\4\0\0\0\0\0@\335$\0\0\0\0\0"..., 832) = 832
+13515 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466305, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=640, st_size=324256, st_atime=2017/11/26-03:14:07.715401587, st_mtime=2016/04/17-14:42:27, st_ctime=2016/11/03-10:38:46.127999882}) = 0
+13517 , 22066 , 22066 , gvfsd , mmap(NULL, 2419936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0) = 0x7fba14cb9000
+13519 , 22066 , 22066 , gvfsd , mprotect(0x7fba14d05000, 2093056, PROT_NONE) = 0
+13522 , 22066 , 22066 , gvfsd , mmap(0x7fba14f04000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0x4b000) = 0x7fba14f04000
+13525 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>) = 0
+13528 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13531 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13534 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13536 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>
+13539 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000#\2\0\0\0\0\0@\0\0\0\0\0\0\0\30N\t\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\224\10\0\0\0\0\0T\224\10\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\232\10\0\0\0\0\0(\232(\0\0\0\0\0(\232(\0\0\0\0\0\300\262\0\0\0\0\0\0\350\272\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300,\t\0\0\0\0\0\300,)\0\0\0\0\0"..., 832) = 832
+13547 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465684, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1200, st_size=611608, st_atime=2017/11/26-03:14:07.743401313, st_mtime=2015/10/23-09:03:54, st_ctime=2016/11/03-10:38:40.803999886}) = 0
+13550 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1643c000
+13552 , 22066 , 22066 , gvfsd , mmap(NULL, 2708752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0) = 0x7fba14a23000
+13554 , 22066 , 22066 , gvfsd , mprotect(0x7fba14aad000, 2093056, PROT_NONE) = 0
+13556 , 22066 , 22066 , gvfsd , mmap(0x7fba14cac000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>, 0x89000) = 0x7fba14cac000
+13567 , 22066 , 22066 , gvfsd , mmap(0x7fba14cb8000, 1296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba14cb8000
+13568 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libgcr-base-3.so.1.0.0>) = 0
+13572 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13575 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13576 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+13579 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+13581 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+13583 , 22066 , 22066 , gvfsd , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7fba1481f000
+13587 , 22066 , 22066 , gvfsd , mprotect(0x7fba14822000, 2093056, PROT_NONE) = 0
+13591 , 22066 , 22066 , gvfsd , mmap(0x7fba14a21000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7fba14a21000
+13593 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+13598 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13600 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13603 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+13605 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\35\0\0\0\0\0\0@\0\0\0\0\0\0\0x\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\205\1\0\0\0\0\0\344\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0x\4\0\0\0\0\0\0\200\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+13607 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4985678, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104824, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2015/09/13-11:54:11, st_ctime=2016/11/03-10:37:50.203999925}) = 0
+13609 , 22066 , 22066 , gvfsd , mmap(NULL, 2199880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7fba14605000
+13611 , 22066 , 22066 , gvfsd , mprotect(0x7fba1461e000, 2093056, PROT_NONE) = 0
+13614 , 22066 , 22066 , gvfsd , mmap(0x7fba1481d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7fba1481d000
+13616 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+13619 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13621 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13623 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+13625 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+13626 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+13628 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1643b000
+13630 , 22066 , 22066 , gvfsd , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fba143e3000
+13632 , 22066 , 22066 , gvfsd , mprotect(0x7fba14402000, 2093056, PROT_NONE) = 0
+13636 , 22066 , 22066 , gvfsd , mmap(0x7fba14601000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fba14601000
+13638 , 22066 , 22066 , gvfsd , mmap(0x7fba14603000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba14603000
+13643 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+13645 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13647 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13650 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+13653 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+13654 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+13657 , 22066 , 22066 , gvfsd , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7fba141c8000
+13660 , 22066 , 22066 , gvfsd , mprotect(0x7fba141df000, 2097152, PROT_NONE) = 0
+13663 , 22066 , 22066 , gvfsd , mmap(0x7fba143df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7fba143df000
+13665 , 22066 , 22066 , gvfsd , mmap(0x7fba143e1000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba143e1000
+13668 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+13671 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13673 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13676 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+13678 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+13680 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+13682 , 22066 , 22066 , gvfsd , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7fba13fc0000
+13684 , 22066 , 22066 , gvfsd , mprotect(0x7fba13fc7000, 2093056, PROT_NONE) = 0
+13687 , 22066 , 22066 , gvfsd , mmap(0x7fba141c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7fba141c6000
+13690 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+13693 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13695 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13698 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+13700 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+13702 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+13704 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba1643a000
+13706 , 22066 , 22066 , gvfsd , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fba13d50000
+13708 , 22066 , 22066 , gvfsd , mprotect(0x7fba13dbe000, 2097152, PROT_NONE) = 0
+13711 , 22066 , 22066 , gvfsd , mmap(0x7fba13fbe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fba13fbe000
+13714 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+13718 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13720 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13724 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13727 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+13728 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+13730 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+13733 , 22066 , 22066 , gvfsd , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7fba13a6f000
+13735 , 22066 , 22066 , gvfsd , mprotect(0x7fba13b47000, 2093056, PROT_NONE) = 0
+13738 , 22066 , 22066 , gvfsd , mmap(0x7fba13d46000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7fba13d46000
+13740 , 22066 , 22066 , gvfsd , mmap(0x7fba13d4f000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba13d4f000
+13742 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+13745 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13748 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13751 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13754 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libgck-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>
+13758 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\230\0\0\0\0\0\0@\0\0\0\0\0\0\0((\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\30\3\0\0\0\0\0T\30\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\32\3\0\0\0\0\0\210\32#\0\0\0\0\0\210\32#\0\0\0\0\0p\f\0\0\0\0\0\0000\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\35\3\0\0\0\0\0p\35#\0\0\0\0\0"..., 832) = 832
+13761 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465680, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=208680, st_atime=2017/11/26-03:14:07.755401195, st_mtime=2015/10/23-09:03:51, st_ctime=2016/11/03-10:38:40.791999886}) = 0
+13764 , 22066 , 22066 , gvfsd , mmap(NULL, 2304184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0) = 0x7fba1383c000
+13767 , 22066 , 22066 , gvfsd , mprotect(0x7fba1386e000, 2093056, PROT_NONE) = 0
+13769 , 22066 , 22066 , gvfsd , mmap(0x7fba13a6d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>, 0x31000) = 0x7fba13a6d000
+13782 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libgck-1.so.0.0.0>) = 0
+13785 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13788 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13790 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13793 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>
+13795 , 22066 , 22066 , gvfsd , read(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\1\0\0\0\0\0@\0\0\0\0\0\0\0\230D\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\221\5\0\0\0\0\0\f\221\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\226\5\0\0\0\0\0008\226%\0\0\0\0\0008\226%\0\0\0\0\0,\255\0\0\0\0\0\0X\261\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240-\6\0\0\0\0\0\240-&\0\0\0\0\0"..., 832) = 832
+13797 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, {st_dev=makedev(8, 1), st_ino=4466150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=808, st_size=412568, st_atime=2017/11/25-09:34:42.604712311, st_mtime=2015/12/27-18:13:43, st_ctime=2016/11/03-10:38:45.087999883}) = 0
+13799 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba16439000
+13802 , 22066 , 22066 , gvfsd , mmap(NULL, 2508688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0) = 0x7fba135d7000
+13803 , 22066 , 22066 , gvfsd , mprotect(0x7fba13631000, 2093056, PROT_NONE) = 0
+13806 , 22066 , 22066 , gvfsd , mmap(0x7fba13830000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>, 0x59000) = 0x7fba13830000
+13809 , 22066 , 22066 , gvfsd , close(3</usr/lib/x86_64-linux-gnu/libp11-kit.so.0.1.0>) = 0
+13811 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13814 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13818 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+13821 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+13823 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+13826 , 22066 , 22066 , gvfsd , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fba133d3000
+13827 , 22066 , 22066 , gvfsd , mprotect(0x7fba133d6000, 2093056, PROT_NONE) = 0
+13830 , 22066 , 22066 , gvfsd , mmap(0x7fba135d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fba135d5000
+13834 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+13836 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13838 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+13839 , 22066 , 22066 , gvfsd , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13841 , 22066 , 22066 , gvfsd , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+13843 , 22066 , 22066 , gvfsd , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+13845 , 22066 , 22066 , gvfsd , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+13847 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba16438000
+13849 , 22066 , 22066 , gvfsd , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7fba131bf000
+13853 , 22066 , 22066 , gvfsd , mprotect(0x7fba131d1000, 2097152, PROT_NONE) = 0
+13856 , 22066 , 22066 , gvfsd , mmap(0x7fba133d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7fba133d1000
+13859 , 22066 , 22066 , gvfsd , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+13862 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba16437000
+13865 , 22066 , 22066 , gvfsd , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba16436000
+13867 , 22066 , 22066 , gvfsd , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba16434000
+13870 , 22066 , 22066 , gvfsd , arch_prctl(ARCH_SET_FS, 0x7fba16434800) = 0
+13873 , 22066 , 22066 , gvfsd , mprotect(0x7fba152c8000, 16384, PROT_READ) = 0
+13876 , 22066 , 22066 , gvfsd , mprotect(0x7fba133d1000, 4096, PROT_READ) = 0
+13878 , 22066 , 22066 , gvfsd , mprotect(0x7fba135d5000, 4096, PROT_READ) = 0
+13881 , 22066 , 22066 , gvfsd , mprotect(0x7fba154e9000, 4096, PROT_READ) = 0
+13884 , 22066 , 22066 , gvfsd , mprotect(0x7fba141c6000, 4096, PROT_READ) = 0
+13886 , 22066 , 22066 , gvfsd , mprotect(0x7fba13830000, 40960, PROT_READ) = 0
+13889 , 22066 , 22066 , gvfsd , mprotect(0x7fba13fbe000, 4096, PROT_READ) = 0
+13892 , 22066 , 22066 , gvfsd , mprotect(0x7fba157fd000, 4096, PROT_READ) = 0
+13895 , 22066 , 22066 , gvfsd , mprotect(0x7fba15a51000, 4096, PROT_READ) = 0
+13897 , 22066 , 22066 , gvfsd , mprotect(0x7fba14a21000, 4096, PROT_READ) = 0
+13899 , 22066 , 22066 , gvfsd , mprotect(0x7fba1481d000, 4096, PROT_READ) = 0
+13902 , 22066 , 22066 , gvfsd , mprotect(0x7fba14601000, 4096, PROT_READ) = 0
+13905 , 22066 , 22066 , gvfsd , mprotect(0x7fba143df000, 4096, PROT_READ) = 0
+13907 , 22066 , 22066 , gvfsd , mprotect(0x7fba15dd3000, 16384, PROT_READ) = 0
+13909 , 22066 , 22066 , gvfsd , mprotect(0x7fba13a6d000, 4096, PROT_READ) = 0
+13911 , 22066 , 22066 , gvfsd , mprotect(0x7fba13d46000, 4096, PROT_READ) = 0
+13914 , 22066 , 22066 , gvfsd , mprotect(0x7fba14cac000, 40960, PROT_READ) = 0
+13916 , 22066 , 22066 , gvfsd , mprotect(0x7fba14f04000, 12288, PROT_READ) = 0
+13918 , 22066 , 22066 , gvfsd , mprotect(0x7fba16011000, 20480, PROT_READ) = 0
+13920 , 22066 , 22066 , gvfsd , mprotect(0x7fba1623a000, 4096, PROT_READ) = 0
+13921 , 22066 , 22066 , gvfsd , mprotect(0x606000, 4096, PROT_READ) = 0
+13925 , 22066 , 22066 , gvfsd , mprotect(0x7fba16461000, 4096, PROT_READ) = 0
+13929 , 22066 , 22066 , gvfsd , munmap(0x7fba1643f000, 129302) = 0
+13932 , 22066 , 22066 , gvfsd , set_tid_address(0x7fba16434ad0) = 22066
+13933 , 22066 , 22066 , gvfsd , set_robust_list(0x7fba16434ae0, 24) = 0
+13936 , 22066 , 22066 , gvfsd , rt_sigaction(SIGRTMIN, {0x7fba152d7b50, [], SA_RESTORER|SA_SIGINFO, 0x7fba152e3390}, NULL, 8) = 0
+13938 , 22066 , 22066 , gvfsd , rt_sigaction(SIGRT_1, {0x7fba152d7be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fba152e3390}, NULL, 8) = 0
+13940 , 22066 , 22066 , gvfsd , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+13942 , 22066 , 22066 , gvfsd , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+13946 , 22066 , 22066 , gvfsd , brk(NULL) = 0x770000
+13948 , 22066 , 22066 , gvfsd , brk(0x791000) = 0x791000
+13951 , 22066 , 22066 , gvfsd , futex(0x7fba1383b740, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+13953 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+13955 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+13958 , 22066 , 22066 , gvfsd , statfs("/sys/fs/selinux", 0x7ffe919e6c10) = -1 ENOENT (No such file or directory)
+13961 , 22066 , 22066 , gvfsd , statfs("/selinux", 0x7ffe919e6c10) = -1 ENOENT (No such file or directory)
+13963 , 22066 , 22066 , gvfsd , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+13965 , 22066 , 22066 , gvfsd , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-03:41:13.769859230, st_mtime=2017/11/26-03:41:13.769859230, st_ctime=2017/11/26-03:41:13.769859230}) = 0
+13967 , 22066 , 22066 , gvfsd , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+13969 , 22066 , 22066 , gvfsd , read(3</proc/filesystems>, "", 1024) = 0
+13971 , 22066 , 22066 , gvfsd , close(3</proc/filesystems>) = 0
+13974 , 22066 , 22066 , gvfsd , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+13976 , 22066 , 22066 , gvfsd , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+13977 , 22066 , 22066 , gvfsd , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fba12ee7000
+13979 , 22066 , 22066 , gvfsd , close(3</usr/lib/locale/locale-archive>) = 0
+13982 , 22066 , 22066 , gvfsd , rt_sigaction(SIGUSR2, {0x7fba15df3560, [], SA_RESTORER, 0x7fba152e3390}, NULL, 8) = 0
+13986 , 22066 , 22066 , gvfsd , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fba14f3d4b0}, {SIG_IGN, [], 0}, 8) = 0
+13988 , 22066 , 22066 , gvfsd , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+13992 , 22066 , 22066 , gvfsd , fstat(3</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+13995 , 22066 , 22066 , gvfsd , read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+13998 , 22066 , 22066 , gvfsd , read(3</etc/locale.alias>, "", 4096) = 0
+14000 , 22066 , 22066 , gvfsd , close(3</etc/locale.alias>) = 0
+14003 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14005 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14007 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14010 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14014 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14018 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14020 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14022 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14025 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14027 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14029 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14032 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14034 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14036 , 22066 , 22066 , gvfsd , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+14038 , 22066 , 22066 , gvfsd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14041 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14043 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14045 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14047 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14050 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14052 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14054 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14057 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14060 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14062 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14065 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14067 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14070 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14073 , 22066 , 22066 , gvfsd , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14075 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14078 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14080 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14082 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14085 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14087 , 22066 , 22066 , gvfsd , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+14089 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14091 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14093 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14094 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14097 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14098 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14100 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14102 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14106 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14109 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14112 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14114 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14117 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14120 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14122 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14125 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14127 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14130 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14132 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14135 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14138 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14142 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14145 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14148 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14150 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14152 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14155 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14157 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14160 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14162 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14165 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14168 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14170 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14172 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14174 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14176 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14178 , 22066 , 22066 , gvfsd , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fba14f3d4b0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fba14f3d4b0}, 8) = 0
+14180 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14182 , 22066 , 22066 , gvfsd , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4<UNIX:[138961]>
+14183 , 22066 , 22066 , gvfsd , fcntl(4<UNIX:[138961]>, F_GETFL) = 0x2 (flags O_RDWR)
+14184 , 22066 , 22066 , gvfsd , fcntl(4<UNIX:[138961]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+14189 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14191 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14194 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14196 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14198 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14200 , 22066 , 22066 , gvfsd , connect(4<UNIX:[138961]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-YJJO3dwNe0"}, 23) = 0
+14203 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14206 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14208 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14211 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14214 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14217 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14219 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14222 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14226 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14229 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14231 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14234 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14238 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14240 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14243 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14247 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14250 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14253 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14254 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14257 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14259 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14261 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14264 , 22066 , 22066 , gvfsd , geteuid() = 1000
+14267 , 22066 , 22066 , gvfsd , getegid() = 1000
+14268 , 22066 , 22066 , gvfsd , geteuid() = 1000
+14270 , 22066 , 22066 , gvfsd , getegid() = 1000
+14272 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14274 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14276 , 22066 , 22066 , gvfsd , sendmsg(4<UNIX:[138961->139237]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=22066, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+14278 , 22066 , 22066 , gvfsd , sendto(4<UNIX:[138961->139237]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+14281 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, 0x78e510, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+14285 , 22066 , 22066 , gvfsd , poll([{fd=4<UNIX:[138961->139237]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14302 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+14305 , 22066 , 22066 , gvfsd , brk(0x7b2000) = 0x7b2000
+14309 , 22066 , 22066 , gvfsd , sendto(4<UNIX:[138961->139237]>, "AUTH EXTERNAL 31303030\r\n", 24, MSG_NOSIGNAL, NULL, 0) = 24
+14315 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, 0x78e510, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+14317 , 22066 , 22066 , gvfsd , poll([{fd=4<UNIX:[138961->139237]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14328 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, "OK 9853040743ab857b2af735ea5a1a7e02\r\n", 4096, 0, NULL, NULL) = 37
+14330 , 22066 , 22066 , gvfsd , sendto(4<UNIX:[138961->139237]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+14334 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, 0x78e510, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+14336 , 22066 , 22066 , gvfsd , poll([{fd=4<UNIX:[138961->139237]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+14356 , 22066 , 22066 , gvfsd , recvfrom(4<UNIX:[138961->139237]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+14361 , 22066 , 22066 , gvfsd , sendto(4<UNIX:[138961->139237]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+14364 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14367 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14370 , 22066 , 22066 , gvfsd , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+14372 , 22066 , 22066 , gvfsd , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+14375 , 22066 , 22066 , gvfsd , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14378 , 22066 , 22066 , gvfsd , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fba126e6000
+14380 , 22066 , 22066 , gvfsd , mprotect(0x7fba126e6000, 4096, PROT_NONE) = 0
+14382 , 22066 , 22066 , gvfsd , clone(child_stack=0x7fba12ee5ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fba12ee69d0, tls=0x7fba12ee6700, child_tidptr=0x7fba12ee69d0) = 22939
+14386 , 22066 , 22066 , gvfsd , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+14389 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14393 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14396 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14400 , 22066 , 22066 , gvfsd , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+14404 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14407 , 22066 , 22066 , gvfsd , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fba11ee5000
+14411 , 22066 , 22066 , gvfsd , mprotect(0x7fba11ee5000, 4096, PROT_NONE) = 0
+14416 , 22066 , 22066 , gvfsd , clone(child_stack=0x7fba126e4ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fba126e59d0, tls=0x7fba126e5700, child_tidptr=0x7fba126e59d0) = 22965
+14422 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14425 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14429 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14434 , 22066 , 22066 , gvfsd , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+14437 , 22066 , 22066 , gvfsd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14439 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14442 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 1
+14445 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+14450 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+14453 , 22066 , 22066 , gvfsd , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+14463 , 22066 , 22066 , gvfsd , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24981) = 1 ([{fd=7, revents=POLLIN}])
+14466 , 22066 , 22066 , gvfsd , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+14470 , 22066 , 22066 , gvfsd , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24962) = 1 ([{fd=7, revents=POLLIN}])
+14528 , 22066 , 22066 , gvfsd , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+14531 , 22066 , 22066 , gvfsd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14533 , 22066 , 22066 , gvfsd , futex(0x791d50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14536 , 22066 , 22066 , gvfsd , close(7<anon_inode:[eventfd]>) = 0
+14539 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14542 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14545 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14548 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14553 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14556 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14559 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14563 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14564 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14567 , 22066 , 22066 , gvfsd , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fba116e4000
+14569 , 22066 , 22066 , gvfsd , mprotect(0x7fba116e4000, 4096, PROT_NONE) = 0
+14570 , 22066 , 22066 , gvfsd , clone(child_stack=0x7fba11ee3ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fba11ee49d0, tls=0x7fba11ee4700, child_tidptr=0x7fba11ee49d0) = 23057
+14575 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+14580 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+14585 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+14587 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+14592 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+14594 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14597 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7</usr/share/gvfs/mounts>
+14600 , 22066 , 22066 , gvfsd , fstat(7</usr/share/gvfs/mounts>, {st_dev=makedev(8, 1), st_ino=658275, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:07.803400724, st_mtime=2016/04/20-18:11:51, st_ctime=2016/11/03-10:40:53.931999786}) = 0
+14602 , 22066 , 22066 , gvfsd , getdents(7</usr/share/gvfs/mounts>, [{d_ino=658295, d_off=754546194640773878, d_reclen=32, d_name="recent.mount", d_type=DT_REG}, {d_ino=658290, d_off=1250623349189442535, d_reclen=40, d_name="gphoto2.mount", d_type=DT_REG}, {d_ino=658279, d_off=1712390319794281529, d_reclen=32, d_name="afp.mount", d_type=DT_REG}, {d_ino=658281, d_off=1852645807594911709, d_reclen=32, d_name="burn.mount", d_type=DT_REG}, {d_ino=658293, d_off=2152072766151469984, d_reclen=32, d_name="mtp.mount", d_type=DT_REG}, {d_ino=658280, d_off=2298157201717790054, d_reclen=40, d_name="archive.mount", d_type=DT_REG}, {d_ino=658278, d_off=2432880241713528297, d_reclen=40, d_name="afp-browse.mount", d_type=DT_REG}, {d_ino=658282, d_off=2813744575656998859, d_reclen=32, d_name="cdda.mount", d_type=DT_REG}, {d_ino=658285, d_off=3010095946851488672, d_reclen=32, d_name="dav.mount", d_type=DT_REG}, {d_ino=4851466, d_off=4186874107037797929, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=658283, d_off=4754423085455603693, d_reclen=40, d_name="computer.mount", d_type=DT_REG}, {d_ino=658287, d_off=5286259299347339105, d_reclen=32, d_name="ftp.mount", d_type=DT_REG}, {d_ino=658294, d_off=5510190492207605762, d_reclen=40, d_name="network.mount", d_type=DT_REG}, {d_ino=658277, d_off=5710434140879988661, d_reclen=32, d_name="afc.mount", d_type=DT_REG}, {d_ino=658275, d_off=6069177379920996061, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=658292, d_off=6197734347061917003, d_reclen=40, d_name="localtest.mount", d_type=DT_REG}, {d_ino=658286, d_off=6448897458976183823, d_reclen=32, d_name="dns-sd.mount", d_type=DT_REG}, {d_ino=658284, d_off=6611435768922534950, d_reclen=32, d_name="dav+sd.mount", d_type=DT_REG}, {d_ino=658289, d_off=7794338153694066408, d_reclen=32, d_name="google.mount", d_type=DT_REG}, {d_ino=658298, d_off=7848651555672100810, d_reclen=32, d_name="smb.mount", d_type=DT_REG}, {d_ino=658296, d_off=8106736040289504712, d_reclen=32, d_name="sftp.mount", d_type=DT_REG}, {d_ino=658288, d_off=8206291071720390849, d_reclen=32, d_name="ftps.mount", d_type=DT_REG}, {d_ino=658291, d_off=8796098443465438688, d_reclen=32, d_name="http.mount", d_type=DT_REG}, {d_ino=658297, d_off=8916586090401286948, d_reclen=40, d_name="smb-browse.mount", d_type=DT_REG}, {d_ino=658299, d_off=9223372036854775807, d_reclen=32, d_name="trash.mount", d_type=DT_REG}], 32768) = 840
+14607 , 22066 , 22066 , gvfsd , open("/usr/share/locale/locale.alias", O_RDONLY) = 8</etc/locale.alias>
+14609 , 22066 , 22066 , gvfsd , fstat(8</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+14611 , 22066 , 22066 , gvfsd , read(8</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+14615 , 22066 , 22066 , gvfsd , read(8</etc/locale.alias>, "", 4096) = 0
+14617 , 22066 , 22066 , gvfsd , close(8</etc/locale.alias>) = 0
+14619 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/recent.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/recent.mount>
+14622 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/recent.mount>, {st_dev=makedev(8, 1), st_ino=658295, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=68, st_atime=2017/11/26-03:14:07.811400647, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14624 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/recent.mount>, "[Mount]\nType=recent\nExec=/usr/lib/gvfs/gvfsd-recent\nAutoMount=true\n\n", 4096) = 68
+14631 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/recent.mount>, "", 4096) = 0
+14636 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/recent.mount>) = 0
+14638 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/gphoto2.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/gphoto2.mount>
+14640 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/gphoto2.mount>, {st_dev=makedev(8, 1), st_ino=658290, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=70, st_atime=2017/11/26-03:14:07.815400608, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14643 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/gphoto2.mount>, "[Mount]\nType=gphoto2\nExec=/usr/lib/gvfs/gvfsd-gphoto2\nAutoMount=false\n", 4096) = 70
+14646 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/gphoto2.mount>, "", 4096) = 0
+14649 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/gphoto2.mount>) = 0
+14651 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/afp.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/afp.mount>
+14653 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/afp.mount>, {st_dev=makedev(8, 1), st_ino=658279, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=122, st_atime=2017/11/26-03:14:07.819400569, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.395999851}) = 0
+14656 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afp.mount>, "[Mount]\nType=afp-volume\nExec=/usr/lib/gvfs/gvfsd-afp\nAutoMount=false\nScheme=afp\nDefaultPort=548\nHostnameIsInetAddress=true", 4096) = 122
+14659 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afp.mount>, "", 4096) = 0
+14662 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/afp.mount>) = 0
+14664 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/burn.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/burn.mount>
+14666 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/burn.mount>, {st_dev=makedev(8, 1), st_ino=658281, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=64, st_atime=2017/11/26-03:14:07.819400569, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14668 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/burn.mount>, "[Mount]\nType=burn\nExec=/usr/lib/gvfs/gvfsd-burn\nAutoMount=true\n\n", 4096) = 64
+14671 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/burn.mount>, "", 4096) = 0
+14673 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/burn.mount>) = 0
+14676 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/mtp.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/mtp.mount>
+14679 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/mtp.mount>, {st_dev=makedev(8, 1), st_ino=658293, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=62, st_atime=2017/11/26-03:14:07.823400530, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14682 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/mtp.mount>, "[Mount]\nType=mtp\nExec=/usr/lib/gvfs/gvfsd-mtp\nAutoMount=false\n", 4096) = 62
+14685 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/mtp.mount>, "", 4096) = 0
+14687 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/mtp.mount>) = 0
+14689 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/archive.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/archive.mount>
+14690 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/archive.mount>, {st_dev=makedev(8, 1), st_ino=658280, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=85, st_atime=2017/11/26-03:14:07.823400530, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14692 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/archive.mount>, "[Mount]\nType=archive\nExec=/usr/lib/gvfs/gvfsd-archive\nAutoMount=false\nScheme=archive\n", 4096) = 85
+14695 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/archive.mount>, "", 4096) = 0
+14697 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/archive.mount>) = 0
+14699 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/afp-browse.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/afp-browse.mount>
+14701 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/afp-browse.mount>, {st_dev=makedev(8, 1), st_ino=658278, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=131, st_atime=2017/11/26-03:14:07.827400490, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.395999851}) = 0
+14703 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afp-browse.mount>, "[Mount]\nType=afp-server\nExec=/usr/lib/gvfs/gvfsd-afp-browse\nAutoMount=false\nScheme=afp\nDefaultPort=548\nHostnameIsInetAddress=true\n\n", 4096) = 131
+14707 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afp-browse.mount>, "", 4096) = 0
+14710 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/afp-browse.mount>) = 0
+14713 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/cdda.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/cdda.mount>
+14715 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/cdda.mount>, {st_dev=makedev(8, 1), st_ino=658282, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=64, st_atime=2017/11/26-03:14:07.827400490, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14718 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/cdda.mount>, "[Mount]\nType=cdda\nExec=/usr/lib/gvfs/gvfsd-cdda\nAutoMount=false\n", 4096) = 64
+14722 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/cdda.mount>, "", 4096) = 0
+14725 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/cdda.mount>) = 0
+14727 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/dav.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/dav.mount>
+14731 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/dav.mount>, {st_dev=makedev(8, 1), st_ino=658285, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=67, st_atime=2017/11/26-03:14:07.827400490, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14734 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dav.mount>, "[Mount]\nType=dav;davs\nExec=/usr/lib/gvfs/gvfsd-dav\nAutoMount=false\n", 4096) = 67
+14736 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dav.mount>, "", 4096) = 0
+14738 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/dav.mount>) = 0
+14740 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/computer.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/computer.mount>
+14742 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/computer.mount>, {st_dev=makedev(8, 1), st_ino=658283, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=72, st_atime=2017/11/26-03:14:07.827400490, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14746 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/computer.mount>, "[Mount]\nType=computer\nExec=/usr/lib/gvfs/gvfsd-computer\nAutoMount=true\n\n", 4096) = 72
+14750 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/computer.mount>, "", 4096) = 0
+14752 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/computer.mount>) = 0
+14755 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/ftp.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/ftp.mount>
+14757 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/ftp.mount>, {st_dev=makedev(8, 1), st_ino=658287, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=115, st_atime=2017/11/26-03:14:07.831400451, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14760 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/ftp.mount>, "[Mount]\nType=ftp\nExec=/usr/lib/gvfs/gvfsd-ftp\nAutoMount=false\nScheme=ftp\nDefaultPort=21\nHostnameIsInetAddress=true\n", 4096) = 115
+14763 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/ftp.mount>, "", 4096) = 0
+14766 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/ftp.mount>) = 0
+14769 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/network.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/network.mount>
+14772 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/network.mount>, {st_dev=makedev(8, 1), st_ino=658294, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=69, st_atime=2017/11/26-03:14:07.831400451, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14775 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/network.mount>, "[Mount]\nType=network\nExec=/usr/lib/gvfs/gvfsd-network\nAutoMount=true\n", 4096) = 69
+14784 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/network.mount>, "", 4096) = 0
+14786 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/network.mount>) = 0
+14789 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/afc.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/afc.mount>
+14792 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/afc.mount>, {st_dev=makedev(8, 1), st_ino=658277, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=88, st_atime=2017/11/26-03:14:07.831400451, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.395999851}) = 0
+14794 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afc.mount>, "[Mount]\nType=afc\nExec=/usr/lib/gvfs/gvfsd-afc\nAutoMount=false\nScheme=afc\nDefaultPort=1\n\n", 4096) = 88
+14798 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/afc.mount>, "", 4096) = 0
+14800 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/afc.mount>) = 0
+14802 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/localtest.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/localtest.mount>
+14804 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/localtest.mount>, {st_dev=makedev(8, 1), st_ino=658292, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=74, st_atime=2017/11/26-03:14:07.831400451, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14806 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/localtest.mount>, "[Mount]\nType=localtest\nExec=/usr/lib/gvfs/gvfsd-localtest\nAutoMount=false\n", 4096) = 74
+14810 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/localtest.mount>, "", 4096) = 0
+14813 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/localtest.mount>) = 0
+14814 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/dns-sd.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/dns-sd.mount>
+14818 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/dns-sd.mount>, {st_dev=makedev(8, 1), st_ino=658286, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=66, st_atime=2017/11/26-03:14:07.831400451, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14821 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dns-sd.mount>, "[Mount]\nType=dns-sd\nExec=/usr/lib/gvfs/gvfsd-dnssd\nAutoMount=true\n", 4096) = 66
+14824 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dns-sd.mount>, "", 4096) = 0
+14826 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/dns-sd.mount>) = 0
+14829 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/dav+sd.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/dav+sd.mount>
+14831 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/dav+sd.mount>, {st_dev=makedev(8, 1), st_ino=658284, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=73, st_atime=2017/11/26-03:14:07.835400412, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14834 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dav+sd.mount>, "[Mount]\nType=dav+sd;davs+sd\nExec=/usr/lib/gvfs/gvfsd-dav\nAutoMount=false\n", 4096) = 73
+14838 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/dav+sd.mount>, "", 4096) = 0
+14840 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/dav+sd.mount>) = 0
+14843 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/google.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/google.mount>
+14845 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/google.mount>, {st_dev=makedev(8, 1), st_ino=658289, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=74, st_atime=2017/11/26-03:14:07.835400412, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14849 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/google.mount>, "[Mount]\nType=google-drive\nExec=/usr/lib/gvfs/gvfsd-google\nAutoMount=false\n", 4096) = 74
+14856 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/google.mount>, "", 4096) = 0
+14857 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/google.mount>) = 0
+14860 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/smb.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/smb.mount>
+14862 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/smb.mount>, {st_dev=makedev(8, 1), st_ino=658298, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=79, st_atime=2017/11/26-03:14:07.835400412, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14864 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/smb.mount>, "[Mount]\nType=smb-share\nExec=/usr/lib/gvfs/gvfsd-smb\nAutoMount=false\nScheme=smb\n", 4096) = 79
+14866 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/smb.mount>, "", 4096) = 0
+14868 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/smb.mount>) = 0
+14869 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/sftp.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/sftp.mount>
+14872 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/sftp.mount>, {st_dev=makedev(8, 1), st_ino=658296, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=136, st_atime=2017/11/26-03:14:07.835400412, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14876 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/sftp.mount>, "[Mount]\nType=sftp\nExec=/usr/lib/gvfs/gvfsd-sftp\nAutoMount=false\nScheme=sftp\nSchemeAliases=ssh\nDefaultPort=22\nHostnameIsInetAddress=true\n", 4096) = 136
+14878 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/sftp.mount>, "", 4096) = 0
+14881 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/sftp.mount>) = 0
+14883 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/ftps.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/ftps.mount>
+14885 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/ftps.mount>, {st_dev=makedev(8, 1), st_ino=658288, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=117, st_atime=2017/11/26-03:14:07.839400373, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14887 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/ftps.mount>, "[Mount]\nType=ftps\nExec=/usr/lib/gvfs/gvfsd-ftp\nAutoMount=false\nScheme=ftps\nDefaultPort=21\nHostnameIsInetAddress=true\n", 4096) = 117
+14891 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/ftps.mount>, "", 4096) = 0
+14893 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/ftps.mount>) = 0
+14896 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/http.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/http.mount>
+14900 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/http.mount>, {st_dev=makedev(8, 1), st_ino=658291, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=100, st_atime=2017/11/26-03:14:07.839400373, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14903 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/http.mount>, "[Mount]\nType=http\nExec=/usr/lib/gvfs/gvfsd-http\nAutoMount=true\nDBusName=org.gtk.vfs.mountpoint_http\n", 4096) = 100
+14907 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/http.mount>, "", 4096) = 0
+14910 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/http.mount>) = 0
+14913 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/smb-browse.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/smb-browse.mount>
+14916 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/smb-browse.mount>, {st_dev=makedev(8, 1), st_ino=658297, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=142, st_atime=2017/11/26-03:14:07.839400373, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14918 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/smb-browse.mount>, "[Mount]\nType=smb-network;smb-server\nExec=/usr/lib/gvfs/gvfsd-smb-browse\nDBusName=org.gtk.vfs.mountpoint_smb_browse\nAutoMount=false\nScheme=smb\n", 4096) = 142
+14921 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/smb-browse.mount>, "", 4096) = 0
+14923 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/smb-browse.mount>) = 0
+14926 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/mounts/trash.mount", O_RDONLY) = 8</usr/share/gvfs/mounts/trash.mount>
+14928 , 22066 , 22066 , gvfsd , fstat(8</usr/share/gvfs/mounts/trash.mount>, {st_dev=makedev(8, 1), st_ino=658299, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=66, st_atime=2017/11/26-03:14:07.839400373, st_mtime=2016/04/14-15:31:01, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+14931 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/trash.mount>, "[Mount]\nType=trash\nExec=/usr/lib/gvfs/gvfsd-trash\nAutoMount=true\n\n", 4096) = 66
+14934 , 22066 , 22066 , gvfsd , read(8</usr/share/gvfs/mounts/trash.mount>, "", 4096) = 0
+14938 , 22066 , 22066 , gvfsd , close(8</usr/share/gvfs/mounts/trash.mount>) = 0
+14941 , 22066 , 22066 , gvfsd , getdents(7</usr/share/gvfs/mounts>, [], 32768) = 0
+14944 , 22066 , 22066 , gvfsd , close(7</usr/share/gvfs/mounts>) = 0
+14949 , 22066 , 22066 , gvfsd , pipe([7<pipe:[146058]>, 8<pipe:[146058]>]) = 0
+14951 , 22066 , 22066 , gvfsd , fstat(7<pipe:[146058]>, {st_dev=makedev(0, 10), st_ino=146058, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:41:17.061348426, st_mtime=2017/11/26-03:41:17.061348426, st_ctime=2017/11/26-03:41:17.061348426}) = 0
+14953 , 22066 , 22066 , gvfsd , fcntl(7<pipe:[146058]>, F_GETFL) = 0 (flags O_RDONLY)
+14956 , 22066 , 22066 , gvfsd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14958 , 22066 , 22066 , gvfsd , rt_sigaction(SIGUSR1, {0x404440, [], SA_RESTORER, 0x7fba152e3390}, NULL, 8) = 0
+14960 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14962 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14965 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+14969 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+14972 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+14977 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+14980 , 22066 , 22066 , gvfsd , futex(0x78e5b0, FUTEX_WAKE_PRIVATE, 1) = 1
+14983 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+14986 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+14991 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, 24977) = 1 ([{fd=3, revents=POLLIN}])
+15056 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+15061 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15063 , 22066 , 22066 , gvfsd , futex(0x7fba157ff428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15066 , 22066 , 22066 , gvfsd , access("/run/user/1000/gvfs", F_OK) = -1 ENOENT (No such file or directory)
+15068 , 22066 , 22066 , gvfsd , mkdir("/run/user/1000/gvfs", 0700) = 0
+15071 , 22066 , 22066 , gvfsd , pipe2([9<pipe:[147596]>, 10<pipe:[147596]>], 0) = 0
+15073 , 22066 , 22066 , gvfsd , pipe2([11<pipe:[147597]>, 12<pipe:[147597]>], 0) = 0
+15076 , 22066 , 22066 , gvfsd , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fba16434ad0) = 23446
+15085 , 22066 , 22066 , gvfsd , close(10<pipe:[147596]>) = 0
+15088 , 22066 , 22066 , gvfsd , close(12<pipe:[147597]>) = 0
+15093 , 22066 , 22066 , gvfsd , wait4(23446, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 23446
+15119 , 22066 , 22066 , gvfsd , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=23446, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+15122 , 22066 , 22066 , gvfsd , read(9<pipe:[147596]>, "", 8) = 0
+15193 , 22066 , 22066 , gvfsd , read(11<pipe:[147597]>, "\233[\0\0", 4) = 4
+15196 , 22066 , 22066 , gvfsd , read(11<pipe:[147597]>, "", 0) = 0
+15198 , 22066 , 22066 , gvfsd , close(9<pipe:[147596]>) = 0
+15203 , 22066 , 22066 , gvfsd , close(11<pipe:[147597]>) = 0
+15206 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+15260 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15263 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+15266 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAKE_PRIVATE, 1) = 1
+15271 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+15277 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAKE_PRIVATE, 1) = 0
+15285 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</usr/share/gvfs/remote-volume-monitors>
+15289 , 22066 , 22066 , gvfsd , fstat(9</usr/share/gvfs/remote-volume-monitors>, {st_dev=makedev(8, 1), st_ino=658276, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/20-18:11:51, st_ctime=2016/11/03-10:40:53.931999786}) = 0
+15295 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [{d_ino=658304, d_off=1471435419865334173, d_reclen=40, d_name="udisks2.monitor", d_type=DT_REG}, {d_ino=658303, d_off=3010095946851488672, d_reclen=32, d_name="mtp.monitor", d_type=DT_REG}, {d_ino=4851466, d_off=4439756766665324130, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=658302, d_off=5710434140879988661, d_reclen=40, d_name="gphoto2.monitor", d_type=DT_REG}, {d_ino=658276, d_off=7331695801159175940, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=658300, d_off=8243113375536835142, d_reclen=32, d_name="afc.monitor", d_type=DT_REG}, {d_ino=658301, d_off=9223372036854775807, d_reclen=32, d_name="goa.monitor", d_type=DT_REG}], 32768) = 224
+15301 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/udisks2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>
+15304 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, {st_dev=makedev(8, 1), st_ino=658304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=127, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+15306 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorUDisks2\nDBusName=org.gtk.vfs.UDisks2VolumeMonitor\nIsNative=true\nNativePriority=4\n", 4096) = 127
+15310 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "", 4096) = 0
+15313 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>) = 0
+15316 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/mtp.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>
+15319 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, {st_dev=makedev(8, 1), st_ino=658303, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+15321 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorMTP\nDBusName=org.gtk.vfs.MTPVolumeMonitor\nIsNative=false\n", 4096) = 103
+15325 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "", 4096) = 0
+15327 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>) = 0
+15330 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/gphoto2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>
+15333 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, {st_dev=makedev(8, 1), st_ino=658302, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=111, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+15336 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGPhoto2\nDBusName=org.gtk.vfs.GPhoto2VolumeMonitor\nIsNative=false\n", 4096) = 111
+15339 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "", 4096) = 0
+15344 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>) = 0
+15347 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/afc.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/afc.monitor>
+15349 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, {st_dev=makedev(8, 1), st_ino=658300, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=104, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+15352 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorAfc\nDBusName=org.gtk.vfs.AfcVolumeMonitor\nIsNative=false\n\n", 4096) = 104
+15355 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "", 4096) = 0
+15357 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>) = 0
+15360 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/goa.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/goa.monitor>
+15362 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, {st_dev=makedev(8, 1), st_ino=658301, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+15364 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGoa\nDBusName=org.gtk.vfs.GoaVolumeMonitor\nIsNative=false\n", 4096) = 103
+15366 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "", 4096) = 0
+15368 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>) = 0
+15369 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [], 32768) = 0
+15371 , 22066 , 22066 , gvfsd , close(9</usr/share/gvfs/remote-volume-monitors>) = 0
+15374 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15376 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+15379 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+15384 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+15386 , 22066 , 22066 , gvfsd , futex(0x78e5b0, FUTEX_WAKE_PRIVATE, 1) = 1
+15395 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+17298 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17300 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17305 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+17310 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+17484 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17489 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</usr/share/gvfs/remote-volume-monitors>
+17491 , 22066 , 22066 , gvfsd , fstat(9</usr/share/gvfs/remote-volume-monitors>, {st_dev=makedev(8, 1), st_ino=658276, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/20-18:11:51, st_ctime=2016/11/03-10:40:53.931999786}) = 0
+17496 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [{d_ino=658304, d_off=1471435419865334173, d_reclen=40, d_name="udisks2.monitor", d_type=DT_REG}, {d_ino=658303, d_off=3010095946851488672, d_reclen=32, d_name="mtp.monitor", d_type=DT_REG}, {d_ino=4851466, d_off=4439756766665324130, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=658302, d_off=5710434140879988661, d_reclen=40, d_name="gphoto2.monitor", d_type=DT_REG}, {d_ino=658276, d_off=7331695801159175940, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=658300, d_off=8243113375536835142, d_reclen=32, d_name="afc.monitor", d_type=DT_REG}, {d_ino=658301, d_off=9223372036854775807, d_reclen=32, d_name="goa.monitor", d_type=DT_REG}], 32768) = 224
+17500 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/udisks2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>
+17503 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, {st_dev=makedev(8, 1), st_ino=658304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=127, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+17505 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorUDisks2\nDBusName=org.gtk.vfs.UDisks2VolumeMonitor\nIsNative=true\nNativePriority=4\n", 4096) = 127
+17507 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "", 4096) = 0
+17511 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>) = 0
+17515 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/mtp.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>
+17518 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, {st_dev=makedev(8, 1), st_ino=658303, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+17522 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorMTP\nDBusName=org.gtk.vfs.MTPVolumeMonitor\nIsNative=false\n", 4096) = 103
+17525 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "", 4096) = 0
+17528 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>) = 0
+17531 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/gphoto2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>
+17534 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, {st_dev=makedev(8, 1), st_ino=658302, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=111, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+17537 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGPhoto2\nDBusName=org.gtk.vfs.GPhoto2VolumeMonitor\nIsNative=false\n", 4096) = 111
+17540 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "", 4096) = 0
+17544 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>) = 0
+17547 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/afc.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/afc.monitor>
+17549 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, {st_dev=makedev(8, 1), st_ino=658300, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=104, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+17552 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorAfc\nDBusName=org.gtk.vfs.AfcVolumeMonitor\nIsNative=false\n\n", 4096) = 104
+17554 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "", 4096) = 0
+17557 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>) = 0
+17560 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/goa.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/goa.monitor>
+17561 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, {st_dev=makedev(8, 1), st_ino=658301, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+17564 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGoa\nDBusName=org.gtk.vfs.GoaVolumeMonitor\nIsNative=false\n", 4096) = 103
+17567 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "", 4096) = 0
+17569 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>) = 0
+17572 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [], 32768) = 0
+17574 , 22066 , 22066 , gvfsd , close(9</usr/share/gvfs/remote-volume-monitors>) = 0
+17578 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17582 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+17587 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+17592 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+17595 , 22066 , 22066 , gvfsd , futex(0x78e5b0, FUTEX_WAKE_PRIVATE, 1) = 1
+17600 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+18473 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+18476 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+18478 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18481 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 1
+18485 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+18798 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+18801 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+18803 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAKE_PRIVATE, 1) = 1
+18806 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+18811 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAKE_PRIVATE, 1) = 0
+18815 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+18822 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18826 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+18828 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+18833 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+18835 , 22066 , 22066 , gvfsd , futex(0x78e5b0, FUTEX_WAKE_PRIVATE, 1) = 1
+18839 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+20874 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+20878 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+20880 , 22066 , 22066 , gvfsd , futex(0x77cab0, FUTEX_WAKE_PRIVATE, 1) = 1
+20884 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+20887 , 22066 , 22066 , gvfsd , futex(0x785048, FUTEX_WAKE_PRIVATE, 1) = 0
+20891 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</usr/share/gvfs/remote-volume-monitors>
+20893 , 22066 , 22066 , gvfsd , fstat(9</usr/share/gvfs/remote-volume-monitors>, {st_dev=makedev(8, 1), st_ino=658276, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/20-18:11:51, st_ctime=2016/11/03-10:40:53.931999786}) = 0
+20896 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [{d_ino=658304, d_off=1471435419865334173, d_reclen=40, d_name="udisks2.monitor", d_type=DT_REG}, {d_ino=658303, d_off=3010095946851488672, d_reclen=32, d_name="mtp.monitor", d_type=DT_REG}, {d_ino=4851466, d_off=4439756766665324130, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=658302, d_off=5710434140879988661, d_reclen=40, d_name="gphoto2.monitor", d_type=DT_REG}, {d_ino=658276, d_off=7331695801159175940, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=658300, d_off=8243113375536835142, d_reclen=32, d_name="afc.monitor", d_type=DT_REG}, {d_ino=658301, d_off=9223372036854775807, d_reclen=32, d_name="goa.monitor", d_type=DT_REG}], 32768) = 224
+20900 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/udisks2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>
+20902 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, {st_dev=makedev(8, 1), st_ino=658304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=127, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+20905 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorUDisks2\nDBusName=org.gtk.vfs.UDisks2VolumeMonitor\nIsNative=true\nNativePriority=4\n", 4096) = 127
+20908 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "", 4096) = 0
+20910 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>) = 0
+20912 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/mtp.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>
+20915 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, {st_dev=makedev(8, 1), st_ino=658303, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+20917 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorMTP\nDBusName=org.gtk.vfs.MTPVolumeMonitor\nIsNative=false\n", 4096) = 103
+20920 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "", 4096) = 0
+20924 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>) = 0
+20926 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/gphoto2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>
+20929 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, {st_dev=makedev(8, 1), st_ino=658302, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=111, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+20931 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGPhoto2\nDBusName=org.gtk.vfs.GPhoto2VolumeMonitor\nIsNative=false\n", 4096) = 111
+20934 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "", 4096) = 0
+20937 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>) = 0
+20940 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/afc.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/afc.monitor>
+20942 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, {st_dev=makedev(8, 1), st_ino=658300, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=104, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+20943 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorAfc\nDBusName=org.gtk.vfs.AfcVolumeMonitor\nIsNative=false\n\n", 4096) = 104
+20945 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "", 4096) = 0
+20946 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>) = 0
+20948 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/goa.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/goa.monitor>
+20950 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, {st_dev=makedev(8, 1), st_ino=658301, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+20952 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGoa\nDBusName=org.gtk.vfs.GoaVolumeMonitor\nIsNative=false\n", 4096) = 103
+20954 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "", 4096) = 0
+20955 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>) = 0
+20957 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [], 32768) = 0
+20959 , 22066 , 22066 , gvfsd , close(9</usr/share/gvfs/remote-volume-monitors>) = 0
+20962 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+20964 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+20968 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+35606 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+35608 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</usr/share/gvfs/remote-volume-monitors>
+35610 , 22066 , 22066 , gvfsd , fstat(9</usr/share/gvfs/remote-volume-monitors>, {st_dev=makedev(8, 1), st_ino=658276, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/20-18:11:51, st_ctime=2016/11/03-10:40:53.931999786}) = 0
+35612 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [{d_ino=658304, d_off=1471435419865334173, d_reclen=40, d_name="udisks2.monitor", d_type=DT_REG}, {d_ino=658303, d_off=3010095946851488672, d_reclen=32, d_name="mtp.monitor", d_type=DT_REG}, {d_ino=4851466, d_off=4439756766665324130, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=658302, d_off=5710434140879988661, d_reclen=40, d_name="gphoto2.monitor", d_type=DT_REG}, {d_ino=658276, d_off=7331695801159175940, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=658300, d_off=8243113375536835142, d_reclen=32, d_name="afc.monitor", d_type=DT_REG}, {d_ino=658301, d_off=9223372036854775807, d_reclen=32, d_name="goa.monitor", d_type=DT_REG}], 32768) = 224
+35614 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/udisks2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>
+35615 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, {st_dev=makedev(8, 1), st_ino=658304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=127, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+35616 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorUDisks2\nDBusName=org.gtk.vfs.UDisks2VolumeMonitor\nIsNative=true\nNativePriority=4\n", 4096) = 127
+35617 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>, "", 4096) = 0
+35618 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/udisks2.monitor>) = 0
+35619 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/mtp.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>
+35620 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, {st_dev=makedev(8, 1), st_ino=658303, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+35621 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorMTP\nDBusName=org.gtk.vfs.MTPVolumeMonitor\nIsNative=false\n", 4096) = 103
+35622 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>, "", 4096) = 0
+35623 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/mtp.monitor>) = 0
+35624 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/gphoto2.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>
+35625 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, {st_dev=makedev(8, 1), st_ino=658302, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=111, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.403999851}) = 0
+35626 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGPhoto2\nDBusName=org.gtk.vfs.GPhoto2VolumeMonitor\nIsNative=false\n", 4096) = 111
+35627 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>, "", 4096) = 0
+35628 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/gphoto2.monitor>) = 0
+35629 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/afc.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/afc.monitor>
+35630 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, {st_dev=makedev(8, 1), st_ino=658300, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=104, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+35631 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorAfc\nDBusName=org.gtk.vfs.AfcVolumeMonitor\nIsNative=false\n\n", 4096) = 104
+35632 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>, "", 4096) = 0
+35633 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/afc.monitor>) = 0
+35634 , 22066 , 22066 , gvfsd , open("/usr/share/gvfs/remote-volume-monitors/goa.monitor", O_RDONLY) = 10</usr/share/gvfs/remote-volume-monitors/goa.monitor>
+35635 , 22066 , 22066 , gvfsd , fstat(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, {st_dev=makedev(8, 1), st_ino=658301, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=103, st_atime=2017/11/25-09:35:02.012673640, st_mtime=2016/04/14-15:31:03, st_ctime=2016/11/03-10:39:27.399999851}) = 0
+35636 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "[RemoteVolumeMonitor]\nName=GProxyVolumeMonitorGoa\nDBusName=org.gtk.vfs.GoaVolumeMonitor\nIsNative=false\n", 4096) = 103
+35637 , 22066 , 22066 , gvfsd , read(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>, "", 4096) = 0
+35638 , 22066 , 22066 , gvfsd , close(10</usr/share/gvfs/remote-volume-monitors/goa.monitor>) = 0
+35639 , 22066 , 22066 , gvfsd , getdents(9</usr/share/gvfs/remote-volume-monitors>, [], 32768) = 0
+35640 , 22066 , 22066 , gvfsd , close(9</usr/share/gvfs/remote-volume-monitors>) = 0
+35641 , 22066 , 22066 , gvfsd , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+35643 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+35645 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+35648 , 22066 , 22066 , gvfsd , futex(0x78f320, FUTEX_WAKE_PRIVATE, 1) = 0
+35649 , 22066 , 22066 , gvfsd , futex(0x78e5b0, FUTEX_WAKE_PRIVATE, 1) = 1
+35651 , 22066 , 22066 , gvfsd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=7<pipe:[146058]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+41315 , 22066 , 22066 , gvfsd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+41324 , 22066 , 22066 , gvfsd , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+41330 , 22066 , 22066 , gvfsd , write(2<UNIX:[130022->130023]>, "A connection to the bus can't be made\n", 38) = 38
+41336 , 22066 , 22066 , gvfsd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+41344 , 22066 , 22066 , gvfsd , futex(0x77cac0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+41355 , 22066 , 22066 , gvfsd , tgkill(22066, 22066, SIGTERM) = 0
+41357 , 22066 , 22066 , gvfsd , --- SIGTERM {si_signo=SIGTERM, si_code=SI_TKILL, si_pid=22066, si_uid=1000} ---
+41380 , 22066 , -1 , NULL , +++ killed by SIGTERM +++

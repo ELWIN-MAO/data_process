@@ -1,0 +1,11 @@
+16284 , 23889 , 21402 , gsettings , set_robust_list(0x7f579198c9e0, 24) = 0
+16286 , 23889 , 21402 , gsettings , prctl(PR_SET_NAME, "dconf worker\0\177\0\0") = 0
+16289 , 23889 , 21402 , dconf worker , mmap(0x7f5788000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5788000000
+16292 , 23889 , 21402 , dconf worker , mprotect(0x7f5788000000, 139264, PROT_READ|PROT_WRITE) = 0
+16294 , 23889 , 21402 , dconf worker , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=9, revents=POLLIN}])
+16298 , 23889 , 21402 , dconf worker , futex(0x7f5793cb95d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16302 , 23889 , 21402 , dconf worker , write(12<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16305 , 23889 , 21402 , dconf worker , futex(0x1df1c00, FUTEX_WAKE_PRIVATE, 1) = 0
+16308 , 23889 , 21402 , dconf worker , futex(0x1df1c00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+16319 , 23889 , 21402 , dconf worker , futex(0x1df1c00, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+16325 , 23889 , -1 , NULL , +++ exited with 0 +++

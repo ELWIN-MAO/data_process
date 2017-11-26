@@ -1,0 +1,22 @@
+130878 , 55886 , 55725 , indicator-datet , set_robust_list(0x7f5c42ffd9e0, 24) = 0
+130891 , 55886 , 55725 , indicator-datet , prctl(PR_SET_NAME, "pool\0\0\0\0\0\0\0\0\0\0\0\0") = 0
+130892 , 55886 , 55725 , pool , mmap(0x7f5c34000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5c34000000
+130893 , 55886 , 55725 , pool , mprotect(0x7f5c34000000, 139264, PROT_READ|PROT_WRITE) = 0
+130894 , 55886 , 55725 , pool , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 17<anon_inode:[eventfd]>
+130906 , 55886 , 55725 , pool , write(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+130907 , 55886 , 55725 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+130908 , 55886 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+130909 , 55886 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+130910 , 55886 , 55725 , pool , read(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+130911 , 55886 , 55725 , pool , poll([{fd=17<anon_inode:[eventfd]>, events=POLLIN}], 1, 180000) = 1 ([{fd=17, revents=POLLIN}])
+134187 , 55886 , 55725 , pool , futex(0x7f5c34002800, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+134190 , 55886 , 55725 , pool , read(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+134191 , 55886 , 55725 , pool , futex(0x7f5c34002800, FUTEX_WAKE_PRIVATE, 1) = 0
+134192 , 55886 , 55725 , pool , write(17<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+134193 , 55886 , 55725 , pool , futex(0x7f5c34002810, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+134194 , 55886 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+134195 , 55886 , 55725 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+134196 , 55886 , 55725 , pool , futex(0x244d330, FUTEX_WAIT_PRIVATE, 3, {0, 499999151}) = -1 ETIMEDOUT (Connection timed out)
+137023 , 55886 , 55725 , pool , madvise(0x7f5c427fd000, 8368128, MADV_DONTNEED) = 0
+137024 , 55886 , 55725 , pool , exit(0) = ?
+137025 , 55886 , -1 , NULL , +++ exited with 0 +++

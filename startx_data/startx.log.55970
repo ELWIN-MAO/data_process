@@ -1,0 +1,12 @@
+362137 , 55970 , 55604 , gnome-session-b , set_robust_list(0x7fc816fe29e0, 24) = 0
+362138 , 55970 , 55604 , gnome-session-b , prctl(PR_SET_NAME, "pool\0\0\0\0_PREFIX=") = 0
+362139 , 55970 , 55604 , pool , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+362141 , 55970 , 55604 , pool , futex(0x19229c0, FUTEX_WAKE_PRIVATE, 1) = 1
+362144 , 55970 , 55604 , pool , futex(0x19200a0, FUTEX_WAKE_PRIVATE, 1) = 1
+362150 , 55970 , 55604 , pool , futex(0x7fc80c0010d0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+362160 , 55970 , 55604 , pool , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+362162 , 55970 , 55604 , pool , futex(0x1900290, FUTEX_WAKE_PRIVATE, 1) = 1
+362167 , 55970 , 55604 , pool , futex(0x191e040, FUTEX_WAIT_PRIVATE, 34, {0, 499999140}) = -1 ETIMEDOUT (Connection timed out)
+364946 , 55970 , 55604 , pool , madvise(0x7fc8167e2000, 8368128, MADV_DONTNEED) = 0
+364947 , 55970 , 55604 , pool , exit(0) = ?
+364948 , 55970 , -1 , NULL , +++ exited with 0 +++

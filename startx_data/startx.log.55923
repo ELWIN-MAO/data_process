@@ -1,0 +1,16 @@
+168439 , 55923 , 55923 , dbus-daemon , set_robust_list(0x7f9addcf1ba0, 24) = 0
+168440 , 55923 , 55923 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, {SIG_DFL, [], 0}, 8) = 0
+168441 , 55923 , 55923 , dbus-daemon , close(45<pipe:[514697]>) = 0
+168442 , 55923 , 55923 , dbus-daemon , close(47<UNIX:[514699->514700]>) = 0
+168443 , 55923 , 55923 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9addcf1b90) = 55924
+168444 , 55923 , 55923 , dbus-daemon , close(46<pipe:[514697]>) = 0
+168445 , 55923 , 55923 , dbus-daemon , close(49<UNIX:[514705->514709]>) = 0
+168446 , 55923 , 55923 , dbus-daemon , close(50<UNIX:[514716->514720]>) = 0
+168447 , 55923 , 55923 , dbus-daemon , pipe([45<pipe:[514750]>, 46<pipe:[514750]>]) = 0
+168448 , 55923 , 55923 , dbus-daemon , rt_sigaction(SIGCHLD, {0x5617a2741dd0, [], SA_RESTORER, 0x7f9adcc9d390}, NULL, 8) = 0
+168449 , 55923 , 55923 , dbus-daemon , write(48<UNIX:[514700->514699]>, "\3\0\0\0", 4) = 4
+168452 , 55923 , 55923 , dbus-daemon , write(48<UNIX:[514700->514699]>, "t\332\0\0", 4) = 4
+168453 , 55923 , 55923 , dbus-daemon , wait4(55924, 0x7ffe5420367c, WNOHANG, NULL) = 0
+168455 , 55923 , 55923 , dbus-daemon , poll([{fd=48<UNIX:[514700->514699]>, events=POLLIN}, {fd=45<pipe:[514750]>, events=POLLIN}], 2, -1) = 1 ([{fd=48, revents=POLLIN|POLLHUP}])
+176051 , 55923 , 55923 , dbus-daemon , wait4(55924, 0x7ffe5420367c, WNOHANG, NULL) = 0
+176058 , 55923 , -1 , NULL , +++ killed by SIGKILL +++

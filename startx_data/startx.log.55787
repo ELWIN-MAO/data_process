@@ -1,0 +1,1059 @@
+78827 , 55787 , 55787 , dbus-daemon , set_robust_list(0x7f9addcf1ba0, 24) = 0
+78828 , 55787 , 55787 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9adc8f74b0}, 8) = 0
+78829 , 55787 , 55787 , dbus-daemon , close(36<UNIX:[487211->487210]>) = 0
+78830 , 55787 , 55787 , dbus-daemon , dup2(37<UNIX:[487214->487217]>, 1</dev/null>) = 1<UNIX:[487214->487217]>
+78831 , 55787 , 55787 , dbus-daemon , dup2(38<UNIX:[487222->487225]>, 2</dev/null>) = 2<UNIX:[487222->487225]>
+78832 , 55787 , 55787 , dbus-daemon , close(37<UNIX:[487214->487217]>) = 0
+78833 , 55787 , 55787 , dbus-daemon , close(38<UNIX:[487222->487225]>) = 0
+78834 , 55787 , 55787 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=64*1024}) = 0
+78835 , 55787 , 55787 , dbus-daemon , execve("/usr/lib/gvfs/gvfs-udisks2-volume-monitor", ["/usr/lib/gvfs/gvfs-udisks2-volume-monitor"], ["SHELL=/bin/bash", "SUDO_GID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "XDG_CURRENT_DESKTOP=GNOME", "QT_ACCESSIBILITY=1", "DISPLAY=:0", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "XMODIFIERS=@im=ibus", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "WINDOWPATH=1", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "GTK_MODULES=gail:atk-bridge", "USERNAME=root", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "MAIL=/var/mail/root", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=55636", "QT_IM_MODULE=ibus", "XAUTHORITY=/home/elwin/.Xauthority", "USER=root", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "TERM=linux", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data", "SUDO_USER=elwin", "XDG_MENU_PREFIX=gnome-", "LANG=en_US.UTF-8", "SUDO_UID=1000", "HOME=/home/elwin", "LOGNAME=root"]) = 0
+78887 , 55787 , 55787 , gvfs-udisks2-vo , brk(NULL) = 0x1614000
+78888 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+78889 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f545551d000
+78928 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+78929 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64/libudisks2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+78930 , 55787 , 55787 , gvfs-udisks2-vo , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls/x86_64", 0x7ffdbe0208c0) = -1 ENOENT (No such file or directory)
+78931 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/tls/libudisks2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+78932 , 55787 , 55787 , gvfs-udisks2-vo , stat("/usr/lib/x86_64-linux-gnu/gvfs/tls", 0x7ffdbe0208c0) = -1 ENOENT (No such file or directory)
+78933 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/x86_64/libudisks2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+78934 , 55787 , 55787 , gvfs-udisks2-vo , stat("/usr/lib/x86_64-linux-gnu/gvfs/x86_64", 0x7ffdbe0208c0) = -1 ENOENT (No such file or directory)
+78935 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libudisks2.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+78936 , 55787 , 55787 , gvfs-udisks2-vo , stat("/usr/lib/x86_64-linux-gnu/gvfs", {st_dev=makedev(8, 1), st_ino=4720275, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/04/20-18:11:50, st_mtime=2016/04/20-18:11:50, st_ctime=2016/11/03-10:40:40.459999796}) = 0
+78937 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+78938 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+78939 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f54554fd000
+78940 , 55787 , 55787 , gvfs-udisks2-vo , close(3</etc/ld.so.cache>) = 0
+78941 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+78942 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libudisks2.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>
+78943 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\301\1\0\0\0\0\0@\0\0\0\0\0\0\0\350\227\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\n\6\0\0\0\0\0\f\n\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\24\6\0\0\0\0\0\310\24&\0\0\0\0\0\310\24&\0\0\0\0\0\360\201\0\0\0\0\0\0H\205\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220\215\6\0\0\0\0\0\220\215&\0\0\0\0\0"..., 832) = 832
+78952 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466422, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=848, st_size=433896, st_atime=2017/11/26-03:14:12.879351643, st_mtime=2016/04/01-16:05:28, st_ctime=2016/11/03-10:38:46.831999882}) = 0
+78953 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2529808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>, 0) = 0x7f5455090000
+78954 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54550f1000, 2097152, PROT_NONE) = 0
+78955 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f54552f1000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>, 0x61000) = 0x7f54552f1000
+79069 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libudisks2.so.0.0.0>) = 0
+79119 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgudev-1.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79120 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79121 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>
+79122 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3008\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\224\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\211\0\0\0\0\0\0$\211\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\215\0\0\0\0\0\0(\215 \0\0\0\0\0(\215 \0\0\0\0\0`\6\0\0\0\0\0\0\300\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\215\0\0\0\0\0\0\240\215 \0\0\0\0\0"..., 832) = 832
+79123 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>, {st_dev=makedev(8, 1), st_ino=4465855, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39800, st_atime=2017/11/25-09:45:40.315537120, st_mtime=2015/06/28-13:14:47, st_ctime=2016/11/03-10:38:42.335999885}) = 0
+79124 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2135016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>, 0) = 0x7f5454e86000
+79125 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454e8f000, 2093056, PROT_NONE) = 0
+79126 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f545508e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>, 0x8000) = 0x7f545508e000
+79127 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libgudev-1.0.so.0.2.0>) = 0
+79128 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79129 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79130 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+79131 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+79132 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980824, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/09/28-21:40:34, st_ctime=2016/11/03-23:17:42.287864280}) = 0
+79133 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f54554fc000
+79134 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7f5455477000
+79135 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f54554f7000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7f54554f7000
+79136 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f54554fb000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f54554fb000
+79137 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+79138 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79139 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79140 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libsecret-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>
+79141 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\315\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\353\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\267\4\0\0\0\0\0T\267\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\267\4\0\0\0\0\0\250\267$\0\0\0\0\0\250\267$\0\0\0\0\0\3102\0\0\0\0\0\00085\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\335\4\0\0\0\0\0@\335$\0\0\0\0\0"..., 832) = 832
+79142 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466305, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=640, st_size=324256, st_atime=2017/11/26-03:14:07.715401587, st_mtime=2016/04/17-14:42:27, st_ctime=2016/11/03-10:38:46.127999882}) = 0
+79143 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2419936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0) = 0x7f5454c37000
+79144 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454c83000, 2093056, PROT_NONE) = 0
+79145 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454e82000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>, 0x4b000) = 0x7f5454e82000
+79146 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0>) = 0
+79147 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79148 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79149 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+79150 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+79151 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+79152 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7f54548af000
+79153 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454a2f000, 2097152, PROT_NONE) = 0
+79154 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454c2f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7f5454c2f000
+79155 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454c35000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5454c35000
+79156 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+79157 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79158 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79159 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+79160 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+79161 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+79162 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455476000
+79163 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7f545465c000
+79164 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54546ae000, 2093056, PROT_NONE) = 0
+79165 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f54548ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7f54548ad000
+79166 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+79167 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79168 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79169 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+79170 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+79171 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+79172 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7f545434b000
+79173 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454459000, 2097152, PROT_NONE) = 0
+79174 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454659000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7f5454659000
+79175 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f545465b000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f545465b000
+79176 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+79177 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79178 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79179 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+79180 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+79181 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+79182 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f545412e000
+79183 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454146000, 2093056, PROT_NONE) = 0
+79184 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454345000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f5454345000
+79185 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454347000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5454347000
+79186 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+79187 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79188 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79189 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+79190 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+79191 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+79192 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455475000
+79193 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f5453d64000
+79194 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453f24000, 2097152, PROT_NONE) = 0
+79195 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5454124000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f5454124000
+79196 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f545412a000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f545412a000
+79197 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+79198 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79199 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79200 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libudev.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libudev.so.1.6.4>
+79201 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libudev.so.1.6.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0x\347\1\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0 \0\37\0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0P\325\1\0\0\0\0\0P\325\1\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0\340\330\1\0\0\0\0\0\340\350\1\0\0\0\0\0"..., 832) = 832
+79202 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libudev.so.1.6.4>, {st_dev=makedev(8, 1), st_ino=4985391, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=248, st_size=126840, st_atime=2017/11/25-09:45:40.319537181, st_mtime=2016/09/28-21:40:35, st_ctime=2016/11/03-23:18:08.521147904}) = 0
+79203 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 130656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.6.4>, 0) = 0x7f5455455000
+79204 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5455473000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libudev.so.1.6.4>, 0x1d000) = 0x7f5455473000
+79205 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libudev.so.1.6.4>) = 0
+79206 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79207 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79208 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+79209 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+79210 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+79211 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f5453b42000
+79212 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453b61000, 2093056, PROT_NONE) = 0
+79213 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453d60000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f5453d60000
+79214 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453d62000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5453d62000
+79215 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+79216 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79217 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79218 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/librt-2.23.so>
+79219 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+79220 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+79221 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455454000
+79222 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7f545393a000
+79223 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453941000, 2093056, PROT_NONE) = 0
+79224 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453b40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7f5453b40000
+79225 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+79226 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79227 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79228 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+79229 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+79230 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+79231 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f5453718000
+79232 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453739000, 2093056, PROT_NONE) = 0
+79233 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453938000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f5453938000
+79234 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+79235 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79236 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79237 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+79238 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+79239 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+79240 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f5453437000
+79241 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f545350f000, 2093056, PROT_NONE) = 0
+79242 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f545370e000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f545370e000
+79243 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453717000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5453717000
+79244 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+79245 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79246 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79247 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+79248 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+79249 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+79250 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455453000
+79251 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7f5453233000
+79252 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453236000, 2093056, PROT_NONE) = 0
+79253 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453435000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7f5453435000
+79254 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+79255 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79256 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79257 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+79258 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+79259 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+79260 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f5453019000
+79261 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453032000, 2093056, PROT_NONE) = 0
+79262 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453231000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f5453231000
+79263 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+79264 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79265 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79266 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+79267 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+79268 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+79269 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f5452dfe000
+79270 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452e15000, 2097152, PROT_NONE) = 0
+79271 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453015000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f5453015000
+79272 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5453017000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5453017000
+79273 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+79274 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79275 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79276 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+79277 , 55787 , 55787 , gvfs-udisks2-vo , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+79278 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+79279 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455452000
+79280 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f5452bf6000
+79281 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452bfd000, 2093056, PROT_NONE) = 0
+79282 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5452dfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f5452dfc000
+79283 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+79284 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libpcre.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79285 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79286 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+79287 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+79288 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+79289 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f5452986000
+79290 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54529f4000, 2097152, PROT_NONE) = 0
+79291 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5452bf4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f5452bf4000
+79292 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+79293 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79294 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79295 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+79296 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+79297 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+79298 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f5452782000
+79299 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452785000, 2093056, PROT_NONE) = 0
+79300 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5452984000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f5452984000
+79301 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+79302 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455451000
+79303 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+79304 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+79305 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+79306 , 55787 , 55787 , gvfs-udisks2-vo , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+79307 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2017/11/25-09:35:01.580674501, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+79308 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f545256e000
+79309 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452580000, 2097152, PROT_NONE) = 0
+79310 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f5452780000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f5452780000
+79311 , 55787 , 55787 , gvfs-udisks2-vo , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+79312 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5455450000
+79313 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f545544f000
+79314 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f545544d000
+79315 , 55787 , 55787 , gvfs-udisks2-vo , arch_prctl(ARCH_SET_FS, 0x7f545544d880) = 0
+79316 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454124000, 16384, PROT_READ) = 0
+79317 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452780000, 4096, PROT_READ) = 0
+79318 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452984000, 4096, PROT_READ) = 0
+79319 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454345000, 4096, PROT_READ) = 0
+79320 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452bf4000, 4096, PROT_READ) = 0
+79321 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5452dfc000, 4096, PROT_READ) = 0
+79322 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453015000, 4096, PROT_READ) = 0
+79323 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453231000, 4096, PROT_READ) = 0
+79324 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454659000, 4096, PROT_READ) = 0
+79325 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453435000, 4096, PROT_READ) = 0
+79326 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f545370e000, 4096, PROT_READ) = 0
+79327 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453938000, 4096, PROT_READ) = 0
+79328 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453b40000, 4096, PROT_READ) = 0
+79329 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5453d60000, 4096, PROT_READ) = 0
+79330 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5455473000, 4096, PROT_READ) = 0
+79331 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54548ad000, 4096, PROT_READ) = 0
+79332 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454c2f000, 16384, PROT_READ) = 0
+79333 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5454e82000, 12288, PROT_READ) = 0
+79334 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54554f7000, 12288, PROT_READ) = 0
+79335 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f545508e000, 4096, PROT_READ) = 0
+79336 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f54552f1000, 32768, PROT_READ) = 0
+79337 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x624000, 12288, PROT_READ) = 0
+79338 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f545551f000, 4096, PROT_READ) = 0
+79339 , 55787 , 55787 , gvfs-udisks2-vo , munmap(0x7f54554fd000, 129890) = 0
+79340 , 55787 , 55787 , gvfs-udisks2-vo , set_tid_address(0x7f545544db50) = 55787
+79341 , 55787 , 55787 , gvfs-udisks2-vo , set_robust_list(0x7f545544db60, 24) = 0
+79342 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigaction(SIGRTMIN, {0x7f5454133b50, [], SA_RESTORER|SA_SIGINFO, 0x7f545413f390}, NULL, 8) = 0
+79343 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigaction(SIGRT_1, {0x7f5454133be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f545413f390}, NULL, 8) = 0
+79344 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+79345 , 55787 , 55787 , gvfs-udisks2-vo , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+79346 , 55787 , 55787 , gvfs-udisks2-vo , brk(NULL) = 0x1614000
+79347 , 55787 , 55787 , gvfs-udisks2-vo , brk(0x1635000) = 0x1635000
+79348 , 55787 , 55787 , gvfs-udisks2-vo , statfs("/sys/fs/selinux", 0x7ffdbe0210d0) = -1 ENOENT (No such file or directory)
+79349 , 55787 , 55787 , gvfs-udisks2-vo , statfs("/selinux", 0x7ffdbe0210d0) = -1 ENOENT (No such file or directory)
+79350 , 55787 , 55787 , gvfs-udisks2-vo , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+79351 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:23.647635930, st_mtime=2017/11/26-08:16:23.647635930, st_ctime=2017/11/26-08:16:23.647635930}) = 0
+79352 , 55787 , 55787 , gvfs-udisks2-vo , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+79353 , 55787 , 55787 , gvfs-udisks2-vo , read(3</proc/filesystems>, "", 1024) = 0
+79354 , 55787 , 55787 , gvfs-udisks2-vo , close(3</proc/filesystems>) = 0
+79355 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79356 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79357 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+79358 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4470141, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2017/11/25-09:34:41.632714247, st_mtime=2017/06/24-04:00:42.632768573, st_ctime=2017/06/24-04:00:42.632768573}) = 0
+79359 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f5452296000
+79360 , 55787 , 55787 , gvfs-udisks2-vo , close(3</usr/lib/locale/locale-archive>) = 0
+79361 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+79362 , 55787 , 55787 , gvfs-udisks2-vo , fstat(3</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2017/11/25-09:34:41.652714207, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+79363 , 55787 , 55787 , gvfs-udisks2-vo , read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+79364 , 55787 , 55787 , gvfs-udisks2-vo , read(3</etc/locale.alias>, "", 4096) = 0
+79365 , 55787 , 55787 , gvfs-udisks2-vo , close(3</etc/locale.alias>) = 0
+79366 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79367 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79368 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79369 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79370 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79371 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79372 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79373 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79374 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79375 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79376 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79377 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79378 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79379 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79380 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79381 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79382 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79383 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+79384 , 55787 , 55787 , gvfs-udisks2-vo , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79385 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79386 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79387 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79412 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79413 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79414 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79415 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79473 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79475 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79477 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79479 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79482 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79484 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79486 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79488 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79490 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79493 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79495 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79497 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79498 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79501 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79502 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79505 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79507 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79509 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79511 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79513 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79515 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79517 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79519 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79521 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79523 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79525 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79527 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79529 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79531 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79533 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79535 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+79538 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79540 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79541 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79543 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79546 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79548 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79550 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79554 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79555 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79557 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79559 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79562 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79564 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79566 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79568 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79570 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79572 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79574 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79576 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79578 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79580 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79583 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79585 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79587 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79589 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79591 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79593 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79595 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79596 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79599 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79600 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79603 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79604 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79607 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79609 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79611 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79613 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f5453d994b0}, {SIG_IGN, [], 0}, 8) = 0
+79616 , 55787 , 55787 , gvfs-udisks2-vo , brk(0x1657000) = 0x1657000
+79617 , 55787 , 55787 , gvfs-udisks2-vo , brk(0x1656000) = 0x1656000
+79620 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79622 , 55787 , 55787 , gvfs-udisks2-vo , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4<UNIX:[481362]>
+79626 , 55787 , 55787 , gvfs-udisks2-vo , fcntl(4<UNIX:[481362]>, F_GETFL) = 0x2 (flags O_RDWR)
+79628 , 55787 , 55787 , gvfs-udisks2-vo , fcntl(4<UNIX:[481362]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+79631 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79633 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79635 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79637 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79639 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79641 , 55787 , 55787 , gvfs-udisks2-vo , connect(4<UNIX:[481362]>, {sa_family=AF_LOCAL, sun_path="/var/run/dbus/system_bus_socket"}, 110) = 0
+79642 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79644 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79646 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79648 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79650 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79652 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79654 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79656 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79658 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79660 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79662 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79664 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79666 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79669 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79671 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79673 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79675 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79677 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79679 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79681 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79683 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79686 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79688 , 55787 , 55787 , gvfs-udisks2-vo , geteuid() = 0
+79690 , 55787 , 55787 , gvfs-udisks2-vo , getegid() = 0
+79692 , 55787 , 55787 , gvfs-udisks2-vo , geteuid() = 0
+79694 , 55787 , 55787 , gvfs-udisks2-vo , getegid() = 0
+79696 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79698 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79700 , 55787 , 55787 , gvfs-udisks2-vo , sendmsg(4<UNIX:[481362->487497]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55787, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+79701 , 55787 , 55787 , gvfs-udisks2-vo , sendto(4<UNIX:[481362->487497]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+79703 , 55787 , 55787 , gvfs-udisks2-vo , recvfrom(4<UNIX:[481362->487497]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+79707 , 55787 , 55787 , gvfs-udisks2-vo , sendto(4<UNIX:[481362->487497]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+79709 , 55787 , 55787 , gvfs-udisks2-vo , recvfrom(4<UNIX:[481362->487497]>, "OK b80b3ebf2785948224d3eb0e5a1a7937\r\n", 4096, 0, NULL, NULL) = 37
+79711 , 55787 , 55787 , gvfs-udisks2-vo , sendto(4<UNIX:[481362->487497]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+79713 , 55787 , 55787 , gvfs-udisks2-vo , recvfrom(4<UNIX:[481362->487497]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+79715 , 55787 , 55787 , gvfs-udisks2-vo , sendto(4<UNIX:[481362->487497]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+79717 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79719 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79722 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+79724 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+79725 , 55787 , 55787 , gvfs-udisks2-vo , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79727 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5451a95000
+79729 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5451a95000, 4096, PROT_NONE) = 0
+79731 , 55787 , 55787 , gvfs-udisks2-vo , clone(child_stack=0x7f5452294e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f54522959d0, tls=0x7f5452295700, child_tidptr=0x7f54522959d0) = 55788
+79734 , 55787 , 55787 , gvfs-udisks2-vo , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+79736 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79738 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79740 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79742 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+79744 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79747 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5451294000
+79749 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f5451294000, 4096, PROT_NONE) = 0
+79750 , 55787 , 55787 , gvfs-udisks2-vo , clone(child_stack=0x7f5451a93e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f5451a949d0, tls=0x7f5451a94700, child_tidptr=0x7f5451a949d0) = 55789
+79752 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79754 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79756 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+79758 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79762 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+79764 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+79766 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+79768 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=7, revents=POLLIN}])
+79828 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+79830 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79833 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1628c00, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79835 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+79838 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79840 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79843 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79846 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+79850 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+79854 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79856 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 0
+79858 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+79862 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 0
+79864 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x163a270, FUTEX_WAKE_PRIVATE, 1) = 1
+79869 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+79871 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+79874 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+79876 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+79878 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+79881 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+83098 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+83099 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83101 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+83105 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x163a270, FUTEX_WAKE_PRIVATE, 1) = 1
+83108 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f058, FUTEX_WAKE_PRIVATE, 1) = 1
+83126 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83127 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+83128 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83129 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1640c50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83130 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83131 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83132 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83133 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83135 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+83139 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x163a270, FUTEX_WAKE_PRIVATE, 1) = 1
+83142 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f058, FUTEX_WAKE_PRIVATE, 1) = 1
+83160 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83161 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83162 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162af50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83163 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83164 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83165 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83166 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83168 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+83172 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x163a270, FUTEX_WAKE_PRIVATE, 1) = 1
+83175 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f058, FUTEX_WAKE_PRIVATE, 1) = 1
+83181 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=7, revents=POLLIN}])
+83182 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=7, revents=POLLIN}])
+83183 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+83184 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=7, revents=POLLIN}])
+83321 , 55787 , 55787 , gvfs-udisks2-vo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+83322 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83323 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1641050, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83324 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83325 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83326 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83327 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83328 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83329 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83330 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83331 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83332 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83333 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83334 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83335 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83336 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83337 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83338 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83339 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83340 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83341 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83342 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83343 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83344 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83345 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83346 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83347 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83348 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83349 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83350 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83351 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83352 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83353 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83354 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83355 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83356 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1637e50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83357 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83358 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83359 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83360 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83361 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83362 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x164a950, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83363 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83364 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83365 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83366 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83367 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83368 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x164c1b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83369 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83370 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83371 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83372 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83373 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83374 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83375 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x164f280, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83376 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83377 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83378 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83379 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83380 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83381 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x164f980, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83382 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83383 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83384 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83385 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83386 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83387 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16504b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83388 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83389 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83390 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83391 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83392 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83393 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1650720, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83394 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83395 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83396 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83397 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83398 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83399 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1651cf0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83400 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83401 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83402 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83403 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83404 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83405 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1652010, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83406 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83407 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83408 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83409 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83410 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83411 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1652750, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83412 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83413 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83414 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83415 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83416 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83417 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1653290, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83418 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83419 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83420 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83421 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83422 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83423 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1653a70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83424 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83425 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83426 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83427 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83428 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83429 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1653cf0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83430 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83431 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83432 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83433 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83434 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83435 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16544d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83436 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83437 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83438 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83439 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83440 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83441 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1654750, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83442 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83443 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83444 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83445 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83446 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83447 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1654f30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83448 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83449 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83450 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83451 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83452 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83453 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16551b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83454 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83455 , 55787 , 55787 , gvfs-udisks2-vo , brk(0x1677000) = 0x1677000
+83456 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83457 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83458 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83459 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83460 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1655b30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83461 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83462 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83463 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83464 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83465 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83466 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1656990, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83467 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83468 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83469 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83470 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83471 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83472 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1657120, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83473 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83474 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83475 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83476 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83477 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83478 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1657410, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83479 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83480 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83481 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83482 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83483 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83484 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1657b90, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83485 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83486 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83487 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83488 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83489 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83490 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1657e80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83491 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83492 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83493 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83494 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83495 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83496 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1658b70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83497 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83498 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83499 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83500 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83501 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83502 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1658e70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83503 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83504 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83505 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83506 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83507 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83508 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1645d40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83509 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83510 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83511 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83512 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83513 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83514 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x165bd90, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83515 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83516 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83517 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83518 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83519 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83520 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1660010, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83521 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83522 , 55787 , 55787 , gvfs-udisks2-vo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+83523 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83524 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=7, revents=POLLIN}])
+83525 , 55787 , 55787 , gvfs-udisks2-vo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83526 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x1660710, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83527 , 55787 , 55787 , gvfs-udisks2-vo , close(7<anon_inode:[eventfd]>) = 0
+83528 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83529 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83530 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83531 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/udev/udev.conf", O_RDONLY|O_CLOEXEC) = 7</etc/udev/udev.conf>
+83532 , 55787 , 55787 , gvfs-udisks2-vo , fstat(7</etc/udev/udev.conf>, {st_dev=makedev(8, 1), st_ino=133952, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=153, st_atime=2017/11/26-03:11:56.937261647, st_mtime=2016/04/12-06:34:03, st_ctime=2016/11/03-10:37:31.703999939}) = 0
+83533 , 55787 , 55787 , gvfs-udisks2-vo , read(7</etc/udev/udev.conf>, "# see udev.conf(5) for details\n#\n# udevd is started in the initramfs, so when this file is modified the\n# initramfs should be rebuilt.\n\n#udev_log=\"info\"\n", 4096) = 153
+83534 , 55787 , 55787 , gvfs-udisks2-vo , read(7</etc/udev/udev.conf>, "", 4096) = 0
+83535 , 55787 , 55787 , gvfs-udisks2-vo , close(7</etc/udev/udev.conf>) = 0
+83536 , 55787 , 55787 , gvfs-udisks2-vo , access("/run/udev/control", F_OK) = 0
+83537 , 55787 , 55787 , gvfs-udisks2-vo , socket(PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC|SOCK_NONBLOCK, NETLINK_KOBJECT_UEVENT) = 7<NETLINK:[488207]>
+83538 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+83539 , 55787 , 55787 , gvfs-udisks2-vo , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+83541 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16386b0, FUTEX_WAKE_PRIVATE, 1) = 1
+83545 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f5454c360e8, FUTEX_WAKE_PRIVATE, 1) = 1
+83857 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f5454c360f8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+85353 , 55787 , 55787 , gvfs-udisks2-vo , statfs("/sys/fs/cgroup/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=124718, f_bfree=124718, f_bavail=124718, f_files=124718, f_ffree=124702, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=47}) = 0
+85354 , 55787 , 55787 , gvfs-udisks2-vo , open("/proc/55787/cgroup", O_RDONLY|O_CLOEXEC) = 11</proc/55787/cgroup>
+85355 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</proc/55787/cgroup>, {st_dev=makedev(0, 4), st_ino=489830, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:24.763642243, st_mtime=2017/11/26-08:16:24.763642243, st_ctime=2017/11/26-08:16:24.763642243}) = 0
+85356 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/cgroup>, "11:devices:/user.slice\n10:pids:/user.slice/user-1000.slice\n9:hugetlb:/\n8:memory:/user.slice\n7:cpu,cpuacct:/user.slice\n6:net_cls,net_prio:/\n5:blkio:/user.slice\n4:perf_event:/\n3:cpuset:/\n2:freezer:/\n1:n"..., 1024) = 257
+85357 , 55787 , 55787 , gvfs-udisks2-vo , close(11</proc/55787/cgroup>) = 0
+85358 , 55787 , 55787 , gvfs-udisks2-vo , open("/proc/1/cgroup", O_RDONLY|O_CLOEXEC) = 11</proc/1/cgroup>
+85359 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</proc/1/cgroup>, {st_dev=makedev(0, 4), st_ino=458737, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-07:55:36.903157924, st_mtime=2017/11/26-07:55:36.903157924, st_ctime=2017/11/26-07:55:36.903157924}) = 0
+85360 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/1/cgroup>, "11:devices:/init.scope\n10:pids:/init.scope\n9:hugetlb:/\n8:memory:/init.scope\n7:cpu,cpuacct:/init.scope\n6:net_cls,net_prio:/\n5:blkio:/init.scope\n4:perf_event:/\n3:cpuset:/\n2:freezer:/\n1:name=systemd:/ini"..., 1024) = 208
+85361 , 55787 , 55787 , gvfs-udisks2-vo , close(11</proc/1/cgroup>) = 0
+85362 , 55787 , 55787 , gvfs-udisks2-vo , open("/run/systemd/sessions/41", O_RDONLY|O_CLOEXEC) = 11</run/systemd/sessions/41>
+85363 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</run/systemd/sessions/41>, {st_dev=makedev(0, 19), st_ino=583, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=298, st_atime=2017/11/26-08:16:17.243599644, st_mtime=2017/11/26-08:16:06.131536428, st_ctime=2017/11/26-08:16:06.131536428}) = 0
+85364 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</run/systemd/sessions/41>, {st_dev=makedev(0, 19), st_ino=583, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=298, st_atime=2017/11/26-08:16:17.243599644, st_mtime=2017/11/26-08:16:06.131536428, st_ctime=2017/11/26-08:16:06.131536428}) = 0
+85365 , 55787 , 55787 , gvfs-udisks2-vo , read(11</run/systemd/sessions/41>, "# This is private data. Do not parse.\nUID=1000\nUSER=elwin\nACTIVE=1\nSTATE=active\nREMOTE=0\nTYPE=tty\nCLASS=user\nSCOPE=session-41.scope\nFIFO=/run/systemd/sessions/41.ref\nSEAT=seat0\nTTY=/dev/tty1\nSERVICE=l"..., 4096) = 298
+85366 , 55787 , 55787 , gvfs-udisks2-vo , read(11</run/systemd/sessions/41>, "", 4096) = 0
+85367 , 55787 , 55787 , gvfs-udisks2-vo , close(11</run/systemd/sessions/41>) = 0
+85368 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85369 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85370 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85371 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85372 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85373 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85374 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85375 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en_US/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85376 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85377 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en.utf8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85378 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale/en/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85379 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85380 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85381 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85382 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85383 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85384 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/share/locale-langpack/en/LC_MESSAGES/udisks2.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+85385 , 55787 , 55787 , gvfs-udisks2-vo , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 11</proc/55787/mounts>
+85386 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</proc/55787/mounts>, {st_dev=makedev(0, 4), st_ino=489827, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:24.763642243, st_mtime=2017/11/26-08:16:24.763642243, st_ctime=2017/11/26-08:16:24.763642243}) = 0
+85387 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+85388 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+85389 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+85390 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "", 1024) = 0
+85391 , 55787 , 55787 , gvfs-udisks2-vo , close(11</proc/55787/mounts>) = 0
+85392 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85393 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85394 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85395 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85396 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85397 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85398 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85399 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85400 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85401 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85402 , 55787 , 55787 , gvfs-udisks2-vo , open("/proc/mounts", O_RDONLY|O_CLOEXEC) = 11</proc/55787/mounts>
+85403 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</proc/55787/mounts>, {st_dev=makedev(0, 4), st_ino=489827, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:24.763642243, st_mtime=2017/11/26-08:16:24.763642243, st_ctime=2017/11/26-08:16:24.763642243}) = 0
+85404 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nudev /dev devtmpfs rw,nosuid,relatime,size=479248k,nr_inodes=119812,mode=755 0 0\ndevpts /dev/pt"..., 1024) = 1024
+85405 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "/sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0\ncgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0\ncgroup /sys/fs/cgroup/net_cls,net_prio cgro"..., 1024) = 1024
+85406 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "elatime 0 0\ntmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=99776k,mode=700,uid=1000,gid=1000 0 0\ngvfsd-fuse /home/elwin/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0 0 "..., 1024) = 202
+85407 , 55787 , 55787 , gvfs-udisks2-vo , read(11</proc/55787/mounts>, "", 1024) = 0
+85408 , 55787 , 55787 , gvfs-udisks2-vo , close(11</proc/55787/mounts>) = 0
+85409 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85410 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85411 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85412 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85413 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85414 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85415 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85416 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85417 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85418 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85419 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85420 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85421 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85422 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85423 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85424 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85425 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85426 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85427 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85428 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85429 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85430 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85431 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85432 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85433 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85434 , 55787 , 55787 , gvfs-udisks2-vo , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 11<UNIX:[489832]>
+85435 , 55787 , 55787 , gvfs-udisks2-vo , connect(11<UNIX:[489832]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+85436 , 55787 , 55787 , gvfs-udisks2-vo , close(11<UNIX:[489832]>) = 0
+85437 , 55787 , 55787 , gvfs-udisks2-vo , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 11<UNIX:[489836]>
+85438 , 55787 , 55787 , gvfs-udisks2-vo , connect(11<UNIX:[489836]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+85439 , 55787 , 55787 , gvfs-udisks2-vo , close(11<UNIX:[489836]>) = 0
+85440 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 11</etc/nsswitch.conf>
+85441 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2017/11/25-09:34:42.176713163, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+85442 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+85443 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/nsswitch.conf>, "", 4096) = 0
+85444 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/nsswitch.conf>) = 0
+85445 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+85446 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 11</etc/ld.so.cache>
+85447 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+85448 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 11</etc/ld.so.cache>, 0) = 0x7f54554fd000
+85449 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/ld.so.cache>) = 0
+85450 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+85451 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+85452 , 55787 , 55787 , gvfs-udisks2-vo , read(11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+85453 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+85454 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7f544bdf7000
+85455 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544bdff000, 2093056, PROT_NONE) = 0
+85456 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544bffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7f544bffe000
+85457 , 55787 , 55787 , gvfs-udisks2-vo , close(11</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+85458 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+85459 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+85460 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 11</lib/x86_64-linux-gnu/libnsl-2.23.so>
+85461 , 55787 , 55787 , gvfs-udisks2-vo , read(11</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+85462 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+85463 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7f544bbde000
+85464 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544bbf4000, 2093056, PROT_NONE) = 0
+85465 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544bdf3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7f544bdf3000
+85466 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544bdf5000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f544bdf5000
+85467 , 55787 , 55787 , gvfs-udisks2-vo , close(11</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+85468 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544bdf3000, 4096, PROT_READ) = 0
+85469 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544bffe000, 4096, PROT_READ) = 0
+85470 , 55787 , 55787 , gvfs-udisks2-vo , munmap(0x7f54554fd000, 129890) = 0
+85471 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+85472 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 11</etc/ld.so.cache>
+85473 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+85474 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 11</etc/ld.so.cache>, 0) = 0x7f54554fd000
+85475 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/ld.so.cache>) = 0
+85476 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+85477 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+85478 , 55787 , 55787 , gvfs-udisks2-vo , read(11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+85479 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997535, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+85480 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7f544b9d2000
+85481 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544b9dd000, 2093056, PROT_NONE) = 0
+85482 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544bbdc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7f544bbdc000
+85483 , 55787 , 55787 , gvfs-udisks2-vo , close(11</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+85484 , 55787 , 55787 , gvfs-udisks2-vo , open("/usr/lib/x86_64-linux-gnu/gvfs/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+85485 , 55787 , 55787 , gvfs-udisks2-vo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+85486 , 55787 , 55787 , gvfs-udisks2-vo , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 11</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+85487 , 55787 , 55787 , gvfs-udisks2-vo , read(11</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+85488 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997532, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/16-16:57:15, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+85489 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7f544b7c0000
+85490 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544b7cb000, 2093056, PROT_NONE) = 0
+85491 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544b9ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7f544b9ca000
+85492 , 55787 , 55787 , gvfs-udisks2-vo , mmap(0x7f544b9cc000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f544b9cc000
+85493 , 55787 , 55787 , gvfs-udisks2-vo , close(11</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+85494 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544b9ca000, 4096, PROT_READ) = 0
+85495 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544bbdc000, 4096, PROT_READ) = 0
+85496 , 55787 , 55787 , gvfs-udisks2-vo , munmap(0x7f54554fd000, 129890) = 0
+85497 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 11</etc/passwd>
+85498 , 55787 , 55787 , gvfs-udisks2-vo , lseek(11</etc/passwd>, 0, SEEK_CUR) = 0
+85499 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+85500 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 11</etc/passwd>, 0) = 0x7f545551c000
+85501 , 55787 , 55787 , gvfs-udisks2-vo , lseek(11</etc/passwd>, 2368, SEEK_SET) = 2368
+85502 , 55787 , 55787 , gvfs-udisks2-vo , munmap(0x7f545551c000, 2368) = 0
+85503 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/passwd>) = 0
+85504 , 55787 , 55787 , gvfs-udisks2-vo , getuid() = 0
+85505 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85506 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85507 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85508 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85509 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85510 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85511 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85512 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85513 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85514 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85515 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85516 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85517 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85518 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85519 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85520 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85521 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85522 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85523 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85524 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85525 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85526 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85527 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85528 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85529 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85530 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85531 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85532 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85533 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85534 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85535 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85536 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85537 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85538 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85539 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85540 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85541 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85542 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85543 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85544 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85545 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85546 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85547 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85548 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85549 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85550 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85551 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85552 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85553 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85554 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85555 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85556 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85557 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85558 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85559 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85560 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85561 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85562 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85563 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85564 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85565 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85566 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85567 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85568 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85569 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85570 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85571 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85572 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85573 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85574 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85575 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85576 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85577 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85578 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85579 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85580 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85581 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85582 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85583 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85584 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85585 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85586 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85587 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85588 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85589 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85590 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85591 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85592 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85593 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85594 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85595 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85596 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85597 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85598 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85599 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85600 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85601 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85602 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85603 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85604 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85605 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85606 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85607 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85608 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85609 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85610 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85611 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85612 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85613 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85614 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85615 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85616 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85617 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85618 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85619 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85620 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85621 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85622 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85623 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85624 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85625 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85626 , 55787 , 55787 , gvfs-udisks2-vo , open("/etc/fstab", O_RDONLY|O_CLOEXEC) = 11</etc/fstab>
+85627 , 55787 , 55787 , gvfs-udisks2-vo , fstat(11</etc/fstab>, {st_dev=makedev(8, 1), st_ino=131074, st_mode=S_IFREG|0664, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=594, st_atime=2017/11/26-03:14:15.215329447, st_mtime=2017/11/24-00:40:18.200883035, st_ctime=2017/11/24-00:40:18.204882798}) = 0
+85628 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "# /etc/fstab: static file system information.\n#\n# Use 'blkid' to print the universally unique identifier for a\n# device; this may be used with UUID= as a more robust way to name devices\n# that works e"..., 4096) = 594
+85629 , 55787 , 55787 , gvfs-udisks2-vo , read(11</etc/fstab>, "", 4096) = 0
+85630 , 55787 , 55787 , gvfs-udisks2-vo , close(11</etc/fstab>) = 0
+85631 , 55787 , 55787 , gvfs-udisks2-vo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f544afbf000
+85632 , 55787 , 55787 , gvfs-udisks2-vo , mprotect(0x7f544afbf000, 4096, PROT_NONE) = 0
+85633 , 55787 , 55787 , gvfs-udisks2-vo , clone(child_stack=0x7f544b7bee70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f544b7bf9d0, tls=0x7f544b7bf700, child_tidptr=0x7f544b7bf9d0) = 55801
+85634 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+85635 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+85636 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+85637 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+85667 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+85673 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85676 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85678 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85680 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85681 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+85682 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+85685 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, 25000) = 1 ([{fd=3, revents=POLLIN}])
+85836 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+85838 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+86587 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+86588 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+86590 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+86594 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+86597 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+86603 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+86605 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+86608 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+86611 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+86617 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+86619 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+86623 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+86626 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+86632 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, 24999) = 1 ([{fd=3, revents=POLLIN}])
+86782 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+86783 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+87261 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+87262 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f545465b428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+87263 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+87265 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+87269 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+87272 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+87278 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+364301 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+364306 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+364308 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+364312 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+364315 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+364321 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+364323 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+364326 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+364329 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+364335 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+364337 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+364341 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+364344 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+364350 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, 24999) = 1 ([{fd=3, revents=POLLIN}])
+364381 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+364382 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+364604 , 55787 , 55787 , gvfs-udisks2-vo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+364605 , 55787 , 55787 , gvfs-udisks2-vo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+364607 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x16284e0, FUTEX_WAKE_PRIVATE, 1) = 1
+364611 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x7f544c02ea00, FUTEX_WAKE_PRIVATE, 1) = 1
+364614 , 55787 , 55787 , gvfs-udisks2-vo , futex(0x162f658, FUTEX_WAKE_PRIVATE, 1) = 1
+364620 , 55787 , 55787 , gvfs-udisks2-vo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=10</proc/55787/mounts>, events=0}], 2, -1

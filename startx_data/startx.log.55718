@@ -1,0 +1,57 @@
+48054 , 55718 , 55711 , indicator-sessi , set_robust_list(0x7fd6d250b9e0, 24) = 0
+48057 , 55718 , 55711 , indicator-sessi , prctl(PR_SET_NAME, "pool\0\0\0\0e.Screen") = 0
+48062 , 55718 , 55711 , pool , mmap(0x7fd6c0000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd6c0000000
+48066 , 55718 , 55711 , pool , mprotect(0x7fd6c0000000, 139264, PROT_READ|PROT_WRITE) = 0
+48070 , 55718 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 1
+48072 , 55718 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+48162 , 55718 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAKE_PRIVATE, 1) = 1
+48165 , 55718 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 0, {0, 499999839}) = 0
+48202 , 55718 , 55711 , pool , futex(0x7fd6d6ae0428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+48204 , 55718 , 55711 , pool , futex(0x7fd6d6ae0430, FUTEX_WAKE_PRIVATE, 1) = 0
+48206 , 55718 , 55711 , pool , futex(0x7fd6d6ae0428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+48209 , 55718 , 55711 , pool , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 8<UNIX:[475619]>
+48210 , 55718 , 55711 , pool , fcntl(8<UNIX:[475619]>, F_GETFL) = 0x2 (flags O_RDWR)
+48212 , 55718 , 55711 , pool , fcntl(8<UNIX:[475619]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+48215 , 55718 , 55711 , pool , connect(8<UNIX:[475619]>, {sa_family=AF_LOCAL, sun_path="/var/run/dbus/system_bus_socket"}, 110) = 0
+48218 , 55718 , 55711 , pool , geteuid() = 0
+48220 , 55718 , 55711 , pool , getegid() = 0
+48222 , 55718 , 55711 , pool , geteuid() = 0
+48224 , 55718 , 55711 , pool , getegid() = 0
+48228 , 55718 , 55711 , pool , sendmsg(8<UNIX:[475619->476617]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55711, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+48231 , 55718 , 55711 , pool , sendto(8<UNIX:[475619->476617]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+48234 , 55718 , 55711 , pool , recvfrom(8<UNIX:[475619->476617]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+48236 , 55718 , 55711 , pool , futex(0x19bbdc0, FUTEX_WAKE_PRIVATE, 1) = 0
+48239 , 55718 , 55711 , pool , sendto(8<UNIX:[475619->476617]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+48240 , 55718 , 55711 , pool , recvfrom(8<UNIX:[475619->476617]>, "OK b80b3ebf2785948224d3eb0e5a1a7937\r\n", 4096, 0, NULL, NULL) = 37
+48243 , 55718 , 55711 , pool , sendto(8<UNIX:[475619->476617]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+48246 , 55718 , 55711 , pool , recvfrom(8<UNIX:[475619->476617]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+48248 , 55718 , 55711 , pool , sendto(8<UNIX:[475619->476617]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+48251 , 55718 , 55711 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+48254 , 55718 , 55711 , pool , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+48256 , 55718 , 55711 , pool , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+48259 , 55718 , 55711 , pool , futex(0x19eda10, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+48261 , 55718 , 55711 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+48264 , 55718 , 55711 , pool , futex(0x19eda10, FUTEX_WAKE_PRIVATE, 1) = 1
+48266 , 55718 , 55711 , pool , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+48268 , 55718 , 55711 , pool , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+48270 , 55718 , 55711 , pool , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+48272 , 55718 , 55711 , pool , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=9, revents=POLLIN}])
+48297 , 55718 , 55711 , pool , futex(0x7fd6c0004e20, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+48299 , 55718 , 55711 , pool , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+48302 , 55718 , 55711 , pool , futex(0x7fd6c0004e20, FUTEX_WAKE_PRIVATE, 1) = 1
+48304 , 55718 , 55711 , pool , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+48306 , 55718 , 55711 , pool , futex(0x7fd6c0004e30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+48310 , 55718 , 55711 , pool , futex(0x7fd6c0004e20, FUTEX_WAKE_PRIVATE, 1) = 1
+48312 , 55718 , 55711 , pool , futex(0x19cb2b0, FUTEX_WAKE_PRIVATE, 1) = 1
+48315 , 55718 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 3, {0, 499999453}) = 0
+51998 , 55718 , 55711 , pool , futex(0x19ed120, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+52002 , 55718 , 55711 , pool , futex(0x19ed120, FUTEX_WAKE_PRIVATE, 1) = 1
+52005 , 55718 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+52009 , 55718 , 55711 , pool , futex(0x7fd6d72bd9e0, FUTEX_WAKE_PRIVATE, 1) = 0
+52011 , 55718 , 55711 , pool , futex(0x19cef30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+52014 , 55718 , 55711 , pool , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+52017 , 55718 , 55711 , pool , futex(0x19cef30, FUTEX_WAKE_PRIVATE, 1) = 1
+52019 , 55718 , 55711 , pool , futex(0x19ed130, FUTEX_WAIT_PRIVATE, 6, {0, 499999527}) = -1 ETIMEDOUT (Connection timed out)
+56381 , 55718 , 55711 , pool , madvise(0x7fd6d1d0b000, 8368128, MADV_DONTNEED) = 0
+56386 , 55718 , 55711 , pool , exit(0)  = ?
+56398 , 55718 , -1 , NULL , +++ exited with 0 +++

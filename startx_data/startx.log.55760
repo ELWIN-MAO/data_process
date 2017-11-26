@@ -1,0 +1,46 @@
+68771 , 55760 , 55725 , indicator-datet , set_robust_list(0x7f5c613809e0, 24) = 0
+68782 , 55760 , 55725 , indicator-datet , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5c58b80000
+68807 , 55760 , 55725 , indicator-datet , munmap(0x7f5c58b80000, 55050240) = 0
+68808 , 55760 , 55725 , indicator-datet , munmap(0x7f5c60000000, 12058624) = 0
+68809 , 55760 , 55725 , indicator-datet , mprotect(0x7f5c5c000000, 135168, PROT_READ|PROT_WRITE) = 0
+68810 , 55760 , 55725 , indicator-datet , prctl(PR_SET_NAME, "gmain\0\0\0x\373\350h\\\177\0\0") = 0
+68811 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+68812 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+68813 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+68814 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+169674 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+169676 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 95) = 0 (Timeout)
+170119 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, 0x7f5c6137fcc0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+170121 , 55760 , 55725 , gmain , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5c2effe000
+170123 , 55760 , 55725 , gmain , mprotect(0x7f5c2effe000, 4096, PROT_NONE) = 0
+170125 , 55760 , 55725 , gmain , clone(child_stack=0x7f5c2f7fdeb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f5c2f7fe9d0, tls=0x7f5c2f7fe700, child_tidptr=0x7f5c2f7fe9d0) = 55940
+170129 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+170143 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 103) = 1 ([{fd=3, revents=POLLIN}])
+170145 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+170148 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 103) = 0 (Timeout)
+170565 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, 0x7f5c6137fcc0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+170580 , 55760 , 55725 , gmain , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5c2e7fd000
+170583 , 55760 , 55725 , gmain , mprotect(0x7f5c2e7fd000, 4096, PROT_NONE) = 0
+170585 , 55760 , 55725 , gmain , clone(child_stack=0x7f5c2effceb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f5c2effd9d0, tls=0x7f5c2effd700, child_tidptr=0x7f5c2effd9d0) = 55941
+170589 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+170639 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 103) = 1 ([{fd=3, revents=POLLIN}])
+170668 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+170670 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 96) = 0 (Timeout)
+170955 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, 0x7f5c6137fcc0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+170958 , 55760 , 55725 , gmain , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5c2dffc000
+170963 , 55760 , 55725 , gmain , mprotect(0x7f5c2dffc000, 4096, PROT_NONE) = 0
+170966 , 55760 , 55725 , gmain , clone(child_stack=0x7f5c2e7fbeb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f5c2e7fc9d0, tls=0x7f5c2e7fc700, child_tidptr=0x7f5c2e7fc9d0) = 55942
+170968 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+171008 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 106) = 1 ([{fd=3, revents=POLLIN}])
+171012 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171016 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 103) = 1 ([{fd=3, revents=POLLIN}])
+171166 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171168 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 100) = 1 ([{fd=3, revents=POLLIN}])
+171207 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171209 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 100) = 1 ([{fd=3, revents=POLLIN}])
+171543 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171545 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 100) = 1 ([{fd=3, revents=POLLIN}])
+171660 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+171662 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 100) = 1 ([{fd=3, revents=POLLIN}])
+172771 , 55760 , 55725 , gmain , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+172801 , 55760 , 55725 , gmain , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1

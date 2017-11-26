@@ -1,0 +1,13 @@
+177485 , 55952 , 55915 , zeitgeist-datah , set_robust_list(0x7fbb51ffb9e0, 24) = 0
+177487 , 55952 , 55915 , zeitgeist-datah , prctl(PR_SET_NAME, "pool\0\177\0\0x\213Pb\273\177\0\0") = 0
+177489 , 55952 , 55915 , pool , futex(0x13a1210, FUTEX_WAIT_PRIVATE, 0, {0, 499999425}) = -1 ETIMEDOUT (Connection timed out)
+180053 , 55952 , 55915 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fbb3c000000
+180054 , 55952 , 55915 , pool , munmap(0x7fbb40000000, 67108864) = 0
+180055 , 55952 , 55915 , pool , mprotect(0x7fbb3c000000, 139264, PROT_READ|PROT_WRITE) = 0
+180056 , 55952 , 55915 , pool , open("/proc/sys/vm/overcommit_memory", O_RDONLY|O_CLOEXEC) = 11</proc/sys/vm/overcommit_memory>
+180057 , 55952 , 55915 , pool , read(11</proc/sys/vm/overcommit_memory>, "0", 1) = 1
+180058 , 55952 , 55915 , pool , close(11</proc/sys/vm/overcommit_memory>) = 0
+180059 , 55952 , 55915 , pool , madvise(0x7fbb3c021000, 4096, MADV_DONTNEED) = 0
+180060 , 55952 , 55915 , pool , madvise(0x7fbb517fb000, 8368128, MADV_DONTNEED) = 0
+180061 , 55952 , 55915 , pool , exit(0) = ?
+180062 , 55952 , -1 , NULL , +++ exited with 0 +++

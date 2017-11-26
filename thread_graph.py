@@ -123,7 +123,7 @@ def get_thread_info_record_not_new(athread_id):
         sys.stderr.write("error:"+athread_id+"not found!\n");   
     return athread_info 
 
-def get_sycall_record(line ) :
+def get_sycall_record(line) :
         words=line.split(";;;") 
         aSyscall_Record={}
         for aword in words:
@@ -145,7 +145,7 @@ while True:
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
     #every line need to update thread_name
-    if(aSyscall_Record["type"]!="2"):
+    if(aSyscall_Record["type"]!="2" and aSyscall_Record["type"]!="5"):
         aThread_Info_Record.process_id=aSyscall_Record["process_id"]
         ##record aproces contain which tids
         if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
@@ -159,7 +159,7 @@ while True:
             aThread_Info_Record.exit_code=[aSyscall_Record["serialno"],aSyscall_Record["syscall_param"]]
         if(aSyscall_Record["syscall_name"]=="\"execve\""):
             aThread_Info_Record.execve_list.append("execve:"+aSyscall_Record["serialno"]+":"+aSyscall_Record["syscall_param"].split(",")[0][1:]+"="+aSyscall_Record["syscall_ret_val"])
-        if(aSyscall_Record["syscall_name"]=="\"write\"" and aSyscall_Record["syscall_param"][1]=="2"):
+        if((aSyscall_Record["syscall_name"]=="\"write\"" or aSyscall_Record["syscall_name"]=="\"writev\"" ) and aSyscall_Record["syscall_param"][1]=="2"):
             aThread_Info_Record.write2_list.append("write2:"+aSyscall_Record["serialno"]+":"+aSyscall_Record["syscall_param"])
         if(aSyscall_Record["errno"]!="\"None\""):
             aThread_Info_Record.syscall_error_info_list.append([aSyscall_Record["errno"],aSyscall_Record["error_info"]])

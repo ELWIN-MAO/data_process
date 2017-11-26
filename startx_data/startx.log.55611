@@ -1,0 +1,126 @@
+13462 , 55611 , 55611 , xinitrc , close(11</etc/X11/Xsession>) = 0
+13463 , 55611 , 55611 , xinitrc , close(10</etc/X11/xinit/xinitrc>) = 0
+13464 , 55611 , 55611 , xinitrc , close(4<pipe:[460455]>) = 0
+13465 , 55611 , 55611 , xinitrc , dup2(5<pipe:[460455]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[460455]>
+13466 , 55611 , 55611 , xinitrc , close(5<pipe:[460455]>) = 0
+13467 , 55611 , 55611 , xinitrc , stat("/usr/local/sbin/run-parts", 0x7ffca23d31e0) = -1 ENOENT (No such file or directory)
+13468 , 55611 , 55611 , xinitrc , stat("/usr/local/bin/run-parts", 0x7ffca23d31e0) = -1 ENOENT (No such file or directory)
+13469 , 55611 , 55611 , xinitrc , stat("/usr/sbin/run-parts", 0x7ffca23d31e0) = -1 ENOENT (No such file or directory)
+13470 , 55611 , 55611 , xinitrc , stat("/usr/bin/run-parts", 0x7ffca23d31e0) = -1 ENOENT (No such file or directory)
+13471 , 55611 , 55611 , xinitrc , stat("/sbin/run-parts", 0x7ffca23d31e0) = -1 ENOENT (No such file or directory)
+13472 , 55611 , 55611 , xinitrc , stat("/bin/run-parts", {st_dev=makedev(8, 1), st_ino=4718733, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=19320, st_atime=2017/11/25-09:45:40.335537427, st_mtime=2016/01/26-13:17:55, st_ctime=2016/11/03-10:37:31.039999939}) = 0
+13473 , 55611 , 55611 , xinitrc , execve("/bin/run-parts", ["run-parts", "--list", "/etc/X11/Xsession.d"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "HOME=/home/elwin", "SUDO_UID=1000", "LOGNAME=root", "TERM=linux", "USERNAME=root", "WINDOWPATH=1", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "DISPLAY=:0", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SHELL=/bin/bash", "SUDO_USER=elwin", "PWD=/home/elwin/linux_vmwaredata/mypaper_vmware/uuu/strace_code/heuristic_strace/strace-4.11/build_dir/startx_data"]) = 0
+13474 , 55611 , 55611 , run-parts , brk(NULL) = 0xdd8000
+13475 , 55611 , 55611 , run-parts , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13476 , 55611 , 55611 , run-parts , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0cd8d52000
+13477 , 55611 , 55611 , run-parts , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+13478 , 55611 , 55611 , run-parts , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+13479 , 55611 , 55611 , run-parts , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+13480 , 55611 , 55611 , run-parts , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7f0cd8d32000
+13481 , 55611 , 55611 , run-parts , close(4</etc/ld.so.cache>) = 0
+13482 , 55611 , 55611 , run-parts , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+13483 , 55611 , 55611 , run-parts , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 4</lib/x86_64-linux-gnu/libc-2.23.so>
+13484 , 55611 , 55611 , run-parts , read(4</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13485 , 55611 , 55611 , run-parts , fstat(4</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+13486 , 55611 , 55611 , run-parts , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f0cd8765000
+13487 , 55611 , 55611 , run-parts , mprotect(0x7f0cd8925000, 2097152, PROT_NONE) = 0
+13488 , 55611 , 55611 , run-parts , mmap(0x7f0cd8b25000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f0cd8b25000
+13489 , 55611 , 55611 , run-parts , mmap(0x7f0cd8b2b000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0cd8b2b000
+13490 , 55611 , 55611 , run-parts , close(4</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+13491 , 55611 , 55611 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0cd8d31000
+13492 , 55611 , 55611 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0cd8d30000
+13493 , 55611 , 55611 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0cd8d2f000
+13494 , 55611 , 55611 , run-parts , arch_prctl(ARCH_SET_FS, 0x7f0cd8d30700) = 0
+13495 , 55611 , 55611 , run-parts , mprotect(0x7f0cd8b25000, 16384, PROT_READ) = 0
+13496 , 55611 , 55611 , run-parts , mprotect(0x603000, 4096, PROT_READ) = 0
+13497 , 55611 , 55611 , run-parts , mprotect(0x7f0cd8d54000, 4096, PROT_READ) = 0
+13498 , 55611 , 55611 , run-parts , munmap(0x7f0cd8d32000, 129890) = 0
+13499 , 55611 , 55611 , run-parts , umask(022) = 022
+13500 , 55611 , 55611 , run-parts , brk(NULL) = 0xdd8000
+13501 , 55611 , 55611 , run-parts , brk(0xdf9000) = 0xdf9000
+13502 , 55611 , 55611 , run-parts , rt_sigaction(SIGCHLD, {0x401720, [], SA_RESTORER|SA_NOCLDSTOP, 0x7f0cd879a4b0}, NULL, 8) = 0
+13503 , 55611 , 55611 , run-parts , rt_sigprocmask(SIG_BLOCK, [CHLD], NULL, 8) = 0
+13504 , 55611 , 55611 , run-parts , open("/etc/X11/Xsession.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4</etc/X11/Xsession.d>
+13505 , 55611 , 55611 , run-parts , fstat(4</etc/X11/Xsession.d>, {st_dev=makedev(8, 1), st_ino=131326, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/11/26-03:14:07.135407272, st_mtime=2017/05/04-04:43:51.415518437, st_ctime=2017/05/04-04:43:51.415518437}) = 0
+13506 , 55611 , 55611 , run-parts , getdents(4</etc/X11/Xsession.d>, [{d_ino=131358, d_off=879084325359482264, d_reclen=40, d_name="90atk-adaptor", d_type=DT_REG}, {d_ino=131353, d_off=2341524678598746248, d_reclen=32, d_name="65snappy", d_type=DT_REG}, {d_ino=131350, d_off=3010095946851488672, d_reclen=32, d_name="60xbrlapi", d_type=DT_REG}, {d_ino=131078, d_off=3120846175975756448, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=131345, d_off=3437206951345085231, d_reclen=48, d_name="50_check_unity_support", d_type=DT_REG}, {d_ino=131364, d_off=3681108437842140013, d_reclen=40, d_name="99x11-common_start", d_type=DT_REG}, {d_ino=131343, d_off=4003411934793409562, d_reclen=48, d_name="35x11-common_xhost-local", d_type=DT_REG}, {d_ino=131357, d_off=4124283508560244926, d_reclen=40, d_name="81overlay-scrollbar", d_type=DT_REG}, {d_ino=131354, d_off=4155164167865368629, d_reclen=48, d_name="70gconfd_path-on-session", d_type=DT_REG}, {d_ino=131347, d_off=4235994102123106040, d_reclen=48, d_name="55gnome-session_gnomerc", d_type=DT_REG}, {d_ino=131341, d_off=4423020092518502683, d_reclen=48, d_name="20x11-common_process-args", d_type=DT_REG}, {d_ino=131342, d_off=4697946425822416580, d_reclen=48, d_name="30x11-common_xresources", d_type=DT_REG}, {d_ino=131355, d_off=5097632689219085148, d_reclen=40, d_name="70im-config_launch", d_type=DT_REG}, {d_ino=131348, d_off=5194905097756659687, d_reclen=48, d_name="60x11-common_localhost", d_type=DT_REG}, {d_ino=131352, d_off=5710434140879988661, d_reclen=48, d_name="65compiz_profile-on-session", d_type=DT_REG}, {d_ino=131326, d_off=5752928084870469029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=131351, d_off=5803875288659969105, d_reclen=48, d_name="60xdg-user-dirs-update", d_type=DT_REG}, {d_ino=131362, d_off=5854870811296247419, d_reclen=48, d_name="95dbus_update-activation-env", d_type=DT_REG}, {d_ino=131363, d_off=6551065653280074409, d_reclen=32, d_name="99upstart", d_type=DT_REG}, {d_ino=131340, d_off=6941086926753757605, d_reclen=32, d_name="00upstart", d_type=DT_REG}, {d_ino=131361, d_off=7244418960819098892, d_reclen=48, d_name="90x11-common_ssh-agent", d_type=DT_REG}, {d_ino=131346, d_off=7282601173093431368, d_reclen=56, d_name="50x11-common_determine-startup", d_type=DT_REG}, {d_ino=131356, d_off=7513597557907512397, d_reclen=40, d_name="75dbus_dbus-launch", d_type=DT_REG}, {d_ino=131349, d_off=7659067598527298851, d_reclen=48, d_name="60x11-common_xdg_path", d_type=DT_REG}, {d_ino=131344, d_off=7755204180918706701, d_reclen=48, d_name="40x11-common_xsessionrc", d_type=DT_REG}, {d_ino=131359, d_off=7763328709969061559, d_reclen=32, d_name="90gpg-agent", d_type=DT_REG}, {d_ino=131360, d_off=9223372036854775807, d_reclen=32, d_name="90qt-a11y", d_type=DT_REG}], 32768) = 1120
+13507 , 55611 , 55611 , run-parts , getdents(4</etc/X11/Xsession.d>, [], 32768) = 0
+13508 , 55611 , 55611 , run-parts , close(4</etc/X11/Xsession.d>) = 0
+13509 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/00upstart", {st_dev=makedev(8, 1), st_ino=131340, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=382, st_atime=2017/11/26-03:14:07.139407233, st_mtime=2016/02/29-10:10:26, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+13510 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/00upstart", X_OK) = -1 EACCES (Permission denied)
+13511 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/00upstart", R_OK) = 0
+13512 , 55611 , 55611 , run-parts , fstat(1<pipe:[460455]>, {st_dev=makedev(0, 10), st_ino=460455, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:10.575561750, st_mtime=2017/11/26-08:16:10.575561750, st_ctime=2017/11/26-08:16:10.575561750}) = 0
+13513 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/20x11-common_process-args", {st_dev=makedev(8, 1), st_ino=131341, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2030, st_atime=2017/11/26-03:14:07.139407233, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+13514 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/20x11-common_process-args", X_OK) = -1 EACCES (Permission denied)
+13515 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/20x11-common_process-args", R_OK) = 0
+13516 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/30x11-common_xresources", {st_dev=makedev(8, 1), st_ino=131342, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=878, st_atime=2017/11/26-03:14:07.143407193, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+13517 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/30x11-common_xresources", X_OK) = -1 EACCES (Permission denied)
+13518 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/30x11-common_xresources", R_OK) = 0
+13519 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/35x11-common_xhost-local", {st_dev=makedev(8, 1), st_ino=131343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=389, st_atime=2017/11/26-03:14:07.195406684, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13520 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/35x11-common_xhost-local", X_OK) = -1 EACCES (Permission denied)
+13521 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/35x11-common_xhost-local", R_OK) = 0
+13522 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/40x11-common_xsessionrc", {st_dev=makedev(8, 1), st_ino=131344, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=187, st_atime=2017/11/26-03:14:07.207406566, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13523 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/40x11-common_xsessionrc", X_OK) = -1 EACCES (Permission denied)
+13524 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/40x11-common_xsessionrc", R_OK) = 0
+13525 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/50_check_unity_support", {st_dev=makedev(8, 1), st_ino=131345, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=260, st_atime=2017/11/26-03:14:07.207406566, st_mtime=2016/04/18-00:01:24, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13526 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/50_check_unity_support", X_OK) = -1 EACCES (Permission denied)
+13527 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/50_check_unity_support", R_OK) = 0
+13528 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/50x11-common_determine-startup", {st_dev=makedev(8, 1), st_ino=131346, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1568, st_atime=2017/11/26-03:14:07.207406566, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13529 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/50x11-common_determine-startup", X_OK) = -1 EACCES (Permission denied)
+13530 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/50x11-common_determine-startup", R_OK) = 0
+13531 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/55gnome-session_gnomerc", {st_dev=makedev(8, 1), st_ino=131347, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=691, st_atime=2017/11/26-03:14:07.211406527, st_mtime=2015/11/11-19:08:52, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13532 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/55gnome-session_gnomerc", X_OK) = -1 EACCES (Permission denied)
+13533 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/55gnome-session_gnomerc", R_OK) = 0
+13534 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/60x11-common_localhost", {st_dev=makedev(8, 1), st_ino=131348, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=146, st_atime=2017/11/26-03:14:07.211406527, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13535 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60x11-common_localhost", X_OK) = -1 EACCES (Permission denied)
+13536 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60x11-common_localhost", R_OK) = 0
+13537 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/60x11-common_xdg_path", {st_dev=makedev(8, 1), st_ino=131349, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=768, st_atime=2017/11/26-03:14:07.215406488, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13538 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60x11-common_xdg_path", X_OK) = -1 EACCES (Permission denied)
+13539 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60x11-common_xdg_path", R_OK) = 0
+13540 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/60xbrlapi", {st_dev=makedev(8, 1), st_ino=131350, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=58, st_atime=2017/11/26-03:14:07.215406488, st_mtime=2016/04/10-21:32:44, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13541 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60xbrlapi", X_OK) = -1 EACCES (Permission denied)
+13542 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60xbrlapi", R_OK) = 0
+13543 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/60xdg-user-dirs-update", {st_dev=makedev(8, 1), st_ino=131351, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=80, st_atime=2017/11/26-03:14:07.215406488, st_mtime=2016/04/14-01:45:18, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13544 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60xdg-user-dirs-update", X_OK) = -1 EACCES (Permission denied)
+13545 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/60xdg-user-dirs-update", R_OK) = 0
+13546 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/65compiz_profile-on-session", {st_dev=makedev(8, 1), st_ino=131352, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=417, st_atime=2017/11/26-03:14:07.259406057, st_mtime=2016/04/15-01:38:04, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13547 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/65compiz_profile-on-session", X_OK) = -1 EACCES (Permission denied)
+13548 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/65compiz_profile-on-session", R_OK) = 0
+13549 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/65snappy", {st_dev=makedev(8, 1), st_ino=131353, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=181, st_atime=2017/11/26-03:14:07.259406057, st_mtime=2016/04/19-10:02:47, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13550 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/65snappy", X_OK) = -1 EACCES (Permission denied)
+13551 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/65snappy", R_OK) = 0
+13552 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/70gconfd_path-on-session", {st_dev=makedev(8, 1), st_ino=131354, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=336, st_atime=2017/11/26-03:14:07.259406057, st_mtime=2015/06/10-21:51:24, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13553 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/70gconfd_path-on-session", X_OK) = -1 EACCES (Permission denied)
+13554 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/70gconfd_path-on-session", R_OK) = 0
+13555 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/70im-config_launch", {st_dev=makedev(8, 1), st_ino=131355, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1541, st_atime=2017/11/26-03:14:07.259406057, st_mtime=2015/03/21-12:10:09, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13556 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/70im-config_launch", X_OK) = -1 EACCES (Permission denied)
+13557 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/70im-config_launch", R_OK) = 0
+13558 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/75dbus_dbus-launch", {st_dev=makedev(8, 1), st_ino=131356, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=406, st_atime=2017/11/26-03:14:07.383404841, st_mtime=2015/12/01-23:42:14, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13559 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/75dbus_dbus-launch", X_OK) = -1 EACCES (Permission denied)
+13560 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/75dbus_dbus-launch", R_OK) = 0
+13561 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/81overlay-scrollbar", {st_dev=makedev(8, 1), st_ino=131357, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=198, st_atime=2017/11/26-03:14:07.383404841, st_mtime=2015/11/17-12:11:27, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13562 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/81overlay-scrollbar", X_OK) = -1 EACCES (Permission denied)
+13563 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/81overlay-scrollbar", R_OK) = 0
+13564 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/90atk-adaptor", {st_dev=makedev(8, 1), st_ino=131358, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=371, st_atime=2017/11/26-03:14:07.383404841, st_mtime=2015/10/12-17:47:39, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13565 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90atk-adaptor", X_OK) = -1 EACCES (Permission denied)
+13566 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90atk-adaptor", R_OK) = 0
+13567 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/90gpg-agent", {st_dev=makedev(8, 1), st_ino=131359, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=608, st_atime=2017/11/26-03:14:07.383404841, st_mtime=2016/04/08-06:14:07, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13568 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90gpg-agent", X_OK) = -1 EACCES (Permission denied)
+13569 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90gpg-agent", R_OK) = 0
+13570 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/90qt-a11y", {st_dev=makedev(8, 1), st_ino=131360, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=257, st_atime=2017/11/26-03:14:07.403404645, st_mtime=2016/02/24-20:14:16, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13571 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90qt-a11y", X_OK) = -1 EACCES (Permission denied)
+13572 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90qt-a11y", R_OK) = 0
+13573 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/90x11-common_ssh-agent", {st_dev=makedev(8, 1), st_ino=131361, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=629, st_atime=2017/11/26-03:14:07.403404645, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13574 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90x11-common_ssh-agent", X_OK) = -1 EACCES (Permission denied)
+13575 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/90x11-common_ssh-agent", R_OK) = 0
+13576 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/95dbus_update-activation-env", {st_dev=makedev(8, 1), st_ino=131362, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=513, st_atime=2017/11/26-03:14:07.403404645, st_mtime=2015/12/01-23:42:14, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13577 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/95dbus_update-activation-env", X_OK) = -1 EACCES (Permission denied)
+13578 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/95dbus_update-activation-env", R_OK) = 0
+13579 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/99upstart", {st_dev=makedev(8, 1), st_ino=131363, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=322, st_atime=2017/11/26-03:14:07.407404606, st_mtime=2016/02/29-10:10:26, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13580 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/99upstart", X_OK) = -1 EACCES (Permission denied)
+13581 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/99upstart", R_OK) = 0
+13582 , 55611 , 55611 , run-parts , stat("/etc/X11/Xsession.d/99x11-common_start", {st_dev=makedev(8, 1), st_ino=131364, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=166, st_atime=2017/11/26-03:14:07.407404606, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+13583 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/99x11-common_start", X_OK) = -1 EACCES (Permission denied)
+13584 , 55611 , 55611 , run-parts , access("/etc/X11/Xsession.d/99x11-common_start", R_OK) = 0
+13585 , 55611 , 55611 , run-parts , write(1<pipe:[460455]>, "/etc/X11/Xsession.d/00upstart\n/etc/X11/Xsession.d/20x11-common_process-args\n/etc/X11/Xsession.d/30x11-common_xresources\n/etc/X11/Xsession.d/35x11-common_xhost-local\n/etc/X11/Xsession.d/40x11-common_xs"..., 1002) = 1002
+13594 , 55611 , 55611 , run-parts , exit_group(0) = ?
+13597 , 55611 , -1 , NULL , +++ exited with 0 +++

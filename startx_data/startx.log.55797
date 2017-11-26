@@ -1,0 +1,15 @@
+80834 , 55797 , 55710 , clipit , set_robust_list(0x7fd06a6329e0, 24) = 0
+80837 , 55797 , 55710 , clipit , prctl(PR_SET_NAME, "pool\0\177\0\0x\253\233t\320\177\0\0") = 0
+80841 , 55797 , 55710 , pool , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd054000000
+80844 , 55797 , 55710 , pool , munmap(0x7fd058000000, 67108864) = 0
+80847 , 55797 , 55710 , pool , mprotect(0x7fd054000000, 139264, PROT_READ|PROT_WRITE) = 0
+80850 , 55797 , 55710 , pool , futex(0x55c6e2190d80, FUTEX_WAKE_PRIVATE, 1) = 1
+80854 , 55797 , 55710 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+80858 , 55797 , 55710 , pool , futex(0x55c6e215fdd0, FUTEX_WAKE_PRIVATE, 1) = 0
+80862 , 55797 , 55710 , pool , futex(0x55c6e2190d80, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+80866 , 55797 , 55710 , pool , futex(0x55c6e2190d80, FUTEX_WAKE_PRIVATE, 1) = 0
+80869 , 55797 , 55710 , pool , futex(0x7fd0738829e0, FUTEX_WAKE_PRIVATE, 1) = 1
+80873 , 55797 , 55710 , pool , futex(0x55c6e2190d90, FUTEX_WAIT_PRIVATE, 0, {0, 499999712}) = -1 ETIMEDOUT (Connection timed out)
+82932 , 55797 , 55710 , pool , madvise(0x7fd069e32000, 8368128, MADV_DONTNEED) = 0
+82934 , 55797 , 55710 , pool , exit(0)  = ?
+82936 , 55797 , -1 , NULL , +++ exited with 0 +++

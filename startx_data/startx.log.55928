@@ -1,0 +1,799 @@
+169378 , 55928 , 55928 , sh , execve("/usr/bin/zeitgeist-daemon", ["/usr/bin/zeitgeist-daemon"], ["SUDO_GID=1000", "MAIL=/var/mail/root", "USER=root", "SSH_AGENT_PID=55636", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "DBUS_STARTER_BUS_TYPE=session", "IM_CONFIG_PHASE=1", "SUDO_UID=1000", "LOGNAME=root", "USERNAME=root", "TERM=linux", "GNOME_DESKTOP_SESSION_ID=this-is-deprecated", "WINDOWPATH=1", "GTK2_MODULES=overlay-scrollbar", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", "SESSION_MANAGER=local/elwin-virtual-machine:@/tmp/.ICE-unix/55604,unix/elwin-virtual-machine:/tmp/.ICE-unix/55604", "XDG_MENU_PREFIX=gnome-", "DISPLAY=:0", "XDG_CURRENT_DESKTOP=GNOME", "LANG=en_US.UTF-8", "XMODIFIERS=@im=ibus", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "XAUTHORITY=/home/elwin/.Xauthority", "SSH_AUTH_SOCK=/tmp/ssh-Ra0PtKcCBO9y/agent.55604", "SUDO_COMMAND=../strace -ff -y -yy -o startx.log -v -s 200 startx", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "SUDO_USER=elwin", "QT_IM_MODULE=ibus", "PWD=/", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-SivJgCHTvt,guid=b91cd6b4be1a82c55d8bde6e5a1abe9c", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+169404 , 55928 , 55928 , zeitgeist-daemo , brk(NULL) = 0x1483000
+169405 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169406 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c3c000
+169407 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+169408 , 55928 , 55928 , zeitgeist-daemo , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+169409 , 55928 , 55928 , zeitgeist-daemo , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=134747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=129890, st_atime=2017/11/26-07:08:14.426596111, st_mtime=2017/11/26-07:08:14.410595703, st_ctime=2017/11/26-07:08:14.410595703}) = 0
+169410 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 129890, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fe917c1c000
+169411 , 55928 , 55928 , zeitgeist-daemo , close(3</etc/ld.so.cache>) = 0
+169412 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169413 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>
+169414 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\16\1\0\0\0\0\0@\0\0\0\0\0\0\0(\352\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\262\5\0\0\0\0\0\\\262\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\263\5\0\0\0\0\0H\263%\0\0\0\0\0H\263%\0\0\0\0\0\2605\0\0\0\0\0\0P8\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\334\5\0\0\0\0\0\350\334%\0\0\0\0\0"..., 832) = 832
+169415 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466631, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=768, st_size=389416, st_atime=2017/11/26-03:14:11.315366641, st_mtime=2016/02/24-09:31:07, st_ctime=2016/11/03-10:38:48.815999880}) = 0
+169416 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2485144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>, 0) = 0x7fe9177ba000
+169417 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe917816000, 2093056, PROT_NONE) = 0
+169418 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe917a15000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>, 0x5b000) = 0x7fe917a15000
+169419 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libzeitgeist-2.0.so.0.0.0>) = 0
+169424 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169425 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>
+169426 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+169427 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465742, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:05, st_ctime=2016/11/03-10:38:40.991999886}) = 0
+169428 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0) = 0x7fe9175b6000
+169429 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9175b9000, 2093056, PROT_NONE) = 0
+169430 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9177b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>, 0x2000) = 0x7fe9177b8000
+169431 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0>) = 0
+169432 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169433 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>
+169434 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\372\27\0\0\0\0\0t\372\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+169435 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:40.951999886}) = 0
+169436 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c1b000
+169437 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0) = 0x7fe91722e000
+169438 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9173ae000, 2097152, PROT_NONE) = 0
+169439 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9175ae000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>, 0x180000) = 0x7fe9175ae000
+169440 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9175b4000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe9175b4000
+169441 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0>) = 0
+169442 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169443 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>
+169444 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+169445 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4465766, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:38:41.151999886}) = 0
+169446 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0) = 0x7fe916fdb000
+169447 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe91702d000, 2093056, PROT_NONE) = 0
+169448 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe91722c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>, 0x51000) = 0x7fe91722c000
+169449 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0>) = 0
+169450 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169451 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>
+169452 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\247\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374\337\20\0\0\0\0\0\374\337\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+169453 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2017/11/25-09:35:01.224675210, st_mtime=2016/04/10-16:51:04, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+169454 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0) = 0x7fe916cca000
+169455 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916dd8000, 2097152, PROT_NONE) = 0
+169456 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe916fd8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>, 0x10e000) = 0x7fe916fd8000
+169457 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe916fda000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe916fda000
+169458 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0>) = 0
+169459 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169460 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>
+169461 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\260\0\0\0\0\0\0@\0\0\0\0\0\0\0\340@\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\314\357\f\0\0\0\0\0\314\357\f\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\376\f\0\0\0\0\0\310\376,\0\0\0\0\0\310\376,\0\0\0\0\0\370@\0\0\0\0\0\0\20H\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H\34\r\0\0\0\0\0H\34-\0\0\0\0\0"..., 832) = 832
+169462 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>, {st_dev=makedev(8, 1), st_ino=4466356, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1704, st_size=870240, st_atime=2017/11/25-09:34:42.800711921, st_mtime=2016/02/22-11:43:39, st_ctime=2016/11/03-10:38:46.207999882}) = 0
+169463 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c1a000
+169464 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2967256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>, 0) = 0x7fe9169f5000
+169465 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916ac4000, 2097152, PROT_NONE) = 0
+169466 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe916cc4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>, 0xcf000) = 0x7fe916cc4000
+169467 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe916cc9000, 1752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe916cc9000
+169468 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6>) = 0
+169469 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169470 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+169471 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+169472 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997534, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:21, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+169473 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fe9167d8000
+169474 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9167f0000, 2093056, PROT_NONE) = 0
+169475 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9169ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fe9169ef000
+169506 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9169f1000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe9169f1000
+169507 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+169508 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169509 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+169510 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0 f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+169511 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997551, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+169512 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fe91640e000
+169513 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9165ce000, 2097152, PROT_NONE) = 0
+169514 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9167ce000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fe9167ce000
+169515 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9167d4000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe9167d4000
+169516 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+169517 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169518 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+169519 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+169520 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+169521 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c19000
+169522 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fe91620a000
+169523 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe91620d000, 2093056, PROT_NONE) = 0
+169524 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe91640c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fe91640c000
+169665 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+169666 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169667 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+169668 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+169669 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2017/11/26-06:53:30.719592512, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+169670 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7fe915ff0000
+169671 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916009000, 2093056, PROT_NONE) = 0
+169672 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe916208000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7fe916208000
+169756 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+169757 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169758 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+169759 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+169760 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+169761 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fe915dce000
+169762 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe915ded000, 2093056, PROT_NONE) = 0
+169763 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe915fec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fe915fec000
+169888 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe915fee000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe915fee000
+169889 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+169890 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169891 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+169892 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+169893 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=4997543, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2017/11/25-09:34:41.812713888, st_mtime=2017/06/16-16:57:16, st_ctime=2017/06/24-03:59:25.339292988}) = 0
+169894 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c18000
+169895 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7fe915bb3000
+169896 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe915bca000, 2097152, PROT_NONE) = 0
+169897 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe915dca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7fe915dca000
+169898 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe915dcc000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe915dcc000
+169899 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+169900 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+169901 , 55928 , 55928 , zeitgeist-daemo , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+169902 , 55928 , 55928 , zeitgeist-daemo , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+169903 , 55928 , 55928 , zeitgeist-daemo , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2017/11/25-09:34:42.656712207, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+169904 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7fe9159ab000
+169905 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9159b2000, 2093056, PROT_NONE) = 0
+169906 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe915bb1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7fe915bb1000
+170047 , 55928 , 55928 , zeitgeist-daemo , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+170049 , 55928 , 55928 , zeitgeist-daemo , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+170052 , 55928 , 55928 , zeitgeist-daemo , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+170054 , 55928 , 55928 , zeitgeist-daemo , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+170055 , 55928 , 55928 , zeitgeist-daemo , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2017/11/25-09:34:41.568714374, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+170057 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fe91573b000
+170059 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9157a9000, 2097152, PROT_NONE) = 0
+170061 , 55928 , 55928 , zeitgeist-daemo , mmap(0x7fe9159a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fe9159a9000
+170163 , 55928 , 55928 , zeitgeist-daemo , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+170165 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c17000
+170167 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c16000
+170168 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe917c14000
+170169 , 55928 , 55928 , zeitgeist-daemo , arch_prctl(ARCH_SET_FS, 0x7fe917c14800) = 0
+170170 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9167ce000, 16384, PROT_READ) = 0
+170171 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9169ef000, 4096, PROT_READ) = 0
+170172 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9159a9000, 4096, PROT_READ) = 0
+170173 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe915bb1000, 4096, PROT_READ) = 0
+170174 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe915dca000, 4096, PROT_READ) = 0
+170175 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe91640c000, 4096, PROT_READ) = 0
+170176 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe915fec000, 4096, PROT_READ) = 0
+170177 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916208000, 4096, PROT_READ) = 0
+170178 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916cc4000, 12288, PROT_READ) = 0
+170179 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe916fd8000, 4096, PROT_READ) = 0
+170180 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe91722c000, 4096, PROT_READ) = 0
+170181 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9177b8000, 4096, PROT_READ) = 0
+170182 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe9175ae000, 16384, PROT_READ) = 0
+170183 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe917a15000, 12288, PROT_READ) = 0
+170184 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x630000, 4096, PROT_READ) = 0
+170185 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe917c3e000, 4096, PROT_READ) = 0
+170186 , 55928 , 55928 , zeitgeist-daemo , munmap(0x7fe917c1c000, 129890) = 0
+170187 , 55928 , 55928 , zeitgeist-daemo , set_tid_address(0x7fe917c14ad0) = 55928
+170188 , 55928 , 55928 , zeitgeist-daemo , set_robust_list(0x7fe917c14ae0, 24) = 0
+170189 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGRTMIN, {0x7fe9167ddb50, [], SA_RESTORER|SA_SIGINFO, 0x7fe9167e9390}, NULL, 8) = 0
+170190 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGRT_1, {0x7fe9167ddbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fe9167e9390}, NULL, 8) = 0
+170191 , 55928 , 55928 , zeitgeist-daemo , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+170192 , 55928 , 55928 , zeitgeist-daemo , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+170193 , 55928 , 55928 , zeitgeist-daemo , statfs("/sys/fs/selinux", 0x7ffcfedad160) = -1 ENOENT (No such file or directory)
+170194 , 55928 , 55928 , zeitgeist-daemo , statfs("/selinux", 0x7ffcfedad160) = -1 ENOENT (No such file or directory)
+170195 , 55928 , 55928 , zeitgeist-daemo , brk(NULL) = 0x1483000
+170196 , 55928 , 55928 , zeitgeist-daemo , brk(0x14a4000) = 0x14a4000
+170197 , 55928 , 55928 , zeitgeist-daemo , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+170198 , 55928 , 55928 , zeitgeist-daemo , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2017/11/26-08:16:41.511736591, st_mtime=2017/11/26-08:16:41.511736591, st_ctime=2017/11/26-08:16:41.511736591}) = 0
+170199 , 55928 , 55928 , zeitgeist-daemo , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+170200 , 55928 , 55928 , zeitgeist-daemo , read(3</proc/filesystems>, "", 1024) = 0
+170201 , 55928 , 55928 , zeitgeist-daemo , close(3</proc/filesystems>) = 0
+170202 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170203 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170204 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGHUP, {0x40d820, [HUP], SA_RESTORER|SA_RESTART, 0x7fe9164434b0}, {SIG_DFL, [], 0}, 8) = 0
+170205 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGINT, {0x40d820, [INT], SA_RESTORER|SA_RESTART, 0x7fe9164434b0}, {SIG_DFL, [], 0}, 8) = 0
+170206 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGTERM, {0x40d820, [TERM], SA_RESTORER|SA_RESTART, 0x7fe9164434b0}, {SIG_DFL, [], 0}, 8) = 0
+170207 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170208 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170209 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170210 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170211 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170212 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170213 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170214 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170215 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170216 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170217 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170218 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170219 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170220 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 3<anon_inode:[eventfd]>
+170221 , 55928 , 55928 , zeitgeist-daemo , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+170222 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170223 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170224 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170225 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170226 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170227 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170228 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170229 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170230 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170231 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170232 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170233 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170234 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170235 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170236 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170237 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170238 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170239 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170240 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170241 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170242 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170243 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170244 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170245 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170246 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170247 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170248 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170249 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170250 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170251 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170252 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170253 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170254 , 55928 , 55928 , zeitgeist-daemo , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fe9164434b0}, {SIG_IGN, [], 0}, 8) = 0
+170255 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170256 , 55928 , 55928 , zeitgeist-daemo , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4<UNIX:[509390]>
+170257 , 55928 , 55928 , zeitgeist-daemo , fcntl(4<UNIX:[509390]>, F_GETFL) = 0x2 (flags O_RDWR)
+170258 , 55928 , 55928 , zeitgeist-daemo , fcntl(4<UNIX:[509390]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+170259 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170260 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170261 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170262 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170263 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170264 , 55928 , 55928 , zeitgeist-daemo , connect(4<UNIX:[509390]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-SivJgCHTvt"}, 23) = 0
+170265 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170266 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170267 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170268 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170269 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170270 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170271 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170272 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170273 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170274 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170275 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170276 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170277 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170278 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170279 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170280 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170281 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170282 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170283 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170284 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170285 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170286 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170287 , 55928 , 55928 , zeitgeist-daemo , geteuid() = 0
+170288 , 55928 , 55928 , zeitgeist-daemo , getegid() = 0
+170289 , 55928 , 55928 , zeitgeist-daemo , geteuid() = 0
+170290 , 55928 , 55928 , zeitgeist-daemo , getegid() = 0
+170291 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170292 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+170293 , 55928 , 55928 , zeitgeist-daemo , sendmsg(4<UNIX:[509390]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=55928, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+170294 , 55928 , 55928 , zeitgeist-daemo , sendto(4<UNIX:[509390]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+170295 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390]>, 0x149e350, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+170296 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=4<UNIX:[509390]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+172909 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390->515747]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+172912 , 55928 , 55928 , zeitgeist-daemo , sendto(4<UNIX:[509390->515747]>, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+172915 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390->515747]>, 0x149e350, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+172918 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=4<UNIX:[509390->515747]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+173719 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390->515747]>, "OK b91cd6b4be1a82c55d8bde6e5a1abe9c\r\n", 4096, 0, NULL, NULL) = 37
+173721 , 55928 , 55928 , zeitgeist-daemo , sendto(4<UNIX:[509390->515747]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+173723 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390->515747]>, 0x149e350, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+173725 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=4<UNIX:[509390->515747]>, events=POLLIN}], 1, -1) = 1 ([{fd=4, revents=POLLIN}])
+173953 , 55928 , 55928 , zeitgeist-daemo , recvfrom(4<UNIX:[509390->515747]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+173955 , 55928 , 55928 , zeitgeist-daemo , sendto(4<UNIX:[509390->515747]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+173957 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+173960 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+173961 , 55928 , 55928 , zeitgeist-daemo , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+173963 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 5<anon_inode:[eventfd]>
+173966 , 55928 , 55928 , zeitgeist-daemo , write(5<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+173968 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe914f3a000
+173970 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe914f3a000, 4096, PROT_NONE) = 0
+173972 , 55928 , 55928 , zeitgeist-daemo , clone(child_stack=0x7fe915739ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fe91573a9d0, tls=0x7fe91573a700, child_tidptr=0x7fe91573a9d0) = 55944
+173976 , 55928 , 55928 , zeitgeist-daemo , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+174003 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174007 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174009 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174013 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 6<anon_inode:[eventfd]>
+174015 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174019 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe914739000
+174021 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe914739000, 4096, PROT_NONE) = 0
+174024 , 55928 , 55928 , zeitgeist-daemo , clone(child_stack=0x7fe914f38ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fe914f399d0, tls=0x7fe914f39700, child_tidptr=0x7fe914f399d0) = 55945
+174027 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda408, FUTEX_WAKE_PRIVATE, 1) = 1
+174031 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174033 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174035 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+174040 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174043 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174046 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174049 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174052 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174107 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174109 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174111 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a1bd0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174113 , 55928 , 55928 , zeitgeist-daemo , close(7<anon_inode:[eventfd]>) = 0
+174115 , 55928 , 55928 , zeitgeist-daemo , brk(0x14c5000) = 0x14c5000
+174117 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174132 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174134 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174135 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174138 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174140 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174144 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174146 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174149 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174151 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174155 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174158 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174163 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174167 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174175 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174178 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174182 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174186 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174204 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+174206 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174208 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174211 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174216 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174220 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174238 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24999) = 1 ([{fd=7, revents=POLLIN}])
+174240 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=7, revents=POLLIN}])
+174242 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174244 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=7, revents=POLLIN}])
+174445 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174450 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174453 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174458 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174460 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174482 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174483 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174484 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a5a80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174485 , 55928 , 55928 , zeitgeist-daemo , close(7<anon_inode:[eventfd]>) = 0
+174486 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+174487 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174488 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174490 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174494 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174497 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174503 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174504 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174505 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174506 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+174524 , 55928 , 55928 , zeitgeist-daemo , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+174525 , 55928 , 55928 , zeitgeist-daemo , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174526 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a5a80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174527 , 55928 , 55928 , zeitgeist-daemo , close(7<anon_inode:[eventfd]>) = 0
+174528 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174530 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174534 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174537 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174543 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+174545 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+174548 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+174551 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+174557 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174558 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174559 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174560 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174561 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174562 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+174563 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist", {st_dev=makedev(8, 1), st_ino=2883750, st_mode=S_IFDIR|0700, st_nlink=3, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/12/07-22:24:38.334295875, st_mtime=2017/11/24-00:52:11.894231290, st_ctime=2017/11/24-00:52:11.894231290}) = 0
+174564 , 55928 , 55928 , zeitgeist-daemo , lstat("/home/elwin/.local/share/zeitgeist/activity.sqlite", {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174699 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/activity.sqlite", {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174700 , 55928 , 55928 , zeitgeist-daemo , open("/home/elwin/.local/share/zeitgeist/activity.sqlite", O_RDWR|O_CREAT|O_CLOEXEC, 0644) = 7</home/elwin/.local/share/zeitgeist/activity.sqlite>
+174701 , 55928 , 55928 , zeitgeist-daemo , fstat(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174702 , 55928 , 55928 , zeitgeist-daemo , fstat(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174703 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/activity.sqlite", {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174704 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 0, SEEK_SET) = 0
+174705 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "SQLite format 3\0\4\0\2\2\0@  \0\0\0\30\0\0\0\\\0\0\0\0\0\0\0\0\0\0\0*\0\0\0\4\0\0\0002\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\30\0-\361\270", 100) = 100
+174868 , 55928 , 55928 , zeitgeist-daemo , fcntl(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+174869 , 55928 , 55928 , zeitgeist-daemo , fcntl(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+174870 , 55928 , 55928 , zeitgeist-daemo , fcntl(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+174871 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/activity.sqlite-journal", 0x7ffcfedac4f0) = -1 ENOENT (No such file or directory)
+174872 , 55928 , 55928 , zeitgeist-daemo , fstat(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174873 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/activity.sqlite-wal", {st_dev=makedev(8, 1), st_ino=2883748, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=56, st_size=24136, st_atime=2017/11/26-03:14:31.959177124, st_mtime=2017/11/26-03:19:27.225544706, st_ctime=2017/11/26-03:19:27.225544706}) = 0
+174874 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/activity.sqlite", {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174875 , 55928 , 55928 , zeitgeist-daemo , open("/home/elwin/.local/share/zeitgeist/activity.sqlite-wal", O_RDWR|O_CREAT|O_CLOEXEC, 0600) = 8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>
+174876 , 55928 , 55928 , zeitgeist-daemo , fstat(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, {st_dev=makedev(8, 1), st_ino=2883748, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=56, st_size=24136, st_atime=2017/11/26-03:14:31.959177124, st_mtime=2017/11/26-03:19:27.225544706, st_ctime=2017/11/26-03:19:27.225544706}) = 0
+174877 , 55928 , 55928 , zeitgeist-daemo , geteuid() = 0
+174878 , 55928 , 55928 , zeitgeist-daemo , fchown(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 1000, 1000) = 0
+174879 , 55928 , 55928 , zeitgeist-daemo , fstat(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, {st_dev=makedev(8, 1), st_ino=2883748, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=56, st_size=24136, st_atime=2017/11/26-03:14:31.959177124, st_mtime=2017/11/26-03:19:27.225544706, st_ctime=2017/11/26-08:16:42.423741708}) = 0
+174880 , 55928 , 55928 , zeitgeist-daemo , fstat(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, {st_dev=makedev(8, 1), st_ino=2883751, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=192, st_size=94208, st_atime=2017/11/26-03:14:31.951177194, st_mtime=2017/11/24-00:52:11.734234287, st_ctime=2017/11/24-00:52:11.734234287}) = 0
+174881 , 55928 , 55928 , zeitgeist-daemo , open("/home/elwin/.local/share/zeitgeist/activity.sqlite-shm", O_RDWR|O_CREAT|O_CLOEXEC, 0600) = 9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>
+174882 , 55928 , 55928 , zeitgeist-daemo , fstat(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, {st_dev=makedev(8, 1), st_ino=2883753, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=64, st_size=32768, st_atime=2017/11/26-03:14:32.007176702, st_mtime=2017/11/26-03:19:27.249546746, st_ctime=2017/11/26-03:19:27.249546746}) = 0
+174883 , 55928 , 55928 , zeitgeist-daemo , geteuid() = 0
+174884 , 55928 , 55928 , zeitgeist-daemo , fchown(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 1000, 1000) = 0
+174885 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=128, l_len=1}) = 0
+174886 , 55928 , 55928 , zeitgeist-daemo , ftruncate(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 0) = 0
+174887 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=128, l_len=1}) = 0
+174888 , 55928 , 55928 , zeitgeist-daemo , fstat(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, {st_dev=makedev(8, 1), st_ino=2883753, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:14:32.007176702, st_mtime=2017/11/26-08:16:42.423741708, st_ctime=2017/11/26-08:16:42.423741708}) = 0
+174889 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+174890 , 55928 , 55928 , zeitgeist-daemo , fstat(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, {st_dev=makedev(8, 1), st_ino=2883753, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017/11/26-03:14:32.007176702, st_mtime=2017/11/26-08:16:42.423741708, st_ctime=2017/11/26-08:16:42.423741708}) = 0
+174891 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 4095, SEEK_SET) = 4095
+174892 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174893 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 8191, SEEK_SET) = 8191
+174894 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174895 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 12287, SEEK_SET) = 12287
+174896 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174897 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 16383, SEEK_SET) = 16383
+174898 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174899 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 20479, SEEK_SET) = 20479
+174900 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174901 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 24575, SEEK_SET) = 24575
+174902 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174903 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 28671, SEEK_SET) = 28671
+174904 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174905 , 55928 , 55928 , zeitgeist-daemo , lseek(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 32767, SEEK_SET) = 32767
+174906 , 55928 , 55928 , zeitgeist-daemo , write(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, "\0", 1) = 1
+174907 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_SHARED, 9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, 0) = 0x7fe917c34000
+174908 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=121, l_len=7}) = 0
+174909 , 55928 , 55928 , zeitgeist-daemo , fstat(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, {st_dev=makedev(8, 1), st_ino=2883748, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=56, st_size=24136, st_atime=2017/11/26-03:14:31.959177124, st_mtime=2017/11/26-03:19:27.225544706, st_ctime=2017/11/26-08:16:42.423741708}) = 0
+174910 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 0, SEEK_SET) = 0
+174911 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "7\177\6\202\0-\342\30\0\0\4\0\0\0\0\0\364\t\33%\23z\t\273\371\352\r\7l\317^\277", 32) = 32
+175464 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 32, SEEK_SET) = 32
+175466 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\271\303\270Y\304\205\r\314\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175469 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 1080, SEEK_SET) = 1080
+175470 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\32\0\0\0\0\364\t\33%\23z\t\273\32\17\202\210m8B\325\r\0\0\0\1\1\35\0\1\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175472 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 2128, SEEK_SET) = 2128
+175474 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\33\0\0\0\\\364\t\33%\23z\t\273\374\275\236\4\341\231\340K\n\0\0\0\1\3\316\0\3\316\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175476 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 3176, SEEK_SET) = 3176
+175477 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\3219@\32e\326\254\263\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175479 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 4224, SEEK_SET) = 4224
+175481 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\363\30\352X\v\243\31\313\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175483 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 5272, SEEK_SET) = 5272
+175485 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\2736\303E\236\3711\275\23\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175487 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 6320, SEEK_SET) = 6320
+175488 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\33\30\367L\261\212\27\v\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175490 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 7368, SEEK_SET) = 7368
+175492 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273P\3\207J_\327[@\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175494 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 8416, SEEK_SET) = 8416
+175496 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\3729v@\363\312B\274\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175498 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 9464, SEEK_SET) = 9464
+175500 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\300\30\220\276O\223\304\370\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175501 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 10512, SEEK_SET) = 10512
+175503 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\3171\343\244\3\5\257\264\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175505 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 11560, SEEK_SET) = 11560
+175507 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273*8~R\304\213\30\260\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175509 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 12608, SEEK_SET) = 12608
+175510 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\340\215\370\260owY\271\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175512 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 13656, SEEK_SET) = 13656
+175513 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\320_\211fJv\247\31\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175515 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 14704, SEEK_SET) = 14704
+175517 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\266D\271\4\203h\\\211\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175519 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 15752, SEEK_SET) = 15752
+175520 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\355Q\26j\322\3679\t\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175522 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 16800, SEEK_SET) = 16800
+175524 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\335F\30\370O\301\304\231\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175526 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 17848, SEEK_SET) = 17848
+175527 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\n\202&\226\335n\320F\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175529 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 18896, SEEK_SET) = 18896
+175531 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\32\0\0\0\0\364\t\33%\23z\t\273\320}\345\233I Q{\r\0\0\0\1\1\35\0\1\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175533 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 19944, SEEK_SET) = 19944
+175535 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\33\0\0\0\\\364\t\33%\23z\t\273?\304\373;\r&\341\261\n\0\0\0\1\3\316\0\3\316\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175546 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 20992, SEEK_SET) = 20992
+175548 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273P=\261m\\\372XF\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175549 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 22040, SEEK_SET) = 22040
+175551 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\32\0\0\0\0\364\t\33%\23z\t\273\26\262\311\201\204\230&\220\r\0\0\0\1\1\35\0\1\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175553 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 23088, SEEK_SET) = 23088
+175554 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\33\0\0\0\\\364\t\33%\23z\t\273> P\201\17\foZ\n\0\0\0\1\3\316\0\3\316\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+175556 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=121, l_len=7}) = 0
+175558 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+175560 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175561 , 55928 , 55928 , zeitgeist-daemo , brk(0x14eb000) = 0x14eb000
+175563 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 0, SEEK_SET) = 0
+175564 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "SQLite format 3\0\4\0\2\2\0@  \0\0\0\30\0\0\0\\\0\0\0\0\0\0\0\0\0\0\0*\0\0\0\4\0\0\0002\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\30\0-\361\270\5\0\0\0\5\3\347\0\0\0\0,\3\373\3\366\3\361\3\354\3\347\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175566 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 10240, SEEK_SET) = 10240
+175568 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\3\370\0\10\0S\0\3B\3\321\2G\3\5\1\365\0\377\1\272\0S\0\316\3\370\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\201)\10\7\27\35\35\1\202%tablemimetypemimetype\tCREATE TABLE mimetype (\n                    id INTEGER PRIMARY KEY AUTOINCREMENT,\n   "..., 1024) = 1024
+175569 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 13312, SEEK_SET) = 13312
+175571 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\7\0\322\0\3\317\3,\3\1\2o\2F\1\334\0\322\0\243\0p\0p\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0007\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175573 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 24576, SEEK_SET) = 24576
+175575 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\1\227\0\5\0J\0\1\257\2\t\1\336\0\211\0J\0L\0L\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0=\24\6\27Q+\1\0indexsqlite_autoindex_extensions_conf_1extensions_conf\33\202\v\23\7\27++\1\203Mtableextensions_confextensions_conf\32CREATE TABLE exte"..., 1024) = 1024
+175577 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 21504, SEEK_SET) = 21504
+175579 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\0\0\0\27ion INTEGER,\n                    subj_origin INTEGER,\n                    subj_mimetype INTEGER,\n                    subj_text INTEGER,\n                    subj_storage INTEGER,\n                  "..., 1024) = 1024
+175581 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 22528, SEEK_SET) = 22528
+175583 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\0\0\0\30    ON DELETE CASCADE,\n                    CONSTRAINT payload_fk\n                        FOREIGN KEY(payload)\n                        REFERENCES payload(id)\n                        ON DELETE CASCA"..., 1024) = 1024
+175585 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 23552, SEEK_SET) = 23552
+175587 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\0\0\0\0\n                        FOREIGN KEY(subj_origin)\n                        REFERENCES uri(id)\n                        ON DELETE CASCADE,\n                    CONSTRAINT subj_origin_current_fk\n      "..., 1024) = 1024
+175589 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 29696, SEEK_SET) = 29696
+175590 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\3\301\0\7\0005\0\3\2\2\305\2W\1\333\1D\0\260\0005\0005\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0y\33\7\27#\27\1\201Eindexevent_actorevent#CREATE INDEX event_actor\n                    ON event(actor, timestamp, id)\n                \201\21\32\7\0273\27\1\201eindexevent_man"..., 1024) = 1024
+175603 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 36864, SEEK_SET) = 36864
+175604 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\6\0005\0\3\202\2\353\2<\1\215\0\341\0005\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\201)!\7\27/\27\1\202\31indexevent_subj_originevent*CREATE INDEX event_subj_origin\n                    ON event(subj_origin, timestamp, subj_interpretation, subj"..., 1024) = 1024
+175605 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 44032, SEEK_SET) = 44032
+175606 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\5\0007\1\1\344\1P\0\310\0007\2\251\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\201\16%\7\0271\27\1\201aindexevent_subj_storageevent/CREATE INDEX event_subj_storage\n                    ON event(subj_storage, timestamp, id)\n                "..., 1024) = 1024
+175607 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 92160, SEEK_SET) = 92160
+175608 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\0\0\0\\      WHERE payload.id=event.payload)\n                            AS payload,\n                        (SELECT value FROM uri\n                            WHERE uri.id=event.subj_id)\n               "..., 1024) = 1024
+175679 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 93184, SEEK_SET) = 93184
+175680 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\0\0\0\0                  WHERE storage.id=event.subj_storage)\n                            AS subj_storage_state,\n                        event.origin,\n                        (SELECT value FROM uri\n     "..., 1024) = 1024
+175681 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175682 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175683 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 28672, SEEK_SET) = 28672
+175684 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\n\0\0\0\2\3\342\0\3\370\3\342\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175685 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 27648, SEEK_SET) = 27648
+175686 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\2\3\332\0\3\366\3\332\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175687 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175688 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175689 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175690 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175691 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 3072, SEEK_SET) = 3072
+175692 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\n\1\"\0\3\265\3n\3$\2\332\2\217\2J\2\1\1\270\1m\1\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175693 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175694 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175695 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 6144, SEEK_SET) = 6144
+175696 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\3\3\34\0\3\264\3i\3\34\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175697 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175698 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175699 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 8192, SEEK_SET) = 8192
+175700 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\10\3d\0\3\346\3\330\3\304\3\262\3\222\3\203\3s\3d\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175701 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175702 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175703 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 11264, SEEK_SET) = 11264
+175704 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\r\0\0\0\5\3R\0\3\324\3\263\3\225\3r\3R\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175705 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175706 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175707 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175708 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 30720, SEEK_SET) = 30720
+175709 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\2\0\0\0\1\3\357\0\0\0\0X\3\357\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175710 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 89088, SEEK_SET) = 89088
+175711 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\n\0\0\0\17\3=\0\3\363\3\346\3\331\3\314\3\277\3\262\3\245\3\230\3\213\3~\3q\3d\3W\3J\3=\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175712 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175713 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175714 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175715 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175716 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175717 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175718 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175719 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 23112, SEEK_SET) = 23112
+175720 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\n\0\0\0\1\3\316\0\3\316\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175721 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 22064, SEEK_SET) = 22064
+175722 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\r\0\0\0\1\1\35\0\1\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+175723 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175724 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175725 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175726 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+175728 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+175732 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+175735 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+175741 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175742 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175743 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+175747 , 55928 , 55928 , zeitgeist-daemo , brk(0x150c000) = 0x150c000
+175748 , 55928 , 55928 , zeitgeist-daemo , brk(0x150b000) = 0x150b000
+175749 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe90f7ff000
+175750 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe90f7ff000, 4096, PROT_NONE) = 0
+175751 , 55928 , 55928 , zeitgeist-daemo , clone(child_stack=0x7fe90fffeef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fe90ffff9d0, tls=0x7fe90ffff700, child_tidptr=0x7fe90ffff9d0) = 55946
+175752 , 55928 , 55928 , zeitgeist-daemo , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe90effe000
+175753 , 55928 , 55928 , zeitgeist-daemo , mprotect(0x7fe90effe000, 4096, PROT_NONE) = 0
+175754 , 55928 , 55928 , zeitgeist-daemo , clone(child_stack=0x7fe90f7fdef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fe90f7fe9d0, tls=0x7fe90f7fe700, child_tidptr=0x7fe90f7fe9d0) = 55947
+175755 , 55928 , 55928 , zeitgeist-daemo , open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 10</usr/share/zoneinfo/posixrules>
+175756 , 55928 , 55928 , zeitgeist-daemo , fstat(10</usr/share/zoneinfo/posixrules>, {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+175757 , 55928 , 55928 , zeitgeist-daemo , fstat(10</usr/share/zoneinfo/posixrules>, {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2017/11/25-09:34:42.180713156, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+175758 , 55928 , 55928 , zeitgeist-daemo , read(10</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\354\0\0\0\5\0\0\0\24\200\0\0\0\236\246\36p\237\272\353`\240\206\0p\241\232\315`\242e\342p\243\203\351\340\244j\256p\2455\247`\246S\312\360\247\25\211`\2503\254\360\250\376\245\340\252\23\216\360\252\336\207\340\253\363p\360\254\276i\340\255\323R\360\256\236K\340\257\2634\360\260~-\340\261\234Qp\262gJ`\263|3p\264G,`\265\\\25p\266'\16`\267;\367p\270\6\360`\271\33\331p\271\346\322`\273\4\365\360\273\306\264`\274\344\327\360\275\257\320\340\276\304\271\360\277\217\262\340\300\244\233\360\301o\224\340"..., 4096) = 3545
+175759 , 55928 , 55928 , zeitgeist-daemo , lseek(10</usr/share/zoneinfo/posixrules>, -2261, SEEK_CUR) = 1284
+175760 , 55928 , 55928 , zeitgeist-daemo , read(10</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\355\0\0\0\5\0\0\0\24\370\0\0\0\0\0\0\0\377\377\377\377^\3\360\220\377\377\377\377\236\246\36p\377\377\377\377\237\272\353`\377\377\377\377\240\206\0p\377\377\377\377\241\232\315`\377\377\377\377\242e\342p\377\377\377\377\243\203\351\340\377\377\377\377\244j\256p\377\377\377\377\2455\247`\377\377\377\377\246S\312\360\377\377\377\377\247\25\211`\377\377\377\377\2503\254\360\377\377\377\377\250\376\245\340\377\377\377\377\252\23\216\360\377\377\377\377\252\336\207\340\377\377\377\377\253\363p\360\377\377\377\377\254\276i\340\377\377\377\377\255\323R\360\377\377\377\377"..., 4096) = 2261
+175761 , 55928 , 55928 , zeitgeist-daemo , close(10</usr/share/zoneinfo/posixrules>) = 0
+175762 , 55928 , 55928 , zeitgeist-daemo , fstat(1<UNIX:[514705->514709]>, {st_dev=makedev(0, 8), st_ino=514705, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+175763 , 55928 , 55928 , zeitgeist-daemo , access("/home/elwin/.local/share/zeitgeist/extensions", F_OK) = -1 ENOENT (No such file or directory)
+175764 , 55928 , 55928 , zeitgeist-daemo , stat("/home/elwin/.local/share/zeitgeist/extensions", 0x7ffcfedad000) = -1 ENOENT (No such file or directory)
+175765 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+175766 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+175768 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+175771 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+175774 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+175780 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+175781 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+175782 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+175783 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+175871 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+175872 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 24987) = 1 ([{fd=3, revents=POLLIN}])
+175902 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+175903 , 55928 , 55928 , zeitgeist-daemo , pipe2([11<pipe:[517358]>, 12<pipe:[517358]>], 0) = 0
+175904 , 55928 , 55928 , zeitgeist-daemo , pipe2([13<pipe:[517361]>, 14<pipe:[517361]>], 0) = 0
+175905 , 55928 , 55928 , zeitgeist-daemo , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe917c14ad0) = 55948
+175906 , 55928 , 55928 , zeitgeist-daemo , close(12<pipe:[517358]>) = 0
+175907 , 55928 , 55928 , zeitgeist-daemo , close(14<pipe:[517361]>) = 0
+175908 , 55928 , 55928 , zeitgeist-daemo , wait4(55948, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 55948
+176016 , 55928 , 55928 , zeitgeist-daemo , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=55948, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+176017 , 55928 , 55928 , zeitgeist-daemo , read(11<pipe:[517358]>, "", 8) = 0
+176116 , 55928 , 55928 , zeitgeist-daemo , read(13<pipe:[517361]>, "\215\332\0\0", 4) = 4
+176188 , 55928 , 55928 , zeitgeist-daemo , read(13<pipe:[517361]>, "", 0) = 0
+176191 , 55928 , 55928 , zeitgeist-daemo , close(11<pipe:[517358]>) = 0
+176192 , 55928 , 55928 , zeitgeist-daemo , close(13<pipe:[517361]>) = 0
+176193 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+176194 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+176195 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176197 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176201 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+176204 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176210 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176211 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176213 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176216 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176219 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176238 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176242 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176250 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176256 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176275 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176278 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176283 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176287 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176304 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176306 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176310 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176313 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176331 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+176332 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+176333 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176334 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176335 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe916fda428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176337 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176341 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176349 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176355 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176396 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176400 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176408 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176413 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176447 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 11<anon_inode:[eventfd]>
+176449 , 55928 , 55928 , zeitgeist-daemo , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176455 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176462 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176470 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176476 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176497 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=11, revents=POLLIN}])
+176498 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176500 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176504 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176507 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176525 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=11, revents=POLLIN}])
+176526 , 55928 , 55928 , zeitgeist-daemo , read(11<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+176527 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176529 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176533 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176536 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176555 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=11, revents=POLLIN}])
+176556 , 55928 , 55928 , zeitgeist-daemo , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+176557 , 55928 , 55928 , zeitgeist-daemo , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176558 , 55928 , 55928 , zeitgeist-daemo , futex(0x14f48f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176559 , 55928 , 55928 , zeitgeist-daemo , close(11<anon_inode:[eventfd]>) = 0
+176560 , 55928 , 55928 , zeitgeist-daemo , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 11<anon_inode:[eventfd]>
+176561 , 55928 , 55928 , zeitgeist-daemo , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176562 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176564 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176568 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176571 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176581 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=11, revents=POLLIN}])
+176583 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 24998) = 1 ([{fd=11, revents=POLLIN}])
+176585 , 55928 , 55928 , zeitgeist-daemo , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+176587 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=11<anon_inode:[eventfd]>, events=POLLIN}], 1, 24997) = 1 ([{fd=11, revents=POLLIN}])
+176817 , 55928 , 55928 , zeitgeist-daemo , read(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+176818 , 55928 , 55928 , zeitgeist-daemo , write(11<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176819 , 55928 , 55928 , zeitgeist-daemo , futex(0x14f48f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+176820 , 55928 , 55928 , zeitgeist-daemo , close(11<anon_inode:[eventfd]>) = 0
+176821 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+176822 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+176823 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 21016, SEEK_SET) = 21016
+176824 , 55928 , 55928 , zeitgeist-daemo , read(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+176825 , 55928 , 55928 , zeitgeist-daemo , lseek(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, 18432, SEEK_SET) = 18432
+176826 , 55928 , 55928 , zeitgeist-daemo , read(7</home/elwin/.local/share/zeitgeist/activity.sqlite>, "\n\0\0\0\2\3\355\0\3\371\3\355\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+176827 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+176828 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+176829 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+176830 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+176844 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 24136, SEEK_SET) = 24136
+176845 , 55928 , 55928 , zeitgeist-daemo , write(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\0\0\0\22\0\0\0\\\364\t\33%\23z\t\273\273\36\275s\3\27\2\223", 24) = 24
+176846 , 55928 , 55928 , zeitgeist-daemo , lseek(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, 24160, SEEK_SET) = 24160
+176847 , 55928 , 55928 , zeitgeist-daemo , write(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>, "\r\0\0\0\2\3\320\0\3\337\3\320\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+176848 , 55928 , 55928 , zeitgeist-daemo , fdatasync(8</home/elwin/.local/share/zeitgeist/activity.sqlite-wal>) = 0
+176856 , 55928 , 55928 , zeitgeist-daemo , open("/home/elwin/.local/share/zeitgeist", O_RDONLY|O_CLOEXEC) = 11</home/elwin/.local/share/zeitgeist>
+176857 , 55928 , 55928 , zeitgeist-daemo , fdatasync(11</home/elwin/.local/share/zeitgeist>) = 0
+176862 , 55928 , 55928 , zeitgeist-daemo , close(11</home/elwin/.local/share/zeitgeist>) = 0
+176863 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=120, l_len=1}) = 0
+176864 , 55928 , 55928 , zeitgeist-daemo , fcntl(9</home/elwin/.local/share/zeitgeist/activity.sqlite-shm>, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=124, l_len=1}) = 0
+176865 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176867 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176871 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+176874 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176880 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176882 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176885 , 55928 , 55928 , zeitgeist-daemo , futex(0x7fe904001660, FUTEX_WAKE_PRIVATE, 1) = 1
+176888 , 55928 , 55928 , zeitgeist-daemo , futex(0x14941d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176906 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+176907 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+176908 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+176910 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+176914 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+176917 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+176931 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 300426) = 1 ([{fd=3, revents=POLLIN}])
+177870 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+177871 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 300313) = 1 ([{fd=3, revents=POLLIN}])
+178486 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+178489 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+178490 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAKE_PRIVATE, 1) = 1
+178493 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+178499 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 0
+178502 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+178504 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+178509 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 300228) = 1 ([{fd=3, revents=POLLIN}])
+178625 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+178630 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+178633 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAKE_PRIVATE, 1) = 1
+178637 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+178644 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 0
+178647 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+178651 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, 0x7ffcfedad060, 16) = -1 EAGAIN (Resource temporarily unavailable)
+178654 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+178655 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+178659 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 300201) = 1 ([{fd=3, revents=POLLIN}])
+181949 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+181951 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+181955 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+181958 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+181964 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+181965 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+181966 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+181968 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+181971 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+181974 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+181980 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299472) = 1 ([{fd=3, revents=POLLIN}])
+182058 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+182059 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182061 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182065 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182068 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182074 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+182075 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, 0x7ffcfedad060, 16) = -1 EAGAIN (Resource temporarily unavailable)
+182076 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182078 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182081 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182084 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182090 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299456) = 1 ([{fd=3, revents=POLLIN}])
+182218 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182220 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182224 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182227 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182233 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+182234 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+182235 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182237 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182240 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182243 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182249 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299435) = 1 ([{fd=3, revents=POLLIN}])
+182343 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+182344 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182346 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182350 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182353 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182359 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+182360 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, 0x7ffcfedad060, 16) = -1 EAGAIN (Resource temporarily unavailable)
+182361 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182363 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182366 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182369 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182375 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299419) = 1 ([{fd=3, revents=POLLIN}])
+182472 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182474 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182478 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182481 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182487 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=3, revents=POLLIN}])
+182488 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+182489 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+182491 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+182494 , 55928 , 55928 , zeitgeist-daemo , futex(0x14a0ed0, FUTEX_WAKE_PRIVATE, 1) = 1
+182497 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 1
+182503 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299400) = 1 ([{fd=3, revents=POLLIN}])
+183190 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+183196 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+183198 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAKE_PRIVATE, 1) = 0
+183201 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299294) = 1 ([{fd=3, revents=POLLIN}])
+183463 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+183467 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+183469 , 55928 , 55928 , zeitgeist-daemo , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+183471 , 55928 , 55928 , zeitgeist-daemo , futex(0x149eff0, FUTEX_WAKE_PRIVATE, 1) = 1
+183474 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299252) = 1 ([{fd=3, revents=POLLIN}])
+183894 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+183895 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 299193) = 1 ([{fd=3, revents=POLLIN}])
+340768 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+340770 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 262921) = 1 ([{fd=3, revents=POLLIN}])
+341445 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+341446 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 262719) = 1 ([{fd=3, revents=POLLIN}])
+362958 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+362963 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+362964 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAKE_PRIVATE, 1) = 1
+362967 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+362970 , 55928 , 55928 , zeitgeist-daemo , futex(0x14940d8, FUTEX_WAKE_PRIVATE, 1) = 0
+362973 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 201713) = 1 ([{fd=3, revents=POLLIN}])
+364170 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+364174 , 55928 , 55928 , zeitgeist-daemo , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+364177 , 55928 , 55928 , zeitgeist-daemo , futex(0x1493e00, FUTEX_WAKE_PRIVATE, 1) = 0
+364179 , 55928 , 55928 , zeitgeist-daemo , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, 201569
