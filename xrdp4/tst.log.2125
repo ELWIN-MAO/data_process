@@ -1,0 +1,804 @@
+14054 , 2125 , 2125 , dbus-daemon , set_robust_list(0x7fc20526fba0, 24) = 0
+14057 , 2125 , 2125 , dbus-daemon , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc203e754b0}, {SIG_DFL, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc203e754b0}, 8) = 0
+14059 , 2125 , 2125 , dbus-daemon , close(12<UNIX:[42788->42787]>) = 0
+14061 , 2125 , 2125 , dbus-daemon , dup2(13<UNIX:[42789]>, 1<UNIX:[42383->42384]>) = 1<UNIX:[42789]>
+14064 , 2125 , 2125 , dbus-daemon , dup2(14<UNIX:[42792]>, 2<UNIX:[43750->42513]>) = 2<UNIX:[42792]>
+14066 , 2125 , 2125 , dbus-daemon , close(13<UNIX:[42789]>) = 0
+14067 , 2125 , 2125 , dbus-daemon , close(14<UNIX:[42792]>) = 0
+14070 , 2125 , 2125 , dbus-daemon , setrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+14072 , 2125 , 2125 , dbus-daemon , execve("/usr/lib/at-spi2-core/at-spi2-registryd", ["/usr/lib/at-spi2-core/at-spi2-registryd", "--use-gnome-session"], ["SHELL=/bin/bash", "UID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-RC8a6Vdy3F,guid=36e92065260177d9c684d4445ae96e67", "QT_ACCESSIBILITY=1", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "GTK_MODULES=gail:atk-bridge", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "XDG_SESSION_ID=c2", "IM_CONFIG_PHASE=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "SSH_AGENT_PID=2045", "USER=elwin", "GTK2_MODULES=overlay-scrollbar", "DBUS_STARTER_BUS_TYPE=accessibility", "PWD=/home/elwin", "LANG=en_US.UTF-8", "HOME=/home/elwin"]) = 0
+14078 , 2125 , 2125 , at-spi2-registr , brk(NULL) = 0x17d8000
+14081 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14083 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+14086 , 2125 , 2125 , at-spi2-registr , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+14089 , 2125 , 2125 , at-spi2-registr , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+14091 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f74331cf000
+14093 , 2125 , 2125 , at-spi2-registr , close(3</etc/ld.so.cache>) = 0
+14095 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14098 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libatspi.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>
+14099 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\336\0\0\0\0\0\0@\0\0\0\0\0\0\0(\342\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\262\2\0\0\0\0\0\354\262\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\264\2\0\0\0\0\0H\264\"\0\0\0\0\0H\264\"\0\0\0\0\0\274,\0\0\0\0\0\0P/\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\325\2\0\0\0\0\0\350\325\"\0\0\0\0\0"..., 832) = 832
+14102 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, {st_dev=makedev(8, 1), st_ino=4465341, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=376, st_size=190632, st_atime=2018/05/01-11:56:20.382054243, st_mtime=2016/02/24-22:18:26, st_ctime=2016/11/03-10:38:38.955999888}) = 0
+14104 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331ce000
+14106 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2286488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, 0) = 0x7f7432d9d000
+14109 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432dc9000, 2093056, PROT_NONE) = 0
+14111 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7432fc8000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, 0x2b000) = 0x7f7432fc8000
+14113 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>) = 0
+14115 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14117 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>
+14119 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\314\373\27\0\0\0\0\0\314\373\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+14121 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456890, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+14123 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0) = 0x7f7432a15000
+14125 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432b95000, 2097152, PROT_NONE) = 0
+14127 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7432d95000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0x180000) = 0x7f7432d95000
+14129 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7432d9b000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7432d9b000
+14131 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>) = 0
+14134 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14136 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>
+14138 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+14140 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456887, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+14142 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0) = 0x7f74327c2000
+14144 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432814000, 2093056, PROT_NONE) = 0
+14146 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7432a13000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0x51000) = 0x7f7432a13000
+14148 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>) = 0
+14151 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14153 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>
+14155 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\250\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\340\20\0\0\0\0\0D\340\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+14157 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=5008430, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:18, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+14159 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331cd000
+14161 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0) = 0x7f74324b1000
+14162 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74325c0000, 2093056, PROT_NONE) = 0
+14165 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74327bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0x10e000) = 0x7f74327bf000
+14167 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74327c1000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f74327c1000
+14169 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>) = 0
+14171 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14173 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>
+14176 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\261\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\231\4\0\0\0\0\0\24\231\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\244\4\0\0\0\0\0H\244$\0\0\0\0\0H\244$\0\0\0\0\0T\f\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10\252\4\0\0\0\0\0\10\252$\0\0\0\0\0"..., 832) = 832
+14178 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=608, st_size=309392, st_atime=2018/05/01-11:56:20.382054243, st_mtime=2017/01/12-13:13:51, st_ctime=2017/12/25-23:22:58.267678856}) = 0
+14180 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0) = 0x7f7432265000
+14182 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74322af000, 2097152, PROT_NONE) = 0
+14185 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74324af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0x4a000) = 0x7f74324af000
+14187 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>) = 0
+14190 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14192 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+14194 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+14197 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2018/05/01-11:56:20.266057803, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+14199 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f7431f2b000
+14202 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432060000, 2097152, PROT_NONE) = 0
+14203 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7432260000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f7432260000
+14206 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+14209 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14212 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libXtst.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>
+14214 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\24\0\0\0\0\0\0@\0\0\0\0\0\0\0\340R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344I\0\0\0\0\0\0\344I\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310M\0\0\0\0\0\0\310M \0\0\0\0\0\310M \0\0\0\0\0\30\4\0\0\0\0\0\0p\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340M\0\0\0\0\0\0\340M \0\0\0\0\0"..., 832) = 832
+14216 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, {st_dev=makedev(8, 1), st_ino=4465268, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22880, st_atime=2018/05/02-02:17:57.633189691, st_mtime=2013/08/16-03:48:39, st_ctime=2016/11/03-10:38:38.811999888}) = 0
+14218 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331cc000
+14220 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2118200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, 0) = 0x7f7431d25000
+14223 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431d2a000, 2093056, PROT_NONE) = 0
+14224 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431f29000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, 0x4000) = 0x7f7431f29000
+14227 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>) = 0
+14230 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14232 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+14234 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+14236 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002062, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:34, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+14238 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f7431b08000
+14240 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431b20000, 2093056, PROT_NONE) = 0
+14242 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431d1f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f7431d1f000
+14244 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431d21000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7431d21000
+14246 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+14248 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14250 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+14252 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+14254 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+14256 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f743173e000
+14260 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74318fe000, 2097152, PROT_NONE) = 0
+14262 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431afe000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f7431afe000
+14265 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431b04000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7431b04000
+14267 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+14269 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14271 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>
+14273 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+14275 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456842, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+14277 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331cb000
+14279 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0) = 0x7f743153a000
+14281 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743153d000, 2093056, PROT_NONE) = 0
+14283 , 2125 , 2125 , at-spi2-registr , mmap(0x7f743173c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0x2000) = 0x7f743173c000
+14285 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>) = 0
+14287 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14289 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+14291 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+14293 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2018/05/01-11:43:26.553186931, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+14295 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f7431320000
+14297 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431339000, 2093056, PROT_NONE) = 0
+14300 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7431538000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f7431538000
+14302 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+14304 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14306 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+14308 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+14310 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+14312 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f74310fe000
+14314 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743111d000, 2093056, PROT_NONE) = 0
+14316 , 2125 , 2125 , at-spi2-registr , mmap(0x7f743131c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f743131c000
+14318 , 2125 , 2125 , at-spi2-registr , mmap(0x7f743131e000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f743131e000
+14320 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+14322 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14324 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+14326 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+14328 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002067, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+14330 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331ca000
+14332 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f7430ee3000
+14334 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430efa000, 2097152, PROT_NONE) = 0
+14337 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74310fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f74310fa000
+14339 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74310fc000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f74310fc000
+14341 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+14343 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14345 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+14347 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+14349 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+14351 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f7430cdb000
+14354 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430ce2000, 2093056, PROT_NONE) = 0
+14357 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430ee1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f7430ee1000
+14360 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+14363 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14365 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+14367 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+14369 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+14371 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f7430a6b000
+14373 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430ad9000, 2097152, PROT_NONE) = 0
+14376 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430cd9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f7430cd9000
+14378 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+14380 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14382 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+14384 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+14385 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980938, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2018/02/01-09:31:23, st_ctime=2018/02/06-03:28:03.228028294}) = 0
+14387 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74331c9000
+14389 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7f7433144000
+14391 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74331c4000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7f74331c4000
+14394 , 2125 , 2125 , at-spi2-registr , mmap(0x7f74331c8000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f74331c8000
+14396 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+14399 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14401 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+14403 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+14405 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2018/05/01-11:56:20.378054365, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+14407 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f7430849000
+14409 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743086a000, 2093056, PROT_NONE) = 0
+14411 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430a69000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f7430a69000
+14414 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+14416 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14418 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+14421 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+14423 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+14425 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f7430645000
+14428 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430648000, 2093056, PROT_NONE) = 0
+14430 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430847000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f7430847000
+14433 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+14435 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14438 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>
+14440 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2205\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\30\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\6\1\0\0\0\0\0\334\6\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\r\1\0\0\0\0\0x\r!\0\0\0\0\0x\r!\0\0\0\0\0`\n\0\0\0\0\0\0 \r\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\r\1\0\0\0\0\0\270\r!\0\0\0\0\0"..., 832) = 832
+14442 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_dev=makedev(8, 1), st_ino=4465242, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=144, st_size=73640, st_atime=2018/05/01-11:56:20.378054365, st_mtime=2014/10/25-03:10:22, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+14444 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7433143000
+14447 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2169496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7f7430433000
+14449 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430444000, 2093056, PROT_NONE) = 0
+14451 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430643000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7f7430643000
+14454 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+14457 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14460 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/librt-2.23.so>
+14462 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+14464 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002081, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+14466 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7f743022b000
+14468 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430232000, 2093056, PROT_NONE) = 0
+14471 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430431000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7f7430431000
+14474 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+14476 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14478 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+14480 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+14482 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+14484 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7433142000
+14487 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f7430009000
+14489 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743002a000, 2093056, PROT_NONE) = 0
+14491 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430229000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f7430229000
+14494 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+14497 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14499 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+14501 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+14503 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+14505 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f742fd28000
+14507 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742fe00000, 2093056, PROT_NONE) = 0
+14509 , 2125 , 2125 , at-spi2-registr , mmap(0x7f742ffff000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f742ffff000
+14512 , 2125 , 2125 , at-spi2-registr , mmap(0x7f7430008000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7430008000
+14514 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+14516 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14518 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+14520 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+14522 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2018/05/01-11:56:20.426052892, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+14524 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f742fb24000
+14526 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742fb26000, 2097152, PROT_NONE) = 0
+14528 , 2125 , 2125 , at-spi2-registr , mmap(0x7f742fd26000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f742fd26000
+14531 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+14534 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14536 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+14538 , 2125 , 2125 , at-spi2-registr , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+14539 , 2125 , 2125 , at-spi2-registr , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2018/05/01-11:56:20.434052646, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+14541 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7433141000
+14543 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f742f91e000
+14545 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742f923000, 2093056, PROT_NONE) = 0
+14547 , 2125 , 2125 , at-spi2-registr , mmap(0x7f742fb22000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f742fb22000
+14549 , 2125 , 2125 , at-spi2-registr , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+14551 , 2125 , 2125 , at-spi2-registr , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+14553 , 2125 , 2125 , at-spi2-registr , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+14555 , 2125 , 2125 , at-spi2-registr , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+14557 , 2125 , 2125 , at-spi2-registr , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+14559 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f742f70a000
+14562 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742f71c000, 2097152, PROT_NONE) = 0
+14563 , 2125 , 2125 , at-spi2-registr , mmap(0x7f742f91c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f742f91c000
+14565 , 2125 , 2125 , at-spi2-registr , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+14568 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7433140000
+14570 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f743313f000
+14573 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f743313d000
+14576 , 2125 , 2125 , at-spi2-registr , arch_prctl(ARCH_SET_FS, 0x7f743313d880) = 0
+14578 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431afe000, 16384, PROT_READ) = 0
+14580 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742f91c000, 4096, PROT_READ) = 0
+14583 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742fb22000, 4096, PROT_READ) = 0
+14585 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742fd26000, 4096, PROT_READ) = 0
+14589 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742ffff000, 4096, PROT_READ) = 0
+14593 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430847000, 4096, PROT_READ) = 0
+14595 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430229000, 4096, PROT_READ) = 0
+14599 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431d1f000, 4096, PROT_READ) = 0
+14601 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430431000, 4096, PROT_READ) = 0
+14603 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430a69000, 4096, PROT_READ) = 0
+14605 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432260000, 4096, PROT_READ) = 0
+14608 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430643000, 4096, PROT_READ) = 0
+14611 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430cd9000, 4096, PROT_READ) = 0
+14614 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743131c000, 4096, PROT_READ) = 0
+14619 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74331c4000, 12288, PROT_READ) = 0
+14622 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7430ee1000, 4096, PROT_READ) = 0
+14626 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74310fa000, 4096, PROT_READ) = 0
+14630 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431538000, 4096, PROT_READ) = 0
+14632 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74327bf000, 4096, PROT_READ) = 0
+14636 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f743173c000, 4096, PROT_READ) = 0
+14638 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7431f29000, 4096, PROT_READ) = 0
+14641 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74324af000, 4096, PROT_READ) = 0
+14644 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432a13000, 4096, PROT_READ) = 0
+14647 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432d95000, 16384, PROT_READ) = 0
+14650 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f7432fc8000, 12288, PROT_READ) = 0
+14653 , 2125 , 2125 , at-spi2-registr , mprotect(0x613000, 4096, PROT_READ) = 0
+14655 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f74331f1000, 4096, PROT_READ) = 0
+14657 , 2125 , 2125 , at-spi2-registr , munmap(0x7f74331cf000, 136504) = 0
+14659 , 2125 , 2125 , at-spi2-registr , set_tid_address(0x7f743313db50) = 2125
+14661 , 2125 , 2125 , at-spi2-registr , set_robust_list(0x7f743313db60, 24) = 0
+14663 , 2125 , 2125 , at-spi2-registr , rt_sigaction(SIGRTMIN, {0x7f7431b0db50, [], SA_RESTORER|SA_SIGINFO, 0x7f7431b19390}, NULL, 8) = 0
+14667 , 2125 , 2125 , at-spi2-registr , rt_sigaction(SIGRT_1, {0x7f7431b0dbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7431b19390}, NULL, 8) = 0
+14670 , 2125 , 2125 , at-spi2-registr , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+14671 , 2125 , 2125 , at-spi2-registr , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+14676 , 2125 , 2125 , at-spi2-registr , brk(NULL) = 0x17d8000
+14678 , 2125 , 2125 , at-spi2-registr , brk(0x17f9000) = 0x17f9000
+14681 , 2125 , 2125 , at-spi2-registr , statfs("/sys/fs/selinux", 0x7ffea5015d70) = -1 ENOENT (No such file or directory)
+14684 , 2125 , 2125 , at-spi2-registr , statfs("/selinux", 0x7ffea5015d70) = -1 ENOENT (No such file or directory)
+14687 , 2125 , 2125 , at-spi2-registr , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+14691 , 2125 , 2125 , at-spi2-registr , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.112885290, st_mtime=2018/05/02-03:53:12.112885290, st_ctime=2018/05/02-03:53:12.112885290}) = 0
+14693 , 2125 , 2125 , at-spi2-registr , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+14695 , 2125 , 2125 , at-spi2-registr , read(3</proc/filesystems>, "", 1024) = 0
+14697 , 2125 , 2125 , at-spi2-registr , close(3</proc/filesystems>) = 0
+14702 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14706 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+14709 , 2125 , 2125 , at-spi2-registr , clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+14711 , 2125 , 2125 , at-spi2-registr , getresuid([1000], [1000], [1000]) = 0
+14713 , 2125 , 2125 , at-spi2-registr , getresgid([1000], [1000], [1000]) = 0
+14717 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[42973]>
+14721 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[42973]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+14724 , 2125 , 2125 , at-spi2-registr , close(3<UNIX:[42973]>) = 0
+14726 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[42974]>
+14730 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[42974]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+14733 , 2125 , 2125 , at-spi2-registr , getpeername(3<UNIX:[42974]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, [21]) = 0
+14736 , 2125 , 2125 , at-spi2-registr , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+14738 , 2125 , 2125 , at-spi2-registr , access("/home/elwin/.Xauthority", R_OK) = 0
+14741 , 2125 , 2125 , at-spi2-registr , open("/home/elwin/.Xauthority", O_RDONLY) = 4</home/elwin/.Xauthority>
+14743 , 2125 , 2125 , at-spi2-registr , fstat(4</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886553, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=296, st_atime=2018/05/02-03:50:41.560269285, st_mtime=2018/05/02-03:45:53.955523518, st_ctime=2018/05/02-03:45:53.955523518}) = 0
+14745 , 2125 , 2125 , at-spi2-registr , read(4</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\20\2067Wo\353\354j\336P\331\267f\35\6*q\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 4096) = 296
+14748 , 2125 , 2125 , at-spi2-registr , read(4</home/elwin/.Xauthority>, "", 4096) = 0
+14750 , 2125 , 2125 , at-spi2-registr , close(4</home/elwin/.Xauthority>) = 0
+14754 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[42974]>, F_GETFL) = 0x2 (flags O_RDWR)
+14756 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[42974]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+14759 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[42974]>, F_SETFD, FD_CLOEXEC) = 0
+14761 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+14763 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974]>, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+14766 , 2125 , 2125 , at-spi2-registr , recvfrom(3<UNIX:[42974]>, 0x17e4da0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+14768 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15013 , 2125 , 2125 , at-spi2-registr , recvfrom(3<UNIX:[42974->42975]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+15016 , 2125 , 2125 , at-spi2-registr , recvfrom(3<UNIX:[42974->42975]>, "\340\355f\2\0\0\200\0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Project, Inc\1\1 \0\0\0\0\0\30  \0\0\0\0\0.\0\0\0!\0\0\0\377\377\377\0\0\0\0\0\0\0\2\0\200\0078\4\374\1\36\1\1\0\1\0$\0\0\0\0\0\30\2\1\0\0\0\0\0\0\0\30\0\10\0\0\0\0\0$\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0%\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0&\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0"..., 320, 0, NULL, NULL) = 320
+15019 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15021 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+15023 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15054 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\224\1\0\0\0\0\0\1\204\0\0\326J\222|\260\224\315\0\0\0\0\0\260\224\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15056 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15058 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"\204\0\1\0", 4}], 1) = 4
+15060 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15076 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\224\2\0\0\0\0\0\377\377\17\0\0\0\0\0P\rK\257\377\177\0\0\370\2\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15078 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015a60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15079 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15083 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"7\0\5\0\0\0\200\0.\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+15085 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15094 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\260\224\315\0\0\0\0\0*customization:\t-color\nj", 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+15096 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015aa0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15098 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15100 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"b\0\5\0\t\0\200\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+15102 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15116 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\224\5\0\0\0\0\0\0\0\0\0\326J\222|\1\224\2\0\0\0\0\0\260\224\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15118 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015970, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15121 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015970, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15124 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15127 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"\20\0\5\0\n\0\200\0AT_SPI_BUS\377\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+15129 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15142 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\224\6\0\0\0\0\0\277\0\0\0\0\0\0\0P\rK\257\377\177\0\0\370\2\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15145 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015b40, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15148 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015b40, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15150 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15152 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"\24\0\6\0.\0\0\0\277\0\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+15154 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15163 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\7\0\22\0\0\0\37\0\0\0\0\0\0\0H\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0unix:abstract=/tmp/dbus-RC8a6Vdy3F,guid=36e92065260177d9c684d4445ae96e67", 4096}], msg_controllen=0, msg_flags=0}, 0) = 104
+15166 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015ac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15169 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015ac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15170 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15172 , 2125 , 2125 , at-spi2-registr , writev(3<UNIX:[42974->42975]>, [{"<\0\2\0\0\0\200\0+\0\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+15174 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[42974->42975]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15183 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0\1\0\0\0\0\0\0\0P\rK\257\377\177\0\0\f\3\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15187 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015b40, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15188 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[42974->42975]>, 0x7ffea5015b40, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15192 , 2125 , 2125 , at-spi2-registr , shutdown(3<UNIX:[42974->42975]>, SHUT_RDWR) = 0
+15194 , 2125 , 2125 , at-spi2-registr , close(3<UNIX:[42974->42975]>) = 0
+15197 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[45074]>
+15199 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[45074]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-RC8a6Vdy3F"}, 23) = 0
+15202 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[45074]>, F_GETFL) = 0x2 (flags O_RDWR)
+15204 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[45074]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15207 , 2125 , 2125 , at-spi2-registr , geteuid() = 1000
+15210 , 2125 , 2125 , at-spi2-registr , getsockname(3<UNIX:[45074->45075]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+15212 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLOUT}], 1, 0) = 1 ([{fd=3, revents=POLLOUT}])
+15215 , 2125 , 2125 , at-spi2-registr , sendto(3<UNIX:[45074->45075]>, "\0", 1, MSG_NOSIGNAL, NULL, 0) = 1
+15217 , 2125 , 2125 , at-spi2-registr , sendto(3<UNIX:[45074->45075]>, "AUTH EXTERNAL 31303030\r\n", 24, MSG_NOSIGNAL, NULL, 0) = 24
+15220 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15260 , 2125 , 2125 , at-spi2-registr , read(3<UNIX:[45074->45075]>, "OK 36e92065260177d9c684d4445ae96e67\r\n", 2048) = 37
+15263 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15266 , 2125 , 2125 , at-spi2-registr , sendto(3<UNIX:[45074->45075]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+15268 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+15279 , 2125 , 2125 , at-spi2-registr , read(3<UNIX:[45074->45075]>, "AGREE_UNIX_FD\r\n", 2048) = 15
+15281 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15285 , 2125 , 2125 , at-spi2-registr , sendto(3<UNIX:[45074->45075]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+15287 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+15290 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\5\0\0\0Hello\0\0\0", 128}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 128
+15292 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+15328 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\t\0\0\0\1\0\0\0=\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\4\0\0\0:1.1\0l\4\1\1\t\0\0\0\2\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 258
+15331 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015a50, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15333 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15334 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 4<anon_inode:[eventfd]>
+15336 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15338 , 2125 , 2125 , at-spi2-registr , fstat(3<UNIX:[45074->45075]>, {st_dev=makedev(0, 8), st_ino=45074, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+15339 , 2125 , 2125 , at-spi2-registr , fcntl(3<UNIX:[45074->45075]>, F_GETFL) = 0x802 (flags O_RDWR|O_NONBLOCK)
+15341 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15343 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1 \0\0\0\2\0\0\0\200\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\v\0\0\0RequestName\0\0\0\0\0\10\1g\0\2su\0", 144}, {"\27\0\0\0org.a11y.atspi.Registry\0\4\0\0\0", 32}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 176
+15344 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+15359 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\34\0\0\0\3\0\0\0\215\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\f\0\0\0NameAcquired\0\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\27\0\0\0org.a11y.atspi.Registry\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 188
+15362 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15365 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 300
+15367 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15368 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15371 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015ad0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+15373 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+15379 , 2125 , 2125 , at-spi2-registr , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+15383 , 2125 , 2125 , at-spi2-registr , fstat(5</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_dev=makedev(8, 1), st_ino=4746645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26258, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:49:13, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+15385 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f74331ea000
+15388 , 2125 , 2125 , at-spi2-registr , close(5</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+15392 , 2125 , 2125 , at-spi2-registr , futex(0x7f7431b038c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15395 , 2125 , 2125 , at-spi2-registr , fstat(1<UNIX:[42789->42869]>, {st_dev=makedev(0, 8), st_ino=42789, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+15397 , 2125 , 2125 , at-spi2-registr , write(1<UNIX:[42789->42869]>, "SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry\n", 77) = 77
+15399 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15402 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\1\1O\0\0\0\3\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\6\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\10\0\0\0AddMatch\0\0\0\0\0\0\0\0\10\1g\0\1s\0\0", 144}, {"J\0\0\0type='signal', interface='org.freedesktop.DBus', member='NameOwnerChanged'\0", 79}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 223
+15406 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1@\0\0\0\4\0\0\0j\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\t\0\0\0Available\0\0\0\0\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0", 128}, {"\27\0\0\0org.a11y.atspi.Registry\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 64}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 192
+15409 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15411 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 5<UNIX:[44930]>
+15414 , 2125 , 2125 , at-spi2-registr , connect(5<UNIX:[44930]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+15416 , 2125 , 2125 , at-spi2-registr , close(5<UNIX:[44930]>) = 0
+15419 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 5<UNIX:[44931]>
+15421 , 2125 , 2125 , at-spi2-registr , connect(5<UNIX:[44931]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+15424 , 2125 , 2125 , at-spi2-registr , getpeername(5<UNIX:[44931]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, [21]) = 0
+15426 , 2125 , 2125 , at-spi2-registr , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+15428 , 2125 , 2125 , at-spi2-registr , access("/home/elwin/.Xauthority", R_OK) = 0
+15430 , 2125 , 2125 , at-spi2-registr , open("/home/elwin/.Xauthority", O_RDONLY) = 6</home/elwin/.Xauthority>
+15432 , 2125 , 2125 , at-spi2-registr , fstat(6</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886553, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=296, st_atime=2018/05/02-03:50:41.560269285, st_mtime=2018/05/02-03:45:53.955523518, st_ctime=2018/05/02-03:45:53.955523518}) = 0
+15434 , 2125 , 2125 , at-spi2-registr , read(6</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\20\2067Wo\353\354j\336P\331\267f\35\6*q\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 4096) = 296
+15437 , 2125 , 2125 , at-spi2-registr , read(6</home/elwin/.Xauthority>, "", 4096) = 0
+15439 , 2125 , 2125 , at-spi2-registr , close(6</home/elwin/.Xauthority>) = 0
+15441 , 2125 , 2125 , at-spi2-registr , fcntl(5<UNIX:[44931]>, F_GETFL) = 0x2 (flags O_RDWR)
+15443 , 2125 , 2125 , at-spi2-registr , fcntl(5<UNIX:[44931]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15446 , 2125 , 2125 , at-spi2-registr , fcntl(5<UNIX:[44931]>, F_SETFD, FD_CLOEXEC) = 0
+15448 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15450 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931]>, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+15451 , 2125 , 2125 , at-spi2-registr , recvfrom(5<UNIX:[44931]>, 0x17ed6a0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15454 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15516 , 2125 , 2125 , at-spi2-registr , recvfrom(5<UNIX:[44931->44932]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+15518 , 2125 , 2125 , at-spi2-registr , recvfrom(5<UNIX:[44931->44932]>, "\340\355f\2\0\0\240\0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Project, Inc\1\1 \0\0\0\0\0\30  \0\0\0\0\0.\0\0\0!\0\0\0\377\377\377\0\0\0\0\0\0\0\2\0\200\0078\4\374\1\36\1\1\0\1\0$\0\0\0\0\0\30\2\1\0\0\0\0\0\0\0\30\0\10\0\0\0\0\0$\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0%\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0&\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0"..., 320, 0, NULL, NULL) = 320
+15521 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15523 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+15525 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15565 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\224\1\0\0\0\0\0\1\204\0\0\326J\222|\340\256\315\0\0\0\0\0\340\256\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15567 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15569 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"\204\0\1\0", 4}], 1) = 4
+15571 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15611 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\377\377\17\0\0\0\0\0P\rK\257\377\177\0\0\204\3\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15613 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015710, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15616 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15618 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"7\0\5\0\0\0\240\0.\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+15620 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15679 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\340\256\315\0\0\0\0\0*customization:\t-color\nj", 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+15682 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015750, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15684 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15686 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"b\0\5\0\t\0\240\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+15688 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15739 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\5\0\0\0\0\0\0\0\0\0\326J\222|0\232\310\0\0\0\0\0\340\256\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15742 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015620, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15744 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015620, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15748 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15750 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+15752 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15754 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"b\0\6\0\17\0\240\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+15756 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15781 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\256\6\0\0\0\0\0\0\0\0\0\326J\222|0\232\310\0\0\0\0\0\340\256\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15783 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015780, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15787 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015780, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15789 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15791 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"b\0\4\0\5\0\240\0", 8}, {"XTEST", 5}, {"\0\0\0", 3}], 3) = 16
+15794 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15807 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\256\7\0\0\0\0\0\1\203\0\0\326J\222|0\232\310\0\0\0\0\0\340\256\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15809 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea50156f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15811 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea50156f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15814 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15815 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"b\0\10\0\27\0\240\0", 8}, {"Generic Event Extension", 23}, {"\0", 1}], 3) = 32
+15819 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15826 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\256\10\0\0\0\0\0\0\0\0\0\326J\222|0\232\310\0\0\0\0\0\340\256\315\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15828 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015650, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15830 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015650, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15833 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+15836 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"\203\0\2\0\2\0\2\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+15837 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+15845 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\t\0\0\0\0\0\2\0\315\0\0\0\0\0P\rK\257\377\177\0\0\230\3\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+15847 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15848 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+15852 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15855 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15858 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15860 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15864 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15866 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15868 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15870 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15872 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15874 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15876 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15877 , 2125 , 2125 , at-spi2-registr , brk(0x181a000) = 0x181a000
+15880 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15882 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15884 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15886 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15889 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15891 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15893 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15894 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15897 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15899 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15901 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15903 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15905 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15908 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15910 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15913 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15914 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15918 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15920 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15922 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15924 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15925 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15929 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15930 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15933 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15935 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15937 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15939 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15941 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15943 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15945 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15946 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15949 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15951 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15953 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15955 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15957 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15959 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15961 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15963 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15964 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15967 , 2125 , 2125 , at-spi2-registr , rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f74317734b0}, {SIG_IGN, [], 0}, 8) = 0
+15969 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15971 , 2125 , 2125 , at-spi2-registr , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 6<UNIX:[45002]>
+15973 , 2125 , 2125 , at-spi2-registr , fcntl(6<UNIX:[45002]>, F_GETFL) = 0x2 (flags O_RDWR)
+15975 , 2125 , 2125 , at-spi2-registr , fcntl(6<UNIX:[45002]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15978 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15980 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15981 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15983 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15986 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15988 , 2125 , 2125 , at-spi2-registr , connect(6<UNIX:[45002]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-hhUfBaGL1X"}, 23) = 0
+15990 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15992 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15994 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15996 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15999 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16001 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16004 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16006 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16008 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16010 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16012 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16015 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16016 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16020 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16021 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16025 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16027 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16029 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16031 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16034 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16036 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16039 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16040 , 2125 , 2125 , at-spi2-registr , geteuid() = 1000
+16042 , 2125 , 2125 , at-spi2-registr , getegid() = 1000
+16044 , 2125 , 2125 , at-spi2-registr , geteuid() = 1000
+16046 , 2125 , 2125 , at-spi2-registr , getegid() = 1000
+16048 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16050 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16054 , 2125 , 2125 , at-spi2-registr , sendmsg(6<UNIX:[45002->45003]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0", 1}], msg_controllen=32, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2125, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 1
+16056 , 2125 , 2125 , at-spi2-registr , sendto(6<UNIX:[45002->45003]>, "AUTH\r\n", 6, MSG_NOSIGNAL, NULL, 0) = 6
+16058 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, 0x1805b10, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+16060 , 2125 , 2125 , at-spi2-registr , poll([{fd=6<UNIX:[45002->45003]>, events=POLLIN}], 1, -1) = 1 ([{fd=6, revents=POLLIN}])
+16824 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, "REJECTED EXTERNAL DBUS_COOKIE_SHA1 ANONYMOUS\r\n", 4096, 0, NULL, NULL) = 46
+16825 , 2125 , 2125 , at-spi2-registr , sendto(6<UNIX:[45002->45003]>, "AUTH EXTERNAL 31303030\r\n", 24, MSG_NOSIGNAL, NULL, 0) = 24
+16826 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, 0x1805b10, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+16827 , 2125 , 2125 , at-spi2-registr , poll([{fd=6<UNIX:[45002->45003]>, events=POLLIN}], 1, -1) = 1 ([{fd=6, revents=POLLIN}])
+16836 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, "OK baad99489a33462a7a2f617b5ae96e65\r\n", 4096, 0, NULL, NULL) = 37
+16837 , 2125 , 2125 , at-spi2-registr , sendto(6<UNIX:[45002->45003]>, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+16838 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, 0x1805b10, 4096, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+16839 , 2125 , 2125 , at-spi2-registr , poll([{fd=6<UNIX:[45002->45003]>, events=POLLIN}], 1, -1) = 1 ([{fd=6, revents=POLLIN}])
+16848 , 2125 , 2125 , at-spi2-registr , recvfrom(6<UNIX:[45002->45003]>, "AGREE_UNIX_FD\r\n", 4096, 0, NULL, NULL) = 15
+16849 , 2125 , 2125 , at-spi2-registr , sendto(6<UNIX:[45002->45003]>, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+16850 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16851 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16852 , 2125 , 2125 , at-spi2-registr , rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+16853 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 7<anon_inode:[eventfd]>
+16854 , 2125 , 2125 , at-spi2-registr , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16855 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f742ef09000
+16856 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742ef09000, 4096, PROT_NONE) = 0
+16857 , 2125 , 2125 , at-spi2-registr , clone(child_stack=0x7f742f708e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f742f7099d0, tls=0x7f742f709700, child_tidptr=0x7f742f7099d0) = 2160
+16858 , 2125 , 2125 , at-spi2-registr , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+16859 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16860 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16861 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16862 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+16863 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16864 , 2125 , 2125 , at-spi2-registr , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f742e708000
+16865 , 2125 , 2125 , at-spi2-registr , mprotect(0x7f742e708000, 4096, PROT_NONE) = 0
+16866 , 2125 , 2125 , at-spi2-registr , clone(child_stack=0x7f742ef07e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f742ef089d0, tls=0x7f742ef08700, child_tidptr=0x7f742ef089d0) = 2161
+16867 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16868 , 2125 , 2125 , at-spi2-registr , futex(0x7f74327c1428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16869 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+16870 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16871 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+16872 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+16873 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+16874 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+16948 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+16949 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16950 , 2125 , 2125 , at-spi2-registr , futex(0x1808ed0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+16951 , 2125 , 2125 , at-spi2-registr , close(9<anon_inode:[eventfd]>) = 0
+16952 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16954 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+16958 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+16961 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+16967 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16969 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+16972 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+16975 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+16981 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16983 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+16987 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+16990 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+16996 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+16997 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+16998 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17000 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+17003 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+17006 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+17012 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+17013 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+17014 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17015 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+17183 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17184 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17186 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+17190 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+17193 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+17199 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 25000) = 1 ([{fd=9, revents=POLLIN}])
+17217 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17218 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17219 , 2125 , 2125 , at-spi2-registr , futex(0x1809c10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17220 , 2125 , 2125 , at-spi2-registr , close(9<anon_inode:[eventfd]>) = 0
+17221 , 2125 , 2125 , at-spi2-registr , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+17222 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17223 , 2125 , 2125 , at-spi2-registr , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17225 , 2125 , 2125 , at-spi2-registr , futex(0x18069f0, FUTEX_WAKE_PRIVATE, 1) = 1
+17229 , 2125 , 2125 , at-spi2-registr , futex(0x1805bb0, FUTEX_WAKE_PRIVATE, 1) = 1
+17232 , 2125 , 2125 , at-spi2-registr , futex(0x17fc058, FUTEX_WAKE_PRIVATE, 1) = 1
+17238 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 1000) = 1 ([{fd=9, revents=POLLIN}])
+17239 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 1000) = 1 ([{fd=9, revents=POLLIN}])
+17240 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17241 , 2125 , 2125 , at-spi2-registr , poll([{fd=9<anon_inode:[eventfd]>, events=POLLIN}], 1, 1000) = 1 ([{fd=9, revents=POLLIN}])
+17352 , 2125 , 2125 , at-spi2-registr , read(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+17353 , 2125 , 2125 , at-spi2-registr , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17354 , 2125 , 2125 , at-spi2-registr , futex(0x1809c10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17355 , 2125 , 2125 , at-spi2-registr , close(9<anon_inode:[eventfd]>) = 0
+17356 , 2125 , 2125 , at-spi2-registr , poll([{fd=5<UNIX:[44931->44932]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+17357 , 2125 , 2125 , at-spi2-registr , writev(5<UNIX:[44931->44932]>, [{"\203\3\2\0\1\0\2\0\2\0\4\0.\0\0\0\0\10\0\0\3\0B\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+17358 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17359 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17360 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 2 ([{fd=3, revents=POLLIN}, {fd=4, revents=POLLIN}])
+17361 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17362 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\35\0\0\0\5\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 189
+17363 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17364 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+17365 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17366 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17367 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17368 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+17369 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\n\0\0\0\0\0\0\0", 16) = 8
+17370 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17371 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17372 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 0 (Timeout)
+17373 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+17374 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1x\0\0\0\5\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0", 136}, {"\3\0\0\0add\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 120}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 256
+17375 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\6\0\0\0y\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0", 144}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\0\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 192
+17376 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\7\0\0\0\"\0\0\0\6\1s\0\4\0\0\0:1.0\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0", 56}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 104
+17377 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17378 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17379 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 0 (Timeout)
+17380 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\200\0\0\0\10\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0", 136}, {"\6\0\0\0remove\0\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\0\0\0\0\4\0\0\0:1.0\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 128}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 264
+17381 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0\t\0\0\0x\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0", 136}, {"\4\0\0\0:1.0\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 153
+17382 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17383 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17384 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+17394 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17395 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\3\1\0019\0\0\0\6\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\4\1s\0)\0\0\0org.freedesktop.DBus.Error.ServiceUnknown\0\0\0\0\0\0\0\5\1u\0\6\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0004\0\0\0The name :1.0 was not provided by any .service files\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 193
+17396 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17397 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+17398 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17399 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17400 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17401 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+17402 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17403 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17404 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=4, revents=POLLIN}])
+17405 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+17406 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17407 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17408 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+17416 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+17417 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17418 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\3\1\0019\0\0\0\7\0\0\0u\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\4\1s\0)\0\0\0org.freedesktop.DBus.Error.ServiceUnknown\0\0\0\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\1s\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0004\0\0\0The name :1.0 was not provided by any .service files\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 193
+17419 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17420 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+17421 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17422 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17423 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17424 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+17425 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17426 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17427 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=4, revents=POLLIN}])
+17428 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+17429 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17430 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+17431 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+18140 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+18142 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18144 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\35\0\0\0\10\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0:1.2\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 189
+18148 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18150 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+18151 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18153 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18157 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18159 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+18161 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18162 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18164 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=4, revents=POLLIN}])
+18166 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+18168 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18172 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18174 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+18182 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+18184 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18186 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\0010\0\0\0\5\0\0\0\225\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\25\0\0\0org.a11y.atspi.Socket\0\0\0\3\1s\0\5\0\0\0Embed\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 216
+18188 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18190 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+18192 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18194 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18196 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18197 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+18201 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1x\0\0\0\n\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0", 136}, {"\3\0\0\0add\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 120}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 256
+18203 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0010\0\0\0\v\0\0\0y\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\2\1s\0\37\0\0\0org.freedesktop.DBus.Properties\0\3\1s\0\3\0\0\0Set\0\0\0\0\0\10\1g\0\3ssv\0\0\0\0\0\0\0\0", 144}, {"\32\0\0\0org.a11y.atspi.Application\0\0\2\0\0\0Id\0\1i\0\0\0\1\0\0\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 192
+18205 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\0010\0\0\0\f\0\0\0\"\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\5\0\0\0\10\1g\0\4(so)\0\0\0\0\0\0\0", 56}, {"\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 48}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 104
+18207 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18208 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18211 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=4, revents=POLLIN}])
+18213 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+18216 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18218 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18220 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+18263 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+18265 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18269 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0%\0\0\0\6\1s\0\4\0\0\0:1.1\0\0\0\0\5\1u\0\v\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 56
+18271 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18272 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+18274 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18276 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18278 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18280 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 2 ([{fd=3, revents=POLLIN}, {fd=4, revents=POLLIN}])
+18282 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18283 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\1\0\1\0\0\0\0\7\0\0\0\225\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\6\1s\0\27\0\0\0org.a11y.atspi.Registry\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\23\0\0\0GetRegisteredEvents\0\0\0\0\0\7\1s\0\4\0\0\0:1.2\0\0\0\0l\1\0\1\0\0\0\0\10\0\0\0\265\0\0\0\1\1o\0.\0\0\0/org/a11"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 568
+18284 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18285 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18286 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18287 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+18288 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+18289 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18290 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18291 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+18292 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\10\0\0\0\0\0\0\0", 16) = 8
+18295 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\r\0\0\0#\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\7\0\0\0\10\1g\0\5a(ss)\0\0\0\0\0\0", 56}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 64
+18297 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18300 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18301 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 0 (Timeout)
+18303 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+18305 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18307 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18309 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 0 (Timeout)
+18311 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18313 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18315 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 0 (Timeout)
+18319 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\16\0\0\0002\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\10\0\0\0\10\1g\0\24a(souua(iisi)u(bbb))\0\0\0\0\0\0\0", 72}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 80
+18321 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\2\1\1\10\0\0\0\17\0\0\0$\0\0\0\6\1s\0\4\0\0\0:1.2\0\0\0\0\5\1u\0\t\0\0\0\10\1g\0\6a(sou)\0\0\0\0\0", 56}, {"\0\0\0\0\0\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 64
+18323 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18325 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+18327 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=5, revents=POLLIN}])
+23057 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\v\0.\0\0\0\300\0\0\0\376]\327\37\0-S\257\377\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23059 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015b00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23063 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015a10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23064 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015a10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23068 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23070 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23072 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+23588 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+23591 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1\35\0\0\0\t\0\0\0\211\0\0\0\1\1o\0\25\0\0\0/org/freedesktop/DBus\0\0\0\2\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\3\1s\0\20\0\0\0NameOwnerChanged\0\0\0\0\0\0\0\0\7\1s\0\24\0\0\0org.freedesktop.DBus\0\0\0\0\10\1g\0\3sss\0\0\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\4\0\0\0:1.2\0\0\0\0\0\0\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 189
+23593 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+23595 , 2125 , 2125 , at-spi2-registr , recvmsg(3<UNIX:[45074->45075]>, 0x7ffea5015b10, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+23597 , 2125 , 2125 , at-spi2-registr , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+23599 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23601 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23603 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, 0) = 1 ([{fd=4, revents=POLLIN}])
+23606 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\200\0\0\0\20\0\0\0v\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\33\0\0\0org.a11y.atspi.Event.Object\0\0\0\0\0\3\1s\0\17\0\0\0ChildrenChanged\0\10\1g\0\10siiv(so)\0\0\0", 136}, {"\6\0\0\0remove\0\0\0\0\0\0\0\0\0\0\4(so)\0\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0\4\0\0\0:1.1\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 128}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 264
+23608 , 2125 , 2125 , at-spi2-registr , sendmsg(3<UNIX:[45074->45075]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1\21\0\0\0\21\0\0\0x\0\0\0\1\1o\0\30\0\0\0/org/a11y/atspi/registry\0\0\0\0\0\0\0\0\2\1s\0\27\0\0\0org.a11y.atspi.Registry\0\3\1s\0\31\0\0\0EventListenerDeregistered\0\0\0\0\0\0\0\10\1g\0\2ss\0", 136}, {"\4\0\0\0:1.2\0\0\0\0\0\0\0\0\0", 17}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 153
+23610 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23612 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23615 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=4, revents=POLLIN}])
+23617 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+23619 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23621 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, 0x7ffea5015ae0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23624 , 2125 , 2125 , at-spi2-registr , poll([{fd=3<UNIX:[45074->45075]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[44931->44932]>, events=POLLIN}], 3, -1) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+23808 , 2125 , 2125 , at-spi2-registr , read(4<anon_inode:[eventfd]>, 0x7ffea5015c70, 16) = -1 EAGAIN (Resource temporarily unavailable)
+23810 , 2125 , 2125 , at-spi2-registr , recvmsg(5<UNIX:[44931->44932]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 4096}], msg_controllen=0, msg_flags=0}, 0) = 0
+23813 , 2125 , 2125 , at-spi2-registr , write(2<UNIX:[42792->42870]>, "XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server \":10.0\"\r\n", 80) = 80
+23814 , 2125 , 2125 , at-spi2-registr , write(2<UNIX:[42792->42870]>, "      after 11 requests (11 known processed) with 0 events remaining.\r\n", 71) = 71
+23818 , 2125 , 2125 , at-spi2-registr , exit_group(1) = ?
+23833 , 2125 , 2125 , at-spi2-registr , +++ exited with 1 +++

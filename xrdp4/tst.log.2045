@@ -1,0 +1,25 @@
+6663 , 2045 , 2045 , ssh-agent , setsid() = 2045
+6664 , 2045 , 2045 , ssh-agent , chdir("/") = 0
+6666 , 2045 , 2045 , ssh-agent , open("/dev/null", O_RDWR) = 9</dev/null>
+6667 , 2045 , 2045 , ssh-agent , dup2(9</dev/null>, 0</dev/null>) = 0</dev/null>
+6668 , 2045 , 2045 , ssh-agent , dup2(9</dev/null>, 1</home/elwin/.xsession-errors>) = 1</dev/null>
+6669 , 2045 , 2045 , ssh-agent , dup2(9</dev/null>, 2</home/elwin/.xsession-errors>) = 2</dev/null>
+6670 , 2045 , 2045 , ssh-agent , close(9</dev/null>) = 0
+6671 , 2045 , 2045 , ssh-agent , setrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=0}) = 0
+6672 , 2045 , 2045 , ssh-agent , fcntl(8<UNIX:[40535,"/tmp/ssh-qJuXNpSjpmGt/agent.1998"]>, F_GETFL) = 0x2 (flags O_RDWR)
+6673 , 2045 , 2045 , ssh-agent , fcntl(8<UNIX:[40535,"/tmp/ssh-qJuXNpSjpmGt/agent.1998"]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+6674 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+6676 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f9230a8e4b0}, NULL, 8) = 0
+6678 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+6680 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f9230a8e4b0}, NULL, 8) = 0
+6682 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+6684 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGHUP, {0x5608b7e8fef0, [], SA_RESTORER, 0x7f9230a8e4b0}, NULL, 8) = 0
+6686 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+6688 , 2045 , 2045 , ssh-agent , rt_sigaction(SIGTERM, {0x5608b7e8fef0, [], SA_RESTORER, 0x7f9230a8e4b0}, NULL, 8) = 0
+6690 , 2045 , 2045 , ssh-agent , clock_gettime(CLOCK_BOOTTIME, {429, 679490546}) = 0
+6692 , 2045 , 2045 , ssh-agent , select(9, [8<UNIX:[40535,"/tmp/ssh-qJuXNpSjpmGt/agent.1998"]>], [], NULL, {10, 0}) = 0 (Timeout)
+24043 , 2045 , 2045 , ssh-agent , getppid() = 1
+24044 , 2045 , 2045 , ssh-agent , unlink("/tmp/ssh-qJuXNpSjpmGt/agent.1998") = 0
+24045 , 2045 , 2045 , ssh-agent , rmdir("/tmp/ssh-qJuXNpSjpmGt") = 0
+24046 , 2045 , 2045 , ssh-agent , exit_group(2) = ?
+24047 , 2045 , 2045 , ssh-agent , +++ exited with 2 +++

@@ -1,0 +1,42 @@
+4900 , 2027 , 2027 , startwm.sh , close(8<pipe:[40429]>) = 0
+4901 , 2027 , 2027 , startwm.sh , dup2(9<pipe:[40429]>, 1<pipe:[40428]>) = 1<pipe:[40429]>
+4903 , 2027 , 2027 , startwm.sh , close(9<pipe:[40429]>) = 0
+4904 , 2027 , 2027 , startwm.sh , stat("/bin/readlink", {st_dev=makedev(8, 1), st_ino=4744861, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39632, st_atime=2018/05/01-23:02:05.528537726, st_mtime=2017/03/02-13:07:22, st_ctime=2018/01/24-23:47:00.749746831}) = 0
+4905 , 2027 , 2027 , startwm.sh , execve("/bin/readlink", ["readlink", "/etc/alternatives/x-session-manager"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4906 , 2027 , 2027 , readlink , brk(NULL) = 0xa3d000
+4907 , 2027 , 2027 , readlink , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4908 , 2027 , 2027 , readlink , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4909 , 2027 , 2027 , readlink , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+4910 , 2027 , 2027 , readlink , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+4911 , 2027 , 2027 , readlink , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f42c4504000
+4912 , 2027 , 2027 , readlink , close(8</etc/ld.so.cache>) = 0
+4913 , 2027 , 2027 , readlink , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4914 , 2027 , 2027 , readlink , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+4915 , 2027 , 2027 , readlink , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+4916 , 2027 , 2027 , readlink , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+4917 , 2027 , 2027 , readlink , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42c4503000
+4918 , 2027 , 2027 , readlink , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f42c3f37000
+4919 , 2027 , 2027 , readlink , mprotect(0x7f42c40f7000, 2097152, PROT_NONE) = 0
+4920 , 2027 , 2027 , readlink , mmap(0x7f42c42f7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f42c42f7000
+4921 , 2027 , 2027 , readlink , mmap(0x7f42c42fd000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42c42fd000
+4922 , 2027 , 2027 , readlink , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+4923 , 2027 , 2027 , readlink , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42c4502000
+4924 , 2027 , 2027 , readlink , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42c4501000
+4925 , 2027 , 2027 , readlink , arch_prctl(ARCH_SET_FS, 0x7f42c4502700) = 0
+4927 , 2027 , 2027 , readlink , mprotect(0x7f42c42f7000, 16384, PROT_READ) = 0
+4929 , 2027 , 2027 , readlink , mprotect(0x608000, 4096, PROT_READ) = 0
+4930 , 2027 , 2027 , readlink , mprotect(0x7f42c4526000, 4096, PROT_READ) = 0
+4932 , 2027 , 2027 , readlink , munmap(0x7f42c4504000, 136504) = 0
+4935 , 2027 , 2027 , readlink , brk(NULL) = 0xa3d000
+4937 , 2027 , 2027 , readlink , brk(0xa5e000) = 0xa5e000
+4939 , 2027 , 2027 , readlink , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+4941 , 2027 , 2027 , readlink , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+4943 , 2027 , 2027 , readlink , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f42c3c5f000
+4945 , 2027 , 2027 , readlink , close(8</usr/lib/locale/locale-archive>) = 0
+4948 , 2027 , 2027 , readlink , readlink("/etc/alternatives/x-session-manager", "/usr/bin/gnome-session", 64) = 22
+4950 , 2027 , 2027 , readlink , fstat(1<pipe:[40429]>, {st_dev=makedev(0, 10), st_ino=40429, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:08.752719153, st_mtime=2018/05/02-03:53:08.752719153, st_ctime=2018/05/02-03:53:08.752719153}) = 0
+4951 , 2027 , 2027 , readlink , write(1<pipe:[40429]>, "/usr/bin/gnome-session\n", 23) = 23
+4953 , 2027 , 2027 , readlink , close(1<pipe:[40429]>) = 0
+4955 , 2027 , 2027 , readlink , close(2</home/elwin/.xsession-errors>) = 0
+4956 , 2027 , 2027 , readlink , exit_group(0) = ?
+4958 , 2027 , 2027 , readlink , +++ exited with 0 +++

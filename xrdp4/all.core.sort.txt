@@ -1,0 +1,379 @@
+12 , 1453 , 1453 , xrdp , bind(8<UNIX:[38427]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30"}, 110) = 0
+13 , 1453 , 1453 , xrdp , clone(child_stack=0x7f87ba9ebff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f87ba9ec9d0, tls=0x7f87ba9ec700, child_tidptr=0x7f87ba9ec9d0) = 1933
+46 , 1933 , 1453 , xrdp , exit(0)       = ?
+64 , 1453 , 1453 , xrdp , bind(8<UNIX:[36558]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe"}, 110) = 0
+65 , 1453 , 1453 , xrdp , clone(child_stack=0x7f87ba9ebff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f87ba9ec9d0, tls=0x7f87ba9ec700, child_tidptr=0x7f87ba9ec9d0) = 1938
+154 , 1938 , 1453 , xrdp , bind(9<UNIX:[36605]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_wm_login_mode_event_00000004_375cd735"}, 110) = 0
+916 , 1938 , 1453 , xrdp , connect(10<TCP:[38691]>, {sa_family=AF_INET, sin_port=htons(3350), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+1087 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38741]>, {sa_family=AF_INET, sin_port=htons(5910), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1095 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38742]>, {sa_family=AF_INET, sin_port=htons(6010), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1103 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38743]>, {sa_family=AF_INET, sin_port=htons(6210), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1106 , 1455 , 1455 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6497ad69d0) = 1948
+1122 , 1943 , 1455 , xrdp-sesman , exit(0) = ?
+1187 , 1948 , 1948 , xrdp-sesman , connect(8<UNIX:[38745]>, {sa_family=AF_LOCAL, sun_path="/dev/log"}, 110) = 0
+1197 , 1948 , 1948 , xrdp-sesman , connect(9<UNIX:[39088]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 20) = -1 ENOENT (No such file or directory)
+1205 , 1948 , 1948 , xrdp-sesman , connect(9<UNIX:[39089]>, {sa_family=AF_LOCAL, sun_path="/var/run/dbus/system_bus_socket"}, 33) = 0
+1632 , 1938 , 1453 , xrdp , connect(11<TCP:[39431]>, {sa_family=AF_INET, sin_port=htons(5910), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 ECONNREFUSED (Connection refused)
+1849 , 1948 , 1948 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6497ad69d0) = 1998
+1852 , 1948 , 1948 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6497ad69d0) = 1999
+1910 , 1999 , 1999 , xrdp-sesman , execve("/bin/Xvnc", ["Xvnc", ":10", "-geometry", "1920x1080", "-depth", "24", "-rfbauth", "/home/elwin/.vnc/sesman_elwin_passwd", "-bs", "-ac", "-nolisten", "tcp", "-localhost", "-dpi", "96"], ["SHELL=/bin/bash", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "USER=elwin", "UID=1000", "HOME=/home/elwin", "DISPLAY=:10.0"]) = -1 ENOENT (No such file or directory)
+1911 , 1999 , 1999 , xrdp-sesman , execve("/usr/bin/Xvnc", ["Xvnc", ":10", "-geometry", "1920x1080", "-depth", "24", "-rfbauth", "/home/elwin/.vnc/sesman_elwin_passwd", "-bs", "-ac", "-nolisten", "tcp", "-localhost", "-dpi", "96"], ["SHELL=/bin/bash", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "USER=elwin", "UID=1000", "HOME=/home/elwin", "DISPLAY=:10.0"]) = 0
+1980 , 1999 , 1999 , Xvnc , write(2</dev/null>, "", 0) = 0
+2007 , 1999 , 1999 , Xvnc , bind(0<UNIX:[40227]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 20) = 0
+2017 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\nXvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21\nCopyright (C) 2002-2005 RealVNC Ltd.\nSee http://www.realvnc.com for information on VNC.\n", 142) = 142
+2018 , 1999 , 1999 , Xvnc , write(2</dev/null>, "Underlying X server release 40300000, The XFree86 Project, Inc\n\n", 64) = 64
+2027 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\nWed May  2 03:53:07 2018\n", 26) = 26
+2028 , 1999 , 1999 , Xvnc , write(2</dev/null>, " vncext:", 8) = 8
+2029 , 1999 , 1999 , Xvnc , write(2</dev/null>, "     ", 5) = 5
+2030 , 1999 , 1999 , Xvnc , write(2</dev/null>, " VNC", 4) = 4
+2031 , 1999 , 1999 , Xvnc , write(2</dev/null>, " extension", 10) = 10
+2032 , 1999 , 1999 , Xvnc , write(2</dev/null>, " running!", 9) = 9
+2033 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+2038 , 1999 , 1999 , Xvnc , bind(1<TCP:[40228]>, {sa_family=AF_INET, sin_port=htons(5910), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+2040 , 1999 , 1999 , Xvnc , write(2</dev/null>, " vncext:", 8) = 8
+2041 , 1999 , 1999 , Xvnc , write(2</dev/null>, "     ", 5) = 5
+2042 , 1999 , 1999 , Xvnc , write(2</dev/null>, " Listening", 10) = 10
+2043 , 1999 , 1999 , Xvnc , write(2</dev/null>, " for", 4) = 4
+2044 , 1999 , 1999 , Xvnc , write(2</dev/null>, " VNC", 4) = 4
+2045 , 1999 , 1999 , Xvnc , write(2</dev/null>, " connections", 12) = 12
+2046 , 1999 , 1999 , Xvnc , write(2</dev/null>, " on", 3) = 3
+2047 , 1999 , 1999 , Xvnc , write(2</dev/null>, " port", 5) = 5
+2048 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 5910", 5) = 5
+2049 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+2050 , 1999 , 1999 , Xvnc , write(2</dev/null>, " vncext:", 8) = 8
+2051 , 1999 , 1999 , Xvnc , write(2</dev/null>, "     ", 5) = 5
+2052 , 1999 , 1999 , Xvnc , write(2</dev/null>, " created", 8) = 8
+2053 , 1999 , 1999 , Xvnc , write(2</dev/null>, " VNC", 4) = 4
+2054 , 1999 , 1999 , Xvnc , write(2</dev/null>, " server", 7) = 7
+2055 , 1999 , 1999 , Xvnc , write(2</dev/null>, " for", 4) = 4
+2056 , 1999 , 1999 , Xvnc , write(2</dev/null>, " screen", 7) = 7
+2057 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 0", 2) = 2
+2058 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+2060 , 1999 , 1999 , Xvnc , write(2</dev/null>, "error opening security policy file /etc/X11/xserver/SecurityPolicy\n", 67) = 67
+2153 , 1999 , 1999 , Xvnc , write(2</dev/null>, "Could not init font path element /usr/share/fonts/X11/Speedo/, removing from list!\n", 83) = 83
+2164 , 1999 , 1999 , Xvnc , write(2</dev/null>, "Could not init font path element /usr/share/fonts/X11/CID/, removing from list!\n", 80) = 80
+2167 , 1999 , 1999 , Xvnc , write(2</dev/null>, "Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!\n", 82) = 82
+2170 , 1999 , 1999 , Xvnc , write(2</dev/null>, "Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!\n", 83) = 83
+2211 , 1948 , 1948 , xrdp-sesman , execve("/usr/sbin/xrdp-sessvc", ["/usr/sbin/xrdp-sessvc", "1999", "1998"], ["PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin", "LANG=en_US.UTF-8", "_SYSTEMCTL_SKIP_REDIRECT=true", "PWD=/", "XRDP_SESSVC_DISPLAY=10", "DISPLAY=:10.0"]) = 0
+2250 , 1998 , 1998 , xrdp-sesman , execve("/etc/xrdp/startwm.sh", ["startwm.sh"], ["SHELL=/bin/bash", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "USER=elwin", "UID=1000", "HOME=/home/elwin", "DISPLAY=:10.0", "XDG_SESSION_ID=c2", "XDG_RUNTIME_DIR=/run/user/1000"]) = 0
+2394 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2000
+2419 , 2000 , 2000 , startwm.sh , execve("/bin/touch", ["touch", "/home/elwin/.xsession-errors"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+2512 , 2000 , 2000 , touch , exit_group(0) = ?
+2527 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2001
+2536 , 2001 , 2001 , startwm.sh , execve("/bin/chmod", ["chmod", "600", "/home/elwin/.xsession-errors"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+2621 , 2001 , 2001 , chmod , exit_group(0) = ?
+2631 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2002
+2649 , 2002 , 2002 , startwm.sh , execve("/usr/bin/stat", ["stat", "-c%s", "/home/elwin/.xsession-errors"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+2853 , 2002 , 2002 , stat , exit_group(0) = ?
+2890 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2003
+2908 , 2003 , 2003 , startwm.sh , execve("/bin/date", ["date"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3001 , 2003 , 2003 , date , exit_group(0) = ?
+3015 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2004
+3034 , 2004 , 2004 , startwm.sh , execve("/bin/tempfile", ["tempfile"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3082 , 1948 , 1948 , xrdp-sessvc , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f93155b29d0) = 2005
+3095 , 2005 , 2005 , xrdp-sessvc , execve("/usr/sbin/xrdp-chansrv", ["xrdp-chansrv"], ["PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin", "LANG=en_US.UTF-8", "_SYSTEMCTL_SKIP_REDIRECT=true", "PWD=/", "XRDP_SESSVC_DISPLAY=10", "DISPLAY=:10.0"]) = 0
+3098 , 2004 , 2004 , tempfile , exit_group(0) = ?
+3132 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2006
+3150 , 2006 , 2006 , startwm.sh , execve("/bin/rm", ["rm", "-f", "/tmp/fileomEx3g"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3227 , 2006 , 2006 , rm , exit_group(0) = ?
+3236 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2007
+3251 , 2007 , 2007 , startwm.sh , execve("/bin/run-parts", ["run-parts", "--list", "/etc/X11/Xsession.d"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3459 , 2005 , 2005 , xrdp-chansrv , bind(8<UNIX:[40235]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"}, 110) = 0
+3464 , 2007 , 2007 , run-parts , exit_group(0) = ?
+3470 , 2005 , 2005 , xrdp-chansrv , bind(9<UNIX:[40236]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_thread_done_2eb6aa8e"}, 110) = 0
+3476 , 2005 , 2005 , xrdp-chansrv , clone(child_stack=0x7f1c3812fff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f1c381309d0, tls=0x7f1c38130700, child_tidptr=0x7f1c381309d0) = 2008
+3498 , 2008 , 2005 , xrdp-chansrv , bind(10<UNIX:[40237]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp_chansrv_socket_7210"}, 110) = 0
+3505 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2009
+3510 , 2009 , 2009 , startwm.sh , execve("/bin/grep", ["grep", "-q", "^$", "/etc/upstart-xsessions"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3592 , 2009 , 2009 , grep , exit_group(1) = ?
+3604 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2010
+3614 , 2010 , 2010 , startwm.sh , execve("/bin/cat", ["cat", "/etc/X11/Xsession.options"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3661 , 2010 , 2010 , cat , exit_group(0) = ?
+3692 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2011
+3702 , 2011 , 2011 , startwm.sh , execve("/bin/run-parts", ["run-parts", "--list", "/etc/X11/Xresources"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3742 , 2011 , 2011 , run-parts , exit_group(0) = ?
+3749 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2012
+3754 , 2012 , 2012 , startwm.sh , execve("/usr/bin/xrdb", ["xrdb", "-merge", "/etc/X11/Xresources/x11-common"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3851 , 2012 , 2012 , xrdb , connect(8<UNIX:[40254]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+3854 , 2012 , 2012 , xrdb , connect(8<UNIX:[40255]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+3938 , 2012 , 2012 , xrdb , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facaebd79d0) = 2017
+3942 , 2017 , 2017 , xrdb , execve("/bin/sh", ["sh", "-c", "/usr/bin/cpp -P  -DHOST=elwin-virtual-machine -DSERVERHOST=elwin-virtual-machine -DSRVR_elwin_virtual_machine -DDISPLAY_NUM=10 -DCLIENTHOST=elwin-virtual-machine -DCLNT_elwin_virtual_machine -DVERSION"...], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3991 , 2017 , 2017 , sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f48168d89d0) = 2018
+3993 , 2018 , 2018 , sh , execve("/usr/bin/cpp", ["/usr/bin/cpp", "-P", "-DHOST=elwin-virtual-machine", "-DSERVERHOST=elwin-virtual-machine", "-DSRVR_elwin_virtual_machine", "-DDISPLAY_NUM=10", "-DCLIENTHOST=elwin-virtual-machine", "-DCLNT_elwin_virtual_machine", "-DVERSION=11", "-DREVISION=0", "-DVENDOR=The XFree86 Project, Inc", "-DVNDR_The_XFree86_Project__Inc", "-DRELEASE=40300000", "-DNUM_SCREENS=1", "-DEXT_X_Resource", "-DEXT_RANDR", "-DEXT_SGI_GLX", "-DEXT_GLX", "-DEXT_XFree86_Bigfont", "-DEXT_FontCache", "-DEXT_TOG_CUP", "-DEXT_SECURITY", "-DEXT_XC_APPGROUP", "-DEXT_DOUBLE_BUFFER", "-DEXT_LBX", "-DEXT_RECORD", "-DEXT_XC_MISC", "-DEXT_SYNC", "-DEXT_XVideo", "-DEXT_MIT_SCREEN_SAVER", "-DEXT_DEC_XTRAP", "-DEXT_VNC_EXTENSION", "-DEXT_MIT_SUNDRY_NONSTANDARD", "-DEXT_BIG_REQUESTS", "-DEXT_XTEST", "-DEXT_Extended_Visual_Information", "-DEXT_MIT_SHM", "-DEXT_SHAPE", "-DSCREEN_NUM=0", "-DWIDTH=1920", "-DHEIGHT=1080", "-DX_RESOLUTION=3780", "-DY_RESOLUTION=3776", "-DPLANES=24", "-DBITS_PER_RGB=8", "-DCLASS=TrueColor", "-DCLASS_TrueColor=36", "-DCOLOR", "-DCLASS_TrueColor_24=36", "-DCLASS_DirectColor_24=40", "/etc/X11/Xresources/x11-common"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4072 , 2018 , 2018 , cpp , vfork()      = 2019
+4073 , 2019 , 2019 , cpp , execve("/usr/lib/gcc/x86_64-linux-gnu/5/cc1", ["/usr/lib/gcc/x86_64-linux-gnu/5/cc1", "-E", "-quiet", "-P", "-imultiarch", "x86_64-linux-gnu", "-D", "HOST=elwin-virtual-machine", "-D", "SERVERHOST=elwin-virtual-machine", "-D", "SRVR_elwin_virtual_machine", "-D", "DISPLAY_NUM=10", "-D", "CLIENTHOST=elwin-virtual-machine", "-D", "CLNT_elwin_virtual_machine", "-D", "VERSION=11", "-D", "REVISION=0", "-D", "VENDOR=The XFree86 Project, Inc", "-D", "VNDR_The_XFree86_Project__Inc", "-D", "RELEASE=40300000", "-D", "NUM_SCREENS=1", "-D", "EXT_X_Resource", "-D", "EXT_RANDR", "-D", "EXT_SGI_GLX", "-D", "EXT_GLX", "-D", "EXT_XFree86_Bigfont", "-D", "EXT_FontCache", "-D", "EXT_TOG_CUP", "-D", "EXT_SECURITY", "-D", "EXT_XC_APPGROUP", "-D", "EXT_DOUBLE_BUFFER", "-D", "EXT_LBX", "-D", "EXT_RECORD", "-D", "EXT_XC_MISC", "-D", "EXT_SYNC", "-D", "EXT_XVideo", "-D", "EXT_MIT_SCREEN_SAVER", "-D", "EXT_DEC_XTRAP", "-D", "EXT_VNC_EXTENSION", "-D", "EXT_MIT_SUNDRY_NONSTANDARD", "-D", "EXT_BIG_REQUESTS", "-D", "EXT_XTEST", "-D", "EXT_Extended_Visual_Information", "-D", "EXT_MIT_SHM", "-D", "EXT_SHAPE", "-D", "SCREEN_NUM=0", "-D", "WIDTH=1920", "-D", "HEIGHT=1080", "-D", "X_RESOLUTION=3780", "-D", "Y_RESOLUTION=3776", "-D", "PLANES=24", "-D", "BITS_PER_RGB=8", "-D", "CLASS=TrueColor", "-D", "CLASS_TrueColor=36", "-D", "COLOR", "-D", "CLASS_TrueColor_24=36", "-D", "CLASS_DirectColor_24=40", "/etc/X11/Xresources/x11-common", "-mtune=generic", "-march=x86-64", "-fstack-protector-strong", "-Wformat", "-Wformat-security"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "COLLECT_GCC=/usr/bin/cpp", "COLLECT_GCC_OPTIONS='-E' '-P' '-D' 'HOST=elwin-virtual-machine' '-D' 'SERVERHOST=elwin-virtual-machine' '-D' 'SRVR_elwin_virtual_machine' '-D' 'DISPLAY_NUM=10' '-D' 'CLIENTHOST=elwin-virtual-machine' "...]) = 0
+4303 , 2019 , 2019 , cc1 , exit_group(0) = ?
+4331 , 2018 , 2018 , cpp , exit_group(0) = ?
+4335 , 2017 , 2017 , sh , exit_group(0) = ?
+4355 , 2012 , 2012 , xrdb , exit_group(0) = ?
+4387 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2020
+4398 , 2020 , 2020 , startwm.sh , execve("/usr/bin/id", ["id", "-un"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4487 , 2020 , 2020 , id , connect(8<UNIX:[41211]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4490 , 2020 , 2020 , id , connect(8<UNIX:[41212]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4558 , 2020 , 2020 , id , exit_group(0) = ?
+4563 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2021
+4568 , 2021 , 2021 , startwm.sh , execve("/usr/bin/xhost", ["xhost", "+si:localuser:elwin"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4653 , 2021 , 2021 , xhost , connect(8<UNIX:[40368]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+4656 , 2021 , 2021 , xhost , connect(8<UNIX:[40369]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+4831 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "X Error of failed request:  BadValue (integer parameter out of range for operation)\n  ", 86) = 86
+4832 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "Major opcode of failed request:  109", 36) = 36
+4833 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, " (X_ChangeHosts)", 16) = 16
+4834 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+4835 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "Value in failed request:  0x5", 29) = 29
+4836 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+4837 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "Serial number of failed request:  6", 35) = 35
+4838 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+4839 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "Current serial number in output stream:  8", 42) = 42
+4840 , 2021 , 2021 , xhost , write(2</home/elwin/.xsession-errors>, "\n", 1) = 1
+4848 , 2021 , 2021 , xhost , exit_group(0) = ?
+4888 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2026
+4898 , 2026 , 2026 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2027
+4905 , 2027 , 2027 , startwm.sh , execve("/bin/readlink", ["readlink", "/etc/alternatives/x-session-manager"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4956 , 2027 , 2027 , readlink , exit_group(0) = ?
+4963 , 2026 , 2026 , startwm.sh , execve("/usr/bin/basename", ["basename", "/usr/bin/gnome-session"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+5000 , 2026 , 2026 , basename , exit_group(0) = ?
+5018 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2028
+5029 , 2028 , 2028 , startwm.sh , execve("/usr/bin/id", ["id", "-un"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5114 , 2028 , 2028 , id , connect(8<UNIX:[41355]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5117 , 2028 , 2028 , id , connect(8<UNIX:[41356]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5185 , 2028 , 2028 , id , exit_group(0) = ?
+5196 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2029
+5201 , 2029 , 2029 , startwm.sh , execve("/usr/bin/xhost", ["xhost", "+si:localuser:elwin"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5286 , 2029 , 2029 , xhost , connect(8<UNIX:[40460]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+5289 , 2029 , 2029 , xhost , connect(8<UNIX:[40461]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+5465 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "X Error of failed request:  BadValue (integer parameter out of range for operation)\n  ", 86) = 86
+5466 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "Major opcode of failed request:  109", 36) = 36
+5467 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, " (X_ChangeHosts)", 16) = 16
+5468 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+5469 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "Value in failed request:  0x5", 29) = 29
+5470 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+5471 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "Serial number of failed request:  6", 35) = 35
+5472 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "\n  ", 3) = 3
+5473 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "Current serial number in output stream:  8", 42) = 42
+5474 , 2029 , 2029 , xhost , write(2</home/elwin/.xsession-errors>, "\n", 1) = 1
+5480 , 2029 , 2029 , xhost , exit_group(0) = ?
+5506 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2034
+5521 , 2034 , 2034 , startwm.sh , execve("/usr/bin/xbrlapi", ["/usr/bin/xbrlapi", "-q"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5524 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2035
+5533 , 2035 , 2035 , startwm.sh , execve("/usr/bin/xdg-user-dirs-update", ["/usr/bin/xdg-user-dirs-update"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5719 , 2035 , 2035 , xdg-user-dirs-u , connect(9<UNIX:[40520]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5724 , 2035 , 2035 , xdg-user-dirs-u , connect(9<UNIX:[40521]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5797 , 2035 , 2035 , xdg-user-dirs-u , exit_group(0) = ?
+5890 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2036
+5919 , 2036 , 2036 , startwm.sh , exit_group(0) = ?
+5932 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2037
+5960 , 2037 , 2037 , startwm.sh , exit_group(0) = ?
+5989 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2038
+6011 , 2038 , 2038 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2039
+6020 , 2038 , 2038 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2040
+6022 , 2039 , 2039 , startwm.sh , execve("/usr/bin/locale", ["locale"], ["USER=elwin", "TEXTDOMAIN=im-config", "HOME=/home/elwin", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+6029 , 2040 , 2040 , startwm.sh , execve("/bin/sed", ["sed", "-nr", "s/LC_CTYPE=\\\"?([a-zA-Z_]*).*/\\1/p"], ["USER=elwin", "TEXTDOMAIN=im-config", "HOME=/home/elwin", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+6097 , 2034 , 2034 , xbrlapi , connect(8<UNIX:[40527]>, {sa_family=AF_LOCAL, sun_path="/var/lib/BrlAPI/0"}, 110) = -1 ENOENT (No such file or directory)
+6112 , 2039 , 2039 , locale , exit_group(0) = ?
+6120 , 2034 , 2034 , xbrlapi , connect(8<TCP:[40528]>, {sa_family=AF_INET, sin_port=htons(4101), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 ECONNREFUSED (Connection refused)
+6128 , 2034 , 2034 , xbrlapi , connect(8<TCPv6:[40529]>, {sa_family=AF_INET6, sin6_port=htons(4101), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ECONNREFUSED (Connection refused)
+6197 , 2034 , 2034 , xbrlapi , write(2</home/elwin/.xsession-errors>, "openConnection: connect: No such file or directory\n", 51) = 51
+6198 , 2034 , 2034 , xbrlapi , write(2</home/elwin/.xsession-errors>, "cannot connect to brltty at :0\n", 31) = 31
+6201 , 2034 , 2034 , xbrlapi , exit_group(4) = ?
+6234 , 2040 , 2040 , sed , exit_group(0) = ?
+6238 , 2038 , 2038 , startwm.sh , exit_group(0) = ?
+6246 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2041
+6257 , 2041 , 2041 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2042
+6261 , 2041 , 2041 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2043
+6268 , 2043 , 2043 , startwm.sh , execve("/bin/sed", ["sed", "-rn", "s/(^|.*:)en_US,([^:]*)($|:.*$)/\\2/p"], ["USER=elwin", "TEXTDOMAIN=im-config", "HOME=/home/elwin", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+6270 , 2042 , 2042 , startwm.sh , exit_group(0) = ?
+6369 , 2043 , 2043 , sed , exit_group(0) = ?
+6373 , 2041 , 2041 , startwm.sh , exit_group(0) = ?
+6458 , 1998 , 1998 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2044
+6463 , 2044 , 2044 , startwm.sh , execve("/bin/grep", ["grep", "-qs", "^[[:space:]]*use-agent", "/home/elwin/.gnupg/gpg.conf", "/home/elwin/.gnupg/options"], ["USER=elwin", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+6541 , 2044 , 2044 , grep , exit_group(2) = ?
+6583 , 1998 , 1998 , startwm.sh , execve("/usr/bin/ssh-agent", ["/usr/bin/ssh-agent", "/usr/bin/dbus-launch", "--exit-with-session", "/usr/bin/im-launch", "x-session-manager"], ["USER=elwin", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+6658 , 1998 , 1998 , ssh-agent , bind(8<UNIX:[40535]>, {sa_family=AF_LOCAL, sun_path="/tmp/ssh-qJuXNpSjpmGt/agent.1998"}, 110) = 0
+6661 , 1998 , 1998 , ssh-agent , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f92314679d0) = 2045
+6665 , 1998 , 1998 , ssh-agent , execve("/usr/bin/dbus-launch", ["/usr/bin/dbus-launch", "--exit-with-session", "/usr/bin/im-launch", "x-session-manager"], ["USER=elwin", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SSH_AGENT_PID=2045"]) = 0
+6865 , 1998 , 1998 , dbus-launch , connect(8<UNIX:[40536]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+6868 , 1998 , 1998 , dbus-launch , connect(8<UNIX:[40537]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+6948 , 1998 , 1998 , dbus-launch , connect(9<UNIX:[40593]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+6951 , 1998 , 1998 , dbus-launch , connect(9<UNIX:[40594]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+7048 , 1998 , 1998 , dbus-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fed00530b50) = 2050
+7051 , 2050 , 2050 , dbus-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fed00530b50) = 2051
+7067 , 2051 , 2051 , dbus-launch , execve("/usr/bin/dbus-daemon", ["/usr/bin/dbus-daemon", "--fork", "--print-pid", "10", "--print-address", "12", "--session"], ["USER=elwin", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SSH_AGENT_PID=2045"]) = 0
+7074 , 2050 , 2050 , dbus-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fed00530b50) = 2052
+7291 , 2051 , 2051 , dbus-daemon , connect(9<UNIX:[40599]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+7294 , 2051 , 2051 , dbus-daemon , connect(9<UNIX:[40600]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+7357 , 2051 , 2051 , dbus-daemon , connect(9<UNIX:[40601]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+7360 , 2051 , 2051 , dbus-daemon , connect(9<UNIX:[40602]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+7384 , 2051 , 2051 , dbus-daemon , bind(9<UNIX:[40603]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-hhUfBaGL1X"}, 23) = 0
+7908 , 2051 , 2051 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6979c61b90) = 2053
+7911 , 2051 , 2051 , dbus-daemon , exit_group(0) = ?
+7917 , 2050 , 2050 , dbus-launch , exit_group(0) = ?
+7991 , 1998 , 1998 , dbus-launch , execve("/usr/bin/im-launch", ["/usr/bin/im-launch", "x-session-manager"], ["USER=elwin", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "IM_CONFIG_PHASE=1", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SSH_AGENT_PID=2045", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65"]) = 0
+7994 , 2052 , 2052 , dbus-launch , connect(9<UNIX:[40606]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+8001 , 2052 , 2052 , dbus-launch , connect(9<UNIX:[40607]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+8218 , 1998 , 1998 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2058
+8242 , 2058 , 2058 , im-launch , exit_group(0) = ?
+8257 , 1998 , 1998 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2059
+8281 , 2059 , 2059 , im-launch , exit_group(0) = ?
+8316 , 1998 , 1998 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2060
+8339 , 2060 , 2060 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2061
+8348 , 2060 , 2060 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2062
+8350 , 2061 , 2061 , im-launch , execve("/usr/bin/locale", ["locale"], ["USER=elwin", "TEXTDOMAIN=im-config", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=2", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+8361 , 2062 , 2062 , im-launch , execve("/bin/sed", ["sed", "-nr", "s/LC_CTYPE=\\\"?([a-zA-Z_]*).*/\\1/p"], ["USER=elwin", "TEXTDOMAIN=im-config", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=2", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+8436 , 2061 , 2061 , locale , exit_group(0) = ?
+8568 , 2062 , 2062 , sed , exit_group(0) = ?
+8576 , 2060 , 2060 , im-launch , exit_group(0) = ?
+8589 , 1998 , 1998 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2063
+8605 , 2063 , 2063 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2064
+8614 , 2063 , 2063 , im-launch , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9c4531d9d0) = 2065
+8621 , 2064 , 2064 , im-launch , exit_group(0) = ?
+8628 , 2065 , 2065 , im-launch , execve("/bin/sed", ["sed", "-rn", "s/(^|.*:)en_US,([^:]*)($|:.*$)/\\2/p"], ["USER=elwin", "TEXTDOMAIN=im-config", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=2", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+8821 , 2065 , 2065 , sed , exit_group(0) = ?
+8829 , 2063 , 2063 , im-launch , exit_group(0) = ?
+8935 , 1998 , 1998 , im-launch , execve("/bin/x-session-manager", ["x-session-manager"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = -1 ENOENT (No such file or directory)
+8936 , 1998 , 1998 , im-launch , execve("/usr/bin/x-session-manager", ["x-session-manager"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+9035 , 1998 , 1998 , x-session-manag , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7a7af749d0) = 2066
+9052 , 2066 , 2066 , x-session-manag , execve("/usr/bin/gsettings", ["gsettings", "get", "org.gnome.system.locale", "region"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+9367 , 2066 , 2066 , gsettings , clone(child_stack=0x7fca774c4ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fca774c59d0, tls=0x7fca774c5700, child_tidptr=0x7fca774c59d0) = 2067
+9377 , 2066 , 2066 , gsettings , exit_group(0) = ?
+9385 , 1998 , 1998 , x-session-manag , execve("/usr/lib/gnome-session/gnome-session-binary", ["/usr/lib/gnome-session/gnome-session-binary"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+10281 , 1998 , 1998 , gnome-session-b , connect(8<UNIX:[42123]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+10298 , 1998 , 1998 , gnome-session-b , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f4b6808ad50) = 2072
+10357 , 2072 , 2072 , gnome-session-b , execve("/usr/lib/gnome-session/gnome-session-check-accelerated", ["/usr/lib/gnome-session/gnome-session-check-accelerated"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+11242 , 2072 , 2072 , gnome-session-c , connect(3<UNIX:[42233]>, {sa_family=AF_LOCAL, sun_path="/run/user/1000/wayland-0"}, 27) = -1 ENOENT (No such file or directory)
+11245 , 2072 , 2072 , gnome-session-c , connect(3<UNIX:[42234]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+11248 , 2072 , 2072 , gnome-session-c , connect(3<UNIX:[42235]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+12147 , 2072 , 2072 , gnome-session-c , connect(5<UNIX:[42283]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+12153 , 2072 , 2072 , gnome-session-c , connect(5<UNIX:[42284]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+12258 , 2072 , 2072 , gnome-session-c , connect(5<UNIX:[42332]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-hhUfBaGL1X"}, 23) = 0
+12339 , 2053 , 2053 , dbus-daemon , write(2</dev/null>, "Activating service name='org.a11y.Bus'", 38) = 38
+12340 , 2053 , 2053 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+12344 , 2053 , 2053 , dbus-daemon , connect(18<UNIX:[42383]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+12358 , 2053 , 2053 , dbus-daemon , connect(19<UNIX:[43750]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+12371 , 2053 , 2053 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6979c61b90) = 2093
+12384 , 2093 , 2093 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6979c61b90) = 2094
+12407 , 2094 , 2094 , dbus-daemon , execve("/usr/lib/at-spi2-core/at-spi-bus-launcher", ["/usr/lib/at-spi2-core/at-spi-bus-launcher"], ["SHELL=/bin/bash", "UID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "QT_ACCESSIBILITY=1", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "GTK_MODULES=gail:atk-bridge", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "XDG_SESSION_ID=c2", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=2045", "USER=elwin", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "PWD=/home/elwin", "LANG=en_US.UTF-8", "HOME=/home/elwin"]) = 0
+12636 , 2094 , 2094 , at-spi-bus-laun , connect(3<UNIX:[42560]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+12639 , 2094 , 2094 , at-spi-bus-laun , connect(3<UNIX:[42561]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+12861 , 2094 , 2094 , at-spi-bus-laun , clone(child_stack=0x7f319e2afef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f319e2b09d0, tls=0x7f319e2b0700, child_tidptr=0x7f319e2b09d0) = 2107
+12920 , 2094 , 2094 , at-spi-bus-laun , clone(child_stack=0x7f319daaeef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f319daaf9d0, tls=0x7f319daaf700, child_tidptr=0x7f319daaf9d0) = 2108
+12967 , 2094 , 2094 , at-spi-bus-laun , clone(child_stack=0x7f319d2adef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f319d2ae9d0, tls=0x7f319d2ae700, child_tidptr=0x7f319d2ae9d0) = 2109
+13002 , 2107 , 2094 , dconf worker , connect(8<UNIX:[42610]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-hhUfBaGL1X"}, 23) = 0
+13089 , 2107 , 2094 , dconf worker , clone(child_stack=0x7f319caacef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f319caad9d0, tls=0x7f319caad700, child_tidptr=0x7f319caad9d0) = 2114
+13213 , 2053 , 2053 , dbus-daemon , write(2</dev/null>, "Successfully activated service 'org.a11y.Bus'", 45) = 45
+13215 , 2053 , 2053 , dbus-daemon , write(2</dev/null>, "\n", 1) = 1
+13233 , 2093 , 2093 , dbus-daemon , exit_group(0) = ?
+13257 , 2094 , 2094 , at-spi-bus-laun , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f31a0dc7ad0) = 2115
+13300 , 2115 , 2115 , at-spi-bus-laun , execve("/usr/bin/dbus-daemon", ["/usr/bin/dbus-daemon", "--config-file=/etc/at-spi2/accessibility.conf", "--nofork", "--print-address", "3"], ["SHELL=/bin/bash", "UID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "QT_ACCESSIBILITY=1", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "GTK_MODULES=gail:atk-bridge", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "XDG_SESSION_ID=c2", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=1", "SSH_AGENT_PID=2045", "USER=elwin", "DBUS_STARTER_BUS_TYPE=session", "GTK2_MODULES=overlay-scrollbar", "PWD=/home/elwin", "LANG=en_US.UTF-8", "HOME=/home/elwin"]) = 0
+13506 , 2115 , 2115 , dbus-daemon , connect(5<UNIX:[42678]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+13509 , 2115 , 2115 , dbus-daemon , connect(5<UNIX:[42679]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+13572 , 2115 , 2115 , dbus-daemon , connect(5<UNIX:[42680]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+13575 , 2115 , 2115 , dbus-daemon , connect(5<UNIX:[42681]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+13605 , 2115 , 2115 , dbus-daemon , bind(5<UNIX:[42682]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-RC8a6Vdy3F"}, 23) = 0
+13632 , 2094 , 2094 , at-spi-bus-laun , connect(10<UNIX:[42685]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+13638 , 2094 , 2094 , at-spi-bus-laun , connect(10<UNIX:[42686]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+13828 , 2072 , 2072 , gnome-session-c , connect(6<UNIX:[42738]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-RC8a6Vdy3F"}, 23) = 0
+13995 , 2115 , 2115 , dbus-daemon , write(2<UNIX:[43750->42513]>, "Activating service name='org.a11y.atspi.Registry'", 49) = 49
+13996 , 2115 , 2115 , dbus-daemon , write(2<UNIX:[43750->42513]>, "\n", 1) = 1
+14005 , 2115 , 2115 , dbus-daemon , connect(13<UNIX:[42789]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+14019 , 2115 , 2115 , dbus-daemon , connect(14<UNIX:[42792]>, {sa_family=AF_LOCAL, sun_path="/run/systemd/journal/stdout"}, 29) = 0
+14031 , 2115 , 2115 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc20526fb90) = 2124
+14050 , 2124 , 2124 , dbus-daemon , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc20526fb90) = 2125
+14072 , 2125 , 2125 , dbus-daemon , execve("/usr/lib/at-spi2-core/at-spi2-registryd", ["/usr/lib/at-spi2-core/at-spi2-registryd", "--use-gnome-session"], ["SHELL=/bin/bash", "UID=1000", "DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-RC8a6Vdy3F,guid=36e92065260177d9c684d4445ae96e67", "QT_ACCESSIBILITY=1", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "GTK_MODULES=gail:atk-bridge", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "XDG_SESSION_ID=c2", "IM_CONFIG_PHASE=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "SSH_AGENT_PID=2045", "USER=elwin", "GTK2_MODULES=overlay-scrollbar", "DBUS_STARTER_BUS_TYPE=accessibility", "PWD=/home/elwin", "LANG=en_US.UTF-8", "HOME=/home/elwin"]) = 0
+14586 , 2072 , 2072 , gnome-session-c , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb584fdbd10) = 2138
+14642 , 2138 , 2138 , gnome-session-c , execve("/usr/lib/gnome-session/gnome-session-check-accelerated-helper", ["/usr/lib/gnome-session/gnome-session-check-accelerated-helper"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+14721 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[42973]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+14730 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[42974]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+14900 , 2094 , 2094 , at-spi-bus-laun , write(2<UNIX:[43750->42513]>, "\n** (process:2094): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files\n", 187) = 187
+15199 , 2125 , 2125 , at-spi2-registr , connect(3<UNIX:[45074]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-RC8a6Vdy3F"}, 23) = 0
+15282 , 2138 , 2138 , gnome-session-c , connect(3<UNIX:[45122]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+15289 , 2138 , 2138 , gnome-session-c , connect(3<UNIX:[45123]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+15350 , 2115 , 2115 , dbus-daemon , write(2<UNIX:[43750->42513]>, "Successfully activated service 'org.a11y.atspi.Registry'", 56) = 56
+15352 , 2115 , 2115 , dbus-daemon , write(2<UNIX:[43750->42513]>, "\n", 1) = 1
+15378 , 2124 , 2124 , dbus-daemon , exit_group(0) = ?
+15414 , 2125 , 2125 , at-spi2-registr , connect(5<UNIX:[44930]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+15421 , 2125 , 2125 , at-spi2-registr , connect(5<UNIX:[44931]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+15540 , 2138 , 2138 , gnome-session-c , write(2<UNIX:[42123->40695]>, "gnome-session-is-accelerated: No composite extension.\n", 54) = 54
+15592 , 2138 , 2138 , gnome-session-c , exit_group(1) = ?
+15601 , 2072 , 2072 , gnome-session-c , write(2<UNIX:[42123->40695]>, "gnome-session-check-accelerated: Helper exited with code 256\n", 61) = 61
+15648 , 2072 , 2072 , gnome-session-c , exit_group(1) = ?
+15697 , 1998 , 1998 , gnome-session-b , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f4b6808ad50) = 2155
+15755 , 2155 , 2155 , gnome-session-b , execve("/usr/lib/gnome-session/gnome-session-check-accelerated", ["/usr/lib/gnome-session/gnome-session-check-accelerated"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "LIBGL_ALWAYS_SOFTWARE=1"]) = 0
+15988 , 2125 , 2125 , at-spi2-registr , connect(6<UNIX:[45002]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-hhUfBaGL1X"}, 23) = 0
+16794 , 2155 , 2155 , gnome-session-c , connect(3<UNIX:[45579]>, {sa_family=AF_LOCAL, sun_path="/run/user/1000/wayland-0"}, 27) = -1 ENOENT (No such file or directory)
+16797 , 2155 , 2155 , gnome-session-c , connect(3<UNIX:[45583]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+16800 , 2155 , 2155 , gnome-session-c , connect(3<UNIX:[45587]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+16857 , 2125 , 2125 , at-spi2-registr , clone(child_stack=0x7f742f708e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f742f7099d0, tls=0x7f742f709700, child_tidptr=0x7f742f7099d0) = 2160
+16866 , 2125 , 2125 , at-spi2-registr , clone(child_stack=0x7f742ef07e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f742ef089d0, tls=0x7f742ef08700, child_tidptr=0x7f742ef089d0) = 2161
+17925 , 2155 , 2155 , gnome-session-c , connect(5<UNIX:[46328]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+17928 , 2155 , 2155 , gnome-session-c , connect(5<UNIX:[46332]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+18070 , 2155 , 2155 , gnome-session-c , connect(5<UNIX:[45050]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-RC8a6Vdy3F"}, 23) = 0
+18491 , 1938 , 1453 , xrdp , connect(10<TCP:[46808]>, {sa_family=AF_INET, sin_port=htons(3350), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+18501 , 1455 , 1455 , xrdp-sesman , clone(child_stack=0x7f64956d9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f64956da9d0, tls=0x7f64956da700, child_tidptr=0x7f64956da9d0) = 2174
+18661 , 2174 , 1455 , xrdp-sesman , exit(0) = ?
+18706 , 1938 , 1453 , xrdp , connect(11<TCP:[46860]>, {sa_family=AF_INET, sin_port=htons(5910), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+18716 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\nWed May  2 03:53:15 2018\n", 26) = 26
+18717 , 1999 , 1999 , Xvnc , write(2</dev/null>, " Connections:", 13) = 13
+18718 , 1999 , 1999 , Xvnc , write(2</dev/null>, " accepted:", 10) = 10
+18719 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 127.0.0.1::40286", 17) = 17
+18720 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+18737 , 1999 , 1999 , Xvnc , write(2</dev/null>, " SConnection:", 13) = 13
+18738 , 1999 , 1999 , Xvnc , write(2</dev/null>, " Client", 7) = 7
+18739 , 1999 , 1999 , Xvnc , write(2</dev/null>, " needs", 6) = 6
+18740 , 1999 , 1999 , Xvnc , write(2</dev/null>, " protocol", 9) = 9
+18741 , 1999 , 1999 , Xvnc , write(2</dev/null>, " version", 8) = 8
+18742 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 3.3", 4) = 4
+18743 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+18777 , 1999 , 1999 , Xvnc , write(2</dev/null>, " VNCSConnST:", 12) = 12
+18779 , 1999 , 1999 , Xvnc , write(2</dev/null>, " ", 1) = 1
+18780 , 1999 , 1999 , Xvnc , write(2</dev/null>, " Server", 7) = 7
+18782 , 1999 , 1999 , Xvnc , write(2</dev/null>, " default", 8) = 8
+18784 , 1999 , 1999 , Xvnc , write(2</dev/null>, " pixel", 6) = 6
+18785 , 1999 , 1999 , Xvnc , write(2</dev/null>, " format", 7) = 7
+18786 , 1999 , 1999 , Xvnc , write(2</dev/null>, " depth", 6) = 6
+18787 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 24", 3) = 3
+18788 , 1999 , 1999 , Xvnc , write(2</dev/null>, " (32bpp)", 8) = 8
+18789 , 1999 , 1999 , Xvnc , write(2</dev/null>, " little-endian", 14) = 14
+18790 , 1999 , 1999 , Xvnc , write(2</dev/null>, " bgr888", 7) = 7
+18791 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+18833 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\nWed May  2 03:53:16 2018\n", 26) = 26
+18834 , 1999 , 1999 , Xvnc , write(2</dev/null>, " VNCSConnST:", 12) = 12
+18835 , 1999 , 1999 , Xvnc , write(2</dev/null>, " ", 1) = 1
+18836 , 1999 , 1999 , Xvnc , write(2</dev/null>, " Client", 7) = 7
+18837 , 1999 , 1999 , Xvnc , write(2</dev/null>, " pixel", 6) = 6
+18838 , 1999 , 1999 , Xvnc , write(2</dev/null>, " format", 7) = 7
+18839 , 1999 , 1999 , Xvnc , write(2</dev/null>, " depth", 6) = 6
+18840 , 1999 , 1999 , Xvnc , write(2</dev/null>, " 24", 3) = 3
+18841 , 1999 , 1999 , Xvnc , write(2</dev/null>, " (32bpp)", 8) = 8
+18842 , 1999 , 1999 , Xvnc , write(2</dev/null>, " little-endian", 14) = 14
+18843 , 1999 , 1999 , Xvnc , write(2</dev/null>, " rgb888", 7) = 7
+18844 , 1999 , 1999 , Xvnc , write(2</dev/null>, "\n", 1) = 1
+19544 , 1938 , 1453 , xrdp , connect(12<UNIX:[46970]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp_chansrv_socket_7210"}, 110) = 0
+22607 , 2008 , 2005 , xrdp-chansrv , connect(10<UNIX:[47020]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+22614 , 2008 , 2005 , xrdp-chansrv , connect(10<UNIX:[47021]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+23060 , 2155 , 2155 , gnome-session-c , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f4eddf05d10) = 2191
+23118 , 2191 , 2191 , gnome-session-c , execve("/usr/lib/gnome-session/gnome-session-check-accelerated-helper", ["/usr/lib/gnome-session/gnome-session-check-accelerated-helper"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop", "LIBGL_ALWAYS_SOFTWARE=1"]) = 0
+23428 , 2191 , 2191 , gnome-session-c , connect(3<UNIX:[47078]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+23431 , 2191 , 2191 , gnome-session-c , connect(3<UNIX:[47079]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+23510 , 2191 , 2191 , gnome-session-c , write(2<UNIX:[42123->40695]>, "gnome-session-is-accelerated: No composite extension.\n", 54) = 54
+23535 , 2191 , 2191 , gnome-session-c , exit_group(1) = ?
+23546 , 2155 , 2155 , gnome-session-c , write(2<UNIX:[42123->40695]>, "gnome-session-check-accelerated: Helper exited with code 256\n", 61) = 61
+23575 , 2155 , 2155 , gnome-session-c , exit_group(1) = ?
+23642 , 1998 , 1998 , gnome-session-b , writev(2<UNIX:[42123->40695]>, [{"gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1\n", 106}], 1) = 106
+23646 , 1998 , 1998 , gnome-session-b , connect(9<UNIX:[51912]>, {sa_family=AF_LOCAL, sun_path="/dev/log"}, 110) = 0
+23655 , 1998 , 1998 , gnome-session-b , writev(2<UNIX:[42123->40695]>, [{"gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....\n", 87}], 1) = 87
+23661 , 1998 , 1998 , gnome-session-b , exit_group(1) = ?
+23743 , 2008 , 2005 , xrdp-chansrv , exit(0) = ?
+23771 , 2005 , 2005 , xrdp-chansrv , exit_group(0) = ?
+23813 , 2125 , 2125 , at-spi2-registr , write(2<UNIX:[42792->42870]>, "XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server \":10.0\"\r\n", 80) = 80
+23814 , 2125 , 2125 , at-spi2-registr , write(2<UNIX:[42792->42870]>, "      after 11 requests (11 known processed) with 0 events remaining.\r\n", 71) = 71
+23818 , 2125 , 2125 , at-spi2-registr , exit_group(1) = ?
+23881 , 2094 , 2094 , at-spi-bus-laun , connect(10<UNIX:[52009]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+23891 , 2094 , 2094 , at-spi-bus-laun , connect(10<UNIX:[52056]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+23894 , 2115 , 2115 , dbus-daemon , exit_group(0) = ?
+23900 , 2053 , 2053 , dbus-daemon , exit_group(0) = ?
+23947 , 1999 , 1999 , Xvnc , exit_group(0) = ?
+23954 , 2094 , 2094 , at-spi-bus-laun , exit_group(0) = ?
+23975 , 1948 , 1948 , xrdp-sessvc , exit_group(0) = ?
+24015 , 1938 , 1453 , xrdp , exit(0)    = ?
+24046 , 2045 , 2045 , ssh-agent , exit_group(2) = ?
+24049 , 2052 , 2052 , dbus-launch , exit_group(0) = ?

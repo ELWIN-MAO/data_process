@@ -1,0 +1,15 @@
+1710 , 1303 , 1303 , whoopsie , restart_syscall(<... resuming interrupted restart_syscall ...>) = 1
+1736 , 1303 , 1303 , whoopsie , futex(0x11d7c00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1738 , 1303 , 1303 , whoopsie , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1740 , 1303 , 1303 , whoopsie , futex(0x11d7c00, FUTEX_WAKE_PRIVATE, 1) = 0
+1743 , 1303 , 1303 , whoopsie , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[18342]>, events=POLLIN}], 2, 6803798) = 1 ([{fd=7, revents=POLLIN}])
+1769 , 1303 , 1303 , whoopsie , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1772 , 1303 , 1303 , whoopsie , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[18342]>, events=POLLIN}], 2, 6803796) = 1 ([{fd=7, revents=POLLIN}])
+2632 , 1303 , 1303 , whoopsie , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2641 , 1303 , 1303 , whoopsie , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[18342]>, events=POLLIN}], 2, 6803455) = 1 ([{fd=7, revents=POLLIN}])
+2832 , 1303 , 1303 , whoopsie , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2836 , 1303 , 1303 , whoopsie , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[18342]>, events=POLLIN}], 2, 6803437) = 1 ([{fd=7, revents=POLLIN}])
+24320 , 1303 , 1303 , whoopsie , futex(0x11d7c00, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+24322 , 1303 , 1303 , whoopsie , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+24324 , 1303 , 1303 , whoopsie , futex(0x11d7c00, FUTEX_WAKE_PRIVATE, 1) = 0
+24327 , 1303 , 1303 , whoopsie , poll([{fd=7<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[18342]>, events=POLLIN}], 2, 6789944 <detached ...>

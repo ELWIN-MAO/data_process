@@ -1,0 +1,302 @@
+5508 , 2034 , 2034 , startwm.sh , close(12</etc/X11/Xsession.d/60xbrlapi>) = 0
+5510 , 2034 , 2034 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+5512 , 2034 , 2034 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+5514 , 2034 , 2034 , startwm.sh , rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f08deb544b0}, {0x5591e3cc2200, ~[KILL STOP RTMIN RT_1], SA_RESTORER, 0x7f08deb544b0}, 8) = 0
+5516 , 2034 , 2034 , startwm.sh , rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f08deb544b0}, {SIG_DFL, ~[KILL STOP RTMIN RT_1], SA_RESTORER, 0x7f08deb544b0}, 8) = 0
+5518 , 2034 , 2034 , startwm.sh , close(0</dev/null>) = 0
+5520 , 2034 , 2034 , startwm.sh , open("/dev/null", O_RDONLY) = 0</dev/null>
+5521 , 2034 , 2034 , startwm.sh , execve("/usr/bin/xbrlapi", ["/usr/bin/xbrlapi", "-q"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5525 , 2034 , 2034 , xbrlapi , brk(NULL) = 0x11a9000
+5527 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5530 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5532 , 2034 , 2034 , xbrlapi , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+5534 , 2034 , 2034 , xbrlapi , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+5535 , 2034 , 2034 , xbrlapi , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f4079bca000
+5537 , 2034 , 2034 , xbrlapi , close(8</etc/ld.so.cache>) = 0
+5539 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5541 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+5543 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+5545 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980938, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2018/02/01-09:31:23, st_ctime=2018/02/06-03:28:03.228028294}) = 0
+5547 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079bc9000
+5549 , 2034 , 2034 , xbrlapi , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7f4079b44000
+5551 , 2034 , 2034 , xbrlapi , mmap(0x7f4079bc4000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7f4079bc4000
+5553 , 2034 , 2034 , xbrlapi , mmap(0x7f4079bc8000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4079bc8000
+5556 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+5558 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5560 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libbrlapi.so.0.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>
+5562 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300@\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\261\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\324\227\0\0\0\0\0\0\324\227\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\232\0\0\0\0\0\0\350\232 \0\0\0\0\0\350\232 \0\0\0\0\0\310\25\0\0\0\0\0\0\360!\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\0\253\0\0\0\0\0\0\0\253 \0\0\0\0\0"..., 832) = 832
+5564 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>, {st_dev=makedev(8, 1), st_ino=4980826, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47160, st_atime=2018/05/02-02:17:57.613189461, st_mtime=2016/04/28-04:45:53, st_ctime=2018/01/24-23:47:36.097236828}) = 0
+5566 , 2034 , 2034 , xbrlapi , mmap(NULL, 2145496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>, 0) = 0x7f40797bb000
+5568 , 2034 , 2034 , xbrlapi , mprotect(0x7f40797c5000, 2093056, PROT_NONE) = 0
+5570 , 2034 , 2034 , xbrlapi , mmap(0x7f40799c4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>, 0x9000) = 0x7f40799c4000
+5572 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libbrlapi.so.0.6.4>) = 0
+5574 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5576 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libXtst.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>
+5578 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\24\0\0\0\0\0\0@\0\0\0\0\0\0\0\340R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344I\0\0\0\0\0\0\344I\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310M\0\0\0\0\0\0\310M \0\0\0\0\0\310M \0\0\0\0\0\30\4\0\0\0\0\0\0p\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340M\0\0\0\0\0\0\340M \0\0\0\0\0"..., 832) = 832
+5580 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, {st_dev=makedev(8, 1), st_ino=4465268, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22880, st_atime=2018/05/02-02:17:57.633189691, st_mtime=2013/08/16-03:48:39, st_ctime=2016/11/03-10:38:38.811999888}) = 0
+5582 , 2034 , 2034 , xbrlapi , mmap(NULL, 2118200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, 0) = 0x7f40795b5000
+5583 , 2034 , 2034 , xbrlapi , mprotect(0x7f40795ba000, 2093056, PROT_NONE) = 0
+5586 , 2034 , 2034 , xbrlapi , mmap(0x7f40797b9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>, 0x4000) = 0x7f40797b9000
+5588 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0>) = 0
+5590 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5592 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+5594 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+5596 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2018/05/01-11:56:20.266057803, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+5598 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b43000
+5600 , 2034 , 2034 , xbrlapi , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f407927b000
+5602 , 2034 , 2034 , xbrlapi , mprotect(0x7f40793b0000, 2097152, PROT_NONE) = 0
+5604 , 2034 , 2034 , xbrlapi , mmap(0x7f40795b0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f40795b0000
+5606 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+5608 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5610 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libicuuc.so.55", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>
+5612 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320T\5\0\0\0\0\0@\0\0\0\0\0\0\0H\361\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0)\347\27\0\0\0\0\0)\347\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\363\27\0\0\0\0\0\350\3637\0\0\0\0\0\350\3637\0\0\0\0\0,\374\0\0\0\0\0\0008G\1\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340\352\30\0\0\0\0\0\340\3528\0\0\0\0\0"..., 832) = 832
+5614 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, {st_dev=makedev(8, 1), st_ino=4469810, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3200, st_size=1636360, st_atime=2018/05/01-23:02:05.008541707, st_mtime=2018/03/27-11:44:08, st_ctime=2018/03/30-03:07:28.648276894}) = 0
+5616 , 2034 , 2034 , xbrlapi , mmap(NULL, 3750688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, 0) = 0x7f4078ee7000
+5618 , 2034 , 2034 , xbrlapi , mprotect(0x7f4079066000, 2097152, PROT_NONE) = 0
+5620 , 2034 , 2034 , xbrlapi , mmap(0x7f4079266000, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>, 0x17f000) = 0x7f4079266000
+5622 , 2034 , 2034 , xbrlapi , mmap(0x7f4079277000, 15136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4079277000
+5625 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libicuuc.so.55.1>) = 0
+5627 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5629 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+5631 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+5633 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5635 , 2034 , 2034 , xbrlapi , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f4078ce3000
+5637 , 2034 , 2034 , xbrlapi , mprotect(0x7f4078ce6000, 2093056, PROT_NONE) = 0
+5639 , 2034 , 2034 , xbrlapi , mmap(0x7f4078ee5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f4078ee5000
+5641 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+5643 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5645 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+5647 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+5649 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002062, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:34, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5651 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b42000
+5653 , 2034 , 2034 , xbrlapi , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f4078ac6000
+5655 , 2034 , 2034 , xbrlapi , mprotect(0x7f4078ade000, 2093056, PROT_NONE) = 0
+5657 , 2034 , 2034 , xbrlapi , mmap(0x7f4078cdd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f4078cdd000
+5662 , 2034 , 2034 , xbrlapi , mmap(0x7f4078cdf000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4078cdf000
+5663 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+5666 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5669 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+5671 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+5673 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5675 , 2034 , 2034 , xbrlapi , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f40786fc000
+5677 , 2034 , 2034 , xbrlapi , mprotect(0x7f40788bc000, 2097152, PROT_NONE) = 0
+5680 , 2034 , 2034 , xbrlapi , mmap(0x7f4078abc000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f4078abc000
+5682 , 2034 , 2034 , xbrlapi , mmap(0x7f4078ac2000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4078ac2000
+5684 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+5687 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5689 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libselinux.so.1>
+5691 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+5693 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+5695 , 2034 , 2034 , xbrlapi , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f40784da000
+5697 , 2034 , 2034 , xbrlapi , mprotect(0x7f40784f9000, 2093056, PROT_NONE) = 0
+5699 , 2034 , 2034 , xbrlapi , mmap(0x7f40786f8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f40786f8000
+5702 , 2034 , 2034 , xbrlapi , mmap(0x7f40786fa000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f40786fa000
+5704 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+5706 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5708 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/librt-2.23.so>
+5710 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+5712 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002081, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5714 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b41000
+5716 , 2034 , 2034 , xbrlapi , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7f40782d2000
+5718 , 2034 , 2034 , xbrlapi , mprotect(0x7f40782d9000, 2093056, PROT_NONE) = 0
+5720 , 2034 , 2034 , xbrlapi , mmap(0x7f40784d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7f40784d8000
+5723 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+5725 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5727 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+5729 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+5731 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+5733 , 2034 , 2034 , xbrlapi , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f40780b0000
+5735 , 2034 , 2034 , xbrlapi , mprotect(0x7f40780d1000, 2093056, PROT_NONE) = 0
+5737 , 2034 , 2034 , xbrlapi , mmap(0x7f40782d0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f40782d0000
+5740 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+5741 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5743 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+5745 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+5747 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+5749 , 2034 , 2034 , xbrlapi , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f4077dcf000
+5751 , 2034 , 2034 , xbrlapi , mprotect(0x7f4077ea7000, 2093056, PROT_NONE) = 0
+5753 , 2034 , 2034 , xbrlapi , mmap(0x7f40780a6000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f40780a6000
+5756 , 2034 , 2034 , xbrlapi , mmap(0x7f40780af000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f40780af000
+5758 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+5760 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5762 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>
+5764 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2205\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\30\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\6\1\0\0\0\0\0\334\6\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\r\1\0\0\0\0\0x\r!\0\0\0\0\0x\r!\0\0\0\0\0`\n\0\0\0\0\0\0 \r\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\r\1\0\0\0\0\0\270\r!\0\0\0\0\0"..., 832) = 832
+5766 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_dev=makedev(8, 1), st_ino=4465242, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=144, st_size=73640, st_atime=2018/05/01-11:56:20.378054365, st_mtime=2014/10/25-03:10:22, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+5768 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b40000
+5770 , 2034 , 2034 , xbrlapi , mmap(NULL, 2169496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7f4077bbd000
+5772 , 2034 , 2034 , xbrlapi , mprotect(0x7f4077bce000, 2093056, PROT_NONE) = 0
+5774 , 2034 , 2034 , xbrlapi , mmap(0x7f4077dcd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7f4077dcd000
+5776 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+5778 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5780 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+5782 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+5784 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2018/05/01-11:56:20.378054365, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+5786 , 2034 , 2034 , xbrlapi , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f407799b000
+5788 , 2034 , 2034 , xbrlapi , mprotect(0x7f40779bc000, 2093056, PROT_NONE) = 0
+5790 , 2034 , 2034 , xbrlapi , mmap(0x7f4077bbb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f4077bbb000
+5792 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+5794 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5796 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libicudata.so.55", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>
+5798 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\5\0\0\0\0\0\0@\0\0\0\0\0\0\0\20a\213\1\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\30\0\27\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4[\213\1\0\0\0\0\4[\213\1\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\330]\213\1\0\0\0\0\330]\253\1\0\0\0\0\330]\253\1\0\0\0\0000\2\0\0\0\0\0\0008\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\360]\213\1\0\0\0\0\360]\253\1\0\0\0\0"..., 832) = 832
+5800 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, {st_dev=makedev(8, 1), st_ino=4469804, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=50616, st_size=25913104, st_atime=2018/05/01-23:02:05.008541707, st_mtime=2018/03/27-11:44:06, st_ctime=2018/03/30-03:07:28.648276894}) = 0
+5803 , 2034 , 2034 , xbrlapi , mmap(NULL, 28008464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, 0) = 0x7f4075ee4000
+5804 , 2034 , 2034 , xbrlapi , mprotect(0x7f407779a000, 2093056, PROT_NONE) = 0
+5806 , 2034 , 2034 , xbrlapi , mmap(0x7f4077999000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>, 0x18b5000) = 0x7f4077999000
+5808 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libicudata.so.55.1>) = 0
+5810 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5812 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+5814 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+5816 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4462028, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2018/02/05-23:21:12, st_ctime=2018/02/06-03:28:43.496029929}) = 0
+5818 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b3f000
+5821 , 2034 , 2034 , xbrlapi , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7f4075b62000
+5823 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075cd4000, 2097152, PROT_NONE) = 0
+5824 , 2034 , 2034 , xbrlapi , mmap(0x7f4075ed4000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7f4075ed4000
+5826 , 2034 , 2034 , xbrlapi , mmap(0x7f4075ee0000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4075ee0000
+5829 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+5831 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5832 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libm-2.23.so>
+5834 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+5836 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4985577, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2018/05/01-11:43:26.553186931, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5838 , 2034 , 2034 , xbrlapi , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f4075859000
+5840 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075961000, 2093056, PROT_NONE) = 0
+5842 , 2034 , 2034 , xbrlapi , mmap(0x7f4075b60000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f4075b60000
+5845 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+5847 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5848 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgcc_s.so.1>
+5850 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+5852 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+5854 , 2034 , 2034 , xbrlapi , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f4075643000
+5856 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075659000, 2093056, PROT_NONE) = 0
+5858 , 2034 , 2034 , xbrlapi , mmap(0x7f4075858000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f4075858000
+5860 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+5862 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5864 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+5866 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+5868 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+5870 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b3e000
+5872 , 2034 , 2034 , xbrlapi , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f40753d3000
+5873 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075441000, 2097152, PROT_NONE) = 0
+5875 , 2034 , 2034 , xbrlapi , mmap(0x7f4075641000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f4075641000
+5877 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+5879 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5881 , 2034 , 2034 , xbrlapi , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+5883 , 2034 , 2034 , xbrlapi , read(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+5885 , 2034 , 2034 , xbrlapi , fstat(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2018/05/01-11:47:42.173065203, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+5887 , 2034 , 2034 , xbrlapi , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f40751bf000
+5889 , 2034 , 2034 , xbrlapi , mprotect(0x7f40751d1000, 2097152, PROT_NONE) = 0
+5891 , 2034 , 2034 , xbrlapi , mmap(0x7f40753d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f40753d1000
+5892 , 2034 , 2034 , xbrlapi , close(8</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+5894 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5897 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+5899 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+5901 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2018/05/01-11:56:20.426052892, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+5903 , 2034 , 2034 , xbrlapi , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f4074fbb000
+5906 , 2034 , 2034 , xbrlapi , mprotect(0x7f4074fbd000, 2097152, PROT_NONE) = 0
+5908 , 2034 , 2034 , xbrlapi , mmap(0x7f40751bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f40751bd000
+5910 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+5913 , 2034 , 2034 , xbrlapi , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5915 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b3d000
+5917 , 2034 , 2034 , xbrlapi , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+5920 , 2034 , 2034 , xbrlapi , read(8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+5922 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2018/05/01-11:56:20.434052646, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+5925 , 2034 , 2034 , xbrlapi , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f4074db5000
+5927 , 2034 , 2034 , xbrlapi , mprotect(0x7f4074dba000, 2093056, PROT_NONE) = 0
+5929 , 2034 , 2034 , xbrlapi , mmap(0x7f4074fb9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f4074fb9000
+5930 , 2034 , 2034 , xbrlapi , close(8</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+5933 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b3c000
+5934 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b3b000
+5936 , 2034 , 2034 , xbrlapi , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b39000
+5939 , 2034 , 2034 , xbrlapi , arch_prctl(ARCH_SET_FS, 0x7f4079b398c0) = 0
+5941 , 2034 , 2034 , xbrlapi , mprotect(0x7f4078abc000, 16384, PROT_READ) = 0
+5943 , 2034 , 2034 , xbrlapi , mprotect(0x7f4074fb9000, 4096, PROT_READ) = 0
+5946 , 2034 , 2034 , xbrlapi , mprotect(0x7f40751bd000, 4096, PROT_READ) = 0
+5948 , 2034 , 2034 , xbrlapi , mprotect(0x7f40753d1000, 4096, PROT_READ) = 0
+5950 , 2034 , 2034 , xbrlapi , mprotect(0x7f4078cdd000, 4096, PROT_READ) = 0
+5952 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075641000, 4096, PROT_READ) = 0
+5954 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075b60000, 4096, PROT_READ) = 0
+5957 , 2034 , 2034 , xbrlapi , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4079b38000
+5959 , 2034 , 2034 , xbrlapi , mprotect(0x7f4075ed4000, 40960, PROT_READ) = 0
+5963 , 2034 , 2034 , xbrlapi , mprotect(0x7f4077999000, 4096, PROT_READ) = 0
+5966 , 2034 , 2034 , xbrlapi , mprotect(0x7f4077bbb000, 4096, PROT_READ) = 0
+5968 , 2034 , 2034 , xbrlapi , mprotect(0x7f4078ee5000, 4096, PROT_READ) = 0
+5970 , 2034 , 2034 , xbrlapi , mprotect(0x7f40795b0000, 4096, PROT_READ) = 0
+5972 , 2034 , 2034 , xbrlapi , mprotect(0x7f4077dcd000, 4096, PROT_READ) = 0
+5974 , 2034 , 2034 , xbrlapi , mprotect(0x7f40780a6000, 4096, PROT_READ) = 0
+5976 , 2034 , 2034 , xbrlapi , mprotect(0x7f40782d0000, 4096, PROT_READ) = 0
+5978 , 2034 , 2034 , xbrlapi , mprotect(0x7f40784d8000, 4096, PROT_READ) = 0
+5981 , 2034 , 2034 , xbrlapi , mprotect(0x7f40786f8000, 4096, PROT_READ) = 0
+5985 , 2034 , 2034 , xbrlapi , mprotect(0x7f4079266000, 65536, PROT_READ) = 0
+5987 , 2034 , 2034 , xbrlapi , mprotect(0x7f40797b9000, 4096, PROT_READ) = 0
+5990 , 2034 , 2034 , xbrlapi , mprotect(0x7f40799c4000, 8192, PROT_READ) = 0
+5995 , 2034 , 2034 , xbrlapi , mprotect(0x7f4079bc4000, 12288, PROT_READ) = 0
+5997 , 2034 , 2034 , xbrlapi , mprotect(0x622000, 4096, PROT_READ) = 0
+6000 , 2034 , 2034 , xbrlapi , mprotect(0x7f4079bec000, 4096, PROT_READ) = 0
+6002 , 2034 , 2034 , xbrlapi , munmap(0x7f4079bca000, 136504) = 0
+6004 , 2034 , 2034 , xbrlapi , set_tid_address(0x7f4079b39b90) = 2034
+6006 , 2034 , 2034 , xbrlapi , set_robust_list(0x7f4079b39ba0, 24) = 0
+6008 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGRTMIN, {0x7f4078acbb50, [], SA_RESTORER|SA_SIGINFO, 0x7f4078ad7390}, NULL, 8) = 0
+6010 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGRT_1, {0x7f4078acbbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f4078ad7390}, NULL, 8) = 0
+6012 , 2034 , 2034 , xbrlapi , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+6014 , 2034 , 2034 , xbrlapi , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+6018 , 2034 , 2034 , xbrlapi , brk(NULL) = 0x11a9000
+6021 , 2034 , 2034 , xbrlapi , brk(0x11ca000) = 0x11ca000
+6025 , 2034 , 2034 , xbrlapi , statfs("/sys/fs/selinux", 0x7ffff2c25d50) = -1 ENOENT (No such file or directory)
+6028 , 2034 , 2034 , xbrlapi , statfs("/selinux", 0x7ffff2c25d50) = -1 ENOENT (No such file or directory)
+6031 , 2034 , 2034 , xbrlapi , open("/proc/filesystems", O_RDONLY) = 8</proc/filesystems>
+6033 , 2034 , 2034 , xbrlapi , fstat(8</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:08.988730726, st_mtime=2018/05/02-03:53:08.988730726, st_ctime=2018/05/02-03:53:08.988730726}) = 0
+6034 , 2034 , 2034 , xbrlapi , read(8</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+6036 , 2034 , 2034 , xbrlapi , read(8</proc/filesystems>, "", 1024) = 0
+6038 , 2034 , 2034 , xbrlapi , close(8</proc/filesystems>) = 0
+6041 , 2034 , 2034 , xbrlapi , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+6043 , 2034 , 2034 , xbrlapi , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+6047 , 2034 , 2034 , xbrlapi , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f4074add000
+6052 , 2034 , 2034 , xbrlapi , close(8</usr/lib/locale/locale-archive>) = 0
+6058 , 2034 , 2034 , xbrlapi , readlink("/proc/self/exe", "/usr/bin/xbrlapi", 256) = 16
+6063 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGTERM, {0x4091a0, [TERM], SA_RESTORER|SA_RESTART, 0x7f40787314b0}, {SIG_DFL, [], 0}, 8) = 0
+6067 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGINT, {0x4091a0, [INT], SA_RESTORER|SA_RESTART, 0x7f40787314b0}, {SIG_IGN, [], 0}, 8) = 0
+6076 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGHUP, {0x4091a0, [HUP], SA_RESTORER|SA_RESTART, 0x7f40787314b0}, {SIG_DFL, [], 0}, 8) = 0
+6081 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGQUIT, {0x4091a0, [QUIT], SA_RESTORER|SA_RESTART, 0x7f40787314b0}, {SIG_IGN, [], 0}, 8) = 0
+6086 , 2034 , 2034 , xbrlapi , rt_sigaction(SIGPIPE, {0x4091a0, [PIPE], SA_RESTORER|SA_RESTART, 0x7f40787314b0}, {SIG_DFL, [], 0}, 8) = 0
+6090 , 2034 , 2034 , xbrlapi , socket(PF_LOCAL, SOCK_STREAM, 0) = 8<UNIX:[40527]>
+6097 , 2034 , 2034 , xbrlapi , connect(8<UNIX:[40527]>, {sa_family=AF_LOCAL, sun_path="/var/lib/BrlAPI/0"}, 110) = -1 ENOENT (No such file or directory)
+6103 , 2034 , 2034 , xbrlapi , futex(0x7f40799c6360, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+6107 , 2034 , 2034 , xbrlapi , close(8<UNIX:[40527]>) = 0
+6114 , 2034 , 2034 , xbrlapi , socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 8<TCP:[40528]>
+6120 , 2034 , 2034 , xbrlapi , connect(8<TCP:[40528]>, {sa_family=AF_INET, sin_port=htons(4101), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 ECONNREFUSED (Connection refused)
+6124 , 2034 , 2034 , xbrlapi , close(8<TCP:[40528]>) = 0
+6126 , 2034 , 2034 , xbrlapi , socket(PF_INET6, SOCK_STREAM, IPPROTO_TCP) = 8<TCPv6:[40529]>
+6128 , 2034 , 2034 , xbrlapi , connect(8<TCPv6:[40529]>, {sa_family=AF_INET6, sin6_port=htons(4101), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ECONNREFUSED (Connection refused)
+6130 , 2034 , 2034 , xbrlapi , close(8<TCPv6:[40529]>) = 0
+6133 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 8</etc/locale.alias>
+6136 , 2034 , 2034 , xbrlapi , fstat(8</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2018/05/01-11:43:15.149778010, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+6138 , 2034 , 2034 , xbrlapi , read(8</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+6140 , 2034 , 2034 , xbrlapi , read(8</etc/locale.alias>, "", 4096) = 0
+6142 , 2034 , 2034 , xbrlapi , close(8</etc/locale.alias>) = 0
+6144 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6146 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6148 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6150 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6152 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en.utf8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6154 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6156 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6158 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6161 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6163 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6165 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6167 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en/LC_MESSAGES/brltty.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6169 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6171 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6173 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6175 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6177 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6180 , 2034 , 2034 , xbrlapi , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6182 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6184 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6187 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6190 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6192 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6193 , 2034 , 2034 , xbrlapi , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+6197 , 2034 , 2034 , xbrlapi , write(2</home/elwin/.xsession-errors>, "openConnection: connect: No such file or directory\n", 51) = 51
+6198 , 2034 , 2034 , xbrlapi , write(2</home/elwin/.xsession-errors>, "cannot connect to brltty at :0\n", 31) = 31
+6201 , 2034 , 2034 , xbrlapi , exit_group(4) = ?
+6204 , 2034 , 2034 , xbrlapi , +++ exited with 4 +++

@@ -1,0 +1,50 @@
+2893 , 2003 , 2003 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+2896 , 2003 , 2003 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+2898 , 2003 , 2003 , startwm.sh , close(8<pipe:[40232]>) = 0
+2900 , 2003 , 2003 , startwm.sh , dup2(9<pipe:[40232]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[40232]>
+2903 , 2003 , 2003 , startwm.sh , close(9<pipe:[40232]>) = 0
+2905 , 2003 , 2003 , startwm.sh , stat("/bin/date", {st_dev=makedev(8, 1), st_ino=4732786, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=136, st_size=68464, st_atime=2018/05/01-11:47:42.349063781, st_mtime=2017/03/02-13:07:22, st_ctime=2018/01/24-23:47:00.749746831}) = 0
+2908 , 2003 , 2003 , startwm.sh , execve("/bin/date", ["date"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+2912 , 2003 , 2003 , date , brk(NULL)   = 0x121e000
+2914 , 2003 , 2003 , date , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2916 , 2003 , 2003 , date , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2918 , 2003 , 2003 , date , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+2920 , 2003 , 2003 , date , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+2922 , 2003 , 2003 , date , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f1314c9a000
+2924 , 2003 , 2003 , date , close(8</etc/ld.so.cache>) = 0
+2926 , 2003 , 2003 , date , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2928 , 2003 , 2003 , date , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+2931 , 2003 , 2003 , date , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2933 , 2003 , 2003 , date , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+2935 , 2003 , 2003 , date , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1314c99000
+2938 , 2003 , 2003 , date , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f13146cd000
+2939 , 2003 , 2003 , date , mprotect(0x7f131488d000, 2097152, PROT_NONE) = 0
+2942 , 2003 , 2003 , date , mmap(0x7f1314a8d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f1314a8d000
+2945 , 2003 , 2003 , date , mmap(0x7f1314a93000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1314a93000
+2948 , 2003 , 2003 , date , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+2950 , 2003 , 2003 , date , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1314c98000
+2952 , 2003 , 2003 , date , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1314c97000
+2954 , 2003 , 2003 , date , arch_prctl(ARCH_SET_FS, 0x7f1314c98700) = 0
+2958 , 2003 , 2003 , date , mprotect(0x7f1314a8d000, 16384, PROT_READ) = 0
+2961 , 2003 , 2003 , date , mprotect(0x60f000, 4096, PROT_READ) = 0
+2963 , 2003 , 2003 , date , mprotect(0x7f1314cbc000, 4096, PROT_READ) = 0
+2965 , 2003 , 2003 , date , munmap(0x7f1314c9a000, 136504) = 0
+2968 , 2003 , 2003 , date , brk(NULL)   = 0x121e000
+2970 , 2003 , 2003 , date , brk(0x123f000) = 0x123f000
+2971 , 2003 , 2003 , date , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+2973 , 2003 , 2003 , date , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+2975 , 2003 , 2003 , date , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f13143f5000
+2977 , 2003 , 2003 , date , close(8</usr/lib/locale/locale-archive>) = 0
+2979 , 2003 , 2003 , date , open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 8</usr/share/zoneinfo/posixrules>
+2981 , 2003 , 2003 , date , fstat(8</usr/share/zoneinfo/posixrules>, {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+2983 , 2003 , 2003 , date , fstat(8</usr/share/zoneinfo/posixrules>, {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+2985 , 2003 , 2003 , date , read(8</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\354\0\0\0\5\0\0\0\24\200\0\0\0\236\246\36p\237\272\353`\240\206\0p\241\232\315`\242e\342p\243\203\351\340\244j\256p\2455\247`\246S\312\360\247\25\211`\2503\254\360\250\376\245\340\252\23\216\360\252\336\207\340\253\363p\360\254\276i\340\255\323R\360\256\236K\340\257\2634\360\260~-\340\261\234Qp\262gJ`\263|3p\264G,`\265\\\25p\266'\16`\267;\367p\270\6\360`\271\33\331p\271\346\322`\273\4\365\360\273\306\264`\274\344\327\360\275\257\320\340\276\304\271\360\277\217\262\340\300\244\233\360\301o\224\340"..., 4096) = 3545
+2987 , 2003 , 2003 , date , lseek(8</usr/share/zoneinfo/posixrules>, -2261, SEEK_CUR) = 1284
+2989 , 2003 , 2003 , date , read(8</usr/share/zoneinfo/posixrules>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0\0\0\0\355\0\0\0\5\0\0\0\24\370\0\0\0\0\0\0\0\377\377\377\377^\3\360\220\377\377\377\377\236\246\36p\377\377\377\377\237\272\353`\377\377\377\377\240\206\0p\377\377\377\377\241\232\315`\377\377\377\377\242e\342p\377\377\377\377\243\203\351\340\377\377\377\377\244j\256p\377\377\377\377\2455\247`\377\377\377\377\246S\312\360\377\377\377\377\247\25\211`\377\377\377\377\2503\254\360\377\377\377\377\250\376\245\340\377\377\377\377\252\23\216\360\377\377\377\377\252\336\207\340\377\377\377\377\253\363p\360\377\377\377\377\254\276i\340\377\377\377\377\255\323R\360\377\377\377\377"..., 4096) = 2261
+2991 , 2003 , 2003 , date , close(8</usr/share/zoneinfo/posixrules>) = 0
+2993 , 2003 , 2003 , date , fstat(1<pipe:[40232]>, {st_dev=makedev(0, 10), st_ino=40232, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.976681177, st_mtime=2018/05/02-03:53:07.976681177, st_ctime=2018/05/02-03:53:07.976681177}) = 0
+2995 , 2003 , 2003 , date , write(1<pipe:[40232]>, "Wed May  2 03:53:08 EDT 2018\n", 29) = 29
+2996 , 2003 , 2003 , date , close(1<pipe:[40232]>) = 0
+2999 , 2003 , 2003 , date , close(2</home/elwin/.xsession-errors>) = 0
+3001 , 2003 , 2003 , date , exit_group(0) = ?
+3004 , 2003 , 2003 , date , +++ exited with 0 +++

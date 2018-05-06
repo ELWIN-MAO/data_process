@@ -1,0 +1,98 @@
+8620 , 2065 , 2065 , im-launch , dup2(8<pipe:[40679]>, 0</dev/null>) = 0<pipe:[40679]>
+8624 , 2065 , 2065 , im-launch , close(8<pipe:[40679]>) = 0
+8628 , 2065 , 2065 , im-launch , execve("/bin/sed", ["sed", "-rn", "s/(^|.*:)en_US,([^:]*)($|:.*$)/\\2/p"], ["USER=elwin", "TEXTDOMAIN=im-config", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "IM_CONFIG_PHASE=2", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "TEXTDOMAINDIR=/usr/share/locale/", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+8634 , 2065 , 2065 , sed , brk(NULL)    = 0x1546000
+8636 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8638 , 2065 , 2065 , sed , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+8639 , 2065 , 2065 , sed , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+8641 , 2065 , 2065 , sed , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+8643 , 2065 , 2065 , sed , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f45ad345000
+8645 , 2065 , 2065 , sed , close(8</etc/ld.so.cache>) = 0
+8648 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8650 , 2065 , 2065 , sed , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libselinux.so.1>
+8652 , 2065 , 2065 , sed , read(8</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+8654 , 2065 , 2065 , sed , fstat(8</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+8656 , 2065 , 2065 , sed , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f45ad344000
+8658 , 2065 , 2065 , sed , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f45acf20000
+8659 , 2065 , 2065 , sed , mprotect(0x7f45acf3f000, 2093056, PROT_NONE) = 0
+8661 , 2065 , 2065 , sed , mmap(0x7f45ad13e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f45ad13e000
+8663 , 2065 , 2065 , sed , mmap(0x7f45ad140000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f45ad140000
+8665 , 2065 , 2065 , sed , close(8</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+8667 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8669 , 2065 , 2065 , sed , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+8671 , 2065 , 2065 , sed , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+8673 , 2065 , 2065 , sed , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+8675 , 2065 , 2065 , sed , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f45acb56000
+8677 , 2065 , 2065 , sed , mprotect(0x7f45acd16000, 2097152, PROT_NONE) = 0
+8679 , 2065 , 2065 , sed , mmap(0x7f45acf16000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f45acf16000
+8681 , 2065 , 2065 , sed , mmap(0x7f45acf1c000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f45acf1c000
+8683 , 2065 , 2065 , sed , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+8685 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8686 , 2065 , 2065 , sed , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+8688 , 2065 , 2065 , sed , read(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+8690 , 2065 , 2065 , sed , fstat(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+8692 , 2065 , 2065 , sed , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f45ac8e6000
+8694 , 2065 , 2065 , sed , mprotect(0x7f45ac954000, 2097152, PROT_NONE) = 0
+8696 , 2065 , 2065 , sed , mmap(0x7f45acb54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f45acb54000
+8698 , 2065 , 2065 , sed , close(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+8700 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8702 , 2065 , 2065 , sed , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+8704 , 2065 , 2065 , sed , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+8706 , 2065 , 2065 , sed , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+8708 , 2065 , 2065 , sed , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f45ad343000
+8710 , 2065 , 2065 , sed , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f45ac6e2000
+8712 , 2065 , 2065 , sed , mprotect(0x7f45ac6e5000, 2093056, PROT_NONE) = 0
+8714 , 2065 , 2065 , sed , mmap(0x7f45ac8e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f45ac8e4000
+8716 , 2065 , 2065 , sed , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+8718 , 2065 , 2065 , sed , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8720 , 2065 , 2065 , sed , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+8722 , 2065 , 2065 , sed , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+8724 , 2065 , 2065 , sed , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002062, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:34, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+8726 , 2065 , 2065 , sed , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f45ac4c5000
+8727 , 2065 , 2065 , sed , mprotect(0x7f45ac4dd000, 2093056, PROT_NONE) = 0
+8729 , 2065 , 2065 , sed , mmap(0x7f45ac6dc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f45ac6dc000
+8731 , 2065 , 2065 , sed , mmap(0x7f45ac6de000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f45ac6de000
+8733 , 2065 , 2065 , sed , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+8736 , 2065 , 2065 , sed , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f45ad342000
+8738 , 2065 , 2065 , sed , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f45ad340000
+8740 , 2065 , 2065 , sed , arch_prctl(ARCH_SET_FS, 0x7f45ad340800) = 0
+8742 , 2065 , 2065 , sed , mprotect(0x7f45acf16000, 16384, PROT_READ) = 0
+8745 , 2065 , 2065 , sed , mprotect(0x7f45ac6dc000, 4096, PROT_READ) = 0
+8746 , 2065 , 2065 , sed , mprotect(0x7f45ac8e4000, 4096, PROT_READ) = 0
+8749 , 2065 , 2065 , sed , mprotect(0x7f45acb54000, 4096, PROT_READ) = 0
+8750 , 2065 , 2065 , sed , mprotect(0x7f45ad13e000, 4096, PROT_READ) = 0
+8752 , 2065 , 2065 , sed , mprotect(0x610000, 4096, PROT_READ) = 0
+8754 , 2065 , 2065 , sed , mprotect(0x7f45ad367000, 4096, PROT_READ) = 0
+8756 , 2065 , 2065 , sed , munmap(0x7f45ad345000, 136504) = 0
+8758 , 2065 , 2065 , sed , set_tid_address(0x7f45ad340ad0) = 2065
+8760 , 2065 , 2065 , sed , set_robust_list(0x7f45ad340ae0, 24) = 0
+8762 , 2065 , 2065 , sed , rt_sigaction(SIGRTMIN, {0x7f45ac4cab50, [], SA_RESTORER|SA_SIGINFO, 0x7f45ac4d6390}, NULL, 8) = 0
+8764 , 2065 , 2065 , sed , rt_sigaction(SIGRT_1, {0x7f45ac4cabe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f45ac4d6390}, NULL, 8) = 0
+8766 , 2065 , 2065 , sed , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+8768 , 2065 , 2065 , sed , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+8771 , 2065 , 2065 , sed , statfs("/sys/fs/selinux", 0x7ffcd32feed0) = -1 ENOENT (No such file or directory)
+8773 , 2065 , 2065 , sed , statfs("/selinux", 0x7ffcd32feed0) = -1 ENOENT (No such file or directory)
+8775 , 2065 , 2065 , sed , brk(NULL)    = 0x1546000
+8777 , 2065 , 2065 , sed , brk(0x1567000) = 0x1567000
+8779 , 2065 , 2065 , sed , open("/proc/filesystems", O_RDONLY) = 8</proc/filesystems>
+8781 , 2065 , 2065 , sed , fstat(8</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.524757148, st_mtime=2018/05/02-03:53:09.524757148, st_ctime=2018/05/02-03:53:09.524757148}) = 0
+8783 , 2065 , 2065 , sed , read(8</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+8785 , 2065 , 2065 , sed , read(8</proc/filesystems>, "", 1024) = 0
+8787 , 2065 , 2065 , sed , close(8</proc/filesystems>) = 0
+8789 , 2065 , 2065 , sed , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+8791 , 2065 , 2065 , sed , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+8793 , 2065 , 2065 , sed , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f45ac1ed000
+8794 , 2065 , 2065 , sed , close(8</usr/lib/locale/locale-archive>) = 0
+8797 , 2065 , 2065 , sed , open("//lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+8799 , 2065 , 2065 , sed , open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>
+8801 , 2065 , 2065 , sed , fstat(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_dev=makedev(8, 1), st_ino=4746645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26258, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:49:13, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+8803 , 2065 , 2065 , sed , mmap(NULL, 26258, PROT_READ, MAP_SHARED, 8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f45ad360000
+8805 , 2065 , 2065 , sed , close(8</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+8807 , 2065 , 2065 , sed , futex(0x7f45acf1b8c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8809 , 2065 , 2065 , sed , fstat(0<pipe:[40679]>, {st_dev=makedev(0, 10), st_ino=40679, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.504756162, st_mtime=2018/05/02-03:53:09.508756360, st_ctime=2018/05/02-03:53:09.508756360}) = 0
+8811 , 2065 , 2065 , sed , read(0<pipe:[40679]>, "zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx:ja_JP,fcitx:ko_KR,fcitx:vi_VN,fcitx\n", 4096) = 84
+8815 , 2065 , 2065 , sed , read(0<pipe:[40679]>, "", 4096) = 0
+8817 , 2065 , 2065 , sed , close(1<pipe:[40678]>) = 0
+8819 , 2065 , 2065 , sed , close(2</home/elwin/.xsession-errors>) = 0
+8821 , 2065 , 2065 , sed , exit_group(0) = ?
+8823 , 2065 , 2065 , sed , +++ exited with 0 +++

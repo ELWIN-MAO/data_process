@@ -1,0 +1,637 @@
+10287 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590632544, u64=94849353430112}}], 30, -1) = 1
+10290 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {430, 422569282}) = 0
+10291 , 302 , 302 , systemd-journal , read(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, "gnome-session\n\n6\n0\n0\n0\n0\n", 2048) = 25
+10294 , 302 , 302 , systemd-journal , fstat(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, {st_dev=makedev(0, 8), st_ino=40695, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+10295 , 302 , 302 , systemd-journal , stat("/run/systemd/journal", {st_dev=makedev(0, 19), st_ino=263, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=180, st_atime=2018/05/02-03:46:07.571999840, st_mtime=2018/05/02-03:46:10.423999776, st_ctime=2018/05/02-03:46:10.423999776}) = 0
+10297 , 302 , 302 , systemd-journal , mkdir("/run/systemd/journal/streams", 0755) = -1 EEXIST (File exists)
+10300 , 302 , 302 , systemd-journal , stat("/run/systemd/journal/streams", {st_dev=makedev(0, 19), st_ino=280, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=320, st_atime=2018/05/02-03:46:08.687999815, st_mtime=2018/05/02-03:50:57.583062773, st_ctime=2018/05/02-03:50:57.583062773}) = 0
+10302 , 302 , 302 , systemd-journal , umask(077) = 022
+10304 , 302 , 302 , systemd-journal , open("/run/systemd/journal/streams/.#8:40695erMCxl", O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 26</run/systemd/journal/streams/.#8:40695erMCxl>
+10305 , 302 , 302 , systemd-journal , umask(022) = 077
+10308 , 302 , 302 , systemd-journal , fcntl(26</run/systemd/journal/streams/.#8:40695erMCxl>, F_GETFL) = 0x8002 (flags O_RDWR|O_LARGEFILE)
+10310 , 302 , 302 , systemd-journal , fstat(26</run/systemd/journal/streams/.#8:40695erMCxl>, {st_dev=makedev(0, 19), st_ino=628, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.832772333, st_mtime=2018/05/02-03:53:09.832772333, st_ctime=2018/05/02-03:53:09.832772333}) = 0
+10314 , 302 , 302 , systemd-journal , write(26</run/systemd/journal/streams/.#8:40695erMCxl>, "# This is private data. Do not parse\nPRIORITY=6\nLEVEL_PREFIX=0\nFORWARD_TO_SYSLOG=0\nFORWARD_TO_KMSG=0\nFORWARD_TO_CONSOLE=0\nIDENTIFIER=gnome-session\n", 147) = 147
+10316 , 302 , 302 , systemd-journal , rename("/run/systemd/journal/streams/.#8:40695erMCxl", "/run/systemd/journal/streams/8:40695") = 0
+10319 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[11793->10694]>, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}) = 0
+10322 , 302 , 302 , systemd-journal , close(26</run/systemd/journal/streams/8:40695>) = 0
+10324 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=3590555568, u64=94849353353136}}], 30, -1) = 1
+10326 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {430, 427186515}) = 0
+10328 , 302 , 302 , systemd-journal , sendmsg(14<UNIX:[11793->10694]>, {msg_name(0)=NULL, msg_iov(1)=[{"FDSTORE=1", 9}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>]}], msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 9
+10331 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[11793->10694]>, NULL) = 0
+10334 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590541536, u64=94849353339104}}], 30, -1) = 1
+12345 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 552901609}) = 0
+12347 , 302 , 302 , systemd-journal , accept4(3<UNIX:[10702,"/run/systemd/journal/stdout"]>, NULL, NULL, SOCK_CLOEXEC|SOCK_NONBLOCK) = 26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>
+12349 , 302 , 302 , systemd-journal , getsockopt(26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>, SOL_SOCKET, SO_PEERCRED, {pid=2053, uid=1000, gid=1000}, [12]) = 0
+12351 , 302 , 302 , systemd-journal , shutdown(26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>, SHUT_WR) = 0
+12353 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>, {EPOLLIN, {u32=3590586800, u64=94849353384368}}) = 0
+12355 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590586800, u64=94849353384368}}], 31, -1) = 1
+12357 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 618008442}) = 0
+12359 , 302 , 302 , systemd-journal , read(26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>, "org.a11y.Bus\n\n6\n0\n0\n0\n0\n", 2048) = 24
+12361 , 302 , 302 , systemd-journal , fstat(26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>, {st_dev=makedev(0, 8), st_ino=42384, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+12363 , 302 , 302 , systemd-journal , stat("/run/systemd/journal", {st_dev=makedev(0, 19), st_ino=263, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=180, st_atime=2018/05/02-03:46:07.571999840, st_mtime=2018/05/02-03:46:10.423999776, st_ctime=2018/05/02-03:46:10.423999776}) = 0
+12365 , 302 , 302 , systemd-journal , mkdir("/run/systemd/journal/streams", 0755) = -1 EEXIST (File exists)
+12367 , 302 , 302 , systemd-journal , stat("/run/systemd/journal/streams", {st_dev=makedev(0, 19), st_ino=280, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=340, st_atime=2018/05/02-03:46:08.687999815, st_mtime=2018/05/02-03:53:09.832772333, st_ctime=2018/05/02-03:53:09.832772333}) = 0
+12369 , 302 , 302 , systemd-journal , umask(077) = 022
+12370 , 302 , 302 , systemd-journal , open("/run/systemd/journal/streams/.#8:42384RmbXJ9", O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 28</run/systemd/journal/streams/.#8:42384RmbXJ9>
+12372 , 302 , 302 , systemd-journal , umask(022) = 077
+12373 , 302 , 302 , systemd-journal , fcntl(28</run/systemd/journal/streams/.#8:42384RmbXJ9>, F_GETFL) = 0x8002 (flags O_RDWR|O_LARGEFILE)
+12374 , 302 , 302 , systemd-journal , fstat(28</run/systemd/journal/streams/.#8:42384RmbXJ9>, {st_dev=makedev(0, 19), st_ino=629, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.024831195, st_mtime=2018/05/02-03:53:11.024831195, st_ctime=2018/05/02-03:53:11.024831195}) = 0
+12376 , 302 , 302 , systemd-journal , write(28</run/systemd/journal/streams/.#8:42384RmbXJ9>, "# This is private data. Do not parse\nPRIORITY=6\nLEVEL_PREFIX=0\nFORWARD_TO_SYSLOG=0\nFORWARD_TO_KMSG=0\nFORWARD_TO_CONSOLE=0\nIDENTIFIER=org.a11y.Bus\n", 146) = 146
+12379 , 302 , 302 , systemd-journal , rename("/run/systemd/journal/streams/.#8:42384RmbXJ9", "/run/systemd/journal/streams/8:42384") = 0
+12383 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[11793->10694]>, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}) = 0
+12386 , 302 , 302 , systemd-journal , close(28</run/systemd/journal/streams/8:42384>) = 0
+12388 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590541536, u64=94849353339104}}, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}], 31, -1) = 2
+12389 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 622647028}) = 0
+12396 , 302 , 302 , systemd-journal , sendmsg(14<UNIX:[11793->10694]>, {msg_name(0)=NULL, msg_iov(1)=[{"FDSTORE=1", 9}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [26<UNIX:[42384->42383,"/run/systemd/journal/stdout"]>]}], msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 9
+12406 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[11793->10694]>, NULL) = 0
+12410 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590541536, u64=94849353339104}}], 31, 0) = 1
+12412 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 690211898}) = 0
+12413 , 302 , 302 , systemd-journal , accept4(3<UNIX:[10702,"/run/systemd/journal/stdout"]>, NULL, NULL, SOCK_CLOEXEC|SOCK_NONBLOCK) = 28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>
+12417 , 302 , 302 , systemd-journal , getsockopt(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, SOL_SOCKET, SO_PEERCRED, {pid=2053, uid=1000, gid=1000}, [12]) = 0
+12420 , 302 , 302 , systemd-journal , shutdown(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, SHUT_WR) = 0
+12423 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, {EPOLLIN, {u32=3590590496, u64=94849353388064}}) = 0
+12426 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 32, -1) = 1
+12428 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 692076966}) = 0
+12431 , 302 , 302 , systemd-journal , read(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, "org.a11y.Bus\n\n4\n0\n0\n0\n0\n", 2048) = 24
+12434 , 302 , 302 , systemd-journal , fstat(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, {st_dev=makedev(0, 8), st_ino=42513, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+12436 , 302 , 302 , systemd-journal , stat("/run/systemd/journal", {st_dev=makedev(0, 19), st_ino=263, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=180, st_atime=2018/05/02-03:46:07.571999840, st_mtime=2018/05/02-03:46:10.423999776, st_ctime=2018/05/02-03:46:10.423999776}) = 0
+12439 , 302 , 302 , systemd-journal , mkdir("/run/systemd/journal/streams", 0755) = -1 EEXIST (File exists)
+12442 , 302 , 302 , systemd-journal , stat("/run/systemd/journal/streams", {st_dev=makedev(0, 19), st_ino=280, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=360, st_atime=2018/05/02-03:46:08.687999815, st_mtime=2018/05/02-03:53:11.028831394, st_ctime=2018/05/02-03:53:11.028831394}) = 0
+12444 , 302 , 302 , systemd-journal , umask(077) = 022
+12447 , 302 , 302 , systemd-journal , open("/run/systemd/journal/streams/.#8:42513FvWzgY", O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 32</run/systemd/journal/streams/.#8:42513FvWzgY>
+12449 , 302 , 302 , systemd-journal , umask(022) = 077
+12452 , 302 , 302 , systemd-journal , fcntl(32</run/systemd/journal/streams/.#8:42513FvWzgY>, F_GETFL) = 0x8002 (flags O_RDWR|O_LARGEFILE)
+12454 , 302 , 302 , systemd-journal , fstat(32</run/systemd/journal/streams/.#8:42513FvWzgY>, {st_dev=makedev(0, 19), st_ino=630, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.164838152, st_mtime=2018/05/02-03:53:11.164838152, st_ctime=2018/05/02-03:53:11.164838152}) = 0
+12456 , 302 , 302 , systemd-journal , write(32</run/systemd/journal/streams/.#8:42513FvWzgY>, "# This is private data. Do not parse\nPRIORITY=4\nLEVEL_PREFIX=0\nFORWARD_TO_SYSLOG=0\nFORWARD_TO_KMSG=0\nFORWARD_TO_CONSOLE=0\nIDENTIFIER=org.a11y.Bus\n", 146) = 146
+12459 , 302 , 302 , systemd-journal , rename("/run/systemd/journal/streams/.#8:42513FvWzgY", "/run/systemd/journal/streams/8:42513") = 0
+12461 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[11793->10694]>, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}) = 0
+12463 , 302 , 302 , systemd-journal , close(32</run/systemd/journal/streams/8:42513>) = 0
+12465 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=3590555568, u64=94849353353136}}], 32, -1) = 1
+12468 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {431, 758621573}) = 0
+12470 , 302 , 302 , systemd-journal , sendmsg(14<UNIX:[11793->10694]>, {msg_name(0)=NULL, msg_iov(1)=[{"FDSTORE=1", 9}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>]}], msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 9
+12472 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[11793->10694]>, NULL) = 0
+12474 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 32, -1) = 1
+13997 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 432402740}) = 0
+13999 , 302 , 302 , systemd-journal , read(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, "Activating service name='org.a11y.atspi.Registry'\n", 2048) = 50
+14001 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+14003 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:11 ", 16}, {"org.a11y.Bus", 12}, {"[2053]: ", 8}, {"Activating service name='org.a11y.atspi.Registry'", 49}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2053, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 89
+14006 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 32</proc/2053/cgroup>
+14008 , 302 , 302 , systemd-journal , fstat(32</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14010 , 302 , 302 , systemd-journal , read(32</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+14014 , 302 , 302 , systemd-journal , close(32</proc/2053/cgroup>) = 0
+14016 , 302 , 302 , systemd-journal , open("/proc/2053/comm", O_RDONLY|O_CLOEXEC) = 32</proc/2053/comm>
+14018 , 302 , 302 , systemd-journal , fstat(32</proc/2053/comm>, {st_dev=makedev(0, 4), st_ino=42791, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14020 , 302 , 302 , systemd-journal , read(32</proc/2053/comm>, "dbus-daemon\n", 1024) = 12
+14022 , 302 , 302 , systemd-journal , close(32</proc/2053/comm>) = 0
+14026 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2053/exe", "/usr/bin/dbus-daemon", 99) = 20
+14030 , 302 , 302 , systemd-journal , open("/proc/2053/cmdline", O_RDONLY|O_CLOEXEC) = 32</proc/2053/cmdline>
+14033 , 302 , 302 , systemd-journal , fstat(32</proc/2053/cmdline>, {st_dev=makedev(0, 4), st_ino=42794, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14034 , 302 , 302 , systemd-journal , read(32</proc/2053/cmdline>, "/usr/bin/dbus-daemon\0--fork\0--print-pid\00010\0--print-address\00012\0--session\0", 1024) = 72
+14037 , 302 , 302 , systemd-journal , read(32</proc/2053/cmdline>, "", 1024) = 0
+14043 , 302 , 302 , systemd-journal , close(32</proc/2053/cmdline>) = 0
+14046 , 302 , 302 , systemd-journal , open("/proc/2053/status", O_RDONLY|O_CLOEXEC) = 32</proc/2053/status>
+14052 , 302 , 302 , systemd-journal , fstat(32</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+14062 , 302 , 302 , systemd-journal , fstat(32</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+14069 , 302 , 302 , systemd-journal , read(32</proc/2053/status>, "Name:\tdbus-daemon\nState:\tt (tracing stop)\nTgid:\t2053\nNgid:\t0\nPid:\t2053\nPPid:\t1\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgid:\t"..., 2048) = 992
+14076 , 302 , 302 , systemd-journal , read(32</proc/2053/status>, "", 1024) = 0
+14082 , 302 , 302 , systemd-journal , read(32</proc/2053/status>, "", 3072) = 0
+14087 , 302 , 302 , systemd-journal , close(32</proc/2053/status>) = 0
+14094 , 302 , 302 , systemd-journal , open("/proc/2053/sessionid", O_RDONLY|O_CLOEXEC) = 32</proc/2053/sessionid>
+14096 , 302 , 302 , systemd-journal , fstat(32</proc/2053/sessionid>, {st_dev=makedev(0, 4), st_ino=42867, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.920875719, st_mtime=2018/05/02-03:53:11.920875719, st_ctime=2018/05/02-03:53:11.920875719}) = 0
+14100 , 302 , 302 , systemd-journal , read(32</proc/2053/sessionid>, "4294967295", 1024) = 10
+14103 , 302 , 302 , systemd-journal , read(32</proc/2053/sessionid>, "", 1024) = 0
+14105 , 302 , 302 , systemd-journal , close(32</proc/2053/sessionid>) = 0
+14108 , 302 , 302 , systemd-journal , open("/proc/2053/loginuid", O_RDONLY|O_CLOEXEC) = 32</proc/2053/loginuid>
+14110 , 302 , 302 , systemd-journal , fstat(32</proc/2053/loginuid>, {st_dev=makedev(0, 4), st_ino=42868, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.924875918, st_mtime=2018/05/02-03:53:11.924875918, st_ctime=2018/05/02-03:53:11.924875918}) = 0
+14112 , 302 , 302 , systemd-journal , read(32</proc/2053/loginuid>, "4294967295", 1024) = 10
+14114 , 302 , 302 , systemd-journal , read(32</proc/2053/loginuid>, "", 1024) = 0
+14116 , 302 , 302 , systemd-journal , close(32</proc/2053/loginuid>) = 0
+14118 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 32</proc/2053/cgroup>
+14120 , 302 , 302 , systemd-journal , fstat(32</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14122 , 302 , 302 , systemd-journal , read(32</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+14126 , 302 , 302 , systemd-journal , close(32</proc/2053/cgroup>) = 0
+14128 , 302 , 302 , systemd-journal , fstat(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, {st_dev=makedev(0, 19), st_ino=295, st_mode=S_IFREG|0750, st_nlink=1, st_uid=0, st_gid=101, st_blksize=4096, st_blocks=5080, st_size=2600960, st_atime=2018/05/02-03:46:10.403999777, st_mtime=2018/05/02-03:53:07.712668300, st_ctime=2018/05/02-03:53:07.712668300}) = 0
+14130 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={432, 804808000}}, NULL) = 0
+14132 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590541536, u64=94849353339104}}], 32, -1) = 1
+14135 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 518368001}) = 0
+14137 , 302 , 302 , systemd-journal , accept4(3<UNIX:[10702,"/run/systemd/journal/stdout"]>, NULL, NULL, SOCK_CLOEXEC|SOCK_NONBLOCK) = 32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>
+14139 , 302 , 302 , systemd-journal , getsockopt(32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, SOL_SOCKET, SO_PEERCRED, {pid=2115, uid=1000, gid=1000}, [12]) = 0
+14141 , 302 , 302 , systemd-journal , shutdown(32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, SHUT_WR) = 0
+14143 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, {EPOLLIN, {u32=3590611152, u64=94849353408720}}) = 0
+14145 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590541536, u64=94849353339104}}, {EPOLLIN, {u32=3590611152, u64=94849353408720}}], 33, -1) = 2
+14147 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 519572239}) = 0
+14149 , 302 , 302 , systemd-journal , accept4(3<UNIX:[10702,"/run/systemd/journal/stdout"]>, NULL, NULL, SOCK_CLOEXEC|SOCK_NONBLOCK) = 34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>
+14152 , 302 , 302 , systemd-journal , getsockopt(34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, SOL_SOCKET, SO_PEERCRED, {pid=2115, uid=1000, gid=1000}, [12]) = 0
+14154 , 302 , 302 , systemd-journal , shutdown(34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, SHUT_WR) = 0
+14156 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, {EPOLLIN, {u32=3590556624, u64=94849353354192}}) = 0
+14158 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590611152, u64=94849353408720}}, {EPOLLIN, {u32=3590556624, u64=94849353354192}}], 34, 0) = 2
+14160 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 520846066}) = 0
+14163 , 302 , 302 , systemd-journal , read(32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, "org.a11y.atspi.Registry\n\n6\n0\n0\n0\n0\n", 2048) = 35
+14166 , 302 , 302 , systemd-journal , fstat(32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, {st_dev=makedev(0, 8), st_ino=42869, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+14170 , 302 , 302 , systemd-journal , stat("/run/systemd/journal", {st_dev=makedev(0, 19), st_ino=263, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=180, st_atime=2018/05/02-03:46:07.571999840, st_mtime=2018/05/02-03:46:10.423999776, st_ctime=2018/05/02-03:46:10.423999776}) = 0
+14172 , 302 , 302 , systemd-journal , mkdir("/run/systemd/journal/streams", 0755) = -1 EEXIST (File exists)
+14175 , 302 , 302 , systemd-journal , stat("/run/systemd/journal/streams", {st_dev=makedev(0, 19), st_ino=280, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=380, st_atime=2018/05/02-03:46:08.687999815, st_mtime=2018/05/02-03:53:11.164838152, st_ctime=2018/05/02-03:53:11.164838152}) = 0
+14177 , 302 , 302 , systemd-journal , umask(077) = 022
+14179 , 302 , 302 , systemd-journal , open("/run/systemd/journal/streams/.#8:42869iDV6MO", O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 35</run/systemd/journal/streams/.#8:42869iDV6MO>
+14181 , 302 , 302 , systemd-journal , umask(022) = 077
+14184 , 302 , 302 , systemd-journal , fcntl(35</run/systemd/journal/streams/.#8:42869iDV6MO>, F_GETFL) = 0x8002 (flags O_RDWR|O_LARGEFILE)
+14186 , 302 , 302 , systemd-journal , fstat(35</run/systemd/journal/streams/.#8:42869iDV6MO>, {st_dev=makedev(0, 19), st_ino=631, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.996879495, st_mtime=2018/05/02-03:53:11.996879495, st_ctime=2018/05/02-03:53:11.996879495}) = 0
+14189 , 302 , 302 , systemd-journal , write(35</run/systemd/journal/streams/.#8:42869iDV6MO>, "# This is private data. Do not parse\nPRIORITY=6\nLEVEL_PREFIX=0\nFORWARD_TO_SYSLOG=0\nFORWARD_TO_KMSG=0\nFORWARD_TO_CONSOLE=0\nIDENTIFIER=org.a11y.atspi.Registry\n", 157) = 157
+14193 , 302 , 302 , systemd-journal , rename("/run/systemd/journal/streams/.#8:42869iDV6MO", "/run/systemd/journal/streams/8:42869") = 0
+14196 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[11793->10694]>, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}) = 0
+14198 , 302 , 302 , systemd-journal , close(35</run/systemd/journal/streams/8:42869>) = 0
+14201 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590556624, u64=94849353354192}}, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}], 34, 0) = 2
+14204 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 592901717}) = 0
+14207 , 302 , 302 , systemd-journal , sendmsg(14<UNIX:[11793->10694]>, {msg_name(0)=NULL, msg_iov(1)=[{"FDSTORE=1", 9}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>]}], msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 9
+14210 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[11793->10694]>, NULL) = 0
+14213 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590556624, u64=94849353354192}}], 34, 0) = 1
+14215 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 593918266}) = 0
+14217 , 302 , 302 , systemd-journal , read(34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, "org.a11y.atspi.Registry\n\n4\n0\n0\n0\n0\n", 2048) = 35
+14219 , 302 , 302 , systemd-journal , fstat(34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, {st_dev=makedev(0, 8), st_ino=42870, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+14222 , 302 , 302 , systemd-journal , stat("/run/systemd/journal", {st_dev=makedev(0, 19), st_ino=263, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=180, st_atime=2018/05/02-03:46:07.571999840, st_mtime=2018/05/02-03:46:10.423999776, st_ctime=2018/05/02-03:46:10.423999776}) = 0
+14225 , 302 , 302 , systemd-journal , mkdir("/run/systemd/journal/streams", 0755) = -1 EEXIST (File exists)
+14229 , 302 , 302 , systemd-journal , stat("/run/systemd/journal/streams", {st_dev=makedev(0, 19), st_ino=280, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=400, st_atime=2018/05/02-03:46:08.687999815, st_mtime=2018/05/02-03:53:11.996879495, st_ctime=2018/05/02-03:53:11.996879495}) = 0
+14231 , 302 , 302 , systemd-journal , umask(077) = 022
+14233 , 302 , 302 , systemd-journal , open("/run/systemd/journal/streams/.#8:42870mQPkuF", O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 35</run/systemd/journal/streams/.#8:42870mQPkuF>
+14235 , 302 , 302 , systemd-journal , umask(022) = 077
+14237 , 302 , 302 , systemd-journal , fcntl(35</run/systemd/journal/streams/.#8:42870mQPkuF>, F_GETFL) = 0x8002 (flags O_RDWR|O_LARGEFILE)
+14239 , 302 , 302 , systemd-journal , fstat(35</run/systemd/journal/streams/.#8:42870mQPkuF>, {st_dev=makedev(0, 19), st_ino=632, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.068883092, st_mtime=2018/05/02-03:53:12.068883092, st_ctime=2018/05/02-03:53:12.068883092}) = 0
+14243 , 302 , 302 , systemd-journal , write(35</run/systemd/journal/streams/.#8:42870mQPkuF>, "# This is private data. Do not parse\nPRIORITY=4\nLEVEL_PREFIX=0\nFORWARD_TO_SYSLOG=0\nFORWARD_TO_KMSG=0\nFORWARD_TO_CONSOLE=0\nIDENTIFIER=org.a11y.atspi.Registry\n", 157) = 157
+14245 , 302 , 302 , systemd-journal , rename("/run/systemd/journal/streams/.#8:42870mQPkuF", "/run/systemd/journal/streams/8:42870") = 0
+14249 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 14<UNIX:[11793->10694]>, {EPOLLOUT, {u32=3590555568, u64=94849353353136}}) = 0
+14251 , 302 , 302 , systemd-journal , close(35</run/systemd/journal/streams/8:42870>) = 0
+14253 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLOUT, {u32=3590555568, u64=94849353353136}}], 34, -1) = 1
+14255 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 664533529}) = 0
+14257 , 302 , 302 , systemd-journal , sendmsg(14<UNIX:[11793->10694]>, {msg_name(0)=NULL, msg_iov(1)=[{"FDSTORE=1", 9}], msg_controllen=24, [{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>]}], msg_flags=0}, MSG_DONTWAIT|MSG_NOSIGNAL) = 9
+14261 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 14<UNIX:[11793->10694]>, NULL) = 0
+14263 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 34, -1) = 1
+14913 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 727531601}) = 0
+14916 , 302 , 302 , systemd-journal , ftruncate(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, 2600960) = 0
+14918 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={459, 554808000}}, NULL) = 0
+14921 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 34, 0) = 1
+14923 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 728350855}) = 0
+14925 , 302 , 302 , systemd-journal , read(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, "\n** (process:2094): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files\n", 2048) = 187
+14927 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+14929 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:12 ", 16}, {"org.a11y.Bus", 12}, {"[2053]: ", 8}, {"** (process:2094): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files", 185}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2053, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 225
+14932 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cgroup>
+14935 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14937 , 302 , 302 , systemd-journal , read(35</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+14941 , 302 , 302 , systemd-journal , close(35</proc/2053/cgroup>) = 0
+14954 , 302 , 302 , systemd-journal , open("/proc/2053/comm", O_RDONLY|O_CLOEXEC) = 35</proc/2053/comm>
+14957 , 302 , 302 , systemd-journal , fstat(35</proc/2053/comm>, {st_dev=makedev(0, 4), st_ino=42791, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14968 , 302 , 302 , systemd-journal , read(35</proc/2053/comm>, "dbus-daemon\n", 1024) = 12
+14972 , 302 , 302 , systemd-journal , close(35</proc/2053/comm>) = 0
+14974 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2053/exe", "/usr/bin/dbus-daemon", 99) = 20
+14976 , 302 , 302 , systemd-journal , open("/proc/2053/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cmdline>
+14978 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cmdline>, {st_dev=makedev(0, 4), st_ino=42794, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+14980 , 302 , 302 , systemd-journal , read(35</proc/2053/cmdline>, "/usr/bin/dbus-daemon\0--fork\0--print-pid\00010\0--print-address\00012\0--session\0", 1024) = 72
+14984 , 302 , 302 , systemd-journal , read(35</proc/2053/cmdline>, "", 1024) = 0
+14986 , 302 , 302 , systemd-journal , close(35</proc/2053/cmdline>) = 0
+14988 , 302 , 302 , systemd-journal , open("/proc/2053/status", O_RDONLY|O_CLOEXEC) = 35</proc/2053/status>
+14992 , 302 , 302 , systemd-journal , fstat(35</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+14996 , 302 , 302 , systemd-journal , fstat(35</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+14998 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "Name:\tdbus-daemon\nState:\tS (sleeping)\nTgid:\t2053\nNgid:\t0\nPid:\t2053\nPPid:\t1\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgid:\t2053"..., 2048) = 988
+15001 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "", 1024) = 0
+15005 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "", 3072) = 0
+15007 , 302 , 302 , systemd-journal , close(35</proc/2053/status>) = 0
+15010 , 302 , 302 , systemd-journal , open("/proc/2053/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/2053/sessionid>
+15018 , 302 , 302 , systemd-journal , fstat(35</proc/2053/sessionid>, {st_dev=makedev(0, 4), st_ino=42867, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.920875719, st_mtime=2018/05/02-03:53:11.920875719, st_ctime=2018/05/02-03:53:11.920875719}) = 0
+15025 , 302 , 302 , systemd-journal , read(35</proc/2053/sessionid>, "4294967295", 1024) = 10
+15028 , 302 , 302 , systemd-journal , read(35</proc/2053/sessionid>, "", 1024) = 0
+15031 , 302 , 302 , systemd-journal , close(35</proc/2053/sessionid>) = 0
+15032 , 302 , 302 , systemd-journal , open("/proc/2053/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/2053/loginuid>
+15036 , 302 , 302 , systemd-journal , fstat(35</proc/2053/loginuid>, {st_dev=makedev(0, 4), st_ino=42868, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.924875918, st_mtime=2018/05/02-03:53:11.924875918, st_ctime=2018/05/02-03:53:11.924875918}) = 0
+15038 , 302 , 302 , systemd-journal , read(35</proc/2053/loginuid>, "4294967295", 1024) = 10
+15040 , 302 , 302 , systemd-journal , read(35</proc/2053/loginuid>, "", 1024) = 0
+15042 , 302 , 302 , systemd-journal , close(35</proc/2053/loginuid>) = 0
+15043 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cgroup>
+15047 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+15049 , 302 , 302 , systemd-journal , read(35</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15052 , 302 , 302 , systemd-journal , close(35</proc/2053/cgroup>) = 0
+15063 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={433, 54808000}}, NULL) = 0
+15065 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 34, -1) = 1
+15353 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 987660005}) = 0
+15358 , 302 , 302 , systemd-journal , ftruncate(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, 2600960) = 0
+15364 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={459, 554808000}}, NULL) = 0
+15370 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590590496, u64=94849353388064}}], 34, 0) = 1
+15376 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {432, 990852070}) = 0
+15377 , 302 , 302 , systemd-journal , read(28<UNIX:[42513->43750,"/run/systemd/journal/stdout"]>, "Successfully activated service 'org.a11y.atspi.Registry'\n", 2048) = 57
+15381 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+15387 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:12 ", 16}, {"org.a11y.Bus", 12}, {"[2053]: ", 8}, {"Successfully activated service 'org.a11y.atspi.Registry'", 56}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2053, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 96
+15391 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cgroup>
+15400 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+15401 , 302 , 302 , systemd-journal , read(35</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15404 , 302 , 302 , systemd-journal , close(35</proc/2053/cgroup>) = 0
+15407 , 302 , 302 , systemd-journal , open("/proc/2053/comm", O_RDONLY|O_CLOEXEC) = 35</proc/2053/comm>
+15412 , 302 , 302 , systemd-journal , fstat(35</proc/2053/comm>, {st_dev=makedev(0, 4), st_ino=42791, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+15415 , 302 , 302 , systemd-journal , read(35</proc/2053/comm>, "dbus-daemon\n", 1024) = 12
+15418 , 302 , 302 , systemd-journal , close(35</proc/2053/comm>) = 0
+15420 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2053/exe", "/usr/bin/dbus-daemon", 99) = 20
+15422 , 302 , 302 , systemd-journal , open("/proc/2053/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cmdline>
+15425 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cmdline>, {st_dev=makedev(0, 4), st_ino=42794, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+15427 , 302 , 302 , systemd-journal , read(35</proc/2053/cmdline>, "/usr/bin/dbus-daemon\0--fork\0--print-pid\00010\0--print-address\00012\0--session\0", 1024) = 72
+15435 , 302 , 302 , systemd-journal , read(35</proc/2053/cmdline>, "", 1024) = 0
+15442 , 302 , 302 , systemd-journal , close(35</proc/2053/cmdline>) = 0
+15444 , 302 , 302 , systemd-journal , open("/proc/2053/status", O_RDONLY|O_CLOEXEC) = 35</proc/2053/status>
+15447 , 302 , 302 , systemd-journal , fstat(35</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+15449 , 302 , 302 , systemd-journal , fstat(35</proc/2053/status>, {st_dev=makedev(0, 4), st_ino=41807, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.344748275, st_mtime=2018/05/02-03:53:09.344748275, st_ctime=2018/05/02-03:53:09.344748275}) = 0
+15452 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "Name:\tdbus-daemon\nState:\tS (sleeping)\nTgid:\t2053\nNgid:\t0\nPid:\t2053\nPPid:\t1\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgid:\t2053"..., 2048) = 988
+15455 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "", 1024) = 0
+15456 , 302 , 302 , systemd-journal , read(35</proc/2053/status>, "", 3072) = 0
+15459 , 302 , 302 , systemd-journal , close(35</proc/2053/status>) = 0
+15461 , 302 , 302 , systemd-journal , open("/proc/2053/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/2053/sessionid>
+15464 , 302 , 302 , systemd-journal , fstat(35</proc/2053/sessionid>, {st_dev=makedev(0, 4), st_ino=42867, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.920875719, st_mtime=2018/05/02-03:53:11.920875719, st_ctime=2018/05/02-03:53:11.920875719}) = 0
+15467 , 302 , 302 , systemd-journal , read(35</proc/2053/sessionid>, "4294967295", 1024) = 10
+15469 , 302 , 302 , systemd-journal , read(35</proc/2053/sessionid>, "", 1024) = 0
+15473 , 302 , 302 , systemd-journal , close(35</proc/2053/sessionid>) = 0
+15475 , 302 , 302 , systemd-journal , open("/proc/2053/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/2053/loginuid>
+15478 , 302 , 302 , systemd-journal , fstat(35</proc/2053/loginuid>, {st_dev=makedev(0, 4), st_ino=42868, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.924875918, st_mtime=2018/05/02-03:53:11.924875918, st_ctime=2018/05/02-03:53:11.924875918}) = 0
+15480 , 302 , 302 , systemd-journal , read(35</proc/2053/loginuid>, "4294967295", 1024) = 10
+15483 , 302 , 302 , systemd-journal , read(35</proc/2053/loginuid>, "", 1024) = 0
+15485 , 302 , 302 , systemd-journal , close(35</proc/2053/loginuid>) = 0
+15487 , 302 , 302 , systemd-journal , open("/proc/2053/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2053/cgroup>
+15489 , 302 , 302 , systemd-journal , fstat(35</proc/2053/cgroup>, {st_dev=makedev(0, 4), st_ino=42790, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.840871743, st_mtime=2018/05/02-03:53:11.840871743, st_ctime=2018/05/02-03:53:11.840871743}) = 0
+15491 , 302 , 302 , systemd-journal , read(35</proc/2053/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15493 , 302 , 302 , systemd-journal , close(35</proc/2053/cgroup>) = 0
+15495 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={433, 304808000}}, NULL) = 0
+15498 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590611152, u64=94849353408720}}], 34, -1) = 1
+15500 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {433, 77076207}) = 0
+15503 , 302 , 302 , systemd-journal , read(32<UNIX:[42869->42789,"/run/systemd/journal/stdout"]>, "SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry\n", 2048) = 77
+15506 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+15508 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:12 ", 16}, {"org.a11y.atspi.Registry", 23}, {"[2115]: ", 8}, {"SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry", 76}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2115, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 127
+15511 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2115/cgroup>
+15513 , 302 , 302 , systemd-journal , fstat(35</proc/2115/cgroup>, {st_dev=makedev(0, 4), st_ino=44979, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.484903873, st_mtime=2018/05/02-03:53:12.484903873, st_ctime=2018/05/02-03:53:12.484903873}) = 0
+15515 , 302 , 302 , systemd-journal , read(35</proc/2115/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15517 , 302 , 302 , systemd-journal , close(35</proc/2115/cgroup>) = 0
+15520 , 302 , 302 , systemd-journal , open("/proc/2115/comm", O_RDONLY|O_CLOEXEC) = 35</proc/2115/comm>
+15522 , 302 , 302 , systemd-journal , fstat(35</proc/2115/comm>, {st_dev=makedev(0, 4), st_ino=44980, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.488904072, st_mtime=2018/05/02-03:53:12.488904072, st_ctime=2018/05/02-03:53:12.488904072}) = 0
+15526 , 302 , 302 , systemd-journal , read(35</proc/2115/comm>, "dbus-daemon\n", 1024) = 12
+15528 , 302 , 302 , systemd-journal , close(35</proc/2115/comm>) = 0
+15529 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2115/exe", "/usr/bin/dbus-daemon", 99) = 20
+15531 , 302 , 302 , systemd-journal , open("/proc/2115/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/2115/cmdline>
+15533 , 302 , 302 , systemd-journal , fstat(35</proc/2115/cmdline>, {st_dev=makedev(0, 4), st_ino=44982, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.488904072, st_mtime=2018/05/02-03:53:12.488904072, st_ctime=2018/05/02-03:53:12.488904072}) = 0
+15535 , 302 , 302 , systemd-journal , read(35</proc/2115/cmdline>, "/usr/bin/dbus-daemon\0--config-file=/etc/at-spi2/accessibility.conf\0--nofork\0--print-address\0003\0", 1024) = 94
+15537 , 302 , 302 , systemd-journal , read(35</proc/2115/cmdline>, "", 1024) = 0
+15539 , 302 , 302 , systemd-journal , close(35</proc/2115/cmdline>) = 0
+15541 , 302 , 302 , systemd-journal , open("/proc/2115/status", O_RDONLY|O_CLOEXEC) = 35</proc/2115/status>
+15543 , 302 , 302 , systemd-journal , fstat(35</proc/2115/status>, {st_dev=makedev(0, 4), st_ino=44113, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.596859619, st_mtime=2018/05/02-03:53:11.596859619, st_ctime=2018/05/02-03:53:11.596859619}) = 0
+15545 , 302 , 302 , systemd-journal , fstat(35</proc/2115/status>, {st_dev=makedev(0, 4), st_ino=44113, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.596859619, st_mtime=2018/05/02-03:53:11.596859619, st_ctime=2018/05/02-03:53:11.596859619}) = 0
+15547 , 302 , 302 , systemd-journal , read(35</proc/2115/status>, "Name:\tdbus-daemon\nState:\tS (sleeping)\nTgid:\t2115\nNgid:\t0\nPid:\t2115\nPPid:\t2094\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgid:\t2"..., 2048) = 992
+15549 , 302 , 302 , systemd-journal , read(35</proc/2115/status>, "", 1024) = 0
+15552 , 302 , 302 , systemd-journal , read(35</proc/2115/status>, "", 3072) = 0
+15554 , 302 , 302 , systemd-journal , close(35</proc/2115/status>) = 0
+15556 , 302 , 302 , systemd-journal , open("/proc/2115/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/2115/sessionid>
+15558 , 302 , 302 , systemd-journal , fstat(35</proc/2115/sessionid>, {st_dev=makedev(0, 4), st_ino=44983, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.492904272, st_mtime=2018/05/02-03:53:12.492904272, st_ctime=2018/05/02-03:53:12.492904272}) = 0
+15560 , 302 , 302 , systemd-journal , read(35</proc/2115/sessionid>, "4294967295", 1024) = 10
+15562 , 302 , 302 , systemd-journal , read(35</proc/2115/sessionid>, "", 1024) = 0
+15564 , 302 , 302 , systemd-journal , close(35</proc/2115/sessionid>) = 0
+15568 , 302 , 302 , systemd-journal , open("/proc/2115/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/2115/loginuid>
+15570 , 302 , 302 , systemd-journal , fstat(35</proc/2115/loginuid>, {st_dev=makedev(0, 4), st_ino=44984, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.492904272, st_mtime=2018/05/02-03:53:12.492904272, st_ctime=2018/05/02-03:53:12.492904272}) = 0
+15572 , 302 , 302 , systemd-journal , read(35</proc/2115/loginuid>, "4294967295", 1024) = 10
+15574 , 302 , 302 , systemd-journal , read(35</proc/2115/loginuid>, "", 1024) = 0
+15576 , 302 , 302 , systemd-journal , close(35</proc/2115/loginuid>) = 0
+15578 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/2115/cgroup>
+15580 , 302 , 302 , systemd-journal , fstat(35</proc/2115/cgroup>, {st_dev=makedev(0, 4), st_ino=44979, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.484903873, st_mtime=2018/05/02-03:53:12.484903873, st_ctime=2018/05/02-03:53:12.484903873}) = 0
+15582 , 302 , 302 , systemd-journal , read(35</proc/2115/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15584 , 302 , 302 , systemd-journal , close(35</proc/2115/cgroup>) = 0
+15588 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590632544, u64=94849353430112}}], 34, -1) = 1
+15590 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {433, 88967329}) = 0
+15591 , 302 , 302 , systemd-journal , read(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, "gnome-session-is-accelerated: No composite extension.\n", 2048) = 54
+15594 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+15596 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:12 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-is-accelerated: No composite extension.", 53}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 94
+15598 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+15600 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15602 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15604 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+15608 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = 35</proc/1998/comm>
+15610 , 302 , 302 , systemd-journal , fstat(35</proc/1998/comm>, {st_dev=makedev(0, 4), st_ino=44986, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15612 , 302 , 302 , systemd-journal , read(35</proc/1998/comm>, "gnome-session-b\n", 1024) = 16
+15614 , 302 , 302 , systemd-journal , close(35</proc/1998/comm>) = 0
+15615 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", "/usr/lib/gnome-session/gnome-session-binary", 99) = 43
+15617 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cmdline>
+15619 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cmdline>, {st_dev=makedev(0, 4), st_ino=44988, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15622 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "/usr/lib/gnome-session/gnome-session-binary\0", 1024) = 44
+15624 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "", 1024) = 0
+15625 , 302 , 302 , systemd-journal , close(35</proc/1998/cmdline>) = 0
+15628 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = 35</proc/1998/status>
+15630 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+15632 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+15634 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "Name:\tgnome-session-b\nState:\tS (sleeping)\nTgid:\t1998\nNgid:\t0\nPid:\t1998\nPPid:\t1948\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgi"..., 2048) = 996
+15636 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 1024) = 0
+15639 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 3072) = 0
+15641 , 302 , 302 , systemd-journal , close(35</proc/1998/status>) = 0
+15644 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/sessionid>
+15646 , 302 , 302 , systemd-journal , fstat(35</proc/1998/sessionid>, {st_dev=makedev(0, 4), st_ino=44989, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.500904672, st_mtime=2018/05/02-03:53:12.500904672, st_ctime=2018/05/02-03:53:12.500904672}) = 0
+15649 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "4294967295", 1024) = 10
+15650 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "", 1024) = 0
+15652 , 302 , 302 , systemd-journal , close(35</proc/1998/sessionid>) = 0
+15654 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/loginuid>
+15656 , 302 , 302 , systemd-journal , fstat(35</proc/1998/loginuid>, {st_dev=makedev(0, 4), st_ino=44990, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.504904872, st_mtime=2018/05/02-03:53:12.504904872, st_ctime=2018/05/02-03:53:12.504904872}) = 0
+15659 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "4294967295", 1024) = 10
+15662 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "", 1024) = 0
+15665 , 302 , 302 , systemd-journal , close(35</proc/1998/loginuid>) = 0
+15668 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+15671 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15674 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15677 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+15681 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590632544, u64=94849353430112}}], 34, -1) = 1
+15683 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {433, 101146380}) = 0
+15685 , 302 , 302 , systemd-journal , read(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, "gnome-session-check-accelerated: Helper exited with code 256\n", 2048) = 61
+15687 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+15690 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:12 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-check-accelerated: Helper exited with code 256", 60}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 101
+15691 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+15693 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15695 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15698 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+15701 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = 35</proc/1998/comm>
+15703 , 302 , 302 , systemd-journal , fstat(35</proc/1998/comm>, {st_dev=makedev(0, 4), st_ino=44986, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15705 , 302 , 302 , systemd-journal , read(35</proc/1998/comm>, "gnome-session-b\n", 1024) = 16
+15708 , 302 , 302 , systemd-journal , close(35</proc/1998/comm>) = 0
+15710 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", "/usr/lib/gnome-session/gnome-session-binary", 99) = 43
+15712 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cmdline>
+15714 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cmdline>, {st_dev=makedev(0, 4), st_ino=44988, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15716 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "/usr/lib/gnome-session/gnome-session-binary\0", 1024) = 44
+15719 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "", 1024) = 0
+15721 , 302 , 302 , systemd-journal , close(35</proc/1998/cmdline>) = 0
+15724 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = 35</proc/1998/status>
+15727 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+15729 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+15731 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "Name:\tgnome-session-b\nState:\tt (tracing stop)\nTgid:\t1998\nNgid:\t0\nPid:\t1998\nPPid:\t1948\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nN"..., 2048) = 1000
+15733 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 1024) = 0
+15736 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 3072) = 0
+15741 , 302 , 302 , systemd-journal , close(35</proc/1998/status>) = 0
+15746 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/sessionid>
+15757 , 302 , 302 , systemd-journal , fstat(35</proc/1998/sessionid>, {st_dev=makedev(0, 4), st_ino=44989, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.500904672, st_mtime=2018/05/02-03:53:12.500904672, st_ctime=2018/05/02-03:53:12.500904672}) = 0
+15759 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "4294967295", 1024) = 10
+15760 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "", 1024) = 0
+15764 , 302 , 302 , systemd-journal , close(35</proc/1998/sessionid>) = 0
+15765 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/loginuid>
+15767 , 302 , 302 , systemd-journal , fstat(35</proc/1998/loginuid>, {st_dev=makedev(0, 4), st_ino=44990, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.504904872, st_mtime=2018/05/02-03:53:12.504904872, st_ctime=2018/05/02-03:53:12.504904872}) = 0
+15769 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "4294967295", 1024) = 10
+15771 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "", 1024) = 0
+15773 , 302 , 302 , systemd-journal , close(35</proc/1998/loginuid>) = 0
+15777 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+15785 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+15792 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+15795 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+15799 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590550176, u64=94849353347744}}], 34, -1) = 1
+17952 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {433, 528189441}) = 0
+17955 , 302 , 302 , systemd-journal , read(15<anon_inode:[timerfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+17958 , 302 , 302 , systemd-journal , ftruncate(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, 2600960) = 0
+17960 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={459, 554808000}}, NULL) = 0
+17962 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590632544, u64=94849353430112}}], 34, -1) = 1
+23512 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 818696861}) = 0
+23514 , 302 , 302 , systemd-journal , read(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, "gnome-session-is-accelerated: No composite extension.\n", 2048) = 54
+23516 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23518 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-is-accelerated: No composite extension.", 53}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 94
+23519 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+23521 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23523 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+23525 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+23529 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = 35</proc/1998/comm>
+23531 , 302 , 302 , systemd-journal , fstat(35</proc/1998/comm>, {st_dev=makedev(0, 4), st_ino=44986, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23533 , 302 , 302 , systemd-journal , read(35</proc/1998/comm>, "gnome-session-b\n", 1024) = 16
+23534 , 302 , 302 , systemd-journal , close(35</proc/1998/comm>) = 0
+23536 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", "/usr/lib/gnome-session/gnome-session-binary", 99) = 43
+23538 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cmdline>
+23541 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cmdline>, {st_dev=makedev(0, 4), st_ino=44988, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23543 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "/usr/lib/gnome-session/gnome-session-binary\0", 1024) = 44
+23547 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "", 1024) = 0
+23550 , 302 , 302 , systemd-journal , close(35</proc/1998/cmdline>) = 0
+23552 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = 35</proc/1998/status>
+23554 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+23556 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+23558 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "Name:\tgnome-session-b\nState:\tS (sleeping)\nTgid:\t1998\nNgid:\t0\nPid:\t1998\nPPid:\t1948\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgi"..., 2048) = 996
+23560 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 1024) = 0
+23562 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 3072) = 0
+23564 , 302 , 302 , systemd-journal , close(35</proc/1998/status>) = 0
+23566 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/sessionid>
+23568 , 302 , 302 , systemd-journal , fstat(35</proc/1998/sessionid>, {st_dev=makedev(0, 4), st_ino=44989, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.500904672, st_mtime=2018/05/02-03:53:12.500904672, st_ctime=2018/05/02-03:53:12.500904672}) = 0
+23570 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "4294967295", 1024) = 10
+23571 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "", 1024) = 0
+23572 , 302 , 302 , systemd-journal , close(35</proc/1998/sessionid>) = 0
+23573 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/loginuid>
+23574 , 302 , 302 , systemd-journal , fstat(35</proc/1998/loginuid>, {st_dev=makedev(0, 4), st_ino=44990, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.504904872, st_mtime=2018/05/02-03:53:12.504904872, st_ctime=2018/05/02-03:53:12.504904872}) = 0
+23576 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "4294967295", 1024) = 10
+23578 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, "", 1024) = 0
+23581 , 302 , 302 , systemd-journal , close(35</proc/1998/loginuid>) = 0
+23583 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+23587 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23590 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+23592 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+23596 , 302 , 302 , systemd-journal , fstat(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, {st_dev=makedev(0, 19), st_ino=295, st_mode=S_IFREG|0750, st_nlink=1, st_uid=0, st_gid=101, st_blksize=4096, st_blocks=5080, st_size=2600960, st_atime=2018/05/02-03:46:10.403999777, st_mtime=2018/05/02-03:53:12.936926452, st_ctime=2018/05/02-03:53:12.936926452}) = 0
+23598 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={439, 304808000}}, NULL) = 0
+23600 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590632544, u64=94849353430112}}], 34, -1) = 1
+23602 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 830049548}) = 0
+23604 , 302 , 302 , systemd-journal , read(22<UNIX:[40695->42123,"/run/systemd/journal/stdout"]>, "gnome-session-check-accelerated: Helper exited with code 256\n", 2048) = 61
+23605 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23607 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-check-accelerated: Helper exited with code 256", 60}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 101
+23614 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cgroup>
+23616 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cgroup>, {st_dev=makedev(0, 4), st_ino=44985, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23618 , 302 , 302 , systemd-journal , read(35</proc/1998/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+23622 , 302 , 302 , systemd-journal , close(35</proc/1998/cgroup>) = 0
+23625 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = 35</proc/1998/comm>
+23628 , 302 , 302 , systemd-journal , fstat(35</proc/1998/comm>, {st_dev=makedev(0, 4), st_ino=44986, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23630 , 302 , 302 , systemd-journal , read(35</proc/1998/comm>, "gnome-session-b\n", 1024) = 16
+23632 , 302 , 302 , systemd-journal , close(35</proc/1998/comm>) = 0
+23633 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", "/usr/lib/gnome-session/gnome-session-binary", 99) = 43
+23635 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = 35</proc/1998/cmdline>
+23637 , 302 , 302 , systemd-journal , fstat(35</proc/1998/cmdline>, {st_dev=makedev(0, 4), st_ino=44988, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.496904472, st_mtime=2018/05/02-03:53:12.496904472, st_ctime=2018/05/02-03:53:12.496904472}) = 0
+23639 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "/usr/lib/gnome-session/gnome-session-binary\0", 1024) = 44
+23641 , 302 , 302 , systemd-journal , read(35</proc/1998/cmdline>, "", 1024) = 0
+23643 , 302 , 302 , systemd-journal , close(35</proc/1998/cmdline>) = 0
+23645 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = 35</proc/1998/status>
+23647 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+23649 , 302 , 302 , systemd-journal , fstat(35</proc/1998/status>, {st_dev=makedev(0, 4), st_ino=40204, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:07.620663813, st_mtime=2018/05/02-03:53:07.620663813, st_ctime=2018/05/02-03:53:07.620663813}) = 0
+23651 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "Name:\tgnome-session-b\nState:\tt (tracing stop)\nTgid:\t1998\nNgid:\t0\nPid:\t1998\nPPid:\t1948\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t64\nGroups:\t4 24 27 30 46 113 128 1000 \nN"..., 2048) = 1000
+23653 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 1024) = 0
+23656 , 302 , 302 , systemd-journal , read(35</proc/1998/status>, "", 3072) = 0
+23658 , 302 , 302 , systemd-journal , close(35</proc/1998/status>) = 0
+23660 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/sessionid>
+23662 , 302 , 302 , systemd-journal , fstat(35</proc/1998/sessionid>, {st_dev=makedev(0, 4), st_ino=44989, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.500904672, st_mtime=2018/05/02-03:53:12.500904672, st_ctime=2018/05/02-03:53:12.500904672}) = 0
+23663 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "4294967295", 1024) = 10
+23664 , 302 , 302 , systemd-journal , read(35</proc/1998/sessionid>, "", 1024) = 0
+23665 , 302 , 302 , systemd-journal , close(35</proc/1998/sessionid>) = 0
+23666 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = 35</proc/1998/loginuid>
+23667 , 302 , 302 , systemd-journal , fstat(35</proc/1998/loginuid>, {st_dev=makedev(0, 4), st_ino=44990, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.504904872, st_mtime=2018/05/02-03:53:12.504904872, st_ctime=2018/05/02-03:53:12.504904872}) = 0
+23669 , 302 , 302 , systemd-journal , read(35</proc/1998/loginuid>, 0x5643d6042020, 1024) = -1 ESRCH (No such process)
+23671 , 302 , 302 , systemd-journal , close(35</proc/1998/loginuid>) = 0
+23673 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23675 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590632544, u64=94849353430112}}, {EPOLLIN, {u32=3590550720, u64=94849353348288}}], 34, -1) = 2
+23678 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 905639494}) = 0
+23680 , 302 , 302 , systemd-journal , read(22<UNIX:[40695,"/run/systemd/journal/stdout"]>, "gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1\ngnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....\n", 2048) = 193
+23682 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23684 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1", 105}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = -1 ESRCH (No such process)
+23685 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1", 105}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=302, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 146
+23688 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23690 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23693 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", 0x5643d604b5e0, 99) = -1 ENOENT (No such file or directory)
+23695 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23698 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23699 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23702 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23704 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23707 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23709 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....", 86}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = -1 ESRCH (No such process)
+23710 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<14>", 4}, {"May  2 03:53:18 ", 16}, {"gnome-session", 13}, {"[1998]: ", 8}, {"gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....", 86}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=302, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 127
+23712 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23713 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23715 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", 0x5643d6044210, 99) = -1 ENOENT (No such file or directory)
+23718 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23720 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23722 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23724 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23726 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23728 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590632544, u64=94849353430112}}, {EPOLLIN, {u32=3590550720, u64=94849353348288}}], 34, 0) = 2
+23730 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 911975406}) = 0
+23732 , 302 , 302 , systemd-journal , ioctl(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, FIONREAD, [126]) = 0
+23734 , 302 , 302 , systemd-journal , recvmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(0)=0x7ffe57c3b020, msg_iov(1)=[{"<28>May  2 03:53:18 gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1\n", 24575}], msg_controllen=64, [{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */}, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_CMSG_CLOEXEC) = 126
+23736 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(1)=[{"<28>May  2 03:53:18 gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1", 125}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = -1 ESRCH (No such process)
+23737 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(1)=[{"<28>May  2 03:53:18 gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1", 125}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=302, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 125
+23740 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23742 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23745 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", 0x5643d604b5e0, 99) = -1 ENOENT (No such file or directory)
+23747 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23748 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23751 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23753 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23755 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23758 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590632544, u64=94849353430112}}, {EPOLLIN, {u32=3590550720, u64=94849353348288}}], 34, 0) = 2
+23760 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 915007970}) = 0
+23762 , 302 , 302 , systemd-journal , read(22<UNIX:[40695,"/run/systemd/journal/stdout"]>, "", 2048) = 0
+23764 , 302 , 302 , systemd-journal , unlink("/run/systemd/journal/streams/8:40695") = 0
+23766 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 22<UNIX:[40695,"/run/systemd/journal/stdout"]>, NULL) = 0
+23767 , 302 , 302 , systemd-journal , close(22<UNIX:[40695,"/run/systemd/journal/stdout"]>) = 0
+23770 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590550720, u64=94849353348288}}], 33, 0) = 1
+23773 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 916604589}) = 0
+23775 , 302 , 302 , systemd-journal , ioctl(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, FIONREAD, [107]) = 0
+23777 , 302 , 302 , systemd-journal , recvmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(0)=0x7ffe57c3b020, msg_iov(1)=[{"<26>May  2 03:53:18 gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....\n", 24575}], msg_controllen=64, [{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */}, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_CMSG_CLOEXEC) = 107
+23779 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(1)=[{"<26>May  2 03:53:18 gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....", 106}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=1998, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = -1 ESRCH (No such process)
+23781 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(1)=[{"<26>May  2 03:53:18 gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....", 106}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=302, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 106
+23784 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23786 , 302 , 302 , systemd-journal , open("/proc/1998/comm", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23789 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/1998/exe", 0x5643d604b5e0, 99) = -1 ENOENT (No such file or directory)
+23791 , 302 , 302 , systemd-journal , open("/proc/1998/cmdline", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23793 , 302 , 302 , systemd-journal , open("/proc/1998/status", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23795 , 302 , 302 , systemd-journal , open("/proc/1998/sessionid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23797 , 302 , 302 , systemd-journal , open("/proc/1998/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23799 , 302 , 302 , systemd-journal , open("/proc/1998/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23802 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590556624, u64=94849353354192}}], 33, -1) = 1
+23815 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {438, 984449408}) = 0
+23817 , 302 , 302 , systemd-journal , read(34<UNIX:[42870->42792,"/run/systemd/journal/stdout"]>, "XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server \":10.0\"\r\n      after 11 requests (11 known processed) with 0 events remaining.\r\n", 2048) = 151
+23819 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23821 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:18 ", 16}, {"org.a11y.atspi.Registry", 23}, {"[2115]: ", 8}, {"XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server \":10.0\"", 78}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2115, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 129
+23824 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = 22</proc/2115/cgroup>
+23827 , 302 , 302 , systemd-journal , fstat(22</proc/2115/cgroup>, {st_dev=makedev(0, 4), st_ino=44979, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.484903873, st_mtime=2018/05/02-03:53:12.484903873, st_ctime=2018/05/02-03:53:12.484903873}) = 0
+23829 , 302 , 302 , systemd-journal , read(22</proc/2115/cgroup>, "11:devices:/user.slice\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/user.slice\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/user.slice\n3:blkio:/user.slice\n2:pids:/user.slice/user-1000.slice\n1:n"..., 1024) = 257
+23838 , 302 , 302 , systemd-journal , close(22</proc/2115/cgroup>) = 0
+23841 , 302 , 302 , systemd-journal , open("/proc/2115/comm", O_RDONLY|O_CLOEXEC) = 22</proc/2115/comm>
+23847 , 302 , 302 , systemd-journal , fstat(22</proc/2115/comm>, {st_dev=makedev(0, 4), st_ino=44980, st_mode=S_IFREG|0644, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.488904072, st_mtime=2018/05/02-03:53:12.488904072, st_ctime=2018/05/02-03:53:12.488904072}) = 0
+23850 , 302 , 302 , systemd-journal , read(22</proc/2115/comm>, "dbus-daemon\n", 1024) = 12
+23852 , 302 , 302 , systemd-journal , close(22</proc/2115/comm>) = 0
+23856 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2115/exe", "/usr/bin/dbus-daemon", 99) = 20
+23872 , 302 , 302 , systemd-journal , open("/proc/2115/cmdline", O_RDONLY|O_CLOEXEC) = 22</proc/2115/cmdline>
+23874 , 302 , 302 , systemd-journal , fstat(22</proc/2115/cmdline>, {st_dev=makedev(0, 4), st_ino=44982, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.488904072, st_mtime=2018/05/02-03:53:12.488904072, st_ctime=2018/05/02-03:53:12.488904072}) = 0
+23876 , 302 , 302 , systemd-journal , read(22</proc/2115/cmdline>, "/usr/bin/dbus-daemon\0--config-file=/etc/at-spi2/accessibility.conf\0--nofork\0--print-address\0003\0", 1024) = 94
+23882 , 302 , 302 , systemd-journal , read(22</proc/2115/cmdline>, "", 1024) = 0
+23886 , 302 , 302 , systemd-journal , close(22</proc/2115/cmdline>) = 0
+23889 , 302 , 302 , systemd-journal , open("/proc/2115/status", O_RDONLY|O_CLOEXEC) = 22</proc/2115/status>
+23893 , 302 , 302 , systemd-journal , fstat(22</proc/2115/status>, {st_dev=makedev(0, 4), st_ino=44113, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.596859619, st_mtime=2018/05/02-03:53:11.596859619, st_ctime=2018/05/02-03:53:11.596859619}) = 0
+23897 , 302 , 302 , systemd-journal , fstat(22</proc/2115/status>, {st_dev=makedev(0, 4), st_ino=44113, st_mode=S_IFREG|0444, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:11.596859619, st_mtime=2018/05/02-03:53:11.596859619, st_ctime=2018/05/02-03:53:11.596859619}) = 0
+23899 , 302 , 302 , systemd-journal , read(22</proc/2115/status>, "Name:\tdbus-daemon\nState:\tR (running)\nTgid:\t2115\nNgid:\t0\nPid:\t2115\nPPid:\t2094\nTracerPid:\t1931\nUid:\t1000\t1000\t1000\t1000\nGid:\t1000\t1000\t1000\t1000\nFDSize:\t0\nGroups:\t4 24 27 30 46 113 128 1000 \nNStgid:\t211"..., 2048) = 713
+23903 , 302 , 302 , systemd-journal , read(22</proc/2115/status>, "", 1024) = 0
+23904 , 302 , 302 , systemd-journal , read(22</proc/2115/status>, "", 3072) = 0
+23909 , 302 , 302 , systemd-journal , close(22</proc/2115/status>) = 0
+23913 , 302 , 302 , systemd-journal , open("/proc/2115/sessionid", O_RDONLY|O_CLOEXEC) = 22</proc/2115/sessionid>
+23920 , 302 , 302 , systemd-journal , fstat(22</proc/2115/sessionid>, {st_dev=makedev(0, 4), st_ino=44983, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:12.492904272, st_mtime=2018/05/02-03:53:12.492904272, st_ctime=2018/05/02-03:53:12.492904272}) = 0
+23923 , 302 , 302 , systemd-journal , read(22</proc/2115/sessionid>, 0x5643d604b970, 1024) = -1 ESRCH (No such process)
+23924 , 302 , 302 , systemd-journal , close(22</proc/2115/sessionid>) = 0
+23927 , 302 , 302 , systemd-journal , open("/proc/2115/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23931 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23933 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23937 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:18 ", 16}, {"org.a11y.atspi.Registry", 23}, {"[2115]: ", 8}, {"      after 11 requests (11 known processed) with 0 events remaining.", 69}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=2115, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = -1 ESRCH (No such process)
+23940 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<12>", 4}, {"May  2 03:53:18 ", 16}, {"org.a11y.atspi.Registry", 23}, {"[2115]: ", 8}, {"      after 11 requests (11 known processed) with 0 events remaining.", 69}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=302, uid=1000, gid=1000}}], msg_flags=0}, MSG_NOSIGNAL) = 120
+23944 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23945 , 302 , 302 , systemd-journal , open("/proc/2115/comm", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23949 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/2115/exe", 0x5643d604b5d0, 99) = -1 ENOENT (No such file or directory)
+23951 , 302 , 302 , systemd-journal , open("/proc/2115/cmdline", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23953 , 302 , 302 , systemd-journal , open("/proc/2115/status", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23958 , 302 , 302 , systemd-journal , open("/proc/2115/sessionid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23960 , 302 , 302 , systemd-journal , open("/proc/2115/loginuid", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23966 , 302 , 302 , systemd-journal , open("/proc/2115/cgroup", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+23969 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590556624, u64=94849353354192}}, {EPOLLIN|EPOLLHUP, {u32=3590611152, u64=94849353408720}}, {EPOLLIN|EPOLLHUP, {u32=3590590496, u64=94849353388064}}, {EPOLLIN|EPOLLHUP, {u32=3590586800, u64=94849353384368}}], 33, -1) = 4
+23971 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {439, 65623089}) = 0
+23973 , 302 , 302 , systemd-journal , read(34<UNIX:[42870,"/run/systemd/journal/stdout"]>, "", 2048) = 0
+23976 , 302 , 302 , systemd-journal , unlink("/run/systemd/journal/streams/8:42870") = 0
+23978 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 34<UNIX:[42870,"/run/systemd/journal/stdout"]>, NULL) = 0
+23980 , 302 , 302 , systemd-journal , close(34<UNIX:[42870,"/run/systemd/journal/stdout"]>) = 0
+23982 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590611152, u64=94849353408720}}, {EPOLLIN|EPOLLHUP, {u32=3590590496, u64=94849353388064}}, {EPOLLIN|EPOLLHUP, {u32=3590586800, u64=94849353384368}}], 32, 0) = 3
+23985 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {439, 67049443}) = 0
+23987 , 302 , 302 , systemd-journal , read(26<UNIX:[42384,"/run/systemd/journal/stdout"]>, "", 2048) = 0
+23989 , 302 , 302 , systemd-journal , unlink("/run/systemd/journal/streams/8:42384") = 0
+23991 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 26<UNIX:[42384,"/run/systemd/journal/stdout"]>, NULL) = 0
+23992 , 302 , 302 , systemd-journal , close(26<UNIX:[42384,"/run/systemd/journal/stdout"]>) = 0
+23994 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590611152, u64=94849353408720}}, {EPOLLIN|EPOLLHUP, {u32=3590590496, u64=94849353388064}}], 31, 0) = 2
+23997 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {439, 71801958}) = 0
+23999 , 302 , 302 , systemd-journal , ftruncate(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, 2600960) = 0
+24001 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={459, 554808000}}, NULL) = 0
+24005 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590611152, u64=94849353408720}}, {EPOLLIN|EPOLLHUP, {u32=3590590496, u64=94849353388064}}], 31, 0) = 2
+24008 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {439, 77211181}) = 0
+24010 , 302 , 302 , systemd-journal , read(28<UNIX:[42513,"/run/systemd/journal/stdout"]>, "", 2048) = 0
+24013 , 302 , 302 , systemd-journal , unlink("/run/systemd/journal/streams/8:42513") = 0
+24016 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 28<UNIX:[42513,"/run/systemd/journal/stdout"]>, NULL) = 0
+24019 , 302 , 302 , systemd-journal , close(28<UNIX:[42513,"/run/systemd/journal/stdout"]>) = 0
+24021 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN|EPOLLHUP, {u32=3590611152, u64=94849353408720}}], 30, 0) = 1
+24023 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {439, 82872171}) = 0
+24024 , 302 , 302 , systemd-journal , read(32<UNIX:[42869,"/run/systemd/journal/stdout"]>, "", 2048) = 0
+24026 , 302 , 302 , systemd-journal , unlink("/run/systemd/journal/streams/8:42869") = 0
+24027 , 302 , 302 , systemd-journal , epoll_ctl(8<anon_inode:[eventpoll]>, EPOLL_CTL_DEL, 32<UNIX:[42869,"/run/systemd/journal/stdout"]>, NULL) = 0
+24030 , 302 , 302 , systemd-journal , close(32<UNIX:[42869,"/run/systemd/journal/stdout"]>) = 0
+24032 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590550960, u64=94849353348528}}], 29, -1) = 1
+24095 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {442, 23829740}) = 0
+24097 , 302 , 302 , systemd-journal , ioctl(4<UNIX:[10703,"/run/systemd/journal/socket"]>, FIONREAD, [259]) = 0
+24098 , 302 , 302 , systemd-journal , recvmsg(4<UNIX:[10703,"/run/systemd/journal/socket"]>, {msg_name(0)=0x7ffe57c3b020, msg_iov(1)=[{"PRIORITY=6\nSYSLOG_FACILITY=4\nCODE_FILE=../src/login/logind-session.c\nCODE_LINE=685\nCODE_FUNCTION=session_finalize\nSYSLOG_IDENTIFIER=systemd-logind\nMESSAGE_ID=3354939424b4456d9802ca8333ed424a\nSESSION_I"..., 24575}], msg_controllen=64, [{cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */}, {cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=872, uid=0, gid=0}}], msg_flags=MSG_CMSG_CLOEXEC}, MSG_DONTWAIT|MSG_CMSG_CLOEXEC) = 259
+24101 , 302 , 302 , systemd-journal , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+24103 , 302 , 302 , systemd-journal , sendmsg(6<UNIX:[10700,"/run/systemd/journal/dev-log"]>, {msg_name(29)={sa_family=AF_LOCAL, sun_path="/run/systemd/journal/syslog"}, msg_iov(5)=[{"<38>", 4}, {"May  2 03:53:21 ", 16}, {"systemd-logind", 14}, {"[872]: ", 7}, {"Removed session c2.", 19}], msg_controllen=28, [{cmsg_len=28, cmsg_level=SOL_SOCKET, cmsg_type=SCM_CREDENTIALS, {pid=872, uid=0, gid=0}}], msg_flags=0}, MSG_NOSIGNAL) = 60
+24107 , 302 , 302 , systemd-journal , open("/proc/872/cgroup", O_RDONLY|O_CLOEXEC) = 22</proc/872/cgroup>
+24110 , 302 , 302 , systemd-journal , fstat(22</proc/872/cgroup>, {st_dev=makedev(0, 4), st_ino=16069, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.135999580, st_mtime=2018/05/02-03:46:19.135999580, st_ctime=2018/05/02-03:46:19.135999580}) = 0
+24113 , 302 , 302 , systemd-journal , read(22</proc/872/cgroup>, "11:devices:/system.slice/systemd-logind.service\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/system.slice/systemd-logind.service\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/system.slice/system"..., 1024) = 358
+24116 , 302 , 302 , systemd-journal , close(22</proc/872/cgroup>) = 0
+24119 , 302 , 302 , systemd-journal , open("/proc/872/comm", O_RDONLY|O_CLOEXEC) = 22</proc/872/comm>
+24122 , 302 , 302 , systemd-journal , fstat(22</proc/872/comm>, {st_dev=makedev(0, 4), st_ino=16072, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.199999579, st_mtime=2018/05/02-03:46:19.199999579, st_ctime=2018/05/02-03:46:19.199999579}) = 0
+24124 , 302 , 302 , systemd-journal , read(22</proc/872/comm>, "systemd-logind\n", 1024) = 15
+24126 , 302 , 302 , systemd-journal , close(22</proc/872/comm>) = 0
+24129 , 302 , 302 , systemd-journal , readlinkat(AT_FDCWD, "/proc/872/exe", "/lib/systemd/systemd-logind", 99) = 27
+24132 , 302 , 302 , systemd-journal , open("/proc/872/cmdline", O_RDONLY|O_CLOEXEC) = 22</proc/872/cmdline>
+24135 , 302 , 302 , systemd-journal , fstat(22</proc/872/cmdline>, {st_dev=makedev(0, 4), st_ino=16071, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.187999579, st_mtime=2018/05/02-03:46:19.187999579, st_ctime=2018/05/02-03:46:19.187999579}) = 0
+24138 , 302 , 302 , systemd-journal , read(22</proc/872/cmdline>, "/lib/systemd/systemd-logind\0", 1024) = 28
+24139 , 302 , 302 , systemd-journal , read(22</proc/872/cmdline>, "", 1024) = 0
+24142 , 302 , 302 , systemd-journal , close(22</proc/872/cmdline>) = 0
+24144 , 302 , 302 , systemd-journal , open("/proc/872/status", O_RDONLY|O_CLOEXEC) = 22</proc/872/status>
+24146 , 302 , 302 , systemd-journal , fstat(22</proc/872/status>, {st_dev=makedev(0, 4), st_ino=16074, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.199999579, st_mtime=2018/05/02-03:46:19.199999579, st_ctime=2018/05/02-03:46:19.199999579}) = 0
+24149 , 302 , 302 , systemd-journal , fstat(22</proc/872/status>, {st_dev=makedev(0, 4), st_ino=16074, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.199999579, st_mtime=2018/05/02-03:46:19.199999579, st_ctime=2018/05/02-03:46:19.199999579}) = 0
+24151 , 302 , 302 , systemd-journal , read(22</proc/872/status>, "Name:\tsystemd-logind\nState:\tR (running)\nTgid:\t872\nNgid:\t0\nPid:\t872\nPPid:\t1\nTracerPid:\t1931\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t\nNStgid:\t872\nNSpid:\t872\nNSpgid:\t872\nNSsid:\t872\nVmPeak:\t   28680 "..., 2048) = 934
+24154 , 302 , 302 , systemd-journal , read(22</proc/872/status>, "", 1024) = 0
+24157 , 302 , 302 , systemd-journal , read(22</proc/872/status>, "", 3072) = 0
+24159 , 302 , 302 , systemd-journal , close(22</proc/872/status>) = 0
+24162 , 302 , 302 , systemd-journal , open("/proc/872/sessionid", O_RDONLY|O_CLOEXEC) = 22</proc/872/sessionid>
+24165 , 302 , 302 , systemd-journal , fstat(22</proc/872/sessionid>, {st_dev=makedev(0, 4), st_ino=16075, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.199999579, st_mtime=2018/05/02-03:46:19.199999579, st_ctime=2018/05/02-03:46:19.199999579}) = 0
+24167 , 302 , 302 , systemd-journal , read(22</proc/872/sessionid>, "4294967295", 1024) = 10
+24169 , 302 , 302 , systemd-journal , read(22</proc/872/sessionid>, "", 1024) = 0
+24172 , 302 , 302 , systemd-journal , close(22</proc/872/sessionid>) = 0
+24174 , 302 , 302 , systemd-journal , open("/proc/872/loginuid", O_RDONLY|O_CLOEXEC) = 22</proc/872/loginuid>
+24177 , 302 , 302 , systemd-journal , fstat(22</proc/872/loginuid>, {st_dev=makedev(0, 4), st_ino=16076, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.199999579, st_mtime=2018/05/02-03:46:19.199999579, st_ctime=2018/05/02-03:46:19.199999579}) = 0
+24180 , 302 , 302 , systemd-journal , read(22</proc/872/loginuid>, "4294967295", 1024) = 10
+24182 , 302 , 302 , systemd-journal , read(22</proc/872/loginuid>, "", 1024) = 0
+24184 , 302 , 302 , systemd-journal , close(22</proc/872/loginuid>) = 0
+24187 , 302 , 302 , systemd-journal , open("/proc/872/cgroup", O_RDONLY|O_CLOEXEC) = 22</proc/872/cgroup>
+24190 , 302 , 302 , systemd-journal , fstat(22</proc/872/cgroup>, {st_dev=makedev(0, 4), st_ino=16069, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:46:19.135999580, st_mtime=2018/05/02-03:46:19.135999580, st_ctime=2018/05/02-03:46:19.135999580}) = 0
+24192 , 302 , 302 , systemd-journal , read(22</proc/872/cgroup>, "11:devices:/system.slice/systemd-logind.service\n10:perf_event:/\n9:hugetlb:/\n8:net_cls,net_prio:/\n7:memory:/system.slice/systemd-logind.service\n6:freezer:/\n5:cpuset:/\n4:cpu,cpuacct:/system.slice/system"..., 1024) = 358
+24195 , 302 , 302 , systemd-journal , close(22</proc/872/cgroup>) = 0
+24198 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={442, 304808000}}, NULL) = 0
+24200 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>, [{EPOLLIN, {u32=3590550176, u64=94849353347744}}], 29, -1) = 1
+24337 , 302 , 302 , systemd-journal , clock_gettime(CLOCK_BOOTTIME, {442, 306615708}) = 0
+24338 , 302 , 302 , systemd-journal , read(15<anon_inode:[timerfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24339 , 302 , 302 , systemd-journal , ftruncate(27</run/log/journal/29d27b0e8e6d4a6e95e123b625688bde/system.journal>, 2600960) = 0
+24340 , 302 , 302 , systemd-journal , timerfd_settime(15<anon_inode:[timerfd]>, TFD_TIMER_ABSTIME, {it_interval={0, 0}, it_value={459, 554808000}}, NULL) = 0
+24341 , 302 , 302 , systemd-journal , epoll_wait(8<anon_inode:[eventpoll]>,  <detached ...>

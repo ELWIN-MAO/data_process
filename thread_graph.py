@@ -18,6 +18,7 @@ class Thread_Info_Record:
         self.write2_list=[]            
         self.children_list=[]
         self.exit_code=None
+        self.plus_exit_info=None
         self.syscall_error_info_list=[]
     def print_str(self):    
         print("thread_id:",self.thread_id)
@@ -61,11 +62,13 @@ class Thread_Info_Record:
         #print("exit_code:",self.exit_code)
         for aitem in self.execve_list:
             out+="\\n"+aitem.replace("\"","\\\"")
-        for aitem in self.write2_list:
+        for aitem in self.write2_list[-5:]:
             tmp=aitem.replace("\\","\\\\")
             out+="\\n"+tmp.replace("\"","\\\"")
         if(self.exit_code):
             out+="\\nexit_code:"+self.exit_code[0]+":"+self.exit_code[1].replace("\"","\\\"")
+        if(self.plus_exit_info):
+            out+="\\nplus_exit_info:"+self.plus_exit_info[0]+":"+self.plus_exit_info[1].replace("\"","\\\"")
         out+="\""
         
         if(self.thread_id==self.process_id):
@@ -74,8 +77,10 @@ class Thread_Info_Record:
                 out+=", color=\"indianred1\""
             if(self.exit_code and self.exit_code  [1]=="\"0\""):
                 out+=", color=\"grey77\""
-            if(not self.exit_code):
+            if((not self.exit_code) and ( not self.plus_exit_info) ):
                 out+=", color=\"green3\""
+            if((not self.exit_code) and  self.plus_exit_info):
+                out+=", color=\"yellow\""
         else : 
             if(self.exit_code and self.exit_code  [1]!="\"0\""):
                 out+=", color=\"indianred1\""
@@ -135,7 +140,33 @@ def get_sycall_record(line) :
 
 
 #linecount=0
-        
+pre_data="./get_thread_list.txt"        
+if(os.path.exists(pre_data)):
+    ptn=r'thread_id:([\d]+) process_id:([\d]+) thread_name_list:(.+)\n'
+    ptn_cmpiled=re.compile(ptn)
+    fo = open(pre_data, "r")
+    while True:
+        line=fo.readline()
+        if not line : break
+        athread_info=Thread_Info_Record()
+        result1=ptn_cmpiled.match(line)
+        if result1:
+            athread_info.thread_id=result1.group(1)
+            athread_info.process_id=result1.group(2)
+            athread_info.thread_name_list=list(result1.group(3).split(","))
+            thread_info_list.append(athread_info)
+            if athread_info.process_id not in process_info_list:
+                process_info_list.append(athread_info.process_id)
+        else:
+            sys.stderr.write("threadgraph content error\n")
+            sys.stderr.write(line+"\n")
+            sys.exit(1)
+    fo.close()
+else :
+    sys.stderr.write("./get_thread_list.txt not found\n")
+    sys.exit(1)
+
+
 while True:
     line=log.readline()
     if not line : break 
@@ -144,8 +175,14 @@ while True:
     #print("linecount:"+str(linecount))
     aSyscall_Record=get_sycall_record(line)
     aThread_Info_Record=get_thread_info_record(aSyscall_Record["thread_id"])
+    #if aThread_Info_Record is not eixst, will allocate a new record
+    if(aSyscall_Record["type"]=="2"):
+        if  ( "killed by" in aSyscall_Record["plus_exit_info"]) :
+            aThread_Info_Record.plus_exit_info=[aSyscall_Record["serialno"],aSyscall_Record["plus_exit_info"]]
     #every line need to update thread_name
     if(aSyscall_Record["type"]!="2" and aSyscall_Record["type"]!="5"):
+    # only type==2 record ,that  maybe contain pid==-1 and comm=NULL
+    # here we can get correct process id info 
         aThread_Info_Record.process_id=aSyscall_Record["process_id"]
         ##record aproces contain which tids
         if  not( aSyscall_Record["thread_name"]  in aThread_Info_Record.thread_name_list):
@@ -179,6 +216,27 @@ for item in process_info_list:
 for item in thread_info_list:
     #item.print_str()
     item.print_edge()
+
+#pre_data="./aaa.uniq"
+#if(os.path.exists(pre_data)):
+#    ptn8=r'current_tid:([\d]+) socket_type:(\S+) addr:(\S+) socket_to_pid_result:([\d]+)\n'
+#    ptn8_cmpiled=re.compile(ptn8)
+#    fo = open(pre_data, "r")
+#    while True:
+#        line=fo.readline()
+#        if not line : break
+#        result8=ptn8_cmpiled.match(line)
+#        if result8:
+#            src_tid=result8.group(1)
+#            socket_name=result8.group(2)+":"+result8.group(3)
+#            dest_pids=result8.group(4)
+#            dest_pid_list=dest_pids.split(",")
+#            for apid in  dest_pid_list:
+#                #print(src_tid+" -> "+apid+" [label=\""+socket_name+"\" , color=\"purple\" ];\n")
+#                print(src_tid+" -> "+apid+";\n")
+#        else:
+#            sys.stderr.write("aaa.uniq  content error\n")
+#            sys.stderr.write(line)
 
 print("}")
 

@@ -1,0 +1,108 @@
+1 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [6])
+2 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+3 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+4 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+5 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 1 (in [6], left {0, 0})
+6 , 1453 , 1453 , xrdp , getsockopt(6<TCP:[0.0.0.0:3389]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+7 , 1453 , 1453 , xrdp , accept(6<TCP:[0.0.0.0:3389]>, {sa_family=AF_INET, sin_port=htons(62645), sin_addr=inet_addr("192.168.209.1")}, [16]) = 7<TCP:[192.168.209.135:3389->192.168.209.1:62645]>
+8 , 1453 , 1453 , xrdp , socket(PF_LOCAL, SOCK_DGRAM, 0) = 8<UNIX:[38427]>
+9 , 1453 , 1453 , xrdp , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+10 , 1453 , 1453 , xrdp , read(9</dev/urandom>, "0\376*\235", 4) = 4
+11 , 1453 , 1453 , xrdp , close(9</dev/urandom>) = 0
+12 , 1453 , 1453 , xrdp , bind(8<UNIX:[38427]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30"}, 110) = 0
+13 , 1453 , 1453 , xrdp , clone(child_stack=0x7f87ba9ebff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f87ba9ec9d0, tls=0x7f87ba9ec700, child_tidptr=0x7f87ba9ec9d0) = 1933
+15 , 1453 , 1453 , xrdp , futex(0x15c48f0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, ffffffff) = 0
+18 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [3])
+40 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+41 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+43 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+45 , 1453 , 1453 , xrdp , getsockopt(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+48 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+49 , 1453 , 1453 , xrdp , getsockopt(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+50 , 1453 , 1453 , xrdp , recvfrom(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, "sig\0", 64, 0, NULL, NULL) = 4
+51 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+52 , 1453 , 1453 , xrdp , getsockname(8<UNIX:[38427,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30"}, [81]) = 0
+53 , 1453 , 1453 , xrdp , close(8<UNIX:[38427,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30"]>) = 0
+54 , 1453 , 1453 , xrdp , unlink("/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000003_9d2afe30") = 0
+55 , 1453 , 1453 , xrdp , shutdown(7<TCP:[38426]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+56 , 1453 , 1453 , xrdp , close(7<TCP:[38426]>) = 0
+57 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 1 (in [6], left {0, 0})
+58 , 1453 , 1453 , xrdp , getsockopt(6<TCP:[0.0.0.0:3389]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+59 , 1453 , 1453 , xrdp , accept(6<TCP:[0.0.0.0:3389]>, {sa_family=AF_INET, sin_port=htons(62646), sin_addr=inet_addr("192.168.209.1")}, [16]) = 7<TCP:[192.168.209.135:3389->192.168.209.1:62646]>
+60 , 1453 , 1453 , xrdp , socket(PF_LOCAL, SOCK_DGRAM, 0) = 8<UNIX:[36558]>
+61 , 1453 , 1453 , xrdp , open("/dev/urandom", O_RDONLY) = 9</dev/urandom>
+62 , 1453 , 1453 , xrdp , read(9</dev/urandom>, "\276\253\234e", 4) = 4
+63 , 1453 , 1453 , xrdp , close(9</dev/urandom>) = 0
+64 , 1453 , 1453 , xrdp , bind(8<UNIX:[36558]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe"}, 110) = 0
+65 , 1453 , 1453 , xrdp , clone(child_stack=0x7f87ba9ebff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f87ba9ec9d0, tls=0x7f87ba9ec700, child_tidptr=0x7f87ba9ec9d0) = 1938
+67 , 1453 , 1453 , xrdp , futex(0x15c48f0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, ffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+70 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [5])
+1232 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1239 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1242 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1245 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1247 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1249 , 1453 , 1453 , xrdp , recvfrom(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, "sig\0", 64, 0, NULL, NULL) = 4
+1251 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1253 , 1453 , 1453 , xrdp , open("/usr/lib/xrdp/libvnc.so", O_RDONLY|O_CLOEXEC) = 11</usr/lib/xrdp/libvnc.so.0.0.0>
+1257 , 1453 , 1453 , xrdp , read(11</usr/lib/xrdp/libvnc.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0 R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4J\0\0\0\0\0\0\4J\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0\320M \0\0\0\0\0000\3\0\0\0\0\0\0008\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350M\0\0\0\0\0\0\350M \0\0\0\0\0"..., 832) = 832
+1310 , 1453 , 1453 , xrdp , fstat(11</usr/lib/xrdp/libvnc.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4461246, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22688, st_atime=2018/05/02-02:55:54.642318999, st_mtime=2014/10/25-20:14:35, st_ctime=2016/12/08-03:40:17.022040678}) = 0
+1321 , 1453 , 1453 , xrdp , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0) = 0x7f87b9fe6000
+1325 , 1453 , 1453 , xrdp , mprotect(0x7f87b9feb000, 2093056, PROT_NONE) = 0
+1326 , 1453 , 1453 , xrdp , mmap(0x7f87ba1ea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0x4000) = 0x7f87ba1ea000
+1329 , 1453 , 1453 , xrdp , close(11</usr/lib/xrdp/libvnc.so.0.0.0>) = 0
+1332 , 1453 , 1453 , xrdp , mprotect(0x7f87ba1ea000, 4096, PROT_READ) = 0
+1334 , 1453 , 1453 , xrdp , futex(0x15c4a80, FUTEX_WAKE_PRIVATE, 1) = 1
+1341 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1345 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1350 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [5])
+1877 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1879 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1881 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1883 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1885 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1887 , 1453 , 1453 , xrdp , recvfrom(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, "sig\0", 64, 0, NULL, NULL) = 4
+1889 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1891 , 1453 , 1453 , xrdp , munmap(0x7f87b9fe6000, 2117896) = 0
+1893 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1895 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1897 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [5])
+18674 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18676 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+18677 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+18678 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+18679 , 1453 , 1453 , xrdp , getsockopt(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+18680 , 1453 , 1453 , xrdp , recvfrom(5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>, "sig\0", 64, 0, NULL, NULL) = 4
+18681 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18682 , 1453 , 1453 , xrdp , open("/usr/lib/xrdp/libvnc.so", O_RDONLY|O_CLOEXEC) = 11</usr/lib/xrdp/libvnc.so.0.0.0>
+18683 , 1453 , 1453 , xrdp , read(11</usr/lib/xrdp/libvnc.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0 R\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4J\0\0\0\0\0\0\4J\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0\320M \0\0\0\0\0000\3\0\0\0\0\0\0008\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350M\0\0\0\0\0\0\350M \0\0\0\0\0"..., 832) = 832
+18684 , 1453 , 1453 , xrdp , fstat(11</usr/lib/xrdp/libvnc.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4461246, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22688, st_atime=2018/05/02-02:55:54.642318999, st_mtime=2014/10/25-20:14:35, st_ctime=2016/12/08-03:40:17.022040678}) = 0
+18685 , 1453 , 1453 , xrdp , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0) = 0x7f87b9fe6000
+18686 , 1453 , 1453 , xrdp , mprotect(0x7f87b9feb000, 2093056, PROT_NONE) = 0
+18687 , 1453 , 1453 , xrdp , mmap(0x7f87ba1ea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11</usr/lib/xrdp/libvnc.so.0.0.0>, 0x4000) = 0x7f87ba1ea000
+18688 , 1453 , 1453 , xrdp , close(11</usr/lib/xrdp/libvnc.so.0.0.0>) = 0
+18689 , 1453 , 1453 , xrdp , mprotect(0x7f87ba1ea000, 4096, PROT_READ) = 0
+18690 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18691 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18692 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL) = 1 (in [3])
+24003 , 1453 , 1453 , xrdp , select(5, [4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24004 , 1453 , 1453 , xrdp , select(6, [5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24011 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+24014 , 1453 , 1453 , xrdp , getsockopt(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+24018 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 1 (in [3], left {0, 0})
+24020 , 1453 , 1453 , xrdp , getsockopt(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+24022 , 1453 , 1453 , xrdp , recvfrom(3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>, "sig\0", 64, 0, NULL, NULL) = 4
+24025 , 1453 , 1453 , xrdp , select(4, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24028 , 1453 , 1453 , xrdp , getsockname(8<UNIX:[36558,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe"}, [81]) = 0
+24029 , 1453 , 1453 , xrdp , close(8<UNIX:[36558,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe"]>) = 0
+24031 , 1453 , 1453 , xrdp , unlink("/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_process_self_term_event_00000004_659cabbe") = 0
+24033 , 1453 , 1453 , xrdp , shutdown(11<TCP:[127.0.0.1:40286->127.0.0.1:5910]>, SHUT_RDWR) = 0
+24034 , 1453 , 1453 , xrdp , close(11<TCP:[46860]>) = 0
+24035 , 1453 , 1453 , xrdp , munmap(0x7f87b9fe6000, 2117896) = 0
+24036 , 1453 , 1453 , xrdp , getsockname(9<UNIX:[36605,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_wm_login_mode_event_00000004_375cd735"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_wm_login_mode_event_00000004_375cd735"}, [77]) = 0
+24037 , 1453 , 1453 , xrdp , close(9<UNIX:[36605,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_wm_login_mode_event_00000004_375cd735"]>) = 0
+24038 , 1453 , 1453 , xrdp , unlink("/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_wm_login_mode_event_00000004_375cd735") = 0
+24039 , 1453 , 1453 , xrdp , shutdown(7<TCP:[36557]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+24040 , 1453 , 1453 , xrdp , close(7<TCP:[36557]>) = 0
+24041 , 1453 , 1453 , xrdp , select(7, [6<TCP:[0.0.0.0:3389]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24042 , 1453 , 1453 , xrdp , select(7, [3<UNIX:[19571,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_listen_pro_done_event_ba91f475"]> 4<UNIX:[19572,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_term_766d5364"]> 5<UNIX:[19573,"/tmp/.xrdp/xrdp-9CZDUD/xrdp_000005ad_main_sync_4c3eafd4"]> 6<TCP:[0.0.0.0:3389]>], [], NULL, NULL <detached ...>

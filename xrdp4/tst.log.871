@@ -1,0 +1,137 @@
+1523 , 871 , 871 , NetworkManager , restart_syscall(<... resuming interrupted poll ...>) = 1
+1525 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+1528 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+1530 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {427, 986740200}) = 0
+1534 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1536 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+1539 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\2\0\0\0\200\0\0\0a\2\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\200\0\0\0c\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 64
+1542 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+1545 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1547 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 0) = 1 ([{fd=4, revents=POLLIN}])
+1551 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+1554 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {427, 990268522}) = 0
+1557 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 196010) = 1 ([{fd=4, revents=POLLIN}])
+1560 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+1563 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+1565 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {427, 991363075}) = 0
+1568 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 196009) = 1 ([{fd=4, revents=POLLIN}])
+1619 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1627 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+1642 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 64758259}) = 0
+1646 , 871 , 871 , NetworkManager , futex(0x215eaf0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1655 , 871 , 871 , NetworkManager , futex(0x215eaf0, FUTEX_WAKE_PRIVATE, 1) = 0
+1665 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1668 , 871 , 871 , NetworkManager , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1670 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAKE_PRIVATE, 1) = 1
+1673 , 871 , 871 , NetworkManager , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1676 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAKE_PRIVATE, 1) = 0
+1679 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195933) = 1 ([{fd=4, revents=POLLIN}])
+1681 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1684 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+1687 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 68892850}) = 0
+1690 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195931) = 1 ([{fd=10, revents=POLLIN}])
+2262 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2263 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2265 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 497829625}) = 0
+2269 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2273 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+2276 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\2\0\0\0\0\2\0\0\0\0\0\0\20\0\0\0c2.ref\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+2279 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+2282 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2285 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195500) = 1 ([{fd=4, revents=POLLIN}])
+2288 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2290 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 501760629}) = 0
+2294 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195499) = 1 ([{fd=4, revents=POLLIN}])
+2296 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2299 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2301 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 503281984}) = 0
+2305 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195497) = 1 ([{fd=4, revents=POLLIN}])
+2403 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2408 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2415 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 523275115}) = 0
+2416 , 871 , 871 , NetworkManager , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2421 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAKE_PRIVATE, 1) = 1
+2426 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195476) = 1 ([{fd=10, revents=POLLIN}])
+2465 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2467 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2470 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 530104054}) = 0
+2471 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2476 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+2478 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\2\0\0\0\200\0\0\0d\2\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+2480 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+2482 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2484 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195470) = 1 ([{fd=4, revents=POLLIN}])
+2487 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2489 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 531613579}) = 0
+2491 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195469) = 1 ([{fd=4, revents=POLLIN}])
+2495 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2496 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2498 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 532447199}) = 0
+2500 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195468) = 1 ([{fd=10, revents=POLLIN}])
+2518 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2521 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2524 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 534366608}) = 0
+2526 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2528 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+2531 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\3\0\0\0\200\0\0\0e\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+2534 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+2535 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2538 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195465) = 1 ([{fd=4, revents=POLLIN}])
+2541 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2542 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 536449230}) = 0
+2544 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195464) = 1 ([{fd=4, revents=POLLIN}])
+2546 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2549 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2551 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 537353894}) = 0
+2553 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195463) = 1 ([{fd=4, revents=POLLIN}])
+2731 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2740 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+2742 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {428, 555107338}) = 0
+2747 , 871 , 871 , NetworkManager , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2753 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAKE_PRIVATE, 1) = 0
+2759 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 195444) = 1 ([{fd=10, revents=POLLIN}])
+24099 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+24102 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24104 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 27160255}) = 0
+24108 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24111 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+24112 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\2\0\0\0\0\2\0\0\0\0\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+24115 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+24118 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24121 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181972) = 1 ([{fd=4, revents=POLLIN}])
+24123 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24125 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 29282208}) = 0
+24128 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181971) = 1 ([{fd=4, revents=POLLIN}])
+24130 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+24134 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24137 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 30533186}) = 0
+24140 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181970) = 1 ([{fd=10, revents=POLLIN}])
+24150 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, 0x7ffd6a10bff0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+24153 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24156 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 33248653}) = 0
+24158 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24161 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=10, revents=POLLIN}])
+24164 , 871 , 871 , NetworkManager , read(10<anon_inode:inotify>, "\3\0\0\0\200\0\0\0k\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+24166 , 871 , 871 , NetworkManager , poll([{fd=10<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+24168 , 871 , 871 , NetworkManager , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24170 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181966) = 1 ([{fd=4, revents=POLLIN}])
+24173 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24176 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 35627981}) = 0
+24179 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181965) = 1 ([{fd=4, revents=POLLIN}])
+24181 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+24185 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24188 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 36905633}) = 0
+24191 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181963) = 1 ([{fd=4, revents=POLLIN}])
+24250 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+24255 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24263 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 46999931}) = 0
+24272 , 871 , 871 , NetworkManager , futex(0x215eaf0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+24274 , 871 , 871 , NetworkManager , futex(0x215eaf0, FUTEX_WAKE_PRIVATE, 1) = 0
+24277 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+24280 , 871 , 871 , NetworkManager , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24282 , 871 , 871 , NetworkManager , futex(0x7f07c800c5a0, FUTEX_WAKE_PRIVATE, 1) = 0
+24284 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181951) = 1 ([{fd=4, revents=POLLIN}])
+24286 , 871 , 871 , NetworkManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+24288 , 871 , 871 , NetworkManager , epoll_wait(16<anon_inode:[eventpoll]>, [], 1, 0) = 0
+24290 , 871 , 871 , NetworkManager , clock_gettime(CLOCK_BOOTTIME, {442, 50582867}) = 0
+24293 , 871 , 871 , NetworkManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=10<anon_inode:inotify>, events=POLLIN}, {fd=11<NETLINK:[16746]>, events=POLLIN}, {fd=12<NETLINK:[16747]>, events=POLLIN}, {fd=13<NETLINK:[16748]>, events=POLLIN|POLLPRI}, {fd=14<NETLINK:[16849]>, events=POLLIN}, {fd=15<NETLINK:[17335]>, events=POLLIN}, {fd=16<anon_inode:[eventpoll]>, events=POLLIN}, {fd=17<UNIX:[16375,"/var/run/NetworkManager/private-dhcp"]>, events=POLLIN}, {fd=19<RAWv6:[17507]>, events=POLLIN}], 10, 181950 <detached ...>

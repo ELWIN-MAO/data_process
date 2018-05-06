@@ -1,0 +1,59 @@
+7078 , 2052 , 2052 , dbus-launch , set_robust_list(0x7fed00530b60, 24) = 0
+7079 , 2052 , 2052 , dbus-launch , read(13<pipe:[40597]>, "\5\10\0\0", 4) = 4
+7984 , 2052 , 2052 , dbus-launch , rt_sigaction(SIGHUP, {0x55bbf152e030, [], SA_RESTORER, 0x7fecffaa04b0}, NULL, 8) = 0
+7988 , 2052 , 2052 , dbus-launch , rt_sigaction(SIGTERM, {0x55bbf152e030, [], SA_RESTORER, 0x7fecffaa04b0}, NULL, 8) = 0
+7989 , 2052 , 2052 , dbus-launch , rt_sigaction(SIGINT, {0x55bbf152e030, [], SA_RESTORER, 0x7fecffaa04b0}, NULL, 8) = 0
+7992 , 2052 , 2052 , dbus-launch , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[40606]>
+7994 , 2052 , 2052 , dbus-launch , connect(9<UNIX:[40606]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+7996 , 2052 , 2052 , dbus-launch , close(9<UNIX:[40606]>) = 0
+7999 , 2052 , 2052 , dbus-launch , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9<UNIX:[40607]>
+8001 , 2052 , 2052 , dbus-launch , connect(9<UNIX:[40607]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+8004 , 2052 , 2052 , dbus-launch , getpeername(9<UNIX:[40607]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, [21]) = 0
+8006 , 2052 , 2052 , dbus-launch , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+8008 , 2052 , 2052 , dbus-launch , access("/home/elwin/.Xauthority", R_OK) = 0
+8010 , 2052 , 2052 , dbus-launch , open("/home/elwin/.Xauthority", O_RDONLY) = 10</home/elwin/.Xauthority>
+8012 , 2052 , 2052 , dbus-launch , fstat(10</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886553, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=296, st_atime=2018/05/02-03:50:41.560269285, st_mtime=2018/05/02-03:45:53.955523518, st_ctime=2018/05/02-03:45:53.955523518}) = 0
+8014 , 2052 , 2052 , dbus-launch , read(10</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\301\370MV\344\301H\200\355\337\351\372\336\253\253\311\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\20\2067Wo\353\354j\336P\331\267f\35\6*q\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 4096) = 296
+8016 , 2052 , 2052 , dbus-launch , read(10</home/elwin/.Xauthority>, "", 4096) = 0
+8019 , 2052 , 2052 , dbus-launch , close(10</home/elwin/.Xauthority>) = 0
+8021 , 2052 , 2052 , dbus-launch , fcntl(9<UNIX:[40607->40608]>, F_GETFL) = 0x2 (flags O_RDWR)
+8024 , 2052 , 2052 , dbus-launch , fcntl(9<UNIX:[40607->40608]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+8026 , 2052 , 2052 , dbus-launch , fcntl(9<UNIX:[40607->40608]>, F_SETFD, FD_CLOEXEC) = 0
+8029 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=9, revents=POLLOUT}])
+8031 , 2052 , 2052 , dbus-launch , writev(9<UNIX:[40607->40608]>, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+8033 , 2052 , 2052 , dbus-launch , recvfrom(9<UNIX:[40607->40608]>, 0x55bbf2c6ce90, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+8035 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+8051 , 2052 , 2052 , dbus-launch , recvfrom(9<UNIX:[40607->40608]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+8053 , 2052 , 2052 , dbus-launch , recvfrom(9<UNIX:[40607->40608]>, "\340\355f\2\0\0@\0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Project, Inc\1\1 \0\0\0\0\0\30  \0\0\0\0\0.\0\0\0!\0\0\0\377\377\377\0\0\0\0\0\0\0\0\0\200\0078\4\374\1\36\1\1\0\1\0$\0\0\0\0\0\30\2\1\0\0\0\0\0\0\0\30\0\10\0\0\0\0\0$\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0%\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0&\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0"..., 320, 0, NULL, NULL) = 320
+8057 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=9, revents=POLLOUT}])
+8059 , 2052 , 2052 , dbus-launch , writev(9<UNIX:[40607->40608]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+8062 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+8077 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\203\1\0\0\0\0\0\1\204\0\0\326J\222|\200\203\310\0\0\0\0\0\200\203\310\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+8080 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=9, revents=POLLOUT}])
+8083 , 2052 , 2052 , dbus-launch , writev(9<UNIX:[40607->40608]>, [{"\204\0\1\0", 4}], 1) = 4
+8084 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+8093 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\203\2\0\0\0\0\0\377\377\17\0\0\0\0\0P\rK\257\377\177\0\0,\1\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+8095 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, 0x7ffd9e777ed0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8097 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=9, revents=POLLOUT}])
+8099 , 2052 , 2052 , dbus-launch , writev(9<UNIX:[40607->40608]>, [{"7\0\5\0\0\0@\0.\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+8101 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+8109 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0\200\203\310\0\0\0\0\0*customization:\t-color\nj", 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+8111 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, 0x7ffd9e777f10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8113 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=9, revents=POLLOUT}])
+8115 , 2052 , 2052 , dbus-launch , writev(9<UNIX:[40607->40608]>, [{"b\0\5\0\t\0@\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+8117 , 2052 , 2052 , dbus-launch , poll([{fd=9<UNIX:[40607->40608]>, events=POLLIN}], 1, -1) = 1 ([{fd=9, revents=POLLIN}])
+8124 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\203\5\0\0\0\0\0\0\0\0\0\326J\222|\1\203\2\0\0\0\0\0\200\203\310\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+8127 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, 0x7ffd9e777de0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8130 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, 0x7ffd9e777de0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8132 , 2052 , 2052 , dbus-launch , ioctl(0</dev/null>, TCGETS, 0x7ffd9e778160) = -1 ENOTTY (Inappropriate ioctl for device)
+8134 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, 0x7ffd9e777f60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8137 , 2052 , 2052 , dbus-launch , select(10, [9<UNIX:[40607->40608]>], NULL, [9<UNIX:[40607->40608]>], NULL) = 1 (in [9])
+23796 , 2052 , 2052 , dbus-launch , recvmsg(9<UNIX:[40607->40608]>, {msg_name(0)=NULL, msg_iov(1)=[{"", 4096}], msg_controllen=0, msg_flags=0}, 0) = 0
+23798 , 2052 , 2052 , dbus-launch , close(0</dev/null>) = 0
+23800 , 2052 , 2052 , dbus-launch , close(1</dev/null>) = 0
+23803 , 2052 , 2052 , dbus-launch , close(2</dev/null>) = 0
+23805 , 2052 , 2052 , dbus-launch , kill(2053, SIGTERM) = 0
+23812 , 2052 , 2052 , dbus-launch , nanosleep({3, 0}, 0x7ffd9e778070) = 0
+24048 , 2052 , 2052 , dbus-launch , kill(2053, SIGKILL) = -1 ESRCH (No such process)
+24049 , 2052 , 2052 , dbus-launch , exit_group(0) = ?
+24050 , 2052 , 2052 , dbus-launch , +++ exited with 0 +++

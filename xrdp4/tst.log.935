@@ -1,0 +1,73 @@
+1258 , 935 , 935 , polkitd , restart_syscall(<... resuming interrupted restart_syscall ...>) = 1
+1297 , 935 , 935 , polkitd , futex(0x115d800, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1300 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1303 , 935 , 935 , polkitd , futex(0x115d800, FUTEX_WAKE_PRIVATE, 1) = 0
+1305 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+1419 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, 0x7fff3040ea30, 16) = -1 EAGAIN (Resource temporarily unavailable)
+1421 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1425 , 935 , 935 , polkitd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1431 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 1
+1439 , 935 , 935 , polkitd , futex(0x7f6c9400df30, FUTEX_WAKE_PRIVATE, 1) = 1
+1445 , 935 , 935 , polkitd , futex(0x1165078, FUTEX_WAKE_PRIVATE, 1) = 1
+1448 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+1455 , 935 , 935 , polkitd , read(8<anon_inode:inotify>, "\2\0\0\0\200\0\0\0_\2\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\200\0\0\0`\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 64
+1459 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+1462 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1464 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+1466 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+1468 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+1470 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+1540 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, 0x7fff3040ea30, 16) = -1 EAGAIN (Resource temporarily unavailable)
+1550 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1556 , 935 , 935 , polkitd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1559 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+1561 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+1567 , 935 , 935 , polkitd , read(8<anon_inode:inotify>, "\2\0\0\0\200\0\0\0a\2\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\200\0\0\0c\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 64
+1570 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+1573 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+1576 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+1578 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+1580 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+1581 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+1840 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1842 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+2270 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, 0x7fff3040ea30, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2280 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2286 , 935 , 935 , polkitd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2298 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 1
+2309 , 935 , 935 , polkitd , futex(0x7f6c9400df30, FUTEX_WAKE_PRIVATE, 1) = 0
+2313 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+2317 , 935 , 935 , polkitd , read(8<anon_inode:inotify>, "\2\0\0\0\0\2\0\0\0\0\0\0\20\0\0\0c2.ref\0\0\0\0\0\0\0\0\0\0", 2048) = 32
+2324 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+2326 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2329 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+2332 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+2334 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2338 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+2474 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, 0x7fff3040ea30, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2507 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2519 , 935 , 935 , polkitd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2567 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 1
+2570 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+2574 , 935 , 935 , polkitd , read(8<anon_inode:inotify>, "\2\0\0\0\200\0\0\0d\2\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\200\0\0\0e\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 64
+2579 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+2584 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2585 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+2587 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+2591 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2593 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+24106 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, 0x7fff3040ea30, 16) = -1 EAGAIN (Resource temporarily unavailable)
+24117 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24133 , 935 , 935 , polkitd , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24152 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 1
+24194 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+24197 , 935 , 935 , polkitd , futex(0x7f6c9400e4a0, FUTEX_WAKE_PRIVATE, 1) = 0
+24202 , 935 , 935 , polkitd , futex(0x7f6c9400df30, FUTEX_WAKE_PRIVATE, 1) = 1
+24207 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 1 ([{fd=8, revents=POLLIN}])
+24212 , 935 , 935 , polkitd , read(8<anon_inode:inotify>, "\2\0\0\0\0\2\0\0\0\0\0\0\20\0\0\0c2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\200\0\0\0k\2\0\0\20\0\0\0001000\0\0\0\0\0\0\0\0\0\0\0\0", 2048) = 64
+24218 , 935 , 935 , polkitd , poll([{fd=8<anon_inode:inotify>, events=POLLIN}], 1, 0) = 0 (Timeout)
+24220 , 935 , 935 , polkitd , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+24222 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+24224 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1) = 1 ([{fd=3, revents=POLLIN}])
+24226 , 935 , 935 , polkitd , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+24228 , 935 , 935 , polkitd , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=4<anon_inode:[signalfd]>, events=POLLIN}, {fd=8<anon_inode:inotify>, events=POLLIN}], 3, -1 <detached ...>

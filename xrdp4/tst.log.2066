@@ -1,0 +1,300 @@
+9039 , 2066 , 2066 , x-session-manag , close(10</usr/bin/gnome-session>) = 0
+9041 , 2066 , 2066 , x-session-manag , close(8<pipe:[40680]>) = 0
+9043 , 2066 , 2066 , x-session-manag , dup2(9<pipe:[40680]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[40680]>
+9045 , 2066 , 2066 , x-session-manag , close(9<pipe:[40680]>) = 0
+9048 , 2066 , 2066 , x-session-manag , stat("/bin/gsettings", 0x7fff10e5a320) = -1 ENOENT (No such file or directory)
+9050 , 2066 , 2066 , x-session-manag , stat("/usr/bin/gsettings", {st_dev=makedev(8, 1), st_ino=4494072, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=23216, st_atime=2018/05/02-02:17:58.549200000, st_mtime=2017/01/06-12:31:28, st_ctime=2017/12/20-03:33:18.666351263}) = 0
+9052 , 2066 , 2066 , x-session-manag , execve("/usr/bin/gsettings", ["gsettings", "get", "org.gnome.system.locale", "region"], ["USER=elwin", "SSH_AGENT_PID=2045", "HOME=/home/elwin", "GTK_MODULES=gail:atk-bridge", "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1", "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hhUfBaGL1X,guid=baad99489a33462a7a2f617b5ae96e65", "XDG_SESSION_ID=c2", "GTK2_MODULES=overlay-scrollbar", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SSH_AUTH_SOCK=/tmp/ssh-qJuXNpSjpmGt/agent.1998", "SHELL=/bin/bash", "QT_ACCESSIBILITY=1", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"]) = 0
+9055 , 2066 , 2066 , gsettings , brk(NULL) = 0x1083000
+9057 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9059 , 2066 , 2066 , gsettings , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+9061 , 2066 , 2066 , gsettings , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+9063 , 2066 , 2066 , gsettings , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+9065 , 2066 , 2066 , gsettings , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7fca79958000
+9067 , 2066 , 2066 , gsettings , close(8</etc/ld.so.cache>) = 0
+9069 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9071 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>
+9073 , 2066 , 2066 , gsettings , read(8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\314\373\27\0\0\0\0\0\314\373\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+9075 , 2066 , 2066 , gsettings , fstat(8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456890, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+9077 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79957000
+9079 , 2066 , 2066 , gsettings , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0) = 0x7fca793cd000
+9081 , 2066 , 2066 , gsettings , mprotect(0x7fca7954d000, 2097152, PROT_NONE) = 0
+9083 , 2066 , 2066 , gsettings , mmap(0x7fca7974d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0x180000) = 0x7fca7974d000
+9085 , 2066 , 2066 , gsettings , mmap(0x7fca79753000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca79753000
+9087 , 2066 , 2066 , gsettings , close(8</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>) = 0
+9088 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9089 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>
+9090 , 2066 , 2066 , gsettings , read(8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+9091 , 2066 , 2066 , gsettings , fstat(8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456887, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+9092 , 2066 , 2066 , gsettings , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0) = 0x7fca7917a000
+9093 , 2066 , 2066 , gsettings , mprotect(0x7fca791cc000, 2093056, PROT_NONE) = 0
+9094 , 2066 , 2066 , gsettings , mmap(0x7fca793cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0x51000) = 0x7fca793cb000
+9095 , 2066 , 2066 , gsettings , close(8</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>) = 0
+9096 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9097 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>
+9098 , 2066 , 2066 , gsettings , read(8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+9099 , 2066 , 2066 , gsettings , fstat(8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456842, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+9100 , 2066 , 2066 , gsettings , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0) = 0x7fca78f76000
+9101 , 2066 , 2066 , gsettings , mprotect(0x7fca78f79000, 2093056, PROT_NONE) = 0
+9102 , 2066 , 2066 , gsettings , mmap(0x7fca79178000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0x2000) = 0x7fca79178000
+9103 , 2066 , 2066 , gsettings , close(8</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>) = 0
+9104 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9105 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>
+9106 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\250\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\340\20\0\0\0\0\0D\340\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+9107 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=5008430, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2018/05/01-11:44:35.933609863, st_mtime=2017/01/06-12:31:18, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+9108 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79956000
+9109 , 2066 , 2066 , gsettings , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0) = 0x7fca78c65000
+9110 , 2066 , 2066 , gsettings , mprotect(0x7fca78d74000, 2093056, PROT_NONE) = 0
+9111 , 2066 , 2066 , gsettings , mmap(0x7fca78f73000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0x10e000) = 0x7fca78f73000
+9112 , 2066 , 2066 , gsettings , mmap(0x7fca78f75000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca78f75000
+9113 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>) = 0
+9114 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9115 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+9116 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+9117 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+9118 , 2066 , 2066 , gsettings , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fca7889b000
+9119 , 2066 , 2066 , gsettings , mprotect(0x7fca78a5b000, 2097152, PROT_NONE) = 0
+9120 , 2066 , 2066 , gsettings , mmap(0x7fca78c5b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fca78c5b000
+9121 , 2066 , 2066 , gsettings , mmap(0x7fca78c61000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca78c61000
+9122 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+9123 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9124 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libz.so.1.2.8>
+9125 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+9126 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2018/05/01-11:43:26.553186931, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+9127 , 2066 , 2066 , gsettings , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7fca78681000
+9128 , 2066 , 2066 , gsettings , mprotect(0x7fca7869a000, 2093056, PROT_NONE) = 0
+9129 , 2066 , 2066 , gsettings , mmap(0x7fca78899000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7fca78899000
+9130 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+9131 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9132 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libselinux.so.1>
+9133 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+9134 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+9135 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79955000
+9136 , 2066 , 2066 , gsettings , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fca7845f000
+9137 , 2066 , 2066 , gsettings , mprotect(0x7fca7847e000, 2093056, PROT_NONE) = 0
+9138 , 2066 , 2066 , gsettings , mmap(0x7fca7867d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7fca7867d000
+9139 , 2066 , 2066 , gsettings , mmap(0x7fca7867f000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca7867f000
+9140 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+9141 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9142 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libresolv-2.23.so>
+9143 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+9144 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002067, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2018/05/01-11:43:26.605184236, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+9145 , 2066 , 2066 , gsettings , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7fca78244000
+9146 , 2066 , 2066 , gsettings , mprotect(0x7fca7825b000, 2097152, PROT_NONE) = 0
+9147 , 2066 , 2066 , gsettings , mmap(0x7fca7845b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7fca7845b000
+9148 , 2066 , 2066 , gsettings , mmap(0x7fca7845d000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca7845d000
+9149 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+9150 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9151 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+9152 , 2066 , 2066 , gsettings , read(8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+9153 , 2066 , 2066 , gsettings , fstat(8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2018/05/01-11:44:35.937609658, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+9154 , 2066 , 2066 , gsettings , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7fca7803c000
+9155 , 2066 , 2066 , gsettings , mprotect(0x7fca78043000, 2093056, PROT_NONE) = 0
+9156 , 2066 , 2066 , gsettings , mmap(0x7fca78242000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7fca78242000
+9157 , 2066 , 2066 , gsettings , close(8</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+9158 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9159 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libdl-2.23.so>
+9160 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+9161 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+9162 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79954000
+9163 , 2066 , 2066 , gsettings , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fca77e38000
+9164 , 2066 , 2066 , gsettings , mprotect(0x7fca77e3b000, 2093056, PROT_NONE) = 0
+9165 , 2066 , 2066 , gsettings , mmap(0x7fca7803a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fca7803a000
+9166 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+9167 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9168 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+9169 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+9170 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+9171 , 2066 , 2066 , gsettings , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7fca77bc8000
+9172 , 2066 , 2066 , gsettings , mprotect(0x7fca77c36000, 2097152, PROT_NONE) = 0
+9173 , 2066 , 2066 , gsettings , mmap(0x7fca77e36000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7fca77e36000
+9174 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+9175 , 2066 , 2066 , gsettings , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+9176 , 2066 , 2066 , gsettings , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libpthread-2.23.so>
+9177 , 2066 , 2066 , gsettings , read(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+9178 , 2066 , 2066 , gsettings , fstat(8</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002062, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:34, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+9179 , 2066 , 2066 , gsettings , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7fca779ab000
+9180 , 2066 , 2066 , gsettings , mprotect(0x7fca779c3000, 2093056, PROT_NONE) = 0
+9181 , 2066 , 2066 , gsettings , mmap(0x7fca77bc2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7fca77bc2000
+9182 , 2066 , 2066 , gsettings , mmap(0x7fca77bc4000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fca77bc4000
+9183 , 2066 , 2066 , gsettings , close(8</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+9184 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79953000
+9185 , 2066 , 2066 , gsettings , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79952000
+9186 , 2066 , 2066 , gsettings , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fca79950000
+9187 , 2066 , 2066 , gsettings , arch_prctl(ARCH_SET_FS, 0x7fca79950800) = 0
+9188 , 2066 , 2066 , gsettings , mprotect(0x7fca78c5b000, 16384, PROT_READ) = 0
+9189 , 2066 , 2066 , gsettings , mprotect(0x7fca77bc2000, 4096, PROT_READ) = 0
+9190 , 2066 , 2066 , gsettings , mprotect(0x7fca77e36000, 4096, PROT_READ) = 0
+9191 , 2066 , 2066 , gsettings , mprotect(0x7fca7803a000, 4096, PROT_READ) = 0
+9192 , 2066 , 2066 , gsettings , mprotect(0x7fca78242000, 4096, PROT_READ) = 0
+9193 , 2066 , 2066 , gsettings , mprotect(0x7fca7845b000, 4096, PROT_READ) = 0
+9194 , 2066 , 2066 , gsettings , mprotect(0x7fca7867d000, 4096, PROT_READ) = 0
+9195 , 2066 , 2066 , gsettings , mprotect(0x7fca78899000, 4096, PROT_READ) = 0
+9196 , 2066 , 2066 , gsettings , mprotect(0x7fca78f73000, 4096, PROT_READ) = 0
+9197 , 2066 , 2066 , gsettings , mprotect(0x7fca79178000, 4096, PROT_READ) = 0
+9198 , 2066 , 2066 , gsettings , mprotect(0x7fca793cb000, 4096, PROT_READ) = 0
+9199 , 2066 , 2066 , gsettings , mprotect(0x7fca7974d000, 16384, PROT_READ) = 0
+9200 , 2066 , 2066 , gsettings , mprotect(0x604000, 4096, PROT_READ) = 0
+9201 , 2066 , 2066 , gsettings , mprotect(0x7fca7997a000, 4096, PROT_READ) = 0
+9202 , 2066 , 2066 , gsettings , munmap(0x7fca79958000, 136504) = 0
+9203 , 2066 , 2066 , gsettings , set_tid_address(0x7fca79950ad0) = 2066
+9204 , 2066 , 2066 , gsettings , set_robust_list(0x7fca79950ae0, 24) = 0
+9205 , 2066 , 2066 , gsettings , rt_sigaction(SIGRTMIN, {0x7fca779b0b50, [], SA_RESTORER|SA_SIGINFO, 0x7fca779bc390}, NULL, 8) = 0
+9206 , 2066 , 2066 , gsettings , rt_sigaction(SIGRT_1, {0x7fca779b0be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fca779bc390}, NULL, 8) = 0
+9207 , 2066 , 2066 , gsettings , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+9208 , 2066 , 2066 , gsettings , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+9209 , 2066 , 2066 , gsettings , statfs("/sys/fs/selinux", 0x7fff69a435e0) = -1 ENOENT (No such file or directory)
+9210 , 2066 , 2066 , gsettings , statfs("/selinux", 0x7fff69a435e0) = -1 ENOENT (No such file or directory)
+9211 , 2066 , 2066 , gsettings , brk(NULL) = 0x1083000
+9212 , 2066 , 2066 , gsettings , brk(0x10a4000) = 0x10a4000
+9213 , 2066 , 2066 , gsettings , open("/proc/filesystems", O_RDONLY) = 8</proc/filesystems>
+9214 , 2066 , 2066 , gsettings , fstat(8</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.580759909, st_mtime=2018/05/02-03:53:09.580759909, st_ctime=2018/05/02-03:53:09.580759909}) = 0
+9215 , 2066 , 2066 , gsettings , read(8</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 362
+9216 , 2066 , 2066 , gsettings , read(8</proc/filesystems>, "", 1024) = 0
+9217 , 2066 , 2066 , gsettings , close(8</proc/filesystems>) = 0
+9218 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9219 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9220 , 2066 , 2066 , gsettings , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+9221 , 2066 , 2066 , gsettings , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+9222 , 2066 , 2066 , gsettings , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7fca776d3000
+9223 , 2066 , 2066 , gsettings , close(8</usr/lib/locale/locale-archive>) = 0
+9224 , 2066 , 2066 , gsettings , open("/var/lib/snapd/desktop/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+9225 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+9226 , 2066 , 2066 , gsettings , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 8</etc/locale.alias>
+9227 , 2066 , 2066 , gsettings , fstat(8</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2018/05/01-11:43:15.149778010, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+9228 , 2066 , 2066 , gsettings , read(8</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+9229 , 2066 , 2066 , gsettings , read(8</etc/locale.alias>, "", 4096) = 0
+9230 , 2066 , 2066 , gsettings , close(8</etc/locale.alias>) = 0
+9231 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9232 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9233 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9234 , 2066 , 2066 , gsettings , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9235 , 2066 , 2066 , gsettings , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9236 , 2066 , 2066 , gsettings , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9237 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9238 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9239 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9240 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9241 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9242 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9243 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9244 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9245 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9246 , 2066 , 2066 , gsettings , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9247 , 2066 , 2066 , gsettings , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9248 , 2066 , 2066 , gsettings , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9249 , 2066 , 2066 , gsettings , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9250 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9251 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9252 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9253 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9254 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9255 , 2066 , 2066 , gsettings , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+9256 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9257 , 2066 , 2066 , gsettings , open("/usr/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = 8</usr/share/glib-2.0/schemas/gschemas.compiled>
+9258 , 2066 , 2066 , gsettings , fstat(8</usr/share/glib-2.0/schemas/gschemas.compiled>, {st_dev=makedev(8, 1), st_ino=657384, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=568, st_size=290693, st_atime=2018/05/01-11:56:21.026034476, st_mtime=2018/02/06-03:32:20.044038724, st_ctime=2018/02/06-03:32:20.052038724}) = 0
+9259 , 2066 , 2066 , gsettings , mmap(NULL, 290693, PROT_READ, MAP_PRIVATE, 8</usr/share/glib-2.0/schemas/gschemas.compiled>, 0) = 0x7fca79909000
+9260 , 2066 , 2066 , gsettings , close(8</usr/share/glib-2.0/schemas/gschemas.compiled>) = 0
+9261 , 2066 , 2066 , gsettings , open("/usr/local/share/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+9263 , 2066 , 2066 , gsettings , open("/usr/share/gnome/glib-2.0/schemas/gschemas.compiled", O_RDONLY) = -1 ENOENT (No such file or directory)
+9266 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9268 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9270 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9272 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9274 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9276 , 2066 , 2066 , gsettings , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 8<anon_inode:[eventfd]>
+9278 , 2066 , 2066 , gsettings , write(8<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+9279 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9280 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9281 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9283 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9284 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9285 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9286 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9287 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9288 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9289 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9290 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9291 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9292 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9293 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules>
+9294 , 2066 , 2066 , gsettings , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules>, {st_dev=makedev(8, 1), st_ino=4721503, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2018/01/24-23:54:32.388578038, st_ctime=2018/01/24-23:54:32.388578038}) = 0
+9295 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", {st_dev=makedev(8, 1), st_ino=4719207, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2018/01/24-23:54:32.384577363, st_ctime=2018/01/24-23:54:32.388578038}) = 0
+9296 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache", O_RDONLY) = 10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>
+9297 , 2066 , 2066 , gsettings , fstat(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, {st_dev=makedev(8, 1), st_ino=4719207, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=270, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2018/01/24-23:54:32.384577363, st_ctime=2018/01/24-23:54:32.388578038}) = 0
+9298 , 2066 , 2066 , gsettings , read(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>, "libdconfsettings.so: gsettings-backend\nlibgioremote-volume-monitor.so: gio-native-volume-monitor,gio-volume-monitor\nlibgiognomeproxy.so: gio-proxy-resolver\nlibgiognutls.so: gio-tls-backend\nlibgiolibpr"..., 270) = 270
+9299 , 2066 , 2066 , gsettings , close(10</usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache>) = 0
+9300 , 2066 , 2066 , gsettings , getdents(9</usr/lib/x86_64-linux-gnu/gio/modules>, [{d_ino=4719207, d_off=3010095946851488672, d_reclen=40, d_name="giomodule.cache", d_type=DT_REG}, {d_ino=4720263, d_off=3343782266566960305, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=4721505, d_off=5361588105076898494, d_reclen=40, d_name="libdconfsettings.so", d_type=DT_REG}, {d_ino=4719951, d_off=5617113554901321935, d_reclen=56, d_name="libgioremote-volume-monitor.so", d_type=DT_REG}, {d_ino=4720802, d_off=5710434140879988661, d_reclen=40, d_name="libgiognomeproxy.so", d_type=DT_REG}, {d_ino=4721503, d_off=6257115072957225029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=4720800, d_off=8469700843271208950, d_reclen=40, d_name="libgiognutls.so", d_type=DT_REG}, {d_ino=4720801, d_off=8867988669331726394, d_reclen=40, d_name="libgiolibproxy.so", d_type=DT_REG}, {d_ino=4719953, d_off=9223372036854775807, d_reclen=40, d_name="libgvfsdbus.so", d_type=DT_REG}], 32768) = 344
+9301 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9302 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+9303 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so", {st_dev=makedev(8, 1), st_ino=4719951, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=118432, st_atime=2018/05/02-02:18:08.449291661, st_mtime=2017/08/17-18:29:28, st_ctime=2018/01/24-23:52:05.786790178}) = 0
+9304 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so", {st_dev=makedev(8, 1), st_ino=4720802, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18896, st_atime=2018/05/02-02:16:47.579999255, st_mtime=2016/05/19-04:00:02, st_ctime=2018/01/24-23:51:53.181476243}) = 0
+9305 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so", {st_dev=makedev(8, 1), st_ino=4720800, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=115160, st_atime=2018/01/24-23:54:32.084526814, st_mtime=2016/05/19-04:00:02, st_ctime=2018/01/24-23:51:53.181476243}) = 0
+9306 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so", {st_dev=makedev(8, 1), st_ino=4720801, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14632, st_atime=2018/05/02-02:16:47.535999256, st_mtime=2016/05/19-04:00:02, st_ctime=2018/01/24-23:51:53.181476243}) = 0
+9307 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so", {st_dev=makedev(8, 1), st_ino=4719953, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=408, st_size=206928, st_atime=2018/05/01-11:56:21.094032388, st_mtime=2017/08/17-18:29:28, st_ctime=2018/01/24-23:52:05.786790178}) = 0
+9308 , 2066 , 2066 , gsettings , getdents(9</usr/lib/x86_64-linux-gnu/gio/modules>, [], 32768) = 0
+9309 , 2066 , 2066 , gsettings , close(9</usr/lib/x86_64-linux-gnu/gio/modules>) = 0
+9310 , 2066 , 2066 , gsettings , open("/usr/lib/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+9311 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9312 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9313 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9314 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9315 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9316 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9317 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9318 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9319 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9320 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9321 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9322 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9323 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9324 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9325 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9326 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9327 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9328 , 2066 , 2066 , gsettings , stat("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+9329 , 2066 , 2066 , gsettings , futex(0x7fca7803b0a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9330 , 2066 , 2066 , gsettings , open("/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so", O_RDONLY|O_CLOEXEC) = 9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>
+9331 , 2066 , 2066 , gsettings , read(9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340;\0\0\0\0\0\0@\0\0\0\0\0\0\0@\306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\256\0\0\0\0\0\0\4\256\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\274\0\0\0\0\0\0\240\274 \0\0\0\0\0\240\274 \0\0\0\0\0p\10\0\0\0\0\0\0X\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250\275\0\0\0\0\0\0\250\275 \0\0\0\0\0"..., 832) = 832
+9332 , 2066 , 2066 , gsettings , fstat(9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, {st_dev=makedev(8, 1), st_ino=4721505, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52480, st_atime=2018/05/01-11:56:21.042033985, st_mtime=2015/05/27-01:15:26, st_ctime=2016/11/03-10:38:53.307999877}) = 0
+9333 , 2066 , 2066 , gsettings , mmap(NULL, 2147832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0) = 0x7fca774c6000
+9334 , 2066 , 2066 , gsettings , mprotect(0x7fca774d1000, 2097152, PROT_NONE) = 0
+9335 , 2066 , 2066 , gsettings , mmap(0x7fca776d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>, 0xb000) = 0x7fca776d1000
+9336 , 2066 , 2066 , gsettings , close(9</usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so>) = 0
+9337 , 2066 , 2066 , gsettings , mprotect(0x7fca776d1000, 4096, PROT_READ) = 0
+9338 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9339 , 2066 , 2066 , gsettings , open("/etc/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+9340 , 2066 , 2066 , gsettings , open("/usr/share/gnome/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+9341 , 2066 , 2066 , gsettings , open("/usr/local/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+9342 , 2066 , 2066 , gsettings , open("/usr/share/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+9343 , 2066 , 2066 , gsettings , open("/var/lib/snapd/desktop/dconf/profile/user", O_RDONLY) = -1 ENOENT (No such file or directory)
+9344 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9345 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9346 , 2066 , 2066 , gsettings , access("/run", F_OK) = 0
+9347 , 2066 , 2066 , gsettings , stat("/run", {st_dev=makedev(0, 19), st_ino=2, st_mode=S_IFDIR|0755, st_nlink=28, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=880, st_atime=2018/05/02-03:46:00.639999996, st_mtime=2018/05/02-03:49:57.735040649, st_ctime=2018/05/02-03:49:57.735040649}) = 0
+9348 , 2066 , 2066 , gsettings , access("/run/user", F_OK) = 0
+9349 , 2066 , 2066 , gsettings , stat("/run/user", {st_dev=makedev(0, 19), st_ino=312, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=60, st_atime=2018/05/02-03:46:10.751999769, st_mtime=2018/05/02-03:47:35.807064619, st_ctime=2018/05/02-03:47:35.807064619}) = 0
+9350 , 2066 , 2066 , gsettings , access("/run/user/1000", F_OK) = 0
+9351 , 2066 , 2066 , gsettings , stat("/run/user/1000", {st_dev=makedev(0, 41), st_ino=2, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=80, st_atime=2018/05/02-03:47:35.807064619, st_mtime=2018/05/02-03:50:45.575912852, st_ctime=2018/05/02-03:50:45.575912852}) = 0
+9352 , 2066 , 2066 , gsettings , access("/run/user/1000/dconf", F_OK) = 0
+9353 , 2066 , 2066 , gsettings , stat("/run/user/1000/dconf", {st_dev=makedev(0, 41), st_ino=6, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=60, st_atime=2018/05/02-03:50:45.575912852, st_mtime=2018/05/02-03:50:45.575912852, st_ctime=2018/05/02-03:50:45.575912852}) = 0
+9354 , 2066 , 2066 , gsettings , open("/run/user/1000/dconf/user", O_RDWR|O_CREAT, 0600) = 9</run/user/1000/dconf/user>
+9355 , 2066 , 2066 , gsettings , pwrite64(9</run/user/1000/dconf/user>, "\0", 1, 1) = 1
+9356 , 2066 , 2066 , gsettings , mmap(NULL, 1, PROT_READ, MAP_SHARED, 9</run/user/1000/dconf/user>, 0) = 0x7fca79979000
+9357 , 2066 , 2066 , gsettings , close(9</run/user/1000/dconf/user>) = 0
+9358 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9359 , 2066 , 2066 , gsettings , open("/home/elwin/.config/dconf/user", O_RDONLY) = 9</home/elwin/.config/dconf/user>
+9360 , 2066 , 2066 , gsettings , fstat(9</home/elwin/.config/dconf/user>, {st_dev=makedev(8, 1), st_ino=2886450, st_mode=S_IFREG|0664, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=32, st_size=16133, st_atime=2018/05/02-01:37:25.056391091, st_mtime=2018/05/02-01:37:18.363207717, st_ctime=2018/05/02-01:37:18.367219832}) = 0
+9361 , 2066 , 2066 , gsettings , mmap(NULL, 16133, PROT_READ, MAP_PRIVATE, 9</home/elwin/.config/dconf/user>, 0) = 0x7fca79975000
+9362 , 2066 , 2066 , gsettings , close(9</home/elwin/.config/dconf/user>) = 0
+9363 , 2066 , 2066 , gsettings , eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 9<anon_inode:[eventfd]>
+9364 , 2066 , 2066 , gsettings , write(9<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+9365 , 2066 , 2066 , gsettings , mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fca76cc5000
+9366 , 2066 , 2066 , gsettings , mprotect(0x7fca76cc5000, 4096, PROT_NONE) = 0
+9367 , 2066 , 2066 , gsettings , clone(child_stack=0x7fca774c4ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fca774c59d0, tls=0x7fca774c5700, child_tidptr=0x7fca774c59d0) = 2067
+9370 , 2066 , 2066 , gsettings , futex(0x7fca78f75428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9372 , 2066 , 2066 , gsettings , fstat(1<pipe:[40680]>, {st_dev=makedev(0, 10), st_ino=40680, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:09.544758134, st_mtime=2018/05/02-03:53:09.544758134, st_ctime=2018/05/02-03:53:09.544758134}) = 0
+9374 , 2066 , 2066 , gsettings , write(1<pipe:[40680]>, "''\n", 3) = 3
+9377 , 2066 , 2066 , gsettings , exit_group(0) = ?
+9380 , 2066 , 2066 , gsettings , +++ exited with 0 +++

@@ -1,0 +1,529 @@
+digraph abc{
+subgraph cluster_302 {
+302   [label="thread_id:302\nthread_name_list:\"systemd-journal\"", style = filled , color="green3"];
+label = "process #302";
+color = blue;
+}
+subgraph cluster_856 {
+856   [label="thread_id:856\nthread_name_list:\"dbus-daemon\"", style = filled , color="green3"];
+label = "process #856";
+color = blue;
+}
+subgraph cluster_871 {
+871   [label="thread_id:871\nthread_name_list:\"NetworkManager\"", style = filled , color="green3"];
+947   [label="thread_id:947\nthread_name_list:\"gmain\""];
+949   [label="thread_id:949\nthread_name_list:\"gdbus\""];
+label = "process #871";
+color = blue;
+}
+subgraph cluster_872 {
+872   [label="thread_id:872\nthread_name_list:\"systemd-logind\"", style = filled , color="green3"];
+label = "process #872";
+color = blue;
+}
+subgraph cluster_876 {
+876   [label="thread_id:876\nthread_name_list:\"ModemManager\"", style = filled , color="green3"];
+932   [label="thread_id:932\nthread_name_list:\"gmain\""];
+934   [label="thread_id:934\nthread_name_list:\"gdbus\""];
+label = "process #876";
+color = blue;
+}
+subgraph cluster_878 {
+878   [label="thread_id:878\nthread_name_list:\"avahi-daemon\"", style = filled , color="green3"];
+label = "process #878";
+color = blue;
+}
+subgraph cluster_930 {
+930   [label="thread_id:930\nthread_name_list:\"cups-browsed\"", style = filled , color="green3"];
+945   [label="thread_id:945\nthread_name_list:\"gmain\""];
+946   [label="thread_id:946\nthread_name_list:\"gdbus\""];
+label = "process #930";
+color = blue;
+}
+subgraph cluster_935 {
+935   [label="thread_id:935\nthread_name_list:\"polkitd\"", style = filled , color="green3"];
+938   [label="thread_id:938\nthread_name_list:\"gmain\""];
+940   [label="thread_id:940\nthread_name_list:\"gdbus\""];
+label = "process #935";
+color = blue;
+}
+subgraph cluster_1303 {
+1303   [label="thread_id:1303\nthread_name_list:\"whoopsie\"", style = filled , color="green3"];
+1332   [label="thread_id:1332\nthread_name_list:\"gmain\""];
+1333   [label="thread_id:1333\nthread_name_list:\"gdbus\""];
+label = "process #1303";
+color = blue;
+}
+subgraph cluster_1453 {
+1453   [label="thread_id:1453\nthread_name_list:\"xrdp\"", style = filled , color="green3"];
+1933   [label="thread_id:1933\nthread_name_list:\"xrdp\"\nexit_code:46:\"0\""];
+1938   [label="thread_id:1938\nthread_name_list:\"xrdp\"\nexit_code:24015:\"0\""];
+label = "process #1453";
+color = blue;
+}
+subgraph cluster_1455 {
+1455   [label="thread_id:1455\nthread_name_list:\"xrdp-sesman\"", style = filled , color="green3"];
+1943   [label="thread_id:1943\nthread_name_list:\"xrdp-sesman\"\nexit_code:1122:\"0\""];
+2174   [label="thread_id:2174\nthread_name_list:\"xrdp-sesman\"\nexit_code:18661:\"0\""];
+label = "process #1455";
+color = blue;
+}
+subgraph cluster_1948 {
+1948   [label="thread_id:1948\nthread_name_list:\"xrdp-sesman\",\"xrdp-sessvc\"\nexecve:2211:\"/usr/sbin/xrdp-sessvc\"=0\nexit_code:23975:\"0\"", style = filled , color="grey77"];
+label = "process #1948";
+color = blue;
+}
+subgraph cluster_1998 {
+1998   [label="thread_id:1998\nthread_name_list:\"xrdp-sesman\",\"startwm.sh\",\"ssh-agent\",\"dbus-launch\",\"im-launch\",\"x-session-manag\",\"gnome-session-b\"\nexecve:2250:\"/etc/xrdp/startwm.sh\"=0\nexecve:6583:\"/usr/bin/ssh-agent\"=0\nexecve:6665:\"/usr/bin/dbus-launch\"=0\nexecve:7991:\"/usr/bin/im-launch\"=0\nexecve:8935:\"/bin/x-session-manager\"=-1\nexecve:8936:\"/usr/bin/x-session-manager\"=0\nexecve:9385:\"/usr/lib/gnome-session/gnome-session-binary\"=0\nwrite2:23642:\"2<UNIX:[42123->40695]>, [{\"gnome-session-binary[1998]: WARNING: software acceleration check failed: Child process exited with code 1\\n\", 106}], 1\"\nwrite2:23655:\"2<UNIX:[42123->40695]>, [{\"gnome-session-binary[1998]: CRITICAL: We failed, but the fail whale is dead. Sorry....\\n\", 87}], 1\"\nexit_code:23661:\"1\"", style = filled , color="indianred1"];
+label = "process #1998";
+color = blue;
+}
+subgraph cluster_1999 {
+1999   [label="thread_id:1999\nthread_name_list:\"xrdp-sesman\",\"Xvnc\"\nexecve:1910:\"/bin/Xvnc\"=-1\nexecve:1911:\"/usr/bin/Xvnc\"=0\nwrite2:18840:\"2</dev/null>, \" 24\", 3\"\nwrite2:18841:\"2</dev/null>, \" (32bpp)\", 8\"\nwrite2:18842:\"2</dev/null>, \" little-endian\", 14\"\nwrite2:18843:\"2</dev/null>, \" rgb888\", 7\"\nwrite2:18844:\"2</dev/null>, \"\\n\", 1\"\nexit_code:23947:\"0\"", style = filled , color="grey77"];
+label = "process #1999";
+color = blue;
+}
+subgraph cluster_2000 {
+2000   [label="thread_id:2000\nthread_name_list:\"startwm.sh\",\"touch\"\nexecve:2419:\"/bin/touch\"=0\nexit_code:2512:\"0\"", style = filled , color="grey77"];
+label = "process #2000";
+color = blue;
+}
+subgraph cluster_2001 {
+2001   [label="thread_id:2001\nthread_name_list:\"startwm.sh\",\"chmod\"\nexecve:2536:\"/bin/chmod\"=0\nexit_code:2621:\"0\"", style = filled , color="grey77"];
+label = "process #2001";
+color = blue;
+}
+subgraph cluster_2002 {
+2002   [label="thread_id:2002\nthread_name_list:\"startwm.sh\",\"stat\"\nexecve:2649:\"/usr/bin/stat\"=0\nexit_code:2853:\"0\"", style = filled , color="grey77"];
+label = "process #2002";
+color = blue;
+}
+subgraph cluster_2003 {
+2003   [label="thread_id:2003\nthread_name_list:\"startwm.sh\",\"date\"\nexecve:2908:\"/bin/date\"=0\nexit_code:3001:\"0\"", style = filled , color="grey77"];
+label = "process #2003";
+color = blue;
+}
+subgraph cluster_2004 {
+2004   [label="thread_id:2004\nthread_name_list:\"startwm.sh\",\"tempfile\"\nexecve:3034:\"/bin/tempfile\"=0\nexit_code:3098:\"0\"", style = filled , color="grey77"];
+label = "process #2004";
+color = blue;
+}
+subgraph cluster_2005 {
+2005   [label="thread_id:2005\nthread_name_list:\"xrdp-sessvc\",\"xrdp-chansrv\"\nexecve:3095:\"/usr/sbin/xrdp-chansrv\"=0\nexit_code:23771:\"0\"", style = filled , color="grey77"];
+2008   [label="thread_id:2008\nthread_name_list:\"xrdp-chansrv\"\nexit_code:23743:\"0\""];
+label = "process #2005";
+color = blue;
+}
+subgraph cluster_2006 {
+2006   [label="thread_id:2006\nthread_name_list:\"startwm.sh\",\"rm\"\nexecve:3150:\"/bin/rm\"=0\nexit_code:3227:\"0\"", style = filled , color="grey77"];
+label = "process #2006";
+color = blue;
+}
+subgraph cluster_2007 {
+2007   [label="thread_id:2007\nthread_name_list:\"startwm.sh\",\"run-parts\"\nexecve:3251:\"/bin/run-parts\"=0\nexit_code:3464:\"0\"", style = filled , color="grey77"];
+label = "process #2007";
+color = blue;
+}
+subgraph cluster_2009 {
+2009   [label="thread_id:2009\nthread_name_list:\"startwm.sh\",\"grep\"\nexecve:3510:\"/bin/grep\"=0\nexit_code:3592:\"1\"", style = filled , color="indianred1"];
+label = "process #2009";
+color = blue;
+}
+subgraph cluster_2010 {
+2010   [label="thread_id:2010\nthread_name_list:\"startwm.sh\",\"cat\"\nexecve:3614:\"/bin/cat\"=0\nexit_code:3661:\"0\"", style = filled , color="grey77"];
+label = "process #2010";
+color = blue;
+}
+subgraph cluster_2011 {
+2011   [label="thread_id:2011\nthread_name_list:\"startwm.sh\",\"run-parts\"\nexecve:3702:\"/bin/run-parts\"=0\nexit_code:3742:\"0\"", style = filled , color="grey77"];
+label = "process #2011";
+color = blue;
+}
+subgraph cluster_2012 {
+2012   [label="thread_id:2012\nthread_name_list:\"startwm.sh\",\"xrdb\"\nexecve:3754:\"/usr/bin/xrdb\"=0\nexit_code:4355:\"0\"", style = filled , color="grey77"];
+label = "process #2012";
+color = blue;
+}
+subgraph cluster_2017 {
+2017   [label="thread_id:2017\nthread_name_list:\"xrdb\",\"sh\"\nexecve:3942:\"/bin/sh\"=0\nexit_code:4335:\"0\"", style = filled , color="grey77"];
+label = "process #2017";
+color = blue;
+}
+subgraph cluster_2018 {
+2018   [label="thread_id:2018\nthread_name_list:\"sh\",\"cpp\"\nexecve:3993:\"/usr/bin/cpp\"=0\nexit_code:4331:\"0\"", style = filled , color="grey77"];
+label = "process #2018";
+color = blue;
+}
+subgraph cluster_2019 {
+2019   [label="thread_id:2019\nthread_name_list:\"cpp\",\"cc1\"\nexecve:4073:\"/usr/lib/gcc/x86_64-linux-gnu/5/cc1\"=0\nexit_code:4303:\"0\"", style = filled , color="grey77"];
+label = "process #2019";
+color = blue;
+}
+subgraph cluster_2020 {
+2020   [label="thread_id:2020\nthread_name_list:\"startwm.sh\",\"id\"\nexecve:4398:\"/usr/bin/id\"=0\nexit_code:4558:\"0\"", style = filled , color="grey77"];
+label = "process #2020";
+color = blue;
+}
+subgraph cluster_2021 {
+2021   [label="thread_id:2021\nthread_name_list:\"startwm.sh\",\"xhost\"\nexecve:4568:\"/usr/bin/xhost\"=0\nwrite2:4836:\"2</home/elwin/.xsession-errors>, \"\\n  \", 3\"\nwrite2:4837:\"2</home/elwin/.xsession-errors>, \"Serial number of failed request:  6\", 35\"\nwrite2:4838:\"2</home/elwin/.xsession-errors>, \"\\n  \", 3\"\nwrite2:4839:\"2</home/elwin/.xsession-errors>, \"Current serial number in output stream:  8\", 42\"\nwrite2:4840:\"2</home/elwin/.xsession-errors>, \"\\n\", 1\"\nexit_code:4848:\"0\"", style = filled , color="grey77"];
+label = "process #2021";
+color = blue;
+}
+subgraph cluster_2026 {
+2026   [label="thread_id:2026\nthread_name_list:\"startwm.sh\",\"basename\"\nexecve:4963:\"/usr/bin/basename\"=0\nexit_code:5000:\"0\"", style = filled , color="grey77"];
+label = "process #2026";
+color = blue;
+}
+subgraph cluster_2027 {
+2027   [label="thread_id:2027\nthread_name_list:\"startwm.sh\",\"readlink\"\nexecve:4905:\"/bin/readlink\"=0\nexit_code:4956:\"0\"", style = filled , color="grey77"];
+label = "process #2027";
+color = blue;
+}
+subgraph cluster_2028 {
+2028   [label="thread_id:2028\nthread_name_list:\"startwm.sh\",\"id\"\nexecve:5029:\"/usr/bin/id\"=0\nexit_code:5185:\"0\"", style = filled , color="grey77"];
+label = "process #2028";
+color = blue;
+}
+subgraph cluster_2029 {
+2029   [label="thread_id:2029\nthread_name_list:\"startwm.sh\",\"xhost\"\nexecve:5201:\"/usr/bin/xhost\"=0\nwrite2:5470:\"2</home/elwin/.xsession-errors>, \"\\n  \", 3\"\nwrite2:5471:\"2</home/elwin/.xsession-errors>, \"Serial number of failed request:  6\", 35\"\nwrite2:5472:\"2</home/elwin/.xsession-errors>, \"\\n  \", 3\"\nwrite2:5473:\"2</home/elwin/.xsession-errors>, \"Current serial number in output stream:  8\", 42\"\nwrite2:5474:\"2</home/elwin/.xsession-errors>, \"\\n\", 1\"\nexit_code:5480:\"0\"", style = filled , color="grey77"];
+label = "process #2029";
+color = blue;
+}
+subgraph cluster_2034 {
+2034   [label="thread_id:2034\nthread_name_list:\"startwm.sh\",\"xbrlapi\"\nexecve:5521:\"/usr/bin/xbrlapi\"=0\nwrite2:6197:\"2</home/elwin/.xsession-errors>, \"openConnection: connect: No such file or directory\\n\", 51\"\nwrite2:6198:\"2</home/elwin/.xsession-errors>, \"cannot connect to brltty at :0\\n\", 31\"\nexit_code:6201:\"4\"", style = filled , color="indianred1"];
+label = "process #2034";
+color = blue;
+}
+subgraph cluster_2035 {
+2035   [label="thread_id:2035\nthread_name_list:\"startwm.sh\",\"xdg-user-dirs-u\"\nexecve:5533:\"/usr/bin/xdg-user-dirs-update\"=0\nexit_code:5797:\"0\"", style = filled , color="grey77"];
+label = "process #2035";
+color = blue;
+}
+subgraph cluster_2036 {
+2036   [label="thread_id:2036\nthread_name_list:\"startwm.sh\"\nexit_code:5919:\"0\"", style = filled , color="grey77"];
+label = "process #2036";
+color = blue;
+}
+subgraph cluster_2037 {
+2037   [label="thread_id:2037\nthread_name_list:\"startwm.sh\"\nexit_code:5960:\"0\"", style = filled , color="grey77"];
+label = "process #2037";
+color = blue;
+}
+subgraph cluster_2038 {
+2038   [label="thread_id:2038\nthread_name_list:\"startwm.sh\"\nexit_code:6238:\"0\"", style = filled , color="grey77"];
+label = "process #2038";
+color = blue;
+}
+subgraph cluster_2039 {
+2039   [label="thread_id:2039\nthread_name_list:\"startwm.sh\",\"locale\"\nexecve:6022:\"/usr/bin/locale\"=0\nexit_code:6112:\"0\"", style = filled , color="grey77"];
+label = "process #2039";
+color = blue;
+}
+subgraph cluster_2040 {
+2040   [label="thread_id:2040\nthread_name_list:\"startwm.sh\",\"sed\"\nexecve:6029:\"/bin/sed\"=0\nexit_code:6234:\"0\"", style = filled , color="grey77"];
+label = "process #2040";
+color = blue;
+}
+subgraph cluster_2041 {
+2041   [label="thread_id:2041\nthread_name_list:\"startwm.sh\"\nexit_code:6373:\"0\"", style = filled , color="grey77"];
+label = "process #2041";
+color = blue;
+}
+subgraph cluster_2042 {
+2042   [label="thread_id:2042\nthread_name_list:\"startwm.sh\"\nexit_code:6270:\"0\"", style = filled , color="grey77"];
+label = "process #2042";
+color = blue;
+}
+subgraph cluster_2043 {
+2043   [label="thread_id:2043\nthread_name_list:\"startwm.sh\",\"sed\"\nexecve:6268:\"/bin/sed\"=0\nexit_code:6369:\"0\"", style = filled , color="grey77"];
+label = "process #2043";
+color = blue;
+}
+subgraph cluster_2044 {
+2044   [label="thread_id:2044\nthread_name_list:\"startwm.sh\",\"grep\"\nexecve:6463:\"/bin/grep\"=0\nexit_code:6541:\"2\"", style = filled , color="indianred1"];
+label = "process #2044";
+color = blue;
+}
+subgraph cluster_2045 {
+2045   [label="thread_id:2045\nthread_name_list:\"ssh-agent\"\nexit_code:24046:\"2\"", style = filled , color="indianred1"];
+label = "process #2045";
+color = blue;
+}
+subgraph cluster_2050 {
+2050   [label="thread_id:2050\nthread_name_list:\"dbus-launch\"\nexit_code:7917:\"0\"", style = filled , color="grey77"];
+label = "process #2050";
+color = blue;
+}
+subgraph cluster_2051 {
+2051   [label="thread_id:2051\nthread_name_list:\"dbus-launch\",\"dbus-daemon\"\nexecve:7067:\"/usr/bin/dbus-daemon\"=0\nexit_code:7911:\"0\"", style = filled , color="grey77"];
+label = "process #2051";
+color = blue;
+}
+subgraph cluster_2052 {
+2052   [label="thread_id:2052\nthread_name_list:\"dbus-launch\"\nexit_code:24049:\"0\"", style = filled , color="grey77"];
+label = "process #2052";
+color = blue;
+}
+subgraph cluster_2053 {
+2053   [label="thread_id:2053\nthread_name_list:\"dbus-daemon\"\nwrite2:12339:\"2</dev/null>, \"Activating service name='org.a11y.Bus'\", 38\"\nwrite2:12340:\"2</dev/null>, \"\\n\", 1\"\nwrite2:13213:\"2</dev/null>, \"Successfully activated service 'org.a11y.Bus'\", 45\"\nwrite2:13215:\"2</dev/null>, \"\\n\", 1\"\nexit_code:23900:\"0\"", style = filled , color="grey77"];
+label = "process #2053";
+color = blue;
+}
+subgraph cluster_2058 {
+2058   [label="thread_id:2058\nthread_name_list:\"im-launch\"\nexit_code:8242:\"0\"", style = filled , color="grey77"];
+label = "process #2058";
+color = blue;
+}
+subgraph cluster_2059 {
+2059   [label="thread_id:2059\nthread_name_list:\"im-launch\"\nexit_code:8281:\"0\"", style = filled , color="grey77"];
+label = "process #2059";
+color = blue;
+}
+subgraph cluster_2060 {
+2060   [label="thread_id:2060\nthread_name_list:\"im-launch\"\nexit_code:8576:\"0\"", style = filled , color="grey77"];
+label = "process #2060";
+color = blue;
+}
+subgraph cluster_2061 {
+2061   [label="thread_id:2061\nthread_name_list:\"im-launch\",\"locale\"\nexecve:8350:\"/usr/bin/locale\"=0\nexit_code:8436:\"0\"", style = filled , color="grey77"];
+label = "process #2061";
+color = blue;
+}
+subgraph cluster_2062 {
+2062   [label="thread_id:2062\nthread_name_list:\"im-launch\",\"sed\"\nexecve:8361:\"/bin/sed\"=0\nexit_code:8568:\"0\"", style = filled , color="grey77"];
+label = "process #2062";
+color = blue;
+}
+subgraph cluster_2063 {
+2063   [label="thread_id:2063\nthread_name_list:\"im-launch\"\nexit_code:8829:\"0\"", style = filled , color="grey77"];
+label = "process #2063";
+color = blue;
+}
+subgraph cluster_2064 {
+2064   [label="thread_id:2064\nthread_name_list:\"im-launch\"\nexit_code:8621:\"0\"", style = filled , color="grey77"];
+label = "process #2064";
+color = blue;
+}
+subgraph cluster_2065 {
+2065   [label="thread_id:2065\nthread_name_list:\"im-launch\",\"sed\"\nexecve:8628:\"/bin/sed\"=0\nexit_code:8821:\"0\"", style = filled , color="grey77"];
+label = "process #2065";
+color = blue;
+}
+subgraph cluster_2066 {
+2066   [label="thread_id:2066\nthread_name_list:\"x-session-manag\",\"gsettings\"\nexecve:9052:\"/usr/bin/gsettings\"=0\nexit_code:9377:\"0\"", style = filled , color="grey77"];
+2067   [label="thread_id:2067\nthread_name_list:\"gsettings\""];
+label = "process #2066";
+color = blue;
+}
+subgraph cluster_2072 {
+2072   [label="thread_id:2072\nthread_name_list:\"gnome-session-b\",\"gnome-session-c\"\nexecve:10357:\"/usr/lib/gnome-session/gnome-session-check-accelerated\"=0\nwrite2:15601:\"2<UNIX:[42123->40695]>, \"gnome-session-check-accelerated: Helper exited with code 256\\n\", 61\"\nexit_code:15648:\"1\"", style = filled , color="indianred1"];
+label = "process #2072";
+color = blue;
+}
+subgraph cluster_2093 {
+2093   [label="thread_id:2093\nthread_name_list:\"dbus-daemon\"\nexit_code:13233:\"0\"", style = filled , color="grey77"];
+label = "process #2093";
+color = blue;
+}
+subgraph cluster_2094 {
+2094   [label="thread_id:2094\nthread_name_list:\"dbus-daemon\",\"at-spi-bus-laun\"\nexecve:12407:\"/usr/lib/at-spi2-core/at-spi-bus-launcher\"=0\nwrite2:14900:\"2<UNIX:[43750->42513]>, \"\\n** (process:2094): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files\\n\", 187\"\nexit_code:23954:\"0\"", style = filled , color="grey77"];
+2107   [label="thread_id:2107\nthread_name_list:\"at-spi-bus-laun\",\"dconf worker\""];
+2108   [label="thread_id:2108\nthread_name_list:\"at-spi-bus-laun\",\"gmain\""];
+2109   [label="thread_id:2109\nthread_name_list:\"at-spi-bus-laun\",\"pool\""];
+2114   [label="thread_id:2114\nthread_name_list:\"dconf worker\",\"gdbus\""];
+label = "process #2094";
+color = blue;
+}
+subgraph cluster_2115 {
+2115   [label="thread_id:2115\nthread_name_list:\"at-spi-bus-laun\",\"dbus-daemon\"\nexecve:13300:\"/usr/bin/dbus-daemon\"=0\nwrite2:13995:\"2<UNIX:[43750->42513]>, \"Activating service name='org.a11y.atspi.Registry'\", 49\"\nwrite2:13996:\"2<UNIX:[43750->42513]>, \"\\n\", 1\"\nwrite2:15350:\"2<UNIX:[43750->42513]>, \"Successfully activated service 'org.a11y.atspi.Registry'\", 56\"\nwrite2:15352:\"2<UNIX:[43750->42513]>, \"\\n\", 1\"\nexit_code:23894:\"0\"", style = filled , color="grey77"];
+label = "process #2115";
+color = blue;
+}
+subgraph cluster_2124 {
+2124   [label="thread_id:2124\nthread_name_list:\"dbus-daemon\"\nexit_code:15378:\"0\"", style = filled , color="grey77"];
+label = "process #2124";
+color = blue;
+}
+subgraph cluster_2125 {
+2125   [label="thread_id:2125\nthread_name_list:\"dbus-daemon\",\"at-spi2-registr\"\nexecve:14072:\"/usr/lib/at-spi2-core/at-spi2-registryd\"=0\nwrite2:23813:\"2<UNIX:[42792->42870]>, \"XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server \\\":10.0\\\"\\r\\n\", 80\"\nwrite2:23814:\"2<UNIX:[42792->42870]>, \"      after 11 requests (11 known processed) with 0 events remaining.\\r\\n\", 71\"\nexit_code:23818:\"1\"", style = filled , color="indianred1"];
+2160   [label="thread_id:2160\nthread_name_list:\"at-spi2-registr\",\"gmain\""];
+2161   [label="thread_id:2161\nthread_name_list:\"at-spi2-registr\",\"gdbus\""];
+label = "process #2125";
+color = blue;
+}
+subgraph cluster_2138 {
+2138   [label="thread_id:2138\nthread_name_list:\"gnome-session-c\"\nexecve:14642:\"/usr/lib/gnome-session/gnome-session-check-accelerated-helper\"=0\nwrite2:15540:\"2<UNIX:[42123->40695]>, \"gnome-session-is-accelerated: No composite extension.\\n\", 54\"\nexit_code:15592:\"1\"", style = filled , color="indianred1"];
+label = "process #2138";
+color = blue;
+}
+subgraph cluster_2155 {
+2155   [label="thread_id:2155\nthread_name_list:\"gnome-session-b\",\"gnome-session-c\"\nexecve:15755:\"/usr/lib/gnome-session/gnome-session-check-accelerated\"=0\nwrite2:23546:\"2<UNIX:[42123->40695]>, \"gnome-session-check-accelerated: Helper exited with code 256\\n\", 61\"\nexit_code:23575:\"1\"", style = filled , color="indianred1"];
+label = "process #2155";
+color = blue;
+}
+subgraph cluster_2191 {
+2191   [label="thread_id:2191\nthread_name_list:\"gnome-session-c\"\nexecve:23118:\"/usr/lib/gnome-session/gnome-session-check-accelerated-helper\"=0\nwrite2:23510:\"2<UNIX:[42123->40695]>, \"gnome-session-is-accelerated: No composite extension.\\n\", 54\"\nexit_code:23535:\"1\"", style = filled , color="indianred1"];
+label = "process #2191";
+color = blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1453 -> 1933   [label="13"];
+1453 -> 1938   [label="65"];
+
+1455 -> 1948   [label="1106"];
+1455 -> 2174   [label="18501"];
+
+
+
+
+1948 -> 1998   [label="1849"];
+1948 -> 1999   [label="1852"];
+1948 -> 2005   [label="3082"];
+
+1998 -> 2000   [label="2394"];
+1998 -> 2001   [label="2527"];
+1998 -> 2002   [label="2631"];
+1998 -> 2003   [label="2890"];
+1998 -> 2004   [label="3015"];
+1998 -> 2006   [label="3132"];
+1998 -> 2007   [label="3236"];
+1998 -> 2009   [label="3505"];
+1998 -> 2010   [label="3604"];
+1998 -> 2011   [label="3692"];
+1998 -> 2012   [label="3749"];
+1998 -> 2020   [label="4387"];
+1998 -> 2021   [label="4563"];
+1998 -> 2026   [label="4888"];
+1998 -> 2028   [label="5018"];
+1998 -> 2029   [label="5196"];
+1998 -> 2034   [label="5506"];
+1998 -> 2035   [label="5524"];
+1998 -> 2036   [label="5890"];
+1998 -> 2037   [label="5932"];
+1998 -> 2038   [label="5989"];
+1998 -> 2041   [label="6246"];
+1998 -> 2044   [label="6458"];
+1998 -> 2045   [label="6661"];
+1998 -> 2050   [label="7048"];
+1998 -> 2058   [label="8218"];
+1998 -> 2059   [label="8257"];
+1998 -> 2060   [label="8316"];
+1998 -> 2063   [label="8589"];
+1998 -> 2066   [label="9035"];
+1998 -> 2072   [label="10298"];
+1998 -> 2155   [label="15697"];
+
+
+
+
+
+
+
+2005 -> 2008   [label="3476"];
+
+
+
+
+
+
+
+2012 -> 2017   [label="3938"];
+
+2017 -> 2018   [label="3991"];
+
+2018 -> 2019   [label="4072"];
+
+
+
+
+2026 -> 2027   [label="4898"];
+
+
+
+
+
+
+
+
+2038 -> 2039   [label="6011"];
+2038 -> 2040   [label="6020"];
+
+
+
+2041 -> 2042   [label="6257"];
+2041 -> 2043   [label="6261"];
+
+
+
+
+
+2050 -> 2051   [label="7051"];
+2050 -> 2052   [label="7074"];
+
+2051 -> 2053   [label="7908"];
+
+
+2053 -> 2093   [label="12371"];
+
+
+
+2060 -> 2061   [label="8339"];
+2060 -> 2062   [label="8348"];
+
+
+
+2063 -> 2064   [label="8605"];
+2063 -> 2065   [label="8614"];
+
+
+
+2066 -> 2067   [label="9367"];
+
+
+2072 -> 2138   [label="14586"];
+
+2093 -> 2094   [label="12384"];
+
+2094 -> 2107   [label="12861"];
+2094 -> 2108   [label="12920"];
+2094 -> 2109   [label="12967"];
+2094 -> 2115   [label="13257"];
+
+2107 -> 2114   [label="13089"];
+
+
+
+
+2115 -> 2124   [label="14031"];
+
+2124 -> 2125   [label="14050"];
+
+2125 -> 2160   [label="16857"];
+2125 -> 2161   [label="16866"];
+
+
+2155 -> 2191   [label="23060"];
+
+
+
+
+
+}

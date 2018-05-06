@@ -1,0 +1,101 @@
+3482 , 2008 , 2005 , xrdp-chansrv , set_robust_list(0x7f1c381309e0, 24) = 0
+3484 , 2008 , 2005 , xrdp-chansrv , mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1c2f930000
+3486 , 2008 , 2005 , xrdp-chansrv , munmap(0x7f1c2f930000, 7143424) = 0
+3488 , 2008 , 2005 , xrdp-chansrv , munmap(0x7f1c34000000, 59965440) = 0
+3489 , 2008 , 2005 , xrdp-chansrv , mprotect(0x7f1c30000000, 135168, PROT_READ|PROT_WRITE) = 0
+3491 , 2008 , 2005 , xrdp-chansrv , unlink("/tmp/.xrdp/xrdp_chansrv_socket_7210") = -1 ENOENT (No such file or directory)
+3493 , 2008 , 2005 , xrdp-chansrv , socket(PF_LOCAL, SOCK_STREAM, 0) = 10<UNIX:[40237]>
+3495 , 2008 , 2005 , xrdp-chansrv , fcntl(10<UNIX:[40237]>, F_GETFL) = 0x2 (flags O_RDWR)
+3497 , 2008 , 2005 , xrdp-chansrv , fcntl(10<UNIX:[40237]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+3498 , 2008 , 2005 , xrdp-chansrv , bind(10<UNIX:[40237]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp_chansrv_socket_7210"}, 110) = 0
+3500 , 2008 , 2005 , xrdp-chansrv , listen(10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, 2) = 0
+3502 , 2008 , 2005 , xrdp-chansrv , chmod("/tmp/.xrdp/xrdp_chansrv_socket_7210", 07777) = 0
+3504 , 2008 , 2005 , xrdp-chansrv , select(11, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]> 10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], [], NULL, NULL) = 1 (in [10])
+19546 , 2008 , 2005 , xrdp-chansrv , select(9, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+19548 , 2008 , 2005 , xrdp-chansrv , select(11, [10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], NULL, NULL, {0, 0}) = 1 (in [10], left {0, 0})
+19551 , 2008 , 2005 , xrdp-chansrv , getsockopt(10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+19553 , 2008 , 2005 , xrdp-chansrv , accept(10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, {sa_family=AF_LOCAL, NULL}, [2]) = 11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>
+19555 , 2008 , 2005 , xrdp-chansrv , shutdown(10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, SHUT_RDWR) = 0
+19557 , 2008 , 2005 , xrdp-chansrv , close(10<UNIX:[40237,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>) = 0
+19559 , 2008 , 2005 , xrdp-chansrv , unlink("/tmp/.xrdp/xrdp_chansrv_socket_7210") = 0
+19561 , 2008 , 2005 , xrdp-chansrv , select(12, [11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], NULL, NULL, {0, 0}) = 1 (in [11], left {0, 0})
+19564 , 2008 , 2005 , xrdp-chansrv , getsockopt(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+19566 , 2008 , 2005 , xrdp-chansrv , recvfrom(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\0\0\0\0\20\0\0\0", 8, 0, NULL, NULL) = 8
+19569 , 2008 , 2005 , xrdp-chansrv , recvfrom(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\1\0\0\0\10\0\0\0", 8, 0, NULL, NULL) = 8
+19571 , 2008 , 2005 , xrdp-chansrv , sendto(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\0\0\0\0\20\0\0\0\2\0\0\0\10\0\0\0", 16, 0, NULL, 0) = 16
+19574 , 2008 , 2005 , xrdp-chansrv , select(12, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]> 11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], [], NULL, NULL) = 1 (in [11])
+22592 , 2008 , 2005 , xrdp-chansrv , select(9, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+22594 , 2008 , 2005 , xrdp-chansrv , select(12, [11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], NULL, NULL, {0, 0}) = 1 (in [11], left {0, 0})
+22597 , 2008 , 2005 , xrdp-chansrv , getsockopt(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+22599 , 2008 , 2005 , xrdp-chansrv , recvfrom(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\0\0\0\0B\0\0\0", 8, 0, NULL, NULL) = 8
+22600 , 2008 , 2005 , xrdp-chansrv , recvfrom(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\3\0\0\0:\0\0\0\4\0rdpdr\0\0\0\0\0\200\200rdpsnd\0\0\1\0\300\0cliprdr\0\2\0\300\240drdynvc\0\3\0\300\200", 58, 0, NULL, NULL) = 58
+22603 , 2008 , 2005 , xrdp-chansrv , sendto(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, "\0\0\0\0\20\0\0\0\4\0\0\0\10\0\0\0", 16, 0, NULL, 0) = 16
+22605 , 2008 , 2005 , xrdp-chansrv , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 10<UNIX:[47020]>
+22607 , 2008 , 2005 , xrdp-chansrv , connect(10<UNIX:[47020]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X10"}, 21) = -1 ECONNREFUSED (Connection refused)
+22610 , 2008 , 2005 , xrdp-chansrv , close(10<UNIX:[47020]>) = 0
+22612 , 2008 , 2005 , xrdp-chansrv , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 10<UNIX:[47021]>
+22614 , 2008 , 2005 , xrdp-chansrv , connect(10<UNIX:[47021]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, 110) = 0
+22617 , 2008 , 2005 , xrdp-chansrv , getpeername(10<UNIX:[47021]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X10"}, [21]) = 0
+22619 , 2008 , 2005 , xrdp-chansrv , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+22620 , 2008 , 2005 , xrdp-chansrv , fcntl(10<UNIX:[47021]>, F_GETFL) = 0x2 (flags O_RDWR)
+22622 , 2008 , 2005 , xrdp-chansrv , fcntl(10<UNIX:[47021]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+22625 , 2008 , 2005 , xrdp-chansrv , fcntl(10<UNIX:[47021]>, F_SETFD, FD_CLOEXEC) = 0
+22626 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+22629 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021]>, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+22631 , 2008 , 2005 , xrdp-chansrv , recvfrom(10<UNIX:[47021]>, 0x7f1c30001be0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+22633 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23020 , 2008 , 2005 , xrdp-chansrv , recvfrom(10<UNIX:[47021->47022]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+23022 , 2008 , 2005 , xrdp-chansrv , recvfrom(10<UNIX:[47021->47022]>, "\340\355f\2\0\0\200\0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Project, Inc\1\1 \0\0\0\0\0\30  \0\0\0\0\0.\0\0\0!\0\0\0\377\377\377\0\0\0\0\0\3\0B\0\200\0078\4\374\1\36\1\1\0\1\0$\0\0\0\0\0\30\2\1\0\0\0\0\0\0\0\30\0\10\0\0\0\0\0$\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0%\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0&\0\0\0\4\10\0\1\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\0"..., 320, 0, NULL, NULL) = 320
+23025 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23027 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+23029 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23042 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\217\1\0\0\0\0\0\1\204\0\0\326J\222|\1\0b\0\0\0\0\0P(\316\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23045 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23047 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"\204\0\1\0", 4}], 1) = 4
+23049 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23081 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\2\0\0\0\0\0\377\377\17\0\0\0\0\0P\rK\257\377\177\0\0\24\5\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23085 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fa90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23087 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23089 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"7\0\5\0\0\0\200\0.\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+23091 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23098 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\6\0\0\0\37\0\0\0\0\0\0\0\27\0\0\0\0\0\0\0P(\316\0\0\0\0\0*customization:\t-color\n\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+23101 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fad0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23103 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23105 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"b\0\5\0\t\0\200\0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+23107 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23117 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1(\5\0\0\0\0\0\0\0\0\0\326J\222|\1\0\2\0\0\0\0\0P(\316\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23119 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812f9a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23121 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812f9a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23126 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23128 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"\20\0\5\0\t\0\200\0CLIPBOARD\377\377\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+23130 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23140 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\6\0\0\0\0\0\302\0\0\0\0\0\0\0P\rK\257\377\177\0\0\24\5\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23142 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fb70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23144 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fb70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23146 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23148 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"b\0\4\0\6\0\200\0", 8}, {"XFIXES", 6}, {"\0\0", 2}], 3) = 16
+23150 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23158 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1(\7\0\0\0\0\0\0\0\0\0\326J\222|\1\0\6\0\0\0\0\0P(\316\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23160 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fab0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23162 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fab0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23166 , 2008 , 2005 , xrdp-chansrv , select(12, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]> 11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>], [], NULL, NULL) = 1 (in [8])
+23686 , 2008 , 2005 , xrdp-chansrv , select(9, [8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]>], NULL, NULL, {0, 0}) = 1 (in [8], left {0, 0})
+23689 , 2008 , 2005 , xrdp-chansrv , getsockopt(8<UNIX:[40235,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_main_term_b4a7a4f7"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+23691 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=10, revents=POLLOUT}])
+23694 , 2008 , 2005 , xrdp-chansrv , writev(10<UNIX:[47021->47022]>, [{"<\0\2\0\0\0\200\0+L\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+23696 , 2008 , 2005 , xrdp-chansrv , poll([{fd=10<UNIX:[47021->47022]>, events=POLLIN}], 1, -1) = 1 ([{fd=10, revents=POLLIN}])
+23714 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0\1\0\0\0\0\0\0\0P\rK\257\377\177\0\0d\5\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+23716 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fc10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23719 , 2008 , 2005 , xrdp-chansrv , recvmsg(10<UNIX:[47021->47022]>, 0x7f1c3812fc10, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23721 , 2008 , 2005 , xrdp-chansrv , shutdown(10<UNIX:[47021->47022]>, SHUT_RDWR) = 0
+23723 , 2008 , 2005 , xrdp-chansrv , close(10<UNIX:[47021->47022]>) = 0
+23725 , 2008 , 2005 , xrdp-chansrv , shutdown(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>, SHUT_RDWR) = 0
+23727 , 2008 , 2005 , xrdp-chansrv , close(11<UNIX:[46971->46970,"/tmp/.xrdp/xrdp_chansrv_socket_7210"]>) = 0
+23729 , 2008 , 2005 , xrdp-chansrv , select(10, [9<UNIX:[40236,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_thread_done_2eb6aa8e"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+23731 , 2008 , 2005 , xrdp-chansrv , getsockname(9<UNIX:[40236,"/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_thread_done_2eb6aa8e"]>, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_thread_done_2eb6aa8e"}, [76]) = 0
+23733 , 2008 , 2005 , xrdp-chansrv , socket(PF_LOCAL, SOCK_DGRAM, 0) = 10<UNIX:[51960]>
+23735 , 2008 , 2005 , xrdp-chansrv , sendto(10<UNIX:[51960]>, "sig\0", 4, 0, {sa_family=AF_LOCAL, sun_path="/tmp/.xrdp/xrdp-chansrv-gldv3i/xrdp_chansrv_000007d5_thread_done_2eb6aa8e"}, 76) = 4
+23738 , 2008 , 2005 , xrdp-chansrv , close(10<UNIX:[51960]>) = 0
+23741 , 2008 , 2005 , xrdp-chansrv , madvise(0x7f1c37930000, 8368128, MADV_DONTNEED) = 0
+23743 , 2008 , 2005 , xrdp-chansrv , exit(0) = ?
+23744 , 2008 , 2005 , xrdp-chansrv , +++ exited with 0 +++

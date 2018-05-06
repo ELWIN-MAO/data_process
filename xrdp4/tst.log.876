@@ -1,0 +1,15 @@
+1592 , 876 , 876 , ModemManager , restart_syscall(<... resuming interrupted restart_syscall ...>) = 1
+1615 , 876 , 876 , ModemManager , futex(0x21d5b30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1618 , 876 , 876 , ModemManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1621 , 876 , 876 , ModemManager , futex(0x21d5b30, FUTEX_WAKE_PRIVATE, 1) = 1
+1624 , 876 , 876 , ModemManager , futex(0x21de078, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1629 , 876 , 876 , ModemManager , futex(0x21de078, FUTEX_WAKE_PRIVATE, 1) = 0
+1633 , 876 , 876 , ModemManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[16728]>, events=POLLIN}], 2, -1) = 1 ([{fd=4, revents=POLLIN}])
+1651 , 876 , 876 , ModemManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+1654 , 876 , 876 , ModemManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[16728]>, events=POLLIN}], 2, -1) = 1 ([{fd=4, revents=POLLIN}])
+2389 , 876 , 876 , ModemManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2393 , 876 , 876 , ModemManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[16728]>, events=POLLIN}], 2, -1) = 1 ([{fd=4, revents=POLLIN}])
+2710 , 876 , 876 , ModemManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+2715 , 876 , 876 , ModemManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[16728]>, events=POLLIN}], 2, -1) = 1 ([{fd=4, revents=POLLIN}])
+24262 , 876 , 876 , ModemManager , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+24265 , 876 , 876 , ModemManager , poll([{fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=8<NETLINK:[16728]>, events=POLLIN}], 2, -1 <detached ...>

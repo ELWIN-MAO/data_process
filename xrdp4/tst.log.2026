@@ -1,0 +1,54 @@
+4890 , 2026 , 2026 , startwm.sh , close(12</etc/X11/Xsession.d/55gnome-session_gnomerc>) = 0
+4892 , 2026 , 2026 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+4893 , 2026 , 2026 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+4894 , 2026 , 2026 , startwm.sh , close(8<pipe:[40428]>) = 0
+4895 , 2026 , 2026 , startwm.sh , dup2(9<pipe:[40428]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[40428]>
+4896 , 2026 , 2026 , startwm.sh , close(9<pipe:[40428]>) = 0
+4897 , 2026 , 2026 , startwm.sh , pipe([8<pipe:[40429]>, 9<pipe:[40429]>]) = 0
+4898 , 2026 , 2026 , startwm.sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f08df0ea9d0) = 2027
+4899 , 2026 , 2026 , startwm.sh , close(9<pipe:[40429]>) = 0
+4902 , 2026 , 2026 , startwm.sh , read(8<pipe:[40429]>, "/usr/bin/gnome-session\n", 128) = 23
+4952 , 2026 , 2026 , startwm.sh , read(8<pipe:[40429]>, "", 128) = 0
+4954 , 2026 , 2026 , startwm.sh , close(8<pipe:[40429]>) = 0
+4957 , 2026 , 2026 , startwm.sh , wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2027
+4959 , 2026 , 2026 , startwm.sh , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2027, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+4960 , 2026 , 2026 , startwm.sh , rt_sigreturn({mask=[]}) = 2027
+4961 , 2026 , 2026 , startwm.sh , stat("/bin/basename", 0x7fffae09fe20) = -1 ENOENT (No such file or directory)
+4962 , 2026 , 2026 , startwm.sh , stat("/usr/bin/basename", {st_dev=makedev(8, 1), st_ino=4494150, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31408, st_atime=2018/05/01-12:46:43.651858611, st_mtime=2017/03/02-13:07:22, st_ctime=2018/01/24-23:47:00.797747165}) = 0
+4963 , 2026 , 2026 , startwm.sh , execve("/usr/bin/basename", ["basename", "/usr/bin/gnome-session"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+4964 , 2026 , 2026 , basename , brk(NULL) = 0x96d000
+4965 , 2026 , 2026 , basename , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4966 , 2026 , 2026 , basename , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4967 , 2026 , 2026 , basename , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+4968 , 2026 , 2026 , basename , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+4969 , 2026 , 2026 , basename , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f710b10b000
+4970 , 2026 , 2026 , basename , close(8</etc/ld.so.cache>) = 0
+4971 , 2026 , 2026 , basename , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4972 , 2026 , 2026 , basename , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+4973 , 2026 , 2026 , basename , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+4974 , 2026 , 2026 , basename , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+4975 , 2026 , 2026 , basename , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f710b10a000
+4976 , 2026 , 2026 , basename , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f710ab3e000
+4977 , 2026 , 2026 , basename , mprotect(0x7f710acfe000, 2097152, PROT_NONE) = 0
+4978 , 2026 , 2026 , basename , mmap(0x7f710aefe000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f710aefe000
+4979 , 2026 , 2026 , basename , mmap(0x7f710af04000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f710af04000
+4980 , 2026 , 2026 , basename , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+4981 , 2026 , 2026 , basename , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f710b109000
+4982 , 2026 , 2026 , basename , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f710b108000
+4983 , 2026 , 2026 , basename , arch_prctl(ARCH_SET_FS, 0x7f710b109700) = 0
+4984 , 2026 , 2026 , basename , mprotect(0x7f710aefe000, 16384, PROT_READ) = 0
+4985 , 2026 , 2026 , basename , mprotect(0x606000, 4096, PROT_READ) = 0
+4986 , 2026 , 2026 , basename , mprotect(0x7f710b12d000, 4096, PROT_READ) = 0
+4987 , 2026 , 2026 , basename , munmap(0x7f710b10b000, 136504) = 0
+4988 , 2026 , 2026 , basename , brk(NULL) = 0x96d000
+4989 , 2026 , 2026 , basename , brk(0x98e000) = 0x98e000
+4990 , 2026 , 2026 , basename , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+4991 , 2026 , 2026 , basename , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+4992 , 2026 , 2026 , basename , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7f710a866000
+4993 , 2026 , 2026 , basename , close(8</usr/lib/locale/locale-archive>) = 0
+4994 , 2026 , 2026 , basename , fstat(1<pipe:[40428]>, {st_dev=makedev(0, 10), st_ino=40428, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:08.752719153, st_mtime=2018/05/02-03:53:08.752719153, st_ctime=2018/05/02-03:53:08.752719153}) = 0
+4995 , 2026 , 2026 , basename , write(1<pipe:[40428]>, "gnome-session\n", 14) = 14
+4996 , 2026 , 2026 , basename , close(1<pipe:[40428]>) = 0
+4998 , 2026 , 2026 , basename , close(2</home/elwin/.xsession-errors>) = 0
+5000 , 2026 , 2026 , basename , exit_group(0) = ?
+5002 , 2026 , 2026 , basename , +++ exited with 0 +++

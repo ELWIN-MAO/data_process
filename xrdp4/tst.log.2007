@@ -1,0 +1,120 @@
+3238 , 2007 , 2007 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+3239 , 2007 , 2007 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+3242 , 2007 , 2007 , startwm.sh , close(8<pipe:[40234]>) = 0
+3244 , 2007 , 2007 , startwm.sh , dup2(9<pipe:[40234]>, 1</home/elwin/.xsession-errors>) = 1<pipe:[40234]>
+3247 , 2007 , 2007 , startwm.sh , close(9<pipe:[40234]>) = 0
+3248 , 2007 , 2007 , startwm.sh , stat("/bin/run-parts", {st_dev=makedev(8, 1), st_ino=4718733, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=19320, st_atime=2018/05/01-11:47:42.285064298, st_mtime=2016/01/26-13:17:55, st_ctime=2016/11/03-10:37:31.039999939}) = 0
+3251 , 2007 , 2007 , startwm.sh , execve("/bin/run-parts", ["run-parts", "--list", "/etc/X11/Xsession.d"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin"]) = 0
+3253 , 2007 , 2007 , run-parts , brk(NULL) = 0xce1000
+3255 , 2007 , 2007 , run-parts , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3257 , 2007 , 2007 , run-parts , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3258 , 2007 , 2007 , run-parts , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+3260 , 2007 , 2007 , run-parts , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+3262 , 2007 , 2007 , run-parts , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7f663fb87000
+3264 , 2007 , 2007 , run-parts , close(8</etc/ld.so.cache>) = 0
+3265 , 2007 , 2007 , run-parts , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3267 , 2007 , 2007 , run-parts , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+3269 , 2007 , 2007 , run-parts , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+3271 , 2007 , 2007 , run-parts , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+3273 , 2007 , 2007 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f663fb86000
+3275 , 2007 , 2007 , run-parts , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f663f5ba000
+3277 , 2007 , 2007 , run-parts , mprotect(0x7f663f77a000, 2097152, PROT_NONE) = 0
+3279 , 2007 , 2007 , run-parts , mmap(0x7f663f97a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f663f97a000
+3281 , 2007 , 2007 , run-parts , mmap(0x7f663f980000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f663f980000
+3283 , 2007 , 2007 , run-parts , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+3285 , 2007 , 2007 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f663fb85000
+3287 , 2007 , 2007 , run-parts , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f663fb84000
+3289 , 2007 , 2007 , run-parts , arch_prctl(ARCH_SET_FS, 0x7f663fb85700) = 0
+3291 , 2007 , 2007 , run-parts , mprotect(0x7f663f97a000, 16384, PROT_READ) = 0
+3293 , 2007 , 2007 , run-parts , mprotect(0x603000, 4096, PROT_READ) = 0
+3295 , 2007 , 2007 , run-parts , mprotect(0x7f663fba9000, 4096, PROT_READ) = 0
+3297 , 2007 , 2007 , run-parts , munmap(0x7f663fb87000, 136504) = 0
+3299 , 2007 , 2007 , run-parts , umask(022) = 02
+3301 , 2007 , 2007 , run-parts , brk(NULL) = 0xce1000
+3303 , 2007 , 2007 , run-parts , brk(0xd02000) = 0xd02000
+3305 , 2007 , 2007 , run-parts , rt_sigaction(SIGCHLD, {0x401720, [], SA_RESTORER|SA_NOCLDSTOP, 0x7f663f5ef4b0}, NULL, 8) = 0
+3307 , 2007 , 2007 , run-parts , rt_sigprocmask(SIG_BLOCK, [CHLD], NULL, 8) = 0
+3309 , 2007 , 2007 , run-parts , open("/etc/X11/Xsession.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8</etc/X11/Xsession.d>
+3311 , 2007 , 2007 , run-parts , fstat(8</etc/X11/Xsession.d>, {st_dev=makedev(8, 1), st_ino=131326, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/02-02:17:56.593177525, st_mtime=2018/01/25-00:07:32.386418651, st_ctime=2018/01/25-00:07:32.386418651}) = 0
+3313 , 2007 , 2007 , run-parts , getdents(8</etc/X11/Xsession.d>, [{d_ino=131358, d_off=879084325359482264, d_reclen=40, d_name="90atk-adaptor", d_type=DT_REG}, {d_ino=131353, d_off=2341524678598746248, d_reclen=32, d_name="65snappy", d_type=DT_REG}, {d_ino=131350, d_off=3010095946851488672, d_reclen=32, d_name="60xbrlapi", d_type=DT_REG}, {d_ino=131078, d_off=3120846175975756448, d_reclen=24, d_name="..", d_type=DT_DIR}, {d_ino=131345, d_off=3437206951345085231, d_reclen=48, d_name="50_check_unity_support", d_type=DT_REG}, {d_ino=131364, d_off=3681108437842140013, d_reclen=40, d_name="99x11-common_start", d_type=DT_REG}, {d_ino=131343, d_off=4003411934793409562, d_reclen=48, d_name="35x11-common_xhost-local", d_type=DT_REG}, {d_ino=131357, d_off=4124283508560244926, d_reclen=40, d_name="81overlay-scrollbar", d_type=DT_REG}, {d_ino=131354, d_off=4155164167865368629, d_reclen=48, d_name="70gconfd_path-on-session", d_type=DT_REG}, {d_ino=131347, d_off=4235994102123106040, d_reclen=48, d_name="55gnome-session_gnomerc", d_type=DT_REG}, {d_ino=131341, d_off=4423020092518502683, d_reclen=48, d_name="20x11-common_process-args", d_type=DT_REG}, {d_ino=131342, d_off=4697946425822416580, d_reclen=48, d_name="30x11-common_xresources", d_type=DT_REG}, {d_ino=131355, d_off=5097632689219085148, d_reclen=40, d_name="70im-config_launch", d_type=DT_REG}, {d_ino=131348, d_off=5194905097756659687, d_reclen=48, d_name="60x11-common_localhost", d_type=DT_REG}, {d_ino=131352, d_off=5710434140879988661, d_reclen=48, d_name="65compiz_profile-on-session", d_type=DT_REG}, {d_ino=131326, d_off=5752928084870469029, d_reclen=24, d_name=".", d_type=DT_DIR}, {d_ino=131351, d_off=5803875288659969105, d_reclen=48, d_name="60xdg-user-dirs-update", d_type=DT_REG}, {d_ino=131362, d_off=5854870811296247419, d_reclen=48, d_name="95dbus_update-activation-env", d_type=DT_REG}, {d_ino=131363, d_off=6551065653280074409, d_reclen=32, d_name="99upstart", d_type=DT_REG}, {d_ino=131340, d_off=6941086926753757605, d_reclen=32, d_name="00upstart", d_type=DT_REG}, {d_ino=131361, d_off=7244418960819098892, d_reclen=48, d_name="90x11-common_ssh-agent", d_type=DT_REG}, {d_ino=131346, d_off=7282601173093431368, d_reclen=56, d_name="50x11-common_determine-startup", d_type=DT_REG}, {d_ino=131356, d_off=7513597557907512397, d_reclen=40, d_name="75dbus_dbus-launch", d_type=DT_REG}, {d_ino=131349, d_off=7659067598527298851, d_reclen=48, d_name="60x11-common_xdg_path", d_type=DT_REG}, {d_ino=131344, d_off=7755204180918706701, d_reclen=48, d_name="40x11-common_xsessionrc", d_type=DT_REG}, {d_ino=131359, d_off=7763328709969061559, d_reclen=32, d_name="90gpg-agent", d_type=DT_REG}, {d_ino=131360, d_off=9223372036854775807, d_reclen=32, d_name="90qt-a11y", d_type=DT_REG}], 32768) = 1120
+3315 , 2007 , 2007 , run-parts , getdents(8</etc/X11/Xsession.d>, [], 32768) = 0
+3317 , 2007 , 2007 , run-parts , close(8</etc/X11/Xsession.d>) = 0
+3319 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/00upstart", {st_dev=makedev(8, 1), st_ino=131340, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=382, st_atime=2018/05/02-02:17:56.593177525, st_mtime=2016/02/29-10:10:26, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+3321 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/00upstart", X_OK) = -1 EACCES (Permission denied)
+3323 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/00upstart", R_OK) = 0
+3325 , 2007 , 2007 , run-parts , fstat(1<pipe:[40234]>, {st_dev=makedev(0, 10), st_ino=40234, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/02-03:53:08.348699342, st_mtime=2018/05/02-03:53:08.348699342, st_ctime=2018/05/02-03:53:08.348699342}) = 0
+3327 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/20x11-common_process-args", {st_dev=makedev(8, 1), st_ino=131341, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2030, st_atime=2018/05/02-02:17:56.597177573, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+3329 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/20x11-common_process-args", X_OK) = -1 EACCES (Permission denied)
+3330 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/20x11-common_process-args", R_OK) = 0
+3332 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/30x11-common_xresources", {st_dev=makedev(8, 1), st_ino=131342, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=878, st_atime=2018/05/02-02:17:56.597177573, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.275999939}) = 0
+3334 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/30x11-common_xresources", X_OK) = -1 EACCES (Permission denied)
+3336 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/30x11-common_xresources", R_OK) = 0
+3338 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/35x11-common_xhost-local", {st_dev=makedev(8, 1), st_ino=131343, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=389, st_atime=2018/05/02-02:17:57.517188358, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3340 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/35x11-common_xhost-local", X_OK) = -1 EACCES (Permission denied)
+3342 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/35x11-common_xhost-local", R_OK) = 0
+3344 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/40x11-common_xsessionrc", {st_dev=makedev(8, 1), st_ino=131344, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=187, st_atime=2018/05/02-02:17:57.537188587, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3346 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/40x11-common_xsessionrc", X_OK) = -1 EACCES (Permission denied)
+3347 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/40x11-common_xsessionrc", R_OK) = 0
+3349 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/50_check_unity_support", {st_dev=makedev(8, 1), st_ino=131345, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=260, st_atime=2018/05/02-02:17:57.537188587, st_mtime=2016/04/18-00:01:24, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3351 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/50_check_unity_support", X_OK) = -1 EACCES (Permission denied)
+3353 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/50_check_unity_support", R_OK) = 0
+3355 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/50x11-common_determine-startup", {st_dev=makedev(8, 1), st_ino=131346, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1568, st_atime=2018/05/02-02:17:57.537188587, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3357 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/50x11-common_determine-startup", X_OK) = -1 EACCES (Permission denied)
+3359 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/50x11-common_determine-startup", R_OK) = 0
+3360 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/55gnome-session_gnomerc", {st_dev=makedev(8, 1), st_ino=131347, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=691, st_atime=2018/05/02-02:17:57.537188587, st_mtime=2015/11/11-19:08:52, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3362 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/55gnome-session_gnomerc", X_OK) = -1 EACCES (Permission denied)
+3364 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/55gnome-session_gnomerc", R_OK) = 0
+3366 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/60x11-common_localhost", {st_dev=makedev(8, 1), st_ino=131348, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=146, st_atime=2018/05/02-02:17:57.541188633, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3368 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60x11-common_localhost", X_OK) = -1 EACCES (Permission denied)
+3370 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60x11-common_localhost", R_OK) = 0
+3371 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/60x11-common_xdg_path", {st_dev=makedev(8, 1), st_ino=131349, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=768, st_atime=2018/05/02-02:17:57.553188771, st_mtime=2016/03/04-09:49:10, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3373 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60x11-common_xdg_path", X_OK) = -1 EACCES (Permission denied)
+3375 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60x11-common_xdg_path", R_OK) = 0
+3377 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/60xbrlapi", {st_dev=makedev(8, 1), st_ino=131350, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=58, st_atime=2018/05/02-02:17:57.553188771, st_mtime=2016/04/10-21:32:44, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3379 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60xbrlapi", X_OK) = -1 EACCES (Permission denied)
+3381 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60xbrlapi", R_OK) = 0
+3382 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/60xdg-user-dirs-update", {st_dev=makedev(8, 1), st_ino=131351, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=80, st_atime=2018/05/02-02:17:57.561188863, st_mtime=2016/04/14-01:45:18, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3384 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60xdg-user-dirs-update", X_OK) = -1 EACCES (Permission denied)
+3386 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/60xdg-user-dirs-update", R_OK) = 0
+3388 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/65compiz_profile-on-session", {st_dev=makedev(8, 1), st_ino=131352, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=417, st_atime=2018/05/02-02:17:57.689190334, st_mtime=2016/04/15-01:38:04, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3390 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/65compiz_profile-on-session", X_OK) = -1 EACCES (Permission denied)
+3391 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/65compiz_profile-on-session", R_OK) = 0
+3393 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/65snappy", {st_dev=makedev(8, 1), st_ino=131353, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=181, st_atime=2018/05/02-02:17:57.689190334, st_mtime=2016/04/19-10:02:47, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3395 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/65snappy", X_OK) = -1 EACCES (Permission denied)
+3397 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/65snappy", R_OK) = 0
+3399 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/70gconfd_path-on-session", {st_dev=makedev(8, 1), st_ino=131354, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=336, st_atime=2018/05/02-02:17:57.697190426, st_mtime=2015/06/10-21:51:24, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3401 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/70gconfd_path-on-session", X_OK) = -1 EACCES (Permission denied)
+3403 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/70gconfd_path-on-session", R_OK) = 0
+3404 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/70im-config_launch", {st_dev=makedev(8, 1), st_ino=131355, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1541, st_atime=2018/05/02-02:17:57.697190426, st_mtime=2015/03/21-12:10:09, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3406 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/70im-config_launch", X_OK) = -1 EACCES (Permission denied)
+3408 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/70im-config_launch", R_OK) = 0
+3410 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/75dbus_dbus-launch", {st_dev=makedev(8, 1), st_ino=131356, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=406, st_atime=2018/05/02-02:17:57.837192035, st_mtime=2015/12/01-23:42:14, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3412 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/75dbus_dbus-launch", X_OK) = -1 EACCES (Permission denied)
+3414 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/75dbus_dbus-launch", R_OK) = 0
+3416 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/81overlay-scrollbar", {st_dev=makedev(8, 1), st_ino=131357, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=198, st_atime=2018/05/02-02:17:57.841192081, st_mtime=2015/11/17-12:11:27, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3417 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/81overlay-scrollbar", X_OK) = -1 EACCES (Permission denied)
+3419 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/81overlay-scrollbar", R_OK) = 0
+3421 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/90atk-adaptor", {st_dev=makedev(8, 1), st_ino=131358, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=371, st_atime=2018/05/02-02:17:57.841192081, st_mtime=2015/10/12-17:47:39, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3423 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90atk-adaptor", X_OK) = -1 EACCES (Permission denied)
+3425 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90atk-adaptor", R_OK) = 0
+3427 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/90gpg-agent", {st_dev=makedev(8, 1), st_ino=131359, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=608, st_atime=2018/05/02-02:17:57.841192081, st_mtime=2016/04/08-06:14:07, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3429 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90gpg-agent", X_OK) = -1 EACCES (Permission denied)
+3431 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90gpg-agent", R_OK) = 0
+3433 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/90qt-a11y", {st_dev=makedev(8, 1), st_ino=131360, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=257, st_atime=2018/05/02-02:17:57.861192310, st_mtime=2016/02/24-20:14:16, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3435 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90qt-a11y", X_OK) = -1 EACCES (Permission denied)
+3437 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90qt-a11y", R_OK) = 0
+3439 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/90x11-common_ssh-agent", {st_dev=makedev(8, 1), st_ino=131361, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=629, st_atime=2018/05/02-02:17:57.861192310, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3441 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90x11-common_ssh-agent", X_OK) = -1 EACCES (Permission denied)
+3443 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/90x11-common_ssh-agent", R_OK) = 0
+3445 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/95dbus_update-activation-env", {st_dev=makedev(8, 1), st_ino=131362, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=513, st_atime=2018/05/02-02:17:57.861192310, st_mtime=2015/12/01-23:42:14, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3447 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/95dbus_update-activation-env", X_OK) = -1 EACCES (Permission denied)
+3449 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/95dbus_update-activation-env", R_OK) = 0
+3451 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/99upstart", {st_dev=makedev(8, 1), st_ino=131363, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=322, st_atime=2018/05/02-02:17:57.865192356, st_mtime=2016/02/29-10:10:26, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3453 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/99upstart", X_OK) = -1 EACCES (Permission denied)
+3455 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/99upstart", R_OK) = 0
+3456 , 2007 , 2007 , run-parts , stat("/etc/X11/Xsession.d/99x11-common_start", {st_dev=makedev(8, 1), st_ino=131364, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=166, st_atime=2018/05/02-02:17:57.865192356, st_mtime=2015/11/10-07:34:01, st_ctime=2016/11/03-10:37:31.279999939}) = 0
+3458 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/99x11-common_start", X_OK) = -1 EACCES (Permission denied)
+3460 , 2007 , 2007 , run-parts , access("/etc/X11/Xsession.d/99x11-common_start", R_OK) = 0
+3462 , 2007 , 2007 , run-parts , write(1<pipe:[40234]>, "/etc/X11/Xsession.d/00upstart\n/etc/X11/Xsession.d/20x11-common_process-args\n/etc/X11/Xsession.d/30x11-common_xresources\n/etc/X11/Xsession.d/35x11-common_xhost-local\n/etc/X11/Xsession.d/40x11-common_xs"..., 1002) = 1002
+3464 , 2007 , 2007 , run-parts , exit_group(0) = ?
+3466 , 2007 , 2007 , run-parts , +++ exited with 0 +++

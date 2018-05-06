@@ -1,0 +1,138 @@
+5528 , 2035 , 2035 , startwm.sh , close(12</etc/X11/Xsession.d/60xdg-user-dirs-update>) = 0
+5529 , 2035 , 2035 , startwm.sh , close(11</etc/X11/Xsession>) = 0
+5531 , 2035 , 2035 , startwm.sh , close(10</etc/xrdp/startwm.sh>) = 0
+5533 , 2035 , 2035 , startwm.sh , execve("/usr/bin/xdg-user-dirs-update", ["/usr/bin/xdg-user-dirs-update"], ["USER=elwin", "HOME=/home/elwin", "XDG_SESSION_ID=c2", "PATH=/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:10.0", "LANG=en_US.UTF-8", "UID=1000", "SHELL=/bin/bash", "PWD=/home/elwin", "XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/"]) = 0
+5536 , 2035 , 2035 , xdg-user-dirs-u , brk(NULL) = 0xe1e000
+5538 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5540 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5542 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+5544 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+5546 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7fef1c90a000
+5548 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/ld.so.cache>) = 0
+5550 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5552 , 2035 , 2035 , xdg-user-dirs-u , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libc-2.23.so>
+5554 , 2035 , 2035 , xdg-user-dirs-u , read(8</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+5555 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5557 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fef1c909000
+5559 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fef1c33d000
+5561 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1c4fd000, 2097152, PROT_NONE) = 0
+5563 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1c6fd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fef1c6fd000
+5565 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1c703000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fef1c703000
+5567 , 2035 , 2035 , xdg-user-dirs-u , close(8</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+5569 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fef1c908000
+5571 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fef1c907000
+5573 , 2035 , 2035 , xdg-user-dirs-u , arch_prctl(ARCH_SET_FS, 0x7fef1c908700) = 0
+5575 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1c6fd000, 16384, PROT_READ) = 0
+5577 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x603000, 4096, PROT_READ) = 0
+5579 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1c92c000, 4096, PROT_READ) = 0
+5581 , 2035 , 2035 , xdg-user-dirs-u , munmap(0x7fef1c90a000, 136504) = 0
+5584 , 2035 , 2035 , xdg-user-dirs-u , brk(NULL) = 0xe1e000
+5585 , 2035 , 2035 , xdg-user-dirs-u , brk(0xe3f000) = 0xe3f000
+5587 , 2035 , 2035 , xdg-user-dirs-u , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 8</usr/lib/locale/locale-archive>
+5589 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/01-11:42:38.583680451, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+5591 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 8</usr/lib/locale/locale-archive>, 0) = 0x7fef1c065000
+5593 , 2035 , 2035 , xdg-user-dirs-u , close(8</usr/lib/locale/locale-archive>) = 0
+5595 , 2035 , 2035 , xdg-user-dirs-u , stat("/usr/share/locale", {st_dev=makedev(8, 1), st_ino=4851519, st_mode=S_IFDIR|0775, st_nlink=193, st_uid=4011, st_gid=4011, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/02-02:18:07.297282460, st_mtime=2018/01/22-22:38:08.631911691, st_ctime=2018/01/22-22:38:08.631911691}) = 0
+5597 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 8</etc/nsswitch.conf>
+5599 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2018/05/01-11:43:26.621183406, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+5601 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+5603 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/nsswitch.conf>, "", 4096) = 0
+5605 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/nsswitch.conf>) = 0
+5607 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+5609 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+5611 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7fef1c90a000
+5613 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/ld.so.cache>) = 0
+5615 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5617 , 2035 , 2035 , xdg-user-dirs-u , open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>
+5619 , 2035 , 2035 , xdg-user-dirs-u , read(8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\203\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Py\0\0\0\0\0\0Py\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0\210} \0\0\0\0\0008\5\0\0\0\0\0\0\330\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240}\0\0\0\0\0\0\240} \0\0\0\0\0"..., 832) = 832
+5621 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002071, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35688, st_atime=2018/05/01-11:43:26.621183406, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5623 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0) = 0x7fef1be5c000
+5624 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1be64000, 2093056, PROT_NONE) = 0
+5626 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1c063000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>, 0x7000) = 0x7fef1c063000
+5628 , 2035 , 2035 , xdg-user-dirs-u , close(8</lib/x86_64-linux-gnu/libnss_compat-2.23.so>) = 0
+5630 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5632 , 2035 , 2035 , xdg-user-dirs-u , open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libnsl-2.23.so>
+5634 , 2035 , 2035 , xdg-user-dirs-u , read(8</lib/x86_64-linux-gnu/libnsl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0@\0\0\0\0\0\0\0Hd\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34]\1\0\0\0\0\0\34]\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X]\1\0\0\0\0\0X]!\0\0\0\0\0X]!\0\0\0\0\0\320\5\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p]\1\0\0\0\0\0p]!\0\0\0\0\0"..., 832) = 832
+5636 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</lib/x86_64-linux-gnu/libnsl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002059, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93128, st_atime=2018/05/01-11:43:26.621183406, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5638 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0) = 0x7fef1bc43000
+5640 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1bc59000, 2093056, PROT_NONE) = 0
+5642 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1be58000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnsl-2.23.so>, 0x15000) = 0x7fef1be58000
+5644 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1be5a000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fef1be5a000
+5646 , 2035 , 2035 , xdg-user-dirs-u , close(8</lib/x86_64-linux-gnu/libnsl-2.23.so>) = 0
+5648 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1be58000, 4096, PROT_READ) = 0
+5650 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1c063000, 4096, PROT_READ) = 0
+5652 , 2035 , 2035 , xdg-user-dirs-u , munmap(0x7fef1c90a000, 136504) = 0
+5654 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 8</etc/ld.so.cache>
+5656 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=132256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136504, st_atime=2018/05/01-06:41:52.850616089, st_mtime=2018/05/01-06:41:52.558671116, st_ctime=2018/05/01-06:41:52.634656794}) = 0
+5659 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 136504, PROT_READ, MAP_PRIVATE, 8</etc/ld.so.cache>, 0) = 0x7fef1c90a000
+5661 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/ld.so.cache>) = 0
+5664 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5667 , 2035 , 2035 , xdg-user-dirs-u , open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>
+5668 , 2035 , 2035 , xdg-user-dirs-u , read(8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0@\0\0\0\0\0\0\0\240\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\244\0\0\0\0\0\0\234\244\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\255\0\0\0\0\0\0p\255 \0\0\0\0\0p\255 \0\0\0\0\0\f\4\0\0\0\0\0\0\30\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0"..., 832) = 832
+5670 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002080, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47648, st_atime=2018/05/01-11:43:26.621183406, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5672 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0) = 0x7fef1ba37000
+5674 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1ba42000, 2093056, PROT_NONE) = 0
+5676 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1bc41000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>, 0xa000) = 0x7fef1bc41000
+5679 , 2035 , 2035 , xdg-user-dirs-u , close(8</lib/x86_64-linux-gnu/libnss_nis-2.23.so>) = 0
+5681 , 2035 , 2035 , xdg-user-dirs-u , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5683 , 2035 , 2035 , xdg-user-dirs-u , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 8</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+5685 , 2035 , 2035 , xdg-user-dirs-u , read(8</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+5686 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002076, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2018/05/01-11:43:26.621183406, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+5688 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7fef1b825000
+5690 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1b830000, 2093056, PROT_NONE) = 0
+5692 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1ba2f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 8</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7fef1ba2f000
+5694 , 2035 , 2035 , xdg-user-dirs-u , mmap(0x7fef1ba31000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fef1ba31000
+5696 , 2035 , 2035 , xdg-user-dirs-u , close(8</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+5698 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1ba2f000, 4096, PROT_READ) = 0
+5700 , 2035 , 2035 , xdg-user-dirs-u , mprotect(0x7fef1bc41000, 4096, PROT_READ) = 0
+5701 , 2035 , 2035 , xdg-user-dirs-u , munmap(0x7fef1c90a000, 136504) = 0
+5703 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 8</etc/passwd>
+5705 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/default/nss", O_RDONLY|O_CLOEXEC) = 9</etc/default/nss>
+5707 , 2035 , 2035 , xdg-user-dirs-u , fstat(9</etc/default/nss>, {st_dev=makedev(8, 1), st_ino=132373, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1756, st_atime=2018/05/01-12:00:10.434416149, st_mtime=2016/04/13-20:00:00, st_ctime=2016/11/03-10:37:31.491999939}) = 0
+5709 , 2035 , 2035 , xdg-user-dirs-u , read(9</etc/default/nss>, "# /etc/default/nss\n# This file can theoretically contain a bunch of customization variables\n# for Name Service Switch in the GNU C library.  For now there are only\n# four variables:\n#\n# NETID_AUTHORIT"..., 4096) = 1756
+5711 , 2035 , 2035 , xdg-user-dirs-u , read(9</etc/default/nss>, "", 4096) = 0
+5713 , 2035 , 2035 , xdg-user-dirs-u , close(9</etc/default/nss>) = 0
+5715 , 2035 , 2035 , xdg-user-dirs-u , getuid() = 1000
+5717 , 2035 , 2035 , xdg-user-dirs-u , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[40520]>
+5719 , 2035 , 2035 , xdg-user-dirs-u , connect(9<UNIX:[40520]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5721 , 2035 , 2035 , xdg-user-dirs-u , close(9<UNIX:[40520]>) = 0
+5722 , 2035 , 2035 , xdg-user-dirs-u , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9<UNIX:[40521]>
+5724 , 2035 , 2035 , xdg-user-dirs-u , connect(9<UNIX:[40521]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5726 , 2035 , 2035 , xdg-user-dirs-u , close(9<UNIX:[40521]>) = 0
+5728 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 9</etc/passwd>
+5730 , 2035 , 2035 , xdg-user-dirs-u , lseek(9</etc/passwd>, 0, SEEK_CUR) = 0
+5732 , 2035 , 2035 , xdg-user-dirs-u , fstat(9</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+5734 , 2035 , 2035 , xdg-user-dirs-u , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 9</etc/passwd>, 0) = 0x7fef1c92b000
+5736 , 2035 , 2035 , xdg-user-dirs-u , lseek(9</etc/passwd>, 2368, SEEK_SET) = 2368
+5738 , 2035 , 2035 , xdg-user-dirs-u , munmap(0x7fef1c92b000, 2368) = 0
+5739 , 2035 , 2035 , xdg-user-dirs-u , close(9</etc/passwd>) = 0
+5742 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/passwd>) = 0
+5744 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/.config/user-dirs.conf", 0x7fffb8229f50) = -1 ENOENT (No such file or directory)
+5746 , 2035 , 2035 , xdg-user-dirs-u , stat("/etc/xdg/user-dirs.conf", {st_dev=makedev(8, 1), st_ino=133984, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=414, st_atime=2018/05/02-02:17:57.665190058, st_mtime=2016/04/14-01:45:17, st_ctime=2016/11/03-10:37:31.711999939}) = 0
+5748 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/xdg/user-dirs.conf", O_RDONLY) = 8</etc/xdg/user-dirs.conf>
+5750 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/xdg/user-dirs.conf>, {st_dev=makedev(8, 1), st_ino=133984, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=414, st_atime=2018/05/02-02:17:57.665190058, st_mtime=2016/04/14-01:45:17, st_ctime=2016/11/03-10:37:31.711999939}) = 0
+5752 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/xdg/user-dirs.conf>, "# This controls the behaviour of xdg-user-dirs-update which is run on user login\n# You can also have per-user config in ~/.config/user-dirs.conf, or specify\n# the XDG_CONFIG_HOME and/or XDG_CONFIG_DIR"..., 4096) = 414
+5754 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/xdg/user-dirs.conf>, "", 4096) = 0
+5755 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/xdg/user-dirs.conf>) = 0
+5757 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/.config/user-dirs.defaults", 0x7fffb8229f50) = -1 ENOENT (No such file or directory)
+5759 , 2035 , 2035 , xdg-user-dirs-u , stat("/etc/xdg/user-dirs.defaults", {st_dev=makedev(8, 1), st_ino=133985, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=418, st_atime=2018/05/02-02:17:57.665190058, st_mtime=2016/04/14-01:45:17, st_ctime=2016/11/03-10:37:31.711999939}) = 0
+5761 , 2035 , 2035 , xdg-user-dirs-u , open("/etc/xdg/user-dirs.defaults", O_RDONLY) = 8</etc/xdg/user-dirs.defaults>
+5763 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</etc/xdg/user-dirs.defaults>, {st_dev=makedev(8, 1), st_ino=133985, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=418, st_atime=2018/05/02-02:17:57.665190058, st_mtime=2016/04/14-01:45:17, st_ctime=2016/11/03-10:37:31.711999939}) = 0
+5765 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/xdg/user-dirs.defaults>, "# Default settings for user directories\n#\n# The values are relative pathnames from the home directory and\n# will be translated on a per-path-element basis into the users locale\nDESKTOP=Desktop\nDOWNLOA"..., 4096) = 418
+5767 , 2035 , 2035 , xdg-user-dirs-u , read(8</etc/xdg/user-dirs.defaults>, "", 4096) = 0
+5769 , 2035 , 2035 , xdg-user-dirs-u , close(8</etc/xdg/user-dirs.defaults>) = 0
+5771 , 2035 , 2035 , xdg-user-dirs-u , open("/home/elwin/.config/user-dirs.dirs", O_RDONLY) = 8</home/elwin/.config/user-dirs.dirs>
+5773 , 2035 , 2035 , xdg-user-dirs-u , fstat(8</home/elwin/.config/user-dirs.dirs>, {st_dev=makedev(8, 1), st_ino=2883606, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=632, st_atime=2018/05/02-02:17:57.681190242, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5775 , 2035 , 2035 , xdg-user-dirs-u , read(8</home/elwin/.config/user-dirs.dirs>, "# This file is written by xdg-user-dirs-update\n# If you want to change or add directories, just edit the line you're\n# interested in. All local changes will be retained on the next run\n# Format is XDG"..., 4096) = 632
+5777 , 2035 , 2035 , xdg-user-dirs-u , read(8</home/elwin/.config/user-dirs.dirs>, "", 4096) = 0
+5779 , 2035 , 2035 , xdg-user-dirs-u , close(8</home/elwin/.config/user-dirs.dirs>) = 0
+5781 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Desktop", {st_dev=makedev(8, 1), st_ino=2883597, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/02-02:18:17.473354363, st_mtime=2016/11/03-10:53:54.375999976, st_ctime=2016/11/03-10:53:54.375999976}) = 0
+5783 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Downloads", {st_dev=makedev(8, 1), st_ino=2883598, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/24-23:38:39.008527177, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5785 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Templates", {st_dev=makedev(8, 1), st_ino=2883599, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/02-02:18:16.817350232, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5787 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Public", {st_dev=makedev(8, 1), st_ino=2883600, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/21-01:04:22.270973821, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5789 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Documents", {st_dev=makedev(8, 1), st_ino=2883601, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/24-23:38:40.676497434, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5791 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Music", {st_dev=makedev(8, 1), st_ino=2883602, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/21-01:04:04.563032255, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5793 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Pictures", {st_dev=makedev(8, 1), st_ino=2883603, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/21-01:04:22.594972756, st_mtime=2016/12/30-09:49:53.246570059, st_ctime=2016/12/30-09:49:53.246570059}) = 0
+5795 , 2035 , 2035 , xdg-user-dirs-u , stat("/home/elwin/Videos", {st_dev=makedev(8, 1), st_ino=2883604, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/04/21-01:04:19.594982601, st_mtime=2016/11/03-10:53:54.383999976, st_ctime=2016/11/03-10:53:54.383999976}) = 0
+5797 , 2035 , 2035 , xdg-user-dirs-u , exit_group(0) = ?
+5799 , 2035 , 2035 , xdg-user-dirs-u , +++ exited with 0 +++

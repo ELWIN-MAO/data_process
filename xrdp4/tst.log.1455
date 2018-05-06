@@ -1,0 +1,56 @@
+925 , 1455 , 1455 , xrdp-sesman , select(7, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]> 5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]> 6<TCP:[127.0.0.1:3350]>], [], NULL, NULL) = 1 (in [5])
+1071 , 1455 , 1455 , xrdp-sesman , select(5, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1073 , 1455 , 1455 , xrdp-sesman , select(6, [5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1075 , 1455 , 1455 , xrdp-sesman , getsockopt(5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1076 , 1455 , 1455 , xrdp-sesman , select(6, [5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>], NULL, NULL, {0, 0}) = 1 (in [5], left {0, 0})
+1077 , 1455 , 1455 , xrdp-sesman , getsockopt(5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+1078 , 1455 , 1455 , xrdp-sesman , recvfrom(5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>, "sig\0", 64, 0, NULL, NULL) = 4
+1079 , 1455 , 1455 , xrdp-sesman , select(6, [5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1080 , 1455 , 1455 , xrdp-sesman , access("/tmp/.X11-unix/X10", F_OK) = -1 ENOENT (No such file or directory)
+1081 , 1455 , 1455 , xrdp-sesman , access("/tmp/.X10-lock", F_OK) = -1 ENOENT (No such file or directory)
+1082 , 1455 , 1455 , xrdp-sesman , socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 8<TCP:[38741]>
+1083 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38741]>, SOL_SOCKET, SO_REUSEADDR, [0], [4]) = 0
+1084 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38741]>, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+1085 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38741]>, SOL_SOCKET, SO_SNDBUF, [16384], [4]) = 0
+1086 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38741]>, SOL_SOCKET, SO_SNDBUF, [32768], 4) = 0
+1087 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38741]>, {sa_family=AF_INET, sin_port=htons(5910), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1088 , 1455 , 1455 , xrdp-sesman , shutdown(8<TCP:[38741]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+1089 , 1455 , 1455 , xrdp-sesman , close(8<TCP:[38741]>) = 0
+1090 , 1455 , 1455 , xrdp-sesman , socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 8<TCP:[38742]>
+1091 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38742]>, SOL_SOCKET, SO_REUSEADDR, [0], [4]) = 0
+1092 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38742]>, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+1093 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38742]>, SOL_SOCKET, SO_SNDBUF, [16384], [4]) = 0
+1094 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38742]>, SOL_SOCKET, SO_SNDBUF, [32768], 4) = 0
+1095 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38742]>, {sa_family=AF_INET, sin_port=htons(6010), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1096 , 1455 , 1455 , xrdp-sesman , shutdown(8<TCP:[38742]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+1097 , 1455 , 1455 , xrdp-sesman , close(8<TCP:[38742]>) = 0
+1098 , 1455 , 1455 , xrdp-sesman , socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 8<TCP:[38743]>
+1099 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38743]>, SOL_SOCKET, SO_REUSEADDR, [0], [4]) = 0
+1100 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38743]>, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+1101 , 1455 , 1455 , xrdp-sesman , getsockopt(8<TCP:[38743]>, SOL_SOCKET, SO_SNDBUF, [16384], [4]) = 0
+1102 , 1455 , 1455 , xrdp-sesman , setsockopt(8<TCP:[38743]>, SOL_SOCKET, SO_SNDBUF, [32768], 4) = 0
+1103 , 1455 , 1455 , xrdp-sesman , bind(8<TCP:[38743]>, {sa_family=AF_INET, sin_port=htons(6210), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+1104 , 1455 , 1455 , xrdp-sesman , shutdown(8<TCP:[38743]>, SHUT_RDWR) = -1 ENOTCONN (Transport endpoint is not connected)
+1105 , 1455 , 1455 , xrdp-sesman , close(8<TCP:[38743]>) = 0
+1106 , 1455 , 1455 , xrdp-sesman , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6497ad69d0) = 1948
+1109 , 1455 , 1455 , xrdp-sesman , futex(0x1350900, FUTEX_WAKE_PRIVATE, 1) = 1
+1112 , 1455 , 1455 , xrdp-sesman , select(7, [6<TCP:[127.0.0.1:3350]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+1116 , 1455 , 1455 , xrdp-sesman , select(7, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]> 5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]> 6<TCP:[127.0.0.1:3350]>], [], NULL, NULL) = 1 (in [6])
+18492 , 1455 , 1455 , xrdp-sesman , select(5, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18494 , 1455 , 1455 , xrdp-sesman , select(6, [5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+18496 , 1455 , 1455 , xrdp-sesman , select(7, [6<TCP:[127.0.0.1:3350]>], NULL, NULL, {0, 0}) = 1 (in [6], left {0, 0})
+18498 , 1455 , 1455 , xrdp-sesman , getsockopt(6<TCP:[127.0.0.1:3350]>, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+18499 , 1455 , 1455 , xrdp-sesman , accept(6<TCP:[127.0.0.1:3350]>, {sa_family=AF_INET, sin_port=htons(49160), sin_addr=inet_addr("127.0.0.1")}, [16]) = 7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>
+18501 , 1455 , 1455 , xrdp-sesman , clone(child_stack=0x7f64956d9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f64956da9d0, tls=0x7f64956da700, child_tidptr=0x7f64956da9d0) = 2174
+18504 , 1455 , 1455 , xrdp-sesman , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+18505 , 1455 , 1455 , xrdp-sesman , write(3</var/log/xrdp-sesman.log>, "[20180502-03:53:14] [INFO ] scp thread on sck 7 started successfully\n", 69) = 69
+18506 , 1455 , 1455 , xrdp-sesman , select(7, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]> 5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]> 6<TCP:[127.0.0.1:3350]>], [], NULL, NULL) = ? ERESTARTNOHAND (To be restarted if no handler)
+23981 , 1455 , 1455 , xrdp-sesman , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1948, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+23983 , 1455 , 1455 , xrdp-sesman , wait4(0, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 1948
+23986 , 1455 , 1455 , xrdp-sesman , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+23988 , 1455 , 1455 , xrdp-sesman , write(3</var/log/xrdp-sesman.log>, "[20180502-03:53:18] [INFO ] ++ terminated session:  username elwin, display :10.0, session_pid 1948, ip 192.168.209.1:62646 - socket: 7\n", 136) = 136
+23995 , 1455 , 1455 , xrdp-sesman , rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+23998 , 1455 , 1455 , xrdp-sesman , select(5, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24000 , 1455 , 1455 , xrdp-sesman , select(6, [5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24006 , 1455 , 1455 , xrdp-sesman , select(7, [6<TCP:[127.0.0.1:3350]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+24009 , 1455 , 1455 , xrdp-sesman , select(7, [4<UNIX:[19568,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_term_059ba14f"]> 5<UNIX:[19569,"/tmp/.xrdp/xrdp-sesman-d4bkwJ/xrdp_sesman_000005af_main_sync_f331e538"]> 6<TCP:[127.0.0.1:3350]>], [], NULL, NULL <detached ...>

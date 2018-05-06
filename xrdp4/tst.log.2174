@@ -1,0 +1,134 @@
+18502 , 2174 , 1455 , xrdp-sesman , set_robust_list(0x7f64956da9e0, 24) = 0
+18503 , 2174 , 1455 , xrdp-sesman , recvfrom(7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>, "\0\0\0\0\0\0\0F", 8, 0, NULL, NULL) = 8
+18510 , 2174 , 1455 , xrdp-sesman , recvfrom(7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>, "\0\0\0\5elwin\0\006123456\7\200\0048\0\30\0\0\0\0\0\0\0\037192.168.209.1:62646 - socket: 7", 62, 0, NULL, NULL) = 62
+18512 , 2174 , 1455 , xrdp-sesman , access("/etc/pam.d/xrdp-sesman", F_OK) = 0
+18514 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18516 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/xrdp-sesman", O_RDONLY) = 8</etc/pam.d/sesman>
+18518 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/pam.d/sesman>, {st_dev=makedev(8, 1), st_ino=141257, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=104, st_atime=2018/05/02-02:55:54.490318318, st_mtime=2014/10/07-16:00:29, st_ctime=2016/12/08-03:40:20.070588598}) = 0
+18520 , 2174 , 1455 , xrdp-sesman , read(8</etc/pam.d/sesman>, "#%PAM-1.0\n@include common-auth\n@include common-account\n@include common-session\n@include common-password\n", 4096) = 104
+18521 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18523 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-auth", O_RDONLY) = 9</etc/pam.d/common-auth>
+18525 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-auth>, {st_dev=makedev(8, 1), st_ino=134645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1221, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.636038748, st_ctime=2018/02/06-03:32:20.640038748}) = 0
+18527 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-auth>, "#\n# /etc/pam.d/common-auth - authentication settings common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of the authentication mo"..., 4096) = 1221
+18529 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-auth>, "", 4096) = 0
+18531 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-auth>) = 0
+18533 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18535 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-account", O_RDONLY) = 9</etc/pam.d/common-account>
+18537 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-account>, {st_dev=makedev(8, 1), st_ino=134834, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1208, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.672038749, st_ctime=2018/02/06-03:32:20.676038749}) = 0
+18539 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-account>, "#\n# /etc/pam.d/common-account - authorization settings common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of the authorization m"..., 4096) = 1208
+18541 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-account>, "", 4096) = 0
+18542 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-account>) = 0
+18544 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18546 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-session", O_RDONLY) = 9</etc/pam.d/common-session>
+18548 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-session>, {st_dev=makedev(8, 1), st_ino=131422, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1470, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.716038751, st_ctime=2018/02/06-03:32:20.716038751}) = 0
+18549 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-session>, "#\n# /etc/pam.d/common-session - session-related modules common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of modules that defin"..., 4096) = 1470
+18550 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-session>, "", 4096) = 0
+18551 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-session>) = 0
+18552 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18553 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-password", O_RDONLY) = 9</etc/pam.d/common-password>
+18554 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-password>, {st_dev=makedev(8, 1), st_ino=134419, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1480, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.692038750, st_ctime=2018/02/06-03:32:20.692038750}) = 0
+18555 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-password>, "#\n# /etc/pam.d/common-password - password-related modules common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of modules that def"..., 4096) = 1480
+18556 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-password>, "", 4096) = 0
+18557 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-password>) = 0
+18558 , 2174 , 1455 , xrdp-sesman , read(8</etc/pam.d/sesman>, "", 4096) = 0
+18559 , 2174 , 1455 , xrdp-sesman , close(8</etc/pam.d/sesman>) = 0
+18560 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/other", O_RDONLY) = 8</etc/pam.d/other>
+18561 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/pam.d/other>, {st_dev=makedev(8, 1), st_ino=132911, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=520, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2016/03/16-14:09:13, st_ctime=2016/11/03-10:37:31.559999939}) = 0
+18562 , 2174 , 1455 , xrdp-sesman , read(8</etc/pam.d/other>, "#\n# /etc/pam.d/other - specify the PAM fallback behaviour\n#\n# Note that this file is used for any unspecified service; for example\n#if /etc/pam.d/cron  specifies no session modules but cron calls\n#pam"..., 4096) = 520
+18563 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18564 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-auth", O_RDONLY) = 9</etc/pam.d/common-auth>
+18565 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-auth>, {st_dev=makedev(8, 1), st_ino=134645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1221, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.636038748, st_ctime=2018/02/06-03:32:20.640038748}) = 0
+18566 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-auth>, "#\n# /etc/pam.d/common-auth - authentication settings common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of the authentication mo"..., 4096) = 1221
+18567 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-auth>, "", 4096) = 0
+18568 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-auth>) = 0
+18569 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18570 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-account", O_RDONLY) = 9</etc/pam.d/common-account>
+18571 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-account>, {st_dev=makedev(8, 1), st_ino=134834, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1208, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.672038749, st_ctime=2018/02/06-03:32:20.676038749}) = 0
+18572 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-account>, "#\n# /etc/pam.d/common-account - authorization settings common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of the authorization m"..., 4096) = 1208
+18573 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-account>, "", 4096) = 0
+18574 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-account>) = 0
+18575 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18576 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-password", O_RDONLY) = 9</etc/pam.d/common-password>
+18577 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-password>, {st_dev=makedev(8, 1), st_ino=134419, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1480, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.692038750, st_ctime=2018/02/06-03:32:20.692038750}) = 0
+18578 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-password>, "#\n# /etc/pam.d/common-password - password-related modules common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of modules that def"..., 4096) = 1480
+18579 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-password>, "", 4096) = 0
+18580 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-password>) = 0
+18581 , 2174 , 1455 , xrdp-sesman , stat("/etc/pam.d", {st_dev=makedev(8, 1), st_ino=131152, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017/12/30-08:20:19.006570298, st_mtime=2018/02/06-03:32:24.268038895, st_ctime=2018/02/06-03:32:24.268038895}) = 0
+18582 , 2174 , 1455 , xrdp-sesman , open("/etc/pam.d/common-session", O_RDONLY) = 9</etc/pam.d/common-session>
+18583 , 2174 , 1455 , xrdp-sesman , fstat(9</etc/pam.d/common-session>, {st_dev=makedev(8, 1), st_ino=131422, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1470, st_atime=2018/05/01-11:45:01.409359059, st_mtime=2018/02/06-03:32:20.716038751, st_ctime=2018/02/06-03:32:20.716038751}) = 0
+18584 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-session>, "#\n# /etc/pam.d/common-session - session-related modules common to all services\n#\n# This file is included from other service-specific PAM config files,\n# and should contain a list of modules that defin"..., 4096) = 1470
+18585 , 2174 , 1455 , xrdp-sesman , read(9</etc/pam.d/common-session>, "", 4096) = 0
+18586 , 2174 , 1455 , xrdp-sesman , close(9</etc/pam.d/common-session>) = 0
+18587 , 2174 , 1455 , xrdp-sesman , read(8</etc/pam.d/other>, "", 4096) = 0
+18588 , 2174 , 1455 , xrdp-sesman , close(8</etc/pam.d/other>) = 0
+18589 , 2174 , 1455 , xrdp-sesman , getuid() = 0
+18590 , 2174 , 1455 , xrdp-sesman , open("/etc/login.defs", O_RDONLY) = 8</etc/login.defs>
+18591 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/login.defs>, {st_dev=makedev(8, 1), st_ino=131248, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10551, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2016/03/29-05:25:06, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+18592 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, "#\n# /etc/login.defs - Configuration control definitions for the login package.\n#\n# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.\n# If unspecified, some arbitrary (and possibly inco"..., 4096) = 4096
+18593 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, " issuing \n# the \"mesg y\" command.\n\nTTYGROUP\ttty\nTTYPERM\t\t0600\n\n#\n# Login configuration initializations:\n#\n#\tERASECHAR\tTerminal ERASE character ('\\010' = backspace).\n#\tKILLCHAR\tTerminal KILL character "..., 4096) = 4096
+18594 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, " algorithm compatible with the one used by recent releases of FreeBSD.\n# It supports passwords of unlimited length and longer salt strings.\n# Set to \"no\" if you need to copy encrypted passwords to oth"..., 4096) = 2359
+18595 , 2174 , 1455 , xrdp-sesman , close(8</etc/login.defs>) = 0
+18596 , 2174 , 1455 , xrdp-sesman , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 8</etc/passwd>
+18597 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/passwd>, 0, SEEK_CUR) = 0
+18598 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+18599 , 2174 , 1455 , xrdp-sesman , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 8</etc/passwd>, 0) = 0x7f6497af5000
+18600 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/passwd>, 2368, SEEK_SET) = 2368
+18601 , 2174 , 1455 , xrdp-sesman , munmap(0x7f6497af5000, 2368) = 0
+18602 , 2174 , 1455 , xrdp-sesman , close(8</etc/passwd>) = 0
+18603 , 2174 , 1455 , xrdp-sesman , open("/etc/shadow", O_RDONLY|O_CLOEXEC) = 8</etc/shadow>
+18604 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/shadow>, 0, SEEK_CUR) = 0
+18605 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/shadow>, {st_dev=makedev(8, 1), st_ino=134423, st_mode=S_IFREG|0640, st_nlink=1, st_uid=0, st_gid=42, st_blksize=4096, st_blocks=8, st_size=1420, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2018/01/01-22:03:37.286534158, st_ctime=2018/01/01-22:03:37.290534140}) = 0
+18606 , 2174 , 1455 , xrdp-sesman , mmap(NULL, 1420, PROT_READ, MAP_SHARED, 8</etc/shadow>, 0) = 0x7f6497af5000
+18607 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/shadow>, 1420, SEEK_SET) = 1420
+18608 , 2174 , 1455 , xrdp-sesman , munmap(0x7f6497af5000, 1420) = 0
+18609 , 2174 , 1455 , xrdp-sesman , close(8</etc/shadow>) = 0
+18610 , 2174 , 1455 , xrdp-sesman , mprotect(0x7f6490035000, 20480, PROT_READ|PROT_WRITE) = 0
+18611 , 2174 , 1455 , xrdp-sesman , socket(PF_NETLINK, SOCK_RAW, NETLINK_AUDIT) = 8<NETLINK:[46857]>
+18612 , 2174 , 1455 , xrdp-sesman , fcntl(8<NETLINK:[46857]>, F_SETFD, FD_CLOEXEC) = 0
+18613 , 2174 , 1455 , xrdp-sesman , ioctl(0</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18614 , 2174 , 1455 , xrdp-sesman , ioctl(1</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18615 , 2174 , 1455 , xrdp-sesman , ioctl(2</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18616 , 2174 , 1455 , xrdp-sesman , sendto(8<NETLINK:[46857]>, "x\0\0\0L\4\5\0\7\0\0\0\0\0\0\0op=PAM:authentication acct=\"elwin\" exe=\"/usr/sbin/xrdp-sesman\" hostname=? addr=? terminal=? res=success\0", 120, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 120
+18617 , 2174 , 1455 , xrdp-sesman , poll([{fd=8<NETLINK:[46857]>, events=POLLIN}], 1, 500) = 1 ([{fd=8, revents=POLLIN}])
+18618 , 2174 , 1455 , xrdp-sesman , recvfrom(8<NETLINK:[46857]>, "$\0\0\0\2\0\0\0\7\0\0\0\257\5\0\0\0\0\0\0x\0\0\0L\4\5\0\7\0\0\0\0\0\0\0", 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+18619 , 2174 , 1455 , xrdp-sesman , recvfrom(8<NETLINK:[46857]>, "$\0\0\0\2\0\0\0\7\0\0\0\257\5\0\0\0\0\0\0x\0\0\0L\4\5\0\7\0\0\0\0\0\0\0", 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+18620 , 2174 , 1455 , xrdp-sesman , close(8<NETLINK:[46857]>) = 0
+18621 , 2174 , 1455 , xrdp-sesman , getuid() = 0
+18622 , 2174 , 1455 , xrdp-sesman , open("/etc/login.defs", O_RDONLY) = 8</etc/login.defs>
+18623 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/login.defs>, {st_dev=makedev(8, 1), st_ino=131248, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10551, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2016/03/29-05:25:06, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+18624 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, "#\n# /etc/login.defs - Configuration control definitions for the login package.\n#\n# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.\n# If unspecified, some arbitrary (and possibly inco"..., 4096) = 4096
+18625 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, " issuing \n# the \"mesg y\" command.\n\nTTYGROUP\ttty\nTTYPERM\t\t0600\n\n#\n# Login configuration initializations:\n#\n#\tERASECHAR\tTerminal ERASE character ('\\010' = backspace).\n#\tKILLCHAR\tTerminal KILL character "..., 4096) = 4096
+18626 , 2174 , 1455 , xrdp-sesman , read(8</etc/login.defs>, " algorithm compatible with the one used by recent releases of FreeBSD.\n# It supports passwords of unlimited length and longer salt strings.\n# Set to \"no\" if you need to copy encrypted passwords to oth"..., 4096) = 2359
+18627 , 2174 , 1455 , xrdp-sesman , close(8</etc/login.defs>) = 0
+18628 , 2174 , 1455 , xrdp-sesman , open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 8</etc/passwd>
+18629 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/passwd>, 0, SEEK_CUR) = 0
+18630 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/passwd>, {st_dev=makedev(8, 1), st_ino=134540, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2368, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2017/06/24-10:10:27.430089574, st_ctime=2017/06/24-10:10:27.430089574}) = 0
+18631 , 2174 , 1455 , xrdp-sesman , mmap(NULL, 2368, PROT_READ, MAP_SHARED, 8</etc/passwd>, 0) = 0x7f6497af5000
+18632 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/passwd>, 2368, SEEK_SET) = 2368
+18633 , 2174 , 1455 , xrdp-sesman , munmap(0x7f6497af5000, 2368) = 0
+18634 , 2174 , 1455 , xrdp-sesman , close(8</etc/passwd>) = 0
+18635 , 2174 , 1455 , xrdp-sesman , open("/etc/shadow", O_RDONLY|O_CLOEXEC) = 8</etc/shadow>
+18636 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/shadow>, 0, SEEK_CUR) = 0
+18637 , 2174 , 1455 , xrdp-sesman , fstat(8</etc/shadow>, {st_dev=makedev(8, 1), st_ino=134423, st_mode=S_IFREG|0640, st_nlink=1, st_uid=0, st_gid=42, st_blksize=4096, st_blocks=8, st_size=1420, st_atime=2018/05/01-11:45:01.413359079, st_mtime=2018/01/01-22:03:37.286534158, st_ctime=2018/01/01-22:03:37.290534140}) = 0
+18638 , 2174 , 1455 , xrdp-sesman , mmap(NULL, 1420, PROT_READ, MAP_SHARED, 8</etc/shadow>, 0) = 0x7f6497af5000
+18639 , 2174 , 1455 , xrdp-sesman , lseek(8</etc/shadow>, 1420, SEEK_SET) = 1420
+18640 , 2174 , 1455 , xrdp-sesman , munmap(0x7f6497af5000, 1420) = 0
+18641 , 2174 , 1455 , xrdp-sesman , close(8</etc/shadow>) = 0
+18642 , 2174 , 1455 , xrdp-sesman , socket(PF_NETLINK, SOCK_RAW, NETLINK_AUDIT) = 8<NETLINK:[46858]>
+18643 , 2174 , 1455 , xrdp-sesman , fcntl(8<NETLINK:[46858]>, F_SETFD, FD_CLOEXEC) = 0
+18644 , 2174 , 1455 , xrdp-sesman , ioctl(0</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18645 , 2174 , 1455 , xrdp-sesman , ioctl(1</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18646 , 2174 , 1455 , xrdp-sesman , ioctl(2</dev/null>, TCGETS, 0x7f64956d7610) = -1 ENOTTY (Inappropriate ioctl for device)
+18647 , 2174 , 1455 , xrdp-sesman , sendto(8<NETLINK:[46858]>, "t\0\0\0M\4\5\0\10\0\0\0\0\0\0\0op=PAM:accounting acct=\"elwin\" exe=\"/usr/sbin/xrdp-sesman\" hostname=? addr=? terminal=? res=success\0", 116, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 116
+18648 , 2174 , 1455 , xrdp-sesman , poll([{fd=8<NETLINK:[46858]>, events=POLLIN}], 1, 500) = 1 ([{fd=8, revents=POLLIN}])
+18649 , 2174 , 1455 , xrdp-sesman , recvfrom(8<NETLINK:[46858]>, "$\0\0\0\2\0\0\0\10\0\0\0\257\5\0\0\0\0\0\0t\0\0\0M\4\5\0\10\0\0\0\0\0\0\0", 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+18650 , 2174 , 1455 , xrdp-sesman , recvfrom(8<NETLINK:[46858]>, "$\0\0\0\2\0\0\0\10\0\0\0\257\5\0\0\0\0\0\0t\0\0\0M\4\5\0\10\0\0\0\0\0\0\0", 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+18651 , 2174 , 1455 , xrdp-sesman , close(8<NETLINK:[46858]>) = 0
+18652 , 2174 , 1455 , xrdp-sesman , stat("/etc/localtime", {st_dev=makedev(8, 1), st_ino=5008687, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3545, st_atime=2018/05/01-11:43:26.593184858, st_mtime=2017/11/09-19:00:05, st_ctime=2017/11/12-08:12:23.159069878}) = 0
+18653 , 2174 , 1455 , xrdp-sesman , write(3</var/log/xrdp-sesman.log>, "[20180502-03:53:14] [INFO ] ++ reconnected session: username elwin, display :10.0, session_pid 1948, ip 192.168.209.1:62646 - socket: 7\n", 136) = 136
+18654 , 2174 , 1455 , xrdp-sesman , sendto(7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>, "\0\0\0\0\0\0\0\16\0\3\0\1\0\n", 14, 0, NULL, 0) = 14
+18655 , 2174 , 1455 , xrdp-sesman , shutdown(7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>, SHUT_RDWR) = 0
+18657 , 2174 , 1455 , xrdp-sesman , close(7<TCP:[127.0.0.1:3350->127.0.0.1:49160]>) = 0
+18659 , 2174 , 1455 , xrdp-sesman , madvise(0x7f6494eda000, 8368128, MADV_DONTNEED) = 0
+18661 , 2174 , 1455 , xrdp-sesman , exit(0) = ?
+18663 , 2174 , 1455 , xrdp-sesman , +++ exited with 0 +++
