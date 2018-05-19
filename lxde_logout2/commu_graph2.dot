@@ -1,0 +1,85 @@
+digraph abc{
+subgraph cluster_43417 {
+43417 [label="43417 \"Xorg\"" ];
+label = "process #43417";
+color = blue;
+}
+subgraph cluster_43421 {
+43421 [label="43421 \"lxsession\"" ];
+label = "process #43421";
+color = blue;
+}
+subgraph cluster_43431 {
+43431 [label="43431 \"dbus-daemon\"" ];
+label = "process #43431";
+color = blue;
+}
+subgraph cluster_43451 {
+43451 [label="43451 \"openbox\"" ];
+label = "process #43451";
+color = blue;
+}
+subgraph cluster_43454 {
+43454 [label="43454 \"lxpanel\"" ];
+43476 [label="43476 \"gdbus\"" ];
+43557 [label="43557 \"menu-cache-io\"" ];
+label = "process #43454";
+color = blue;
+}
+subgraph cluster_43455 {
+43455 [label="43455 \"pcmanfm\"" ];
+label = "process #43455";
+color = blue;
+}
+subgraph cluster_43457 {
+43457 [label="43457 \"xscreensaver\"" ];
+label = "process #43457";
+color = blue;
+}
+subgraph cluster_43488 {
+43488 [label="43488 \"dbus-daemon\"" ];
+label = "process #43488";
+color = blue;
+}
+subgraph cluster_43499 {
+43499 [label="43499 \"clipit\"" ];
+label = "process #43499";
+color = blue;
+}
+subgraph cluster_43502 {
+43502 [label="43502 \"zeitgeist-datah\"" ];
+label = "process #43502";
+color = blue;
+}
+subgraph cluster_43511 {
+43511 [label="43511 \"at-spi2-registr\"" ];
+label = "process #43511";
+color = blue;
+}
+subgraph cluster_43556 {
+43556 [label="43556 \"menu-cached\"" ];
+label = "process #43556";
+color = blue;
+}
+subgraph cluster_43725 {
+label = "process #43725";
+color = blue;
+}
+subgraph cluster_43726 {
+label = "process #43726";
+color = blue;
+}
+43417 -> 43455 [ color="purple" ];
+43417 -> 43457 [ color="purple" ];
+43417 -> 43499 [ color="purple" ];
+43417 -> 43421 [ color="purple" ];
+43417 -> 43451 [ color="purple" ];
+43417 -> 43511 [ color="purple" ];
+43421 -> 43417 [ color="purple" ];
+43431 -> 43502 [ color="purple" ];
+43454 -> 43417 [ color="purple" ];
+43476 -> 43431 [ color="purple" ];
+43511 -> 43488 [ color="purple" ];
+43557 -> 43556 [ color="purple" ];
+
+}

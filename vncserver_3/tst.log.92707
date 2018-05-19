@@ -1,0 +1,526 @@
+1933 , 92707 , 92707 , xstartup , close(10</home/elwin/.vnc/xstartup>) = 0
+1934 , 92707 , 92707 , xstartup , rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f33ac1d94b0}, {SIG_IGN, [], 0}, 8) = 0
+1936 , 92707 , 92707 , xstartup , rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f33ac1d94b0}, {SIG_IGN, [], 0}, 8) = 0
+1937 , 92707 , 92707 , xstartup , close(0</dev/null>) = 0
+1943 , 92707 , 92707 , xstartup , open("/dev/null", O_RDONLY) = 0</dev/null>
+1954 , 92707 , 92707 , xstartup , stat("/usr/local/sbin/vncconfig", 0x7fff5461f630) = -1 ENOENT (No such file or directory)
+1959 , 92707 , 92707 , xstartup , stat("/usr/local/bin/vncconfig", 0x7fff5461f630) = -1 ENOENT (No such file or directory)
+1962 , 92707 , 92707 , xstartup , stat("/usr/sbin/vncconfig", 0x7fff5461f630) = -1 ENOENT (No such file or directory)
+1963 , 92707 , 92707 , xstartup , stat("/usr/bin/vncconfig", {st_dev=makedev(8, 1), st_ino=4458861, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=224, st_size=113824, st_atime=2018/05/12-08:05:12.365597258, st_mtime=2015/02/25-18:06:40, st_ctime=2017/05/16-00:41:46.497951940}) = 0
+1966 , 92707 , 92707 , xstartup , execve("/usr/bin/vncconfig", ["vncconfig", "-iconic"], ["LESSOPEN=| /usr/bin/lesspipe %s", "VNCDESKTOP=elwin-virtual-machine:1 (elwin)", "MAIL=/var/mail/elwin", "SSH_CLIENT=192.168.209.1 58993 22", "USER=elwin", "SHLVL=1", "HOME=/home/elwin", "SSH_TTY=/dev/pts/5", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "LOGNAME=elwin", "XDG_SESSION_ID=334", "TERM=xterm", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:1", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "SHELL=/bin/bash", "LESSCLOSE=/usr/bin/lesspipe %s %s", "PWD=/home/elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop"]) = 0
+1969 , 92707 , 92707 , vncconfig , brk(NULL) = 0x1517000
+1972 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1974 , 92707 , 92707 , vncconfig , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1976 , 92707 , 92707 , vncconfig , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+1978 , 92707 , 92707 , vncconfig , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+1981 , 92707 , 92707 , vncconfig , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fd8a1560000
+1983 , 92707 , 92707 , vncconfig , close(3</etc/ld.so.cache>) = 0
+1985 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1987 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+1989 , 92707 , 92707 , vncconfig , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+1991 , 92707 , 92707 , vncconfig , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2018/05/12-06:48:02.798335832, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+1993 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a155f000
+1995 , 92707 , 92707 , vncconfig , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7fd8a1023000
+1999 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a1158000, 2097152, PROT_NONE) = 0
+2002 , 92707 , 92707 , vncconfig , mmap(0x7fd8a1358000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7fd8a1358000
+2005 , 92707 , 92707 , vncconfig , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+2007 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2009 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+2011 , 92707 , 92707 , vncconfig , read(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+2013 , 92707 , 92707 , vncconfig , fstat(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4462028, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2018/02/05-23:21:12, st_ctime=2018/02/06-03:28:43.496029929}) = 0
+2015 , 92707 , 92707 , vncconfig , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7fd8a0ca1000
+2017 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a0e13000, 2097152, PROT_NONE) = 0
+2019 , 92707 , 92707 , vncconfig , mmap(0x7fd8a1013000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7fd8a1013000
+2021 , 92707 , 92707 , vncconfig , mmap(0x7fd8a101f000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd8a101f000
+2023 , 92707 , 92707 , vncconfig , close(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+2025 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2027 , 92707 , 92707 , vncconfig , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcc_s.so.1>
+2030 , 92707 , 92707 , vncconfig , read(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+2032 , 92707 , 92707 , vncconfig , fstat(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+2034 , 92707 , 92707 , vncconfig , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7fd8a0a8b000
+2036 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a0aa1000, 2093056, PROT_NONE) = 0
+2038 , 92707 , 92707 , vncconfig , mmap(0x7fd8a0ca0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7fd8a0ca0000
+2040 , 92707 , 92707 , vncconfig , close(3</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+2042 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2044 , 92707 , 92707 , vncconfig , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+2046 , 92707 , 92707 , vncconfig , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2048 , 92707 , 92707 , vncconfig , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+2050 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a155e000
+2052 , 92707 , 92707 , vncconfig , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fd8a06c1000
+2054 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a0881000, 2097152, PROT_NONE) = 0
+2056 , 92707 , 92707 , vncconfig , mmap(0x7fd8a0a81000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fd8a0a81000
+2058 , 92707 , 92707 , vncconfig , mmap(0x7fd8a0a87000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd8a0a87000
+2060 , 92707 , 92707 , vncconfig , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+2063 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2065 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+2067 , 92707 , 92707 , vncconfig , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+2069 , 92707 , 92707 , vncconfig , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2018/05/12-06:48:02.874331402, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+2071 , 92707 , 92707 , vncconfig , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7fd8a049f000
+2073 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a04c0000, 2093056, PROT_NONE) = 0
+2075 , 92707 , 92707 , vncconfig , mmap(0x7fd8a06bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7fd8a06bf000
+2078 , 92707 , 92707 , vncconfig , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+2080 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2082 , 92707 , 92707 , vncconfig , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+2084 , 92707 , 92707 , vncconfig , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+2086 , 92707 , 92707 , vncconfig , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+2088 , 92707 , 92707 , vncconfig , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7fd8a029b000
+2090 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a029e000, 2093056, PROT_NONE) = 0
+2092 , 92707 , 92707 , vncconfig , mmap(0x7fd8a049d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7fd8a049d000
+2094 , 92707 , 92707 , vncconfig , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+2096 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2098 , 92707 , 92707 , vncconfig , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+2100 , 92707 , 92707 , vncconfig , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+2102 , 92707 , 92707 , vncconfig , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4985577, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+2105 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a155d000
+2107 , 92707 , 92707 , vncconfig , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7fd89ff92000
+2109 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a009a000, 2093056, PROT_NONE) = 0
+2111 , 92707 , 92707 , vncconfig , mmap(0x7fd8a0299000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7fd8a0299000
+2113 , 92707 , 92707 , vncconfig , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+2115 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2118 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+2120 , 92707 , 92707 , vncconfig , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+2122 , 92707 , 92707 , vncconfig , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+2124 , 92707 , 92707 , vncconfig , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7fd89fd8e000
+2126 , 92707 , 92707 , vncconfig , mprotect(0x7fd89fd90000, 2097152, PROT_NONE) = 0
+2128 , 92707 , 92707 , vncconfig , mmap(0x7fd89ff90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7fd89ff90000
+2130 , 92707 , 92707 , vncconfig , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+2132 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2134 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+2136 , 92707 , 92707 , vncconfig , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+2139 , 92707 , 92707 , vncconfig , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+2141 , 92707 , 92707 , vncconfig , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7fd89fb88000
+2143 , 92707 , 92707 , vncconfig , mprotect(0x7fd89fb8d000, 2093056, PROT_NONE) = 0
+2145 , 92707 , 92707 , vncconfig , mmap(0x7fd89fd8c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7fd89fd8c000
+2147 , 92707 , 92707 , vncconfig , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+2150 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a155c000
+2152 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a155b000
+2154 , 92707 , 92707 , vncconfig , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a1559000
+2155 , 92707 , 92707 , vncconfig , arch_prctl(ARCH_SET_FS, 0x7fd8a1559740) = 0
+2158 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a0a81000, 16384, PROT_READ) = 0
+2161 , 92707 , 92707 , vncconfig , mprotect(0x7fd89fd8c000, 4096, PROT_READ) = 0
+2164 , 92707 , 92707 , vncconfig , mprotect(0x7fd89ff90000, 4096, PROT_READ) = 0
+2166 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a0299000, 4096, PROT_READ) = 0
+2168 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a049d000, 4096, PROT_READ) = 0
+2171 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a06bf000, 4096, PROT_READ) = 0
+2174 , 92707 , 92707 , vncconfig , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8a1558000
+2176 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a1013000, 40960, PROT_READ) = 0
+2179 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a1358000, 4096, PROT_READ) = 0
+2181 , 92707 , 92707 , vncconfig , mprotect(0x61a000, 4096, PROT_READ) = 0
+2184 , 92707 , 92707 , vncconfig , mprotect(0x7fd8a1582000, 4096, PROT_READ) = 0
+2186 , 92707 , 92707 , vncconfig , munmap(0x7fd8a1560000, 136611) = 0
+2188 , 92707 , 92707 , vncconfig , brk(NULL) = 0x1517000
+2190 , 92707 , 92707 , vncconfig , brk(0x1549000) = 0x1549000
+2193 , 92707 , 92707 , vncconfig , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[254769]>
+2195 , 92707 , 92707 , vncconfig , connect(3<UNIX:[254769]>, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X1"}, 20) = -1 ECONNREFUSED (Connection refused)
+2197 , 92707 , 92707 , vncconfig , close(3<UNIX:[254769]>) = 0
+2199 , 92707 , 92707 , vncconfig , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3<UNIX:[254770]>
+2201 , 92707 , 92707 , vncconfig , connect(3<UNIX:[254770]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X1"}, 110) = 0
+2204 , 92707 , 92707 , vncconfig , getpeername(3<UNIX:[254770]>, {sa_family=AF_LOCAL, sun_path="/tmp/.X11-unix/X1"}, [20]) = 0
+2206 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+2208 , 92707 , 92707 , vncconfig , access("/home/elwin/.Xauthority", R_OK) = 0
+2210 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xauthority", O_RDONLY) = 4</home/elwin/.Xauthority>
+2213 , 92707 , 92707 , vncconfig , fstat(4</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886698, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=345, st_atime=2018/05/12-11:00:37.983230337, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+2215 , 92707 , 92707 , vncconfig , read(4</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\0201\1\370j\362J\6\341G\0040y3f\267\261\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 4096) = 345
+2217 , 92707 , 92707 , vncconfig , read(4</home/elwin/.Xauthority>, "", 4096) = 0
+2219 , 92707 , 92707 , vncconfig , close(4</home/elwin/.Xauthority>) = 0
+2223 , 92707 , 92707 , vncconfig , getsockname(3<UNIX:[254770->254771]>, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+2225 , 92707 , 92707 , vncconfig , fcntl(3<UNIX:[254770->254771]>, F_GETFL) = 0x2 (flags O_RDWR)
+2227 , 92707 , 92707 , vncconfig , fcntl(3<UNIX:[254770->254771]>, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+2230 , 92707 , 92707 , vncconfig , fcntl(3<UNIX:[254770->254771]>, F_SETFD, FD_CLOEXEC) = 0
+2231 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2235 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"\225\231\351\312\360HN\240 \233\312\272\264\5\275\231", 16}, {"", 0}], 6) = 48
+2239 , 92707 , 92707 , vncconfig , recvfrom(3<UNIX:[254770->254771]>, 0x1529fe0, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+2243 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2314 , 92707 , 92707 , vncconfig , recvfrom(3<UNIX:[254770->254771]>, "\1\0\v\0\0\0P\0", 8, 0, NULL, NULL) = 8
+2318 , 92707 , 92707 , vncconfig , recvfrom(3<UNIX:[254770->254771]>, "\340\355f\2\0\0 \0\377\377\37\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0The XFree86 Project, Inc\1\1 \0\0\0\0\0\20\20 \0\0\0\0\0.\0\0\0!\0\0\0\377\377\0\0\0\0\0\0\0\0\0\0\0\4\0\3\4\1\303\0\1\0\1\0$\0\0\0\2\1\20\2\1\0\0\0\0\0\0\0\20\0\10\0\0\0\0\0$\0\0\0\4\10@\0\0\370\0\0\340\7\0\0\37\0\0\0\0\0\0\0%\0\0\0\4\10@\0?\0\0\0\300\7\0\0\0\370\0\0\0\0\0\0&\0\0\0\4\10@\0?\0\0\0\300\7\0\0\0\370\0\0\0\0\0\0"..., 320, 0, NULL, NULL) = 320
+2324 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2338 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+2343 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2376 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\1\0\0\0\0\0\1\204\0\0J\261\244\215\220\34;\1\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2381 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2385 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\204\0\1\0", 4}], 1) = 4
+2390 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2413 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\2\0\0\0\0\0\377\377\17\0\0\0\0\0`\344\33\265\374\177\0\0\240\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2418 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2423 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2425 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"7\0\5\0\0\0 \0.\0\0\0\10\0\0\0\377\377\0\0\24\0\6\0.\0\0\0\27\0\0\0\37\0\0\0\0\0\0\0\0\341\365\5", 44}, {NULL, 0}, {"", 0}], 3) = 44
+2432 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2452 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2454 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f130, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2456 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2457 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"b\0\5\0\t\0 \0", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+2459 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2466 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\5\0\0\0\0\0\0\0\0\0J\261\244\215\1\34\2\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2468 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f000, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2471 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f000, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2473 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2475 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"b\0\6\0\r\0 \0", 8}, {"VNC-EXTENSION", 13}, {"\0\0\0", 3}], 3) = 24
+2477 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2484 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\6\0\0\0\0\0\1\206B\0J\261\244\215\1\34\2\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2487 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f150, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2489 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f150, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2490 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2491 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\5\0\f\0 \0WM_PROTOCOLS", 20}, {NULL, 0}, {"", 0}], 3) = 20
+2492 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2503 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\7\0\0\0\0\0\214\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\264\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2506 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2508 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2511 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2512 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\6\0\20\0 \0WM_DELETE_WINDOW", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2514 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2520 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\10\0\0\0\0\0\215\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\264\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2523 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2525 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2527 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2529 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\6\0\r\0 \0WM_TAKE_FOCUSDOW", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2531 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2539 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\t\0\0\0\0\0\216\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\264\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2542 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2545 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2546 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2548 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\5\0\t\0 \0TIMESTAMPOCU", 20}, {NULL, 0}, {"", 0}], 3) = 20
+2550 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2558 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\n\0\0\0\0\0\217\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\310\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2560 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2562 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2564 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2566 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\4\0\7\0 \0TARGETSM", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2571 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2600 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\v\0\0\0\0\0\220\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\310\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2605 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2608 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2612 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2625 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\6\0\16\0 \0SELECTION_TIMEOW", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2629 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2658 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\f\0\0\0\0\0\221\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\310\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2666 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2670 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2679 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2689 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\6\0\20\0 \0SELECTION_STRING", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2695 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2749 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\r\0\0\0\0\0\222\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\334\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2756 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2758 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2760 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2762 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\20\0\5\0\t\0 \0CLIPBOARD_ST", 20}, {NULL, 0}, {"", 0}], 3) = 20
+2764 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2772 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\16\0\0\0\0\0\223\0\0\0\0\0\0\0`\344\33\265\374\177\0\0\334\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2774 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2776 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f140, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2780 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2782 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0\0\0\0\0\0\0AR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2784 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2794 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\17\0\0\0\0\0\0\0\0\0\0\0\244\215\0\0\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2796 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2798 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2810 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2819 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0\273\273\273\273\273\273AR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2834 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2854 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\20\0\0\0\0\0\275\275\272\272\275\275\244\215\327\275\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2856 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2857 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2861 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2862 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0\356\356\356\356\356\356AR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2864 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2872 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\21\0\0\0\0\0\357\357\357\357\357\357\244\215}\357\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2874 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2877 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2880 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2881 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0UUUUUUAR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2883 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2901 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\22\0\0\0\0\0RRUURR\244\215\252R\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2902 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2904 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2906 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2908 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0\210\210\210\210\210\210AR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2910 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2920 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\23\0\0\0\0\0\204\204\206\206\204\204\244\2150\204\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2921 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2924 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2925 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2926 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"T\0\4\0!\0\0\0\377\377\377\377\377\377AR", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2931 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2951 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\34\24\0\0\0\0\0\377\377\377\377\377\377\244\215\377\377\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2956 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2963 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2966 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2973 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"7\0\4\0\1\0 \0.\0\0\0\0\0\0\0b_\6\0\17\0NG", 24}, {"XFree86-Bigfont", 15}, {"\0", 1}], 3) = 40
+2977 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2987 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\26\0\0\0\0\0\1\223\0\0\0\0\0\0\377\377\0\0\0\0\0\0\220\34;\1\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2992 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f020, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2999 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f020, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3004 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3007 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\223\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+3012 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3066 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\27\0\0\0\0\0\1\0\1\0\350\3\0\0\350\3\0\0\374(\364\263\360\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3075 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3081 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f0d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3089 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 4</usr/share/X11/locale/locale.alias>
+3091 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/locale.alias>, {st_dev=makedev(8, 1), st_ino=4985851, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=168, st_size=82744, st_atime=2018/05/12-06:48:03.230310758, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3093 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThis file contains alias name of locale.\n#\tEach alias name is described within one line.\n#\tThe first word is the alias name (simplified locale name)\n#\tt"..., 4096) = 4096
+3098 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "TF-8\nbo_IN.utf8\t\t\t\t\tbo_IN.UTF-8\nbr\t\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR\t\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso88591\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-8859-1\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso885914\t\t\t\tbr_FR.ISO8859-14\nbr_FR.ISO-"..., 4096) = 4096
+3100 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\tde_DE.ISO8859-15\nde_DE.88591\t\t\t\t\tde_DE.ISO8859-1\nde_DE.88591.en\t\t\t\t\tde_DE.ISO8859-1\nde_DE.iso88591\t\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO-8859-1\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO_8859-1\t\t\t\tde_DE.ISO8859-1\nde_DE.i"..., 4096) = 4096
+3102 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\ten_ZA.ISO8859-1\nen_ZA.88591.en\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.iso88591\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.ISO-8859-1\t\t\t\ten_ZA.ISO8859-1\nen_ZA.ISO_8859-1\t\t\t\ten_ZA.ISO8859-1\nen_ZA.iso885915\t\t\t\ten_ZA.ISO8859-15\nen_ZA"..., 4096) = 4096
+3104 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\t\teu_ES.ISO8859-1\neu_ES.iso88591\t\t\t\t\teu_ES.ISO8859-1\neu_ES.ISO-8859-1\t\t\t\teu_ES.ISO8859-1\neu_ES.iso885915\t\t\t\teu_ES.ISO8859-15\neu_ES.ISO-8859-15\t\t\t\teu_ES.ISO8859-15\neu_ES.ISO-8859-15@euro\t\t\t\teu_ES.ISO8"..., 4096) = 4096
+3108 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "88591\t\t\t\t\tgv_GB.ISO8859-1\ngv_GB.ISO-8859-1\t\t\t\tgv_GB.ISO8859-1\ngv_GB.iso885914\t\t\t\tgv_GB.ISO8859-14\ngv_GB.ISO-8859-14\t\t\t\tgv_GB.ISO8859-14\ngv_GB.iso885915\t\t\t\tgv_GB.ISO8859-15\ngv_GB.ISO-8859-15\t\t\t\tgv_GB.I"..., 4096) = 4096
+3114 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "w\t\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB\t\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB.iso88591\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB.ISO-8859-1\t\t\t\tkw_GB.ISO8859-1\nkw_GB.iso885914\t\t\t\tkw_GB.ISO8859-14\nkw_GB.ISO-8859-14\t\t\t\tkw_GB.ISO8859-14\nkw_GB"..., 4096) = 4096
+3119 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "9-15\nno@nynorsk\t\t\t\t\tny_NO.ISO8859-1\nnynorsk\t\t\t\t\tnn_NO.ISO8859-1\noc\t\t\t\t\t\toc_FR.ISO8859-1\noc_FR\t\t\t\t\t\toc_FR.ISO8859-1\noc_FR.iso88591\t\t\t\t\toc_FR.ISO8859-1\noc_FR.ISO-8859-1\t\t\t\toc_FR.ISO8859-1\noc_FR.iso88591"..., 4096) = 4096
+3131 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "sr_YU@cyrillic\t\t\t\t\tsr_RS.UTF-8\nsr_YU.utf8\t\t\t\t\tsr_RS.UTF-8\nsr_YU.UTF-8@cyrillic\t\t\t\tsr_RS.UTF-8\nsr_CS\t\t\t\t\t\tsr_CS.UTF-8\nsr@Latn\t\t\t\t\tsr_CS.UTF-8@latin\nsr_CS@Latn\t\t\t\t\tsr_CS.UTF-8@latin\nsr_CS.utf8\t\t\t\t\tsr_CS"..., 4096) = 4096
+3133 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "yi_US.CP1255\nyi_US.MICROSOFT-CP1255\t\t\t\tyi_US.CP1255\nzh_CN\t\t\t\t\t\tzh_CN.gb2312\nzh_CN.Big5\t\t\t\t\tzh_TW.big5\nzh_CN.EUC\t\t\t\t\tzh_CN.eucCN\nzh_CN.GB2312\t\t\t\t\tzh_CN.gb2312\nzh_CN.GBK\t\t\t\t\tzh_CN.gbk\nzh_CN.GB18030\t\t\t\t\t"..., 4096) = 4096
+3135 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, " is full locale name.\n#\n#\n\nPOSIX:\t\t\t\t\t\tC\nPOSIX-UTF2:\t\t\t\t\tC\nC_C.C:\t\t\t\t\t\tC\nC.en:\t\t\t\t\t\tC\nC.ASCII:\t\t\t\t\tC\nC.iso88591:\t\t\t\t\ten_US.ISO8859-1\nCextend:\t\t\t\t\ten_US.ISO8859-1\nCextend.en:\t\t\t\t\ten_US.ISO8859-1\nEnglis"..., 4096) = 4096
+3137 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "br_FR.iso88591:\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-8859-1:\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso885914:\t\t\t\tbr_FR.ISO8859-14\nbr_FR.ISO-8859-14:\t\t\t\tbr_FR.ISO8859-14\nbr_FR.iso885915:\t\t\t\tbr_FR.ISO8859-15\nbr_FR.ISO-8859"..., 4096) = 4096
+3139 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\t\t\t\tde_DE.ISO8859-1\nde_DE@euro:\t\t\t\t\tde_DE.ISO8859-15\nde_DE.88591:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.88591.en:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.iso88591:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO-8859-1:\t\t\t\tde_DE.ISO8859-1\nde_D"..., 4096) = 4096
+3141 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "n_US.ISO8859-15\nen_US.ISO8859-15@euro:\t\t\t\ten_US.ISO8859-15\nen_US.utf8:\t\t\t\t\ten_US.UTF-8\nEN_US.UTF-8:\t\t\t\t\ten_US.UTF-8\nen_ZA:\t\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.88591:\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.88591.en:\t\t\t\t\ten_"..., 4096) = 4096
+3143 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "EE.iso88594:\t\t\t\t\tet_EE.ISO8859-4\net_EE.ISO-8859-4:\t\t\t\tet_EE.ISO8859-4\net_EE.iso885913:\t\t\t\tet_EE.ISO8859-13\net_EE.ISO-8859-13:\t\t\t\tet_EE.ISO8859-13\net_EE.iso885915:\t\t\t\tet_EE.ISO8859-15\net_EE.ISO-8859-15"..., 4096) = 4096
+3145 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "859-1\ngl_ES.iso88591:\t\t\t\t\tgl_ES.ISO8859-1\ngl_ES.ISO-8859-1:\t\t\t\tgl_ES.ISO8859-1\ngl_ES.iso885915:\t\t\t\tgl_ES.ISO8859-15\ngl_ES.ISO-8859-15:\t\t\t\tgl_ES.ISO8859-15\ngl_ES.ISO-8859-15@euro:\t\t\t\tgl_ES.ISO8859-15\ng"..., 4096) = 4096
+3147 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\nkm_KH.utf8:\t\t\t\t\tkm_KH.UTF-8\nkn:\t\t\t\t\t\tkn_IN.UTF-8\nkn_IN:\t\t\t\t\t\tkn_IN.UTF-8\nkn_IN.utf8:\t\t\t\t\tkn_IN.UTF-8\nko:\t\t\t\t\t\tko_KR.eucKR\nko.UTF-8:\t\t\t\t\tko_KR.UTF-8\nko_KR:\t\t\t\t\t\tko_KR.eucKR\nKO_KR:\t\t\t\t\t\tko_KR.eucKR\nko_"..., 4096) = 4096
+3151 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "-1\nno_NO.iso88591:\t\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO-8859-1:\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO8859-1@bokmal:\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO8859-1@nynorsk:\t\t\tno_NO.ISO8859-1\nno_NO.iso885915:\t\t\t\tno_NO.ISO8859-15\nn"..., 4096) = 4096
+3154 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "                     sid_ET.UTF-8\nsk:\t\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK:\t\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK.iso88592:\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK.ISO-8859-2:\t\t\t\tsk_SK.ISO8859-2\nsk_SK.utf8:\t\t\t\t\tsk_SK.UTF-8\nsl:\t\t\t\t\t\tsl_"..., 4096) = 4096
+3156 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "-8\nuz_UZ.UTF-8@cyrillic:\t\t\t\tuz_UZ.UTF-8\nve:\t\t\t\t\t\tve_ZA.UTF-8\nve_ZA:\t\t\t\t\tve_ZA.UTF-8\nve_ZA.utf8:\t\t\t\tve_ZA.UTF-8\nvi:\t\t\t\t\t\tvi_VN.TCVN\nvi_VN:\t\t\t\t\t\tvi_VN.TCVN\nVi_VN:\t\t\t\t\t\tvi_VN.TCVN\nVI_VN:\t\t\t\t\t\tvi_VN.TCVN\n"..., 4096) = 4096
+3169 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "O8859-2\nrumanian:\t\t\t\t\tro_RO.ISO8859-2\nrussian:\t\t\t\t\tru_RU.KOI8-R\nserbocroatian:\t\t\t\t\tsr_RS.UTF-8@latin\nsinhala:\t\t\t\t\tsi_LK.UTF-8\nslovak:\t\t\t\t\t\tsk_SK.ISO8859-2\nslovene:\t\t\t\t\tsl_SI.ISO8859-2\nslovenian:\t\t\t\t\ts"..., 4096) = 824
+3175 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "", 4096) = 0
+3177 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/locale.alias>) = 0
+3179 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 4</usr/share/X11/locale/locale.dir>
+3183 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/locale.dir>, {st_dev=makedev(8, 1), st_ino=4985852, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=40524, st_atime=2018/05/12-06:48:03.234310527, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3187 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThis file contains locale database file names\n#\tThe first word is the locale database file name and\n#\tthe second word is the full locale name.\n#\n#\n\nC/XL"..., 4096) = 4096
+3192 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "859-1/XLC_LOCALE\t\t\tes_CR.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_DO.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_EC.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_ES.ISO8859-1\niso8859-15/XLC_LOCALE\t\t\tes_ES.ISO8859-15\niso8859"..., 4096) = 4096
+3206 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "C_LOCALE\t\t\tno_NO.ISO8859-15\niso8859-1/XLC_LOCALE\t\t\tnr_ZA.ISO8859-1\niso8859-15/XLC_LOCALE\t\t\tnso_ZA.ISO8859-15\niso8859-1/XLC_LOCALE\t\t\tny_NO.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tny_NO.ISO8859-15\niso8859-1/XL"..., 4096) = 4096
+3208 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "_IN.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\taz_AZ.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbe_BY.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbg_BG.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbn_BD.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbn_IN.UTF-8\nen_US"..., 4096) = 4096
+3210 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "u_TR.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tkw_GB.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tky_KG.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlo_LA.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlt_LT.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlv_LV.UTF-8\nen_U"..., 4096) = 4096
+3212 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/locale.dir>) = 0
+3214 , 92707 , 92707 , vncconfig , access("/usr/share/X11/locale/C/XLC_LOCALE", R_OK) = 0
+3216 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/C/XLC_LOCALE", O_RDONLY) = 4</usr/share/X11/locale/C/XLC_LOCALE>
+3222 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/C/XLC_LOCALE>, {st_dev=makedev(8, 1), st_ino=4985855, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=692, st_atime=2018/05/12-08:05:12.641591355, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3225 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/C/XLC_LOCALE>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#  XLocale Database Sample for C.\n# \n\n# \n# \tXLC_FONTSET category\n# \nXLC_FONTSET\n# \tfs0 class (7 bit ASCII)\nfs0\t{\n\tcharset\t{\n\t\tname\tISO8859-1:GL\n\t}\n\tfont\t{\n\t"..., 4096) = 692
+3237 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/C/XLC_LOCALE>, "", 4096) = 0
+3242 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/C/XLC_LOCALE>) = 0
+3245 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 4</usr/share/X11/locale/locale.alias>
+3248 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/locale.alias>, {st_dev=makedev(8, 1), st_ino=4985851, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=168, st_size=82744, st_atime=2018/05/12-06:48:03.230310758, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3250 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThis file contains alias name of locale.\n#\tEach alias name is described within one line.\n#\tThe first word is the alias name (simplified locale name)\n#\tt"..., 4096) = 4096
+3252 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "TF-8\nbo_IN.utf8\t\t\t\t\tbo_IN.UTF-8\nbr\t\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR\t\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso88591\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-8859-1\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso885914\t\t\t\tbr_FR.ISO8859-14\nbr_FR.ISO-"..., 4096) = 4096
+3254 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\tde_DE.ISO8859-15\nde_DE.88591\t\t\t\t\tde_DE.ISO8859-1\nde_DE.88591.en\t\t\t\t\tde_DE.ISO8859-1\nde_DE.iso88591\t\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO-8859-1\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO_8859-1\t\t\t\tde_DE.ISO8859-1\nde_DE.i"..., 4096) = 4096
+3256 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\ten_ZA.ISO8859-1\nen_ZA.88591.en\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.iso88591\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.ISO-8859-1\t\t\t\ten_ZA.ISO8859-1\nen_ZA.ISO_8859-1\t\t\t\ten_ZA.ISO8859-1\nen_ZA.iso885915\t\t\t\ten_ZA.ISO8859-15\nen_ZA"..., 4096) = 4096
+3258 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\t\teu_ES.ISO8859-1\neu_ES.iso88591\t\t\t\t\teu_ES.ISO8859-1\neu_ES.ISO-8859-1\t\t\t\teu_ES.ISO8859-1\neu_ES.iso885915\t\t\t\teu_ES.ISO8859-15\neu_ES.ISO-8859-15\t\t\t\teu_ES.ISO8859-15\neu_ES.ISO-8859-15@euro\t\t\t\teu_ES.ISO8"..., 4096) = 4096
+3260 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "88591\t\t\t\t\tgv_GB.ISO8859-1\ngv_GB.ISO-8859-1\t\t\t\tgv_GB.ISO8859-1\ngv_GB.iso885914\t\t\t\tgv_GB.ISO8859-14\ngv_GB.ISO-8859-14\t\t\t\tgv_GB.ISO8859-14\ngv_GB.iso885915\t\t\t\tgv_GB.ISO8859-15\ngv_GB.ISO-8859-15\t\t\t\tgv_GB.I"..., 4096) = 4096
+3262 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "w\t\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB\t\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB.iso88591\t\t\t\t\tkw_GB.ISO8859-1\nkw_GB.ISO-8859-1\t\t\t\tkw_GB.ISO8859-1\nkw_GB.iso885914\t\t\t\tkw_GB.ISO8859-14\nkw_GB.ISO-8859-14\t\t\t\tkw_GB.ISO8859-14\nkw_GB"..., 4096) = 4096
+3264 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "9-15\nno@nynorsk\t\t\t\t\tny_NO.ISO8859-1\nnynorsk\t\t\t\t\tnn_NO.ISO8859-1\noc\t\t\t\t\t\toc_FR.ISO8859-1\noc_FR\t\t\t\t\t\toc_FR.ISO8859-1\noc_FR.iso88591\t\t\t\t\toc_FR.ISO8859-1\noc_FR.ISO-8859-1\t\t\t\toc_FR.ISO8859-1\noc_FR.iso88591"..., 4096) = 4096
+3266 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "sr_YU@cyrillic\t\t\t\t\tsr_RS.UTF-8\nsr_YU.utf8\t\t\t\t\tsr_RS.UTF-8\nsr_YU.UTF-8@cyrillic\t\t\t\tsr_RS.UTF-8\nsr_CS\t\t\t\t\t\tsr_CS.UTF-8\nsr@Latn\t\t\t\t\tsr_CS.UTF-8@latin\nsr_CS@Latn\t\t\t\t\tsr_CS.UTF-8@latin\nsr_CS.utf8\t\t\t\t\tsr_CS"..., 4096) = 4096
+3268 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "yi_US.CP1255\nyi_US.MICROSOFT-CP1255\t\t\t\tyi_US.CP1255\nzh_CN\t\t\t\t\t\tzh_CN.gb2312\nzh_CN.Big5\t\t\t\t\tzh_TW.big5\nzh_CN.EUC\t\t\t\t\tzh_CN.eucCN\nzh_CN.GB2312\t\t\t\t\tzh_CN.gb2312\nzh_CN.GBK\t\t\t\t\tzh_CN.gbk\nzh_CN.GB18030\t\t\t\t\t"..., 4096) = 4096
+3270 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, " is full locale name.\n#\n#\n\nPOSIX:\t\t\t\t\t\tC\nPOSIX-UTF2:\t\t\t\t\tC\nC_C.C:\t\t\t\t\t\tC\nC.en:\t\t\t\t\t\tC\nC.ASCII:\t\t\t\t\tC\nC.iso88591:\t\t\t\t\ten_US.ISO8859-1\nCextend:\t\t\t\t\ten_US.ISO8859-1\nCextend.en:\t\t\t\t\ten_US.ISO8859-1\nEnglis"..., 4096) = 4096
+3272 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "br_FR.iso88591:\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-8859-1:\t\t\t\tbr_FR.ISO8859-1\nbr_FR.iso885914:\t\t\t\tbr_FR.ISO8859-14\nbr_FR.ISO-8859-14:\t\t\t\tbr_FR.ISO8859-14\nbr_FR.iso885915:\t\t\t\tbr_FR.ISO8859-15\nbr_FR.ISO-8859"..., 4096) = 4096
+3274 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\t\t\t\t\tde_DE.ISO8859-1\nde_DE@euro:\t\t\t\t\tde_DE.ISO8859-15\nde_DE.88591:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.88591.en:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.iso88591:\t\t\t\t\tde_DE.ISO8859-1\nde_DE.ISO-8859-1:\t\t\t\tde_DE.ISO8859-1\nde_D"..., 4096) = 4096
+3276 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "n_US.ISO8859-15\nen_US.ISO8859-15@euro:\t\t\t\ten_US.ISO8859-15\nen_US.utf8:\t\t\t\t\ten_US.UTF-8\nEN_US.UTF-8:\t\t\t\t\ten_US.UTF-8\nen_ZA:\t\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.88591:\t\t\t\t\ten_ZA.ISO8859-1\nen_ZA.88591.en:\t\t\t\t\ten_"..., 4096) = 4096
+3278 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "EE.iso88594:\t\t\t\t\tet_EE.ISO8859-4\net_EE.ISO-8859-4:\t\t\t\tet_EE.ISO8859-4\net_EE.iso885913:\t\t\t\tet_EE.ISO8859-13\net_EE.ISO-8859-13:\t\t\t\tet_EE.ISO8859-13\net_EE.iso885915:\t\t\t\tet_EE.ISO8859-15\net_EE.ISO-8859-15"..., 4096) = 4096
+3280 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "859-1\ngl_ES.iso88591:\t\t\t\t\tgl_ES.ISO8859-1\ngl_ES.ISO-8859-1:\t\t\t\tgl_ES.ISO8859-1\ngl_ES.iso885915:\t\t\t\tgl_ES.ISO8859-15\ngl_ES.ISO-8859-15:\t\t\t\tgl_ES.ISO8859-15\ngl_ES.ISO-8859-15@euro:\t\t\t\tgl_ES.ISO8859-15\ng"..., 4096) = 4096
+3282 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "\nkm_KH.utf8:\t\t\t\t\tkm_KH.UTF-8\nkn:\t\t\t\t\t\tkn_IN.UTF-8\nkn_IN:\t\t\t\t\t\tkn_IN.UTF-8\nkn_IN.utf8:\t\t\t\t\tkn_IN.UTF-8\nko:\t\t\t\t\t\tko_KR.eucKR\nko.UTF-8:\t\t\t\t\tko_KR.UTF-8\nko_KR:\t\t\t\t\t\tko_KR.eucKR\nKO_KR:\t\t\t\t\t\tko_KR.eucKR\nko_"..., 4096) = 4096
+3284 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "-1\nno_NO.iso88591:\t\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO-8859-1:\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO8859-1@bokmal:\t\t\t\tno_NO.ISO8859-1\nno_NO.ISO8859-1@nynorsk:\t\t\tno_NO.ISO8859-1\nno_NO.iso885915:\t\t\t\tno_NO.ISO8859-15\nn"..., 4096) = 4096
+3286 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "                     sid_ET.UTF-8\nsk:\t\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK:\t\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK.iso88592:\t\t\t\t\tsk_SK.ISO8859-2\nsk_SK.ISO-8859-2:\t\t\t\tsk_SK.ISO8859-2\nsk_SK.utf8:\t\t\t\t\tsk_SK.UTF-8\nsl:\t\t\t\t\t\tsl_"..., 4096) = 4096
+3288 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "-8\nuz_UZ.UTF-8@cyrillic:\t\t\t\tuz_UZ.UTF-8\nve:\t\t\t\t\t\tve_ZA.UTF-8\nve_ZA:\t\t\t\t\tve_ZA.UTF-8\nve_ZA.utf8:\t\t\t\tve_ZA.UTF-8\nvi:\t\t\t\t\t\tvi_VN.TCVN\nvi_VN:\t\t\t\t\t\tvi_VN.TCVN\nVi_VN:\t\t\t\t\t\tvi_VN.TCVN\nVI_VN:\t\t\t\t\t\tvi_VN.TCVN\n"..., 4096) = 4096
+3290 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "O8859-2\nrumanian:\t\t\t\t\tro_RO.ISO8859-2\nrussian:\t\t\t\t\tru_RU.KOI8-R\nserbocroatian:\t\t\t\t\tsr_RS.UTF-8@latin\nsinhala:\t\t\t\t\tsi_LK.UTF-8\nslovak:\t\t\t\t\t\tsk_SK.ISO8859-2\nslovene:\t\t\t\t\tsl_SI.ISO8859-2\nslovenian:\t\t\t\t\ts"..., 4096) = 824
+3292 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.alias>, "", 4096) = 0
+3294 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/locale.alias>) = 0
+3297 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 4</usr/share/X11/locale/locale.dir>
+3300 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/locale.dir>, {st_dev=makedev(8, 1), st_ino=4985852, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=40524, st_atime=2018/05/12-06:48:03.234310527, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3302 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThis file contains locale database file names\n#\tThe first word is the locale database file name and\n#\tthe second word is the full locale name.\n#\n#\n\nC/XL"..., 4096) = 4096
+3304 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "859-1/XLC_LOCALE\t\t\tes_CR.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_DO.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_EC.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tes_ES.ISO8859-1\niso8859-15/XLC_LOCALE\t\t\tes_ES.ISO8859-15\niso8859"..., 4096) = 4096
+3306 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "C_LOCALE\t\t\tno_NO.ISO8859-15\niso8859-1/XLC_LOCALE\t\t\tnr_ZA.ISO8859-1\niso8859-15/XLC_LOCALE\t\t\tnso_ZA.ISO8859-15\niso8859-1/XLC_LOCALE\t\t\tny_NO.ISO8859-1\niso8859-1/XLC_LOCALE\t\t\tny_NO.ISO8859-15\niso8859-1/XL"..., 4096) = 4096
+3309 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "_IN.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\taz_AZ.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbe_BY.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbg_BG.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbn_BD.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tbn_IN.UTF-8\nen_US"..., 4096) = 4096
+3313 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/locale.dir>, "u_TR.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tkw_GB.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tky_KG.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlo_LA.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlt_LT.UTF-8\nen_US.UTF-8/XLC_LOCALE\t\t\tlv_LV.UTF-8\nen_U"..., 4096) = 4096
+3315 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/locale.dir>) = 0
+3317 , 92707 , 92707 , vncconfig , access("/usr/share/X11/locale/C/XLC_LOCALE", R_OK) = 0
+3323 , 92707 , 92707 , vncconfig , open("/usr/share/X11/locale/C/XLC_LOCALE", O_RDONLY) = 4</usr/share/X11/locale/C/XLC_LOCALE>
+3325 , 92707 , 92707 , vncconfig , fstat(4</usr/share/X11/locale/C/XLC_LOCALE>, {st_dev=makedev(8, 1), st_ino=4985855, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=692, st_atime=2018/05/12-08:05:12.641591355, st_mtime=2015/09/18-07:56:33, st_ctime=2016/11/03-10:39:01.847999870}) = 0
+3327 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/C/XLC_LOCALE>, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#  XLocale Database Sample for C.\n# \n\n# \n# \tXLC_FONTSET category\n# \nXLC_FONTSET\n# \tfs0 class (7 bit ASCII)\nfs0\t{\n\tcharset\t{\n\t\tname\tISO8859-1:GL\n\t}\n\tfont\t{\n\t"..., 4096) = 692
+3331 , 92707 , 92707 , vncconfig , read(4</usr/share/X11/locale/C/XLC_LOCALE>, "", 4096) = 0
+3335 , 92707 , 92707 , vncconfig , close(4</usr/share/X11/locale/C/XLC_LOCALE>) = 0
+3339 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3343 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"-\0\16\0\2\0 \0*\0\0\0-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*\0\0\223\1\3\0\2\0 \0\1\0\0\0", 68}, {NULL, 0}, {"", 0}], 3) = 68
+3346 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3360 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0\17\30\0\2\0 \0\0\0-\0\0\0\0\0\30\337\33\265\374\177\0\0 \337\33\265\374\177\0\0\0\7\31\0\2\0 \0\1\0\223\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3363 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3365 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"/\0\2\0\2\0 \0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3370 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3383 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0\7\32\0\2\0 \0\0\0/\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3388 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3392 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"-\0\5\0\3\0 \0\5\0\0\0fixedlve\223\1\3\0\3\0 \0\1\0\0\0", 32}, {NULL, 0}, {"", 0}], 3) = 32
+3397 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3411 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\34\0l\1\0\0\0\0\0\0\6\0\377\377\366\377\0\0\374\177\0\0\2\0\6\0\6\0\v\0\2\0\0\0\374\177\0\0\0\0\377\0\0\0\27\0\0\0\0\0\v\0\2\0\0\1\0\0<\0\0\0\377\377\377\377\0\0\0\0|\0\0\0}\0\0\0h\0\0\0~\0\0\0@\0\0\0\177\0\0\0i\0\0\0\200\0\0\0j\0\0\0\201\0\0\0k\0\0\0\202\0\0\0l\0\0\0}\0\0\0m\0\0\0\r\0\0\0;\0\0\0x\0\0\0n\0\0\0K\0\0\0o\0\0\0K\0\0\0p\0\0\0\203\0\0\0q\0\0\0<\0\0\0r\0\0\0\204\0\0\0s\0\0\0\205\0\0\0=\0\0\0\206\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 1488
+3415 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30efa0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3418 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30efa0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3422 , 92707 , 92707 , vncconfig , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4</etc/ld.so.cache>
+3427 , 92707 , 92707 , vncconfig , fstat(4</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+3431 , 92707 , 92707 , vncconfig , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 4</etc/ld.so.cache>, 0) = 0x7fd8a1560000
+3435 , 92707 , 92707 , vncconfig , close(4</etc/ld.so.cache>) = 0
+3442 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3444 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libXcursor.so.1", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>
+3446 , 92707 , 92707 , vncconfig , read(4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340#\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\222\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\212\0\0\0\0\0\0\344\212\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\215\0\0\0\0\0\0\240\215 \0\0\0\0\0\240\215 \0\0\0\0\0\20\4\0\0\0\0\0\0000\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\215\0\0\0\0\0\0\270\215 \0\0\0\0\0"..., 832) = 832
+3448 , 92707 , 92707 , vncconfig , fstat(4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, {st_dev=makedev(8, 1), st_ino=4458288, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39288, st_atime=2018/05/12-06:48:02.994324406, st_mtime=2017/11/29-08:36:36, st_ctime=2017/12/02-07:13:13.834983804}) = 0
+3450 , 92707 , 92707 , vncconfig , mmap(NULL, 2134480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, 0) = 0x7fd89f97e000
+3452 , 92707 , 92707 , vncconfig , mprotect(0x7fd89f987000, 2093056, PROT_NONE) = 0
+3464 , 92707 , 92707 , vncconfig , mmap(0x7fd89fb86000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, 0x8000) = 0x7fd89fb86000
+3469 , 92707 , 92707 , vncconfig , close(4</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>) = 0
+3474 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3478 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libXrender.so.1", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>
+3487 , 92707 , 92707 , vncconfig , read(4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\32\0\0\0\0\0\0@\0\0\0\0\0\0\0x\223\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\213\0\0\0\0\0\0T\213\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\215\0\0\0\0\0\0\270\215 \0\0\0\0\0\270\215 \0\0\0\0\0\277\4\0\0\0\0\0\0\360\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\0\0\0\0\0\0\320\215 \0\0\0\0\0"..., 832) = 832
+3492 , 92707 , 92707 , vncconfig , fstat(4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, {st_dev=makedev(8, 1), st_ino=4465262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39416, st_atime=2018/05/12-06:48:02.970325805, st_mtime=2015/07/14-18:18:25, st_ctime=2016/11/03-10:38:38.803999888}) = 0
+3498 , 92707 , 92707 , vncconfig , mmap(NULL, 2134696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, 0) = 0x7fd89f774000
+3502 , 92707 , 92707 , vncconfig , mprotect(0x7fd89f77d000, 2093056, PROT_NONE) = 0
+3507 , 92707 , 92707 , vncconfig , mmap(0x7fd89f97c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, 0x8000) = 0x7fd89f97c000
+3521 , 92707 , 92707 , vncconfig , close(4</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>) = 0
+3525 , 92707 , 92707 , vncconfig , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3540 , 92707 , 92707 , vncconfig , open("/usr/lib/x86_64-linux-gnu/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>
+3544 , 92707 , 92707 , vncconfig , read(4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0\370Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0dD\0\0\0\0\0\0dD\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270M\0\0\0\0\0\0\270M \0\0\0\0\0\270M \0\0\0\0\0'\3\0\0\0\0\0\0P\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0"..., 832) = 832
+3546 , 92707 , 92707 , vncconfig , fstat(4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, {st_dev=makedev(8, 1), st_ino=4465244, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22584, st_atime=2018/05/12-06:48:02.902329770, st_mtime=2014/08/04-08:06:45, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+3548 , 92707 , 92707 , vncconfig , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0) = 0x7fd89f56e000
+3550 , 92707 , 92707 , vncconfig , mprotect(0x7fd89f573000, 2093056, PROT_NONE) = 0
+3552 , 92707 , 92707 , vncconfig , mmap(0x7fd89f772000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0x4000) = 0x7fd89f772000
+3555 , 92707 , 92707 , vncconfig , close(4</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>) = 0
+3558 , 92707 , 92707 , vncconfig , mprotect(0x7fd89f772000, 4096, PROT_READ) = 0
+3560 , 92707 , 92707 , vncconfig , mprotect(0x7fd89f97c000, 4096, PROT_READ) = 0
+3565 , 92707 , 92707 , vncconfig , mprotect(0x7fd89fb86000, 4096, PROT_READ) = 0
+3568 , 92707 , 92707 , vncconfig , munmap(0x7fd8a1560000, 136611) = 0
+3573 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3576 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"8\0\5\0\1\0 \0\10@\0\0\327\275\0\0\3\0 \0\2\1\4\0.\0\0\0\0\10\0\0\0\0@\0005\1\4\0\4\0 \0.\0\0\0\4\0\4\0005\4\4\0\5\0 \0.\0\0\0\1\0\1\0006\0\2\0\5\0 \0005\10\4\0\6\0 \0.\0\0\0\1\0\1\0006\0\2\0\6\0 \0005\30\4\0\7\0 \0.\0\0\0\1\0\1\0006\0\2\0\7\0 \0005 \4\0\10\0 \0.\0\0\0\1\0\1\0006\0\2\0\10\0 \0+\0\1\0", 152}, {NULL, 0}, {"", 0}], 3) = 152
+3580 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3622 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\0\2 \0\4\0\0\0\0\0005\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\4!\0\5\0 \0\0\0006\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\2\"\0\10\0\0\0\0\0005\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\4#\0\6\0 \0\0\0006\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\2$\0\30\0\0\0\0\0005\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\4%\0\7\0 \0\0\0006\0\0\1\0\0\30\0\377\377\1\2\0\0  \10\377\0\0\0\0\0\2&\0 \0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 288
+3624 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30eef0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3629 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults", O_RDONLY) = -1 ENOENT (No such file or directory)
+3630 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3631 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults-elwin-virtual-machine", O_RDONLY) = -1 ENOENT (No such file or directory)
+3632 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults", O_RDONLY) = -1 ENOENT (No such file or directory)
+3634 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3638 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults-elwin-virtual-machine", O_RDONLY) = -1 ENOENT (No such file or directory)
+3640 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults", O_RDONLY) = -1 ENOENT (No such file or directory)
+3643 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3645 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults-elwin-virtual-machine", O_RDONLY) = -1 ENOENT (No such file or directory)
+3647 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults", O_RDONLY) = -1 ENOENT (No such file or directory)
+3649 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3651 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults-elwin-virtual-machine", O_RDONLY) = -1 ENOENT (No such file or directory)
+3654 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults", O_RDONLY) = -1 ENOENT (No such file or directory)
+3655 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3656 , 92707 , 92707 , vncconfig , open("/home/elwin/.Xdefaults-elwin-virtual-machine", O_RDONLY) = -1 ENOENT (No such file or directory)
+3658 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3661 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"7\0\4\0\t\0 \0\4\0 \0\0\0\0\0H\1\n\0\4\0 \0\t\0 \0\4\0\4\0\0\0\0\0\0\1\4\0\6\0 \0\17\0\0\0\17\0\4\0\6\4\4\0<\0\2\0\t\0 \0005\1\4\0\n\0 \0.\0\0\0\10\0\10\0007\0\4\0\v\0 \0\n\0 \0\0\0\0\0H\1\16\0\n\0 \0\v\0 \0\10\0\10\0\0\0\0\0\0\1\2\0\200\0 \0\300 \4\0\342\0 \0v\0\0\0>\0\1\0\34\0\2\0\10\0 \0\0\0\1\0<\0\2\0\v\0 \0\1\0\n\0\f\0 \0.\0\0\0\0\0\0\0,\1d\0\0\0\0\0\0\0\0\0\n\0\0\0\327\275\0\0\0\0\0\0"..., 592}, {NULL, 0}, {"", 0}], 3) = 592
+3663 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3672 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1D\0\1\0\0\0\1\0C\0\0\0\0\0\220K;\1\0\0\0\0\0\0\0\0\0\0\0\0001\4!\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 36
+3677 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f160, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3680 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f160, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3682 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3685 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"8\0\4\0\16\0 \0\4\0\0\0\377\377\0\0F\1\5\0\r\0 \0\16\0 \0\t\0\5\0\t\0\t\0008\1\4\0\16\0 \0\4\0\0\0\252R\0\0F\4\7\0\r\0 \0\16\0 \0\7\0\3\0\r\0\2\0\7\0\3\0\2\0\r\0008\0\4\0\16\0 \0\4\0\0\0}\357\0\0F\1\v\0\r\0 \0\16\0 \0\7\0\17\0\r\0\1\0\23\0\4\0\1\0\f\0\10\0\16\0\f\0\1\0\22\0\5\0\1\0\v\0008\0\5\0\16\0 \0\f\0\0\0\0\0\0\0\377\377\0\0?\0\10\0\n\0 \0\r\0 \0\16\0 \0\0\0\0\0\t\0\5\0\10\0\10\0\1\0\0\0J\275\f\0\r\0 \0"..., 280}, {NULL, 0}, {"", 0}], 3) = 280
+3687 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3697 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\16!L\0\r\0 \0\0\0?\1\0\0\0\0 I;\1\0\0\0\0\0\0\0\0\0\0\0\0\1\1O\0\1\0\0\0\1\0C\0\0\0\0\0\0M;\1\0\0\0\0\0\0\0\0\0\0\0\0001\2\"\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 68
+3701 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f160, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3706 , 92707 , 92707 , vncconfig , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-121-generic", version="#145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+3710 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3715 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"8\0\4\0\20\0 \0\4\0\0\0\377\377\0\0F\1\5\0\17\0 \0\20\0 \0\t\0\5\0\t\0\t\0008\1\4\0\20\0 \0\4\0\0\0\252R\0\0F\4\7\0\17\0 \0\20\0 \0\7\0\3\0\r\0\2\0\7\0\3\0\2\0\r\0008\0\4\0\20\0 \0\4\0\0\0}\357\0\0F\1\v\0\17\0 \0\20\0 \0\7\0\17\0\r\0\1\0\23\0\4\0\1\0\f\0\10\0\16\0\f\0\1\0\22\0\5\0\1\0\v\0008\0\5\0\20\0 \0\f\0\0\0\0\0\0\0\377\377\0\0?\0\10\0\n\0 \0\17\0 \0\20\0 \0\0\0\0\0\t\0\5\0\10\0\10\0\1\0\0\0J\275\v\0\17\0 \0"..., 1016}, {NULL, 0}, {"", 0}], 3) = 1016
+3719 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3740 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\16!W\0\17\0 \0\0\0?\1\0\0\0\0@N;\1\0\0\0\0\0\0\0\0\0\0\0\0\16\"a\0\21\0 \0\0\0?\1\0\0\0\0\220P;\1\0\0\0\0\0\0\0\0\0\0\0\0\16#j\0\21\0 \0\0\0?\1\0\0\0\0\220P;\1\0\0\0\0\0\0\0\0\0\0\0\0\1\0p\0\0\0\0\0\224\0\0\0\0\0\0\0`\344\33\265\374\177\0\0@\1\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+3745 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30eeb0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3749 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3754 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"\22\0\7\0\f\0 \0\224\0\0\0\37\0\0\0\10\1\5\0\1\0\0\0C\0 \0\22\0\t\0\f\0 \0'\0\0\0\37\0\0\0\10\0\0\0\n\0\0\0VNC config \0\22\0\t\0\f\0 \0%\0\0\0\37\0\0\0\10\0\4\0\n\0\0\0VNC config\v\0\22\0\10\0\f\0 \0\214\0\0\0\4\0\0\0 \0\4\0\2\0\0\0\216\0\0\0\215\0\0\0\2\0\4\0\f\0 \0\0\10\0\0\0\0\2\0\206\6\3\0\f\0 \0\7\0\0\0\30\0\6\0\f\0 \0\1\0\0\0\37\0\0\0\1\0\0\0\0\0\0\0\30\0\6\0\f\0 \0\223\0\0\0\37\0\0\0"..., 216}, {NULL, 0}, {"", 0}], 3) = 216
+3757 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3762 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3769 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+3785 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\37Jw\0\0\0\0\0\f\0 \0\1\0\0\0\37\0\0\0\0\0\0\0\220\34;\1\0\0\0\0\37Jx\0\0\0\0\0\f\0 \0\223\0\0\0\37\0\0\0\0\0\0\0\220\34;\1\0\0\0\0\23\0y\0\f\0 \0\f\0 \0\0\0\0\0(!;\1\0\0\0\0\220\337\33\265\374\177\0\0\f\fy\0\21\0 \0\0\0\0\0\341\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0\f\fy\0\17\0 \0\0\0\0\0\261\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0\f\fy\0\r\0 \0\0\0\0\0\311\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 192
+3789 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3795 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3801 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"8\0\4\0\22\0 \0\4\0\0\0\377\377\0\0F\1\5\0\21\0 \0\22\0 \0\t\0\5\0\t\0\t\0008\0\4\0\22\0 \0\4\0\0\0\252R\0\0FN\7\0\21\0 \0\22\0 \0\7\0\3\0\r\0\2\0\7\0\3\0\2\0\r\0008\0\4\0\22\0 \0\4\0\0\0}\357\0\0Fg\v\0\21\0 \0\22\0 \0\7\0\17\0\r\0\1\0\23\0\4\0\1\0\f\0\10\0\16\0\f\0\1\0\22\0\5\0\1\0\v\0008\10\4\0\22\0 \0\4\0\0\0\0\0\0\0?\0\10\0\n\0 \0\21\0 \0\22\0 \0\0\0\0\0\t\0\5\0\10\0\10\0\1\0\0\0J\0\r\0\21\0 \0\22\0 \0"..., 708}, {NULL, 0}, {"", 0}], 3) = 708
+3806 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3812 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3823 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+3852 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\16O\201\0\21\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16M\212\0\17\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16K\223\0\r\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+3859 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3867 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3876 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3878 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+7122 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"C\"\224\0\f\0 \0\367\0\0\0\0\0\0\0\0m\254\0\0\0\0\0\0\265\252\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+7127 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7130 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7133 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7135 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+7409 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\351\0\0\0\r7\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\0\224\0.\0\0\0\253\0\0\0\r7\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\0\224\0.\0\0\0\241\0\0\0\r7\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\0\224\0.\0\0\0\357\0\0\0\r7\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+7411 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7412 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7415 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7419 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10786 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\352\0\0\0\3069\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+10789 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10792 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10794 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10796 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10809 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34m\224\0.\0\0\0\243\0\0\0\3169\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\3169\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\3169\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\3169\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+10812 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10814 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10817 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10819 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10839 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34m\224\0.\0\0\0\243\0\0\0\3269\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\3269\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\3269\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+10841 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10843 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10845 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10848 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10864 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\245\0\0\0\3369\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+10867 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10871 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10873 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10875 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10889 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\244\0\0\0\3459\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\0\224\0.\0\0\0\246\0\0\0\3459\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+10892 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10894 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10897 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10899 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10904 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\252\0\0\0\3519\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+10906 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10908 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10911 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10915 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10921 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\250\0\0\0\3569\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+10924 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10926 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10930 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10932 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10936 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\247\0\0\0\3619\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\0\224\0.\0\0\0\255\0\0\0\3619\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+10938 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10940 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10942 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10944 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+10976 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\242\0\0\0\3779\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+10978 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10980 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10982 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\224\0.\0\0\0\243\0\0\0\0:\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\243\224\0.\0\0\0\243\0\0\0\0:\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34m\224\0.\0\0\0\243\0\0\0\0:\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+10984 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10986 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, {0, 0}) = 0 (Timeout)
+10987 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10990 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+10992 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+12164 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34m\224\0.\0\0\0\243\0\0\0\6<\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+12166 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12168 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12171 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12173 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+12797 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\22\244\224\0\f\0 \0\f\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\260k;\1\0\0\0\0\25\0\224\0\f\0 \0\f\0 \0e\0@\0\0\0\0\0\0\0\0\0\247\304@\0\0\0\0\0\23\244\224\0\f\0 \0\f\0 \0\0\261\244\215\200J;\1\0\0\0\0\247\304@\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+12799 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12801 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12805 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12807 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+12823 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\265\224\0.\0\0\0\243\0\0\0\16=\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\26\0\224\0\f\0 \0\f\0 \0\221\0@\0\1\0\24\0,\1d\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+12825 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12827 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12829 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12831 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+12833 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\226\0\224\0\f\0 \0\f\0 \0\0\0\0\0\1\0\24\0,\1d\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+12835 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12837 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12839 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+12841 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+13159 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\f\f\224\0\21\0 \0\0\0\0\0\341\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0\f\f\224\0\17\0 \0\0\0\0\0\261\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0\f\f\224\0\r\0 \0\0\0\0\0\311\0\23\0\0\0\0\0\0\0\0\0008\336\33\265\374\177\0\0\34\265\224\0.\0\0\0\243\0\0\0|=\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\265\224\0.\0\0\0\242\0\0\0|=\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0\34\265\224\0.\0\0\0\243\0\0\0|=\336T\0-\37\265\374\177\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 192
+13161 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13163 , 92707 , 92707 , vncconfig , poll([{fd=3<UNIX:[254770->254771]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+13166 , 92707 , 92707 , vncconfig , writev(3<UNIX:[254770->254771]>, [{"8\0\4\0\22\0 \0\4\0\0\0\377\377\0\0F\1\5\0\21\0 \0\22\0 \0\t\0\5\0\t\0\t\0008\0\4\0\22\0 \0\4\0\0\0\252R\0\0FN\7\0\21\0 \0\22\0 \0\7\0\3\0\r\0\2\0\7\0\3\0\2\0\r\0008\0\4\0\22\0 \0\4\0\0\0}\357\0\0Fg\v\0\21\0 \0\22\0 \0\7\0\17\0\r\0\1\0\23\0\4\0\1\0\f\0\10\0\16\0\f\0\1\0\22\0\5\0\1\0\v\0008\10\4\0\22\0 \0\4\0\0\0\0\0\0\0?\0\10\0\n\0 \0\21\0 \0\22\0 \0\0\0\0\0\t\0\5\0\10\0\10\0\1\0\0\0J\0\r\0\21\0 \0\22\0 \0"..., 708}, {NULL, 0}, {"", 0}], 3) = 708
+13169 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13172 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13175 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL) = 1 (in [3])
+13179 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, {msg_name(0)=NULL, msg_iov(1)=[{"\16O\234\0\21\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16M\245\0\17\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16K\256\0\r\0 \0\0\0?\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+13181 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13183 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f120, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13185 , 92707 , 92707 , vncconfig , recvmsg(3<UNIX:[254770->254771]>, 0x7fffce30f230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+13186 , 92707 , 92707 , vncconfig , select(1024, [3<UNIX:[254770->254771]>], NULL, NULL, NULL <detached ...>

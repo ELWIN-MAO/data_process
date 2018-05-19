@@ -1,0 +1,165 @@
+2563 , 43451 , 43451 , openbox , restart_syscall(<... resuming interrupted poll ...>) = 1
+2566 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2569 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\4\33\v\\h(\10%\2\0\0.\1\340\0\3\0\300\0\27\0\356\2\27\0\356\2\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2571 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2574 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2576 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2577 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2579 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2581 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2582 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2584 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2586 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2588 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2590 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2591 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2593 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+2603 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2605 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\7\4\33\v\\h(\10%\2\0\0\1\1\340\0\36\0\0\1\27\0\356\2\27\0\10\0\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2607 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2609 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2612 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2614 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2617 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2619 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2621 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2623 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2625 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2627 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2629 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2631 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2634 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+2741 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2747 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\4\1\33\v-j(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\363\2\23\0\r\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2749 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2752 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2755 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2758 , 43451 , 43451 , openbox , writev(5<UNIX:[127831->128111]>, [{"\f\0\5\0\1\1\340\0`\0\0\0\357\0\340\0\1\0\0\0\22\0\t\0%\2\0\0H\1\0\0!\0\0\0 \0\0\0\3\0\0\0\3\0\300\0\7\0\340\1\36\0\0\1#\2\2\0-j(\10+\1\1\0", 68}, {NULL, 0}, {"", 0}], 3) = 68
+2760 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2775 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\35\v%\2\0\0H\1\0\0\243j(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2778 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2848 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\37\v\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2850 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2852 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2854 , 43451 , 43451 , openbox , writev(5<UNIX:[127831->128111]>, [{"\16\0\2\0\36\0\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2856 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2870 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\30 \v\0\0\0\0%\2\0\0\0\0\0\0P\5\32\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2872 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2874 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2877 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2879 , 43451 , 43451 , openbox , writev(5<UNIX:[127831->128111]>, [{"+\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2881 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2896 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2!\v\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2899 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2900 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2902 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2904 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2906 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2907 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2909 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2911 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2913 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+2915 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+2917 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2920 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2921 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+2984 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+2986 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0!\v\36\0\0\0014\1\0\0\307k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2988 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2990 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2993 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2995 , 43451 , 43451 , openbox , writev(5<UNIX:[127831->128111]>, [{"+\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2998 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+3066 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\4!\v\340k(\10%\2\0\0\1\1\340\0\36\0\0\1\23\0\363\2\23\0\r\0\0\0\1\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3069 , 43451 , 43451 , openbox , poll([{fd=5<UNIX:[127831->128111]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+3081 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\"\v\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3084 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3940, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3086 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3940, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3088 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3870, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3090 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e38a0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3092 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3094 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3095 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3098 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3100 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3102 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3103 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3105 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+3107 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3110 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3112 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+3119 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3121 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\n\4\"\v.\1\340\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3123 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3125 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3128 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3130 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3132 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3134 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3137 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3138 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3140 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3143 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+3146 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3148 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3150 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+3298 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3300 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\241 \"\vN\1\0\1&\1\0\0\0\0\0\0r\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3302 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3305 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3307 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3309 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3311 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3313 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3315 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3318 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3320 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+3322 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+3324 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3327 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3329 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+4851 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+4853 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\t\4\"\v.\1\340\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4855 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4857 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4859 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4862 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4864 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4867 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+4869 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4871 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4873 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+4875 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+4878 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4879 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4882 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+4892 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+4893 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\7\4\"\v>t(\10%\2\0\0.\1\340\0\3\0\300\0006\0\334\0026\0\334\2\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4895 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4898 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4900 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4903 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4905 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4907 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+4909 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4911 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4914 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+4916 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+4918 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4919 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4922 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=5, revents=POLLIN}])
+5013 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, 0x7fff0f5e3e90, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5015 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, {msg_name(0)=NULL, msg_iov(1)=[{"\222\0\"\v%\2\0\0N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5018 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5020 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5023 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3b20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5025 , 43451 , 43451 , openbox , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5028 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5031 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+5033 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5035 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5038 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1) = 1 ([{fd=3, revents=POLLIN}])
+5039 , 43451 , 43451 , openbox , read(3<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+5042 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d20, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5043 , 43451 , 43451 , openbox , recvmsg(5<UNIX:[127831->128111]>, 0x7fff0f5e3d00, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5045 , 43451 , 43451 , openbox , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127831->128111]>, events=POLLIN}], 2, -1 <detached ...>

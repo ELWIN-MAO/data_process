@@ -1,0 +1,53 @@
+646 , 92693 , 92693 , perl , set_robust_list(0x7f53361759e0, 24) = 0
+647 , 92693 , 92693 , perl , close(5<pipe:[254390]>) = 0
+649 , 92693 , 92693 , perl , fcntl(6<pipe:[254390]>, F_SETFD, FD_CLOEXEC) = 0
+651 , 92693 , 92693 , perl , dup2(4<pipe:[254389]>, 1</dev/pts/5>) = 1<pipe:[254389]>
+653 , 92693 , 92693 , perl , close(4<pipe:[254389]>) = 0
+654 , 92693 , 92693 , perl , close(3<pipe:[254389]>) = 0
+655 , 92693 , 92693 , perl , rt_sigaction(SIGFPE, {SIG_DFL, [], SA_RESTORER, 0x7f533585d390}, {SIG_IGN, [FPE], SA_RESTORER|SA_RESTART, 0x7f53354b74b0}, 8) = 0
+656 , 92693 , 92693 , perl , execve("/usr/bin/mcookie", ["/usr/bin/mcookie"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s"]) = 0
+658 , 92693 , 92693 , mcookie , brk(NULL) = 0x14da000
+660 , 92693 , 92693 , mcookie , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+662 , 92693 , 92693 , mcookie , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+663 , 92693 , 92693 , mcookie , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+665 , 92693 , 92693 , mcookie , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+667 , 92693 , 92693 , mcookie , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fa807fc1000
+668 , 92693 , 92693 , mcookie , close(3</etc/ld.so.cache>) = 0
+669 , 92693 , 92693 , mcookie , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+670 , 92693 , 92693 , mcookie , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+671 , 92693 , 92693 , mcookie , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+672 , 92693 , 92693 , mcookie , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+673 , 92693 , 92693 , mcookie , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa807fc0000
+674 , 92693 , 92693 , mcookie , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7fa8079f4000
+675 , 92693 , 92693 , mcookie , mprotect(0x7fa807bb4000, 2097152, PROT_NONE) = 0
+676 , 92693 , 92693 , mcookie , mmap(0x7fa807db4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7fa807db4000
+677 , 92693 , 92693 , mcookie , mmap(0x7fa807dba000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa807dba000
+678 , 92693 , 92693 , mcookie , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+679 , 92693 , 92693 , mcookie , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa807fbf000
+680 , 92693 , 92693 , mcookie , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa807fbe000
+681 , 92693 , 92693 , mcookie , arch_prctl(ARCH_SET_FS, 0x7fa807fbf700) = 0
+682 , 92693 , 92693 , mcookie , mprotect(0x7fa807db4000, 16384, PROT_READ) = 0
+683 , 92693 , 92693 , mcookie , mprotect(0x605000, 4096, PROT_READ) = 0
+684 , 92693 , 92693 , mcookie , mprotect(0x7fa807fe3000, 4096, PROT_READ) = 0
+685 , 92693 , 92693 , mcookie , munmap(0x7fa807fc1000, 136611) = 0
+686 , 92693 , 92693 , mcookie , brk(NULL) = 0x14da000
+687 , 92693 , 92693 , mcookie , brk(0x14fb000) = 0x14fb000
+688 , 92693 , 92693 , mcookie , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+689 , 92693 , 92693 , mcookie , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/12-06:27:22.201301295, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+690 , 92693 , 92693 , mcookie , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fa80771c000
+691 , 92693 , 92693 , mcookie , close(3</usr/lib/locale/locale-archive>) = 0
+692 , 92693 , 92693 , mcookie , open("/dev/urandom", O_RDONLY|O_CLOEXEC) = 3</dev/urandom>
+693 , 92693 , 92693 , mcookie , fcntl(3</dev/urandom>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+694 , 92693 , 92693 , mcookie , fcntl(3</dev/urandom>, F_SETFD, FD_CLOEXEC) = 0
+695 , 92693 , 92693 , mcookie , getpid() = 92693
+696 , 92693 , 92693 , mcookie , getuid() = 1000
+697 , 92693 , 92693 , mcookie , getppid() = 92684
+698 , 92693 , 92693 , mcookie , read(3</dev/urandom>, "\3347\217\34rf\2\300\322\216T\24\230\201\324\223\16\3662\364&\225\320\247}\22\325\321\240D\267\221\321\204u\221\322\24\253\270\0\\\312\306\264\363\273'8\371a\256)n\\d\365\333\346b\275\v\217\362`Ko\225\320}y\346\350\326\31\272B\250\33\246\177\275\243\375Y\261\376\201\270\366\250\310F\203\313w\234\30F\33\n\f3H5\217W\25\326\236/\316\230\36\212\323\206\261lj\350t\226\2524\314\370N", 128) = 128
+699 , 92693 , 92693 , mcookie , close(3</dev/urandom>) = 0
+700 , 92693 , 92693 , mcookie , gettid() = 92693
+701 , 92693 , 92693 , mcookie , fstat(1<pipe:[254389]>, {st_dev=makedev(0, 10), st_ino=254389, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:24.755257807, st_mtime=2018/05/12-11:00:24.755257807, st_ctime=2018/05/12-11:00:24.755257807}) = 0
+702 , 92693 , 92693 , mcookie , write(1<pipe:[254389]>, "9599e9caf0484ea0209bcabab405bd99\n", 33) = 33
+703 , 92693 , 92693 , mcookie , close(1<pipe:[254389]>) = 0
+705 , 92693 , 92693 , mcookie , close(2</dev/pts/5>) = 0
+707 , 92693 , 92693 , mcookie , exit_group(0) = ?
+709 , 92693 , 92693 , mcookie , +++ exited with 0 +++

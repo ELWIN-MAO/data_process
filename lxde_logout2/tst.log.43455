@@ -1,0 +1,367 @@
+1869 , 43455 , 43455 , pcmanfm , restart_syscall(<... resuming interrupted poll ...>) = 1
+1889 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\4e(\10%\2\0\0\3\0\300\0\0\0\0\0006\1W\0006\1W\0\0\0\1\0\6\0}\1\201e(\10%\2\0\0\3\0\300\0\0\0\0\0\32\1\305\0\32\1\305\0\0\0\1\0\6\0}\1\201e(\10%\2\0\0\3\0\300\0\0\0\0\0\26\1\347\0\26\1\347\0\0\0\1\0\6\0}\1\201e(\10%\2\0\0\3\0\300\0\0\0\0\0\27\1>\1\27\1>\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+1892 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1895 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1897 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1899 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1901 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1903 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 497) = 1 ([{fd=3, revents=POLLIN}])
+1926 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\0f(\10%\2\0\0\3\0\300\0\0\0\0\0(\1\242\1(\1\242\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1928 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\10f(\10%\2\0\0\3\0\300\0\0\0\0\0$\1\231\1$\1\231\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1930 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\16f(\10%\2\0\0\3\0\300\0\0\0\0\0\34\1\225\1\34\1\225\1\0\0\1\0\6\0}\1\24f(\10%\2\0\0\3\0\300\0\0\0\0\0\25\1\225\1\25\1\225\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+1933 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1934 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1935 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1938 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+1940 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1942 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+1947 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1,f(\10%\2\0\0\3\0\300\0\0\0\0\0\5\1\225\1\5\1\225\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1949 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1950 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1951 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+1960 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1;f(\10%\2\0\0\3\0\300\0\0\0\0\0\367\0\225\1\367\0\225\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1962 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1963 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1964 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+1974 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Nf(\10%\2\0\0\3\0\300\0\0\0\0\0\332\0\246\1\332\0\246\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1976 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1977 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1979 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+1988 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Yf(\10%\2\0\0\3\0\300\0\0\0\0\0\312\0\265\1\312\0\265\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1990 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1991 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1993 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+2002 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1cf(\10%\2\0\0\3\0\300\0\0\0\0\0\265\0\344\1\265\0\344\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2004 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2005 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2006 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2016 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1}f(\10%\2\0\0\3\0\300\0\0\0\0\0\243\0\f\2\243\0\f\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2018 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2020 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2022 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2030 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\206f(\10%\2\0\0\3\0\300\0\0\0\0\0\233\0\34\2\233\0\34\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2032 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2033 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2034 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2048 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\240f(\10%\2\0\0\3\0\300\0\0\0\0\0\205\0<\2\205\0<\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2050 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2052 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2054 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2079 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\254f(\10%\2\0\0\3\0\300\0\0\0\0\0\177\0E\2\177\0E\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2082 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2084 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2086 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2097 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\266f(\10%\2\0\0\3\0\300\0\0\0\0\0u\0V\2u\0V\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2099 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2101 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2103 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2134 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\315f(\10%\2\0\0\3\0\300\0\0\0\0\0n\0h\2n\0h\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2136 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2138 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2140 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2149 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\327f(\10%\2\0\0\3\0\300\0\0\0\0\0k\0l\2k\0l\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2151 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2153 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2155 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2184 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\355f(\10%\2\0\0\3\0\300\0\0\0\0\0h\0w\2h\0w\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2186 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2188 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2190 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2199 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\367f(\10%\2\0\0\3\0\300\0\0\0\0\0e\0}\2e\0}\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2201 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2203 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2205 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2226 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\6g(\10%\2\0\0\3\0\300\0\0\0\0\0b\0\200\2b\0\200\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2228 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2230 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2232 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2280 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\33g(\10%\2\0\0\3\0\300\0\0\0\0\0]\0\211\2]\0\211\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2282 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1$g(\10%\2\0\0\3\0\300\0\0\0\0\0X\0\216\2X\0\216\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2284 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2286 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+2288 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2290 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2334 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1<g(\10%\2\0\0\3\0\300\0\0\0\0\0E\0\246\2E\0\246\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2336 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2339 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2342 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2353 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Gg(\10%\2\0\0\3\0\300\0\0\0\0\0@\0\254\2@\0\254\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2355 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2357 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2359 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2378 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Tg(\10%\2\0\0\3\0\300\0\0\0\0\0009\0\267\0029\0\267\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2380 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2382 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2384 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2423 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1ig(\10%\2\0\0\3\0\300\0\0\0\0\0005\0\274\0025\0\274\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2426 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2428 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2430 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2468 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1zg(\10%\2\0\0\3\0\300\0\0\0\0\0001\0\275\0021\0\275\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2470 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2472 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2473 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2482 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\4h(\10%\2\0\0\3\0\300\0\0\0\0\0001\0\273\0021\0\273\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2485 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2487 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2489 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+2494 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1\16h(\10%\2\0\0\3\0\300\0\0\0\0\0001\0\274\0021\0\274\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2497 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2500 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2503 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+2517 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\0014h(\10%\2\0\0\3\0\300\0\0\0\0\0001\0\303\0021\0\303\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2519 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\0018h(\10%\2\0\0\3\0\300\0\0\0\0\0)\0\317\2)\0\317\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2521 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2524 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+2526 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2528 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+2545 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Sh(\10%\2\0\0\3\0\300\0\0\0\0\0%\0\326\2%\0\326\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2548 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2550 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2552 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+2558 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0}\1Vh(\10%\2\0\0\3\0\300\0\0\0\0\0\33\0\344\2\33\0\344\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2560 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\3}\1\\h(\10%\2\0\0\3\0\300\0\0\0\0\0\27\0\356\2\27\0\356\2\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2562 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2565 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+2570 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2572 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1) = 1 ([{fd=3, revents=POLLIN}])
+2782 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0}\1%\2\0\0H\1\0\0\243j(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2784 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2787 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2789 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1) = 1 ([{fd=3, revents=POLLIN}])
+3099 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\n\3}\1\4\0\300\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3101 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3104 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80a80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3106 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3108 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1) = 1 ([{fd=3, revents=POLLIN}])
+3111 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\n\4}\1\3\0\300\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3113 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3116 , 43455 , 43455 , pcmanfm , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3118 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 1 ([{fd=4, revents=POLLIN}])
+3122 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3124 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 1 ([{fd=4, revents=POLLIN}])
+3126 , 43455 , 43455 , pcmanfm , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+3129 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa7f030, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3131 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3133 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"5\30\4\0:\0\300\0\3\0\300\0002\0K\0\214\4\6\0;\0\300\0:\0\300\0*\0\0\0\0\4\0\0\1\0\0\0\214\32\7\0\1\0\0\0;\0\300\0\0\0\0\0\0\0\377\377\0\0\0\0002\0K\0\214\27\r\0\3\0\300\0(\0\300\0;\0\300\0&\0\0\0)\0\300\0\5\0E\0\1\0\0\0\5\0E\0007\0\300\0\4\0\0\0\376\377\0\0UDVK\214\27\r\0\3\377\4\0*\0\300\0;\0\300\0&\0\0\0)\0\300\0\4\0D\0\1\0\0\0\4\0D\0007\7.\7\4\0\0\0\376\377\0\0UDVK5 \4\0<\0\300\0:\0\300\0000\0000\0\203\3\n\0<\0\300\0-\0\300\0"..., 404}, {NULL, 0}, {"", 0}], 3) = 404
+3136 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3139 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3141 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+3144 , 43455 , 43455 , pcmanfm , read(4<anon_inode:[eventfd]>, 0x7ffe5aa80d10, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3147 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3149 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"$\30\1\0&\0\2\0%\2\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+3151 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3160 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\204\1<\0\300\0\3\0\203\0,\0\300\0\0\0\7\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3163 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3165 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\220\1\0\0\0\0%\2\0\0\1\1\340\0\23\0\363\2\23\0\363\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3167 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3169 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3171 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0\1\1\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3173 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3180 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\221\1\0\0\0\0%\2\0\0\36\0\0\1\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3182 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3184 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3186 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3188 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0\36\0\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3190 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3210 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\222\1\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3212 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3214 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3216 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3218 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"%\30\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+3220 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3222 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+3224 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80a80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3226 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3229 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1) = 1 ([{fd=3, revents=POLLIN}])
+4854 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\t\4\223\1\3\0\300\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4856 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4858 , 43455 , 43455 , pcmanfm , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4861 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 2 ([{fd=3, revents=POLLIN}, {fd=4, revents=POLLIN}])
+4865 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\t\3\223\1\4\0\300\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4868 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4870 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 1 ([{fd=4, revents=POLLIN}])
+4872 , 43455 , 43455 , pcmanfm , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+4874 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80a80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4877 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4880 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+4883 , 43455 , 43455 , pcmanfm , read(4<anon_inode:[eventfd]>, 0x7ffe5aa80d10, 16) = -1 EAGAIN (Resource temporarily unavailable)
+4885 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\f\0\223\1\3\0\300\0\2\0\226\1\274\0P\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4887 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa7f030, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4889 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4891 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"5\30\4\0>\0\300\0\3\0\300\0002\0K\0\214\4\6\0?\0\300\0>\0\300\0*\0\0\0\0\4\0\0\1\0\0\0\214\32\7\0\1\0\0\0?\0\300\0\0\0\0\0\0\0\377\377\0\0\0\0002\0K\0\214\27\r\0\3\0\300\0(\0\300\0?\0\300\0&\0\0\0)\0\300\0\5\0E\0\1\0\0\0\5\0E\0007\0\300\0\4\0\0\0\376\377\0\0UDVK\214\27\r\0\3\377\4\0*\0\300\0?\0\300\0&\0\0\0)\0\300\0\4\0D\0\1\0\0\0\4\0D\0007\7.\7\4\0\0\0\376\377\0\0UDVK5 \4\0@\0\300\0>\0\300\0000\0000\0\203\3\n\0@\0\300\0-\0\300\0"..., 404}, {NULL, 0}, {"", 0}], 3) = 404
+4894 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4896 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+4899 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\7\3\223\1>t(\10%\2\0\0\3\0\300\0\0\0\0\0006\0\334\0026\0\334\2\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4901 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80a80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4904 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4906 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"\2\30\4\0\3\0\300\0\0@\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4908 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4910 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+4912 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4915 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"5\30\4\0B\0\300\0\3\0\300\0\274\0P\1\214\4\6\0C\0\300\0B\0\300\0*\0\0\0\0\4\0\0\1\0\0\0\214\32\7\0\1\0\0\0C\0\300\0\0\0\0\0\0\0\377\377\0\0\0\0\274\0P\1\214\7\2\0C\0\300\0;\3\5\0/\0\300\0\0\0\0\0\2\0\226\1\274\0P\1>\0\7\0B\0\300\0\3\0\300\0/\0\300\0\0\0\0\0\2\0\226\1\274\0P\0018\377\4\0/\0\300\0\0\0\10\0\0\0\0\0006\0\2\0B\0\300\0", 148}, {NULL, 0}, {"", 0}], 3) = 148
+4917 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4920 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4923 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+4925 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4927 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"$\30\1\0&\0\2\0%\2\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+4930 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4932 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\232\1@\0\300\0\3\0\203\0,\0\300\0\0\0\7\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4934 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4936 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\257\1\0\0\0\0%\2\0\0.\1\340\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4938 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4940 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4942 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0.\1\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4944 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4951 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\260\1\0\0\0\0%\2\0\0\3\0\300\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4953 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4955 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4957 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4959 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4961 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4981 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\261\1\0\0\0\0%\2\0\0\0\0\0\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4983 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4985 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80810, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4987 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4988 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"%\30\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+4989 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4991 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4993 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"(\30\4\0\3\0\300\0%\2\0\0006\0\334\2", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4995 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4997 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\263\1\0\0\0\0.\1\340\0006\0\334\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4999 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5001 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5003 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+5005 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80a80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5007 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5009 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 497) = 0 (Timeout)
+5523 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5524 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+5525 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5529 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\264\1\0\0\0\0%\2\0\0\0\0\0\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5531 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5533 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5536 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5538 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"(\30\4\0\3\0\300\0%\2\0\0006\0\334\2", 16}, {NULL, 0}, {"", 0}], 3) = 16
+5539 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5543 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\265\1\0\0\0\0.\1\340\0006\0\334\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5545 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5548 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5550 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5552 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1) = 1 ([{fd=3, revents=POLLIN}])
+6127 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\363{(\10%\2\0\0\3\0\300\0\0\0\0\0007\0\334\0027\0\334\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6129 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6131 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6133 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6185 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\f|(\10%\2\0\0\3\0\300\0\0\0\0\0?\0\327\2?\0\327\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6187 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6189 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6191 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6223 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\36|(\10%\2\0\0\3\0\300\0\0\0\0\0D\0\324\2D\0\324\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6225 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6227 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6229 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6238 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1&|(\10%\2\0\0\3\0\300\0\0\0\0\0J\0\321\2J\0\321\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6240 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6242 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6244 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6275 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\0014|(\10%\2\0\0\3\0\300\0\0\0\0\0T\0\314\2T\0\314\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6277 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6279 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6281 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6301 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1=|(\10%\2\0\0\3\0\300\0\0\0\0\0a\0\310\2a\0\310\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6304 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6305 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6307 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6318 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1J|(\10%\2\0\0\3\0\300\0\0\0\0\0|\0\301\2|\0\301\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6320 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6321 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6322 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6332 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1b|(\10%\2\0\0\3\0\300\0\0\0\0\0\306\0\262\2\306\0\262\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6334 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6335 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6336 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6346 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1r|(\10%\2\0\0\3\0\300\0\0\0\0\0\20\1\246\2\20\1\246\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6348 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6349 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6350 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6360 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\212|(\10%\2\0\0\3\0\300\0\0\0\0\0]\1\231\2]\1\231\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6362 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6365 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6367 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6374 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\230|(\10%\2\0\0\3\0\300\0\0\0\0\0\271\1\214\2\271\1\214\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6377 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6379 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6381 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6387 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\240|(\10%\2\0\0\3\0\300\0\0\0\0\0\356\1\204\2\356\1\204\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6389 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6390 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6391 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6401 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\265|(\10%\2\0\0\3\0\300\0\0\0\0\0\204\2s\2\204\2s\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6403 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6404 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6405 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6414 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\305|(\10%\2\0\0\3\0\300\0\0\0\0\0\205\2s\2\205\2s\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6416 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6417 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6419 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6427 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\323|(\10%\2\0\0\3\0\300\0\0\0\0\0\207\2s\2\207\2s\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6429 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6430 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6431 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6453 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\314}(\10%\2\0\0\3\0\300\0\0\0\0\0\211\2s\2\211\2s\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6456 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6458 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6460 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6466 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\327}(\10%\2\0\0\3\0\300\0\0\0\0\0\224\2l\2\224\2l\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6468 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6469 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6470 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6480 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\356}(\10%\2\0\0\3\0\300\0\0\0\0\0\271\2[\2\271\2[\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6482 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6484 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6486 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6501 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\4~(\10%\2\0\0\3\0\300\0\0\0\0\0\366\2N\2\366\2N\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6503 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\7~(\10%\2\0\0\3\0\300\0\0\0\0\0%\3H\2%\3H\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6505 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6506 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 0) = 0 (Timeout)
+6508 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6510 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 499) = 1 ([{fd=3, revents=POLLIN}])
+6518 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1\37~(\10%\2\0\0\3\0\300\0\0\0\0\0\332\3:\2\332\3:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6520 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6522 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6524 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6534 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1+~(\10%\2\0\0\3\0\300\0\0\0\0\0\33\4:\2\33\4:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6536 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6538 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6540 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6548 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\0015~(\10%\2\0\0\3\0\300\0\0\0\0\0\222\4:\2\222\4:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6550 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6553 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6555 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6579 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1B~(\10%\2\0\0\3\0\300\0\0\0\0\0\361\4:\2\361\4:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6581 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6583 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6585 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6627 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1X~(\10%\2\0\0\3\0\300\0\0\0\0\0007\5:\0027\5:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6629 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6631 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6633 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 1 ([{fd=3, revents=POLLIN}])
+6651 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\265\1f~(\10%\2\0\0\3\0\300\0\0\0\0\0O\5:\2O\5:\2\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6653 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b80, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6655 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6657 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, 500) = 0 (Timeout)
+6828 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+6829 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"&\30\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+6830 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+6834 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\266\1\0\0\0\0%\2\0\0\0\0\0\0O\5:\2O\5:\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6836 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6839 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa808b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6841 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+6843 , 43455 , 43455 , pcmanfm , writev(3<UNIX:[127833->127834]>, [{"(\30\4\0\3\0\300\0%\2\0\0O\5:\2", 16}, {NULL, 0}, {"", 0}], 3) = 16
+6844 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+6848 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\267\1\0\0\0\0.\1\340\0O\5:\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6850 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6853 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa809b0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6855 , 43455 , 43455 , pcmanfm , recvmsg(3<UNIX:[127833->127834]>, 0x7ffe5aa80b60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6857 , 43455 , 43455 , pcmanfm , poll([{fd=3<UNIX:[127833->127834]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127836,"/run/user/1000/pcmanfm-socket--0"]>, events=POLLIN|POLLPRI}, {fd=6<pipe:[127837]>, events=POLLIN|POLLPRI}], 4, -1 <detached ...>

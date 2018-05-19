@@ -1,0 +1,732 @@
+7 , 43454 , 43454 , lxpanel , restart_syscall(<... resuming interrupted poll ...>) = 0
+8 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+9 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:38.259738034, st_mtime=2018/04/24-23:13:38.259738034, st_ctime=2018/04/24-23:13:38.259738034}) = 0
+10 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22730 6264 64759 27140817 38257 0 1244 0 0 0\ncpu0 13429 3925 25963 13563387 17651 0 413 0 0 0\ncpu1 9301 2338 38796 13577429 20605 0 831 0 0 0\nintr 3321910 23 545 0 0 0 0 0 0 1 0 0 0 1228 0 0 0 62"..., 1024) = 1024
+11 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+12 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+14 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+15 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+16 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+17 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\346\1\0\1\36\0\0\1(\0\32\0007\0\7\0\347\1\0\1\346\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\347\1\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\347\1\0\1\0\20\0\0j\373\377\377F\0\5\0\346\1\0\1\347\1\0\1\0\0\0\0(\0\32\0<\4\2\0\347\1\0\1\203\3\n\0\346\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\26\7\0\346\1\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\1\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+19 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+21 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+23 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1331) = 1 ([{fd=3, revents=POLLIN}])
+25 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0o\24\346\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+28 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+30 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+31 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+32 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1325) = 0 (Timeout)
+392 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+394 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:39.767754900, st_mtime=2018/04/24-23:13:39.767754900, st_ctime=2018/04/24-23:13:39.767754900}) = 0
+399 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22737 6264 64794 27141050 38259 0 1244 0 0 0\ncpu0 13429 3925 25968 13563526 17653 0 413 0 0 0\ncpu1 9308 2338 38826 13577524 20605 0 831 0 0 0\nintr 3323101 23 545 0 0 0 0 0 0 1 0 0 0 1228 0 0 0 62"..., 1024) = 1024
+401 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+406 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+412 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+414 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+416 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+421 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\350\1\0\1\36\0\0\1(\0\32\0007\0\7\0\351\1\0\1\350\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\351\1\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\351\1\0\1\0\20\0\0j\373\377\377F\0\5\0\350\1\0\1\351\1\0\1\0\0\0\0(\0\32\0<\4\2\0\351\1\0\1\203\3\n\0\350\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\26\7\0\350\1\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\1\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+427 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+430 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+432 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1483) = 1 ([{fd=3, revents=POLLIN}])
+435 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0z\24\350\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+437 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+440 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+442 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+446 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1478) = 0 (Timeout)
+900 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+901 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:41.267771440, st_mtime=2018/04/24-23:13:41.267771440, st_ctime=2018/04/24-23:13:41.267771440}) = 0
+902 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22737 6264 64827 27141315 38259 0 1244 0 0 0\ncpu0 13429 3925 25982 13563660 17653 0 413 0 0 0\ncpu1 9308 2338 38844 13577655 20605 0 831 0 0 0\nintr 3324546 23 545 0 0 0 0 0 0 1 0 0 0 1228 0 0 0 62"..., 1024) = 1024
+903 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+904 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+905 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+906 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+907 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+908 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\352\1\0\1\36\0\0\1(\0\32\0007\0\7\0\353\1\0\1\352\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\353\1\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\353\1\0\1\0\20\0\0j\373\377\377F\0\5\0\352\1\0\1\353\1\0\1\0\0\0\0(\0\32\0<\4\2\0\353\1\0\1\203\3\n\0\352\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\26\7\0\352\1\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\1\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+910 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+912 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+914 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1485) = 1 ([{fd=3, revents=POLLIN}])
+916 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\205\24\352\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+919 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+921 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+923 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+925 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1472) = 0 (Timeout)
+1404 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+1405 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:42.771787767, st_mtime=2018/04/24-23:13:42.771787767, st_ctime=2018/04/24-23:13:42.771787767}) = 0
+1406 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22737 6264 64862 27141578 38259 0 1244 0 0 0\ncpu0 13429 3925 25994 13563796 17653 0 413 0 0 0\ncpu1 9308 2338 38868 13577782 20605 0 831 0 0 0\nintr 3326028 23 545 0 0 0 0 0 0 1 0 0 0 1228 0 0 0 62"..., 1024) = 1024
+1407 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+1408 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1409 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+1410 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1411 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+1412 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\354\1\0\1\36\0\0\1(\0\32\0007\0\7\0\355\1\0\1\354\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\355\1\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\355\1\0\1\0\20\0\0j\373\377\377F\0\5\0\354\1\0\1\355\1\0\1\0\0\0\0(\0\32\0<\4\2\0\355\1\0\1\203\3\n\0\354\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\26\7\0\354\1\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\1\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+1414 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1416 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1418 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1484) = 1 ([{fd=3, revents=POLLIN}])
+1420 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\220\24\354\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+1423 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1426 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1428 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+1429 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1467) = 0 (Timeout)
+2310 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+2315 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:44.275803836, st_mtime=2018/04/24-23:13:44.275803836, st_ctime=2018/04/24-23:13:44.275803836}) = 0
+2320 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22747 6264 64924 27141796 38262 0 1245 0 0 0\ncpu0 13430 3925 26029 13563902 17657 0 413 0 0 0\ncpu1 9316 2338 38894 13577894 20605 0 831 0 0 0\nintr 3328839 23 545 0 0 0 0 0 0 1 0 0 0 1306 0 0 0 62"..., 1024) = 1024
+2323 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+2326 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2328 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2330 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2333 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2340 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\356\1\0\1\36\0\0\1(\0\32\0007\0\7\0\357\1\0\1\356\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\357\1\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\357\1\0\1\0\20\0\0j\373\377\377F\0\5\0\356\1\0\1\357\1\0\1\0\0\0\0(\0\32\0<\4\2\0\357\1\0\1\203\3\n\0\356\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\26\7\0\356\1\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\1\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+2344 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2346 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2348 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1481) = 1 ([{fd=3, revents=POLLIN}])
+2386 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\233\24\356\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2388 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2390 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2392 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2394 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1456) = 1 ([{fd=3, revents=POLLIN}])
+2611 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\7\3\237\24\\h(\10%\2\0\0\36\0\0\1\0\0\0\0\27\0\356\2\27\0\10\0\0\0\0\2\6\0\237\24\\h(\10%\2\0\0\36\0\0\1\0\0\0\0\27\0\356\2\27\0\10\0\0\0\1\0\6\0\237\24\334h(\10%\2\0\0\36\0\0\1\0\0\0\0\25\0\363\2\25\0\r\0\0\0\1\0\6\0\237\24\336h(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\367\2\23\0\21\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+2616 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\237\24\337h(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\371\2\23\0\23\0\0\0\1\0\6\0\237\24\337h(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\372\2\23\0\24\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+2620 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2622 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2624 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2626 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2628 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\2\30\4\0\36\0\0\1\0@\0\0\0\0\0\0&\0\2\0\36\0\0\1", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2632 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2637 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\241\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\372\2\23\0\24\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2639 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2641 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2642 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2643 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2644 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2645 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2646 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2647 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2652 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\242\24\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2654 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2656 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2657 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2658 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\360\1\0\1\36\0\0\1!\0\32\0007\0\7\0\361\1\0\1\360\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\361\1\0\1\0\0\0\0\0\0\0\0!\0\32\0008\0\4\0\361\1\0\1\0\20\0\0\376\377\377\377F\0\5\0\360\1\0\1\361\1\0\1\0\0\0\0!\0\32\0<\4\2\0\361\1\0\0018\3\4\0\5\0\0\1\0\0\10\0\0\0\0\0\214\4\6\0\362\1\0\1\360\1\0\1*\0\0\0\200\0\0\0\0\0\0\0\214\6\5\0\362\1\0\1\0\0\0\0\0\0\0\0!\0\32\0\214\10\t\0\3\1\0\1\336\0\0\1\337\0\0\1\362\1\0\1`\1\30\0`\1\30\0\0\0\1\0"..., 284}, {NULL, 0}, {"", 0}], 3) = 284
+2660 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2662 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2664 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 488) = 1 ([{fd=3, revents=POLLIN}])
+2685 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\261\24\376i(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\370\2\23\0\22\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2687 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\261\24\1j(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\363\2\23\0\r\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2689 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2692 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2694 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\30\2\0\36\0\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2699 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2717 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\262\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2719 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2721 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2724 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2727 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2729 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 497) = 1 ([{fd=3, revents=POLLIN}])
+2786 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\262\24%\2\0\0H\1\0\0\243j(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2791 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2793 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2814 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2818 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2821 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2823 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\24\0\6\0%\2\0\0H\1\0\0!\0\0\0\0\0\0\0\377\377\377\377", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2826 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2830 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1 \263\24\3\0\0\0!\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\300\0\7\0\340\1\36\0\0\1", 4096}], msg_controllen=0, msg_flags=0}, 0) = 44
+2832 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fbe0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2834 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fbe0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2836 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2838 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"+\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2840 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2842 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\4\1\263\24-j(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\363\2\23\0\r\0\0\0\1\0\5\1\263\24\177k(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\363\2\23\0\r\0\0\1\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+2844 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2860 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\264\24\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2863 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2865 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2867 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2869 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\24\0\6\0%\2\0\0G\1\0\0!\0\0\0\0\0\0\0\377\377\377\377", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2876 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2884 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1 \265\24\3\0\0\0!\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\36\0\0\1\3\0\300\0\7\0\340\1", 4096}], msg_controllen=0, msg_flags=0}, 0) = 44
+2887 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fbe0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2889 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fbe0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2891 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2893 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"+\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2897 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2918 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\266\24\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2923 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2926 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc70, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2930 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+2936 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2938 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\24\0\6\0%\2\0\0N\1\0\0!\0\0\0\0\0\0\0\377\377\377\377", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2945 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2953 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1 \267\24\1\0\0\0!\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\253\0\340\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 36
+2955 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2957 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2959 , 43454 , 43454 , lxpanel , uname({sysname="Linux", nodename="elwin-virtual-machine", release="4.4.0-119-generic", version="#143-Ubuntu SMP Mon Apr 2 16:08:24 UTC 2018", machine="x86_64", domainname="(none)"}) = 0
+2961 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+2963 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2965 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\22\0\7\0\36\0\0\0014\1\0\0\6\0\0\0 \0\0\0\1\0\0\0-j(\10\1\0\n\0\363\1\0\1%\2\0\0\234\377\234\377\n\0\n\0\0\0\2\0!\0\0\0\0\n\0\0\1\0\0\0|\200C\0\22\0\10\0\363\1\0\1#\1\0\0\24\1\0\0\10\1\0\1\7\0\0\0lxpanel\0\22\0\10\0\363\1\0\1'\0\0\0\37\0\0\0\10\0\10\0\7\0\0\0lxpanel\1\22\0\10\0\363\1\0\1\"\1\0\0\24\1\0\0\10\6\5\0\7\0\0\0lxpanel\0\22\0\10\0\363\1\0\1%\0\0\0\37\0\0\0\10\0\0\1\7\0\0\0lxpanel\0\22\0\n\0"..., 632}, {NULL, 0}, {"", 0}], 3) = 632
+2970 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2980 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\270\24\36\0\0\0014\1\0\0\307k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3005 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3011 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\20\0\271\24%\2\0\0\363\1\0\1\234\377\234\377\n\0\n\0\0\0\1\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3013 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3017 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\272\24\363\1\0\1#\1\0\0\323k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\273\24\363\1\0\1'\0\0\0\323k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3019 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3021 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\274\24\363\1\0\1\"\1\0\0\324k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\275\24\363\1\0\1%\0\0\0\324k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3023 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3025 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\276\24\363\1\0\1\30\1\0\0\325k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\277\24\363\1\0\1(\0\0\0\325k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3027 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3029 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\300\24\363\1\0\1$\0\0\0\326k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\301\24\363\1\0\1\27\1\0\0\326k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3031 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3033 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\302\24\363\1\0\1$\1\0\0\327k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3035 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3041 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\303\24\363\1\0\1\25\1\0\0\334k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\304\24\363\1\0\0014\1\0\0\334k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3043 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3045 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\306\24\363\1\0\1#\0\0\0\335k(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\23\0\311\24\363\1\0\1\363\1\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3047 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3068 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\23\0\311\24%\2\0\0\363\1\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\3\312\24\340k(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\363\2\23\0\r\0\0\0\1\2\7\3\312\24\340k(\10%\2\0\0\363\1\0\1\0\0\0\0\23\0\363\2w\0W\3\0\0\1\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+3071 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3073 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\312\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3076 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f5d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3078 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3080 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"+\0\1\0\37\1\4\0\363\1\0\1-j(\10\1\1\0\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+3083 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3097 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\313\24\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3120 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f680, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3152 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\314\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3155 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f680, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3157 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f680, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3158 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3162 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0%\2\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3174 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3244 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\315\24\0\0\0\0%\2\0\0\1\1\340\0\23\0\363\2\23\0\363\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3246 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3248 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3250 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3252 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\0\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+3254 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3266 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\316\24\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3268 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f520, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3270 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f520, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3272 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3274 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3276 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\f\0\7\0N\1\0\1\17\0\0\0\2\0\0\0\226\1\0\0\274\0\0\0P\1\0\0\22\0\30\0N\1\0\1(\0\0\0)\0\0\0 \0\n\0\22\0\0\0004\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274\0\0\0P\1\0\0\274\0\0\0P\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\31\0\v\0%\2\0\0\0\0\30\0! \0\0N\1\0\1&\1\0\0\0\0\0\0r\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\22\0\7\0N\1\0\0012\1\0\0\4\0\0\0 \0\0\0\1\0\0\0e\1\0\0\f\0\4\0"..., 388}, {NULL, 0}, {"", 0}], 3) = 388
+3278 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3292 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\320\24N\1\0\1(\0\0\0\226l(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3328 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3331 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\241 \321\24N\1\0\1&\1\0\0\0\0\0\0r\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3334 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3339 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\322\24N\1\0\0012\1\0\0\243l(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3359 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3363 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\26\0\323\24N\1\0\1N\1\0\1\363\1\0\1\2\0\226\1\274\0P\1\0\0\1\0\0\0\0\0\26\0\323\24%\2\0\0N\1\0\1\363\1\0\1\2\0\226\1\274\0P\1\0\0\1\0\0\0\0\0\34\0\324\24N\1\0\1#\0\0\0\247l(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+3365 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3398 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\327\24N\1\0\0014\1\0\0\256l(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\23\0\331\24N\1\0\1N\1\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\23\0\331\24%\2\0\0N\1\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\17\0\331\24N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+3400 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3402 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\f\0\331\24N\1\0\1\0\0\0\0\274\0P\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3405 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3408 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\3\333\24\270l(\10%\2\0\0\363\1\0\1\0\0\0\0\23\0\363\2w\0W\3\0\0\1\2\7\3\333\24\270l(\10%\2\0\0N\1\0\1\0\0\0\0\23\0\363\2\21\0]\1\0\0\1\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3410 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3412 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\333\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3414 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f5d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3416 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3418 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"+\0\1\0\37\1\4\0N\1\0\1-j(\10\1\1\0\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+3420 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3436 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\334\24\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\t\3\335\24N\1\0\1\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+3439 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3441 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\335\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3443 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f680, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3446 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3462 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3466 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3471 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\3\0\0\0\0\0\0\0", 16) = 8
+3476 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3480 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3486 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3493 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3498 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3510 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3520 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3524 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3529 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3533 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3536 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3540 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3543 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3545 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3547 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3554 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3557 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3560 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3562 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3564 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3569 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3573 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3575 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"$\0\1\0&\1\2\0%\2\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+3580 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3583 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\337\24\0\0\0\0%\2\0\0\1\1\340\0\23\0\363\2\23\0\363\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3585 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3587 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3588 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3589 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\1\1\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3591 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3598 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\340\24\0\0\0\0%\2\0\0\36\0\0\1\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3601 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3602 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3603 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3604 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\36\0\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3606 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3610 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\341\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3612 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3614 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3615 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3616 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"%\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+3618 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fa30, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3620 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3622 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\2\0\4\0\36\0\0\1\0@\0\0\0\0\0\0(\1\4\0\36\0\0\1%\2\0\0\2\0\0\0", 32}, {NULL, 0}, {"", 0}], 3) = 32
+3624 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3630 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\344\24\0\0\0\0\1\1\340\0\2\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3632 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3634 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3636 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3638 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\0\4\0N\1\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+3642 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3659 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\345\24\0\0\0\0N\1\0\1\2\0\226\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3660 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3661 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3662 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3663 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+3664 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:45.791819790, st_mtime=2018/04/24-23:13:45.791819790, st_ctime=2018/04/24-23:13:45.791819790}) = 0
+3665 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22788 6264 64996 27141976 38262 0 1245 0 0 0\ncpu0 13432 3925 26048 13564026 17657 0 414 0 0 0\ncpu1 9355 2338 38948 13577950 20605 0 831 0 0 0\nintr 3332219 23 545 0 0 0 0 0 0 1 0 0 0 1369 0 0 0 62"..., 1024) = 1024
+3666 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+3667 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3668 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3669 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3670 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3671 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\36\0\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3672 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3677 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\346\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2\23\0\r\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3679 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3681 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3682 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3683 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\363\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3684 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3689 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\347\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2w\0W\3\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3692 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3693 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3694 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3695 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3696 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3697 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3698 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3699 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3700 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3701 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3702 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3703 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\363\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3705 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3709 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\350\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2w\0W\3\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3711 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3713 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3714 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3715 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0N\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3717 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3721 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\351\24\0\0\0\0%\2\0\0\0\0\0\0\23\0\363\2\21\0]\1\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3724 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3725 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3726 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3727 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3728 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+3729 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3730 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3731 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+3732 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3733 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3734 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+3735 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+3736 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3737 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\0\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+3739 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+3743 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\352\24\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3745 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3747 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3748 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3749 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+3750 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\364\1\0\1\36\0\0\1\274\4\32\0007\1\7\0\365\1\0\1\364\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\365\1\0\1\0\0\0\0\224\4\0\0(\0\32\0008\0\4\0\365\1\0\1\0\20\0\0\376\377\377\377F\0\5\0\364\1\0\1\365\1\0\1\224\4\0\0(\0\32\0<\0\2\0\365\1\0\1\203\3\n\0\364\1\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\226\4\2\0\30\2\1\0\373\0\0\1\0\0\30\0007\0\7\0\366\1\0\1\364\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\366\1\0\1\0\0\0\0\0\0\0\0!\0\32\0008\0\4\0"..., 7204}, {NULL, 0}, {"", 0}], 3) = 7204
+3752 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3754 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3756 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+3758 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+3760 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\361\24\364\1\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3763 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3765 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3766 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3767 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+3768 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3769 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1450) = 1 ([{fd=3, revents=POLLIN}])
+3999 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0d\25\336p(\10%\2\0\0\36\0\0\1\0\0\0\0\23\0\362\2\23\0\f\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4001 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4004 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4006 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4008 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4012 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0d\25\350p(\10%\2\0\0\36\0\0\1\0\0\0\0\27\0\357\2\27\0\t\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4014 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4026 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0d\25\375p(\10%\2\0\0\36\0\0\1\0\0\0\0\31\0\354\2\31\0\6\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4028 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4030 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1e\25\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4033 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4034 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4035 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0N\1\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4037 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4048 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1f\25\0\0\0\0N\1\0\1\2\0\226\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4050 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0f\25\fq(\10%\2\0\0\36\0\0\1\0\0\0\0\33\0\353\2\33\0\5\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4053 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4055 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4057 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\30\2\0N\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4060 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4069 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0f\25\26q(\10%\2\0\0\36\0\0\1\0\0\0\0\34\0\352\2\34\0\4\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4071 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4075 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1g\25\0\0\0\0%\2\0\0\0\0\0\0\34\0\352\2\32\0T\1\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4077 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4079 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4080 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4081 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4082 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4083 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 472) = 1 ([{fd=3, revents=POLLIN}])
+4094 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0g\25*q(\10%\2\0\0\36\0\0\1\0\0\0\0\36\0\351\2\36\0\3\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4095 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4096 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4097 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4099 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4110 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0g\0252q(\10%\2\0\0\36\0\0\1\0\0\0\0\37\0\350\2\37\0\2\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4112 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4114 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1h\25\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4116 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4118 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4120 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4122 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0N\1\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4124 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4127 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1i\25\0\0\0\0N\1\0\1\2\0\226\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4129 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4131 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4133 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4134 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\30\2\0N\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4135 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4147 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0i\25Bq(\10%\2\0\0\36\0\0\1\0\0\0\0 \0\347\2 \0\1\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4149 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4151 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1j\25\0\0\0\0%\2\0\0\0\0\0\0 \0\347\2\36\0Q\1\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4153 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4155 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4156 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4157 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4158 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4159 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 433) = 1 ([{fd=3, revents=POLLIN}])
+4170 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0j\25Xq(\10%\2\0\0\36\0\0\1\0\0\0\0\"\0\346\2\"\0\0\0\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4171 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4172 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4173 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4174 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4179 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1k\25\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4185 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4188 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4190 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4192 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0N\1\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4194 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4201 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\3k\25fq(\10%\2\0\0\36\0\0\1\0\0\0\0'\0\344\2'\0\376\377\0\0\0\2\7\3k\25fq(\10%\2\0\0N\1\0\1\0\0\0\0'\0\344\2%\0N\1\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+4204 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4206 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0k\25fq(\10%\2\0\0N\1\0\1\0\0\0\0'\0\344\2%\0N\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4222 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4236 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1l\25\0\0\0\0N\1\0\1\2\0\226\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4238 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4240 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fc50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4242 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4244 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\30\2\0N\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4246 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4266 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0l\25\177q(\10%\2\0\0N\1\0\1\0\0\0\0,\0\342\2*\0L\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4268 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4270 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1m\25\0\0\0\0%\2\0\0\0\0\0\0,\0\342\2*\0L\1\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4272 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4274 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fac0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4277 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4279 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4282 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4284 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4286 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4288 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4291 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+4293 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+4295 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+4300 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLIN|POLLOUT}])
+4304 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0m\25\210q(\10%\2\0\0N\1\0\1\0\0\0\0-\0\341\2+\0K\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4311 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\2\30\4\0N\1\0\1\0@\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4313 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4315 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4317 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4319 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=3, revents=POLLIN}])
+4321 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0m\25\222q(\10%\2\0\0N\1\0\1\0\0\0\0000\0\341\2.\0K\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4323 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4326 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4328 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4330 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4332 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"(\30\4\0\36\0\0\1%\2\0\0\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+4334 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4348 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1o\25\0\0\0\0\1\1\340\0\0\0\346\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4350 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4352 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f4d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4354 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4356 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\373\1\0\1\36\0\0\1!\0\32\0007\1\7\0\374\1\0\1\373\1\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\374\1\0\1\0\0\0\0\0\0\0\0!\0\32\0008\0\4\0\374\1\0\1\0\20\0\0\376\377\377\377F\0\5\0\373\1\0\1\374\1\0\1\0\0\0\0!\0\32\0<\0\2\0\374\1\0\0018\3\4\0\5\0\0\1\0\0\10\0\0\0\0\0\214\4\6\0\375\1\0\1\373\1\0\1*\0\0\0\200\0\0\0\0\0\0\0\214\6\5\0\375\1\0\1\0\0\0\0\0\0\0\0!\0\32\0\214\10\t\0\3\0\0\0\336\0\0\1\337\0\0\1\375\1\0\1\0\2\0\0\0\2\0\0\0\0\1\0"..., 908}, {NULL, 0}, {"", 0}], 3) = 908
+4360 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4365 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4371 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 335) = 1 ([{fd=3, revents=POLLIN}])
+4506 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\226\25\374q(\10%\2\0\0N\1\0\1\0\0\0\0002\0\337\0020\0I\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4507 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4508 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4509 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 251) = 1 ([{fd=3, revents=POLLIN}])
+4519 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\226\25\"r(\10%\2\0\0N\1\0\1\0\0\0\0002\0\336\0020\0H\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4520 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4521 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4522 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 211) = 1 ([{fd=3, revents=POLLIN}])
+4533 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\226\25-r(\10%\2\0\0N\1\0\1\0\0\0\0004\0\335\0022\0G\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4536 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4538 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4540 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 194) = 1 ([{fd=3, revents=POLLIN}])
+4546 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\226\25:r(\10%\2\0\0N\1\0\1\0\0\0\0005\0\335\0023\0G\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4547 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4548 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4549 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 181) = 1 ([{fd=3, revents=POLLIN}])
+4560 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\6\0\226\25Ur(\10%\2\0\0N\1\0\1\0\0\0\0006\0\334\0024\0F\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4561 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4562 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4563 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 159) = 0 (Timeout)
+4585 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+4586 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:47.307835491, st_mtime=2018/04/24-23:13:47.307835491, st_ctime=2018/04/24-23:13:47.307835491}) = 0
+4587 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22788 6264 65043 27142224 38262 0 1245 0 0 0\ncpu0 13432 3925 26070 13564151 17657 0 414 0 0 0\ncpu1 9356 2338 38972 13578073 20605 0 831 0 0 0\nintr 3334947 23 545 0 0 0 0 0 0 1 0 0 0 1423 0 0 0 62"..., 1024) = 1024
+4588 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+4589 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4590 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+4591 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4593 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4595 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\2\2\0\1\36\0\0\1(\0\32\0007\1\7\0\3\2\0\1\2\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\3\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\3\2\0\1\0\20\0\0j\373\377\377F\0\5\0\2\2\0\1\3\2\0\1\0\0\0\0(\0\32\0<\0\2\0\3\2\0\1\203\3\n\0\2\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\0\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\2\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+4597 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4599 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4601 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 311) = 1 ([{fd=3, revents=POLLIN}])
+4603 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\235\25\2\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4605 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4607 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4609 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4611 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 303) = 1 ([{fd=3, revents=POLLIN}])
+4627 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\4\1\241\25Ws(\10%\2\0\0N\1\0\1\0\0\0\0006\0\334\0024\0F\1\0\0\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4630 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4633 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4637 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\22\0\7\0N\1\0\0014\1\0\0\6\0\0\0 \1\7\0\1\0\0\0Ws(\10", 28}, {NULL, 0}, {"", 0}], 3) = 28
+4639 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4641 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1387) = 1 ([{fd=3, revents=POLLIN}])
+4657 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\242\25N\1\0\0014\1\0\0|s(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4661 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4666 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4671 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4675 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1363) = 1 ([{fd=3, revents=POLLIN}])
+4783 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\5\1\242\25\34t(\10%\2\0\0N\1\0\1\0\0\0\0006\0\334\0024\0F\1\0\1\1\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4786 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4792 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4795 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4803 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\2\0\4\0\36\0\0\1\1\0\0\0\0\0\0\0\2\1\4\0.\1\0\1\1\0\0\0\0\0\0\0\2\0\4\0,\0\0\1\1\0\0\0\0\0\0\0\n\2\2\0N\1\0\1\31\0\v\0%\2\0\0\0\0\30\0\22\0\0\0%\2\0\0N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\4\0\36\0\0\1\1\0\0\0\371\0\0\1\2\0\4\0.\1\0\1\1\0\0\0\1\0\0\0\2\0\4\0,\0\0\1\1\0\0\0\1\0\0\0\33\3\2\0\0\0\0\0", 156}, {NULL, 0}, {"", 0}], 3) = 156
+4809 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3ee50, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4813 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+4816 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+4822 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"+\0\1\0 \0\2\0\0\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+4825 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3ee60, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4827 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLIN|POLLOUT}])
+4829 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\22\0\246\25N\1\0\1N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4833 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\4\0\2\0\363\1\0\1+\0\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+4847 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4850 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\22\0\246\25%\2\0\0N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\n\3\246\25N\1\0\1\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+4863 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+4928 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\3\246\25>t(\10%\2\0\0N\1\0\1\0\0\0\0006\0\334\0024\0F\1\0\0\0\2", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4931 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5022 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\222\0\247\25%\2\0\0N\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5041 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5048 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\254\25\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5050 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\22\0\256\25\363\1\0\1\363\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5054 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5074 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\22\0\256\25%\2\0\0\363\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\21\0\256\25\363\1\0\1\363\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+5083 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5089 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\21\0\256\25%\2\0\0\363\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1#\0\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\0014\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+5093 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5096 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\256\25\363\1\0\1\25\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1$\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1\27\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+5099 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5101 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\256\25\363\1\0\1$\0\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1(\0\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1\30\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+5104 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5107 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\256\25\363\1\0\1%\0\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1\"\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+5109 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5111 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0\256\25\363\1\0\1'\0\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\0\256\25\363\1\0\1#\1\0\0pt(\10\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+5114 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5118 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\257\25\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5120 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f780, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5122 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f780, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5125 , 43454 , 43454 , lxpanel , pipe2([9<pipe:[140876]>, 11<pipe:[140876]>], 0) = 0
+5127 , 43454 , 43454 , lxpanel , pipe2([12<pipe:[140877]>, 13<pipe:[140877]>], 0) = 0
+5143 , 43454 , 43454 , lxpanel , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7effa97efcd0) = 43725
+5152 , 43454 , 43454 , lxpanel , close(11<pipe:[140876]>) = 0
+5157 , 43454 , 43454 , lxpanel , close(13<pipe:[140877]>) = 0
+5171 , 43454 , 43454 , lxpanel , wait4(43725, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 43725
+5193 , 43454 , 43454 , lxpanel , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43725, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+5196 , 43454 , 43454 , lxpanel , read(9<pipe:[140876]>, "", 8) = 0
+5234 , 43454 , 43454 , lxpanel , read(12<pipe:[140877]>, "\316\252\0\0", 4) = 4
+5240 , 43454 , 43454 , lxpanel , read(12<pipe:[140877]>, "", 0) = 0
+5257 , 43454 , 43454 , lxpanel , close(9<pipe:[140876]>) = 0
+5264 , 43454 , 43454 , lxpanel , close(12<pipe:[140877]>) = 0
+5268 , 43454 , 43454 , lxpanel , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5284 , 43454 , 43454 , lxpanel , futex(0x562d6e55ae70, FUTEX_WAKE_PRIVATE, 1) = 1
+5295 , 43454 , 43454 , lxpanel , futex(0x562d6e55ae70, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+5322 , 43454 , 43454 , lxpanel , futex(0x562d6e55ae70, FUTEX_WAKE_PRIVATE, 1) = 0
+5324 , 43454 , 43454 , lxpanel , futex(0x562d6e55a0a0, FUTEX_WAKE_PRIVATE, 1) = 1
+5329 , 43454 , 43454 , lxpanel , clone(child_stack=0x7eff9ec43cf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7eff9ec449d0, tls=0x7eff9ec44700, child_tidptr=0x7eff9ec449d0) = 43731
+5362 , 43454 , 43454 , lxpanel , futex(0x7effa774e408, FUTEX_WAKE_PRIVATE, 1) = 1
+5369 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5387 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5408 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+5412 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5414 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5416 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5422 , 43454 , 43454 , lxpanel , futex(0x562d6e50e490, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+5425 , 43454 , 43454 , lxpanel , futex(0x562d6e50e490, FUTEX_WAKE_PRIVATE, 1) = 0
+5426 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5427 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5428 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+5429 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5431 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5433 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5434 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5435 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5436 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5437 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5438 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"\2\0\4\0N\1\0\1\0@\0\0\0\0\0\0$\1\1\0&\1\2\0%\2\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+5440 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5444 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\262\25\0\0\0\0%\2\0\0.\1\340\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5446 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5448 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5449 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5450 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0.\1\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+5452 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5459 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\263\25\0\0\0\0%\2\0\0\3\0\300\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5461 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5463 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5464 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5465 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+5467 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5471 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\264\25\0\0\0\0%\2\0\0\0\0\0\0006\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5473 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5475 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f980, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5476 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5477 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"%\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+5479 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fa30, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5481 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5483 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"&\0\2\0N\1\0\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+5485 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+5493 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\266\25\0\0\0\0%\2\0\0\0\0\0\0006\0\334\0024\0F\1\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5495 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5497 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3f960, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5498 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5499 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5500 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+5501 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5502 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5503 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5504 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5505 , 43454 , 43454 , lxpanel , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5506 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5507 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 1 ([{fd=4, revents=POLLIN}])
+5508 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+5509 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5511 , 43454 , 43454 , lxpanel , read(4<anon_inode:[eventfd]>, 0x7ffe96b3ff50, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5513 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5514 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5515 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5516 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5517 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5518 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5519 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5520 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 806) = 0 (Timeout)
+5780 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+5781 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:48.799850710, st_mtime=2018/04/24-23:13:48.799850710, st_ctime=2018/04/24-23:13:48.799850710}) = 0
+5782 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22803 6264 65104 27142438 38262 0 1245 0 0 0\ncpu0 13432 3925 26080 13564286 17657 0 414 0 0 0\ncpu1 9370 2338 39024 13578152 20605 0 831 0 0 0\nintr 3337836 23 545 0 0 0 0 0 0 1 0 0 0 1435 0 0 0 62"..., 1024) = 1024
+5783 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+5784 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5785 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5786 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5787 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+5788 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\4\2\0\1\36\0\0\1(\0\32\0007\1\7\0\5\2\0\1\4\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\5\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\5\2\0\1\0\20\0\0j\373\377\377F\0\5\0\4\2\0\1\5\2\0\1\0\0\0\0(\0\32\0<\0\2\0\5\2\0\1\203\3\n\0\4\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\4\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+5790 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5792 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5795 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1484) = 1 ([{fd=3, revents=POLLIN}])
+5798 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\275\25\4\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+5801 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5803 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5804 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+5805 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1467) = 0 (Timeout)
+6791 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+6792 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:50.307865834, st_mtime=2018/04/24-23:13:50.307865834, st_ctime=2018/04/24-23:13:50.307865834}) = 0
+6793 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22804 6264 65165 27142670 38262 0 1245 0 0 0\ncpu0 13432 3925 26086 13564428 17657 0 414 0 0 0\ncpu1 9371 2338 39078 13578242 20605 0 831 0 0 0\nintr 3340893 23 545 0 0 0 0 0 0 1 0 0 0 1513 0 0 0 62"..., 1024) = 1024
+6794 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+6795 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6796 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+6797 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6798 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+6799 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\6\2\0\1\36\0\0\1(\0\32\0007\1\7\0\7\2\0\1\6\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\7\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\7\2\0\1\0\20\0\0j\373\377\377F\0\5\0\6\2\0\1\7\2\0\1\0\0\0\0(\0\32\0<\0\2\0\7\2\0\1\203\3\n\0\6\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\6\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+6801 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6803 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6804 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1495) = 1 ([{fd=3, revents=POLLIN}])
+6806 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\310\25\6\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+6809 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6811 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6813 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+6814 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1490) = 0 (Timeout)
+7273 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+7275 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:51.807880637, st_mtime=2018/04/24-23:13:51.807880637, st_ctime=2018/04/24-23:13:51.807880637}) = 0
+7277 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22805 6264 65194 27142937 38262 0 1245 0 0 0\ncpu0 13432 3925 26099 13564563 17657 0 414 0 0 0\ncpu1 9372 2338 39094 13578374 20605 0 831 0 0 0\nintr 3342355 23 545 0 0 0 0 0 0 1 0 0 0 1513 0 0 0 62"..., 1024) = 1024
+7278 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+7279 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7280 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+7281 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7282 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+7283 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\10\2\0\1\36\0\0\1(\0\32\0007\1\7\0\t\2\0\1\10\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\t\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\t\2\0\1\0\20\0\0j\373\377\377F\0\5\0\10\2\0\1\t\2\0\1\0\0\0\0(\0\32\0<\0\2\0\t\2\0\1\203\3\n\0\10\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\10\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+7285 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7288 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7291 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1481) = 1 ([{fd=3, revents=POLLIN}])
+7294 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\323\25\10\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+7296 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7300 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7304 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7306 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1464) = 0 (Timeout)
+7808 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+7810 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:53.315895309, st_mtime=2018/04/24-23:13:53.315895309, st_ctime=2018/04/24-23:13:53.315895309}) = 0
+7815 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22805 6264 65236 27143190 38262 0 1246 0 0 0\ncpu0 13432 3925 26137 13564673 17657 0 414 0 0 0\ncpu1 9372 2338 39098 13578516 20605 0 832 0 0 0\nintr 3343968 23 545 0 0 0 0 0 0 1 0 0 0 1513 0 0 0 62"..., 1024) = 1024
+7817 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+7822 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7826 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+7829 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7831 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+7833 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\n\2\0\1\36\0\0\1(\0\32\0007\1\7\0\v\2\0\1\n\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\v\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\v\2\0\1\0\20\0\0j\373\377\377F\0\5\0\n\2\0\1\v\2\0\1\0\0\0\0(\0\32\0<\0\2\0\v\2\0\1\203\3\n\0\n\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\n\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+7840 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7846 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7848 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1478) = 1 ([{fd=3, revents=POLLIN}])
+7850 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\336\25\n\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+7853 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7855 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7857 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+7859 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1472) = 0 (Timeout)
+8434 , 43454 , 43454 , lxpanel , open("/proc/stat", O_RDONLY) = 9</proc/stat>
+8435 , 43454 , 43454 , lxpanel , fstat(9</proc/stat>, {st_dev=makedev(0, 4), st_ino=4026531990, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/04/24-23:13:54.823909713, st_mtime=2018/04/24-23:13:54.823909713, st_ctime=2018/04/24-23:13:54.823909713}) = 0
+8436 , 43454 , 43454 , lxpanel , read(9</proc/stat>, "cpu  22805 6264 65273 27143446 38264 0 1246 0 0 0\ncpu0 13432 3925 26172 13564786 17657 0 414 0 0 0\ncpu1 9372 2338 39101 13578659 20607 0 832 0 0 0\nintr 3345714 23 545 0 0 0 0 0 0 1 0 0 0 1513 0 0 0 62"..., 1024) = 1024
+8437 , 43454 , 43454 , lxpanel , close(9</proc/stat>) = 0
+8438 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8439 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+8440 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3e8f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8441 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+8442 , 43454 , 43454 , lxpanel , writev(3<UNIX:[128131->127853]>, [{"5\30\4\0\f\2\0\1\36\0\0\1(\0\32\0007\1\7\0\r\2\0\1\f\2\0\1\0\5\1\0\1\0\0\0\371\0\0\1\0\0\0\0;\3\5\0\r\2\0\1\0\0\0\0\0\0\0\0(\0\32\0008\0\4\0\r\2\0\1\0\20\0\0j\373\377\377F\0\5\0\f\2\0\1\r\2\0\1\0\0\0\0(\0\32\0<\0\2\0\r\2\0\1\203\3\n\0\f\2\0\1\347\0\0\1$\0\26\0\0\0\0\0$\0\26\0\2\0\2\0\30\2\1\1\373\0\0\1\0\0\30\0;\3\5\0\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0>\10\7\0\f\2\0\1\36\0\0\1\340\0\0\1\0\0\0\0\226\4\0\0(\0\32\0008\0\4\0"..., 220}, {NULL, 0}, {"", 0}], 3) = 220
+8444 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fd90, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8446 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8448 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1484) = 1 ([{fd=3, revents=POLLIN}])
+8450 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, {msg_name(0)=NULL, msg_iov(1)=[{"A\0\351\25\f\2\0\1\3\0\203\0\373\0\0\1\0\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+8453 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fdc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8455 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fcc0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8457 , 43454 , 43454 , lxpanel , recvmsg(3<UNIX:[128131->127853]>, 0x7ffe96b3fda0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+8459 , 43454 , 43454 , lxpanel , poll([{fd=3<UNIX:[128131->127853]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}], 2, 1468 <detached ...>

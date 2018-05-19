@@ -1,0 +1,20 @@
+2 , 43476 , 43454 , gdbus , restart_syscall(<... resuming interrupted poll ...>) = 1
+5280 , 43476 , 43454 , gdbus , futex(0x562d6e55ae70, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+5287 , 43476 , 43454 , gdbus , read(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+5292 , 43476 , 43454 , gdbus , futex(0x562d6e55ae70, FUTEX_WAKE_PRIVATE, 1) = 0
+5298 , 43476 , 43454 , gdbus , futex(0x562d6e55a0a0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+5326 , 43476 , 43454 , gdbus , futex(0x562d6e55a0a0, FUTEX_WAKE_PRIVATE, 1) = 0
+5328 , 43476 , 43454 , gdbus , sendmsg(5<UNIX:[128166->127892]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\10\0\0\0{\0\0\0\10\1g\0\vaysxasa{sv}\0\0\0\0\0\0\0\0\1\1o\0\33\0\0\0/org/gtk/gio/DesktopAppInfo\0\0\0\0\0\3\1s\0\10\0\0\0Launched\0\0\0\0\0\0\0\0\2\1s\0\32\0\0\0org.gtk.gio.DesktopAppInfo\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\316\252\0\0\0\0\0\0\0\0\0\0H\0\0\0\16\0\0\0origin-prgname\0\2ay\0\0"..., 248}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 248
+5336 , 43476 , 43454 , gdbus , poll([{fd=5<UNIX:[128166->127892]>, events=POLLIN}, {fd=7<anon_inode:[eventfd]>, events=POLLIN}], 2, 0) = 0 (Timeout)
+5341 , 43476 , 43454 , gdbus , read(7<anon_inode:[eventfd]>, 0x7eff9f444af0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5360 , 43476 , 43454 , gdbus , poll([{fd=5<UNIX:[128166->127892]>, events=POLLIN}, {fd=7<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=7, revents=POLLIN}])
+5385 , 43476 , 43454 , gdbus , clone(child_stack=0x7eff87abccf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7eff87abd9d0, tls=0x7eff87abd700, child_tidptr=0x7eff87abd9d0) = 43736
+5395 , 43476 , 43454 , gdbus , futex(0x7effa774e408, FUTEX_WAKE_PRIVATE, 1) = 0
+5398 , 43476 , 43454 , gdbus , futex(0x562d6e55a520, FUTEX_WAKE_PRIVATE, 1) = 1
+5400 , 43476 , 43454 , gdbus , poll([{fd=5<UNIX:[128166->127892]>, events=POLLIN}, {fd=7<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=7, revents=POLLIN}])
+5407 , 43476 , 43454 , gdbus , futex(0x562d6e55ae70, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+5411 , 43476 , 43454 , gdbus , read(7<anon_inode:[eventfd]>, "\2\0\0\0\0\0\0\0", 16) = 8
+5413 , 43476 , 43454 , gdbus , futex(0x562d6e55ae70, FUTEX_WAKE_PRIVATE, 1) = 0
+5415 , 43476 , 43454 , gdbus , futex(0x7eff940016f0, FUTEX_WAKE_PRIVATE, 1) = 1
+5418 , 43476 , 43454 , gdbus , futex(0x7eff940016e0, FUTEX_WAKE_PRIVATE, 1) = 0
+5420 , 43476 , 43454 , gdbus , poll([{fd=5<UNIX:[128166->127892]>, events=POLLIN}, {fd=7<anon_inode:[eventfd]>, events=POLLIN}], 2, -1 <detached ...>

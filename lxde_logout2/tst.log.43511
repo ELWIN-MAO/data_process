@@ -1,0 +1,80 @@
+2746 , 43511 , 43511 , at-spi2-registr , restart_syscall(<... resuming interrupted poll ...>) = 1
+2748 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"U\2!\0001j(\10\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0 \1\4\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2750 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2753 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2754 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"&\366\2\0%\2\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2757 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2771 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0!\0%\2\0\0H\1\0\0\243j(\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2774 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2845 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"U\2!\0\214k(\10\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0 \1\5\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2847 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+2939 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\"\0\0\0\0\0%\2\0\0\1\1\340\0\23\0\363\2\23\0\363\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+2941 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2943 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+2946 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+2948 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"+\366\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2950 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+3192 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2#\0\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3194 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3196 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3198 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0(\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Abs\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\0\0\0\0\0\0\0\0\23\0\0\0\363\2\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+3201 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0)\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Rel\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\0\0\0\0\0\0\0\0|\376\377\377T\1\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+3203 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+3206 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"&\366\2\0%\2\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+3208 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+3223 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1$\0\0\0\0\0%\2\0\0\1\1\340\0\23\0\363\2\23\0\363\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3225 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3227 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3228 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+3231 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"+\366\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+3232 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+3501 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2%\0\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+3503 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3505 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3507 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3509 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3512 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3514 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+3515 , 43511 , 43511 , at-spi2-registr , poll([{fd=3<UNIX:[127973->127974]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127981->128302]>, events=POLLIN}], 3, -1) = 1 ([{fd=5, revents=POLLIN}])
+4628 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"U\2%\0Zs(\10\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0 \1\4\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4631 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4632 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+4634 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"&\366\2\0%\2\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4635 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+4642 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1&\0\0\0\0\0%\2\0\0N\1\0\0016\0\334\0026\0\334\2\0\1\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4644 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4646 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4648 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+4650 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"+\366\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+4652 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+4674 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2'\0\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4677 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4679 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4680 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0*\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\6\0\0\0Button\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\2\0\0\0001p\0\0\23\0\0\0\363\2\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+4682 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0+\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Abs\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\0\0\0\0\0\0\0\0006\0\0\0\334\2\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+4684 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0,\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\3\0\0\0Rel\0\0\0\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\0\0\0\0\0\0\0\0#\0\0\0\351\377\377\377\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+4686 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4688 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4690 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4691 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4692 , 43511 , 43511 , at-spi2-registr , poll([{fd=3<UNIX:[127973->127974]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127981->128302]>, events=POLLIN}], 3, -1) = 1 ([{fd=5, revents=POLLIN}])
+4784 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"U\2'\0\35t(\10\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0 \1\5\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4787 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5e0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4789 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+4791 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"&\366\2\0%\2\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+4793 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+4812 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1(\0\0\0\0\0%\2\0\0N\1\0\0016\0\334\0026\0\334\2\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4815 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4817 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc230, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4819 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=5, revents=POLLOUT}])
+4821 , 43511 , 43511 , at-spi2-registr , writev(5<UNIX:[127981->128302]>, [{"+\366\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+4824 , 43511 , 43511 , at-spi2-registr , poll([{fd=5<UNIX:[127981->128302]>, events=POLLIN}], 1, -1) = 1 ([{fd=5, revents=POLLIN}])
+4963 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2)\0\0\0\0\0\4\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+4965 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4967 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc1d0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4968 , 43511 , 43511 , at-spi2-registr , sendmsg(3<UNIX:[127973->127974]>, {msg_name(0)=NULL, msg_iov(2)=[{"l\4\1\1H\0\0\0-\0\0\0n\0\0\0\1\1o\0\37\0\0\0/org/a11y/atspi/accessible/root\0\2\1s\0\32\0\0\0org.a11y.atspi.Event.Mouse\0\0\0\0\0\0\3\1s\0\6\0\0\0Button\0\0\10\1g\0\10siiv(so)\0\0\0", 128}, {"\2\0\0\0001r\0\0006\0\0\0\334\2\0\0\1i\0\0\0\0\0\0\4\0\0\0:1.2\0\0\0\0\37\0\0\0/org/a11y/atspi/accessible/root\0", 72}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 200
+4971 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4973 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc4f0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4976 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4978 , 43511 , 43511 , at-spi2-registr , recvmsg(5<UNIX:[127981->128302]>, 0x7ffc688fc5c0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4979 , 43511 , 43511 , at-spi2-registr , poll([{fd=3<UNIX:[127973->127974]>, events=POLLIN}, {fd=4<anon_inode:[eventfd]>, events=POLLIN}, {fd=5<UNIX:[127981->128302]>, events=POLLIN}], 3, -1 <detached ...>

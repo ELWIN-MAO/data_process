@@ -1,0 +1,14 @@
+5332 , 43731 , 43454 , lxpanel , set_robust_list(0x7eff9ec449e0, 24) = 0
+5335 , 43731 , 43454 , lxpanel , futex(0x7effa774e408, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+5365 , 43731 , 43454 , lxpanel , futex(0x7effa774e408, FUTEX_WAKE_PRIVATE, 1) = 0
+5368 , 43731 , 43454 , lxpanel , prctl(PR_SET_NAME, "pool\0V\0\0in/bash\0") = 0
+5371 , 43731 , 43454 , pool , write(7<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5374 , 43731 , 43454 , pool , futex(0x7eff940016f0, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+5417 , 43731 , 43454 , pool , futex(0x7eff940016e0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+5419 , 43731 , 43454 , pool , futex(0x7eff940016e0, FUTEX_WAKE_PRIVATE, 1) = 0
+5421 , 43731 , 43454 , pool , write(4<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5423 , 43731 , 43454 , pool , futex(0x562d6e50e490, FUTEX_WAKE_PRIVATE, 1) = 1
+5424 , 43731 , 43454 , pool , futex(0x562d6e55a530, FUTEX_WAIT_PRIVATE, 0, {0, 499998977}) = -1 ETIMEDOUT (Connection timed out)
+5764 , 43731 , 43454 , pool , madvise(0x7eff9e444000, 8368128, MADV_DONTNEED) = 0
+5765 , 43731 , 43454 , pool , exit(0)   = ?
+5766 , 43731 , 43454 , pool , +++ exited with 0 +++

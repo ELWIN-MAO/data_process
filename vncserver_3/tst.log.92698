@@ -1,0 +1,52 @@
+1361 , 92698 , 92698 , perl , set_robust_list(0x7f53361759e0, 24) = 0
+1362 , 92698 , 92698 , perl , rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1364 , 92698 , 92698 , perl , close(3<pipe:[253661]>) = 0
+1365 , 92698 , 92698 , perl , fcntl(4<pipe:[253661]>, F_SETFD, FD_CLOEXEC) = 0
+1367 , 92698 , 92698 , perl , rt_sigaction(SIGFPE, {SIG_DFL, [], SA_RESTORER, 0x7f533585d390}, {SIG_IGN, [FPE], SA_RESTORER|SA_RESTART, 0x7f53354b74b0}, 8) = 0
+1370 , 92698 , 92698 , perl , execve("/bin/sh", ["sh", "-c", "/home/elwin/.vnc/xstartup >> '/home/elwin/.vnc/elwin-virtual-machine:1.log' 2>&1 &"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s", "DISPLAY=:1", "VNCDESKTOP=elwin-virtual-machine:1 (elwin)"]) = 0
+1371 , 92698 , 92698 , sh , brk(NULL)   = 0x5562275f2000
+1372 , 92698 , 92698 , sh , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1373 , 92698 , 92698 , sh , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1374 , 92698 , 92698 , sh , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+1375 , 92698 , 92698 , sh , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+1376 , 92698 , 92698 , sh , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f2d6e574000
+1377 , 92698 , 92698 , sh , close(3</etc/ld.so.cache>) = 0
+1378 , 92698 , 92698 , sh , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1379 , 92698 , 92698 , sh , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+1380 , 92698 , 92698 , sh , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+1381 , 92698 , 92698 , sh , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+1382 , 92698 , 92698 , sh , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d6e573000
+1383 , 92698 , 92698 , sh , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f2d6dfa7000
+1384 , 92698 , 92698 , sh , mprotect(0x7f2d6e167000, 2097152, PROT_NONE) = 0
+1385 , 92698 , 92698 , sh , mmap(0x7f2d6e367000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f2d6e367000
+1386 , 92698 , 92698 , sh , mmap(0x7f2d6e36d000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2d6e36d000
+1387 , 92698 , 92698 , sh , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+1388 , 92698 , 92698 , sh , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d6e572000
+1389 , 92698 , 92698 , sh , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d6e571000
+1390 , 92698 , 92698 , sh , arch_prctl(ARCH_SET_FS, 0x7f2d6e572700) = 0
+1391 , 92698 , 92698 , sh , mprotect(0x7f2d6e367000, 16384, PROT_READ) = 0
+1392 , 92698 , 92698 , sh , mprotect(0x55622704c000, 8192, PROT_READ) = 0
+1393 , 92698 , 92698 , sh , mprotect(0x7f2d6e596000, 4096, PROT_READ) = 0
+1394 , 92698 , 92698 , sh , munmap(0x7f2d6e574000, 136611) = 0
+1395 , 92698 , 92698 , sh , getuid()    = 1000
+1396 , 92698 , 92698 , sh , getgid()    = 1000
+1397 , 92698 , 92698 , sh , getpid()    = 92698
+1398 , 92698 , 92698 , sh , rt_sigaction(SIGCHLD, {0x556226e43200, ~[RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, NULL, 8) = 0
+1399 , 92698 , 92698 , sh , geteuid()   = 1000
+1400 , 92698 , 92698 , sh , brk(NULL)   = 0x5562275f2000
+1401 , 92698 , 92698 , sh , brk(0x556227613000) = 0x556227613000
+1402 , 92698 , 92698 , sh , getppid()   = 92684
+1403 , 92698 , 92698 , sh , stat("/home/elwin/mypaper_data/strace_code", {st_dev=makedev(8, 1), st_ino=4348888, st_mode=S_IFDIR|0775, st_nlink=7, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-08:02:39.933646422, st_mtime=2018/05/12-08:02:26.462088711, st_ctime=2018/05/12-08:02:26.462088711}) = 0
+1404 , 92698 , 92698 , sh , stat(".", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=81, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-10:59:11.787448487, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+1405 , 92698 , 92698 , sh , getcwd("/home/elwin", 4096) = 12
+1406 , 92698 , 92698 , sh , geteuid()   = 1000
+1407 , 92698 , 92698 , sh , getegid()   = 1000
+1408 , 92698 , 92698 , sh , rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+1409 , 92698 , 92698 , sh , rt_sigaction(SIGINT, {0x556226e43200, ~[RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, NULL, 8) = 0
+1410 , 92698 , 92698 , sh , rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+1411 , 92698 , 92698 , sh , rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, NULL, 8) = 0
+1412 , 92698 , 92698 , sh , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+1413 , 92698 , 92698 , sh , rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, NULL, 8) = 0
+1414 , 92698 , 92698 , sh , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2d6e5729d0) = 92699
+1415 , 92698 , 92698 , sh , exit_group(0) = ?
+1418 , 92698 , 92698 , sh , +++ exited with 0 +++

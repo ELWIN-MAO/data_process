@@ -1,0 +1,77 @@
+1416 , 92699 , 92699 , sh , rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f2d6dfdc4b0}, {0x556226e43200, ~[KILL STOP RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, 8) = 0
+1417 , 92699 , 92699 , sh , rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f2d6dfdc4b0}, {SIG_DFL, ~[KILL STOP RTMIN RT_1], SA_RESTORER, 0x7f2d6dfdc4b0}, 8) = 0
+1419 , 92699 , 92699 , sh , close(0</dev/pts/5>) = 0
+1421 , 92699 , 92699 , sh , open("/dev/null", O_RDONLY) = 0</dev/null>
+1424 , 92699 , 92699 , sh , open("/home/elwin/.vnc/elwin-virtual-machine:1.log", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3</home/elwin/.vnc/elwin-virtual-machine:1.log>
+1426 , 92699 , 92699 , sh , fcntl(1</dev/pts/5>, F_DUPFD, 10) = 10</dev/pts/5>
+1428 , 92699 , 92699 , sh , close(1</dev/pts/5>) = 0
+1430 , 92699 , 92699 , sh , fcntl(10</dev/pts/5>, F_SETFD, FD_CLOEXEC) = 0
+1432 , 92699 , 92699 , sh , dup2(3</home/elwin/.vnc/elwin-virtual-machine:1.log>, 1) = 1</home/elwin/.vnc/elwin-virtual-machine:1.log>
+1434 , 92699 , 92699 , sh , close(3</home/elwin/.vnc/elwin-virtual-machine:1.log>) = 0
+1436 , 92699 , 92699 , sh , fcntl(2</dev/pts/5>, F_DUPFD, 10) = 11</dev/pts/5>
+1438 , 92699 , 92699 , sh , close(2</dev/pts/5>) = 0
+1440 , 92699 , 92699 , sh , fcntl(11</dev/pts/5>, F_SETFD, FD_CLOEXEC) = 0
+1441 , 92699 , 92699 , sh , dup2(1</home/elwin/.vnc/elwin-virtual-machine:1.log>, 2) = 2</home/elwin/.vnc/elwin-virtual-machine:1.log>
+1443 , 92699 , 92699 , sh , execve("/home/elwin/.vnc/xstartup", ["/home/elwin/.vnc/xstartup"], ["LESSOPEN=| /usr/bin/lesspipe %s", "VNCDESKTOP=elwin-virtual-machine:1 (elwin)", "MAIL=/var/mail/elwin", "SSH_CLIENT=192.168.209.1 58993 22", "USER=elwin", "SHLVL=1", "HOME=/home/elwin", "SSH_TTY=/dev/pts/5", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "LOGNAME=elwin", "XDG_SESSION_ID=334", "TERM=xterm", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:1", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "SHELL=/bin/bash", "LESSCLOSE=/usr/bin/lesspipe %s %s", "PWD=/home/elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop"]) = 0
+1447 , 92699 , 92699 , xstartup , brk(NULL) = 0x56089a399000
+1449 , 92699 , 92699 , xstartup , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1451 , 92699 , 92699 , xstartup , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1453 , 92699 , 92699 , xstartup , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+1455 , 92699 , 92699 , xstartup , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+1457 , 92699 , 92699 , xstartup , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f33ac771000
+1459 , 92699 , 92699 , xstartup , close(3</etc/ld.so.cache>) = 0
+1461 , 92699 , 92699 , xstartup , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1462 , 92699 , 92699 , xstartup , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+1464 , 92699 , 92699 , xstartup , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+1466 , 92699 , 92699 , xstartup , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+1468 , 92699 , 92699 , xstartup , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f33ac770000
+1470 , 92699 , 92699 , xstartup , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f33ac1a4000
+1472 , 92699 , 92699 , xstartup , mprotect(0x7f33ac364000, 2097152, PROT_NONE) = 0
+1474 , 92699 , 92699 , xstartup , mmap(0x7f33ac564000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f33ac564000
+1476 , 92699 , 92699 , xstartup , mmap(0x7f33ac56a000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f33ac56a000
+1478 , 92699 , 92699 , xstartup , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+1480 , 92699 , 92699 , xstartup , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f33ac76f000
+1482 , 92699 , 92699 , xstartup , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f33ac76e000
+1484 , 92699 , 92699 , xstartup , arch_prctl(ARCH_SET_FS, 0x7f33ac76f700) = 0
+1487 , 92699 , 92699 , xstartup , mprotect(0x7f33ac564000, 16384, PROT_READ) = 0
+1489 , 92699 , 92699 , xstartup , mprotect(0x560899b30000, 8192, PROT_READ) = 0
+1491 , 92699 , 92699 , xstartup , mprotect(0x7f33ac793000, 4096, PROT_READ) = 0
+1493 , 92699 , 92699 , xstartup , munmap(0x7f33ac771000, 136611) = 0
+1496 , 92699 , 92699 , xstartup , getuid() = 1000
+1498 , 92699 , 92699 , xstartup , getgid() = 1000
+1500 , 92699 , 92699 , xstartup , getpid() = 92699
+1502 , 92699 , 92699 , xstartup , rt_sigaction(SIGCHLD, {0x560899927200, ~[RTMIN RT_1], SA_RESTORER, 0x7f33ac1d94b0}, NULL, 8) = 0
+1503 , 92699 , 92699 , xstartup , geteuid() = 1000
+1505 , 92699 , 92699 , xstartup , brk(NULL) = 0x56089a399000
+1507 , 92699 , 92699 , xstartup , brk(0x56089a3ba000) = 0x56089a3ba000
+1509 , 92699 , 92699 , xstartup , getppid() = 1
+1511 , 92699 , 92699 , xstartup , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=81, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-10:59:11.787448487, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+1513 , 92699 , 92699 , xstartup , stat(".", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=81, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-10:59:11.787448487, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+1515 , 92699 , 92699 , xstartup , open("/home/elwin/.vnc/xstartup", O_RDONLY) = 3</home/elwin/.vnc/xstartup>
+1517 , 92699 , 92699 , xstartup , fcntl(3</home/elwin/.vnc/xstartup>, F_DUPFD, 10) = 10</home/elwin/.vnc/xstartup>
+1519 , 92699 , 92699 , xstartup , close(3</home/elwin/.vnc/xstartup>) = 0
+1521 , 92699 , 92699 , xstartup , fcntl(10</home/elwin/.vnc/xstartup>, F_SETFD, FD_CLOEXEC) = 0
+1523 , 92699 , 92699 , xstartup , geteuid() = 1000
+1525 , 92699 , 92699 , xstartup , getegid() = 1000
+1527 , 92699 , 92699 , xstartup , rt_sigaction(SIGINT, NULL, {SIG_IGN, [], 0}, 8) = 0
+1529 , 92699 , 92699 , xstartup , rt_sigaction(SIGQUIT, NULL, {SIG_IGN, [], 0}, 8) = 0
+1531 , 92699 , 92699 , xstartup , rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+1533 , 92699 , 92699 , xstartup , rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7f33ac1d94b0}, NULL, 8) = 0
+1535 , 92699 , 92699 , xstartup , read(10</home/elwin/.vnc/xstartup>, "#!/bin/sh\n\n# Uncomment the following two lines for normal desktop:\n# unset SESSION_MANAGER\n# exec /etc/X11/xinit/xinitrc\n\n[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup\n[ -r $HOME/.Xresources ] &&"..., 8192) = 361
+1537 , 92699 , 92699 , xstartup , geteuid() = 1000
+1539 , 92699 , 92699 , xstartup , faccessat(AT_FDCWD, "/etc/vnc/xstartup", X_OK) = -1 ENOENT (No such file or directory)
+1541 , 92699 , 92699 , xstartup , faccessat(AT_FDCWD, "/home/elwin/.Xresources", R_OK) = -1 ENOENT (No such file or directory)
+1543 , 92699 , 92699 , xstartup , stat("/usr/local/sbin/xsetroot", 0x7fff5461f680) = -1 ENOENT (No such file or directory)
+1545 , 92699 , 92699 , xstartup , stat("/usr/local/bin/xsetroot", 0x7fff5461f680) = -1 ENOENT (No such file or directory)
+1547 , 92699 , 92699 , xstartup , stat("/usr/sbin/xsetroot", 0x7fff5461f680) = -1 ENOENT (No such file or directory)
+1549 , 92699 , 92699 , xstartup , stat("/usr/bin/xsetroot", {st_dev=makedev(8, 1), st_ino=4458156, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18896, st_atime=2018/05/12-08:05:12.073603501, st_mtime=2016/02/27-04:09:02, st_ctime=2016/11/03-10:37:57.179999919}) = 0
+1550 , 92699 , 92699 , xstartup , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f33ac76f9d0) = 92700
+1553 , 92699 , 92699 , xstartup , wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 92700
+1928 , 92699 , 92699 , xstartup , --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=92700, si_uid=1000, si_status=0, si_utime=0, si_stime=1} ---
+1930 , 92699 , 92699 , xstartup , rt_sigreturn({mask=[]}) = 92700
+1932 , 92699 , 92699 , xstartup , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f33ac76f9d0) = 92707
+1935 , 92699 , 92699 , xstartup , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f33ac76f9d0) = 92708
+1938 , 92699 , 92699 , xstartup , clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f33ac76f9d0) = 92709
+1951 , 92699 , 92699 , xstartup , read(10</home/elwin/.vnc/xstartup>, "", 8192) = 0
+1965 , 92699 , 92699 , xstartup , exit_group(0) = ?
+1967 , 92699 , 92699 , xstartup , +++ exited with 0 +++

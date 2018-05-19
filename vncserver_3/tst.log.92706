@@ -1,0 +1,45 @@
+1771 , 92706 , 92706 , sh , execve("/bin/cat", ["cat", "/home/elwin/.Xauthority"], ["LESSOPEN=| /usr/bin/lesspipe %s", "MAIL=/var/mail/elwin", "SSH_CLIENT=192.168.209.1 58993 22", "USER=elwin", "SHLVL=1", "HOME=/home/elwin", "SSH_TTY=/dev/pts/5", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "LOGNAME=elwin", "XDG_SESSION_ID=334", "TERM=xterm", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "XDG_RUNTIME_DIR=/run/user/1000", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "SHELL=/bin/bash", "LESSCLOSE=/usr/bin/lesspipe %s %s", "PWD=/home/elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop"]) = 0
+1772 , 92706 , 92706 , cat , brk(NULL)  = 0x1baf000
+1773 , 92706 , 92706 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1774 , 92706 , 92706 , cat , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1775 , 92706 , 92706 , cat , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+1776 , 92706 , 92706 , cat , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+1777 , 92706 , 92706 , cat , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f786092d000
+1778 , 92706 , 92706 , cat , close(3</etc/ld.so.cache>) = 0
+1779 , 92706 , 92706 , cat , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1780 , 92706 , 92706 , cat , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+1781 , 92706 , 92706 , cat , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+1782 , 92706 , 92706 , cat , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+1783 , 92706 , 92706 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f786092c000
+1784 , 92706 , 92706 , cat , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f7860360000
+1785 , 92706 , 92706 , cat , mprotect(0x7f7860520000, 2097152, PROT_NONE) = 0
+1786 , 92706 , 92706 , cat , mmap(0x7f7860720000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f7860720000
+1787 , 92706 , 92706 , cat , mmap(0x7f7860726000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7860726000
+1788 , 92706 , 92706 , cat , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+1789 , 92706 , 92706 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f786092b000
+1790 , 92706 , 92706 , cat , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f786092a000
+1791 , 92706 , 92706 , cat , arch_prctl(ARCH_SET_FS, 0x7f786092b700) = 0
+1792 , 92706 , 92706 , cat , mprotect(0x7f7860720000, 16384, PROT_READ) = 0
+1793 , 92706 , 92706 , cat , mprotect(0x60b000, 4096, PROT_READ) = 0
+1794 , 92706 , 92706 , cat , mprotect(0x7f786094f000, 4096, PROT_READ) = 0
+1795 , 92706 , 92706 , cat , munmap(0x7f786092d000, 136611) = 0
+1796 , 92706 , 92706 , cat , brk(NULL)  = 0x1baf000
+1797 , 92706 , 92706 , cat , brk(0x1bd0000) = 0x1bd0000
+1798 , 92706 , 92706 , cat , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+1799 , 92706 , 92706 , cat , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/12-06:27:22.201301295, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+1800 , 92706 , 92706 , cat , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f7860088000
+1801 , 92706 , 92706 , cat , close(3</usr/lib/locale/locale-archive>) = 0
+1802 , 92706 , 92706 , cat , fstat(1<pipe:[254606]>, {st_dev=makedev(0, 10), st_ino=254606, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:38.111230083, st_mtime=2018/05/12-11:00:38.111230083, st_ctime=2018/05/12-11:00:38.111230083}) = 0
+1803 , 92706 , 92706 , cat , open("/home/elwin/.Xauthority", O_RDONLY) = 3</home/elwin/.Xauthority>
+1804 , 92706 , 92706 , cat , fstat(3</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886698, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=345, st_atime=2018/05/12-11:00:37.983230337, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+1805 , 92706 , 92706 , cat , fadvise64(3</home/elwin/.Xauthority>, 0, 0, POSIX_FADV_SEQUENTIAL) = 0
+1806 , 92706 , 92706 , cat , mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f786092d000
+1807 , 92706 , 92706 , cat , read(3</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\0201\1\370j\362J\6\341G\0040y3f\267\261\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 131072) = 345
+1808 , 92706 , 92706 , cat , write(1<pipe:[254606]>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\0201\1\370j\362J\6\341G\0040y3f\267\261\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 345) = 345
+1809 , 92706 , 92706 , cat , read(3</home/elwin/.Xauthority>, "", 131072) = 0
+1811 , 92706 , 92706 , cat , munmap(0x7f786092d000, 139264) = 0
+1812 , 92706 , 92706 , cat , close(3</home/elwin/.Xauthority>) = 0
+1813 , 92706 , 92706 , cat , close(1<pipe:[254606]>) = 0
+1814 , 92706 , 92706 , cat , close(2</home/elwin/.vnc/elwin-virtual-machine:1.log>) = 0
+1815 , 92706 , 92706 , cat , exit_group(0) = ?
+1816 , 92706 , 92706 , cat , +++ exited with 0 +++

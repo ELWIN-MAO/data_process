@@ -1,0 +1,5 @@
+5347 , 43502 , 43502 , zeitgeist-datah , restart_syscall(<... resuming interrupted poll ...>) = 1
+5373 , 43502 , 43502 , zeitgeist-datah , futex(0x10a1e70, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+5377 , 43502 , 43502 , zeitgeist-datah , read(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 16) = 8
+5379 , 43502 , 43502 , zeitgeist-datah , futex(0x10a1e70, FUTEX_WAKE_PRIVATE, 1) = 0
+5382 , 43502 , 43502 , zeitgeist-datah , poll([{fd=3<anon_inode:[eventfd]>, events=POLLIN}], 1, -1 <detached ...>

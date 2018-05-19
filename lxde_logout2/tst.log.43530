@@ -1,0 +1,16 @@
+5343 , 43530 , 43502 , gdbus , restart_syscall(<... resuming interrupted poll ...>) = 1
+5346 , 43530 , 43502 , gdbus , read(6<anon_inode:[eventfd]>, 0x7f78e3ffeab0, 16) = -1 EAGAIN (Resource temporarily unavailable)
+5349 , 43530 , 43502 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5352 , 43530 , 43502 , gdbus , recvmsg(5<UNIX:[128287->127963]>, {msg_name(0)=NULL, msg_iov(1)=[{"l\4\1\1h\0\0\0\10\0\0\0\215\0\0\0", 16}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 16
+5355 , 43530 , 43502 , gdbus , poll([{fd=5<UNIX:[128287->127963]>, events=POLLIN}], 1, 0) = 1 ([{fd=5, revents=POLLIN}])
+5358 , 43530 , 43502 , gdbus , recvmsg(5<UNIX:[128287->127963]>, {msg_name(0)=NULL, msg_iov(1)=[{"\10\1g\0\vaysxasa{sv}\0\0\0\0\0\0\0\0\1\1o\0\33\0\0\0/org/gtk/gio/DesktopAppInfo\0\0\0\0\0\3\1s\0\10\0\0\0Launched\0\0\0\0\0\0\0\0\2\1s\0\32\0\0\0org.gtk.gio.DesktopAppInfo\0\0\0\0\0\0\7\1s\0\4\0\0\0:1.4\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\316\252\0\0\0\0\0\0\0\0\0\0H\0\0\0\16\0\0\0origin-prgname\0\2ay\0\0"..., 248}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 248
+5361 , 43530 , 43502 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5364 , 43530 , 43502 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5367 , 43530 , 43502 , gdbus , poll([{fd=6<anon_inode:[eventfd]>, events=POLLIN}], 1, 0) = 1 ([{fd=6, revents=POLLIN}])
+5370 , 43530 , 43502 , gdbus , write(3<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5372 , 43530 , 43502 , gdbus , futex(0x10a1e70, FUTEX_WAKE_PRIVATE, 1) = 0
+5375 , 43530 , 43502 , gdbus , poll([{fd=5<UNIX:[128287->127963]>, events=POLLIN}], 1, 0) = 0 (Timeout)
+5378 , 43530 , 43502 , gdbus , write(6<anon_inode:[eventfd]>, "\1\0\0\0\0\0\0\0", 8) = 8
+5380 , 43530 , 43502 , gdbus , poll([{fd=5<UNIX:[128287->127963]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+5381 , 43530 , 43502 , gdbus , read(6<anon_inode:[eventfd]>, "\4\0\0\0\0\0\0\0", 16) = 8
+5384 , 43530 , 43502 , gdbus , poll([{fd=5<UNIX:[128287->127963]>, events=POLLIN}, {fd=6<anon_inode:[eventfd]>, events=POLLIN}], 2, -1 <detached ...>

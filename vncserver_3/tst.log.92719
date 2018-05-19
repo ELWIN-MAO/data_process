@@ -1,0 +1,852 @@
+6577 , 92719 , 92719 , gnome-terminal , set_robust_list(0x7fad686e49e0, 24) = 0
+6578 , 92719 , 92719 , gnome-terminal , close(5<pipe:[254882]>) = 0
+6581 , 92719 , 92719 , gnome-terminal , rt_sigaction(SIGPIPE, {SIG_DFL, [], SA_RESTORER, 0x7fad682da390}, {SIG_IGN, [], SA_RESTORER, 0x7fad682da390}, 8) = 0
+6583 , 92719 , 92719 , gnome-terminal , rt_sigaction(SIGXFSZ, {SIG_DFL, [], SA_RESTORER, 0x7fad682da390}, {SIG_IGN, [], SA_RESTORER, 0x7fad682da390}, 8) = 0
+6585 , 92719 , 92719 , gnome-terminal , open("/proc/self/fd", O_RDONLY|O_CLOEXEC) = 5</proc/92719/fd>
+6587 , 92719 , 92719 , gnome-terminal , getdents64(5</proc/92719/fd>, [{d_ino=257245, d_off=1, d_reclen=24, d_type=DT_DIR, d_name="."}, {d_ino=257243, d_off=2, d_reclen=24, d_type=DT_DIR, d_name=".."}, {d_ino=254883, d_off=3, d_reclen=24, d_type=DT_LNK, d_name="0"}, {d_ino=254884, d_off=4, d_reclen=24, d_type=DT_LNK, d_name="1"}, {d_ino=254885, d_off=5, d_reclen=24, d_type=DT_LNK, d_name="2"}, {d_ino=254886, d_off=6, d_reclen=24, d_type=DT_LNK, d_name="3"}, {d_ino=254887, d_off=7, d_reclen=24, d_type=DT_LNK, d_name="4"}, {d_ino=257246, d_off=8, d_reclen=24, d_type=DT_LNK, d_name="5"}, {d_ino=254888, d_off=66, d_reclen=24, d_type=DT_LNK, d_name="6"}], 280) = 216
+6590 , 92719 , 92719 , gnome-terminal , close(3<anon_inode:[eventfd]>) = 0
+6592 , 92719 , 92719 , gnome-terminal , close(4<anon_inode:[eventfd]>) = 0
+6593 , 92719 , 92719 , gnome-terminal , getdents64(5</proc/92719/fd>, [], 280) = 0
+6595 , 92719 , 92719 , gnome-terminal , close(5</proc/92719/fd>) = 0
+6597 , 92719 , 92719 , gnome-terminal , execve("/usr/bin/gnome-terminal.real", ["/usr/bin/gnome-terminal.real", "--login", "--geometry=80x24+10+10", "-t", "elwin-virtual-machine:1 (elwin) Desktop"], ["LESSOPEN=| /usr/bin/lesspipe %s", "VNCDESKTOP=elwin-virtual-machine:1 (elwin)", "MAIL=/var/mail/elwin", "SSH_CLIENT=192.168.209.1 58993 22", "USER=elwin", "SHLVL=1", "HOME=/home/elwin", "SSH_TTY=/dev/pts/5", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "LOGNAME=elwin", "XDG_SESSION_ID=334", "TERM=xterm", "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "XDG_RUNTIME_DIR=/run/user/1000", "DISPLAY=:1", "LANG=en_US.UTF-8", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "SHELL=/bin/bash", "LESSCLOSE=/usr/bin/lesspipe %s %s", "PWD=/home/elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop"]) = 0
+6602 , 92719 , 92719 , gnome-terminal. , brk(NULL) = 0x160f000
+6603 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6606 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+6607 , 92719 , 92719 , gnome-terminal. , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+6609 , 92719 , 92719 , gnome-terminal. , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+6610 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f567a072000
+6612 , 92719 , 92719 , gnome-terminal. , close(3</etc/ld.so.cache>) = 0
+6614 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6616 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgtk-3.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>
+6617 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260I\10\0\0\0\0\0@\0\0\0\0\0\0\0\10\235r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\237q\0\0\0\0\0$\237q\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255q\0\0\0\0\0\210\255\221\0\0\0\0\0\210\255\221\0\0\0\0\0X\356\0\0\0\0\0\0h;\1\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0x8r\0\0\0\0\0x8\222\0\0\0\0\0"..., 832) = 832
+6619 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>, {st_dev=makedev(8, 1), st_ino=4465668, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=14680, st_size=7513160, st_atime=2018/05/12-08:05:13.429574532, st_mtime=2017/04/05-18:49:04, st_ctime=2017/12/20-03:29:40.264168230}) = 0
+6621 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a071000
+6622 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 9627888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>, 0) = 0x7f5679540000
+6624 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679c5a000, 2097152, PROT_NONE) = 0
+6626 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679e5a000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>, 0x71a000) = 0x7f5679e5a000
+6627 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679e6a000, 18672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5679e6a000
+6629 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1800.9>) = 0
+6631 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6632 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgdk-3.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>
+6634 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20h\2\0\0\0\0\0@\0\0\0\0\0\0\0\220\242\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\2\r\0\0\0\0\0\\2\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\2109\r\0\0\0\0\0\2109-\0\0\0\0\0\2109-\0\0\0\0\0\360g\0\0\0\0\0\0\310r\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20x\r\0\0\0\0\0\20x-\0\0\0\0\0"..., 832) = 832
+6635 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>, {st_dev=makedev(8, 1), st_ino=4465667, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1752, st_size=895376, st_atime=2018/05/12-08:05:13.497573082, st_mtime=2017/04/05-18:49:03, st_ctime=2017/12/20-03:29:40.264168230}) = 0
+6637 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2993232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>, 0) = 0x7f5679265000
+6639 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679339000, 2093056, PROT_NONE) = 0
+6641 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679538000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>, 0xd3000) = 0x7f5679538000
+6642 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1800.9>) = 0
+6644 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6645 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libdconf.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>
+6647 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320A\0\0\0\0\0\0@\0\0\0\0\0\0\0 \306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\271\0\0\0\0\0\0t\271\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\200\274\0\0\0\0\0\0\200\274 \0\0\0\0\0\200\274 \0\0\0\0\0p\10\0\0\0\0\0\0X\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\275\0\0\0\0\0\0\210\275 \0\0\0\0\0"..., 832) = 832
+6648 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465507, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52448, st_atime=2018/05/12-08:05:13.509572826, st_mtime=2015/05/27-01:15:19, st_ctime=2016/11/03-10:38:40.147999887}) = 0
+6650 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2147800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>, 0) = 0x7f5679058000
+6651 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679064000, 2093056, PROT_NONE) = 0
+6653 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679263000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>, 0xb000) = 0x7f5679263000
+6654 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libdconf.so.1.0.0>) = 0
+6656 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6657 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>
+6659 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200X\3\0\0\0\0\0@\0\0\0\0\0\0\0\210`\30\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\314\373\27\0\0\0\0\0\314\373\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\7\30\0\0\0\0\0\210\0078\0\0\0\0\0\210\0078\0\0\0\0\0\320W\0\0\0\0\0\0 s\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210<\30\0\0\0\0\0\210<8\0\0\0\0\0"..., 832) = 832
+6660 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456890, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3128, st_size=1599368, st_atime=2018/05/12-06:27:30.193409783, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+6662 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a070000
+6663 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3701416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0) = 0x7f5678cd0000
+6664 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678e50000, 2097152, PROT_NONE) = 0
+6666 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679050000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>, 0x180000) = 0x7f5679050000
+6667 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5679056000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5679056000
+6669 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2>) = 0
+6670 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6672 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>
+6674 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\0\0\0\0\0\0@\0\0\0\0\0\0\0008%\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\24\5\0\0\0\0\0\204\24\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\26\5\0\0\0\0\0\240\26%\0\0\0\0\0\240\26%\0\0\0\0\0h\r\0\0\0\0\0\0H\30\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\33\5\0\0\0\0\0\200\33%\0\0\0\0\0"..., 832) = 832
+6675 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456887, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=664, st_size=339000, st_atime=2018/05/12-06:27:30.193409783, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+6677 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2436840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0) = 0x7f5678a7d000
+6678 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678acf000, 2093056, PROT_NONE) = 0
+6680 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678cce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>, 0x51000) = 0x7f5678cce000
+6681 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2>) = 0
+6683 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6684 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>
+6686 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\250\1\0\0\0\0\0@\0\0\0\0\0\0\0\0\375\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\340\20\0\0\0\0\0D\340\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\340\352\20\0\0\0\0\0\340\3520\0\0\0\0\0\340\3520\0\0\0\0\0\360\20\0\0\0\0\0\0x\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@\355\20\0\0\0\0\0@\3550\0\0\0\0\0"..., 832) = 832
+6687 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=5008430, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2184, st_size=1115136, st_atime=2018/05/12-06:27:30.193409783, st_mtime=2017/01/06-12:31:18, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+6689 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3212632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0) = 0x7f567876c000
+6690 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567887b000, 2093056, PROT_NONE) = 0
+6692 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678a7a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>, 0x10e000) = 0x7f5678a7a000
+6693 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678a7c000, 1368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5678a7c000
+6695 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2>) = 0
+6696 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6698 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>
+6699 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\25\0\0\0\0\0\0@\0\0\0\0\0\0\0\240B\0\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|2\0\0\0\0\0\0|2\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250=\0\0\0\0\0\0\250= \0\0\0\0\0\250= \0\0\0\0\0\270\3\0\0\0\0\0\0\310\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310=\0\0\0\0\0\0\310= \0\0\0\0\0"..., 832) = 832
+6701 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>, {st_dev=makedev(8, 1), st_ino=4980828, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18976, st_atime=2018/05/12-06:27:30.221410164, st_mtime=2017/06/14-17:51:16, st_ctime=2018/01/24-23:47:36.347501704}) = 0
+6702 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06f000
+6704 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2113904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>, 0) = 0x7f5678567000
+6705 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567856b000, 2093056, PROT_NONE) = 0
+6706 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567876a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>, 0x3000) = 0x7f567876a000
+6708 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libuuid.so.1.3.0>) = 0
+6709 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6711 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+6713 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+6714 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2018/05/12-06:48:02.798335832, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+6716 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7f567822d000
+6717 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678362000, 2097152, PROT_NONE) = 0
+6718 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678562000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7f5678562000
+6720 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+6721 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6722 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpthread-2.23.so>
+6724 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\210\23\2\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0)\0&\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\2206\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+6725 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libpthread-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002062, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138696, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:34, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+6727 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0) = 0x7f5678010000
+6728 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678028000, 2093056, PROT_NONE) = 0
+6729 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678227000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.23.so>, 0x17000) = 0x7f5678227000
+6730 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678229000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5678229000
+6732 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libpthread-2.23.so>) = 0
+6733 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6734 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+6736 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+6737 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+6739 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06e000
+6740 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7f5677c46000
+6741 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677e06000, 2097152, PROT_NONE) = 0
+6743 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5678006000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7f5678006000
+6744 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567800c000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f567800c000
+6745 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+6747 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6748 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>
+6749 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\2002\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274$\0\0\0\0\0\0\274$\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300-\0\0\0\0\0\0\300- \0\0\0\0\0\300- \0\0\0\0\0\240\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+6751 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, {st_dev=makedev(8, 1), st_ino=4456842, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14656, st_atime=2018/05/12-06:27:30.205409946, st_mtime=2017/01/06-12:31:19, st_ctime=2017/12/20-03:33:19.470344789}) = 0
+6752 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0) = 0x7f5677a42000
+6754 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677a45000, 2093056, PROT_NONE) = 0
+6755 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677c44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>, 0x2000) = 0x7f5677c44000
+6756 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2>) = 0
+6757 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6759 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>
+6760 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200I\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\306\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\265\0\0\0\0\0\0\34\265\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X\275\0\0\0\0\0\0X\275 \0\0\0\0\0X\275 \0\0\0\0\0h\10\0\0\0\0\0\0\340\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\275\0\0\0\0\0\0p\275 \0\0\0\0\0"..., 832) = 832
+6761 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>, {st_dev=makedev(8, 1), st_ino=4466162, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=52624, st_atime=2018/05/12-06:48:02.890330469, st_mtime=2015/10/23-17:35:04, st_ctime=2016/11/03-10:38:45.103999883}) = 0
+6763 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2147896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>, 0) = 0x7f5677835000
+6764 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677841000, 2093056, PROT_NONE) = 0
+6765 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677a40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>, 0xb000) = 0x7f5677a40000
+6767 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.3800.1>) = 0
+6768 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6769 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>
+6770 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0@\0\0\0\0\0\0\0\310\362\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\352\0\0\0\0\0\0$\352\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\355\0\0\0\0\0\0\250\355 \0\0\0\0\0\250\355 \0\0\0\0\0\360\3\0\0\0\0\0\0\340\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\355\0\0\0\0\0\0\350\355 \0\0\0\0\0"..., 832) = 832
+6772 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, {st_dev=makedev(8, 1), st_ino=4465250, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=128, st_size=63944, st_atime=2018/05/12-06:48:02.990324639, st_mtime=2016/01/24-18:12:32, st_ctime=2016/11/03-10:38:38.795999888}) = 0
+6773 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06d000
+6775 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2159240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, 0) = 0x7f5677625000
+6776 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677634000, 2093056, PROT_NONE) = 0
+6778 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677833000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>, 0xe000) = 0x7f5677833000
+6780 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXi.so.6.1.0>) = 0
+6781 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6783 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>
+6785 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0\370Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\31\0\30\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0dD\0\0\0\0\0\0dD\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270M\0\0\0\0\0\0\270M \0\0\0\0\0\270M \0\0\0\0\0'\3\0\0\0\0\0\0P\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320M\0\0\0\0\0\0\320M \0\0\0\0\0"..., 832) = 832
+6787 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, {st_dev=makedev(8, 1), st_ino=4465244, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22584, st_atime=2018/05/12-06:48:02.902329770, st_mtime=2014/08/04-08:06:45, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+6788 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0) = 0x7f567741f000
+6790 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677424000, 2093056, PROT_NONE) = 0
+6792 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677623000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>, 0x4000) = 0x7f5677623000
+6793 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0>) = 0
+6795 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6797 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>
+6798 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3203\0\0\0\0\0\0@\0\0\0\0\0\0\0\200\201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274_\0\0\0\0\0\0\274_\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250j\0\0\0\0\0\0\250j \0\0\0\0\0\250j \0\0\0\0\0\250\25\0\0\0\0\0\0\270\26\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0H}\0\0\0\0\0\0H} \0\0\0\0\0"..., 832) = 832
+6799 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>, {st_dev=makedev(8, 1), st_ino=4465387, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=34944, st_atime=2018/05/12-08:05:13.537572230, st_mtime=2016/01/10-06:16:46, st_ctime=2016/11/03-10:38:39.159999888}) = 0
+6801 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2130272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>, 0) = 0x7f5677216000
+6802 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567721c000, 2097152, PROT_NONE) = 0
+6804 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567741c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>, 0x6000) = 0x7f567741c000
+6805 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11400.6>) = 0
+6806 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6808 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libcairo.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>
+6809 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\34\1\0\0\0\0\0@\0\0\0\0\0\0\0\320\36\21\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\333\20\0\0\0\0\0\334\333\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h\347\20\0\0\0\0\0h\3470\0\0\0\0\0h\3470\0\0\0\0\00086\0\0\0\0\0\0XM\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\f\21\0\0\0\0\0\320\f1\0\0\0\0\0"..., 832) = 832
+6811 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>, {st_dev=makedev(8, 1), st_ino=4465389, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2200, st_size=1123792, st_atime=2018/05/12-06:48:02.866331869, st_mtime=2016/01/10-06:16:46, st_ctime=2016/11/03-10:38:39.167999888}) = 0
+6813 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06c000
+6814 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3224768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>, 0) = 0x7f5676f02000
+6815 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677010000, 2097152, PROT_NONE) = 0
+6817 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677210000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>, 0x10e000) = 0x7f5677210000
+6818 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5677214000, 5312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5677214000
+6819 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libcairo.so.2.11400.6>) = 0
+6820 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6822 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>
+6823 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0@\0\0\0\0\0\0\0\240\26\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\4\2\0\0\0\0\0\34\4\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h\n\2\0\0\0\0\0h\n\"\0\0\0\0\0h\n\"\0\0\0\0\0\10\v\0\0\0\0\0\0H\f\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\r\2\0\0\0\0\0\20\r\"\0\0\0\0\0"..., 832) = 832
+6824 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>, {st_dev=makedev(8, 1), st_ino=4463172, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=138656, st_atime=2018/05/12-06:29:48.242732471, st_mtime=2018/01/12-08:14:43, st_ctime=2018/01/22-22:38:26.276109360}) = 0
+6826 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2234032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>, 0) = 0x7f5676ce0000
+6827 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676d01000, 2093056, PROT_NONE) = 0
+6828 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5676f00000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>, 0x20000) = 0x7f5676f00000
+6829 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.3200.2>) = 0
+6831 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6832 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>
+6834 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\247\0\0\0\0\0\0@\0\0\0\0\0\0\0\250D\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\324\26\2\0\0\0\0\0\324\26\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250\35\2\0\0\0\0\0\250\35\"\0\0\0\0\0\250\35\"\0\0\0\0\0\320%\0\0\0\0\0\0P*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p=\2\0\0\0\0\0p=\"\0\0\0\0\0"..., 832) = 832
+6836 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>, {st_dev=makedev(8, 1), st_ino=4465333, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=296, st_size=150440, st_atime=2018/05/12-06:48:02.910329303, st_mtime=2015/10/23-16:56:50, st_ctime=2016/11/03-10:38:38.947999888}) = 0
+6837 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2246648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>, 0) = 0x7f5676abb000
+6839 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676add000, 2093056, PROT_NONE) = 0
+6840 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5676cdc000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>, 0x21000) = 0x7f5676cdc000
+6842 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.21809.1>) = 0
+6844 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6846 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>
+6848 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\247\0\0\0\0\0\0@\0\0\0\0\0\0\0 \354\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|\304\2\0\0\0\0\0|\304\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0X\315\2\0\0\0\0\0X\315\"\0\0\0\0\0X\315\"\0\0\0\0\0\250\35\0\0\0\0\0\0\0!\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\315\2\0\0\0\0\0p\315\"\0\0\0\0\0"..., 832) = 832
+6850 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465335, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=384, st_size=193248, st_atime=2018/05/12-08:05:13.557571803, st_mtime=2016/02/24-22:17:40, st_ctime=2016/11/03-10:38:38.947999888}) = 0
+6852 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06b000
+6853 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2289240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>, 0) = 0x7f567688c000
+6855 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56768b9000, 2093056, PROT_NONE) = 0
+6857 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5676ab8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>, 0x2c000) = 0x7f5676ab8000
+6859 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0>) = 0
+6861 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6862 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libepoxy.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>
+6864 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \217\5\0\0\0\0\0@\0\0\0\0\0\0\0\250I\17\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0dn\16\0\0\0\0\0dn\16\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\20v\16\0\0\0\0\0\20v.\0\0\0\0\0\20v.\0\0\0\0\0x\322\0\0\0\0\0\0(\323\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0000v\16\0\0\0\0\0000v.\0\0\0\0\0"..., 832) = 832
+6867 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4465539, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1968, st_size=1003624, st_atime=2018/05/12-08:05:13.565571632, st_mtime=2017/07/04-10:39:01, st_ctime=2017/12/21-03:28:06.322647381}) = 0
+6869 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3098936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>, 0) = 0x7f5676597000
+6871 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567667e000, 2097152, PROT_NONE) = 0
+6873 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567687e000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>, 0xe7000) = 0x7f567687e000
+6876 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0>) = 0
+6878 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6879 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>
+6881 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\0\0\0\0\0\0@\0\0\0\0\0\0\0\320X\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f>\1\0\0\0\0\0\f>\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0000M\1\0\0\0\0\0000M!\0\0\0\0\0000M!\0\0\0\0\0\220\n\0\0\0\0\0\0\330\v\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0HM\1\0\0\0\0\0HM!\0\0\0\0\0"..., 832) = 832
+6883 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>, {st_dev=makedev(8, 1), st_ino=4466164, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=90000, st_atime=2018/05/12-06:48:02.926328371, st_mtime=2015/10/23-17:35:09, st_ctime=2016/11/03-10:38:45.107999883}) = 0
+6885 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2185480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>, 0) = 0x7f5676381000
+6886 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676395000, 2097152, PROT_NONE) = 0
+6888 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5676595000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>, 0x14000) = 0x7f5676595000
+6890 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.3800.1>) = 0
+6891 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6893 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>
+6895 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\317\0\0\0\0\0\0@\0\0\0\0\0\0\0\360\265\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\205\4\0\0\0\0\0\24\205\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\223\4\0\0\0\0\0\310\223$\0\0\0\0\0\310\223$\0\0\0\0\0\f!\0\0\0\0\0\0\220#\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210\255\4\0\0\0\0\0\210\255$\0\0\0\0\0"..., 832) = 832
+6897 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>, {st_dev=makedev(8, 1), st_ino=4466160, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=608, st_size=310512, st_atime=2018/05/12-06:48:02.926328371, st_mtime=2015/10/23-17:35:03, st_ctime=2016/11/03-10:38:45.103999883}) = 0
+6899 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a06a000
+6901 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2406232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>, 0) = 0x7f5676135000
+6903 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567617e000, 2097152, PROT_NONE) = 0
+6905 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567637e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>, 0x49000) = 0x7f567637e000
+6907 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.3800.1>) = 0
+6909 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6910 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libfontconfig.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>
+6912 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`m\0\0\0\0\0\0@\0\0\0\0\0\0\0\250&\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\313\3\0\0\0\0\0\264\313\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\314\3\0\0\0\0\0\210\314#\0\0\0\0\0\210\314#\0\0\0\0\0\354X\0\0\0\0\0\0`[\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\335\3\0\0\0\0\0\240\335#\0\0\0\0\0"..., 832) = 832
+6914 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>, {st_dev=makedev(8, 1), st_ino=4456652, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=536, st_size=273832, st_atime=2018/05/12-06:48:02.926328371, st_mtime=2016/08/16-15:18:31, st_ctime=2016/11/03-23:18:15.528154584}) = 0
+6916 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2369512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>, 0) = 0x7f5675ef2000
+6918 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5675f2f000, 2093056, PROT_NONE) = 0
+6919 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567612e000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>, 0x3c000) = 0x7f567612e000
+6921 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libfontconfig.so.1.9.0>) = 0
+6923 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6925 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libm-2.23.so>
+6927 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libm-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\225\20\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0 \0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\370z\20\0\0\0\0\0\370z\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p}\20\0\0\0\0\0p}0\0\0\0\0\0p}0\0\0\0\0\0|\3\0\0\0\0\0\0\210\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\20\0\0\0\0\0\210}0\0\0\0\0\0"..., 832) = 832
+6929 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libm-2.23.so>, {st_dev=makedev(8, 1), st_ino=4985577, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2128, st_size=1088952, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+6931 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0) = 0x7f5675be9000
+6933 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5675cf1000, 2093056, PROT_NONE) = 0
+6935 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5675ef0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.23.so>, 0x107000) = 0x7f5675ef0000
+6937 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libm-2.23.so>) = 0
+6939 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a069000
+6941 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6943 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXinerama.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>
+6945 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0@\0\0\0\0\0\0\0\10\"\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\234\27\0\0\0\0\0\0\234\27\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\35\0\0\0\0\0\0\320\35 \0\0\0\0\0\320\35 \0\0\0\0\0000\3\0\0\0\0\0\0X\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\35\0\0\0\0\0\0\350\35 \0\0\0\0\0"..., 832) = 832
+6946 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465252, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10376, st_atime=2018/05/12-06:48:02.982325106, st_mtime=2013/06/30-19:11:40, st_ctime=2016/11/03-10:38:38.795999888}) = 0
+6948 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2105640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>, 0) = 0x7f56759e6000
+6950 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56759e8000, 2093056, PROT_NONE) = 0
+6952 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5675be7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>, 0x1000) = 0x7f5675be7000
+6954 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0>) = 0
+6956 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6958 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXrandr.so.2", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>
+6960 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\34\0\0\0\0\0\0@\0\0\0\0\0\0\0\230\242\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\220\0\0\0\0\0\0\264\220\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300\235\0\0\0\0\0\0\300\235 \0\0\0\0\0\300\235 \0\0\0\0\0\270\3\0\0\0\0\0\0\350\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330\235\0\0\0\0\0\0\330\235 \0\0\0\0\0"..., 832) = 832
+6962 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>, {st_dev=makedev(8, 1), st_ino=4465260, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43288, st_atime=2018/05/12-06:48:02.994324406, st_mtime=2015/08/03-03:24:47, st_ctime=2016/11/03-10:38:38.799999888}) = 0
+6964 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2138536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>, 0) = 0x7f56757db000
+6966 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56757e5000, 2093056, PROT_NONE) = 0
+6967 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56759e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>, 0x9000) = 0x7f56759e4000
+6969 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0>) = 0
+6971 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6973 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXcursor.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>
+6975 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340#\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\222\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\212\0\0\0\0\0\0\344\212\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\240\215\0\0\0\0\0\0\240\215 \0\0\0\0\0\240\215 \0\0\0\0\0\20\4\0\0\0\0\0\0000\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\215\0\0\0\0\0\0\270\215 \0\0\0\0\0"..., 832) = 832
+6978 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, {st_dev=makedev(8, 1), st_ino=4458288, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39288, st_atime=2018/05/12-06:48:02.994324406, st_mtime=2017/11/29-08:36:36, st_ctime=2017/12/02-07:13:13.834983804}) = 0
+6980 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a068000
+6982 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2134480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, 0) = 0x7f56755d1000
+6983 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56755da000, 2093056, PROT_NONE) = 0
+6985 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56757d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>, 0x8000) = 0x7f56757d9000
+6987 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2>) = 0
+6990 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+6992 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXcomposite.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>
+6994 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\f\0\0\0\0\0\0@\0\0\0\0\0\0\0x!\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L\32\0\0\0\0\0\0L\32\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\35\0\0\0\0\0\0\270\35 \0\0\0\0\0\270\35 \0\0\0\0\0\270\2\0\0\0\0\0\0\340\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\0\0\0\0\0\0\320\35 \0\0\0\0\0"..., 832) = 832
+6996 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465234, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10232, st_atime=2018/05/12-06:48:03.002323938, st_mtime=2013/06/16-19:13:26, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+6998 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2105496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, 0) = 0x7f56753ce000
+7000 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56753d0000, 2093056, PROT_NONE) = 0
+7002 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56755cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>, 0x1000) = 0x7f56755cf000
+7005 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0>) = 0
+7007 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7009 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXdamage.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>
+7010 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\v\0\0\0\0\0\0@\0\0\0\0\0\0\0\210!\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\344\27\0\0\0\0\0\0\344\27\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\35\0\0\0\0\0\0\270\35 \0\0\0\0\0\270\35 \0\0\0\0\0\320\2\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\35\0\0\0\0\0\0\320\35 \0\0\0\0\0"..., 832) = 832
+7012 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4465238, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10248, st_atime=2018/05/12-06:48:03.042321628, st_mtime=2014/07/16-08:19:39, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+7014 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2105528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0) = 0x7f56751cb000
+7016 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56751cd000, 2093056, PROT_NONE) = 0
+7018 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56753cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>, 0x1000) = 0x7f56753cc000
+7021 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0>) = 0
+7023 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7025 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>
+7027 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p>\0\0\0\0\0\0@\0\0\0\0\0\0\0\270\342\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\312\3\0\0\0\0\0\f\312\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h\314\3\0\0\0\0\0h\314#\0\0\0\0\0h\314#\0\0\0\0\0\30\25\0\0\0\0\0\0 \25\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260\335\3\0\0\0\0\0\260\335#\0\0\0\0\0"..., 832) = 832
+7029 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=504, st_size=256440, st_atime=2018/05/12-08:05:13.593571035, st_mtime=2015/07/20-04:16:32, st_ctime=2016/11/03-10:38:48.451999881}) = 0
+7031 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a067000
+7033 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2351496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>, 0) = 0x7f5674f8c000
+7035 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674fc9000, 2093056, PROT_NONE) = 0
+7037 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56751c8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>, 0x3c000) = 0x7f56751c8000
+7039 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0>) = 0
+7041 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7043 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>
+7045 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\22\0\0\0\0\0\0@\0\0\0\0\0\0\0\0s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d5\0\0\0\0\0\0d5\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300=\0\0\0\0\0\0\300= \0\0\0\0\0\300= \0\0\0\0\0 4\0\0\0\0\0\00004\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330=\0\0\0\0\0\0\330= \0\0\0\0\0"..., 832) = 832
+7047 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4462910, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31168, st_atime=2018/05/12-08:05:13.601570865, st_mtime=2018/03/08-07:22:52, st_ctime=2018/04/12-15:18:11.498866983}) = 0
+7050 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2126320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>, 0) = 0x7f5674d84000
+7051 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674d88000, 2093056, PROT_NONE) = 0
+7053 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5674f87000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>, 0x3000) = 0x7f5674f87000
+7055 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.0.0>) = 0
+7057 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7059 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>
+7062 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\6\0\0\0\0\0\0@\0\0\0\0\0\0\0H\21\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\364\t\0\0\0\0\0\0\364\t\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360\r\0\0\0\0\0\0\360\r \0\0\0\0\0\360\r \0\0\0\0\0@\2\0\0\0\0\0\0H\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10\16\0\0\0\0\0\0\10\16 \0\0\0\0\0"..., 832) = 832
+7063 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4486039, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=6088, st_atime=2018/05/12-08:05:13.621570438, st_mtime=2018/01/13-03:41:54, st_ctime=2018/01/24-23:18:06.887180622}) = 0
+7065 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2101304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>, 0) = 0x7f5674b82000
+7067 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674b83000, 2093056, PROT_NONE) = 0
+7069 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5674d82000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>, 0) = 0x7f5674d82000
+7072 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.0.0>) = 0
+7074 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7075 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libwayland-client.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>
+7077 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200Q\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\345\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\275\0\0\0\0\0\0\264\275\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\313\0\0\0\0\0\0\10\313 \0\0\0\0\0\10\313 \0\0\0\0\0\230\31\0\0\0\0\0\0\300\31\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220\335\0\0\0\0\0\0\220\335 \0\0\0\0\0"..., 832) = 832
+7079 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>, {st_dev=makedev(8, 1), st_ino=4462916, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=120, st_size=60624, st_atime=2018/05/12-08:05:13.637570097, st_mtime=2018/03/08-07:22:52, st_ctime=2018/04/12-15:18:11.982872386}) = 0
+7081 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a066000
+7084 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2155720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>, 0) = 0x7f5674973000
+7086 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567497f000, 2097152, PROT_NONE) = 0
+7088 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5674b7f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>, 0xc000) = 0x7f5674b7f000
+7091 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libwayland-client.so.0.3.0>) = 0
+7093 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7095 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libmirclient.so.9", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>
+7097 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@O\2\0\0\0\0\0@\0\0\0\0\0\0\0`e\n\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\302\373\t\0\0\0\0\0\302\373\t\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p\377\t\0\0\0\0\0p\377)\0\0\0\0\0p\377)\0\0\0\0\0hd\0\0\0\0\0\0\360g\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340K\n\0\0\0\0\0\340K*\0\0\0\0\0"..., 832) = 832
+7100 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>, {st_dev=makedev(8, 1), st_ino=4475468, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1336, st_size=683424, st_atime=2018/05/12-08:05:13.641570012, st_mtime=2017/10/11-18:51:30, st_ctime=2017/10/15-01:10:34.414054742}) = 0
+7102 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2778976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>, 0) = 0x7f56746cc000
+7104 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567476c000, 2093056, PROT_NONE) = 0
+7105 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567496b000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>, 0x9f000) = 0x7f567496b000
+7108 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libmirclient.so.9>) = 0
+7110 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7112 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>
+7114 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2205\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\30\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\6\1\0\0\0\0\0\334\6\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\r\1\0\0\0\0\0x\r!\0\0\0\0\0x\r!\0\0\0\0\0`\n\0\0\0\0\0\0 \r\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\r\1\0\0\0\0\0\270\r!\0\0\0\0\0"..., 832) = 832
+7116 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_dev=makedev(8, 1), st_ino=4465242, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=144, st_size=73640, st_atime=2018/05/12-06:48:03.046321396, st_mtime=2014/10/25-03:10:22, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+7118 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2169496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7f56744ba000
+7121 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56744cb000, 2093056, PROT_NONE) = 0
+7124 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56746ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7f56746ca000
+7126 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+7129 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7132 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/librt-2.23.so>
+7134 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/librt-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0@\0\0\0\0\0\0\0\240s\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\374f\0\0\0\0\0\0\374f\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0Xm\0\0\0\0\0\0Xm \0\0\0\0\0Xm \0\0\0\0\0\364\4\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0xm\0\0\0\0\0\0xm \0\0\0\0\0"..., 832) = 832
+7137 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/librt-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002081, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31712, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+7139 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a065000
+7141 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0) = 0x7f56742b2000
+7143 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56742b9000, 2093056, PROT_NONE) = 0
+7145 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56744b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/librt-2.23.so>, 0x6000) = 0x7f56744b8000
+7147 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/librt-2.23.so>) = 0
+7149 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7151 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libz.so.1.2.8>
+7153 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\35\0\0\0\0\0\0@\0\0\0\0\0\0\0`\222\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\205\1\0\0\0\0\0\204\205\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310\214\1\0\0\0\0\0\310\214!\0\0\0\0\0\310\214!\0\0\0\0\0X\4\0\0\0\0\0\0`\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\1\0\0\0\0\0\320\215!\0\0\0\0\0"..., 832) = 832
+7155 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libz.so.1.2.8>, {st_dev=makedev(8, 1), st_ino=4980912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=208, st_size=104864, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2017/03/03-12:52:25, st_ctime=2017/11/26-06:53:29.835524523}) = 0
+7157 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2199848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0) = 0x7f5674098000
+7160 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56740b1000, 2093056, PROT_NONE) = 0
+7161 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56742b0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libz.so.1.2.8>, 0x18000) = 0x7f56742b0000
+7164 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libz.so.1.2.8>) = 0
+7166 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7168 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libselinux.so.1>
+7170 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0@\0\0\0\0\0\0\0000\365\1\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\342\1\0\0\0\0\0$\342\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320\354\1\0\0\0\0\0\320\354!\0\0\0\0\0\320\354!\0\0\0\0\0 \7\0\0\0\0\0\0\20*\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0h\355\1\0\0\0\0\0h\355!\0\0\0\0\0"..., 832) = 832
+7172 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_dev=makedev(8, 1), st_ino=4985645, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=256, st_size=130224, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2016/03/16-06:55:51, st_ctime=2016/11/03-10:37:49.931999925}) = 0
+7174 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a064000
+7176 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f5673e76000
+7178 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673e95000, 2093056, PROT_NONE) = 0
+7180 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5674094000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1e000) = 0x7f5674094000
+7182 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5674096000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5674096000
+7185 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+7187 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7189 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libresolv-2.23.so>
+7191 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P9\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\203\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\37\0\36\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\304j\1\0\0\0\0\0\304j\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250t\1\0\0\0\0\0\250t!\0\0\0\0\0\250t!\0\0\0\0\0\270\r\0\0\0\0\0\0\2405\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\1\0\0\0\0\0\210}!\0\0\0\0\0"..., 832) = 832
+7193 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libresolv-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002067, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=200, st_size=101200, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+7195 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2206280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0) = 0x7f5673c5b000
+7198 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673c72000, 2097152, PROT_NONE) = 0
+7200 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5673e72000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libresolv-2.23.so>, 0x17000) = 0x7f5673e72000
+7202 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5673e74000, 6728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5673e74000
+7204 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libresolv-2.23.so>) = 0
+7206 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7208 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>
+7210 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\27\0\0\0\0\0\0@\0\0\0\0\0\0\0\200r\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0|l\0\0\0\0\0\0|l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350l\0\0\0\0\0\0\350l \0\0\0\0\0\350l \0\0\0\0\0d\4\0\0\0\0\0\0 \t\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10n\0\0\0\0\0\0\10n \0\0\0\0\0"..., 832) = 832
+7212 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, {st_dev=makedev(8, 1), st_ino=4465611, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31104, st_atime=2018/05/12-06:27:22.997312103, st_mtime=2015/12/14-18:14:10, st_ctime=2016/11/03-10:38:40.655999887}) = 0
+7214 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2127368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0) = 0x7f5673a53000
+7215 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673a5a000, 2093056, PROT_NONE) = 0
+7217 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5673c59000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>, 0x6000) = 0x7f5673c59000
+7219 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libffi.so.6.0.4>) = 0
+7221 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7224 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>
+7226 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0@\0\0\0\0\0\0\0008\361\6\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\334\6\0\0\0\0\0\354\334\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350\353\6\0\0\0\0\0\350\353&\0\0\0\0\0\350\353&\0\0\0\0\0H\4\0\0\0\0\0\0 \5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\20\355\6\0\0\0\0\0\20\355&\0\0\0\0\0"..., 832) = 832
+7229 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, {st_dev=makedev(8, 1), st_ino=4985616, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=896, st_size=456632, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2016/03/25-00:12:16, st_ctime=2016/11/03-10:37:49.903999925}) = 0
+7231 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a063000
+7233 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0) = 0x7f56737e3000
+7235 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673851000, 2097152, PROT_NONE) = 0
+7237 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5673a51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>, 0x6e000) = 0x7f5673a51000
+7239 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.2>) = 0
+7241 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7243 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+7246 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+7248 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2018/05/12-06:48:02.874331402, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+7251 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7f56735c1000
+7253 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56735e2000, 2093056, PROT_NONE) = 0
+7255 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56737e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7f56737e1000
+7258 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+7261 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7263 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+7266 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+7268 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+7270 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7f56733bd000
+7272 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56733c0000, 2093056, PROT_NONE) = 0
+7274 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56735bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7f56735bf000
+7278 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+7282 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a062000
+7284 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7286 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libfreetype.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>
+7288 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\334\0\0\0\0\0\0@\0\0\0\0\0\0\0\20\223\n\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\2\n\0\0\0\0\0\\2\n\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0h8\n\0\0\0\0\0h8*\0\0\0\0\0h8*\0\0\0\0\0xY\0\0\0\0\0\0\200Y\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0`\215\n\0\0\0\0\0`\215*\0\0\0\0\0"..., 832) = 832
+7290 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>, {st_dev=makedev(8, 1), st_ino=4456602, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1360, st_size=694800, st_atime=2018/05/12-06:48:03.054320933, st_mtime=2017/05/04-13:06:00, st_ctime=2017/05/10-03:56:54.941077311}) = 0
+7292 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2789864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>, 0) = 0x7f5673113000
+7295 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56731b7000, 2093056, PROT_NONE) = 0
+7297 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56733b6000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>, 0xa3000) = 0x7f56733b6000
+7300 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libfreetype.so.6.12.1>) = 0
+7302 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7304 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libpixman-1.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>
+7306 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\233\0\0\0\0\0\0@\0\0\0\0\0\0\0Pq\n\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0<\357\t\0\0\0\0\0<\357\t\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\300\372\t\0\0\0\0\0\300\372)\0\0\0\0\0\300\372)\0\0\0\0\0hu\0\0\0\0\0\0\210v\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340l\n\0\0\0\0\0\340l*\0\0\0\0\0"..., 832) = 832
+7307 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>, {st_dev=makedev(8, 1), st_ino=4466190, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1344, st_size=686096, st_atime=2018/05/12-06:48:03.046321396, st_mtime=2016/01/14-12:13:36, st_ctime=2016/11/03-10:38:45.239999883}) = 0
+7309 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2781512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>, 0) = 0x7f5672e6b000
+7311 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672f0a000, 2097152, PROT_NONE) = 0
+7312 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567310a000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>, 0x9f000) = 0x7f567310a000
+7314 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libpixman-1.so.0.33.6>) = 0
+7316 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7318 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libpng12.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>
+7320 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p:\0\0\0\0\0\0@\0\0\0\0\0\0\0\220B\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2049\2\0\0\0\0\0\2049\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0p=\2\0\0\0\0\0p=\"\0\0\0\0\0p=\"\0\0\0\0\0\t\4\0\0\0\0\0\0\20\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210=\2\0\0\0\0\0\210=\"\0\0\0\0\0"..., 832) = 832
+7322 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>, {st_dev=makedev(8, 1), st_ino=4985628, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=296, st_size=149904, st_atime=2018/05/12-06:48:03.094318619, st_mtime=2016/01/06-13:08:47, st_ctime=2016/11/03-10:37:49.911999925}) = 0
+7325 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a061000
+7327 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2244992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>, 0) = 0x7f5672c46000
+7329 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672c6a000, 2093056, PROT_NONE) = 0
+7331 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5672e69000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>, 0x23000) = 0x7f5672e69000
+7333 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libpng12.so.0.54.0>) = 0
+7335 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7337 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>
+7339 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\204\34\0\0\0\0\0\0\204\34\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\350+\0\0\0\0\0\0\350+ \0\0\0\0\0\350+ \0\0\0\0\0x\4\0\0\0\0\0\0\200\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\370-\0\0\0\0\0\0\370- \0\0\0\0\0"..., 832) = 832
+7340 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466597, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14480, st_atime=2018/05/12-06:48:03.102318158, st_mtime=2015/11/08-21:34:58, st_ctime=2016/11/03-10:38:48.439999881}) = 0
+7342 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2109544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>, 0) = 0x7f5672a42000
+7344 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672a44000, 2097152, PROT_NONE) = 0
+7346 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5672c44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>, 0x2000) = 0x7f5672c44000
+7348 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0>) = 0
+7350 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7352 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libxcb-render.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>
+7354 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`4\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\221\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\177\0\0\0\0\0\0004\177\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(\206\0\0\0\0\0\0(\206 \0\0\0\0\0(\206 \0\0\0\0\0008\n\0\0\0\0\0\0@\n\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\370\215\0\0\0\0\0\0\370\215 \0\0\0\0\0"..., 832) = 832
+7356 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>, {st_dev=makedev(8, 1), st_ino=4466593, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39056, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2015/11/08-21:34:48, st_ctime=2016/11/03-10:38:48.439999881}) = 0
+7358 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2134120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>, 0) = 0x7f5672838000
+7360 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672840000, 2097152, PROT_NONE) = 0
+7362 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5672a40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>, 0x8000) = 0x7f5672a40000
+7364 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0>) = 0
+7366 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7368 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXrender.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>
+7370 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\32\0\0\0\0\0\0@\0\0\0\0\0\0\0x\223\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\213\0\0\0\0\0\0T\213\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\215\0\0\0\0\0\0\270\215 \0\0\0\0\0\270\215 \0\0\0\0\0\277\4\0\0\0\0\0\0\360\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320\215\0\0\0\0\0\0\320\215 \0\0\0\0\0"..., 832) = 832
+7372 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, {st_dev=makedev(8, 1), st_ino=4465262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=39416, st_atime=2018/05/12-06:48:02.970325805, st_mtime=2015/07/14-18:18:25, st_ctime=2016/11/03-10:38:38.803999888}) = 0
+7374 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a060000
+7376 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2134696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, 0) = 0x7f567262e000
+7378 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672637000, 2093056, PROT_NONE) = 0
+7380 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5672836000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>, 0x8000) = 0x7f5672836000
+7382 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0>) = 0
+7384 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7386 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libatspi.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>
+7388 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\336\0\0\0\0\0\0@\0\0\0\0\0\0\0(\342\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354\262\2\0\0\0\0\0\354\262\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\264\2\0\0\0\0\0H\264\"\0\0\0\0\0H\264\"\0\0\0\0\0\274,\0\0\0\0\0\0P/\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\325\2\0\0\0\0\0\350\325\"\0\0\0\0\0"..., 832) = 832
+7390 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, {st_dev=makedev(8, 1), st_ino=4465341, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=376, st_size=190632, st_atime=2018/05/12-08:05:13.713568476, st_mtime=2016/02/24-22:18:26, st_ctime=2016/11/03-10:38:38.955999888}) = 0
+7392 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2286488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, 0) = 0x7f56723ff000
+7394 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567242b000, 2093056, PROT_NONE) = 0
+7396 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567262a000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>, 0x2b000) = 0x7f567262a000
+7398 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1>) = 0
+7401 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7402 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>
+7404 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0@\0\0\0\0\0\0\0\320\261\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\231\4\0\0\0\0\0\24\231\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0H\244\4\0\0\0\0\0H\244$\0\0\0\0\0H\244$\0\0\0\0\0T\f\0\0\0\0\0\0h\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10\252\4\0\0\0\0\0\10\252$\0\0\0\0\0"..., 832) = 832
+7406 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, {st_dev=makedev(8, 1), st_ino=4985529, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=608, st_size=309392, st_atime=2018/05/12-06:27:41.705566049, st_mtime=2017/01/12-13:13:51, st_ctime=2017/12/25-23:22:58.267678856}) = 0
+7408 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05f000
+7410 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0) = 0x7f56721b3000
+7413 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56721fd000, 2097152, PROT_NONE) = 0
+7416 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56723fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>, 0x4a000) = 0x7f56723fd000
+7418 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libdbus-1.so.3.14.6>) = 0
+7420 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7423 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>
+7425 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pf\0\0\0\0\0\0@\0\0\0\0\0\0\0\360\324\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\364\267\5\0\0\0\0\0\364\267\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10\301\5\0\0\0\0\0\10\301%\0\0\0\0\0\10\301%\0\0\0\0\0\270\22\0\0\0\0\0\0H\27\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\315\5\0\0\0\0\0\300\315%\0\0\0\0\0"..., 832) = 832
+7427 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>, {st_dev=makedev(8, 1), st_ino=4462150, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=752, st_size=383984, st_atime=2018/05/12-06:48:03.114317464, st_mtime=2016/08/17-11:54:17, st_ctime=2016/11/03-23:19:43.035932406}) = 0
+7429 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2480208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>, 0) = 0x7f5671f55000
+7431 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671fb1000, 2097152, PROT_NONE) = 0
+7433 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56721b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>, 0x5c000) = 0x7f56721b1000
+7436 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.10000.1>) = 0
+7438 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7440 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libthai.so.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>
+7442 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\33\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\212\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004y\0\0\0\0\0\0004y\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220}\0\0\0\0\0\0\220} \0\0\0\0\0\220} \0\0\0\0\0\320\v\0\0\0\0\0\0\350\v\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\0\0\0\0\0\0\260} \0\0\0\0\0"..., 832) = 832
+7444 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>, {st_dev=makedev(8, 1), st_ino=4466385, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=37264, st_atime=2018/05/12-06:48:03.138316077, st_mtime=2016/02/02-06:11:56, st_ctime=2016/11/03-10:38:46.735999882}) = 0
+7446 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05e000
+7448 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2132344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>, 0) = 0x7f5671d4c000
+7450 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671d54000, 2093056, PROT_NONE) = 0
+7451 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5671f53000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>, 0x7000) = 0x7f5671f53000
+7453 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libthai.so.0.2.4>) = 0
+7455 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7457 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>
+7459 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0;\0\0\0\0\0\0@\0\0\0\0\0\0\0\220\201\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L]\2\0\0\0\0\0L]\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210`\2\0\0\0\0\0\210`\"\0\0\0\0\0\210`\"\0\0\0\0\0\330\37\0\0\0\0\0\0\340\37\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340}\2\0\0\0\0\0\340}\"\0\0\0\0\0"..., 832) = 832
+7461 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, {st_dev=makedev(8, 1), st_ino=4980763, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=328, st_size=166032, st_atime=2018/05/12-06:27:34.113462990, st_mtime=2017/06/27-09:51:17, st_ctime=2017/07/22-06:15:46.137151402}) = 0
+7464 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0) = 0x7f5671b23000
+7465 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671b49000, 2097152, PROT_NONE) = 0
+7467 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5671d49000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>, 0x26000) = 0x7f5671d49000
+7469 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libexpat.so.1.6.0>) = 0
+7472 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7473 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libmircommon.so.7", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>
+7475 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3606\1\0\0\0\0\0@\0\0\0\0\0\0\0000g\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3377\4\0\0\0\0\0\3377\4\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@A\4\0\0\0\0\0@A$\0\0\0\0\0@A$\0\0\0\0\0\240$\0\0\0\0\0\0H'\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\220\\\4\0\0\0\0\0\220\\$\0\0\0\0\0"..., 832) = 832
+7477 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>, {st_dev=makedev(8, 1), st_ino=4456628, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=568, st_size=290480, st_atime=2018/05/12-08:05:13.729568136, st_mtime=2017/10/11-18:51:32, st_ctime=2017/10/15-01:10:33.718021423}) = 0
+7479 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2386056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>, 0) = 0x7f56718dc000
+7482 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671920000, 2097152, PROT_NONE) = 0
+7484 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5671b20000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>, 0x44000) = 0x7f5671b20000
+7486 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libmircommon.so.7>) = 0
+7489 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7491 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>
+7493 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p3\2\0\0\0\0\0@\0\0\0\0\0\0\0X\23\7\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\35\341\6\0\0\0\0\0\35\341\6\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\353\6\0\0\0\0\0\210\353&\0\0\0\0\0\210\353&\0\0\0\0\0\200&\0\0\0\0\0\0008(\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\360\10\7\0\0\0\0\0\360\10'\0\0\0\0\0"..., 832) = 832
+7495 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>, {st_dev=makedev(8, 1), st_ino=4461079, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=912, st_size=465624, st_atime=2018/05/12-08:05:13.741567880, st_mtime=2017/10/11-18:50:38, st_ctime=2017/10/15-01:10:34.110040273}) = 0
+7497 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05d000
+7499 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2560960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>, 0) = 0x7f567166a000
+7501 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56716d9000, 2093056, PROT_NONE) = 0
+7503 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56718d8000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>, 0x6e000) = 0x7f56718d8000
+7505 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libmirprotobuf.so.3>) = 0
+7507 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7509 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>
+7511 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 A\2\0\0\0\0\0@\0\0\0\0\0\0\0Hq\10\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214A\10\0\0\0\0\0\214A\10\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250G\10\0\0\0\0\0\250G(\0\0\0\0\0\250G(\0\0\0\0\0h(\0\0\0\0\0\0x(\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0Xj\10\0\0\0\0\0Xj(\0\0\0\0\0"..., 832) = 832
+7512 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>, {st_dev=makedev(8, 1), st_ino=4460156, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1088, st_size=555016, st_atime=2018/05/12-08:05:13.749567709, st_mtime=2015/12/26-16:45:14, st_ctime=2017/10/15-01:10:32.593966867}) = 0
+7514 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2650144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>, 0) = 0x7f56713e2000
+7516 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671467000, 2093056, PROT_NONE) = 0
+7518 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5671666000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>, 0x84000) = 0x7f5671666000
+7521 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libcapnp-0.5.3.so>) = 0
+7523 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7524 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libmircore.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libmircore.so.1>
+7526 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libmircore.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000'\0\0\0\0\0\0@\0\0\0\0\0\0\0\310\202\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\263l\0\0\0\0\0\0\263l\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\370z\0\0\0\0\0\0\370z \0\0\0\0\0\370z \0\0\0\0\0\200\6\0\0\0\0\0\0\210\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210}\0\0\0\0\0\0\210} \0\0\0\0\0"..., 832) = 832
+7528 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libmircore.so.1>, {st_dev=makedev(8, 1), st_ino=4456621, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35400, st_atime=2018/05/12-08:05:13.781567027, st_mtime=2017/10/11-18:51:32, st_ctime=2017/10/15-01:10:33.478009842}) = 0
+7530 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2130304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmircore.so.1>, 0) = 0x7f56711d9000
+7532 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56711e0000, 2097152, PROT_NONE) = 0
+7534 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56713e0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libmircore.so.1>, 0x7000) = 0x7f56713e0000
+7536 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libmircore.so.1>) = 0
+7539 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7541 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>
+7543 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\17\0\0\0\0\0\0@\0\0\0\0\0\0\0\2401\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\"\0\0\0\0\0\0T\"\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320,\0\0\0\0\0\0\320, \0\0\0\0\0\320, \0\0\0\0\0\240\3\0\0\0\0\0\0000\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\330-\0\0\0\0\0\0\330- \0\0\0\0\0"..., 832) = 832
+7545 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>, {st_dev=makedev(8, 1), st_ino=4485445, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14496, st_atime=2018/05/12-08:05:13.813566345, st_mtime=2016/06/14-04:57:31, st_ctime=2017/07/28-10:58:21.306207171}) = 0
+7547 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05c000
+7549 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>, 0) = 0x7f5670fd5000
+7552 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670fd8000, 2093056, PROT_NONE) = 0
+7554 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56711d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>, 0x2000) = 0x7f56711d7000
+7556 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0>) = 0
+7559 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7561 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>
+7563 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \324\0\0\0\0\0\0@\0\0\0\0\0\0\0\310\2\3\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\315\365\2\0\0\0\0\0\315\365\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0008\367\2\0\0\0\0\0008\367\"\0\0\0\0\0008\367\"\0\0\0\0\0L\n\0\0\0\0\0\0\370\n\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\374\2\0\0\0\0\0\300\374\"\0\0\0\0\0"..., 832) = 832
+7566 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>, {st_dev=makedev(8, 1), st_ino=4466211, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=392, st_size=199176, st_atime=2018/05/12-06:27:30.221410164, st_mtime=2015/10/23-17:49:05, st_ctime=2016/11/03-10:38:45.511999883}) = 0
+7568 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2294320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>, 0) = 0x7f5670da4000
+7570 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670dd4000, 2093056, PROT_NONE) = 0
+7572 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5670fd3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>, 0x2f000) = 0x7f5670fd3000
+7574 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1>) = 0
+7576 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7578 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>
+7580 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0@\0\0\0\0\0\0\0\250\336\27\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0!\0 \0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0z\31\27\0\0\0\0\0z\31\27\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270%\27\0\0\0\0\0\270%7\0\0\0\0\0\270%7\0\0\0\0\0\260\266\0\0\0\0\0\0H\356\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\255\27\0\0\0\0\0P\2557\0\0\0\0\0"..., 832) = 832
+7582 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, {st_dev=makedev(8, 1), st_ino=4462028, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3064, st_size=1566440, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2018/02/05-23:21:12, st_ctime=2018/02/06-03:28:43.496029929}) = 0
+7584 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0) = 0x7f5670a22000
+7586 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670b94000, 2097152, PROT_NONE) = 0
+7588 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5670d94000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>, 0x172000) = 0x7f5670d94000
+7590 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5670da0000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5670da0000
+7592 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21>) = 0
+7594 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7596 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcc_s.so.1>
+7598 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0@\0\0\0\0\0\0\0`W\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214R\1\0\0\0\0\0\214R\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220R\1\0\0\0\0\0\220R!\0\0\0\0\0\220R!\0\0\0\0\0\300\3\0\0\0\0\0\0\200\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260R\1\0\0\0\0\0\260R!\0\0\0\0\0"..., 832) = 832
+7599 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libgcc_s.so.1>, {st_dev=makedev(8, 1), st_ino=4985525, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=176, st_size=89696, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2016/04/15-19:43:51, st_ctime=2016/11/03-10:37:49.667999925}) = 0
+7601 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05b000
+7603 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0) = 0x7f567080c000
+7604 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670822000, 2093056, PROT_NONE) = 0
+7606 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5670a21000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcc_s.so.1>, 0x15000) = 0x7f5670a21000
+7608 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libgcc_s.so.1>) = 0
+7610 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7611 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+7613 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+7615 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+7617 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7f5670608000
+7618 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567060a000, 2097152, PROT_NONE) = 0
+7620 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567080a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7f567080a000
+7622 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+7624 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7626 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+7628 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+7630 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+7631 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f567a05a000
+7633 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7f5670402000
+7635 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670407000, 2093056, PROT_NONE) = 0
+7637 , 92719 , 92719 , gnome-terminal. , mmap(0x7f5670606000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7f5670606000
+7639 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+7641 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7642 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>
+7644 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\210'\10\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0!\0 \0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\361\7\0\0\0\0\0\200\361\7\0\0\0\0\0\0\20\0\0\0\0\0\0\1\0\0\0\6\0\0\0 \374\7\0\0\0\0\0 \f\10\0\0\0\0\0"..., 832) = 832
+7646 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, {st_dev=makedev(8, 1), st_ino=4980938, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=536520, st_atime=2018/05/12-06:27:41.705566049, st_mtime=2018/02/01-09:31:23, st_ctime=2018/02/06-03:28:03.228028294}) = 0
+7648 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0) = 0x7f5679fd5000
+7650 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567a055000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>, 0x7f000) = 0x7f567a055000
+7652 , 92719 , 92719 , gnome-terminal. , mmap(0x7f567a059000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f567a059000
+7654 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libsystemd.so.0.14.0>) = 0
+7656 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7657 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libgraphite2.so.3", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>
+7659 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220$\0\0\0\0\0\0@\0\0\0\0\0\0\0\330Q\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$2\2\0\0\0\0\0$2\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(>\2\0\0\0\0\0(>\"\0\0\0\0\0(>\"\0\0\0\0\0\200\22\0\0\0\0\0\0\210\22\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\2\0\0\0\0\0\10N\"\0\0\0\0\0"..., 832) = 832
+7661 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>, {st_dev=makedev(8, 1), st_ino=4458965, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=304, st_size=153816, st_atime=2018/05/12-06:48:03.178313763, st_mtime=2017/08/18-10:02:14, st_ctime=2017/08/27-05:21:55.563115967}) = 0
+7663 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fd4000
+7665 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2248880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>, 0) = 0x7f56701dc000
+7667 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670200000, 2093056, PROT_NONE) = 0
+7669 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56703ff000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>, 0x23000) = 0x7f56703ff000
+7671 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libgraphite2.so.3.0.1>) = 0
+7673 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7675 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libdatrie.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>
+7677 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\320q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0L^\0\0\0\0\0\0L^\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\320m\0\0\0\0\0\0\320m \0\0\0\0\0\320m \0\0\0\0\0\320\2\0\0\0\0\0\0\330\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350m\0\0\0\0\0\0\350m \0\0\0\0\0"..., 832) = 832
+7679 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>, {st_dev=makedev(8, 1), st_ino=4465482, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=30928, st_atime=2018/05/12-06:48:03.214311684, st_mtime=2016/02/01-18:15:27, st_ctime=2016/11/03-10:38:39.683999887}) = 0
+7681 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2125992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>, 0) = 0x7f566ffd4000
+7683 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566ffda000, 2097152, PROT_NONE) = 0
+7685 , 92719 , 92719 , gnome-terminal. , mmap(0x7f56701da000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>, 0x6000) = 0x7f56701da000
+7687 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libdatrie.so.1.3.3>) = 0
+7688 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7690 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>
+7692 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`i\0\0\0\0\0\0@\0\0\0\0\0\0\0\350s\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0eg\1\0\0\0\0\0eg\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10k\1\0\0\0\0\0\10k!\0\0\0\0\0\10k!\0\0\0\0\0\240\7\0\0\0\0\0\0\370\10\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0pm\1\0\0\0\0\0pm!\0\0\0\0\0"..., 832) = 832
+7693 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>, {st_dev=makedev(8, 1), st_ino=4485464, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=192, st_size=97064, st_atime=2018/05/12-08:05:13.849565577, st_mtime=2016/06/14-04:57:19, st_ctime=2017/07/28-10:58:25.802282964}) = 0
+7695 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2192384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>, 0) = 0x7f566fdbc000
+7697 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566fdd3000, 2093056, PROT_NONE) = 0
+7699 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566ffd2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>, 0x16000) = 0x7f566ffd2000
+7701 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.58.0>) = 0
+7703 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fd3000
+7705 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7706 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/libkj-0.5.3.so", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>
+7708 , 92719 , 92719 , gnome-terminal. , read(3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\317\0\0\0\0\0\0@\0\0\0\0\0\0\0p\201\2\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274e\2\0\0\0\0\0\274e\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0(r\2\0\0\0\0\0(r\"\0\0\0\0\0(r\"\0\0\0\0\0\20\16\0\0\0\0\0\0@\16\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@{\2\0\0\0\0\0@{\"\0\0\0\0\0"..., 832) = 832
+7710 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>, {st_dev=makedev(8, 1), st_ino=4458715, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=328, st_size=166000, st_atime=2018/05/12-08:05:13.897564554, st_mtime=2015/12/26-16:45:14, st_ctime=2017/10/15-01:10:32.593966867}) = 0
+7712 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2261096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>, 0) = 0x7f566fb93000
+7714 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566fbba000, 2097152, PROT_NONE) = 0
+7716 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566fdba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>, 0x27000) = 0x7f566fdba000
+7718 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/x86_64-linux-gnu/libkj-0.5.3.so>) = 0
+7720 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7722 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>
+7724 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0@\0\0\0\0\0\0\0\270\21\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\f\6\2\0\0\0\0\0\f\6\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\n\2\0\0\0\0\0\210\n\"\0\0\0\0\0\210\n\"\0\0\0\0\0\370\5\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300\r\2\0\0\0\0\0\300\r\"\0\0\0\0\0"..., 832) = 832
+7725 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, {st_dev=makedev(8, 1), st_ino=4985554, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137400, st_atime=2018/05/12-06:27:22.193301186, st_mtime=2014/02/12-10:14:49, st_ctime=2016/11/03-10:37:49.751999925}) = 0
+7727 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0) = 0x7f566f971000
+7729 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566f992000, 2093056, PROT_NONE) = 0
+7730 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566fb91000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>, 0x20000) = 0x7f566fb91000
+7732 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/liblzma.so.5.0.0>) = 0
+7734 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7735 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>
+7737 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0@\0\0\0\0\0\0\0@\377\r\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34p\r\0\0\0\0\0\34p\r\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\310r\r\0\0\0\0\0\310r-\0\0\0\0\0\310r-\0\0\0\0\0;\213\0\0\0\0\0\0\370\217\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260}\r\0\0\0\0\0\260}-\0\0\0\0\0"..., 832) = 832
+7739 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, {st_dev=makedev(8, 1), st_ino=4981847, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1800, st_size=919168, st_atime=2018/05/12-06:27:41.705566049, st_mtime=2017/07/03-09:19:05, st_ctime=2017/07/09-00:18:53.089677219}) = 0
+7741 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fd2000
+7743 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0) = 0x7f566f690000
+7744 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566f768000, 2093056, PROT_NONE) = 0
+7746 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566f967000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>, 0xd7000) = 0x7f566f967000
+7748 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566f970000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f566f970000
+7750 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libgcrypt.so.20.0.5>) = 0
+7752 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+7754 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>
+7756 , 92719 , 92719 , gnome-terminal. , read(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0@\0\0\0\0\0\0\00003\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\34\36\1\0\0\0\0\0\34\36\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@-\1\0\0\0\0\0@-!\0\0\0\0\0@-!\0\0\0\0\0\260\4\0\0\0\0\0\0\370\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\300-\1\0\0\0\0\0\300-!\0\0\0\0\0"..., 832) = 832
+7758 , 92719 , 92719 , gnome-terminal. , fstat(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, {st_dev=makedev(8, 1), st_ino=4985531, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=80496, st_atime=2018/05/12-06:27:41.705566049, st_mtime=2016/02/18-06:40:47, st_ctime=2016/11/03-10:37:49.687999925}) = 0
+7760 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0) = 0x7f566f47c000
+7762 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566f48e000, 2097152, PROT_NONE) = 0
+7764 , 92719 , 92719 , gnome-terminal. , mmap(0x7f566f68e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>, 0x12000) = 0x7f566f68e000
+7766 , 92719 , 92719 , gnome-terminal. , close(3</lib/x86_64-linux-gnu/libgpg-error.so.0.17.0>) = 0
+7768 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fd1000
+7770 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fd0000
+7772 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fcf000
+7774 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fce000
+7776 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fcd000
+7778 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fcc000
+7780 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fca000
+7782 , 92719 , 92719 , gnome-terminal. , arch_prctl(ARCH_SET_FS, 0x7f5679fcaa80) = 0
+7784 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678006000, 16384, PROT_READ) = 0
+7786 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566f68e000, 4096, PROT_READ) = 0
+7788 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566f967000, 4096, PROT_READ) = 0
+7790 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56735bf000, 4096, PROT_READ) = 0
+7792 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566fb91000, 4096, PROT_READ) = 0
+7794 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678227000, 4096, PROT_READ) = 0
+7796 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5675ef0000, 4096, PROT_READ) = 0
+7798 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fc9000
+7800 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5679fc8000
+7802 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670d94000, 40960, PROT_READ) = 0
+7804 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566fdba000, 4096, PROT_READ) = 0
+7806 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56711d7000, 4096, PROT_READ) = 0
+7809 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f566ffd2000, 4096, PROT_READ) = 0
+7811 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56701da000, 4096, PROT_READ) = 0
+7813 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56703ff000, 8192, PROT_READ) = 0
+7815 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56744b8000, 4096, PROT_READ) = 0
+7817 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673a51000, 4096, PROT_READ) = 0
+7819 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674094000, 4096, PROT_READ) = 0
+7821 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567a055000, 12288, PROT_READ) = 0
+7822 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670606000, 4096, PROT_READ) = 0
+7824 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567080a000, 4096, PROT_READ) = 0
+7826 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5670fd3000, 4096, PROT_READ) = 0
+7828 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56713e0000, 4096, PROT_READ) = 0
+7832 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671666000, 12288, PROT_READ) = 0
+7836 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56718d8000, 12288, PROT_READ) = 0
+7838 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671b20000, 8192, PROT_READ) = 0
+7840 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671d49000, 8192, PROT_READ) = 0
+7842 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5671f53000, 4096, PROT_READ) = 0
+7845 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678a7a000, 4096, PROT_READ) = 0
+7847 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56742b0000, 4096, PROT_READ) = 0
+7849 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672e69000, 4096, PROT_READ) = 0
+7852 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56733b6000, 24576, PROT_READ) = 0
+7854 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56721b1000, 4096, PROT_READ) = 0
+7857 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56723fd000, 4096, PROT_READ) = 0
+7859 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673c59000, 4096, PROT_READ) = 0
+7861 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678cce000, 4096, PROT_READ) = 0
+7863 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56737e1000, 4096, PROT_READ) = 0
+7865 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5678562000, 4096, PROT_READ) = 0
+7873 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567262a000, 12288, PROT_READ) = 0
+7875 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672836000, 4096, PROT_READ) = 0
+7877 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672a40000, 4096, PROT_READ) = 0
+7879 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5672c44000, 4096, PROT_READ) = 0
+7881 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567310a000, 32768, PROT_READ) = 0
+7883 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5673e72000, 4096, PROT_READ) = 0
+7885 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56746ca000, 4096, PROT_READ) = 0
+7887 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56751c8000, 8192, PROT_READ) = 0
+7892 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567496b000, 24576, PROT_READ) = 0
+7895 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674b7f000, 8192, PROT_READ) = 0
+7897 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674d82000, 4096, PROT_READ) = 0
+7899 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5674f87000, 4096, PROT_READ) = 0
+7901 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56753cc000, 4096, PROT_READ) = 0
+7903 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56755cf000, 4096, PROT_READ) = 0
+7905 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677623000, 4096, PROT_READ) = 0
+7907 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56757d9000, 4096, PROT_READ) = 0
+7908 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f56759e4000, 4096, PROT_READ) = 0
+7910 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5675be7000, 4096, PROT_READ) = 0
+7912 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567612e000, 8192, PROT_READ) = 0
+7914 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567637e000, 8192, PROT_READ) = 0
+7916 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676595000, 4096, PROT_READ) = 0
+7919 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567687e000, 28672, PROT_READ) = 0
+7922 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676cdc000, 12288, PROT_READ) = 0
+7925 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676ab8000, 4096, PROT_READ) = 0
+7927 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677c44000, 4096, PROT_READ) = 0
+7929 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679050000, 16384, PROT_READ) = 0
+7932 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5676f00000, 4096, PROT_READ) = 0
+7934 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677210000, 12288, PROT_READ) = 0
+7937 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567741c000, 8192, PROT_READ) = 0
+7939 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677833000, 4096, PROT_READ) = 0
+7941 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5677a40000, 4096, PROT_READ) = 0
+7943 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567876a000, 4096, PROT_READ) = 0
+7945 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679263000, 4096, PROT_READ) = 0
+7951 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679538000, 20480, PROT_READ) = 0
+7955 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f5679e5a000, 40960, PROT_READ) = 0
+7956 , 92719 , 92719 , gnome-terminal. , mprotect(0x612000, 4096, PROT_READ) = 0
+7958 , 92719 , 92719 , gnome-terminal. , mprotect(0x7f567a094000, 4096, PROT_READ) = 0
+7959 , 92719 , 92719 , gnome-terminal. , munmap(0x7f567a072000, 136611) = 0
+7961 , 92719 , 92719 , gnome-terminal. , set_tid_address(0x7f5679fcad50) = 92719
+7963 , 92719 , 92719 , gnome-terminal. , set_robust_list(0x7f5679fcad60, 24) = 0
+7965 , 92719 , 92719 , gnome-terminal. , rt_sigaction(SIGRTMIN, {0x7f5678015b50, [], SA_RESTORER|SA_SIGINFO, 0x7f5678021390}, NULL, 8) = 0
+7966 , 92719 , 92719 , gnome-terminal. , rt_sigaction(SIGRT_1, {0x7f5678015be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f5678021390}, NULL, 8) = 0
+7968 , 92719 , 92719 , gnome-terminal. , rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+7970 , 92719 , 92719 , gnome-terminal. , getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+7972 , 92719 , 92719 , gnome-terminal. , brk(NULL) = 0x160f000
+7974 , 92719 , 92719 , gnome-terminal. , brk(0x1630000) = 0x1630000
+7977 , 92719 , 92719 , gnome-terminal. , statfs("/sys/fs/selinux", 0x7ffc6abdeb60) = -1 ENOENT (No such file or directory)
+7979 , 92719 , 92719 , gnome-terminal. , statfs("/selinux", 0x7ffc6abdeb60) = -1 ENOENT (No such file or directory)
+7981 , 92719 , 92719 , gnome-terminal. , open("/proc/filesystems", O_RDONLY) = 3</proc/filesystems>
+7983 , 92719 , 92719 , gnome-terminal. , fstat(3</proc/filesystems>, {st_dev=makedev(0, 4), st_ino=4026532037, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:39.415227491, st_mtime=2018/05/12-11:00:39.415227491, st_ctime=2018/05/12-11:00:39.415227491}) = 0
+7986 , 92719 , 92719 , gnome-terminal. , read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tramfs\nnodev\tbdev\nnodev\tproc\nnodev\tcpuset\nnodev\tcgroup\nnodev\ttmpfs\nnodev\tdevtmpfs\nnodev\tdebugfs\nnodev\ttracefs\nnodev\tsecurityfs\nnodev\tsockfs\nnodev\tbpf\nnodev\tpipefs\nnodev\td"..., 1024) = 424
+7988 , 92719 , 92719 , gnome-terminal. , read(3</proc/filesystems>, "", 1024) = 0
+7990 , 92719 , 92719 , gnome-terminal. , close(3</proc/filesystems>) = 0
+7995 , 92719 , 92719 , gnome-terminal. , futex(0x7f5670da11ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+7997 , 92719 , 92719 , gnome-terminal. , futex(0x7f5670da11b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+7999 , 92719 , 92719 , gnome-terminal. , futex(0x7f5678a7c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8001 , 92719 , 92719 , gnome-terminal. , futex(0x7f5678a7c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8004 , 92719 , 92719 , gnome-terminal. , brk(0x1651000) = 0x1651000
+8007 , 92719 , 92719 , gnome-terminal. , futex(0x7f56735c00a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8009 , 92719 , 92719 , gnome-terminal. , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+8011 , 92719 , 92719 , gnome-terminal. , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+8013 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f567a072000
+8015 , 92719 , 92719 , gnome-terminal. , close(3</etc/ld.so.cache>) = 0
+8017 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8019 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/tls/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8021 , 92719 , 92719 , gnome-terminal. , stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8023 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/tls/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8024 , 92719 , 92719 , gnome-terminal. , stat("/lib/x86_64-linux-gnu/tls", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8026 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8028 , 92719 , 92719 , gnome-terminal. , stat("/lib/x86_64-linux-gnu/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8030 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8032 , 92719 , 92719 , gnome-terminal. , stat("/lib/x86_64-linux-gnu", {st_dev=makedev(8, 1), st_ino=4980759, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=16384, st_atime=2018/05/12-06:29:51.030692725, st_mtime=2018/04/20-06:06:11.977674720, st_ctime=2018/04/20-06:06:11.977674720}) = 0
+8034 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/tls/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8036 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8037 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/tls/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8039 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/x86_64-linux-gnu/tls", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8042 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8044 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8046 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8048 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/x86_64-linux-gnu", {st_dev=makedev(8, 1), st_ino=4460464, st_mode=S_IFDIR|0755, st_nlink=131, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=248, st_size=122880, st_atime=2018/05/12-06:29:51.138549775, st_mtime=2018/05/09-23:38:06.447869872, st_ctime=2018/05/09-23:38:06.447869872}) = 0
+8050 , 92719 , 92719 , gnome-terminal. , open("/lib/tls/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8052 , 92719 , 92719 , gnome-terminal. , stat("/lib/tls/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8054 , 92719 , 92719 , gnome-terminal. , open("/lib/tls/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8056 , 92719 , 92719 , gnome-terminal. , stat("/lib/tls", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8058 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8060 , 92719 , 92719 , gnome-terminal. , stat("/lib/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8062 , 92719 , 92719 , gnome-terminal. , open("/lib/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8064 , 92719 , 92719 , gnome-terminal. , stat("/lib", {st_dev=makedev(8, 1), st_ino=4980737, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-06:29:51.721776791, st_mtime=2018/01/24-23:47:54.665473952, st_ctime=2018/01/24-23:47:54.665473952}) = 0
+8066 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/tls/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8068 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/tls/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8070 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/tls/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8072 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/tls", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8074 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8076 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib/x86_64", 0x7ffc6abde2d0) = -1 ENOENT (No such file or directory)
+8078 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8080 , 92719 , 92719 , gnome-terminal. , stat("/usr/lib", {st_dev=makedev(8, 1), st_ino=4456453, st_mode=S_IFDIR|0775, st_nlink=172, st_uid=4011, st_gid=4011, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2018/05/12-06:29:51.737755613, st_mtime=2018/05/09-23:39:43.450692172, st_ctime=2018/05/09-23:39:43.450692172}) = 0
+8082 , 92719 , 92719 , gnome-terminal. , munmap(0x7f567a072000, 136611) = 0
+8085 , 92719 , 92719 , gnome-terminal. , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+8087 , 92719 , 92719 , gnome-terminal. , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+8089 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f567a072000
+8091 , 92719 , 92719 , gnome-terminal. , close(3</etc/ld.so.cache>) = 0
+8093 , 92719 , 92719 , gnome-terminal. , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+8095 , 92719 , 92719 , gnome-terminal. , open("/lib/x86_64-linux-gnu/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8096 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8098 , 92719 , 92719 , gnome-terminal. , open("/lib/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8100 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+8102 , 92719 , 92719 , gnome-terminal. , munmap(0x7f567a072000, 136611) = 0
+8104 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive>
+8106 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/lib/locale/locale-archive>, {st_dev=makedev(8, 1), st_ino=4456647, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5728, st_size=2981280, st_atime=2018/05/12-06:27:22.201301295, st_mtime=2018/01/22-22:41:04.612236894, st_ctime=2018/01/22-22:41:04.612236894}) = 0
+8108 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f566f1a4000
+8110 , 92719 , 92719 , gnome-terminal. , close(3</usr/lib/locale/locale-archive>) = 0
+8112 , 92719 , 92719 , gnome-terminal. , stat(".", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=81, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-10:59:11.787448487, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+8114 , 92719 , 92719 , gnome-terminal. , stat("/home/elwin", {st_dev=makedev(8, 1), st_ino=2883586, st_mode=S_IFDIR|0755, st_nlink=81, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2018/05/12-10:59:11.787448487, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+8117 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias>
+8119 , 92719 , 92719 , gnome-terminal. , fstat(3</etc/locale.alias>, {st_dev=makedev(8, 1), st_ino=131245, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2995, st_atime=2018/05/12-06:27:22.201301295, st_mtime=2016/04/14-18:09:26, st_ctime=2016/11/03-10:37:31.255999939}) = 0
+8121 , 92719 , 92719 , gnome-terminal. , read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2016 Free Software Foundation, Inc.\n#\n# This program is free software; you can redistribute it and/or modify\n# it under the terms of the GNU General"..., 4096) = 2995
+8123 , 92719 , 92719 , gnome-terminal. , read(3</etc/locale.alias>, "", 4096) = 0
+8124 , 92719 , 92719 , gnome-terminal. , close(3</etc/locale.alias>) = 0
+8127 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8129 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8130 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8132 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8134 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8135 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8137 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8139 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8140 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8142 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8144 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8146 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8148 , 92719 , 92719 , gnome-terminal. , futex(0x7f5678a7c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8150 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8152 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8154 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8155 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8157 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8159 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8161 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8163 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8165 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8167 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8169 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gtk30.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8171 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo", O_RDONLY) = 3</usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo>
+8173 , 92719 , 92719 , gnome-terminal. , fstat(3</usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo>, {st_dev=makedev(8, 1), st_ino=141867, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3339, st_atime=2018/05/12-08:05:13.973562933, st_mtime=2016/10/10-06:42:01, st_ctime=2018/01/24-23:49:35.298642280}) = 0
+8175 , 92719 , 92719 , gnome-terminal. , mmap(NULL, 3339, PROT_READ, MAP_PRIVATE, 3</usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo>, 0) = 0x7f567a093000
+8176 , 92719 , 92719 , gnome-terminal. , close(3</usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo>) = 0
+8180 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8182 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8183 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8185 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8187 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8188 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8190 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8192 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8194 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8196 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8197 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8199 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8202 , 92719 , 92719 , gnome-terminal. , futex(0x7f5678a7c428, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+8204 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8206 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8208 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8209 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8211 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8213 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8215 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8217 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8219 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8221 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8222 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8224 , 92719 , 92719 , gnome-terminal. , open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+8227 , 92719 , 92719 , gnome-terminal. , open("/usr/lib/x86_64-linux-gnu/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+8229 , 92719 , 92719 , gnome-terminal. , write(2</home/elwin/.vnc/elwin-virtual-machine:1.log>, "Failed to parse arguments: Unknown option --login\n", 50) = 50
+8236 , 92719 , 92719 , gnome-terminal. , exit_group(1) = ?
+8243 , 92719 , 92719 , gnome-terminal. , +++ exited with 1 +++

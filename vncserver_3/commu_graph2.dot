@@ -1,0 +1,26 @@
+digraph abc{
+subgraph cluster_92700 {
+92700 [label="92700 \"xstartup\",\"xsetroot\"" ];
+label = "process_id:92700";
+color = blue;
+}
+subgraph cluster_92697 {
+92697 [label="92697 \"sh\",\"Xvnc4\"" ];
+label = "process_id:92697";
+color = blue;
+}
+subgraph cluster_92707 {
+92707 [label="92707 \"xstartup\",\"vncconfig\"" ];
+label = "process_id:92707";
+color = blue;
+}
+subgraph cluster_92709 {
+92709 [label="92709 \"xstartup\",\"x-window-manage\"" ];
+label = "process_id:92709";
+color = blue;
+}
+92700 -> 92697 [ color="purple" ];
+92707 -> 92697 [ color="purple" ];
+92709 -> 92697 [ color="purple" ];
+
+}

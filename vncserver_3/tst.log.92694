@@ -1,0 +1,182 @@
+715 , 92694 , 92694 , perl , set_robust_list(0x7f53361759e0, 24) = 0
+716 , 92694 , 92694 , perl , close(5<pipe:[254392]>) = 0
+718 , 92694 , 92694 , perl , fcntl(6<pipe:[254392]>, F_SETFD, FD_CLOEXEC) = 0
+721 , 92694 , 92694 , perl , dup2(3<pipe:[254391]>, 0</dev/pts/5>) = 0<pipe:[254391]>
+722 , 92694 , 92694 , perl , close(3<pipe:[254391]>) = 0
+724 , 92694 , 92694 , perl , close(4<pipe:[254391]>) = 0
+725 , 92694 , 92694 , perl , rt_sigaction(SIGFPE, {SIG_DFL, [], SA_RESTORER, 0x7f533585d390}, {SIG_IGN, [FPE], SA_RESTORER|SA_RESTART, 0x7f53354b74b0}, 8) = 0
+726 , 92694 , 92694 , perl , execve("/usr/local/sbin/xauth", ["xauth", "-f", "/home/elwin/.Xauthority", "source", "-"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s"]) = -1 ENOENT (No such file or directory)
+727 , 92694 , 92694 , perl , execve("/usr/local/bin/xauth", ["xauth", "-f", "/home/elwin/.Xauthority", "source", "-"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s"]) = -1 ENOENT (No such file or directory)
+728 , 92694 , 92694 , perl , execve("/usr/sbin/xauth", ["xauth", "-f", "/home/elwin/.Xauthority", "source", "-"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s"]) = -1 ENOENT (No such file or directory)
+729 , 92694 , 92694 , perl , execve("/usr/bin/xauth", ["xauth", "-f", "/home/elwin/.Xauthority", "source", "-"], ["XDG_SESSION_ID=334", "SHELL=/bin/bash", "TERM=xterm", "SSH_CLIENT=192.168.209.1 58993 22", "SSH_TTY=/dev/pts/5", "USER=elwin", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc"..., "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin", "MAIL=/var/mail/elwin", "QT_QPA_PLATFORMTHEME=appmenu-qt5", "PWD=/home/elwin/mypaper_data/strace_code", "LANG=en_US.UTF-8", "HOME=/home/elwin", "SHLVL=1", "LOGNAME=elwin", "SSH_CONNECTION=192.168.209.1 58993 192.168.209.135 22", "XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop", "LESSOPEN=| /usr/bin/lesspipe %s", "XDG_RUNTIME_DIR=/run/user/1000", "LESSCLOSE=/usr/bin/lesspipe %s %s"]) = 0
+731 , 92694 , 92694 , xauth , brk(NULL) = 0x12e4000
+733 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+735 , 92694 , 92694 , xauth , access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+736 , 92694 , 92694 , xauth , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+738 , 92694 , 92694 , xauth , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+740 , 92694 , 92694 , xauth , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7ff4366aa000
+742 , 92694 , 92694 , xauth , close(3</etc/ld.so.cache>) = 0
+744 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+745 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>
+746 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\210\1\0\0\0\0\0@\0\0\0\0\0\0\0\360\226\23\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\B\23\0\0\0\0\0\\B\23\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210Q\23\0\0\0\0\0\210Q3\0\0\0\0\0\210Q3\0\0\0\0\0XD\0\0\0\0\0\0\260K\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0p\\\23\0\0\0\0\0p\\3\0\0\0\0\0"..., 832) = 832
+747 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, {st_dev=makedev(8, 1), st_ino=4465225, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2512, st_size=1285552, st_atime=2018/05/12-06:48:02.798335832, st_mtime=2015/09/18-07:56:35, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+748 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a9000
+749 , 92694 , 92694 , xauth , mmap(NULL, 3382584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0) = 0x7ff43616d000
+750 , 92694 , 92694 , xauth , mprotect(0x7ff4362a2000, 2097152, PROT_NONE) = 0
+751 , 92694 , 92694 , xauth , mmap(0x7ff4364a2000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>, 0x135000) = 0x7ff4364a2000
+752 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libX11.so.6.3.0>) = 0
+753 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+754 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>
+755 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3701\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\32\0\31\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\264\36\0\0\0\0\0\0\264\36\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0\360- \0\0\0\0\0\10\3\0\0\0\0\0\0(\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10.\0\0\0\0\0\0\10. \0\0\0\0\0"..., 832) = 832
+756 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465229, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14456, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2013/06/15-07:12:55, st_ctime=2016/11/03-10:38:38.775999888}) = 0
+757 , 92694 , 92694 , xauth , mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0) = 0x7ff435f69000
+758 , 92694 , 92694 , xauth , mprotect(0x7ff435f6b000, 2097152, PROT_NONE) = 0
+759 , 92694 , 92694 , xauth , mmap(0x7ff43616b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>, 0x2000) = 0x7ff43616b000
+760 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libXau.so.6.0.0>) = 0
+761 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+762 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>
+763 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2205\0\0\0\0\0\0@\0\0\0\0\0\0\0\350\30\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\6\1\0\0\0\0\0\334\6\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\r\1\0\0\0\0\0x\r!\0\0\0\0\0x\r!\0\0\0\0\0`\n\0\0\0\0\0\0 \r\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\270\r\1\0\0\0\0\0\270\r!\0\0\0\0\0"..., 832) = 832
+764 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, {st_dev=makedev(8, 1), st_ino=4465242, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=144, st_size=73640, st_atime=2018/05/12-06:48:03.046321396, st_mtime=2014/10/25-03:10:22, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+765 , 92694 , 92694 , xauth , mmap(NULL, 2169496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0) = 0x7ff435d57000
+766 , 92694 , 92694 , xauth , mprotect(0x7ff435d68000, 2093056, PROT_NONE) = 0
+767 , 92694 , 92694 , xauth , mmap(0x7ff435f67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>, 0x10000) = 0x7ff435f67000
+768 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libXext.so.6.4.0>) = 0
+769 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+770 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libXmuu.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>
+771 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\23\0\0\0\0\0\0@\0\0\0\0\0\0\0\3001\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d(\0\0\0\0\0\0d(\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\10)\0\0\0\0\0\0\10) \0\0\0\0\0\10) \0\0\0\0\0\210\7\0\0\0\0\0\0\220\7\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\360-\0\0\0\0\0\0\360- \0\0\0\0\0"..., 832) = 832
+772 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, {st_dev=makedev(8, 1), st_ino=4465256, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14528, st_atime=2018/05/12-08:04:58.905890845, st_mtime=2015/12/10-06:38:10, st_ctime=2016/11/03-10:38:38.799999888}) = 0
+773 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a8000
+774 , 92694 , 92694 , xauth , mmap(NULL, 2109592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, 0) = 0x7ff435b53000
+775 , 92694 , 92694 , xauth , mprotect(0x7ff435b56000, 2093056, PROT_NONE) = 0
+776 , 92694 , 92694 , xauth , mmap(0x7ff435d55000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>, 0x2000) = 0x7ff435d55000
+777 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libXmuu.so.1.0.0>) = 0
+778 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+779 , 92694 , 92694 , xauth , open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libc-2.23.so>
+780 , 92694 , 92694 , xauth , read(3</lib/x86_64-linux-gnu/libc-2.23.so>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0@\0\0\0\0\0\0\0\270r\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0H\0G\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0`f\31\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+781 , 92694 , 92694 , xauth , fstat(3</lib/x86_64-linux-gnu/libc-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002063, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3656, st_size=1868984, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+782 , 92694 , 92694 , xauth , mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0) = 0x7ff435789000
+783 , 92694 , 92694 , xauth , mprotect(0x7ff435949000, 2097152, PROT_NONE) = 0
+784 , 92694 , 92694 , xauth , mmap(0x7ff435b49000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.23.so>, 0x1c0000) = 0x7ff435b49000
+785 , 92694 , 92694 , xauth , mmap(0x7ff435b4f000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff435b4f000
+786 , 92694 , 92694 , xauth , close(3</lib/x86_64-linux-gnu/libc-2.23.so>) = 0
+787 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+788 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>
+789 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\0\0\0\0\0\0@\0\0\0\0\0\0\0\0\23\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\\1\2\0\0\0\0\0\\\1\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\270\f\2\0\0\0\0\0\270\f\"\0\0\0\0\0\270\f\"\0\0\0\0\0\30\5\0\0\0\0\0\0\360\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\r\2\0\0\0\0\0\310\r\"\0\0\0\0\0"..., 832) = 832
+790 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, {st_dev=makedev(8, 1), st_ino=4466607, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=137728, st_atime=2018/05/12-06:48:02.874331402, st_mtime=2015/11/08-21:34:30, st_ctime=2016/11/03-10:38:48.443999881}) = 0
+791 , 92694 , 92694 , xauth , mmap(NULL, 2233000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0) = 0x7ff435567000
+792 , 92694 , 92694 , xauth , mprotect(0x7ff435588000, 2093056, PROT_NONE) = 0
+793 , 92694 , 92694 , xauth , mmap(0x7ff435787000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>, 0x20000) = 0x7ff435787000
+794 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0>) = 0
+795 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+796 , 92694 , 92694 , xauth , open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libdl-2.23.so>
+797 , 92694 , 92694 , xauth , read(3</lib/x86_64-linux-gnu/libdl-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0@\0\0\0\0\0\0\0\2201\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\20\3\0\0\0\0\0\0\220\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0"..., 832) = 832
+798 , 92694 , 92694 , xauth , fstat(3</lib/x86_64-linux-gnu/libdl-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002065, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14608, st_atime=2018/05/12-06:27:22.189301132, st_mtime=2018/01/14-21:51:31, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+799 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a7000
+800 , 92694 , 92694 , xauth , mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0) = 0x7ff435363000
+801 , 92694 , 92694 , xauth , mprotect(0x7ff435366000, 2093056, PROT_NONE) = 0
+802 , 92694 , 92694 , xauth , mmap(0x7ff435565000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.23.so>, 0x2000) = 0x7ff435565000
+803 , 92694 , 92694 , xauth , close(3</lib/x86_64-linux-gnu/libdl-2.23.so>) = 0
+804 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+805 , 92694 , 92694 , xauth , open("/usr/lib/x86_64-linux-gnu/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>
+806 , 92694 , 92694 , xauth , read(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\21\0\0\0\0\0\0@\0\0\0\0\0\0\0\260Q\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\224E\0\0\0\0\0\0\224E\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\360M\0\0\0\0\0\0\360M \0\0\0\0\0\360M \0\0\0\0\0\240\2\0\0\0\0\0\0\250\2\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\10N\0\0\0\0\0\0\10N \0\0\0\0\0"..., 832) = 832
+807 , 92694 , 92694 , xauth , fstat(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, {st_dev=makedev(8, 1), st_ino=4465240, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22640, st_atime=2018/05/12-06:48:03.110317695, st_mtime=2015/12/03-09:16:40, st_ctime=2016/11/03-10:38:38.787999888}) = 0
+808 , 92694 , 92694 , xauth , mmap(NULL, 2117784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0) = 0x7ff43515d000
+809 , 92694 , 92694 , xauth , mprotect(0x7ff435162000, 2093056, PROT_NONE) = 0
+810 , 92694 , 92694 , xauth , mmap(0x7ff435361000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>, 0x4000) = 0x7ff435361000
+811 , 92694 , 92694 , xauth , close(3</usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0>) = 0
+812 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a6000
+813 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a5000
+814 , 92694 , 92694 , xauth , mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff4366a4000
+815 , 92694 , 92694 , xauth , arch_prctl(ARCH_SET_FS, 0x7ff4366a5700) = 0
+816 , 92694 , 92694 , xauth , mprotect(0x7ff435b49000, 16384, PROT_READ) = 0
+817 , 92694 , 92694 , xauth , mprotect(0x7ff435361000, 4096, PROT_READ) = 0
+818 , 92694 , 92694 , xauth , mprotect(0x7ff435565000, 4096, PROT_READ) = 0
+819 , 92694 , 92694 , xauth , mprotect(0x7ff43616b000, 4096, PROT_READ) = 0
+820 , 92694 , 92694 , xauth , mprotect(0x7ff435787000, 4096, PROT_READ) = 0
+821 , 92694 , 92694 , xauth , mprotect(0x7ff4364a2000, 4096, PROT_READ) = 0
+822 , 92694 , 92694 , xauth , mprotect(0x7ff435d55000, 4096, PROT_READ) = 0
+823 , 92694 , 92694 , xauth , mprotect(0x7ff435f67000, 4096, PROT_READ) = 0
+824 , 92694 , 92694 , xauth , mprotect(0x608000, 4096, PROT_READ) = 0
+825 , 92694 , 92694 , xauth , mprotect(0x7ff4366cc000, 4096, PROT_READ) = 0
+826 , 92694 , 92694 , xauth , munmap(0x7ff4366aa000, 136611) = 0
+827 , 92694 , 92694 , xauth , rt_sigaction(SIGINT, {0x405490, [INT], SA_RESTORER|SA_RESTART, 0x7ff4357be4b0}, {SIG_DFL, [], 0}, 8) = 0
+828 , 92694 , 92694 , xauth , rt_sigaction(SIGTERM, {0x405490, [TERM], SA_RESTORER|SA_RESTART, 0x7ff4357be4b0}, {SIG_DFL, [], 0}, 8) = 0
+829 , 92694 , 92694 , xauth , rt_sigaction(SIGHUP, {0x405490, [HUP], SA_RESTORER|SA_RESTART, 0x7ff4357be4b0}, {SIG_DFL, [], 0}, 8) = 0
+830 , 92694 , 92694 , xauth , rt_sigaction(SIGPIPE, {0x405490, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff4357be4b0}, {SIG_DFL, [], 0}, 8) = 0
+831 , 92694 , 92694 , xauth , stat("/home/elwin/.Xauthority-c", 0x7fff3243a810) = -1 ENOENT (No such file or directory)
+832 , 92694 , 92694 , xauth , open("/home/elwin/.Xauthority-c", O_WRONLY|O_CREAT|O_EXCL, 0600) = 3</home/elwin/.Xauthority-c>
+833 , 92694 , 92694 , xauth , close(3</home/elwin/.Xauthority-c>) = 0
+834 , 92694 , 92694 , xauth , statfs("/home/elwin/.Xauthority-c", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=25253992, f_bfree=20406827, f_bavail=19168061, f_files=6422528, f_ffree=5780027, f_fsid={-239998772, 1566319587}, f_namelen=255, f_frsize=4096, f_flags=4128}) = 0
+835 , 92694 , 92694 , xauth , stat("/home/elwin/.Xauthority-c", {st_dev=makedev(8, 1), st_ino=2883837, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:24.783257747, st_mtime=2018/05/12-11:00:24.783257747, st_ctime=2018/05/12-11:00:24.783257747}) = 0
+836 , 92694 , 92694 , xauth , readlink("/sys/dev/block/8:1", "../../devices/pci0000:00/0000:00:10.0/host2/target2:0:0/2:0:0:0/block/sda/sda1", 4096) = 78
+837 , 92694 , 92694 , xauth , access("/sys/fs/ext4/sda1", F_OK) = 0
+838 , 92694 , 92694 , xauth , link("/home/elwin/.Xauthority-c", "/home/elwin/.Xauthority-l") = 0
+839 , 92694 , 92694 , xauth , access("/home/elwin/.Xauthority", F_OK) = 0
+840 , 92694 , 92694 , xauth , access("/home/elwin/.Xauthority", W_OK) = 0
+841 , 92694 , 92694 , xauth , umask(077) = 02
+842 , 92694 , 92694 , xauth , brk(NULL) = 0x12e4000
+843 , 92694 , 92694 , xauth , brk(0x1305000) = 0x1305000
+844 , 92694 , 92694 , xauth , open("/home/elwin/.Xauthority", O_RDONLY) = 3</home/elwin/.Xauthority>
+845 , 92694 , 92694 , xauth , fstat(3</home/elwin/.Xauthority>, {st_dev=makedev(8, 1), st_ino=2886450, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=8, st_size=345, st_atime=2018/05/12-08:05:12.145601962, st_mtime=2018/05/12-08:04:58.941890044, st_ctime=2018/05/12-08:04:58.941890044}) = 0
+846 , 92694 , 92694 , xauth , read(3</home/elwin/.Xauthority>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20;\300v-\330P\1\306\v\f\243D'I)L\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20;\300v-\330P\1\306\v\f\243D'I)L\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\0201\1\370j\362J\6\341G\0040y3f\267\261\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 4096) = 345
+847 , 92694 , 92694 , xauth , read(3</home/elwin/.Xauthority>, "", 4096) = 0
+848 , 92694 , 92694 , xauth , close(3</home/elwin/.Xauthority>) = 0
+849 , 92694 , 92694 , xauth , fstat(0<pipe:[254391]>, {st_dev=makedev(0, 10), st_ino=254391, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:24.767257781, st_mtime=2018/05/12-11:00:24.771257773, st_ctime=2018/05/12-11:00:24.771257773}) = 0
+850 , 92694 , 92694 , xauth , read(0<pipe:[254391]>, "add elwin-virtual-machine:1 . 9599e9caf0484ea0209bcabab405bd99\n\nadd elwin-virtual-machine/unix:1 . 9599e9caf0484ea0209bcabab405bd99\n\n", 4096) = 133
+851 , 92694 , 92694 , xauth , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3<UNIX:[254393]>
+852 , 92694 , 92694 , xauth , connect(3<UNIX:[254393]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+853 , 92694 , 92694 , xauth , close(3<UNIX:[254393]>) = 0
+854 , 92694 , 92694 , xauth , socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3<UNIX:[254394]>
+855 , 92694 , 92694 , xauth , connect(3<UNIX:[254394]>, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+856 , 92694 , 92694 , xauth , close(3<UNIX:[254394]>) = 0
+857 , 92694 , 92694 , xauth , open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3</etc/nsswitch.conf>
+858 , 92694 , 92694 , xauth , fstat(3</etc/nsswitch.conf>, {st_dev=makedev(8, 1), st_ino=131264, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=529, st_atime=2018/05/12-06:27:22.989311995, st_mtime=2016/04/20-18:14:38, st_ctime=2016/11/03-10:37:31.259999939}) = 0
+859 , 92694 , 92694 , xauth , read(3</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example configuration of GNU Name Service Switch functionality.\n# If you have the `glibc-doc-reference' and `info' packages installed, try:\n# `info libc \"Name Service Switch\"'"..., 4096) = 529
+860 , 92694 , 92694 , xauth , read(3</etc/nsswitch.conf>, "", 4096) = 0
+861 , 92694 , 92694 , xauth , close(3</etc/nsswitch.conf>) = 0
+862 , 92694 , 92694 , xauth , open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3</etc/host.conf>
+863 , 92694 , 92694 , xauth , fstat(3</etc/host.conf>, {st_dev=makedev(8, 1), st_ino=131228, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=92, st_atime=2018/05/12-06:27:23.021312430, st_mtime=2015/10/22-13:15:21, st_ctime=2016/11/03-10:37:31.251999939}) = 0
+864 , 92694 , 92694 , xauth , read(3</etc/host.conf>, "# The \"order\" line is only used by old versions of the C library.\norder hosts,bind\nmulti on\n", 4096) = 92
+865 , 92694 , 92694 , xauth , read(3</etc/host.conf>, "", 4096) = 0
+866 , 92694 , 92694 , xauth , close(3</etc/host.conf>) = 0
+867 , 92694 , 92694 , xauth , getpid()  = 92694
+868 , 92694 , 92694 , xauth , open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3</run/resolvconf/resolv.conf>
+869 , 92694 , 92694 , xauth , fstat(3</run/resolvconf/resolv.conf>, {st_dev=makedev(0, 19), st_ino=604, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=191, st_atime=2018/05/12-10:58:34.147574954, st_mtime=2018/05/12-10:58:34.139574983, st_ctime=2018/05/12-10:58:34.143574968}) = 0
+870 , 92694 , 92694 , xauth , read(3</run/resolvconf/resolv.conf>, "# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)\n#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN\nnameserver 127.0.1.1\nsearch localdomain\n", 4096) = 191
+871 , 92694 , 92694 , xauth , read(3</run/resolvconf/resolv.conf>, "", 4096) = 0
+872 , 92694 , 92694 , xauth , close(3</run/resolvconf/resolv.conf>) = 0
+873 , 92694 , 92694 , xauth , open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache>
+874 , 92694 , 92694 , xauth , fstat(3</etc/ld.so.cache>, {st_dev=makedev(8, 1), st_ino=133776, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=136611, st_atime=2018/05/12-06:29:54.909872543, st_mtime=2018/05/12-06:29:54.694122779, st_ctime=2018/05/12-06:29:54.706108877}) = 0
+875 , 92694 , 92694 , xauth , mmap(NULL, 136611, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7ff4366aa000
+876 , 92694 , 92694 , xauth , close(3</etc/ld.so.cache>) = 0
+877 , 92694 , 92694 , xauth , access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+878 , 92694 , 92694 , xauth , open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3</lib/x86_64-linux-gnu/libnss_files-2.23.so>
+879 , 92694 , 92694 , xauth , read(3</lib/x86_64-linux-gnu/libnss_files-2.23.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0@\0\0\0\0\0\0\0p\262\0\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\260\241\0\0\0\0\0\0\260\241\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\210\255\0\0\0\0\0\0\210\255 \0\0\0\0\0\210\255 \0\0\0\0\0\300\3\0\0\0\0\0\0\220i\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\255\0\0\0\0\0\0\240\255 \0\0\0\0\0"..., 832) = 832
+880 , 92694 , 92694 , xauth , fstat(3</lib/x86_64-linux-gnu/libnss_files-2.23.so>, {st_dev=makedev(8, 1), st_ino=5002076, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47600, st_atime=2018/05/12-06:27:22.989311995, st_mtime=2018/01/14-21:51:32, st_ctime=2018/01/22-22:37:58.267756953}) = 0
+881 , 92694 , 92694 , xauth , mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0) = 0x7ff434f4b000
+882 , 92694 , 92694 , xauth , mprotect(0x7ff434f56000, 2093056, PROT_NONE) = 0
+883 , 92694 , 92694 , xauth , mmap(0x7ff435155000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_files-2.23.so>, 0xa000) = 0x7ff435155000
+884 , 92694 , 92694 , xauth , mmap(0x7ff435157000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff435157000
+885 , 92694 , 92694 , xauth , close(3</lib/x86_64-linux-gnu/libnss_files-2.23.so>) = 0
+886 , 92694 , 92694 , xauth , mprotect(0x7ff435155000, 4096, PROT_READ) = 0
+887 , 92694 , 92694 , xauth , munmap(0x7ff4366aa000, 136611) = 0
+888 , 92694 , 92694 , xauth , open("/etc/hosts", O_RDONLY|O_CLOEXEC) = 3</etc/hosts>
+889 , 92694 , 92694 , xauth , fstat(3</etc/hosts>, {st_dev=makedev(8, 1), st_ino=131230, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=236, st_atime=2018/05/12-06:27:23.021312430, st_mtime=2016/11/03-10:42:05.899999731, st_ctime=2016/11/03-10:42:05.899999731}) = 0
+890 , 92694 , 92694 , xauth , read(3</etc/hosts>, "127.0.0.1\tlocalhost\n127.0.1.1\telwin-virtual-machine\n\n# The following lines are desirable for IPv6 capable hosts\n::1     ip6-localhost ip6-loopback\nfe00::0 ip6-localnet\nff00::0 ip6-mcastprefix\nff02::1 "..., 4096) = 236
+891 , 92694 , 92694 , xauth , read(3</etc/hosts>, "", 4096) = 0
+892 , 92694 , 92694 , xauth , close(3</etc/hosts>) = 0
+893 , 92694 , 92694 , xauth , read(0<pipe:[254391]>, "", 4096) = 0
+894 , 92694 , 92694 , xauth , unlink("/home/elwin/.Xauthority-n") = -1 ENOENT (No such file or directory)
+895 , 92694 , 92694 , xauth , open("/home/elwin/.Xauthority-n", O_WRONLY|O_CREAT|O_EXCL, 0600) = 3</home/elwin/.Xauthority-n>
+896 , 92694 , 92694 , xauth , fcntl(3</home/elwin/.Xauthority-n>, F_GETFL) = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+897 , 92694 , 92694 , xauth , fstat(3</home/elwin/.Xauthority-n>, {st_dev=makedev(8, 1), st_ino=2886698, st_mode=S_IFREG|0600, st_nlink=1, st_uid=1000, st_gid=1000, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2018/05/12-11:00:24.795257721, st_mtime=2018/05/12-11:00:24.795257721, st_ctime=2018/05/12-11:00:24.795257721}) = 0
+898 , 92694 , 92694 , xauth , write(3</home/elwin/.Xauthority-n>, "\0\0\0\4\177\0\1\1\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\1\0\0\25elwin-virtual-machine\0\0011\0\22MIT-MAGIC-COOKIE-1\0\20\225\231\351\312\360HN\240 \233\312\272\264\5\275\231\0\0\0\4\177\0\1\1\0\0012\0\22MIT-MAGIC-COOKIE-1\0\0201\1\370j\362J\6\341G\0040y3f\267\261\1\0\0\25elwin-virtual-machine\0\0012\0\22MIT-MA"..., 345) = 345
+899 , 92694 , 92694 , xauth , close(3</home/elwin/.Xauthority-n>) = 0
+900 , 92694 , 92694 , xauth , unlink("/home/elwin/.Xauthority") = 0
+901 , 92694 , 92694 , xauth , link("/home/elwin/.Xauthority-n", "/home/elwin/.Xauthority") = 0
+902 , 92694 , 92694 , xauth , unlink("/home/elwin/.Xauthority-n") = 0
+903 , 92694 , 92694 , xauth , unlink("/home/elwin/.Xauthority-c") = 0
+904 , 92694 , 92694 , xauth , unlink("/home/elwin/.Xauthority-l") = 0
+905 , 92694 , 92694 , xauth , umask(02) = 077
+906 , 92694 , 92694 , xauth , exit_group(1) = ?
+907 , 92694 , 92694 , xauth , +++ exited with 1 +++
