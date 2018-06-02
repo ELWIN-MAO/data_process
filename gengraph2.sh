@@ -16,18 +16,22 @@ grep -v invalid ./aaa  | cut -d " "  -f 1-4 | sort | uniq >./aaa.uniq
 ../thread_graph.py <./all.core.sort.normal2.txt >./all.core.sort.normal2.dot
 
 dot -Tjpg ./all.core.sort.normal2.dot -o ./all.core.sort.normal2.jpg
+dot -Tsvg ./all.core.sort.normal2.dot -o ./all.core.sort.normal2.svg
 
 
-../commu_graph.py  > commu_graph.dot
-
-dot -Tjpg ./commu_graph.dot  -o ./commu_graph.jpg
+#../commu_graph.py  > commu_graph.dot
+#
+#dot -Tjpg ./commu_graph.dot  -o ./commu_graph.jpg
+#dot -Tsvg ./commu_graph.dot  -o ./commu_graph.svg
 
 ../commu_graph2.py  > commu_graph2.dot
 
 dot -Tjpg ./commu_graph2.dot  -o ./commu_graph2.jpg
+dot -Tsvg ./commu_graph2.dot  -o ./commu_graph2.svg
 
 
 
-../thread_graph_no_write2.py   <./all.core.sort.normal2.txt >./all.core.sort.normal2_no_write2.dot
-
-dot -Tjpg   ./all.core.sort.normal2_no_write2.dot  -o   ./all.core.sort.normal2_no_write2.jpg
+#../thread_graph_no_write2.py   <./all.core.sort.normal2.txt >./all.core.sort.normal2_no_write2.dot
+#
+#dot -Tjpg   ./all.core.sort.normal2_no_write2.dot  -o   ./all.core.sort.normal2_no_write2.jpg
+#dot -Tsvg   ./all.core.sort.normal2_no_write2.dot  -o   ./all.core.sort.normal2_no_write2.svg

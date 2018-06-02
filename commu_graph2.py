@@ -60,12 +60,19 @@ while True:
 print("digraph abc{")
 
 
-for item in pid_list:
-    print("subgraph cluster_"+item+" {")
-    for apid in com_tid_list:
-        if (tid_pid_dic[apid]==item):
-             print(apid + " [label=\"" + apid +" "+ tid_tname_dic[apid].replace("\"","\\\"") +"\" ];")
-    print("label = "+"\"process #"+item+"\";")
+valid_pid_list=[]
+
+for atid in com_tid_list:
+   apid=tid_pid_dic[atid]
+   if (apid not in valid_pid_list) :
+        valid_pid_list.append(apid)
+
+for apid in valid_pid_list:
+    print("subgraph cluster_"+apid+" {")
+    for atid in com_tid_list:
+        if (tid_pid_dic[atid]==apid):
+             print(atid + " [label=\"" + atid +" "+ tid_tname_dic[atid].replace("\"","\\\"") +"\" ];")
+    print("label = "+"\"process_id:"+apid+"\";")
     print("color = blue;")
     print("}")
 

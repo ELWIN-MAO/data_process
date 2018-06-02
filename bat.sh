@@ -1,15 +1,15 @@
 #!/bin/bash
 
-for adir in `ls`;
+for adirent in `ls`;
 do 
-echo $adir;
-if [ -d $adir ]; 
+echo $adirent;
+if [ -d $adirent ]; 
 then
 echo "222"; 
-echo $adir; 
-cd $adir
-ls -lh  ./gengraph.sh 
-./gengraph.sh
+echo $adirent; 
+cd $adirent
+cp ../gengraph2.sh .
+./gengraph2.sh
 cd -
 fi; 
 done

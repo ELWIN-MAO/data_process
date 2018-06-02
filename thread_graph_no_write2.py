@@ -206,7 +206,7 @@ for item in process_info_list:
     for thread_info in thread_info_list:
         if (thread_info.process_id==item):
             thread_info.print_node()
-    print("label = "+"\"process #"+item+"\";") 
+    print("label = "+"\"process_id:"+item+"\";") 
     print("color = blue;")
     print("}")
 
