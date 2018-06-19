@@ -74,3 +74,33 @@ $ ./gengraph2.sh
 进程通信关系图文件 commu_graph2.jpg  
 
 
+
+## 分析实例（lxde_logout2，vncserver_3，xrdp4目录中）各个文件的说明
+
+### get_thread_list.txt  
+存放各个线程的tid,pid,线程名列表信息。
+
+### all.txt 
+ 所有的tst.log.tid文件合并后的结果
+ 
+### all.sort.txt
+ 对all.txt按照序列号排序后的结果
+ 
+### all.core.txt
+ 对all.txt抽取clone,execve,exit, exit_group和网络通信相关系统调用系统后的结果
+ 
+### all.core.sort.txt
+对all.core.txt按照序列号排序后的结果
+
+### aaa.uniq
+对aaa日志文件去掉inod缓存失效记录，并进行排序和去重后的结果。主要用来画进程网络通信关系图。
+
+
+### all.core.sort.normal2.txt
+对all.core.sort.txt进行处理，进行类型标记和以";;;"作为字段分隔符后的结果。
+
+### all.core.sort.normal2.dot、all.core.sort.normal2.jpg、all.core.sort.normal2.svg
+进程创建关系图的dot,jpg,svg形式表示。
+
+### commu_graph2.dot、commu_graph2.jpg、commu_graph2.svg
+网络通信关系图的dot,jpg,svg形式表示。
